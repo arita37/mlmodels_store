@@ -573,3 +573,54 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 027caf0] ml_store
+ 1 file changed, 108 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   2f7b017..027caf0  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pplm.py 
+ Generating text ... 
+= Prefix of sentence =
+<|endoftext|>The potato
+
+ Unperturbed generated text :
+
+<|endoftext|>The potato-shaped, potato-eating insect of modern times (Ophiocordyceps elegans) has a unique ability to adapt quickly to a wide range of environments. It is able to survive in many different environments, including the Arctic, deserts
+
+ Perturbed generated text :
+
+<|endoftext|>The potato bomb is nothing new. It's been on the news a lot since 9/11. In fact, since the bombing in Paris last November, a bomb has been detonated in every major European country in the European Union.
+
+The bomb in Brussels
+
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+From github.com:arita37/mlmodels_store
+   027caf0..69b43a9  master     -> origin/master
+Updating 027caf0..69b43a9
+Fast-forward
+ ...-09_c650f5b1ef2efd9067a12b489479a213849a404f.py | 604 +++++++++++++++++++++
+ 1 file changed, 604 insertions(+)
+ create mode 100644 log_pullrequest/log_pr_2020-05-09-16-09_c650f5b1ef2efd9067a12b489479a213849a404f.py
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
