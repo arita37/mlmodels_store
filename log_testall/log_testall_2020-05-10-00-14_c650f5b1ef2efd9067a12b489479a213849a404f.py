@@ -575,3 +575,59 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 6cec2fd] ml_store
+ 1 file changed, 109 insertions(+)
+To github.com:arita37/mlmodels_store.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:arita37/mlmodels_store.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pplm.py 
+ Generating text ... 
+= Prefix of sentence =
+<|endoftext|>The potato
+
+ Unperturbed generated text :
+
+<|endoftext|>The potato-shaped, potato-eating insect of modern times (Ophiocordyceps elegans) has a unique ability to adapt quickly to a wide range of environments. It is able to survive in many different environments, including the Arctic, deserts
+
+ Perturbed generated text :
+
+<|endoftext|>The potato bomb is nothing new. It's been on the news a lot since 9/11. In fact, since the bombing in Paris last November, a bomb has been detonated in every major European country in the European Union.
+
+The bomb in Brussels
+
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+From github.com:arita37/mlmodels_store
+   0c23ffd..67162c6  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ ...-12_c650f5b1ef2efd9067a12b489479a213849a404f.py | 604 +++++++++++++++++++++
+ 1 file changed, 604 insertions(+)
+ create mode 100644 log_pullrequest/log_pr_2020-05-10-00-12_c650f5b1ef2efd9067a12b489479a213849a404f.py
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
