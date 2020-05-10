@@ -578,3 +578,61 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 231035f] ml_store
+ 1 file changed, 108 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   9f33789..231035f  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pplm.py 
+ Generating text ... 
+= Prefix of sentence =
+<|endoftext|>The potato
+
+ Unperturbed generated text :
+
+<|endoftext|>The potato-shaped, potato-eating insect of modern times (Ophiocordyceps elegans) has a unique ability to adapt quickly to a wide range of environments. It is able to survive in many different environments, including the Arctic, deserts
+
+ Perturbed generated text :
+
+<|endoftext|>The potato bomb is nothing new. It's been on the news a lot since 9/11. In fact, since the bombing in Paris last November, a bomb has been detonated in every major European country in the European Union.
+
+The bomb in Brussels
+
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+From github.com:arita37/mlmodels_store
+   231035f..110c6d8  master     -> origin/master
+Updating 231035f..110c6d8
+Fast-forward
+ ...-13_5990d7aad2623e8d14fde5cdb52bb627306e3e61.py |   78 +
+ ...-15_5990d7aad2623e8d14fde5cdb52bb627306e3e61.py |  133 ++
+ ...-06_46ba20fe091e28b621f61cf8993a32b6038feb3d.py | 1900 ++++++++++++++++++++
+ ...-10_f56aed39a4e8698b1d43abde0792c92364346a5c.py |  648 +++++++
+ 4 files changed, 2759 insertions(+)
+ create mode 100644 log_dataloader/log_2020-05-10-20-13_5990d7aad2623e8d14fde5cdb52bb627306e3e61.py
+ create mode 100644 log_import/log_import_2020-05-10-20-15_5990d7aad2623e8d14fde5cdb52bb627306e3e61.py
+ create mode 100644 log_jupyter/log_jupyter_2020-05-10-20-06_46ba20fe091e28b621f61cf8993a32b6038feb3d.py
+ create mode 100644 log_pullrequest/log_pr_2020-05-10-20-10_f56aed39a4e8698b1d43abde0792c92364346a5c.py
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
