@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
-
-# Author: Suyog Dahal
 # Created: 06/05/2020
-# Description: A script to parse errors from a logfile and store the
-# errors into a new file
+# Description: A script to parse errors from a logfile and store the errors into a new file
 
 import glob
 import os
@@ -18,7 +15,9 @@ def cli_load_arguments(config_file=None):
         Load CLI input
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument("--github_user",default="arita37", help="GitHub Username")
+    parser.add_argument("--github_user",
+                        default="arita37",
+                        help="GitHub Username")
     args = parser.parse_args()
     return args
 
@@ -48,7 +47,11 @@ def create_error_list(latest_file):
     return output
 
 
-def create_error_file(output, output_file_dir, output_file_name, latest_file_link):
+def create_error_file(
+        output,
+        output_file_dir,
+        output_file_name,
+        latest_file_link):
     """
         Create Error Files
     """
@@ -74,6 +77,40 @@ def create_error_file(output, output_file_dir, output_file_name, latest_file_lin
         print("Sucessfully created the error file {}".format(output_file_name))
 
 
+def log_info_repo(arg=None):
+    """
+       Grab Github Variables
+       https://help.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables
+       log_info_repo(arg=None)
+    """
+    repo = os_bash("echo $GITHUB_REPOSITORY")
+    sha = os_bash("echo $GITHUB_SHA")
+    workflow = os_bash("echo $GITHUB_WORKFLOW")
+    branch = os_bash("echo $GITHUB_REF")
+
+    repo = repo.replace("\n", "").replace("\r", "").strip()
+    workflow = workflow.replace("\n", "").replace("\r", "").strip()
+    sha = sha.replace("\n", "").replace("\r", "").strip()
+    branch = branch.replace("\n", "").replace("\r", "").strip().replace("refs/heads/", "")
+
+    github_repo_url = f"https://github.com/{repo}/tree/{sha}"
+    url_branch_file = f"https://github.com/{repo}/blob/{branch}/"
+
+    url_branch_file2 = f"https://github.com/{repo}/tree/{branch}/"
+
+    return_dict = {
+        "github_repo_url": github_repo_url,
+        "url_branch_file": url_branch_file,
+        "repo": repo,
+        "branch": branch,
+        "sha": sha,
+        "workflow": workflow
+    }
+
+    print(return_dict)
+    return return_dict
+
+
 def main():
     """
     Main Execution
@@ -86,6 +123,7 @@ def main():
         'log_benchmark',
         'log_dataloader',
         'log_import',
+        'log_json',
         'log_jupyter',
         'log_pullrequest',
         'log_test_cli',
@@ -94,7 +132,7 @@ def main():
     # Main Script
     for log_folder in log_folders:
         dir = os.path.dirname(__file__)  # File Path
-        file_path = os.path.join(dir, log_folder + '/*.txt')
+        file_path = os.path.join(dir, log_folder + '/*.py')
 
         list_of_files = glob.glob(file_path)
         latest_file_path = max(list_of_files, key=os.path.getctime)
@@ -119,7 +157,12 @@ def main():
 
         output_file_name = "list" + \
             "_{}_".format(log_folder) + execution_date + '.md'
-        create_error_file(output, output_file_dir, output_file_name, latest_file_link)
+        create_error_file(
+            output,
+            output_file_dir,
+            output_file_name,
+            latest_file_link)
+
 
 if __name__ == "__main__":
     main()
