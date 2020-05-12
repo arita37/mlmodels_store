@@ -57,7 +57,7 @@ jobs:
       run: |
            cd /home/runner/work/mlmodels_store/mlmodels_store/ && ls
            python create_error_file.py
-           python create_github_issues.py
+           # python create_github_issues.py
            
            
     #- name: Create Auto PR      
