@@ -1,7 +1,7 @@
-## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py
+## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py
 
 
-### Error 1, [Traceback at line 154](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L154)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
+### Error 1, [Traceback at line 154](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L154)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
 <br />    return fn(*args)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
 <br />    target_list, run_metadata)
@@ -15,7 +15,7 @@
 
 
 
-### Error 2, [Traceback at line 166](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L166)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1290, in restore
+### Error 2, [Traceback at line 166](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L166)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1290, in restore
 <br />    {self.saver_def.filename_tensor_name: save_path})
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
 <br />    run_metadata_ptr)
@@ -72,7 +72,7 @@
 
 
 
-### Error 3, [Traceback at line 221](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L221)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1300, in restore
+### Error 3, [Traceback at line 221](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L221)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1300, in restore
 <br />    names_to_keys = object_graph_key_mapping(save_path)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1618, in object_graph_key_mapping
 <br />    object_graph_string = reader.get_tensor(trackable.OBJECT_GRAPH_PROTO_KEY)
@@ -85,7 +85,7 @@
 
 
 
-### Error 4, [Traceback at line 232](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L232)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
+### Error 4, [Traceback at line 232](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L232)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 531, in main
 <br />    predict_cli(arg)
@@ -164,7 +164,7 @@
 <br />
 <br />  #### Model init   ############################################ 
 <br />
-<br />  <mlmodels.model_tf.1_lstm.Model object at 0x7f99fa156278> 
+<br />  <mlmodels.model_tf.1_lstm.Model object at 0x7f1c5a05e208> 
 <br />
 <br />  #### Fit   ######################################################## 
 <br />{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -207,14 +207,14 @@
 <br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />[[ 0.          0.          0.          0.          0.          0.        ]
-<br /> [ 0.10157023 -0.0558595   0.09851935  0.06311961 -0.05692046 -0.33948877]
-<br /> [ 0.27472851  0.07878067  0.01804652  0.08193848  0.05347807 -0.17103857]
-<br /> [-0.02009649 -0.089687    0.24771258  0.06858768  0.17139705 -0.08664917]
-<br /> [-0.68669552 -0.00444964  0.36481005  0.45111617 -0.23663662  0.22460634]
-<br /> [ 0.25462809  0.48605409  0.26283014  0.19881047  0.43925101 -0.25408915]
-<br /> [-0.31341714 -0.25509766 -0.48283541 -0.16162099  0.21617158 -0.1382959 ]
-<br /> [ 0.25719658 -0.25772825  0.57044327  0.86276597  0.81011856  0.31771293]
-<br /> [ 0.35107535 -0.13109893 -0.17957394  0.30144808 -0.12960863  0.49942687]
+<br /> [-0.02909617  0.14984812  0.17188142 -0.03283363 -0.02098316 -0.15427789]
+<br /> [ 0.01853679  0.07698745 -0.01986521 -0.00499651  0.18378116 -0.03986495]
+<br /> [-0.03306936 -0.05776107 -0.24935475  0.20470427  0.10880512 -0.07188875]
+<br /> [-0.04362503  0.08099279 -0.07221916  0.18177654  0.16250812  0.08788203]
+<br /> [-0.25023964  0.24949715 -0.15685788 -0.03193394  0.33635932 -0.42096171]
+<br /> [ 0.01332998 -0.28946632  0.02968054 -0.37862009 -0.10564344 -0.56455338]
+<br /> [-0.15204255  1.16267574 -0.0026233  -0.34512138  1.21731353 -0.09806342]
+<br /> [ 0.27994302  0.11833504 -0.30157831 -0.16707228  0.28124344  0.01876229]
 <br /> [ 0.          0.          0.          0.          0.          0.        ]]
 <br />
 <br />  #### Get  metrics   ################################################ 
@@ -289,7 +289,7 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.39288362488150597, 'loss_history': []}
+<br />{'loss': 0.51777283847332, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
@@ -298,7 +298,7 @@
 <br />Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 <br />
 <br />  #### Load   ######################################################## 
-<br />2020-05-11 06:59:47.602855: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />2020-05-12 23:15:12.762882: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
 <br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 <br />
@@ -412,7 +412,7 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.4314161576330662, 'loss_history': []}
+<br />{'loss': 0.44752231799066067, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
@@ -421,7 +421,7 @@
 <br />Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 <br />
 <br />  #### Load   ######################################################## 
-<br />2020-05-11 06:59:48.905139: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />2020-05-12 23:15:14.021672: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
 <br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 <br />
@@ -490,7 +490,7 @@
 <br />
 <br />  #### Model init   ############################################ 
 <br />
-<br />  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f27c3bbb358> 
+<br />  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f39802892e8> 
 <br />
 <br />  #### Fit   ######################################################## 
 <br />{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -533,14 +533,14 @@
 <br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />[[ 0.          0.          0.          0.          0.          0.        ]
-<br /> [ 0.00749604 -0.11995117 -0.01896865  0.00439173  0.07800721 -0.04848916]
-<br /> [-0.08885141 -0.11907507  0.10764176  0.26507944 -0.06771159 -0.09833303]
-<br /> [ 0.05660773 -0.14373644 -0.0446179   0.05142795  0.12353524 -0.00557932]
-<br /> [ 0.2267485  -0.18770921 -0.16216479  0.01922931 -0.08633287  0.7241205 ]
-<br /> [ 0.36695185  0.14160165  0.35459328  0.30320805  0.24780266 -0.30721122]
-<br /> [-0.15855846  0.0920722  -0.15855019  0.22307476  0.01015211  0.41768935]
-<br /> [ 0.12540226  0.18524367  0.26461154  0.21056537  0.30713764  0.0985724 ]
-<br /> [ 0.02921925  0.10321881  0.14121895  0.02164068  0.06193097 -0.01541158]
+<br /> [ 0.06582142 -0.08635633 -0.05195493  0.01735639  0.03223301  0.04271095]
+<br /> [-0.06516182 -0.18083765  0.0613304   0.00287491 -0.24068128  0.13239712]
+<br /> [-0.13551109 -0.04081125  0.00664009  0.00864311  0.16881707  0.03983524]
+<br /> [-0.04528573 -0.42393288  0.01990832  0.32757822  0.22025527  0.45100886]
+<br /> [ 0.09532373 -0.23291199 -0.0361959   0.20554505 -0.04534412  0.03519686]
+<br /> [ 0.19877048 -0.02538513 -0.10616693  0.24209322 -0.2157121   0.80180138]
+<br /> [-0.35612014  0.36632231  0.3084833   0.19292673  0.25060502 -0.23879749]
+<br /> [ 0.06933499  0.55081034  0.6153143  -0.07510747  0.08596576  0.33017093]
 <br /> [ 0.          0.          0.          0.          0.          0.        ]]
 <br />
 <br />  #### Get  metrics   ################################################ 
@@ -615,12 +615,12 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.37663854099810123, 'loss_history': []}
+<br />{'loss': 0.45861972495913506, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
 <br />  #### Save/Load   ################################################### 
-<br />2020-05-11 06:59:54.457137: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />2020-05-12 23:15:19.284912: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
 <br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 <br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
@@ -736,12 +736,12 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.3586283642798662, 'loss_history': []}
+<br />{'loss': 0.4178381562232971, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
 <br />  #### Save/Load   ################################################### 
-<br />2020-05-11 06:59:55.768736: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />2020-05-12 23:15:20.526771: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
 <br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 <br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
@@ -803,7 +803,7 @@
 
 
 
-### Error 5, [Traceback at line 948](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L948)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_optim", line 11, in <module>
+### Error 5, [Traceback at line 948](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L948)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_optim", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 388, in main
 <br />    optim_cli(arg)
@@ -815,7 +815,7 @@
 
 
 
-### Error 6, [Traceback at line 2104](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2104)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+### Error 6, [Traceback at line 2104](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2104)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -844,13 +844,13 @@
 
 
 
-### Error 7, [Traceback at line 2134](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2134)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+### Error 7, [Traceback at line 2134](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2134)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 8, [Traceback at line 2141](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2141)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 8, [Traceback at line 2141](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2141)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
@@ -858,7 +858,7 @@
 
 
 
-### Error 9, [Traceback at line 2147](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2147)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+### Error 9, [Traceback at line 2147](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2147)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -887,13 +887,13 @@
 
 
 
-### Error 10, [Traceback at line 2177](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2177)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+### Error 10, [Traceback at line 2177](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2177)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 11, [Traceback at line 2184](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2184)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 11, [Traceback at line 2184](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2184)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
@@ -901,7 +901,7 @@
 
 
 
-### Error 12, [Traceback at line 2190](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2190)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+### Error 12, [Traceback at line 2190](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2190)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -930,13 +930,13 @@
 
 
 
-### Error 13, [Traceback at line 2220](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2220)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+### Error 13, [Traceback at line 2220](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2220)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 14, [Traceback at line 2266](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2266)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 14, [Traceback at line 2266](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2266)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
@@ -944,7 +944,7 @@
 
 
 
-### Error 15, [Traceback at line 2272](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2272)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+### Error 15, [Traceback at line 2272](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2272)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -973,13 +973,13 @@
 
 
 
-### Error 16, [Traceback at line 2302](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2302)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+### Error 16, [Traceback at line 2302](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2302)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 17, [Traceback at line 2309](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2309)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 17, [Traceback at line 2309](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2309)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
@@ -987,7 +987,7 @@
 
 
 
-### Error 18, [Traceback at line 2315](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2315)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+### Error 18, [Traceback at line 2315](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2315)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -1016,13 +1016,13 @@
 
 
 
-### Error 19, [Traceback at line 2345](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2345)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+### Error 19, [Traceback at line 2345](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2345)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 20, [Traceback at line 2352](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2352)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 20, [Traceback at line 2352](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2352)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
@@ -1030,7 +1030,7 @@
 
 
 
-### Error 21, [Traceback at line 2358](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2358)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+### Error 21, [Traceback at line 2358](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2358)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -1086,18 +1086,18 @@
 <br />  benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 <br />
 <br />                        date_run  ...            metric_name
-<br />0   2020-05-11 07:00:33.398498  ...    mean_absolute_error
-<br />1   2020-05-11 07:00:33.403147  ...     mean_squared_error
-<br />2   2020-05-11 07:00:33.407258  ...  median_absolute_error
-<br />3   2020-05-11 07:00:33.411354  ...               r2_score
-<br />4   2020-05-11 07:00:42.689829  ...    mean_absolute_error
-<br />5   2020-05-11 07:00:42.694442  ...     mean_squared_error
-<br />6   2020-05-11 07:00:42.698405  ...  median_absolute_error
-<br />7   2020-05-11 07:00:42.702352  ...               r2_score
-<br />8   2020-05-11 07:01:06.626425  ...    mean_absolute_error
-<br />9   2020-05-11 07:01:06.632075  ...     mean_squared_error
-<br />10  2020-05-11 07:01:06.639535  ...  median_absolute_error
-<br />11  2020-05-11 07:01:06.646008  ...               r2_score
+<br />0   2020-05-12 23:15:58.512229  ...    mean_absolute_error
+<br />1   2020-05-12 23:15:58.516818  ...     mean_squared_error
+<br />2   2020-05-12 23:15:58.520360  ...  median_absolute_error
+<br />3   2020-05-12 23:15:58.523957  ...               r2_score
+<br />4   2020-05-12 23:16:07.750963  ...    mean_absolute_error
+<br />5   2020-05-12 23:16:07.755438  ...     mean_squared_error
+<br />6   2020-05-12 23:16:07.759001  ...  median_absolute_error
+<br />7   2020-05-12 23:16:07.766856  ...               r2_score
+<br />8   2020-05-12 23:16:32.315252  ...    mean_absolute_error
+<br />9   2020-05-12 23:16:32.322974  ...     mean_squared_error
+<br />10  2020-05-12 23:16:32.330223  ...  median_absolute_error
+<br />11  2020-05-12 23:16:32.335850  ...               r2_score
 <br />
 <br />[12 rows x 6 columns] 
 <br />  File "pydantic/main.py", line 778, in pydantic.main.create_model
@@ -1105,13 +1105,13 @@
 
 
 
-### Error 22, [Traceback at line 2434](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2434)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+### Error 22, [Traceback at line 2434](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2434)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 23, [Traceback at line 2441](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2441)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 23, [Traceback at line 2441](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2441)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
@@ -1119,7 +1119,7 @@
 
 
 
-### Error 24, [Traceback at line 2447](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2447)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+### Error 24, [Traceback at line 2447](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2447)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -1148,13 +1148,13 @@
 
 
 
-### Error 25, [Traceback at line 2477](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2477)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+### Error 25, [Traceback at line 2477](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2477)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 26, [Traceback at line 2484](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2484)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 26, [Traceback at line 2484](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2484)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
@@ -1162,7 +1162,7 @@
 
 
 
-### Error 27, [Traceback at line 2490](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2490)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+### Error 27, [Traceback at line 2490](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2490)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -1191,13 +1191,13 @@
 
 
 
-### Error 28, [Traceback at line 2520](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2520)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+### Error 28, [Traceback at line 2520](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2520)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 29, [Traceback at line 2527](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2527)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 29, [Traceback at line 2527](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L2527)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
@@ -1205,6 +1205,6 @@
 
 
 
-### Error 30, [Traceback at line 3510](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-11-06-59_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L3510)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 118, in benchmark_run
+### Error 30, [Traceback at line 3510](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-12-23-14_1f36c00be3a0e28b634b1ba3bd0de78bfdb3dba5.py#L3510)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 118, in benchmark_run
 <br />    model_uri =  model_pars['model_uri']
 <br />KeyError: 'model_uri'
