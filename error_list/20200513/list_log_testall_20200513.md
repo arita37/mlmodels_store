@@ -711,3 +711,36 @@
 ### Error 15, [Traceback at line 8121](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8121)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
 <br />    from mlmodels.mode_tf.raw  import temporal_fusion_google
 <br />ModuleNotFoundError: No module named 'mlmodels.mode_tf'
+
+
+
+### Error 16, [Traceback at line 8370](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8370)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
+<br />    test(data_path = "model_fb/fbprophet.json", choice="json" )
+<br />TypeError: test() got an unexpected keyword argument 'choice'
+
+
+
+### Error 17, [Traceback at line 8405](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8405)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//gluonts_model.py", line 15, in <module>
+<br />    from gluonts.model.deepar import DeepAREstimator
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
+<br />    from ._estimator import DeepAREstimator
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/_estimator.py", line 24, in <module>
+<br />    from gluonts.distribution import DistributionOutput, StudentTOutput
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/distribution/__init__.py", line 15, in <module>
+<br />    from . import bijection
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/distribution/bijection.py", line 28, in <module>
+<br />    class Bijection:
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/distribution/bijection.py", line 36, in Bijection
+<br />    @validated()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/core/component.py", line 398, in validator
+<br />    **init_fields,
+<br />  File "pydantic/main.py", line 778, in pydantic.main.create_model
+<br />TypeError: create_model() takes exactly 1 positional argument (0 given)
+
+
+
+### Error 18, [Traceback at line 9955](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L9955)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+<br />    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
+<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+<br />    cf = json.load(open(data_path, mode='r'))
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
