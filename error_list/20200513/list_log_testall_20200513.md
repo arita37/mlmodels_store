@@ -542,3 +542,172 @@
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mdn/__init__.py", line 237, in sample_from_output
 <br />    cov_matrix = np.identity(output_dim) * sig_vector
 <br />ValueError: operands could not be broadcast together with shapes (12,12) (0,) 
+
+
+
+### Error 11, [Traceback at line 7966](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L7966)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
+<br />    return fn(*args)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
+<br />    target_list, run_metadata)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1443, in _call_tf_sessionrun
+<br />    run_metadata)
+<br />tensorflow.python.framework.errors_impl.NotFoundError: Key Variable not found in checkpoint
+<br />	 [[{{node save_1/RestoreV2}}]]
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 12, [Traceback at line 7978](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L7978)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1290, in restore
+<br />    {self.saver_def.filename_tensor_name: save_path})
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
+<br />    run_metadata_ptr)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1180, in _run
+<br />    feed_dict_tensor, options, run_metadata)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1359, in _do_run
+<br />    run_metadata)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1384, in _do_call
+<br />    raise type(e)(node_def, op, message)
+<br />tensorflow.python.framework.errors_impl.NotFoundError: Key Variable not found in checkpoint
+<br />	 [[node save_1/RestoreV2 (defined at opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py:1748) ]]
+<br />
+<br />Original stack trace for 'save_1/RestoreV2':
+<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 332, in <module>
+<br />    test(data_path="", pars_choice="test01", config_mode="test")
+<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 320, in test
+<br />    session = load(out_pars)
+<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 199, in load
+<br />    return load_tf(load_pars)
+<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 474, in load_tf
+<br />    saver      = tf.compat.v1.train.Saver()
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 828, in __init__
+<br />    self.build()
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 840, in build
+<br />    self._build(self._filename, build_save=True, build_restore=True)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 878, in _build
+<br />    build_restore=build_restore)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 508, in _build_internal
+<br />    restore_sequentially, reshape)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 328, in _AddRestoreOps
+<br />    restore_sequentially)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 575, in bulk_restore
+<br />    return io_ops.restore_v2(filename_tensor, names, slices, dtypes)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_io_ops.py", line 1696, in restore_v2
+<br />    name=name)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
+<br />    op_def=op_def)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
+<br />    return func(*args, **kwargs)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
+<br />    attrs, op_def, compute_device)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
+<br />    op_def=op_def)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1748, in __init__
+<br />    self._traceback = tf_stack.extract_stack()
+<br />
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 13, [Traceback at line 8029](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8029)<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1300, in restore
+<br />    names_to_keys = object_graph_key_mapping(save_path)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1618, in object_graph_key_mapping
+<br />    object_graph_string = reader.get_tensor(trackable.OBJECT_GRAPH_PROTO_KEY)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/pywrap_tensorflow_internal.py", line 915, in get_tensor
+<br />    return CheckpointReader_GetTensor(self, compat.as_bytes(tensor_str))
+<br />tensorflow.python.framework.errors_impl.NotFoundError: Key _CHECKPOINTABLE_OBJECT_GRAPH not found in checkpoint
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 14, [Traceback at line 8040](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8040)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 332, in <module>
+<br />    test(data_path="", pars_choice="test01", config_mode="test")
+<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 320, in test
+<br />    session = load(out_pars)
+<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 199, in load
+<br />    return load_tf(load_pars)
+<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 477, in load_tf
+<br />    saver.restore(sess,  full_name)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1306, in restore
+<br />    err, "a Variable name or other graph key that is missing")
+<br />tensorflow.python.framework.errors_impl.NotFoundError: Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+<br />
+<br />Key Variable not found in checkpoint
+<br />	 [[node save_1/RestoreV2 (defined at opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py:1748) ]]
+<br />
+<br />Original stack trace for 'save_1/RestoreV2':
+<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 332, in <module>
+<br />    test(data_path="", pars_choice="test01", config_mode="test")
+<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 320, in test
+<br />    session = load(out_pars)
+<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 199, in load
+<br />    return load_tf(load_pars)
+<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 474, in load_tf
+<br />    saver      = tf.compat.v1.train.Saver()
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 828, in __init__
+<br />    self.build()
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 840, in build
+<br />    self._build(self._filename, build_save=True, build_restore=True)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 878, in _build
+<br />    build_restore=build_restore)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 508, in _build_internal
+<br />    restore_sequentially, reshape)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 328, in _AddRestoreOps
+<br />    restore_sequentially)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 575, in bulk_restore
+<br />    return io_ops.restore_v2(filename_tensor, names, slices, dtypes)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_io_ops.py", line 1696, in restore_v2
+<br />    name=name)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
+<br />    op_def=op_def)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
+<br />    return func(*args, **kwargs)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
+<br />    attrs, op_def, compute_device)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
+<br />    op_def=op_def)
+<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1748, in __init__
+<br />    self._traceback = tf_stack.extract_stack()
+<br />
+<br />
+<br />   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+<br />Fetching origin
+<br />Already up to date.
+<br />Logs
+<br />README.md
+<br />README_actions.md
+<br />create_error_file.py
+<br />create_github_issues.py
+<br />error_list
+<br />log_benchmark
+<br />log_dataloader
+<br />log_import
+<br />log_json
+<br />log_jupyter
+<br />log_pullrequest
+<br />log_test_cli
+<br />log_testall
+<br />test_jupyter
+<br />[master 3f6525f] ml_store
+<br /> 1 file changed, 233 insertions(+)
+<br />To github.com:arita37/mlmodels_store.git
+<br />   c2adda3..3f6525f  master -> master
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />
+<br />  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//temporal_fusion_google.py 
+
+
+
+### Error 15, [Traceback at line 8121](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8121)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
+<br />    from mlmodels.mode_tf.raw  import temporal_fusion_google
+<br />ModuleNotFoundError: No module named 'mlmodels.mode_tf'
