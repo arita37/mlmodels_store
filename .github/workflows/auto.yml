@@ -78,7 +78,7 @@ jobs:
            git config --local user.email "noelkev0@gmail.com"
            git config --local user.name  "arita37"        
            # git pull .
-           ls &&  git add --all &&  git commit -m "auto" 
+           ls &&  git add --all &&  git commit -m "error_list" 
            # git push --all
     
     
