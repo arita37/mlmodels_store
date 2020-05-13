@@ -11078,3 +11078,38 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master d81d1b7] ml_store
+ 1 file changed, 64 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   f5bbe01..d81d1b7  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pytorch_vae.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
+    "beta_vae": md.model.beta_vae,
+AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+Already up to date.
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
