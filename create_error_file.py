@@ -79,6 +79,10 @@ def create_error_file(
                 continue
                 
             line2 =  f"<br />{line}"
+            ii = ""
+            if ", line" in line2 "
+               ii = line2.split(",")[1].replace("line", " ").strip()
+                
             line2 = line2.replace("/home/runner/work/mlmodels/mlmodels/", "https://github.com/arita37/mlmodels/tree/dev/")
             f.write(line2)
         print(f"Sucessfully created the error file {output_file_name}")
