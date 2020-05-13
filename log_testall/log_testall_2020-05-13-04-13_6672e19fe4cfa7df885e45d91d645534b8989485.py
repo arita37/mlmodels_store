@@ -10423,3 +10423,7 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master ce91224] ml_store
+ 1 file changed, 32 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   6fb4d83..ce91224  master -> master
