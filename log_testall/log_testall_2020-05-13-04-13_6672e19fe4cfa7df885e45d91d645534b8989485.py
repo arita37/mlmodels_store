@@ -10391,3 +10391,35 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 6fb4d83] ml_store
+ 1 file changed, 111 insertions(+)
+Warning: Permanently added the RSA host key for IP address '140.82.118.3' to the list of known hosts.
+To github.com:arita37/mlmodels_store.git
+   c3ca4b7..6fb4d83  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//mlp.py 
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+Already up to date.
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
