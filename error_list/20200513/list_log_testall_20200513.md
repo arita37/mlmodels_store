@@ -1,67 +1,67 @@
 ## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py
 
 
-### Error 1, [Traceback at line 37](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L37)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//keras_gan.py", line 31, in <module>
+### Error 1, [Traceback at line 37](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L37)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//keras_gan.py", line 31, in <module>
 <br />    'AAE' : kg.aae.aae,
 <br />AttributeError: module 'mlmodels.model_keras.raw.keras_gan' has no attribute 'aae'
 
 
 
-### Error 2, [Traceback at line 87](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L87)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//textcnn_dataloader.py", line 275, in <module>
+### Error 2, [Traceback at line 87](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L87)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//textcnn_dataloader.py", line 275, in <module>
 <br />    test_module(model_uri = MODEL_URI, param_pars= param_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 257, in test_module
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/models.py", line 257, in test_module
 <br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn_dataloader.py", line 182, in get_params
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras/textcnn_dataloader.py", line 182, in get_params
 <br />    cf = json.load(open(data_path, mode='r'))
-<br />FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/textcnn_keras.json'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/dataset/json/refactor/textcnn_keras.json'
 
 
 
-### Error 3, [Traceback at line 135](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L135)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 315, in <module>
+### Error 3, [Traceback at line 135](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L135)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//nbeats.py", line 315, in <module>
 <br />    test(pars_choice="test01")
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 278, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//nbeats.py", line 278, in test
 <br />    Xtuple = get_dataset(data_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 172, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//nbeats.py", line 172, in get_dataset
 <br />    train_data = Data(data_source= path_norm( data_pars["train_data_source"]) ,
 <br />NameError: name 'Data' is not defined
 
 
 
-### Error 4, [Traceback at line 5882](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L5882)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//textvae.py", line 356, in <module>
+### Error 4, [Traceback at line 5882](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L5882)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//textvae.py", line 356, in <module>
 <br />    test(pars_choice="test01")
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//textvae.py", line 327, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//textvae.py", line 327, in test
 <br />    xtuple = get_dataset(data_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//textvae.py", line 269, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//textvae.py", line 269, in get_dataset
 <br />    with codecs.open(data_pars["train_data_path"], encoding='utf-8') as f:
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/codecs.py", line 897, in open
 <br />    file = builtins.open(filename, mode, buffering)
-<br />FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/quora/train.csv'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/dataset/text/quora/train.csv'
 
 
 
-### Error 5, [Traceback at line 5930](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L5930)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm_dataloader.py", line 306, in <module>
+### Error 5, [Traceback at line 5930](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L5930)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//namentity_crm_bilstm_dataloader.py", line 306, in <module>
 <br />    test_module(model_uri=MODEL_URI, param_pars=param_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 257, in test_module
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/models.py", line 257, in test_module
 <br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/namentity_crm_bilstm_dataloader.py", line 197, in get_params
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras/namentity_crm_bilstm_dataloader.py", line 197, in get_params
 <br />    cf = json.load(open(data_path, mode="r"))
-<br />FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader.json'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader.json'
 
 
 
-### Error 6, [Traceback at line 5969](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L5969)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//Autokeras.py", line 12, in <module>
+### Error 6, [Traceback at line 5969](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L5969)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//Autokeras.py", line 12, in <module>
 <br />    import autokeras as ak
 <br />ModuleNotFoundError: No module named 'autokeras'
 
 
 
-### Error 7, [Traceback at line 6108](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L6108)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 284, in <module>
+### Error 7, [Traceback at line 6108](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L6108)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//charcnn_zhang.py", line 284, in <module>
 <br />    test(pars_choice="json", data_path= f"{root_path}/model_keras/charcnn_zhang.json")
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 268, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//charcnn_zhang.py", line 268, in test
 <br />    model2 = load(out_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 118, in load
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//charcnn_zhang.py", line 118, in load
 <br />    model = load_keras(load_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 602, in load_keras
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/util.py", line 602, in load_keras
 <br />    model.model = load_model(path_file)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/keras/saving/save.py", line 146, in load_model
 <br />    loader_impl.parse_saved_model(filepath)
@@ -71,25 +71,25 @@
 
 
 
-### Error 8, [Traceback at line 6161](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L6161)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 357, in <module>
+### Error 8, [Traceback at line 6161](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L6161)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//charcnn.py", line 357, in <module>
 <br />    test(pars_choice="test01")
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 320, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//charcnn.py", line 320, in test
 <br />    Xtuple = get_dataset(data_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 216, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//charcnn.py", line 216, in get_dataset
 <br />    if data_pars['type'] == "npz":
 <br />KeyError: 'type'
 
 
 
-### Error 9, [Traceback at line 6206](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L6206)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py", line 348, in <module>
+### Error 9, [Traceback at line 6206](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L6206)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//namentity_crm_bilstm.py", line 348, in <module>
 <br />    test(pars_choice="json", data_path=f"model_keras/namentity_crm_bilstm.json")
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py", line 311, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//namentity_crm_bilstm.py", line 311, in test
 <br />    Xtuple = get_dataset(data_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py", line 193, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//namentity_crm_bilstm.py", line 193, in get_dataset
 <br />    raise Exception(f"Not support dataset yet")
 <br />Exception: Not support dataset yet
 <br />
-<br />   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+<br />   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd https://github.com/arita37/mlmodels/tree/dev/ ;         
 <br />Fetching origin
 <br />Already up to date.
 <br />Logs
@@ -118,7 +118,7 @@
 <br />
 <br /> ************************************************************************************************************************
 <br />
-<br />  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//textcnn.py 
+<br />  python https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//textcnn.py 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -214,7 +214,7 @@
 <br />25000/25000 [==============================] - 7s 296us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 <br />
 <br />  #### save the trained model  ####################################### 
-<br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5'}
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/ztest/model_keras/textcnn/model.h5'}
 <br />
 <br />  #### Predict   ##################################################### 
 <br />Loading data...
@@ -228,13 +228,13 @@
 <br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/keras/initializers.py:119: calling RandomUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
 <br />Instructions for updating:
 <br />Call initializer instance with the dtype argument instead of passing it to the constructor
-<br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5'}
-<br />{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5'}
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/ztest/model_keras/textcnn/model.h5'}
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/ztest/model_keras/textcnn/model.h5'}
 <br />(<mlmodels.util.Model_empty object at 0x7f6d8801cda0>, None)
 <br />
 <br />  #### Module init   ############################################ 
 <br />
-<br />  <module 'mlmodels.model_keras.textcnn' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn.py'> 
+<br />  <module 'mlmodels.model_keras.textcnn' from 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras/textcnn.py'> 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -326,7 +326,7 @@
 <br />
 <br />  #### Module init   ############################################ 
 <br />
-<br />  <module 'mlmodels.model_keras.textcnn' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn.py'> 
+<br />  <module 'mlmodels.model_keras.textcnn' from 'https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras/textcnn.py'> 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -409,7 +409,7 @@
 <br />
 <br />  ############ Save/ Load ############################################ 
 <br />
-<br />   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+<br />   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd https://github.com/arita37/mlmodels/tree/dev/ ;         
 <br />Fetching origin
 <br />Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
 <br />From github.com:arita37/mlmodels_store
@@ -445,7 +445,7 @@
 <br />
 <br /> ************************************************************************************************************************
 <br />
-<br />  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py 
+<br />  python https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//armdn.py 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -530,11 +530,11 @@
 
 
 
-### Error 10, [Traceback at line 6653](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L6653)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py", line 380, in <module>
+### Error 10, [Traceback at line 6653](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L6653)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//armdn.py", line 380, in <module>
 <br />    test(pars_choice="json", data_path= "model_keras/armdn.json")
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py", line 354, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//armdn.py", line 354, in test
 <br />    y_pred, y_test = predict(model=model, model_pars=model_pars, data_pars=data_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py", line 170, in predict
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_keras//armdn.py", line 170, in predict
 <br />    model.model_pars["n_mixes"], temp=1.0)
 <br />  File "<__array_function__ internals>", line 6, in apply_along_axis
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/numpy/lib/shape_base.py", line 379, in apply_along_axis
@@ -625,13 +625,13 @@
 
 
 
-### Error 14, [Traceback at line 8040](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8040)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 332, in <module>
+### Error 14, [Traceback at line 8040](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8040)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tf//1_lstm.py", line 332, in <module>
 <br />    test(data_path="", pars_choice="test01", config_mode="test")
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 320, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tf//1_lstm.py", line 320, in test
 <br />    session = load(out_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 199, in load
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tf//1_lstm.py", line 199, in load
 <br />    return load_tf(load_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 477, in load_tf
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/util.py", line 477, in load_tf
 <br />    saver.restore(sess,  full_name)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1306, in restore
 <br />    err, "a Variable name or other graph key that is missing")
@@ -675,7 +675,7 @@
 <br />    self._traceback = tf_stack.extract_stack()
 <br />
 <br />
-<br />   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+<br />   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd https://github.com/arita37/mlmodels/tree/dev/ ;         
 <br />Fetching origin
 <br />Already up to date.
 <br />Logs
@@ -704,23 +704,23 @@
 <br />
 <br /> ************************************************************************************************************************
 <br />
-<br />  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//temporal_fusion_google.py 
+<br />  python https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tf//temporal_fusion_google.py 
 
 
 
-### Error 15, [Traceback at line 8121](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8121)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
+### Error 15, [Traceback at line 8121](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8121)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
 <br />    from mlmodels.mode_tf.raw  import temporal_fusion_google
 <br />ModuleNotFoundError: No module named 'mlmodels.mode_tf'
 
 
 
-### Error 16, [Traceback at line 8370](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8370)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
+### Error 16, [Traceback at line 8370](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8370)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
 <br />    test(data_path = "model_fb/fbprophet.json", choice="json" )
 <br />TypeError: test() got an unexpected keyword argument 'choice'
 
 
 
-### Error 17, [Traceback at line 8405](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8405)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//gluonts_model.py", line 15, in <module>
+### Error 17, [Traceback at line 8405](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L8405)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_gluon//gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -739,21 +739,21 @@
 
 
 
-### Error 18, [Traceback at line 9955](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L9955)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+### Error 18, [Traceback at line 9955](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L9955)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
 <br />    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
 <br />    cf = json.load(open(data_path, mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
 
 
 
-### Error 19, [Traceback at line 10352](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10352)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//torchhub.py", line 406, in <module>
+### Error 19, [Traceback at line 10352](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10352)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//torchhub.py", line 406, in <module>
 <br />    test(data_path="model_tch/torchhub_cnn_list.json", pars_choice="json", config_mode="resnet18")
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//torchhub.py", line 338, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//torchhub.py", line 338, in test
 <br />    model, session = fit(model, data_pars, compute_pars, out_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//torchhub.py", line 207, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//torchhub.py", line 207, in fit
 <br />    tr_loss, tr_acc = _train(model0, device, train_iter, criterion, optimizer, epoch, epochs, imax=imax_train)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//torchhub.py", line 46, in _train
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//torchhub.py", line 46, in _train
 <br />    for i,batch in enumerate(train_itr):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 346, in __next__
 <br />    data = self.dataset_fetcher.fetch(index)  # may raise StopIteration
@@ -769,19 +769,19 @@
 
 
 
-### Error 20, [Traceback at line 10403](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10403)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
+### Error 20, [Traceback at line 10403](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10403)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
 <br />    from dataloader import DataLoader
 <br />ModuleNotFoundError: No module named 'dataloader'
 
 
 
-### Error 21, [Traceback at line 10527](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10527)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
+### Error 21, [Traceback at line 10527](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10527)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
 <br />    "beta_vae": md.model.beta_vae,
 <br />AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
 
 
 
-### Error 22, [Traceback at line 10662](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10662)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//textcnn.py", line 153, in create_tabular_dataset
+### Error 22, [Traceback at line 10662](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10662)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//textcnn.py", line 153, in create_tabular_dataset
 <br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
 <br />    return util.load_model(name, **overrides)
@@ -791,13 +791,13 @@
 
 
 
-### Error 23, [Traceback at line 10673](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10673)<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//textcnn.py", line 477, in <module>
+### Error 23, [Traceback at line 10673](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-13-04-13_6672e19fe4cfa7df885e45d91d645534b8989485.py#L10673)<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//textcnn.py", line 477, in <module>
 <br />    test( data_path="model_tch/textcnn.json", pars_choice = "test01" )
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//textcnn.py", line 442, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//textcnn.py", line 442, in test
 <br />    Xtuple = get_dataset(data_pars)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//textcnn.py", line 334, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//textcnn.py", line 334, in get_dataset
 <br />    trainset, validset, vocab = create_tabular_dataset( data_pars['train_path'], data_pars['valid_path'], lang, pretrained_emb)
-<br />  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//textcnn.py", line 159, in create_tabular_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/dev/mlmodels/model_tch//textcnn.py", line 159, in create_tabular_dataset
 <br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)  
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
 <br />    return util.load_model(name, **overrides)

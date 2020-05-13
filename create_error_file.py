@@ -82,11 +82,17 @@ def create_error_file(
                 # Write error number and error file's location
                 f.write(
                     f"\n\n\n### Error {error_cnt}, [Traceback at line {line_of_traceback}]({latest_file_link}#L{line_of_traceback})")
+                
+            ii = ""
+            if ", line" in line2 "
+               ii = line2.split(",")[1].replace("line", " ").strip()    
+
             if '/home/runner/work/mlmodels/mlmodels/mlmodels/' in line:
                 line = line.replace(
                     '/home/runner/work/mlmodels/mlmodels',
                     f"{tag_dict['github_repo_url']}")
             f.write(f"<br />{line}")
+
         print(f"Sucessfully created the error file {output_file_name}")
 
 
