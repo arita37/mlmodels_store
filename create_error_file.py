@@ -86,39 +86,11 @@ def log_info_repo(arg=None):
        Grab Github Variables
        https://help.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables
        log_info_repo(arg=None)
+       
+       header on top of log files
     """
-    repo = os_bash("echo $GITHUB_REPOSITORY")
-    sha = os_bash("echo $GITHUB_SHA")
-    workflow = os_bash("echo $GITHUB_WORKFLOW")
-    branch = os_bash("echo $GITHUB_REF")
+    pass
 
-    repo = repo.replace("\n", "").replace("\r", "").strip()
-    workflow = workflow.replace("\n", "").replace("\r", "").strip()
-    sha = sha.replace("\n", "").replace("\r", "").strip()
-    branch = branch.replace(
-        "\n",
-        "").replace(
-        "\r",
-        "").strip().replace(
-            "refs/heads/",
-        "")
-
-    github_repo_url = f"https://github.com/{repo}/tree/{sha}"
-    url_branch_file = f"https://github.com/{repo}/blob/{branch}/"
-
-    url_branch_file2 = f"https://github.com/{repo}/tree/{branch}/"
-
-    return_dict = {
-        "github_repo_url": github_repo_url,
-        "url_branch_file": url_branch_file,
-        "repo": repo,
-        "branch": branch,
-        "sha": sha,
-        "workflow": workflow
-    }
-
-    print(return_dict)
-    return return_dict
 
 
 def main():
@@ -160,8 +132,7 @@ def main():
                                        execution_date +
                                        '/')
 
-        output_file_name = "list" + \
-            "_{}_".format(log_folder) + execution_date + '.md'
+        output_file_name = "list" +   "_{}_".format(log_folder) + execution_date + '.md'
         create_error_file(
             output,
             output_file_dir,
