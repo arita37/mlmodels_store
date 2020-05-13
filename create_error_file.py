@@ -63,8 +63,12 @@ def create_error_file(
 
     output_file_path = output_file_dir + output_file_name
 
+    # Create Empty File if no error is found
+    if len(output) == 0:
+        output = ["\n\n### No Error"]
+
     with open(output_file_path, 'w') as f:  # Write to o/p file
-        f.write("## Original File URL: {}".format(latest_file_link))
+        f.write(f"## Original File URL: {latest_file_link}")
         for idx, line in enumerate(output):
             if 'Traceback' in line:
                 error_cnt += 1
@@ -73,8 +77,8 @@ def create_error_file(
                 f.write(
                     f"\n\n\n### Error {error_cnt}, [Traceback at line {line_of_traceback}]({latest_file_link}#L{line_of_traceback})")
                 continue
-            f.write("<br />{}".format(line))
-        print("Sucessfully created the error file {}".format(output_file_name))
+            f.write(f"<br />{line}")
+        print(f"Sucessfully created the error file {output_file_name}")
 
 
 def log_info_repo(arg=None):
@@ -86,6 +90,7 @@ def log_info_repo(arg=None):
        header on top of log files
     """
     pass
+
 
 
 def main():
@@ -110,7 +115,7 @@ def main():
     for log_folder in log_folders:
         dir = os.path.dirname(__file__)  # File Path
         file_path = os.path.join(dir, log_folder + '/*.py')
-
+        print(f"Folder Name: {log_folder}")
         list_of_files = glob.glob(file_path)
         latest_file_path = max(list_of_files, key=os.path.getctime)
         latest_file_name = latest_file_path.split('/')[-1]
@@ -118,11 +123,6 @@ def main():
             USERNAME, latest_file_path.split('/')[-2] + '/' + latest_file_name)  # Original file url
 
         output = create_error_list(latest_file_path)
-
-        # Terminate the Program if No error is found
-        if len(output) == 0:
-            print("No error found in the logfile {}".format(latest_file_name))
-            continue
 
         # In the format
         # /error_list/execution_date/list_log_folder_executionDate.md
@@ -132,8 +132,7 @@ def main():
                                        execution_date +
                                        '/')
 
-        output_file_name = "list" + \
-            "_{}_".format(log_folder) + execution_date + '.md'
+        output_file_name = "list" +   "_{}_".format(log_folder) + execution_date + '.md'
         create_error_file(
             output,
             output_file_dir,
