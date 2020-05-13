@@ -77,7 +77,10 @@ def create_error_file(
                 f.write(
                     f"\n\n\n### Error {error_cnt}, [Traceback at line {line_of_traceback}]({latest_file_link}#L{line_of_traceback})")
                 continue
-            f.write(f"<br />{line}")
+                
+            line2 =  f"<br />{line}"
+            line2 = line2.replace("/home/runner/work/mlmodels/mlmodels/", "https://github.com/arita37/mlmodels/tree/dev/")
+            f.write(line2)
         print(f"Sucessfully created the error file {output_file_name}")
 
 
