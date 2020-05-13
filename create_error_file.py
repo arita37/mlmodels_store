@@ -85,7 +85,7 @@ def create_error_file(
                     f"\n\n\n### Error {error_cnt}, [Traceback at line {line_of_traceback}]({latest_file_link}#L{line_of_traceback})")
                 
             ii = ""
-            if ", line" in line2 "
+            if ", line" in line2 :
                ii = line2.split(",")[1].replace("line", " ").strip()    
 
             if '/home/runner/work/mlmodels/mlmodels/mlmodels/' in line:
