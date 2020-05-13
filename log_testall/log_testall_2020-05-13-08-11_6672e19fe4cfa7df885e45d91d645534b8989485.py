@@ -6191,3 +6191,327 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 5490d92] ml_store
+ 1 file changed, 44 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   b7f7347..5490d92  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//textcnn.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+Loading data...
+Downloading data from https://s3.amazonaws.com/text-datasets/imdb.npz
+
+    8192/17464789 [..............................] - ETA: 0s
+ 3260416/17464789 [====>.........................] - ETA: 0s
+10518528/17464789 [=================>............] - ETA: 0s
+16760832/17464789 [===========================>..] - ETA: 0s
+17465344/17464789 [==============================] - 0s 0us/step
+Pad sequences (samples x time)...
+
+  #### Model init, fit   ############################################# 
+Using TensorFlow backend.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-05-13 08:28:24.390477: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-05-13 08:28:24.394389: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
+2020-05-13 08:28:24.394522: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56059e731140 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-13 08:28:24.394537: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            (None, 40)           0                                            
+__________________________________________________________________________________________________
+embedding_1 (Embedding)         (None, 40, 50)       250         input_1[0][0]                    
+__________________________________________________________________________________________________
+conv1d_1 (Conv1D)               (None, 38, 128)      19328       embedding_1[0][0]                
+__________________________________________________________________________________________________
+conv1d_2 (Conv1D)               (None, 37, 128)      25728       embedding_1[0][0]                
+__________________________________________________________________________________________________
+conv1d_3 (Conv1D)               (None, 36, 128)      32128       embedding_1[0][0]                
+__________________________________________________________________________________________________
+global_max_pooling1d_1 (GlobalM (None, 128)          0           conv1d_1[0][0]                   
+__________________________________________________________________________________________________
+global_max_pooling1d_2 (GlobalM (None, 128)          0           conv1d_2[0][0]                   
+__________________________________________________________________________________________________
+global_max_pooling1d_3 (GlobalM (None, 128)          0           conv1d_3[0][0]                   
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 384)          0           global_max_pooling1d_1[0][0]     
+                                                                 global_max_pooling1d_2[0][0]     
+                                                                 global_max_pooling1d_3[0][0]     
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 1)            385         concatenate_1[0][0]              
+==================================================================================================
+Total params: 77,819
+Trainable params: 77,819
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Loading data...
+Pad sequences (samples x time)...
+Train on 25000 samples, validate on 25000 samples
+Epoch 1/1
+
+ 1000/25000 [>.............................] - ETA: 12s - loss: 7.6360 - accuracy: 0.5020
+ 2000/25000 [=>............................] - ETA: 9s - loss: 7.5516 - accuracy: 0.5075 
+ 3000/25000 [==>...........................] - ETA: 8s - loss: 7.6104 - accuracy: 0.5037
+ 4000/25000 [===>..........................] - ETA: 7s - loss: 7.6705 - accuracy: 0.4997
+ 5000/25000 [=====>........................] - ETA: 6s - loss: 7.6053 - accuracy: 0.5040
+ 6000/25000 [======>.......................] - ETA: 6s - loss: 7.5261 - accuracy: 0.5092
+ 7000/25000 [=======>......................] - ETA: 6s - loss: 7.5001 - accuracy: 0.5109
+ 8000/25000 [========>.....................] - ETA: 5s - loss: 7.5420 - accuracy: 0.5081
+ 9000/25000 [=========>....................] - ETA: 5s - loss: 7.5746 - accuracy: 0.5060
+10000/25000 [===========>..................] - ETA: 4s - loss: 7.5700 - accuracy: 0.5063
+11000/25000 [============>.................] - ETA: 4s - loss: 7.5955 - accuracy: 0.5046
+12000/25000 [=============>................] - ETA: 4s - loss: 7.6372 - accuracy: 0.5019
+13000/25000 [==============>...............] - ETA: 3s - loss: 7.6371 - accuracy: 0.5019
+14000/25000 [===============>..............] - ETA: 3s - loss: 7.6535 - accuracy: 0.5009
+15000/25000 [=================>............] - ETA: 3s - loss: 7.6503 - accuracy: 0.5011
+16000/25000 [==================>...........] - ETA: 2s - loss: 7.6340 - accuracy: 0.5021
+17000/25000 [===================>..........] - ETA: 2s - loss: 7.6486 - accuracy: 0.5012
+18000/25000 [====================>.........] - ETA: 2s - loss: 7.6504 - accuracy: 0.5011
+19000/25000 [=====================>........] - ETA: 1s - loss: 7.6561 - accuracy: 0.5007
+20000/25000 [=======================>......] - ETA: 1s - loss: 7.6513 - accuracy: 0.5010
+21000/25000 [========================>.....] - ETA: 1s - loss: 7.6506 - accuracy: 0.5010
+22000/25000 [=========================>....] - ETA: 0s - loss: 7.6541 - accuracy: 0.5008
+23000/25000 [==========================>...] - ETA: 0s - loss: 7.6660 - accuracy: 0.5000
+24000/25000 [===========================>..] - ETA: 0s - loss: 7.6602 - accuracy: 0.5004
+25000/25000 [==============================] - 9s 379us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+
+  #### save the trained model  ####################################### 
+{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5'}
+
+  #### Predict   ##################################################### 
+Loading data...
+
+  #### metrics   ##################################################### 
+{}
+
+  #### Plot   ######################################################## 
+
+  #### Save/Load   ################################################### 
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/keras/initializers.py:119: calling RandomUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5'}
+{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/textcnn/model.h5'}
+(<mlmodels.util.Model_empty object at 0x7f6d619b1320>, None)
+
+  #### Module init   ############################################ 
+
+  <module 'mlmodels.model_keras.textcnn' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn.py'> 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Model init   ############################################ 
+Model: "model_2"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_2 (InputLayer)            (None, 40)           0                                            
+__________________________________________________________________________________________________
+embedding_2 (Embedding)         (None, 40, 50)       250         input_2[0][0]                    
+__________________________________________________________________________________________________
+conv1d_4 (Conv1D)               (None, 38, 128)      19328       embedding_2[0][0]                
+__________________________________________________________________________________________________
+conv1d_5 (Conv1D)               (None, 37, 128)      25728       embedding_2[0][0]                
+__________________________________________________________________________________________________
+conv1d_6 (Conv1D)               (None, 36, 128)      32128       embedding_2[0][0]                
+__________________________________________________________________________________________________
+global_max_pooling1d_4 (GlobalM (None, 128)          0           conv1d_4[0][0]                   
+__________________________________________________________________________________________________
+global_max_pooling1d_5 (GlobalM (None, 128)          0           conv1d_5[0][0]                   
+__________________________________________________________________________________________________
+global_max_pooling1d_6 (GlobalM (None, 128)          0           conv1d_6[0][0]                   
+__________________________________________________________________________________________________
+concatenate_2 (Concatenate)     (None, 384)          0           global_max_pooling1d_4[0][0]     
+                                                                 global_max_pooling1d_5[0][0]     
+                                                                 global_max_pooling1d_6[0][0]     
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 1)            385         concatenate_2[0][0]              
+==================================================================================================
+Total params: 77,819
+Trainable params: 77,819
+Non-trainable params: 0
+__________________________________________________________________________________________________
+
+  <mlmodels.model_keras.textcnn.Model object at 0x7f6d604b5cf8> 
+
+  #### Fit   ######################################################## 
+Loading data...
+Pad sequences (samples x time)...
+Train on 25000 samples, validate on 25000 samples
+Epoch 1/1
+
+ 1000/25000 [>.............................] - ETA: 12s - loss: 7.6513 - accuracy: 0.5010
+ 2000/25000 [=>............................] - ETA: 9s - loss: 7.4596 - accuracy: 0.5135 
+ 3000/25000 [==>...........................] - ETA: 8s - loss: 7.5797 - accuracy: 0.5057
+ 4000/25000 [===>..........................] - ETA: 7s - loss: 7.5785 - accuracy: 0.5058
+ 5000/25000 [=====>........................] - ETA: 6s - loss: 7.6789 - accuracy: 0.4992
+ 6000/25000 [======>.......................] - ETA: 6s - loss: 7.6845 - accuracy: 0.4988
+ 7000/25000 [=======>......................] - ETA: 5s - loss: 7.6316 - accuracy: 0.5023
+ 8000/25000 [========>.....................] - ETA: 5s - loss: 7.6091 - accuracy: 0.5038
+ 9000/25000 [=========>....................] - ETA: 4s - loss: 7.5831 - accuracy: 0.5054
+10000/25000 [===========>..................] - ETA: 4s - loss: 7.5516 - accuracy: 0.5075
+11000/25000 [============>.................] - ETA: 4s - loss: 7.5858 - accuracy: 0.5053
+12000/25000 [=============>................] - ETA: 3s - loss: 7.6053 - accuracy: 0.5040
+13000/25000 [==============>...............] - ETA: 3s - loss: 7.5817 - accuracy: 0.5055
+14000/25000 [===============>..............] - ETA: 3s - loss: 7.5812 - accuracy: 0.5056
+15000/25000 [=================>............] - ETA: 3s - loss: 7.5889 - accuracy: 0.5051
+16000/25000 [==================>...........] - ETA: 2s - loss: 7.5842 - accuracy: 0.5054
+17000/25000 [===================>..........] - ETA: 2s - loss: 7.6035 - accuracy: 0.5041
+18000/25000 [====================>.........] - ETA: 2s - loss: 7.6053 - accuracy: 0.5040
+19000/25000 [=====================>........] - ETA: 1s - loss: 7.6174 - accuracy: 0.5032
+20000/25000 [=======================>......] - ETA: 1s - loss: 7.6183 - accuracy: 0.5031
+21000/25000 [========================>.....] - ETA: 1s - loss: 7.6433 - accuracy: 0.5015
+22000/25000 [=========================>....] - ETA: 0s - loss: 7.6457 - accuracy: 0.5014
+23000/25000 [==========================>...] - ETA: 0s - loss: 7.6506 - accuracy: 0.5010
+24000/25000 [===========================>..] - ETA: 0s - loss: 7.6673 - accuracy: 0.5000
+25000/25000 [==============================] - 9s 360us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+
+  #### Predict   #################################################### 
+Loading data...
+(array([[1.],
+       [1.],
+       [1.],
+       ...,
+       [1.],
+       [1.],
+       [1.]], dtype=float32), None)
+
+  #### Get  metrics   ################################################ 
+
+  #### Save   ######################################################## 
+
+  #### Load   ######################################################## 
+
+  ############ Model preparation   ################################## 
+
+  #### Module init   ############################################ 
+
+  <module 'mlmodels.model_keras.textcnn' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn.py'> 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Model init   ############################################ 
+Model: "model_3"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_3 (InputLayer)            (None, 40)           0                                            
+__________________________________________________________________________________________________
+embedding_3 (Embedding)         (None, 40, 50)       250         input_3[0][0]                    
+__________________________________________________________________________________________________
+conv1d_7 (Conv1D)               (None, 38, 128)      19328       embedding_3[0][0]                
+__________________________________________________________________________________________________
+conv1d_8 (Conv1D)               (None, 37, 128)      25728       embedding_3[0][0]                
+__________________________________________________________________________________________________
+conv1d_9 (Conv1D)               (None, 36, 128)      32128       embedding_3[0][0]                
+__________________________________________________________________________________________________
+global_max_pooling1d_7 (GlobalM (None, 128)          0           conv1d_7[0][0]                   
+__________________________________________________________________________________________________
+global_max_pooling1d_8 (GlobalM (None, 128)          0           conv1d_8[0][0]                   
+__________________________________________________________________________________________________
+global_max_pooling1d_9 (GlobalM (None, 128)          0           conv1d_9[0][0]                   
+__________________________________________________________________________________________________
+concatenate_3 (Concatenate)     (None, 384)          0           global_max_pooling1d_7[0][0]     
+                                                                 global_max_pooling1d_8[0][0]     
+                                                                 global_max_pooling1d_9[0][0]     
+__________________________________________________________________________________________________
+dense_3 (Dense)                 (None, 1)            385         concatenate_3[0][0]              
+==================================================================================================
+Total params: 77,819
+Trainable params: 77,819
+Non-trainable params: 0
+__________________________________________________________________________________________________
+
+  ############ Model fit   ########################################## 
+Loading data...
+Pad sequences (samples x time)...
+Train on 25000 samples, validate on 25000 samples
+Epoch 1/1
+
+ 1000/25000 [>.............................] - ETA: 11s - loss: 7.8660 - accuracy: 0.4870
+ 2000/25000 [=>............................] - ETA: 9s - loss: 7.6436 - accuracy: 0.5015 
+ 3000/25000 [==>...........................] - ETA: 8s - loss: 7.6717 - accuracy: 0.4997
+ 4000/25000 [===>..........................] - ETA: 7s - loss: 7.6245 - accuracy: 0.5027
+ 5000/25000 [=====>........................] - ETA: 6s - loss: 7.7402 - accuracy: 0.4952
+ 6000/25000 [======>.......................] - ETA: 6s - loss: 7.7407 - accuracy: 0.4952
+ 7000/25000 [=======>......................] - ETA: 5s - loss: 7.7017 - accuracy: 0.4977
+ 8000/25000 [========>.....................] - ETA: 5s - loss: 7.6743 - accuracy: 0.4995
+ 9000/25000 [=========>....................] - ETA: 4s - loss: 7.6581 - accuracy: 0.5006
+10000/25000 [===========>..................] - ETA: 4s - loss: 7.6344 - accuracy: 0.5021
+11000/25000 [============>.................] - ETA: 4s - loss: 7.6541 - accuracy: 0.5008
+12000/25000 [=============>................] - ETA: 3s - loss: 7.6385 - accuracy: 0.5018
+13000/25000 [==============>...............] - ETA: 3s - loss: 7.6230 - accuracy: 0.5028
+14000/25000 [===============>..............] - ETA: 3s - loss: 7.6228 - accuracy: 0.5029
+15000/25000 [=================>............] - ETA: 3s - loss: 7.6564 - accuracy: 0.5007
+16000/25000 [==================>...........] - ETA: 2s - loss: 7.6599 - accuracy: 0.5004
+17000/25000 [===================>..........] - ETA: 2s - loss: 7.6558 - accuracy: 0.5007
+18000/25000 [====================>.........] - ETA: 2s - loss: 7.6615 - accuracy: 0.5003
+19000/25000 [=====================>........] - ETA: 1s - loss: 7.6553 - accuracy: 0.5007
+20000/25000 [=======================>......] - ETA: 1s - loss: 7.6751 - accuracy: 0.4994
+21000/25000 [========================>.....] - ETA: 1s - loss: 7.6637 - accuracy: 0.5002
+22000/25000 [=========================>....] - ETA: 0s - loss: 7.6659 - accuracy: 0.5000
+23000/25000 [==========================>...] - ETA: 0s - loss: 7.6593 - accuracy: 0.5005
+24000/25000 [===========================>..] - ETA: 0s - loss: 7.6583 - accuracy: 0.5005
+25000/25000 [==============================] - 9s 368us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+fit success None
+
+  ############ Prediction############################################ 
+Loading data...
+(array([[1.],
+       [1.],
+       [1.],
+       ...,
+       [1.],
+       [1.],
+       [1.]], dtype=float32), None)
+
+  ############ Save/ Load ############################################ 
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+Warning: Permanently added the RSA host key for IP address '140.82.112.4' to the list of known hosts.
+From github.com:arita37/mlmodels_store
+   5490d92..14480f9  master     -> origin/master
+Updating 5490d92..14480f9
+Fast-forward
+ .../20200513/list_log_pullrequest_20200513.md      |   2 +-
+ error_list/20200513/list_log_test_cli_20200513.md  | 138 ++++++++++-----------
+ 2 files changed, 70 insertions(+), 70 deletions(-)
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
