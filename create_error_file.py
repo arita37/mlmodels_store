@@ -10,6 +10,7 @@ import datetime as dt
 import argparse
 
 
+
 def cli_load_arguments(config_file=None):
     """
         Load CLI input
