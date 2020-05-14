@@ -6106,3 +6106,51 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master f31159e] ml_store
+ 1 file changed, 149 insertions(+)
+Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
+To github.com:arita37/mlmodels_store.git
+   0cb4f55..f31159e  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+Using TensorFlow backend.
+Loading data...
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 357, in <module>
+    test(pars_choice="test01")
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 320, in test
+    Xtuple = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 216, in get_dataset
+    if data_pars['type'] == "npz":
+KeyError: 'type'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+Already up to date.
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
