@@ -10269,3 +10269,61 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master bb04da9] ml_store
+ 1 file changed, 35 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   308fcd0..bb04da9  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:57<473:18:21, 57.88s/it][A
+Iteration:   0%|          | 2/29440 [01:05<350:18:45, 42.84s/it][A
+Iteration:   0%|          | 3/29440 [01:19<278:41:27, 34.08s/it][A
+Iteration:   0%|          | 4/29440 [02:52<423:14:12, 51.76s/it][A
+Iteration:   0%|          | 5/29440 [03:56<453:15:41, 55.44s/it][A
+Iteration:   0%|          | 6/29440 [05:39<571:33:23, 69.91s/it][A
+Iteration:   0%|          | 7/29440 [07:57<738:18:59, 90.30s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+From github.com:arita37/mlmodels_store
+   bb04da9..dd02632  master     -> origin/master
+Updating bb04da9..dd02632
+Fast-forward
+ error_list/20200514/list_log_benchmark_20200514.md |  166 +-
+ .../20200514/list_log_dataloader_20200514.md       |    2 +-
+ error_list/20200514/list_log_jupyter_20200514.md   | 1682 ++++++++++----------
+ error_list/20200514/list_log_test_cli_20200514.md  |  364 ++---
+ error_list/20200514/list_log_testall_20200514.md   |  295 ++--
+ 5 files changed, 1244 insertions(+), 1265 deletions(-)
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
