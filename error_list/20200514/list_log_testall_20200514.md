@@ -1,14 +1,14 @@
-## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py
+## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py
 
 
-### Error 1, [Traceback at line 37](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L37)<br />37..Traceback (most recent call last):
+### Error 1, [Traceback at line 37](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L37)<br />37..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//keras_gan.py", line 31, in <module>
 <br />    'AAE' : kg.aae.aae,
 <br />AttributeError: module 'mlmodels.model_keras.raw.keras_gan' has no attribute 'aae'
 
 
 
-### Error 2, [Traceback at line 87](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L87)<br />87..Traceback (most recent call last):
+### Error 2, [Traceback at line 87](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L87)<br />87..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//textcnn_dataloader.py", line 275, in <module>
 <br />    test_module(model_uri = MODEL_URI, param_pars= param_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 257, in test_module
@@ -19,7 +19,7 @@
 
 
 
-### Error 3, [Traceback at line 134](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L134)<br />134..Traceback (most recent call last):
+### Error 3, [Traceback at line 134](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L134)<br />134..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//nbeats.py", line 315, in <module>
 <br />    test(pars_choice="test01")
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//nbeats.py", line 278, in test
@@ -30,7 +30,7 @@
 
 
 
-### Error 4, [Traceback at line 5885](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L5885)<br />5885..Traceback (most recent call last):
+### Error 4, [Traceback at line 5881](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L5881)<br />5881..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//textvae.py", line 356, in <module>
 <br />    test(pars_choice="test01")
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//textvae.py", line 327, in test
@@ -43,7 +43,7 @@
 
 
 
-### Error 5, [Traceback at line 5933](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L5933)<br />5933..Traceback (most recent call last):
+### Error 5, [Traceback at line 5929](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L5929)<br />5929..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//namentity_crm_bilstm_dataloader.py", line 306, in <module>
 <br />    test_module(model_uri=MODEL_URI, param_pars=param_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 257, in test_module
@@ -54,14 +54,14 @@
 
 
 
-### Error 6, [Traceback at line 5972](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L5972)<br />5972..Traceback (most recent call last):
+### Error 6, [Traceback at line 5968](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L5968)<br />5968..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//Autokeras.py", line 12, in <module>
 <br />    import autokeras as ak
 <br />ModuleNotFoundError: No module named 'autokeras'
 
 
 
-### Error 7, [Traceback at line 6111](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L6111)<br />6111..Traceback (most recent call last):
+### Error 7, [Traceback at line 6107](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L6107)<br />6107..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//charcnn_zhang.py", line 284, in <module>
 <br />    test(pars_choice="json", data_path= f"{root_path}/model_keras/charcnn_zhang.json")
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//charcnn_zhang.py", line 268, in test
@@ -78,7 +78,7 @@
 
 
 
-### Error 8, [Traceback at line 6164](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L6164)<br />6164..Traceback (most recent call last):
+### Error 8, [Traceback at line 6161](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L6161)<br />6161..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//charcnn.py", line 357, in <module>
 <br />    test(pars_choice="test01")
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//charcnn.py", line 320, in test
@@ -89,7 +89,7 @@
 
 
 
-### Error 9, [Traceback at line 6208](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L6208)<br />6208..Traceback (most recent call last):
+### Error 9, [Traceback at line 6205](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L6205)<br />6205..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//namentity_crm_bilstm.py", line 348, in <module>
 <br />    test(pars_choice="json", data_path=f"model_keras/namentity_crm_bilstm.json")
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//namentity_crm_bilstm.py", line 311, in test
@@ -116,10 +116,10 @@
 <br />log_test_cli
 <br />log_testall
 <br />test_jupyter
-<br />[master cafa3e8] ml_store
+<br />[master b1af391] ml_store
 <br /> 1 file changed, 44 insertions(+)
 <br />To github.com:arita37/mlmodels_store.git
-<br />   f350101..cafa3e8  master -> master
+<br />   40bdc45..b1af391  master -> master
 <br />
 <br />
 <br />
@@ -138,20 +138,10 @@
 <br />Downloading data from https://s3.amazonaws.com/text-datasets/imdb.npz
 <br />
 <br />    8192/17464789 [..............................] - ETA: 0s
-<br />   24576/17464789 [..............................] - ETA: 43s
-<br />   57344/17464789 [..............................] - ETA: 37s
-<br />   90112/17464789 [..............................] - ETA: 36s
-<br />  180224/17464789 [..............................] - ETA: 23s
-<br />  335872/17464789 [..............................] - ETA: 15s
-<br />  647168/17464789 [>.............................] - ETA: 9s 
-<br /> 1294336/17464789 [=>............................] - ETA: 5s
-<br /> 2572288/17464789 [===>..........................] - ETA: 2s
-<br /> 5128192/17464789 [=======>......................] - ETA: 1s
-<br /> 7864320/17464789 [============>.................] - ETA: 0s
-<br />10518528/17464789 [=================>............] - ETA: 0s
-<br />13434880/17464789 [======================>.......] - ETA: 0s
-<br />16269312/17464789 [==========================>...] - ETA: 0s
-<br />17465344/17464789 [==============================] - 1s 0us/step
+<br /> 3702784/17464789 [=====>........................] - ETA: 0s
+<br /> 9084928/17464789 [==============>...............] - ETA: 0s
+<br />12861440/17464789 [=====================>........] - ETA: 0s
+<br />17465344/17464789 [==============================] - 0s 0us/step
 <br />Pad sequences (samples x time)...
 <br />
 <br />  #### Model init, fit   ############################################# 
@@ -162,10 +152,10 @@
 <br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
 <br />Instructions for updating:
 <br />Use tf.where in 2.0, which has the same broadcast rule as np.where
-<br />2020-05-14 12:30:07.021012: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-<br />2020-05-14 12:30:07.025775: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2397220000 Hz
-<br />2020-05-14 12:30:07.025920: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55be3cae33a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-<br />2020-05-14 12:30:07.025936: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+<br />2020-05-14 16:29:32.925003: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+<br />2020-05-14 16:29:32.929452: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095210000 Hz
+<br />2020-05-14 16:29:32.929609: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5622575436f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+<br />2020-05-14 16:29:32.929623: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 <br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 <br />
 <br />Model: "model_1"
@@ -203,31 +193,31 @@
 <br />Train on 25000 samples, validate on 25000 samples
 <br />Epoch 1/1
 <br />
-<br /> 1000/25000 [>.............................] - ETA: 13s - loss: 7.5593 - accuracy: 0.5070
-<br /> 2000/25000 [=>............................] - ETA: 9s - loss: 7.5440 - accuracy: 0.5080 
-<br /> 3000/25000 [==>...........................] - ETA: 8s - loss: 7.6513 - accuracy: 0.5010
-<br /> 4000/25000 [===>..........................] - ETA: 7s - loss: 7.5670 - accuracy: 0.5065
-<br /> 5000/25000 [=====>........................] - ETA: 6s - loss: 7.5900 - accuracy: 0.5050
-<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.5848 - accuracy: 0.5053
-<br /> 7000/25000 [=======>......................] - ETA: 5s - loss: 7.5330 - accuracy: 0.5087
-<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.5631 - accuracy: 0.5067
-<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.5831 - accuracy: 0.5054
-<br />10000/25000 [===========>..................] - ETA: 4s - loss: 7.5961 - accuracy: 0.5046
-<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.6248 - accuracy: 0.5027
-<br />12000/25000 [=============>................] - ETA: 4s - loss: 7.6411 - accuracy: 0.5017
-<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.6100 - accuracy: 0.5037
-<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.6414 - accuracy: 0.5016
-<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.6360 - accuracy: 0.5020
-<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.6484 - accuracy: 0.5012
-<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.6495 - accuracy: 0.5011
-<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.6504 - accuracy: 0.5011
-<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6513 - accuracy: 0.5010
-<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6268 - accuracy: 0.5026
-<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6440 - accuracy: 0.5015
-<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6422 - accuracy: 0.5016
-<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6433 - accuracy: 0.5015
-<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6519 - accuracy: 0.5010
-<br />25000/25000 [==============================] - 9s 362us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+<br /> 1000/25000 [>.............................] - ETA: 12s - loss: 7.4980 - accuracy: 0.5110
+<br /> 2000/25000 [=>............................] - ETA: 8s - loss: 7.7126 - accuracy: 0.4970 
+<br /> 3000/25000 [==>...........................] - ETA: 7s - loss: 7.5951 - accuracy: 0.5047
+<br /> 4000/25000 [===>..........................] - ETA: 6s - loss: 7.6321 - accuracy: 0.5023
+<br /> 5000/25000 [=====>........................] - ETA: 5s - loss: 7.6728 - accuracy: 0.4996
+<br /> 6000/25000 [======>.......................] - ETA: 5s - loss: 7.6666 - accuracy: 0.5000
+<br /> 7000/25000 [=======>......................] - ETA: 4s - loss: 7.6929 - accuracy: 0.4983
+<br /> 8000/25000 [========>.....................] - ETA: 4s - loss: 7.6858 - accuracy: 0.4988
+<br /> 9000/25000 [=========>....................] - ETA: 4s - loss: 7.6700 - accuracy: 0.4998
+<br />10000/25000 [===========>..................] - ETA: 3s - loss: 7.6820 - accuracy: 0.4990
+<br />11000/25000 [============>.................] - ETA: 3s - loss: 7.6959 - accuracy: 0.4981
+<br />12000/25000 [=============>................] - ETA: 3s - loss: 7.7037 - accuracy: 0.4976
+<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.7421 - accuracy: 0.4951
+<br />14000/25000 [===============>..............] - ETA: 2s - loss: 7.7236 - accuracy: 0.4963
+<br />15000/25000 [=================>............] - ETA: 2s - loss: 7.7341 - accuracy: 0.4956
+<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.7327 - accuracy: 0.4957
+<br />17000/25000 [===================>..........] - ETA: 1s - loss: 7.7289 - accuracy: 0.4959
+<br />18000/25000 [====================>.........] - ETA: 1s - loss: 7.7101 - accuracy: 0.4972
+<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.7159 - accuracy: 0.4968
+<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6919 - accuracy: 0.4983
+<br />21000/25000 [========================>.....] - ETA: 0s - loss: 7.6980 - accuracy: 0.4980
+<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6924 - accuracy: 0.4983
+<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6920 - accuracy: 0.4983
+<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6692 - accuracy: 0.4998
+<br />25000/25000 [==============================] - 7s 282us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 <br />
 <br />  #### save the trained model  ####################################### 
 <br />{'path': 'https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/ztest/model_keras/textcnn/model.h5'}
@@ -246,7 +236,7 @@
 <br />Call initializer instance with the dtype argument instead of passing it to the constructor
 <br />{'path': 'https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/ztest/model_keras/textcnn/model.h5'}
 <br />{'path': 'https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/ztest/model_keras/textcnn/model.h5'}
-<br />(<mlmodels.util.Model_empty object at 0x7fb71319b908>, None)
+<br />(<mlmodels.util.Model_empty object at 0x7f33cca8aeb8>, None)
 <br />
 <br />  #### Module init   ############################################ 
 <br />
@@ -288,7 +278,7 @@
 <br />Non-trainable params: 0
 <br />__________________________________________________________________________________________________
 <br />
-<br />  <mlmodels.model_keras.textcnn.Model object at 0x7fb7098b1390> 
+<br />  <mlmodels.model_keras.textcnn.Model object at 0x7f33da1423c8> 
 <br />
 <br />  #### Fit   ######################################################## 
 <br />Loading data...
@@ -296,31 +286,31 @@
 <br />Train on 25000 samples, validate on 25000 samples
 <br />Epoch 1/1
 <br />
-<br /> 1000/25000 [>.............................] - ETA: 13s - loss: 7.6666 - accuracy: 0.5000
-<br /> 2000/25000 [=>............................] - ETA: 9s - loss: 7.6283 - accuracy: 0.5025 
-<br /> 3000/25000 [==>...........................] - ETA: 8s - loss: 7.4622 - accuracy: 0.5133
-<br /> 4000/25000 [===>..........................] - ETA: 7s - loss: 7.5171 - accuracy: 0.5098
-<br /> 5000/25000 [=====>........................] - ETA: 6s - loss: 7.5225 - accuracy: 0.5094
-<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.5516 - accuracy: 0.5075
-<br /> 7000/25000 [=======>......................] - ETA: 5s - loss: 7.5834 - accuracy: 0.5054
-<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.5880 - accuracy: 0.5051
-<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.6087 - accuracy: 0.5038
-<br />10000/25000 [===========>..................] - ETA: 4s - loss: 7.6237 - accuracy: 0.5028
-<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.5983 - accuracy: 0.5045
-<br />12000/25000 [=============>................] - ETA: 3s - loss: 7.5989 - accuracy: 0.5044
-<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.6112 - accuracy: 0.5036
-<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.6338 - accuracy: 0.5021
-<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.6441 - accuracy: 0.5015
-<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.6321 - accuracy: 0.5023
-<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.6450 - accuracy: 0.5014
-<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.6726 - accuracy: 0.4996
-<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6715 - accuracy: 0.4997
-<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6735 - accuracy: 0.4996
-<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6659 - accuracy: 0.5000
-<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6715 - accuracy: 0.4997
-<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6733 - accuracy: 0.4996
-<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6653 - accuracy: 0.5001
-<br />25000/25000 [==============================] - 9s 360us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+<br /> 1000/25000 [>.............................] - ETA: 11s - loss: 7.8200 - accuracy: 0.4900
+<br /> 2000/25000 [=>............................] - ETA: 7s - loss: 7.6896 - accuracy: 0.4985 
+<br /> 3000/25000 [==>...........................] - ETA: 6s - loss: 7.6717 - accuracy: 0.4997
+<br /> 4000/25000 [===>..........................] - ETA: 6s - loss: 7.6513 - accuracy: 0.5010
+<br /> 5000/25000 [=====>........................] - ETA: 5s - loss: 7.6268 - accuracy: 0.5026
+<br /> 6000/25000 [======>.......................] - ETA: 5s - loss: 7.6436 - accuracy: 0.5015
+<br /> 7000/25000 [=======>......................] - ETA: 4s - loss: 7.6250 - accuracy: 0.5027
+<br /> 8000/25000 [========>.....................] - ETA: 4s - loss: 7.6015 - accuracy: 0.5042
+<br /> 9000/25000 [=========>....................] - ETA: 4s - loss: 7.5900 - accuracy: 0.5050
+<br />10000/25000 [===========>..................] - ETA: 3s - loss: 7.5455 - accuracy: 0.5079
+<br />11000/25000 [============>.................] - ETA: 3s - loss: 7.5914 - accuracy: 0.5049
+<br />12000/25000 [=============>................] - ETA: 3s - loss: 7.6385 - accuracy: 0.5018
+<br />13000/25000 [==============>...............] - ETA: 2s - loss: 7.6088 - accuracy: 0.5038
+<br />14000/25000 [===============>..............] - ETA: 2s - loss: 7.6097 - accuracy: 0.5037
+<br />15000/25000 [=================>............] - ETA: 2s - loss: 7.5951 - accuracy: 0.5047
+<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.5775 - accuracy: 0.5058
+<br />17000/25000 [===================>..........] - ETA: 1s - loss: 7.6062 - accuracy: 0.5039
+<br />18000/25000 [====================>.........] - ETA: 1s - loss: 7.6155 - accuracy: 0.5033
+<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6190 - accuracy: 0.5031
+<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6099 - accuracy: 0.5037
+<br />21000/25000 [========================>.....] - ETA: 0s - loss: 7.6323 - accuracy: 0.5022
+<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6464 - accuracy: 0.5013
+<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6473 - accuracy: 0.5013
+<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6494 - accuracy: 0.5011
+<br />25000/25000 [==============================] - 7s 280us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 <br />
 <br />  #### Predict   #################################################### 
 <br />Loading data...
@@ -386,31 +376,31 @@
 <br />Train on 25000 samples, validate on 25000 samples
 <br />Epoch 1/1
 <br />
-<br /> 1000/25000 [>.............................] - ETA: 13s - loss: 7.9120 - accuracy: 0.4840
-<br /> 2000/25000 [=>............................] - ETA: 9s - loss: 7.7970 - accuracy: 0.4915 
-<br /> 3000/25000 [==>...........................] - ETA: 8s - loss: 7.8046 - accuracy: 0.4910
-<br /> 4000/25000 [===>..........................] - ETA: 7s - loss: 7.6896 - accuracy: 0.4985
-<br /> 5000/25000 [=====>........................] - ETA: 6s - loss: 7.6973 - accuracy: 0.4980
-<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.6513 - accuracy: 0.5010
-<br /> 7000/25000 [=======>......................] - ETA: 5s - loss: 7.6360 - accuracy: 0.5020
-<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.6245 - accuracy: 0.5027
-<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.6172 - accuracy: 0.5032
-<br />10000/25000 [===========>..................] - ETA: 4s - loss: 7.6283 - accuracy: 0.5025
-<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.6680 - accuracy: 0.4999
-<br />12000/25000 [=============>................] - ETA: 4s - loss: 7.6513 - accuracy: 0.5010
-<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.6348 - accuracy: 0.5021
-<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.6491 - accuracy: 0.5011
-<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.6595 - accuracy: 0.5005
-<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.6657 - accuracy: 0.5001
-<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.6621 - accuracy: 0.5003
-<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.6513 - accuracy: 0.5010
-<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6505 - accuracy: 0.5011
-<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6444 - accuracy: 0.5015
-<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6601 - accuracy: 0.5004
-<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6548 - accuracy: 0.5008
-<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6546 - accuracy: 0.5008
-<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6634 - accuracy: 0.5002
-<br />25000/25000 [==============================] - 9s 373us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+<br /> 1000/25000 [>.............................] - ETA: 11s - loss: 7.6360 - accuracy: 0.5020
+<br /> 2000/25000 [=>............................] - ETA: 8s - loss: 7.6360 - accuracy: 0.5020 
+<br /> 3000/25000 [==>...........................] - ETA: 6s - loss: 7.5337 - accuracy: 0.5087
+<br /> 4000/25000 [===>..........................] - ETA: 6s - loss: 7.6935 - accuracy: 0.4983
+<br /> 5000/25000 [=====>........................] - ETA: 5s - loss: 7.7832 - accuracy: 0.4924
+<br /> 6000/25000 [======>.......................] - ETA: 5s - loss: 7.6973 - accuracy: 0.4980
+<br /> 7000/25000 [=======>......................] - ETA: 4s - loss: 7.6053 - accuracy: 0.5040
+<br /> 8000/25000 [========>.....................] - ETA: 4s - loss: 7.6685 - accuracy: 0.4999
+<br /> 9000/25000 [=========>....................] - ETA: 4s - loss: 7.6973 - accuracy: 0.4980
+<br />10000/25000 [===========>..................] - ETA: 3s - loss: 7.6850 - accuracy: 0.4988
+<br />11000/25000 [============>.................] - ETA: 3s - loss: 7.6931 - accuracy: 0.4983
+<br />12000/25000 [=============>................] - ETA: 3s - loss: 7.7037 - accuracy: 0.4976
+<br />13000/25000 [==============>...............] - ETA: 2s - loss: 7.7445 - accuracy: 0.4949
+<br />14000/25000 [===============>..............] - ETA: 2s - loss: 7.7170 - accuracy: 0.4967
+<br />15000/25000 [=================>............] - ETA: 2s - loss: 7.6973 - accuracy: 0.4980
+<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.6820 - accuracy: 0.4990
+<br />17000/25000 [===================>..........] - ETA: 1s - loss: 7.6666 - accuracy: 0.5000
+<br />18000/25000 [====================>.........] - ETA: 1s - loss: 7.6768 - accuracy: 0.4993
+<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6634 - accuracy: 0.5002
+<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6743 - accuracy: 0.4995
+<br />21000/25000 [========================>.....] - ETA: 0s - loss: 7.6579 - accuracy: 0.5006
+<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6408 - accuracy: 0.5017
+<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6586 - accuracy: 0.5005
+<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6673 - accuracy: 0.5000
+<br />25000/25000 [==============================] - 7s 283us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 <br />fit success None
 <br />
 <br />  ############ Prediction############################################ 
@@ -428,13 +418,15 @@
 <br />   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
 <br />Fetching origin
 <br />From github.com:arita37/mlmodels_store
-<br />   cafa3e8..1847ac0  master     -> origin/master
-<br />Updating cafa3e8..1847ac0
+<br />   b1af391..0fa7343  master     -> origin/master
+<br />Updating b1af391..0fa7343
 <br />Fast-forward
+<br /> error_list/20200514/list_log_benchmark_20200514.md |  188 ++-
 <br /> .../20200514/list_log_dataloader_20200514.md       |    2 +-
-<br /> error_list/20200514/list_log_json_20200514.md      | 1146 ++++++++++----------
-<br /> error_list/20200514/list_log_testall_20200514.md   |   89 ++
-<br /> 3 files changed, 663 insertions(+), 574 deletions(-)
+<br /> error_list/20200514/list_log_json_20200514.md      |  276 ++--
+<br /> error_list/20200514/list_log_jupyter_20200514.md   | 1669 ++++++++++----------
+<br /> error_list/20200514/list_log_testall_20200514.md   |  260 ++-
+<br /> 5 files changed, 1180 insertions(+), 1215 deletions(-)
 <br />Logs
 <br />README.md
 <br />README_actions.md
@@ -450,10 +442,10 @@
 <br />log_test_cli
 <br />log_testall
 <br />test_jupyter
-<br />[master 59421be] ml_store
-<br /> 1 file changed, 334 insertions(+)
+<br />[master d3a1c7a] ml_store
+<br /> 1 file changed, 326 insertions(+)
 <br />To github.com:arita37/mlmodels_store.git
-<br />   1847ac0..59421be  master -> master
+<br />   0fa7343..d3a1c7a  master -> master
 <br />
 <br />
 <br />
@@ -504,7 +496,7 @@
 <br />
 <br />Epoch 1/10
 <br />
-<br />13/13 [==============================] - 2s 141ms/step - loss: nan
+<br />13/13 [==============================] - 2s 142ms/step - loss: nan
 <br />Epoch 2/10
 <br />
 <br />13/13 [==============================] - 0s 4ms/step - loss: nan
@@ -513,13 +505,13 @@
 <br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 4/10
 <br />
-<br />13/13 [==============================] - 0s 5ms/step - loss: nan
+<br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 5/10
 <br />
-<br />13/13 [==============================] - 0s 4ms/step - loss: nan
+<br />13/13 [==============================] - 0s 5ms/step - loss: nan
 <br />Epoch 6/10
 <br />
-<br />13/13 [==============================] - 0s 5ms/step - loss: nan
+<br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 7/10
 <br />
 <br />13/13 [==============================] - 0s 5ms/step - loss: nan
@@ -528,10 +520,10 @@
 <br />13/13 [==============================] - 0s 5ms/step - loss: nan
 <br />Epoch 9/10
 <br />
-<br />13/13 [==============================] - 0s 5ms/step - loss: nan
+<br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 10/10
 <br />
-<br />13/13 [==============================] - 0s 4ms/step - loss: nan
+<br />13/13 [==============================] - 0s 5ms/step - loss: nan
 <br />
 <br />  fitted metrics {'loss': [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]} 
 <br />
@@ -546,7 +538,7 @@
 
 
 
-### Error 10, [Traceback at line 6662](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L6662)<br />6662..Traceback (most recent call last):
+### Error 10, [Traceback at line 6651](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L6651)<br />6651..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//armdn.py", line 380, in <module>
 <br />    test(pars_choice="json", data_path= "model_keras/armdn.json")
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras//armdn.py", line 354, in test
@@ -562,7 +554,7 @@
 
 
 
-### Error 11, [Traceback at line 8798](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8798)<br />8798..Traceback (most recent call last):
+### Error 11, [Traceback at line 7977](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L7977)<br />7977..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
 <br />    return fn(*args)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
@@ -577,7 +569,7 @@
 
 
 
-### Error 12, [Traceback at line 8810](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8810)<br />8810..Traceback (most recent call last):
+### Error 12, [Traceback at line 7989](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L7989)<br />7989..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1290, in restore
 <br />    {self.saver_def.filename_tensor_name: save_path})
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
@@ -631,7 +623,7 @@
 
 
 
-### Error 13, [Traceback at line 8861](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8861)<br />8861..Traceback (most recent call last):
+### Error 13, [Traceback at line 8040](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8040)<br />8040..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1300, in restore
 <br />    names_to_keys = object_graph_key_mapping(save_path)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1618, in object_graph_key_mapping
@@ -645,7 +637,7 @@
 
 
 
-### Error 14, [Traceback at line 8872](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8872)<br />8872..Traceback (most recent call last):
+### Error 14, [Traceback at line 8051](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8051)<br />8051..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tf//1_lstm.py", line 332, in <module>
 <br />    test(data_path="", pars_choice="test01", config_mode="test")
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tf//1_lstm.py", line 320, in test
@@ -714,10 +706,10 @@
 <br />log_test_cli
 <br />log_testall
 <br />test_jupyter
-<br />[master b12d9f2] ml_store
+<br />[master 4f71e64] ml_store
 <br /> 1 file changed, 233 insertions(+)
 <br />To github.com:arita37/mlmodels_store.git
-<br />   503dfe6..b12d9f2  master -> master
+<br />   7ed0fe8..4f71e64  master -> master
 <br />
 <br />
 <br />
@@ -729,21 +721,21 @@
 
 
 
-### Error 15, [Traceback at line 8953](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8953)<br />8953..Traceback (most recent call last):
+### Error 15, [Traceback at line 8132](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8132)<br />8132..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
 <br />    from mlmodels.mode_tf.raw  import temporal_fusion_google
 <br />ModuleNotFoundError: No module named 'mlmodels.mode_tf'
 
 
 
-### Error 16, [Traceback at line 9214](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L9214)<br />9214..Traceback (most recent call last):
+### Error 16, [Traceback at line 8491](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8491)<br />8491..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
 <br />    test(data_path = "model_fb/fbprophet.json", choice="json" )
 <br />TypeError: test() got an unexpected keyword argument 'choice'
 
 
 
-### Error 17, [Traceback at line 9249](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L9249)<br />9249..Traceback (most recent call last):
+### Error 17, [Traceback at line 8526](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L8526)<br />8526..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_gluon//gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
@@ -763,7 +755,7 @@
 
 
 
-### Error 18, [Traceback at line 10823](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10823)<br />10823..Traceback (most recent call last):
+### Error 18, [Traceback at line 10100](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10100)<br />10100..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
 <br />    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
@@ -772,7 +764,7 @@
 
 
 
-### Error 19, [Traceback at line 11296](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L11296)<br />11296..Traceback (most recent call last):
+### Error 19, [Traceback at line 10496](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10496)<br />10496..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//torchhub.py", line 406, in <module>
 <br />    test(data_path="model_tch/torchhub_cnn_list.json", pars_choice="json", config_mode="resnet18")
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//torchhub.py", line 338, in test
@@ -795,21 +787,21 @@
 
 
 
-### Error 20, [Traceback at line 11347](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L11347)<br />11347..Traceback (most recent call last):
+### Error 20, [Traceback at line 10547](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10547)<br />10547..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
 <br />    from dataloader import DataLoader
 <br />ModuleNotFoundError: No module named 'dataloader'
 
 
 
-### Error 21, [Traceback at line 11468](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L11468)<br />11468..Traceback (most recent call last):
+### Error 21, [Traceback at line 10649](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10649)<br />10649..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
 <br />    "beta_vae": md.model.beta_vae,
 <br />AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
 
 
 
-### Error 22, [Traceback at line 11603](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L11603)<br />11603..Traceback (most recent call last):
+### Error 22, [Traceback at line 10785](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10785)<br />10785..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//textcnn.py", line 153, in create_tabular_dataset
 <br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
@@ -820,7 +812,7 @@
 
 
 
-### Error 23, [Traceback at line 11614](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-12-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L11614)<br />11614..Traceback (most recent call last):
+### Error 23, [Traceback at line 10796](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-14-16-12_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10796)<br />10796..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//textcnn.py", line 477, in <module>
 <br />    test( data_path="model_tch/textcnn.json", pars_choice = "test01" )
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//textcnn.py", line 442, in test
