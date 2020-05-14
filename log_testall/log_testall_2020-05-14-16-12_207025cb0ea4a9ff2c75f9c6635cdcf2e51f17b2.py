@@ -10362,3 +10362,56 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master b6b2ddb] ml_store
+ 1 file changed, 35 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   2bfa5b6..b6b2ddb  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pplm.py 
+ Generating text ... 
+= Prefix of sentence =
+<|endoftext|>The potato
+
+ Unperturbed generated text :
+
+<|endoftext|>The potato-shaped, potato-eating insect of modern times (Ophiocordyceps elegans) has a unique ability to adapt quickly to a wide range of environments. It is able to survive in many different environments, including the Arctic, deserts
+
+ Perturbed generated text :
+
+<|endoftext|>The potato bomb is nothing new. It's been on the news a lot since 9/11. In fact, since the bombing in Paris last November, a bomb has been detonated in every major European country in the European Union.
+
+The bomb in Brussels
+
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+From github.com:arita37/mlmodels_store
+   b6b2ddb..3ac4d7a  master     -> origin/master
+Updating b6b2ddb..3ac4d7a
+Fast-forward
+ .../20200514/list_log_dataloader_20200514.md       |   37 +-
+ error_list/20200514/list_log_json_20200514.md      | 1146 ++++++-------
+ error_list/20200514/list_log_jupyter_20200514.md   | 1689 ++++++++++----------
+ error_list/20200514/list_log_testall_20200514.md   |  295 ++--
+ 4 files changed, 1615 insertions(+), 1552 deletions(-)
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
