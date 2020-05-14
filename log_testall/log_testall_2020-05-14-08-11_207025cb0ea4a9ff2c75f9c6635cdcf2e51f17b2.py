@@ -9894,3 +9894,46 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 26b539e] ml_store
+ 1 file changed, 1123 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   aa8ed8f..26b539e  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+    cf = json.load(open(data_path, mode='r'))
+FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+From github.com:arita37/mlmodels_store
+   26b539e..fc6d829  master     -> origin/master
+Updating 26b539e..fc6d829
+Fast-forward
+ ...-13_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py | 2472 ++++++++++++++++++++
+ 1 file changed, 2472 insertions(+)
+ create mode 100644 log_benchmark/log_benchmark_2020-05-14-08-13_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
