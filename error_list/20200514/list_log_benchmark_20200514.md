@@ -1,7 +1,7 @@
-## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py
+## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py
 
 
-### Error 1, [Traceback at line 986](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L986)<br />986..Traceback (most recent call last):
+### Error 1, [Traceback at line 1004](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1004)<br />1004..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -31,14 +31,14 @@
 
 
 
-### Error 2, [Traceback at line 1016](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1016)<br />1016..Traceback (most recent call last):
+### Error 2, [Traceback at line 1034](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1034)<br />1034..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 3, [Traceback at line 1023](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1023)<br />1023..Traceback (most recent call last):
+### Error 3, [Traceback at line 1041](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1041)<br />1041..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -47,7 +47,7 @@
 
 
 
-### Error 4, [Traceback at line 1029](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1029)<br />1029..Traceback (most recent call last):
+### Error 4, [Traceback at line 1047](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1047)<br />1047..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -77,14 +77,14 @@
 
 
 
-### Error 5, [Traceback at line 1059](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1059)<br />1059..Traceback (most recent call last):
+### Error 5, [Traceback at line 1077](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1077)<br />1077..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 6, [Traceback at line 1066](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1066)<br />1066..Traceback (most recent call last):
+### Error 6, [Traceback at line 1084](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1084)<br />1084..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -93,7 +93,7 @@
 
 
 
-### Error 7, [Traceback at line 1072](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1072)<br />1072..Traceback (most recent call last):
+### Error 7, [Traceback at line 1090](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1090)<br />1090..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -123,14 +123,14 @@
 
 
 
-### Error 8, [Traceback at line 1102](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1102)<br />1102..Traceback (most recent call last):
+### Error 8, [Traceback at line 1120](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1120)<br />1120..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 9, [Traceback at line 1148](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1148)<br />1148..Traceback (most recent call last):
+### Error 9, [Traceback at line 1166](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1166)<br />1166..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -139,7 +139,7 @@
 
 
 
-### Error 10, [Traceback at line 1154](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1154)<br />1154..Traceback (most recent call last):
+### Error 10, [Traceback at line 1172](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1172)<br />1172..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -169,14 +169,14 @@
 
 
 
-### Error 11, [Traceback at line 1184](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1184)<br />1184..Traceback (most recent call last):
+### Error 11, [Traceback at line 1202](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1202)<br />1202..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 12, [Traceback at line 1191](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1191)<br />1191..Traceback (most recent call last):
+### Error 12, [Traceback at line 1209](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1209)<br />1209..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -185,7 +185,7 @@
 
 
 
-### Error 13, [Traceback at line 1197](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1197)<br />1197..Traceback (most recent call last):
+### Error 13, [Traceback at line 1215](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1215)<br />1215..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -215,14 +215,14 @@
 
 
 
-### Error 14, [Traceback at line 1227](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1227)<br />1227..Traceback (most recent call last):
+### Error 14, [Traceback at line 1245](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1245)<br />1245..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 15, [Traceback at line 1234](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1234)<br />1234..Traceback (most recent call last):
+### Error 15, [Traceback at line 1252](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1252)<br />1252..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -231,7 +231,7 @@
 
 
 
-### Error 16, [Traceback at line 1240](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1240)<br />1240..Traceback (most recent call last):
+### Error 16, [Traceback at line 1258](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1258)<br />1258..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -288,18 +288,18 @@
 <br />  benchmark file saved at https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/example/benchmark/timeseries/test02/model_list.json 
 <br />
 <br />                        date_run  ...            metric_name
-<br />0   2020-05-14 06:14:24.980932  ...    mean_absolute_error
-<br />1   2020-05-14 06:14:24.985412  ...     mean_squared_error
-<br />2   2020-05-14 06:14:24.989333  ...  median_absolute_error
-<br />3   2020-05-14 06:14:24.993211  ...               r2_score
-<br />4   2020-05-14 06:14:35.280813  ...    mean_absolute_error
-<br />5   2020-05-14 06:14:35.285796  ...     mean_squared_error
-<br />6   2020-05-14 06:14:35.289859  ...  median_absolute_error
-<br />7   2020-05-14 06:14:35.294546  ...               r2_score
-<br />8   2020-05-14 06:14:58.749522  ...    mean_absolute_error
-<br />9   2020-05-14 06:14:58.756583  ...     mean_squared_error
-<br />10  2020-05-14 06:14:58.764892  ...  median_absolute_error
-<br />11  2020-05-14 06:14:58.771346  ...               r2_score
+<br />0   2020-05-14 09:11:53.036342  ...    mean_absolute_error
+<br />1   2020-05-14 09:11:53.040470  ...     mean_squared_error
+<br />2   2020-05-14 09:11:53.043942  ...  median_absolute_error
+<br />3   2020-05-14 09:11:53.047251  ...               r2_score
+<br />4   2020-05-14 09:12:01.499032  ...    mean_absolute_error
+<br />5   2020-05-14 09:12:01.502619  ...     mean_squared_error
+<br />6   2020-05-14 09:12:01.505712  ...  median_absolute_error
+<br />7   2020-05-14 09:12:01.508620  ...               r2_score
+<br />8   2020-05-14 09:12:19.519660  ...    mean_absolute_error
+<br />9   2020-05-14 09:12:19.525616  ...     mean_squared_error
+<br />10  2020-05-14 09:12:19.533216  ...  median_absolute_error
+<br />11  2020-05-14 09:12:19.538385  ...               r2_score
 <br />
 <br />[12 rows x 6 columns] 
 <br />  File "pydantic/main.py", line 778, in pydantic.main.create_model
@@ -307,14 +307,14 @@
 
 
 
-### Error 17, [Traceback at line 1316](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1316)<br />1316..Traceback (most recent call last):
+### Error 17, [Traceback at line 1334](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1334)<br />1334..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 18, [Traceback at line 1323](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1323)<br />1323..Traceback (most recent call last):
+### Error 18, [Traceback at line 1341](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1341)<br />1341..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -323,7 +323,7 @@
 
 
 
-### Error 19, [Traceback at line 1329](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1329)<br />1329..Traceback (most recent call last):
+### Error 19, [Traceback at line 1347](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1347)<br />1347..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -353,14 +353,14 @@
 
 
 
-### Error 20, [Traceback at line 1359](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1359)<br />1359..Traceback (most recent call last):
+### Error 20, [Traceback at line 1377](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1377)<br />1377..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 21, [Traceback at line 1366](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1366)<br />1366..Traceback (most recent call last):
+### Error 21, [Traceback at line 1384](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1384)<br />1384..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -369,7 +369,7 @@
 
 
 
-### Error 22, [Traceback at line 1372](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1372)<br />1372..Traceback (most recent call last):
+### Error 22, [Traceback at line 1390](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1390)<br />1390..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -399,14 +399,14 @@
 
 
 
-### Error 23, [Traceback at line 1402](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1402)<br />1402..Traceback (most recent call last):
+### Error 23, [Traceback at line 1420](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1420)<br />1420..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 24, [Traceback at line 1409](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1409)<br />1409..Traceback (most recent call last):
+### Error 24, [Traceback at line 1427](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1427)<br />1427..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -415,7 +415,7 @@
 
 
 
-### Error 25, [Traceback at line 1556](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1556)<br />1556..Traceback (most recent call last):
+### Error 25, [Traceback at line 1574](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1574)<br />1574..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -436,7 +436,7 @@
 
 
 
-### Error 26, [Traceback at line 1575](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1575)<br />1575..Traceback (most recent call last):
+### Error 26, [Traceback at line 1593](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1593)<br />1593..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -457,7 +457,7 @@
 
 
 
-### Error 27, [Traceback at line 1594](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1594)<br />1594..Traceback (most recent call last):
+### Error 27, [Traceback at line 1612](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1612)<br />1612..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -478,7 +478,7 @@
 
 
 
-### Error 28, [Traceback at line 1613](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1613)<br />1613..Traceback (most recent call last):
+### Error 28, [Traceback at line 1631](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1631)<br />1631..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -499,7 +499,7 @@
 
 
 
-### Error 29, [Traceback at line 1632](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1632)<br />1632..Traceback (most recent call last):
+### Error 29, [Traceback at line 1650](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1650)<br />1650..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -530,7 +530,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f0fd8680e80> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f6edb3194e0> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  #### If transformer URI is Provided 
 <br />
@@ -551,7 +551,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f0fd542cbe0> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f6edb303c50> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  #### If transformer URI is Provided 
 <br />
@@ -572,7 +572,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f0fd54414e0> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f6ede557e80> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  #### If transformer URI is Provided 
 <br />
@@ -593,7 +593,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f0fd7bc56d8> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f6edda9c710> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  #### If transformer URI is Provided 
 <br />
@@ -614,7 +614,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f0fd8680e80> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f6edb3194e0> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  #### If transformer URI is Provided 
 <br />
@@ -625,7 +625,7 @@
 
 
 
-### Error 30, [Traceback at line 1756](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1756)<br />1756..Traceback (most recent call last):
+### Error 30, [Traceback at line 1774](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1774)<br />1774..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -646,7 +646,7 @@
 
 
 
-### Error 31, [Traceback at line 1775](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1775)<br />1775..Traceback (most recent call last):
+### Error 31, [Traceback at line 1793](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1793)<br />1793..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -667,7 +667,7 @@
 
 
 
-### Error 32, [Traceback at line 1794](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1794)<br />1794..Traceback (most recent call last):
+### Error 32, [Traceback at line 1812](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1812)<br />1812..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -688,7 +688,7 @@
 
 
 
-### Error 33, [Traceback at line 1813](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1813)<br />1813..Traceback (most recent call last):
+### Error 33, [Traceback at line 1831](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1831)<br />1831..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -709,7 +709,7 @@
 
 
 
-### Error 34, [Traceback at line 1832](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1832)<br />1832..Traceback (most recent call last):
+### Error 34, [Traceback at line 1850](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1850)<br />1850..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -734,7 +734,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f0fd7a7e550> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f6eddb88128> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  #### If transformer URI is Provided 
 <br />
@@ -760,7 +760,7 @@
 
 
 
-### Error 35, [Traceback at line 1881](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1881)<br />1881..Traceback (most recent call last):
+### Error 35, [Traceback at line 1899](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1899)<br />1899..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/torchhub.py", line 207, in fit
@@ -781,7 +781,7 @@
 
 
 
-### Error 36, [Traceback at line 1908](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1908)<br />1908..Traceback (most recent call last):
+### Error 36, [Traceback at line 1926](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1926)<br />1926..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 284, in <module>
 <br />    main()
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 281, in main
@@ -814,37 +814,37 @@
 <br />{'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f73eee3f1d0> <class 'mlmodels.model_tch.textcnn.Model'>
+<br />>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f2475d14208> <class 'mlmodels.model_tch.textcnn.Model'>
 <br />Spliting original file to train/valid set...
 <br />
 <br />  Download en 
 <br />Collecting en_core_web_sm==2.2.5
 <br />  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz (12.0 MB)
 <br />Requirement already satisfied: spacy>=2.2.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from en_core_web_sm==2.2.5) (2.2.4)
-<br />Requirement already satisfied: blis<0.5.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.4.1)
-<br />Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.0.3)
-<br />Requirement already satisfied: thinc==7.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (7.4.0)
-<br />Requirement already satisfied: wasabi<1.1.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.6.0)
+<br />Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
 <br />Requirement already satisfied: srsly<1.1.0,>=1.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
 <br />Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.2)
-<br />Requirement already satisfied: setuptools in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (45.2.0)
-<br />Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (4.46.0)
-<br />Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
-<br />Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.23.0)
-<br />Requirement already satisfied: plac<1.2.0,>=0.9.6 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.1.3)
+<br />Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.0.3)
 <br />Requirement already satisfied: numpy>=1.15.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.18.4)
+<br />Requirement already satisfied: blis<0.5.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.4.1)
+<br />Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.23.0)
+<br />Requirement already satisfied: wasabi<1.1.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.6.0)
 <br />Requirement already satisfied: catalogue<1.1.0,>=0.0.7 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.0)
-<br />Requirement already satisfied: idna<3,>=2.5 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2.9)
-<br />Requirement already satisfied: chardet<4,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.4)
+<br />Requirement already satisfied: plac<1.2.0,>=0.9.6 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.1.3)
+<br />Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (4.46.0)
+<br />Requirement already satisfied: thinc==7.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (7.4.0)
+<br />Requirement already satisfied: setuptools in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (45.2.0)
 <br />Requirement already satisfied: certifi>=2017.4.17 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2020.4.5.1)
+<br />Requirement already satisfied: chardet<4,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.4)
+<br />Requirement already satisfied: idna<3,>=2.5 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2.9)
 <br />Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (1.25.9)
 <br />Requirement already satisfied: importlib-metadata>=0.20; python_version < "3.8" in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from catalogue<1.1.0,>=0.0.7->spacy>=2.2.2->en_core_web_sm==2.2.5) (1.6.0)
 <br />Requirement already satisfied: zipp>=0.5 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy>=2.2.2->en_core_web_sm==2.2.5) (3.1.0)
 <br />Building wheels for collected packages: en-core-web-sm
 <br />  Building wheel for en-core-web-sm (setup.py): started
 <br />  Building wheel for en-core-web-sm (setup.py): finished with status 'done'
-<br />  Created wheel for en-core-web-sm: filename=en_core_web_sm-2.2.5-py3-none-any.whl size=12011738 sha256=3109d16bc66c7cc5dc2f97f50be6b8f074a1dac22fe91c452e912afe5514ca81
-<br />  Stored in directory: /tmp/pip-ephem-wheel-cache-_z8o84gd/wheels/b5/94/56/596daa677d7e91038cbddfcf32b591d0c915a1b3a3e3d3c79d
+<br />  Created wheel for en-core-web-sm: filename=en_core_web_sm-2.2.5-py3-none-any.whl size=12011738 sha256=2e66fd342753624b5c8ac096cb6c697b4e5f47b6d1b4cf4ce7fde0f8b4c45d94
+<br />  Stored in directory: /tmp/pip-ephem-wheel-cache-u09k58aq/wheels/b5/94/56/596daa677d7e91038cbddfcf32b591d0c915a1b3a3e3d3c79d
 <br />Successfully built en-core-web-sm
 <br />Installing collected packages: en-core-web-sm
 <br />Successfully installed en-core-web-sm-2.2.5
@@ -871,7 +871,7 @@
 
 
 
-### Error 37, [Traceback at line 1995](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L1995)<br />1995..Traceback (most recent call last):
+### Error 37, [Traceback at line 2013](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L2013)<br />2013..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/textcnn.py", line 153, in create_tabular_dataset
 <br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
@@ -882,7 +882,7 @@
 
 
 
-### Error 38, [Traceback at line 2006](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L2006)<br />2006..Traceback (most recent call last):
+### Error 38, [Traceback at line 2024](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L2024)<br />2024..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/textcnn.py", line 291, in fit
@@ -899,16 +899,26 @@
 
 
 
-### Error 39, [Traceback at line 3408](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3408)<br />3408..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 140, in benchmark_run
-<br />    metric_val = metric_eval(actual=ytrue, pred=ypred,  metric_name=metric)
-<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 60, in metric_eval
-<br />    metric = getattr(importlib.import_module("sklearn.metrics"), metric_name)
-<br />AttributeError: module 'sklearn.metrics' has no attribute 'accuracy, f1_score'
+### Error 39, [Traceback at line 3340](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3340)<br />3340..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 133, in benchmark_run
+<br />    return_ytrue=1)
+<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/textcnn.py", line 352, in predict
+<br />    ypred = model0(x_test)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+<br />    result = self.forward(*input, **kwargs)
+<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/textcnn.py", line 238, in forward
+<br />    emb_x = self.embed(x)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+<br />    result = self.forward(*input, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/nn/modules/sparse.py", line 114, in forward
+<br />    self.norm_type, self.scale_grad_by_freq, self.sparse)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/nn/functional.py", line 1467, in embedding
+<br />    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+<br />RuntimeError: index out of range: Tried to access index 15867 out of table with 15852 rows. at /pytorch/aten/src/TH/generic/THTensorEvenMoreMath.cpp:237
 
 
 
-### Error 40, [Traceback at line 3414](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3414)<br />3414..Traceback (most recent call last):
+### Error 40, [Traceback at line 3356](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3356)<br />3356..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 120, in benchmark_run
 <br />    model     = module.Model(model_pars, data_pars, compute_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/matchzoo_models.py", line 241, in __init__
@@ -917,7 +927,7 @@
 
 
 
-### Error 41, [Traceback at line 3606](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3606)<br />3606..Traceback (most recent call last):
+### Error 41, [Traceback at line 3548](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3548)<br />3548..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 140, in benchmark_run
 <br />    metric_val = metric_eval(actual=ytrue, pred=ypred,  metric_name=metric)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 60, in metric_eval
@@ -926,7 +936,7 @@
 
 
 
-### Error 42, [Traceback at line 3612](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3612)<br />3612..Traceback (most recent call last):
+### Error 42, [Traceback at line 3554](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3554)<br />3554..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -943,14 +953,14 @@
 
 
 
-### Error 43, [Traceback at line 3629](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3629)<br />3629..Traceback (most recent call last):
+### Error 43, [Traceback at line 3571](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3571)<br />3571..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 44, [Traceback at line 3636](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3636)<br />3636..Traceback (most recent call last):
+### Error 44, [Traceback at line 3578](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3578)<br />3578..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -959,7 +969,7 @@
 
 
 
-### Error 45, [Traceback at line 3642](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3642)<br />3642..Traceback (most recent call last):
+### Error 45, [Traceback at line 3584](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3584)<br />3584..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -976,14 +986,14 @@
 
 
 
-### Error 46, [Traceback at line 3659](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3659)<br />3659..Traceback (most recent call last):
+### Error 46, [Traceback at line 3601](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3601)<br />3601..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 47, [Traceback at line 3666](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3666)<br />3666..Traceback (most recent call last):
+### Error 47, [Traceback at line 3608](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3608)<br />3608..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/models.py", line 89, in module_load
@@ -992,7 +1002,7 @@
 
 
 
-### Error 48, [Traceback at line 3672](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3672)<br />3672..Traceback (most recent call last):
+### Error 48, [Traceback at line 3614](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3614)<br />3614..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch/transformer_sentence.py", line 164, in fit
@@ -1001,7 +1011,7 @@
 
 
 
-### Error 49, [Traceback at line 3678](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3678)<br />3678..Traceback (most recent call last):
+### Error 49, [Traceback at line 3620](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3620)<br />3620..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 140, in benchmark_run
 <br />    metric_val = metric_eval(actual=ytrue, pred=ypred,  metric_name=metric)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 60, in metric_eval
@@ -1010,7 +1020,7 @@
 
 
 
-### Error 50, [Traceback at line 3684](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-06-14_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3684)<br />3684..Traceback (most recent call last):
+### Error 50, [Traceback at line 3626](https://github.com/arita37/mlmodels_store/blob/master/log_benchmark/log_benchmark_2020-05-14-09-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L3626)<br />3626..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/benchmark.py", line 120, in benchmark_run
 <br />    model     = module.Model(model_pars, data_pars, compute_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_keras/textvae.py", line 51, in __init__
