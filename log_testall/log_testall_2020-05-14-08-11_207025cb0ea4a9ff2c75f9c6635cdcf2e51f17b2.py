@@ -10125,3 +10125,54 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 7072147] ml_store
+ 1 file changed, 35 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   410c62b..7072147  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:09<77:53:44,  9.53s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+From github.com:arita37/mlmodels_store
+   7072147..bb159a7  master     -> origin/master
+Updating 7072147..bb159a7
+Fast-forward
+ .../20200514/list_log_dataloader_20200514.md       |    2 +-
+ error_list/20200514/list_log_json_20200514.md      | 1146 ++++++-------
+ error_list/20200514/list_log_jupyter_20200514.md   | 1679 ++++++++++----------
+ .../20200514/list_log_pullrequest_20200514.md      |    2 +-
+ error_list/20200514/list_log_testall_20200514.md   |  250 +--
+ 5 files changed, 1538 insertions(+), 1541 deletions(-)
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
