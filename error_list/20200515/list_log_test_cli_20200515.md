@@ -1,7 +1,7 @@
-## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py
+## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py
 
 
-### Error 1, [Traceback at line 154](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L154)<br />154..Traceback (most recent call last):
+### Error 1, [Traceback at line 154](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L154)<br />154..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
 <br />    return fn(*args)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
@@ -16,7 +16,7 @@
 
 
 
-### Error 2, [Traceback at line 166](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L166)<br />166..Traceback (most recent call last):
+### Error 2, [Traceback at line 166](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L166)<br />166..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1290, in restore
 <br />    {self.saver_def.filename_tensor_name: save_path})
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
@@ -74,7 +74,7 @@
 
 
 
-### Error 3, [Traceback at line 221](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L221)<br />221..Traceback (most recent call last):
+### Error 3, [Traceback at line 221](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L221)<br />221..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1300, in restore
 <br />    names_to_keys = object_graph_key_mapping(save_path)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1618, in object_graph_key_mapping
@@ -88,18 +88,18 @@
 
 
 
-### Error 4, [Traceback at line 232](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L232)<br />232..Traceback (most recent call last):
+### Error 4, [Traceback at line 232](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L232)<br />232..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 531, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 531, in main
 <br />    predict_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 442, in predict_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 442, in predict_cli
 <br />    model, session = load(module, load_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 156, in load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 156, in load
 <br />    return module.load(load_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_tf/1_lstm.py", line 199, in load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_tf/1_lstm.py", line 199, in load
 <br />    return load_tf(load_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/util.py", line 477, in load_tf
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/util.py", line 477, in load_tf
 <br />    saver.restore(sess,  full_name)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1306, in restore
 <br />    err, "a Variable name or other graph key that is missing")
@@ -160,7 +160,7 @@
 <br />Instructions for updating:
 <br />non-resource variables are not supported in the long term
 <br />
-<br />  <module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_tf/1_lstm.py'> 
+<br />  <module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_tf/1_lstm.py'> 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -168,11 +168,11 @@
 <br />
 <br />  #### Model init   ############################################ 
 <br />
-<br />  <mlmodels.model_tf.1_lstm.Model object at 0x7f15b1ebf2b0> 
+<br />  <mlmodels.model_tf.1_lstm.Model object at 0x7fa40d84c2b0> 
 <br />
 <br />  #### Fit   ######################################################## 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -189,8 +189,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   #################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -211,14 +211,14 @@
 <br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />[[ 0.          0.          0.          0.          0.          0.        ]
-<br /> [ 0.05004057 -0.06487364  0.04357577  0.07510626  0.07215239 -0.08900584]
-<br /> [-0.02481889  0.20772494  0.10275589  0.19973771  0.04520104 -0.09143519]
-<br /> [-0.05956472  0.10610958  0.30823696  0.1660448   0.15132646  0.14775327]
-<br /> [-0.03976356  0.06323754  0.20183568  0.12417478  0.21569729  0.24532343]
-<br /> [ 0.33357409 -0.06580023  0.34678227  0.22096293  0.42591539 -0.41965029]
-<br /> [-0.27029759 -0.2561152   0.18115059  0.07081573  0.37473607  0.19488622]
-<br /> [ 0.38215852  0.03818786  0.14663862  0.04627547  0.42881912 -0.18615144]
-<br /> [ 0.09620622  0.30228698 -0.03090607  0.23525682 -0.16413671  0.01489998]
+<br /> [ 0.10252666  0.12346374  0.20701234  0.05217282  0.23638476  0.13306314]
+<br /> [-0.1917371   0.13606051 -0.13451433  0.04507243 -0.15967423  0.12189175]
+<br /> [-0.07851784 -0.08002251  0.23436388  0.0015357  -0.07652827 -0.04755552]
+<br /> [-0.06605932 -0.1206919   0.58788842  0.43849552  0.12629844  0.56834465]
+<br /> [-0.1613992   0.24470633  0.35954407  0.05601655 -0.13509558  0.10504552]
+<br /> [ 0.41825444 -0.16445324 -0.28252271  0.08956451  0.35502425  0.13454385]
+<br /> [ 0.59619814  0.06043234 -0.49802485 -0.01925573  0.3473534   0.21186258]
+<br /> [ 0.73327798  0.12680781 -0.16991936  0.02840639  0.5059132   0.84370744]
 <br /> [ 0.          0.          0.          0.          0.          0.        ]]
 <br />
 <br />  #### Get  metrics   ################################################ 
@@ -228,18 +228,18 @@
 <br />  #### Load   ######################################################## 
 <br />model_tf.1_lstm
 <br />model_tf.1_lstm
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_tf/1_lstm.py'>
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_tf/1_lstm.py'>
+<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_tf/1_lstm.py'>
+<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_tf/1_lstm.py'>
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
 <br />  ############# Data, Params preparation   ################# 
 <br />
-<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'} 
+<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'} 
 <br />
 <br />  #### Loading dataset   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -252,8 +252,8 @@
 <br />  #### Model init  ############################################# 
 <br />
 <br />  #### Model fit   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -270,8 +270,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   ##################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -293,17 +293,17 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.4553322270512581, 'loss_history': []}
+<br />{'loss': 0.5204338729381561, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
 <br />  #### Save   ######################################################## 
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/'}
-<br />Model saved in path: https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/'}
+<br />Model saved in path: https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 <br />
 <br />  #### Load   ######################################################## 
-<br />2020-05-15 17:06:13.113803: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'}
+<br />2020-05-15 15:30:16.396734: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 <br />
 <br />Key Variable not found in checkpoint
@@ -351,18 +351,18 @@
 <br />
 <br />model_tf.1_lstm
 <br />model_tf.1_lstm
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_tf/1_lstm.py'>
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_tf/1_lstm.py'>
+<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_tf/1_lstm.py'>
+<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_tf/1_lstm.py'>
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
 <br />  ############# Data, Params preparation   ################# 
 <br />
-<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'} 
+<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'} 
 <br />
 <br />  #### Loading dataset   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -375,8 +375,8 @@
 <br />  #### Model init  ############################################# 
 <br />
 <br />  #### Model fit   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -393,8 +393,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   ##################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -416,17 +416,17 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.42250266671180725, 'loss_history': []}
+<br />{'loss': 0.4478055089712143, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
 <br />  #### Save   ######################################################## 
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/'}
-<br />Model saved in path: https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/'}
+<br />Model saved in path: https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 <br />
 <br />  #### Load   ######################################################## 
-<br />2020-05-15 17:06:14.252211: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'}
+<br />2020-05-15 15:30:17.585724: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 <br />
 <br />Key Variable not found in checkpoint
@@ -486,7 +486,7 @@
 <br />Instructions for updating:
 <br />non-resource variables are not supported in the long term
 <br />
-<br />  <module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/example/custom_model/1_lstm.py'> 
+<br />  <module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/example/custom_model/1_lstm.py'> 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -494,11 +494,11 @@
 <br />
 <br />  #### Model init   ############################################ 
 <br />
-<br />  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f520cd0b390> 
+<br />  <mlmodels.example.custom_model.1_lstm.Model object at 0x7fb088083390> 
 <br />
 <br />  #### Fit   ######################################################## 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -515,8 +515,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   #################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -537,14 +537,14 @@
 <br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />[[ 0.          0.          0.          0.          0.          0.        ]
-<br /> [ 0.08145988 -0.02681749  0.07733606 -0.10262705  0.03106353 -0.02758007]
-<br /> [-0.29193026  0.1558422   0.1845859  -0.03634575 -0.1677807   0.0378445 ]
-<br /> [-0.08880305  0.13348489 -0.01321433  0.15656821 -0.13305423  0.20694689]
-<br /> [ 0.09733704  0.20884717  0.27932549 -0.0320635  -0.08565452  0.26186064]
-<br /> [-0.07262983  0.34940112 -0.28956342 -0.32472005 -0.25545639  0.30273893]
-<br /> [ 0.12874083 -0.14137711 -0.22203785 -0.47140762 -0.52955437 -0.36032805]
-<br /> [-0.06229569  0.17040931  0.05445899  0.79780442  0.28086913 -0.013388  ]
-<br /> [-0.43916428  0.02769846  0.19673784  0.31738609 -0.04299035  0.04717932]
+<br /> [ 0.12644559 -0.06229057  0.08366868 -0.05069426 -0.00126215  0.01313358]
+<br /> [ 0.07569117  0.09590266  0.04055408 -0.01993888 -0.02317828 -0.01643202]
+<br /> [-0.13817872  0.03992565 -0.01637451  0.24794938  0.00562925  0.1277459 ]
+<br /> [ 0.08372054  0.25518116 -0.17836595  0.30366328  0.12065165  0.23987617]
+<br /> [ 0.02430385 -0.0405121  -0.12792715 -0.02232967 -0.13728403  0.00439967]
+<br /> [ 0.46177423  0.74126178  0.09361482  0.58163905 -0.14195259  0.37804618]
+<br /> [ 0.00653334  0.13709992  0.00908682  0.00346298  0.05510684 -0.18627703]
+<br /> [-0.20382254  0.19158031  0.10348317  0.37735918  0.14176868  0.17601797]
 <br /> [ 0.          0.          0.          0.          0.          0.        ]]
 <br />
 <br />  #### Get  metrics   ################################################ 
@@ -554,18 +554,18 @@
 <br />  #### Load   ######################################################## 
 <br />example/custom_model/1_lstm.py
 <br />example.custom_model.1_lstm.py
-<br /><module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/example/custom_model/1_lstm.py'>
-<br /><module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/example/custom_model/1_lstm.py'>
+<br /><module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/example/custom_model/1_lstm.py'>
+<br /><module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/example/custom_model/1_lstm.py'>
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
 <br />  ############# Data, Params preparation   ################# 
 <br />
-<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'} 
+<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'} 
 <br />
 <br />  #### Loading dataset   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -578,8 +578,8 @@
 <br />  #### Model init  ############################################# 
 <br />
 <br />  #### Model fit   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -596,8 +596,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   ##################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -619,15 +619,15 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.43397223204374313, 'loss_history': []}
+<br />{'loss': 0.39365673065185547, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
 <br />  #### Save/Load   ################################################### 
-<br />2020-05-15 17:06:19.146217: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'}
-<br />Model saved in path: https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'}
+<br />2020-05-15 15:30:22.582281: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'}
+<br />Model saved in path: https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 <br />
 <br />Key Variable not found in checkpoint
@@ -675,18 +675,18 @@
 <br />
 <br />example/custom_model/1_lstm.py
 <br />example.custom_model.1_lstm.py
-<br /><module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/example/custom_model/1_lstm.py'>
-<br /><module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/example/custom_model/1_lstm.py'>
+<br /><module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/example/custom_model/1_lstm.py'>
+<br /><module 'mlmodels.example.custom_model.1_lstm' from 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/example/custom_model/1_lstm.py'>
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
 <br />  ############# Data, Params preparation   ################# 
 <br />
-<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'} 
+<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'} 
 <br />
 <br />  #### Loading dataset   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -699,8 +699,8 @@
 <br />  #### Model init  ############################################# 
 <br />
 <br />  #### Model fit   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -717,8 +717,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   ##################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-<br />https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
+<br />https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -740,15 +740,15 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.43635673075914383, 'loss_history': []}
+<br />{'loss': 0.49646519869565964, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
 <br />  #### Save/Load   ################################################### 
-<br />2020-05-15 17:06:20.304379: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'}
-<br />Model saved in path: https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_tf/1_lstm/model'}
+<br />2020-05-15 15:30:23.762257: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'}
+<br />Model saved in path: https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 <br />
 <br />Key Variable not found in checkpoint
@@ -807,21 +807,21 @@
 
 
 
-### Error 5, [Traceback at line 948](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L948)<br />948..Traceback (most recent call last):
+### Error 5, [Traceback at line 948](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L948)<br />948..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_optim", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/optim.py", line 388, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/optim.py", line 388, in main
 <br />    optim_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/optim.py", line 259, in optim_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/optim.py", line 259, in optim_cli
 <br />    out_pars        = out_pars )
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/optim.py", line 54, in optim
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/optim.py", line 54, in optim
 <br />    if hypermodel_pars["engine_pars"]['engine'] == "optuna":
 <br />KeyError: 'engine_pars'
 
 
 
-### Error 6, [Traceback at line 2074](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2074)<br />2074..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 72, in module_load
+### Error 6, [Traceback at line 2086](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2086)<br />2086..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -831,7 +831,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -850,24 +850,24 @@
 
 
 
-### Error 7, [Traceback at line 2104](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2104)<br />2104..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 84, in module_load
+### Error 7, [Traceback at line 2116](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2116)<br />2116..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 8, [Traceback at line 2111](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2111)<br />2111..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 8, [Traceback at line 2123](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2123)<br />2123..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range
 
 
 
-### Error 9, [Traceback at line 2117](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2117)<br />2117..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 72, in module_load
+### Error 9, [Traceback at line 2129](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2129)<br />2129..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -877,7 +877,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -896,24 +896,24 @@
 
 
 
-### Error 10, [Traceback at line 2147](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2147)<br />2147..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 84, in module_load
+### Error 10, [Traceback at line 2159](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2159)<br />2159..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 11, [Traceback at line 2154](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2154)<br />2154..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 11, [Traceback at line 2166](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2166)<br />2166..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range
 
 
 
-### Error 12, [Traceback at line 2160](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2160)<br />2160..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 72, in module_load
+### Error 12, [Traceback at line 2172](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2172)<br />2172..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -923,7 +923,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -942,24 +942,24 @@
 
 
 
-### Error 13, [Traceback at line 2190](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2190)<br />2190..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 84, in module_load
+### Error 13, [Traceback at line 2202](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2202)<br />2202..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 14, [Traceback at line 2236](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2236)<br />2236..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 14, [Traceback at line 2248](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2248)<br />2248..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range
 
 
 
-### Error 15, [Traceback at line 2242](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2242)<br />2242..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 72, in module_load
+### Error 15, [Traceback at line 2254](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2254)<br />2254..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -969,7 +969,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -988,24 +988,24 @@
 
 
 
-### Error 16, [Traceback at line 2272](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2272)<br />2272..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 84, in module_load
+### Error 16, [Traceback at line 2284](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2284)<br />2284..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 17, [Traceback at line 2279](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2279)<br />2279..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 17, [Traceback at line 2291](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2291)<br />2291..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range
 
 
 
-### Error 18, [Traceback at line 2285](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2285)<br />2285..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 72, in module_load
+### Error 18, [Traceback at line 2297](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2297)<br />2297..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -1015,7 +1015,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -1034,24 +1034,24 @@
 
 
 
-### Error 19, [Traceback at line 2315](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2315)<br />2315..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 84, in module_load
+### Error 19, [Traceback at line 2327](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2327)<br />2327..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 20, [Traceback at line 2322](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2322)<br />2322..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 20, [Traceback at line 2334](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2334)<br />2334..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range
 
 
 
-### Error 21, [Traceback at line 2328](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2328)<br />2328..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 72, in module_load
+### Error 21, [Traceback at line 2340](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2340)<br />2340..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -1061,7 +1061,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -1076,7 +1076,7 @@
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/core/component.py", line 398, in validator
 <br />    **init_fields,
 <br />
-<br />  {'model_pars': {'model_uri': 'model_gluon.gluonts_model', 'model_name': 'gp_forecaster', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'cardinality': 2, 'max_iter_jitter': 10, 'jitter_method': 'iter', 'sample_noise': True, 'num_parallel_samples': 100}, '_comment': {'context_length': 'Optional[int] = None', 'kernel_output': 'KernelOutput = RBFKernelOutput()', 'dtype': 'DType = np.float64', 'time_features': 'Optional[List[TimeFeature]] = None'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_gluon/gluonts_gpforecaster/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range 
+<br />  {'model_pars': {'model_uri': 'model_gluon.gluonts_model', 'model_name': 'gp_forecaster', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'cardinality': 2, 'max_iter_jitter': 10, 'jitter_method': 'iter', 'sample_noise': True, 'num_parallel_samples': 100}, '_comment': {'context_length': 'Optional[int] = None', 'kernel_output': 'KernelOutput = RBFKernelOutput()', 'dtype': 'DType = np.float64', 'time_features': 'Optional[List[TimeFeature]] = None'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_gluon/gluonts_gpforecaster/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range 
 <br />
 <br />  
 <br />
@@ -1085,11 +1085,11 @@
 <br />
 <br />  #### Model URI and Config JSON 
 <br />
-<br />  data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_gluon/gluonts_feedforward/', 'plot_prob': True, 'quantiles': [0.5]} 
+<br />  data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_gluon/gluonts_feedforward/', 'plot_prob': True, 'quantiles': [0.5]} 
 <br />
 <br />  #### Setup Model   ############################################## 
 <br />
-<br />  {'model_pars': {'model_uri': 'model_gluon.gluonts_model', 'model_name': 'feedforward', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'batch_normalization': False, 'mean_scaling': True, 'num_parallel_samples': 100}, '_comment': {'num_hidden_dimensions': 'Optional[List[int]] = None', 'context_length': 'Optional[int] = None', 'distr_output': 'DistributionOutput = StudentTOutput()'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_gluon/gluonts_feedforward/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range 
+<br />  {'model_pars': {'model_uri': 'model_gluon.gluonts_model', 'model_name': 'feedforward', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'batch_normalization': False, 'mean_scaling': True, 'num_parallel_samples': 100}, '_comment': {'num_hidden_dimensions': 'Optional[List[int]] = None', 'context_length': 'Optional[int] = None', 'distr_output': 'DistributionOutput = StudentTOutput()'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_gluon/gluonts_feedforward/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range 
 <br />
 <br />  
 <br />
@@ -1098,27 +1098,27 @@
 <br />
 <br />  #### Model URI and Config JSON 
 <br />
-<br />  data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_gluon/gluonts_seq2seq/', 'plot_prob': True, 'quantiles': [0.5]} 
+<br />  data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_gluon/gluonts_seq2seq/', 'plot_prob': True, 'quantiles': [0.5]} 
 <br />
 <br />  #### Setup Model   ############################################## 
 <br />
-<br />  {'model_pars': {'model_uri': 'model_gluon.gluonts_model', 'model_name': 'seq2seq', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'num_parallel_samples': 100, 'cardinality': [2], 'embedding_dimension': 10, 'decoder_mlp_layer': [5, 10, 5], 'decoder_mlp_static_dim': 10, 'quantiles': [0.1, 0.5, 0.9]}, '_comment': {'encoder': 'Seq2SeqEncoder', 'context_length': 'Optional[int] = None', 'scaler': 'Scaler = NOPScaler()'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': 'https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/ztest/model_gluon/gluonts_seq2seq/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range 
+<br />  {'model_pars': {'model_uri': 'model_gluon.gluonts_model', 'model_name': 'seq2seq', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'num_parallel_samples': 100, 'cardinality': [2], 'embedding_dimension': 10, 'decoder_mlp_layer': [5, 10, 5], 'decoder_mlp_static_dim': 10, 'quantiles': [0.1, 0.5, 0.9]}, '_comment': {'encoder': 'Seq2SeqEncoder', 'context_length': 'Optional[int] = None', 'scaler': 'Scaler = NOPScaler()'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': 'https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/ztest/model_gluon/gluonts_seq2seq/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range 
 <br />
-<br />  benchmark file saved at https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/example/benchmark/ 
+<br />  benchmark file saved at https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/example/benchmark/ 
 <br />
 <br />                        date_run  ...            metric_name
-<br />0   2020-05-15 17:06:56.692551  ...    mean_absolute_error
-<br />1   2020-05-15 17:06:56.696680  ...     mean_squared_error
-<br />2   2020-05-15 17:06:56.699993  ...  median_absolute_error
-<br />3   2020-05-15 17:06:56.703264  ...               r2_score
-<br />4   2020-05-15 17:07:05.852780  ...    mean_absolute_error
-<br />5   2020-05-15 17:07:05.856901  ...     mean_squared_error
-<br />6   2020-05-15 17:07:05.860177  ...  median_absolute_error
-<br />7   2020-05-15 17:07:05.863452  ...               r2_score
-<br />8   2020-05-15 17:07:24.940174  ...    mean_absolute_error
-<br />9   2020-05-15 17:07:24.946115  ...     mean_squared_error
-<br />10  2020-05-15 17:07:24.953671  ...  median_absolute_error
-<br />11  2020-05-15 17:07:24.959275  ...               r2_score
+<br />0   2020-05-15 15:31:00.739530  ...    mean_absolute_error
+<br />1   2020-05-15 15:31:00.743679  ...     mean_squared_error
+<br />2   2020-05-15 15:31:00.747277  ...  median_absolute_error
+<br />3   2020-05-15 15:31:00.751968  ...               r2_score
+<br />4   2020-05-15 15:31:09.832382  ...    mean_absolute_error
+<br />5   2020-05-15 15:31:09.836754  ...     mean_squared_error
+<br />6   2020-05-15 15:31:09.840502  ...  median_absolute_error
+<br />7   2020-05-15 15:31:09.844346  ...               r2_score
+<br />8   2020-05-15 15:31:33.394286  ...    mean_absolute_error
+<br />9   2020-05-15 15:31:33.399934  ...     mean_squared_error
+<br />10  2020-05-15 15:31:33.407052  ...  median_absolute_error
+<br />11  2020-05-15 15:31:33.412538  ...               r2_score
 <br />
 <br />[12 rows x 6 columns] 
 <br />  File "pydantic/main.py", line 778, in pydantic.main.create_model
@@ -1126,24 +1126,24 @@
 
 
 
-### Error 22, [Traceback at line 2404](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2404)<br />2404..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 84, in module_load
+### Error 22, [Traceback at line 2416](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2416)<br />2416..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 23, [Traceback at line 2411](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2411)<br />2411..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 23, [Traceback at line 2423](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2423)<br />2423..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range
 
 
 
-### Error 24, [Traceback at line 2417](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2417)<br />2417..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 72, in module_load
+### Error 24, [Traceback at line 2429](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2429)<br />2429..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -1153,7 +1153,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -1172,24 +1172,24 @@
 
 
 
-### Error 25, [Traceback at line 2447](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2447)<br />2447..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 84, in module_load
+### Error 25, [Traceback at line 2459](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2459)<br />2459..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 26, [Traceback at line 2454](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2454)<br />2454..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 26, [Traceback at line 2466](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2466)<br />2466..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range
 
 
 
-### Error 27, [Traceback at line 2460](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2460)<br />2460..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 72, in module_load
+### Error 27, [Traceback at line 2472](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2472)<br />2472..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -1199,7 +1199,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/model_gluon/gluonts_model.py", line 15, in <module>
 <br />    from gluonts.model.deepar import DeepAREstimator
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/model/deepar/__init__.py", line 15, in <module>
 <br />    from ._estimator import DeepAREstimator
@@ -1218,23 +1218,23 @@
 
 
 
-### Error 28, [Traceback at line 2490](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2490)<br />2490..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 84, in module_load
+### Error 28, [Traceback at line 2502](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2502)<br />2502..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 29, [Traceback at line 2497](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L2497)<br />2497..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 119, in benchmark_run
+### Error 29, [Traceback at line 2509](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L2509)<br />2509..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_gluon notfound, create_model() takes exactly 1 positional argument (0 given), tuple index out of range
 
 
 
-### Error 30, [Traceback at line 3480](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-17-05_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py#L3480)<br />3480..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d580c5017e28eefaf82dbb63ddf4270e71792c2b/mlmodels/benchmark.py", line 118, in benchmark_run
+### Error 30, [Traceback at line 3492](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli_2020-05-15-15-29_4c47a0bacf53fc18eb078111d70311c747fed1fc.py#L3492)<br />3492..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/4c47a0bacf53fc18eb078111d70311c747fed1fc/mlmodels/benchmark.py", line 118, in benchmark_run
 <br />    model_uri =  model_pars['model_uri']
 <br />KeyError: 'model_uri'
