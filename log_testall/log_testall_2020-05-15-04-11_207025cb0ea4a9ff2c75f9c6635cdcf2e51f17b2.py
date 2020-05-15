@@ -10143,3 +10143,77 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master bbd1955] ml_store
+ 1 file changed, 35 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   0723b36..bbd1955  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:08<67:44:52,  8.28s/it][A
+Iteration:   0%|          | 2/29440 [01:09<198:27:17, 24.27s/it][A
+Iteration:   0%|          | 3/29440 [01:27<181:48:27, 22.23s/it][A
+Iteration:   0%|          | 4/29440 [01:43<166:53:24, 20.41s/it][A
+Iteration:   0%|          | 5/29440 [01:59<155:13:32, 18.98s/it][A
+Iteration:   0%|          | 6/29440 [03:04<269:24:47, 32.95s/it][A
+Iteration:   0%|          | 7/29440 [03:38<272:40:50, 33.35s/it][A
+Iteration:   0%|          | 8/29440 [04:10<268:39:06, 32.86s/it][A
+Iteration:   0%|          | 9/29440 [04:28<230:48:36, 28.23s/it][A
+Iteration:   0%|          | 10/29440 [07:28<604:35:19, 73.96s/it][A
+Iteration:   0%|          | 11/29440 [08:01<504:01:07, 61.66s/it][A
+Iteration:   0%|          | 12/29440 [09:00<496:25:25, 60.73s/it][A
+Iteration:   0%|          | 13/29440 [09:25<409:59:40, 50.16s/it][A
+Iteration:   0%|          | 14/29440 [09:54<357:35:41, 43.75s/it][A
+Iteration:   0%|          | 15/29440 [12:07<576:10:01, 70.49s/it][A
+Iteration:   0%|          | 16/29440 [13:06<549:00:49, 67.17s/it][A
+Iteration:   0%|          | 17/29440 [14:13<548:34:31, 67.12s/it][A
+Iteration:   0%|          | 18/29440 [15:08<517:04:27, 63.27s/it][A
+Iteration:   0%|          | 19/29440 [15:30<416:56:02, 51.02s/it][A
+Iteration:   0%|          | 20/29440 [18:03<667:22:43, 81.66s/it][A
+Iteration:   0%|          | 21/29440 [18:22<512:39:53, 62.73s/it][A
+Iteration:   0%|          | 22/29440 [18:39<401:01:17, 49.07s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+Warning: Permanently added the RSA host key for IP address '140.82.112.4' to the list of known hosts.
+From github.com:arita37/mlmodels_store
+   bbd1955..eafa46e  master     -> origin/master
+Updating bbd1955..eafa46e
+Fast-forward
+ error_list/20200515/list_log_benchmark_20200515.md |  166 +-
+ .../20200515/list_log_dataloader_20200515.md       |    2 +-
+ error_list/20200515/list_log_jupyter_20200515.md   | 1658 ++++++++++----------
+ error_list/20200515/list_log_testall_20200515.md   |   30 +
+ ...-10_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py |  620 ++++++++
+ 5 files changed, 1563 insertions(+), 913 deletions(-)
+ create mode 100644 log_pullrequest/log_pr_2020-05-15-05-10_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
