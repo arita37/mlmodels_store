@@ -10289,3 +10289,57 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 558c812] ml_store
+ 1 file changed, 35 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   5b0478a..558c812  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pplm.py 
+ Generating text ... 
+= Prefix of sentence =
+<|endoftext|>The potato
+
+ Unperturbed generated text :
+
+<|endoftext|>The potato-shaped, potato-eating insect of modern times (Ophiocordyceps elegans) has a unique ability to adapt quickly to a wide range of environments. It is able to survive in many different environments, including the Arctic, deserts
+
+ Perturbed generated text :
+
+<|endoftext|>The potato bomb is nothing new. It's been on the news a lot since 9/11. In fact, since the bombing in Paris last November, a bomb has been detonated in every major European country in the European Union.
+
+The bomb in Brussels
+
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+From github.com:arita37/mlmodels_store
+   558c812..35571d1  master     -> origin/master
+Updating 558c812..35571d1
+Fast-forward
+ .../20200515/list_log_dataloader_20200515.md       |   2 +-
+ .../20200515/list_log_pullrequest_20200515.md      |   2 +-
+ error_list/20200515/list_log_testall_20200515.md   | 261 ++++-----
+ ...-09_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py | 613 +++++++++++++++++++++
+ 4 files changed, 751 insertions(+), 127 deletions(-)
+ create mode 100644 log_pullrequest/log_pr_2020-05-15-13-09_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
