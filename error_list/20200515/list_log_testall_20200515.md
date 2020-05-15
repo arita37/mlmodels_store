@@ -758,3 +758,33 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
 <br />    cf = json.load(open(data_path, mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
+
+
+
+### Error 19, [Traceback at line 10353](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-15-04-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10353)<br />10353..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//torchhub.py", line 406, in <module>
+<br />    test(data_path="model_tch/torchhub_cnn_list.json", pars_choice="json", config_mode="resnet18")
+<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//torchhub.py", line 338, in test
+<br />    model, session = fit(model, data_pars, compute_pars, out_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//torchhub.py", line 207, in fit
+<br />    tr_loss, tr_acc = _train(model0, device, train_iter, criterion, optimizer, epoch, epochs, imax=imax_train)
+<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//torchhub.py", line 46, in _train
+<br />    for i,batch in enumerate(train_itr):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 346, in __next__
+<br />    data = self.dataset_fetcher.fetch(index)  # may raise StopIteration
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 47, in fetch
+<br />    return self.collate_fn(data)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/utils/data/_utils/collate.py", line 80, in default_collate
+<br />    return [default_collate(samples) for samples in transposed]
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/utils/data/_utils/collate.py", line 80, in <listcomp>
+<br />    return [default_collate(samples) for samples in transposed]
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/utils/data/_utils/collate.py", line 82, in default_collate
+<br />    raise TypeError(default_collate_err_msg_format.format(elem_type))
+<br />TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'PIL.Image.Image'>
+
+
+
+### Error 20, [Traceback at line 10404](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall_2020-05-15-04-11_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py#L10404)<br />10404..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
+<br />    from dataloader import DataLoader
+<br />ModuleNotFoundError: No module named 'dataloader'
