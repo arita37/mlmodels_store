@@ -11237,3 +11237,68 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 6e85b9e] ml_store
+ 1 file changed, 35 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   764224b..6e85b9e  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:15<125:29:46, 15.35s/it][A
+Iteration:   0%|          | 2/29440 [00:25<113:11:48, 13.84s/it][A
+Iteration:   0%|          | 3/29440 [00:40<115:36:07, 14.14s/it][A
+Iteration:   0%|          | 4/29440 [00:53<111:49:59, 13.68s/it][A
+Iteration:   0%|          | 5/29440 [02:06<257:11:48, 31.46s/it][A
+Iteration:   0%|          | 6/29440 [02:37<256:08:23, 31.33s/it][A
+Iteration:   0%|          | 7/29440 [04:49<503:02:32, 61.53s/it][A
+Iteration:   0%|          | 8/29440 [05:54<511:44:41, 62.59s/it][A
+Iteration:   0%|          | 9/29440 [08:12<697:50:06, 85.36s/it][A
+Iteration:   0%|          | 10/29440 [12:36<1134:48:58, 138.82s/it][A
+Iteration:   0%|          | 11/29440 [13:55<989:48:38, 121.08s/it] [A
+Iteration:   0%|          | 12/29440 [14:24<762:50:13, 93.32s/it] [A
+Iteration:   0%|          | 13/29440 [17:32<996:14:19, 121.88s/it][A
+Iteration:   0%|          | 14/29440 [18:53<894:26:18, 109.43s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+From github.com:arita37/mlmodels_store
+   6e85b9e..3ccf6fa  master     -> origin/master
+Updating 6e85b9e..3ccf6fa
+Fast-forward
+ error_list/20200515/list_log_benchmark_20200515.md | 160 +++---
+ error_list/20200515/list_log_json_20200515.md      | 276 ++++-----
+ .../20200515/list_log_pullrequest_20200515.md      |   2 +-
+ error_list/20200515/list_log_testall_20200515.md   | 290 +++++-----
+ ...-10_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py | 620 +++++++++++++++++++++
+ 5 files changed, 972 insertions(+), 376 deletions(-)
+ create mode 100644 log_pullrequest/log_pr_2020-05-15-09-10_207025cb0ea4a9ff2c75f9c6635cdcf2e51f17b2.py
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
