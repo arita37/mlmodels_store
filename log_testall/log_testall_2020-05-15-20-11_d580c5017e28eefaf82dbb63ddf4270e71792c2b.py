@@ -58,3 +58,50 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 942a4c3] ml_store
+ 1 file changed, 60 insertions(+)
+ create mode 100644 log_testall/log_testall_2020-05-15-20-11_d580c5017e28eefaf82dbb63ddf4270e71792c2b.py
+To github.com:arita37/mlmodels_store.git
+   fd553e7..942a4c3  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//textcnn_dataloader.py 
+
+  #### Module init   ############################################ 
+
+  <module 'mlmodels.model_keras.textcnn_dataloader' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn_dataloader.py'> 
+
+  #### Loading params   ############################################## 
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//textcnn_dataloader.py", line 275, in <module>
+    test_module(model_uri = MODEL_URI, param_pars= param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 257, in test_module
+    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn_dataloader.py", line 182, in get_params
+    cf = json.load(open(data_path, mode='r'))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/textcnn_keras.json'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all    ;            ls &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Fetching origin
+Already up to date.
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
