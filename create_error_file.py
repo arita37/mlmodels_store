@@ -12,6 +12,7 @@ import json
 
 
 
+
 def cli_load_arguments(config_file=None):
     """
         Load CLI input
