@@ -113,3 +113,51 @@ Fast-forward
  ...-10_76b7a81be9b27c2e92c4951280c0a8da664b997c.py | 623 +++++++++++++++++++++
  1 file changed, 623 insertions(+)
  create mode 100644 log_pullrequest/log_pr_2020-05-16-20-10_76b7a81be9b27c2e92c4951280c0a8da664b997c.py
+[master dfe6d0a] ml_store
+ 1 file changed, 54 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   e50d349..dfe6d0a  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+Using TensorFlow backend.
+Loading data...
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 315, in <module>
+    test(pars_choice="test01")
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 278, in test
+    Xtuple = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 172, in get_dataset
+    train_data = Data(data_source= path_norm( data_pars["train_data_source"]) ,
+NameError: name 'Data' is not defined
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
