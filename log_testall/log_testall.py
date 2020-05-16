@@ -8311,3 +8311,39 @@ test_jupyter
 Fetching origin
 Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
 Already up to date.
+[master fcc8496] ml_store
+ 1 file changed, 235 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   c9545f5..fcc8496  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//temporal_fusion_google.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
+    from mlmodels.mode_tf.raw  import temporal_fusion_google
+ModuleNotFoundError: No module named 'mlmodels.mode_tf'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
