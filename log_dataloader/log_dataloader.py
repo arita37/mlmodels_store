@@ -9,194 +9,15 @@
 
  ************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/051b6acd52f1710a7466eff9c6396acbda0dab95', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': '051b6acd52f1710a7466eff9c6396acbda0dab95', 'workflow': 'test_dataloader'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/2df505add828ee6fc4e58428f6e4fcb2b82a2e58', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': '2df505add828ee6fc4e58428f6e4fcb2b82a2e58', 'workflow': 'test_dataloader'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_dataloader
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/adata2/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/051b6acd52f1710a7466eff9c6396acbda0dab95
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/2df505add828ee6fc4e58428f6e4fcb2b82a2e58
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/051b6acd52f1710a7466eff9c6396acbda0dab95
-Package                   Version    Location                           
-------------------------- ---------- -----------------------------------
-absl-py                   0.9.0      
-alembic                   1.4.2      
-astor                     0.8.1      
-attrs                     19.3.0     
-autogluon                 0.0.5      
-bcrypt                    3.1.7      
-blis                      0.4.1      
-boto                      2.49.0     
-boto3                     1.9.187    
-botocore                  1.12.253   
-catalogue                 1.0.0      
-catboost                  0.23       
-certifi                   2020.4.5.1 
-cffi                      1.14.0     
-chardet                   3.0.4      
-cli-code                  28.1.0     
-click                     7.1.2      
-cliff                     3.1.0      
-cloudpickle               1.4.1      
-cmd2                      0.8.9      
-cmdstanpy                 0.4.0      
-colorlog                  4.1.0      
-configparser              5.0.0      
-ConfigSpace               0.4.10     
-convertdate               2.2.1      
-cryptography              2.9.2      
-cycler                    0.10.0     
-cymem                     2.0.3      
-Cython                    0.29.17    
-dask                      2.6.0      
-databricks-cli            0.10.0     
-dataclasses               0.7        
-decorator                 4.4.2      
-deepctr                   0.7.4      
-dill                      0.3.1.1    
-distributed               2.6.0      
-docker                    4.2.0      
-docutils                  0.15.2     
-entrypoints               0.3        
-ephem                     3.7.7.1    
-fbprophet                 0.6        
-Flask                     1.1.2      
-future                    0.18.2     
-gast                      0.2.2      
-gensim                    3.8.3      
-gitdb                     4.0.5      
-GitPython                 3.1.2      
-gluoncv                   0.7.0      
-gluonnlp                  0.8.1      
-gluonts                   0.4.2      
-google-pasta              0.2.0      
-googleapis-common-protos  1.51.0     
-gorilla                   0.3.0      
-graphviz                  0.8.4      
-grpcio                    1.28.1     
-gunicorn                  20.0.4     
-h5py                      2.10.0     
-HeapDict                  1.0.1      
-holidays                  0.10.2     
-hyperopt                  0.1.2      
-idna                      2.9        
-importlib-metadata        1.6.0      
-itsdangerous              1.1.0      
-Jinja2                    2.11.2     
-jmespath                  0.9.5      
-joblib                    0.14.1     
-Keras                     2.3.1      
-Keras-Applications        1.0.8      
-keras-contrib             2.0.8      
-keras-mdn-layer           0.2.1      
-Keras-Preprocessing       1.1.1      
-kiwisolver                1.2.0      
-korean-lunar-calendar     0.2.1      
-lightgbm                  2.3.0      
-LunarCalendar             0.0.9      
-Mako                      1.1.2      
-Markdown                  3.2.2      
-MarkupSafe                1.1.1      
-matchzoo-py               1.1.1      
-matplotlib                3.2.1      
-mlflow                    1.7.1      
-mlmodels                  0.35.2     /home/runner/work/mlmodels/mlmodels
-msgpack                   1.0.0      
-murmurhash                1.0.2      
-mxnet                     1.6.0      
-networkx                  2.4        
-nltk                      3.5        
-numexpr                   2.7.1      
-numpy                     1.18.4     
-opt-einsum                3.2.1      
-optuna                    1.1.0      
-pandas                    0.25.3     
-paramiko                  2.7.1      
-pbr                       5.4.5      
-Pillow                    6.2.2      
-pip                       20.1       
-plac                      1.1.3      
-plotly                    4.7.1      
-portalocker               1.7.0      
-preshed                   3.0.2      
-prettytable               0.7.2      
-prometheus-client         0.7.1      
-prometheus-flask-exporter 0.13.0     
-promise                   2.3        
-protobuf                  3.11.3     
-psutil                    5.7.0      
-pyaml                     20.4.0     
-pycparser                 2.20       
-pydantic                  1.5.1      
-PyMeeus                   0.3.7      
-pymongo                   3.10.1     
-PyNaCl                    1.3.0      
-pyparsing                 2.4.7      
-pyperclip                 1.8.0      
-pystan                    2.19.1.1   
-python-dateutil           2.8.0      
-python-editor             1.0.4      
-pytorch-lightning         0.7.3      
-pytorch-transformers      1.2.0      
-pytz                      2020.1     
-PyYAML                    5.3.1      
-querystring-parser        1.2.4      
-regex                     2020.5.7   
-requests                  2.23.0     
-retrying                  1.3.3      
-s3transfer                0.2.1      
-sacremoses                0.0.43     
-scikit-learn              0.21.2     
-scikit-optimize           0.7.4      
-scipy                     1.4.1      
-sentence-transformers     0.2.4      
-sentencepiece             0.1.86     
-setuptools                45.2.0     
-setuptools-git            1.2        
-simplejson                3.17.0     
-six                       1.14.0     
-smart-open                2.0.0      
-smmap                     3.0.4      
-sortedcontainers          2.1.0      
-spacy                     2.2.4      
-SQLAlchemy                1.3.13     
-sqlparse                  0.3.1      
-srsly                     1.0.2      
-stevedore                 1.32.0     
-tabulate                  0.8.7      
-tblib                     1.6.0      
-tensorboard               1.15.0     
-tensorboardX              2.0        
-tensorflow                1.15.2     
-tensorflow-datasets       3.0.0      
-tensorflow-estimator      1.15.1     
-tensorflow-metadata       0.22.0     
-tensorflow-probability    0.7.0      
-termcolor                 1.1.0      
-thinc                     7.4.0      
-toml                      0.10.0     
-toolz                     0.10.0     
-torch                     1.2.0      
-torchtext                 0.6.0      
-torchvision               0.4.0      
-tornado                   6.0.4      
-tqdm                      4.46.0     
-transformers              2.3.0      
-typing                    3.7.4.1    
-ujson                     1.35       
-urllib3                   1.25.9     
-versioneer                0.18       
-wasabi                    0.6.0      
-wcwidth                   0.1.9      
-websocket-client          0.57.0     
-Werkzeug                  1.0.1      
-wheel                     0.34.2     
-wrapt                     1.12.1     
-zict                      2.0.0      
-zipp                      3.1.0      
-
- ************************************************************************************************************************
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/2df505add828ee6fc4e58428f6e4fcb2b82a2e58
 
  ************************************************************************************************************************
 
@@ -344,13 +165,13 @@ cls_name : Data
 
   URL:  mlmodels.preprocess.generic::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f3e83943048>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fe5655ee048>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f3e83943048>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fe5655ee048>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7f3e83943048> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7fe5655ee048> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}} 
 
@@ -358,10 +179,10 @@ cls_name : Data
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 Using TensorFlow backend.
-0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 35%|███▌      | 3506176/9912422 [00:00<00:00, 35057112.80it/s]9920512it [00:00, 34075596.85it/s]                             
-0it [00:00, ?it/s]32768it [00:00, 559138.15it/s]
-0it [00:00, ?it/s]  1%|          | 16384/1648877 [00:00<00:10, 162859.73it/s]1654784it [00:00, 11085769.33it/s]                         
-0it [00:00, ?it/s]8192it [00:00, 185315.61it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  0%|          | 16384/9912422 [00:00<01:02, 159349.51it/s] 65%|██████▌   | 6479872/9912422 [00:00<00:15, 227401.85it/s]9920512it [00:00, 42098064.91it/s]                           
+0it [00:00, ?it/s]32768it [00:00, 566352.20it/s]
+0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 436940.19it/s]1654784it [00:00, 11344036.37it/s]                         
+0it [00:00, ?it/s]8192it [00:00, 194919.01it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
@@ -373,7 +194,7 @@ Processing...
 Done!
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7f3e6cb52c18>, <torch.utils.data.dataloader.DataLoader object at 0x7f3e6cb5cf98>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7fe54e7fc9e8>, <torch.utils.data.dataloader.DataLoader object at 0x7fe54e807da0>), {})
 
 
 
@@ -436,13 +257,13 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
 
   URL:  mlmodels/preprocess/generic.py::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f3e6cb761e0>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fe54e7fdf28>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f3e6cb761e0>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fe54e7fdf28>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7f3e6cb761e0> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7fe54e7fdf28> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
 
@@ -451,7 +272,7 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7f3e6c13fa58>, <torch.utils.data.dataloader.DataLoader object at 0x7f3e6c13fb00>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7fe54ddea828>, <torch.utils.data.dataloader.DataLoader object at 0x7fe54ddea8d0>), {})
 
 
 
@@ -609,27 +430,27 @@ cls_name : Preprocess_namentity
 
   URL:  mlmodels/dataloader.py::split_xy_from_dict {'col_Xinput': ['X'], 'col_yinput': ['y']} 
 
-###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7f3e82a8fb70>
+###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7fe56473a268>
 
  ######### postional parameteres :  ['out']
 
- ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7f3e82a8fb70>
+ ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7fe56473a268>
 
   URL:  sklearn.model_selection::train_test_split {'test_size': 0.5} 
 
-###### load_callable_from_uri LOADED <function train_test_split at 0x7f3ed60c2ae8>
+###### load_callable_from_uri LOADED <function train_test_split at 0x7fe5b7d6dae8>
 
  ######### postional parameteres :  []
 
- ######### Execute : preprocessor_func <function train_test_split at 0x7f3ed60c2ae8>
+ ######### Execute : preprocessor_func <function train_test_split at 0x7fe5b7d6dae8>
 
   URL:  mlmodels/dataloader.py::pickle_dump {'path': 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'} 
 
-###### load_callable_from_uri LOADED <function pickle_dump at 0x7f3e6d7c7488>
+###### load_callable_from_uri LOADED <function pickle_dump at 0x7fe56473aa60>
 
  ######### postional parameteres :  ['t']
 
- ######### Execute : preprocessor_func <function pickle_dump at 0x7f3e6d7c7488>
+ ######### Execute : preprocessor_func <function pickle_dump at 0x7fe56473aa60>
 Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_new.json [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
 
 
@@ -648,7 +469,7 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namenti
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tch.torchhub.Model object at 0x7f3e6cb5cd30> 
+  <mlmodels.model_tch.torchhub.Model object at 0x7fe54ddf07f0> 
 
   #### Fit   ######################################################## 
 
