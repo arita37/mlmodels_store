@@ -10941,3 +10941,35 @@ Fast-forward
  error_list/20200517/list_log_jupyter_20200517.md | 1749 +++++++++++-----------
  error_list/20200517/list_log_testall_20200517.md |  386 ++---
  2 files changed, 1088 insertions(+), 1047 deletions(-)
+[master 0cafb8a] ml_store
+ 2 files changed, 113 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   88c5879..0cafb8a  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//mlp.py 
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
