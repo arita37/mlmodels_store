@@ -10661,3 +10661,81 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master 710c15d] ml_store
+ 1 file changed, 36 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   09a30ce..710c15d  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:12<99:04:56, 12.12s/it][A
+Iteration:   0%|          | 2/29440 [00:30<113:49:07, 13.92s/it][A
+Iteration:   0%|          | 3/29440 [00:52<135:15:49, 16.54s/it][A
+Iteration:   0%|          | 4/29440 [01:21<165:25:34, 20.23s/it][A
+Iteration:   0%|          | 5/29440 [02:10<234:48:46, 28.72s/it][A
+Iteration:   0%|          | 6/29440 [02:24<198:17:29, 24.25s/it][A
+Iteration:   0%|          | 7/29440 [03:47<343:53:35, 42.06s/it][A
+Iteration:   0%|          | 8/29440 [04:18<315:36:35, 38.60s/it][A
+Iteration:   0%|          | 9/29440 [05:57<463:34:36, 56.70s/it][A
+Iteration:   0%|          | 10/29440 [09:26<837:24:54, 102.44s/it][A
+Iteration:   0%|          | 11/29440 [12:10<989:31:27, 121.05s/it][A
+Iteration:   0%|          | 12/29440 [14:15<998:31:22, 122.15s/it][A
+Iteration:   0%|          | 13/29440 [15:43<915:11:59, 111.96s/it][A
+Iteration:   0%|          | 14/29440 [16:39<777:08:15, 95.08s/it] [A
+Iteration:   0%|          | 15/29440 [16:59<592:56:39, 72.54s/it][A
+Iteration:   0%|          | 16/29440 [17:28<487:02:24, 59.59s/it][A
+Iteration:   0%|          | 17/29440 [18:44<527:01:56, 64.48s/it][A
+Iteration:   0%|          | 18/29440 [21:16<740:05:54, 90.56s/it][A
+Iteration:   0%|          | 19/29440 [23:47<889:53:30, 108.89s/it][A
+Iteration:   0%|          | 20/29440 [29:21<1441:41:08, 176.41s/it][A
+Iteration:   0%|          | 21/29440 [30:32<1182:31:07, 144.70s/it][A
+Iteration:   0%|          | 22/29440 [31:07<912:37:03, 111.68s/it] [A
+Iteration:   0%|          | 23/29440 [32:55<903:09:03, 110.53s/it][A
+Iteration:   0%|          | 24/29440 [33:42<749:47:15, 91.76s/it] [AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+From github.com:arita37/mlmodels_store
+   710c15d..9b32279  master     -> origin/master
+Updating 710c15d..9b32279
+Fast-forward
+ error_list/20200517/list_log_benchmark_20200517.md |  182 ++--
+ error_list/20200517/list_log_json_20200517.md      | 1146 ++++++++++----------
+ error_list/20200517/list_log_testall_20200517.md   |  386 ++++---
+ log_dataloader/log_dataloader.py                   |   38 +-
+ ...-25_76b7a81be9b27c2e92c4951280c0a8da664b997c.py |  623 +++++++++++
+ ...-10_76b7a81be9b27c2e92c4951280c0a8da664b997c.py |  690 ++++++++++++
+ 6 files changed, 2204 insertions(+), 861 deletions(-)
+ create mode 100644 log_pullrequest/log_pr_2020-05-17-17-25_76b7a81be9b27c2e92c4951280c0a8da664b997c.py
+ create mode 100644 log_pullrequest/log_pr_2020-05-17-18-10_76b7a81be9b27c2e92c4951280c0a8da664b997c.py
