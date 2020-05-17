@@ -7811,3 +7811,237 @@ Updating bb1eb78..6604896
 Fast-forward
  error_list/20200517/list_log_jupyter_20200517.md | 1749 +++++++++++-----------
  1 file changed, 874 insertions(+), 875 deletions(-)
+[master dd9a284] ml_store
+ 1 file changed, 1870 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   6604896..dd9a284  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py 
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+start
+
+  #### Loading params   ############################################## 
+
+  ############# Data, Params preparation   ################# 
+
+  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'} 
+
+  #### Loading dataset   ############################################# 
+{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
+         Date        Open        High  ...       Close   Adj Close   Volume
+0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
+1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
+2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
+3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
+4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
+
+[5 rows x 7 columns]
+
+  #### Model init  ############################################# 
+
+  #### Model fit   ############################################# 
+{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
+         Date        Open        High  ...       Close   Adj Close   Volume
+0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
+1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
+2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
+3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
+4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
+
+[5 rows x 7 columns]
+          0         1         2         3         4         5
+0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
+1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
+2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
+3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
+4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
+
+  #### Predict   ##################################################### 
+{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
+/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
+         Date        Open        High  ...       Close   Adj Close   Volume
+0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
+1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
+2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
+3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
+4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
+
+[5 rows x 7 columns]
+          0         1         2         3         4         5
+0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
+1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
+2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
+3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
+4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
+5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
+6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
+7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
+8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
+9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
+
+  #### metrics   ##################################################### 
+{'loss': 0.47706859558820724, 'loss_history': []}
+
+  #### Plot   ######################################################## 
+
+  #### Save   ######################################################## 
+{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/'}
+Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
+
+  #### Load   ######################################################## 
+2020-05-17 16:28:45.011493: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
+    return fn(*args)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
+    target_list, run_metadata)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1443, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.NotFoundError: Key Variable not found in checkpoint
+	 [[{{node save_1/RestoreV2}}]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1290, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
+    run_metadata_ptr)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1180, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1359, in _do_run
+    run_metadata)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1384, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.NotFoundError: Key Variable not found in checkpoint
+	 [[node save_1/RestoreV2 (defined at opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py:1748) ]]
+
+Original stack trace for 'save_1/RestoreV2':
+  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 332, in <module>
+    test(data_path="", pars_choice="test01", config_mode="test")
+  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 320, in test
+    session = load(out_pars)
+  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 199, in load
+    return load_tf(load_pars)
+  File "home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 474, in load_tf
+    saver      = tf.compat.v1.train.Saver()
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 828, in __init__
+    self.build()
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 840, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 878, in _build
+    build_restore=build_restore)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 508, in _build_internal
+    restore_sequentially, reshape)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 328, in _AddRestoreOps
+    restore_sequentially)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 575, in bulk_restore
+    return io_ops.restore_v2(filename_tensor, names, slices, dtypes)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_io_ops.py", line 1696, in restore_v2
+    name=name)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
+    op_def=op_def)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
+    attrs, op_def, compute_device)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
+    op_def=op_def)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1748, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1300, in restore
+    names_to_keys = object_graph_key_mapping(save_path)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1618, in object_graph_key_mapping
+    object_graph_string = reader.get_tensor(trackable.OBJECT_GRAPH_PROTO_KEY)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/pywrap_tensorflow_internal.py", line 915, in get_tensor
+    return CheckpointReader_GetTensor(self, compat.as_bytes(tensor_str))
+tensorflow.python.framework.errors_impl.NotFoundError: Key _CHECKPOINTABLE_OBJECT_GRAPH not found in checkpoint
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 332, in <module>
+    test(data_path="", pars_choice="test01", config_mode="test")
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 320, in test
+    session = load(out_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 199, in load
+    return load_tf(load_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 477, in load_tf
+    saver.restore(sess,  full_name)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1306, in restore
+    err, "a Variable name or other graph key that is missing")
+tensorflow.python.framework.errors_impl.NotFoundError: Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Key Variable not found in checkpoint
+	 [[node save_1/RestoreV2 (defined at opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py:1748) ]]
+
+Original stack trace for 'save_1/RestoreV2':
+  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 332, in <module>
+    test(data_path="", pars_choice="test01", config_mode="test")
+  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 320, in test
+    session = load(out_pars)
+  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf//1_lstm.py", line 199, in load
+    return load_tf(load_pars)
+  File "home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 474, in load_tf
+    saver      = tf.compat.v1.train.Saver()
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 828, in __init__
+    self.build()
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 840, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 878, in _build
+    build_restore=build_restore)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 508, in _build_internal
+    restore_sequentially, reshape)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 328, in _AddRestoreOps
+    restore_sequentially)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 575, in bulk_restore
+    return io_ops.restore_v2(filename_tensor, names, slices, dtypes)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_io_ops.py", line 1696, in restore_v2
+    name=name)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
+    op_def=op_def)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
+    attrs, op_def, compute_device)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
+    op_def=op_def)
+  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1748, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
