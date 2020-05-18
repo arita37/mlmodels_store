@@ -1,87 +1,87 @@
 ## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py
 
 
-### Error 1, [Traceback at line 37](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L37)<br />37..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//keras_gan.py", line 31, in <module>
+### Error 1, [Traceback at line 39](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L39)<br />39..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//keras_gan.py", line 31, in <module>
 <br />    'AAE' : kg.aae.aae,
 <br />AttributeError: module 'mlmodels.model_keras.raw.keras_gan' has no attribute 'aae'
 
 
 
-### Error 2, [Traceback at line 82](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L82)<br />82..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//textcnn_dataloader.py", line 275, in <module>
+### Error 2, [Traceback at line 92](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L92)<br />92..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//textcnn_dataloader.py", line 275, in <module>
 <br />    test_module(model_uri = MODEL_URI, param_pars= param_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/models.py", line 257, in test_module
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/models.py", line 257, in test_module
 <br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras/textcnn_dataloader.py", line 182, in get_params
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras/textcnn_dataloader.py", line 182, in get_params
 <br />    cf = json.load(open(data_path, mode='r'))
-<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataset/json/refactor/textcnn_keras.json'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataset/json/refactor/textcnn_keras.json'
 
 
 
-### Error 3, [Traceback at line 130](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L130)<br />130..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//nbeats.py", line 315, in <module>
+### Error 3, [Traceback at line 147](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L147)<br />147..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//nbeats.py", line 315, in <module>
 <br />    test(pars_choice="test01")
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//nbeats.py", line 278, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//nbeats.py", line 278, in test
 <br />    Xtuple = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//nbeats.py", line 172, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//nbeats.py", line 172, in get_dataset
 <br />    train_data = Data(data_source= path_norm( data_pars["train_data_source"]) ,
 <br />NameError: name 'Data' is not defined
 
 
 
-### Error 4, [Traceback at line 5100](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5100)<br />5100..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//01_deepctr.py", line 541, in <module>
+### Error 4, [Traceback at line 5124](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5124)<br />5124..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//01_deepctr.py", line 541, in <module>
 <br />    test(pars_choice=5, **{"model_name": model_name})
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//01_deepctr.py", line 517, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//01_deepctr.py", line 517, in test
 <br />    module, model = module_load_full("model_keras.01_deepctr", model_pars, data_pars, compute_pars, dataset=dataset)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/models.py", line 101, in module_load_full
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/models.py", line 101, in module_load_full
 <br />    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras/01_deepctr.py", line 155, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras/01_deepctr.py", line 155, in __init__
 <br />    self.model = modeli(feature_columns, **MODEL_PARAMS[model_name])
 <br />TypeError: PNN() got an unexpected keyword argument 'embedding_size'
 
 
 
-### Error 5, [Traceback at line 5160](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5160)<br />5160..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//textvae.py", line 356, in <module>
+### Error 5, [Traceback at line 5183](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5183)<br />5183..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//textvae.py", line 356, in <module>
 <br />    test(pars_choice="test01")
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//textvae.py", line 327, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//textvae.py", line 327, in test
 <br />    xtuple = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//textvae.py", line 269, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//textvae.py", line 269, in get_dataset
 <br />    with codecs.open(data_pars["train_data_path"], encoding='utf-8') as f:
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/codecs.py", line 897, in open
 <br />    file = builtins.open(filename, mode, buffering)
-<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataset/text/quora/train.csv'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataset/text/quora/train.csv'
 
 
 
-### Error 6, [Traceback at line 5209](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5209)<br />5209..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//namentity_crm_bilstm_dataloader.py", line 306, in <module>
+### Error 6, [Traceback at line 5239](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5239)<br />5239..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//namentity_crm_bilstm_dataloader.py", line 306, in <module>
 <br />    test_module(model_uri=MODEL_URI, param_pars=param_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/models.py", line 257, in test_module
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/models.py", line 257, in test_module
 <br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras/namentity_crm_bilstm_dataloader.py", line 197, in get_params
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras/namentity_crm_bilstm_dataloader.py", line 197, in get_params
 <br />    cf = json.load(open(data_path, mode="r"))
-<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader.json'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader.json'
 
 
 
-### Error 7, [Traceback at line 5249](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5249)<br />5249..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//Autokeras.py", line 12, in <module>
+### Error 7, [Traceback at line 5286](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5286)<br />5286..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//Autokeras.py", line 12, in <module>
 <br />    import autokeras as ak
 <br />ModuleNotFoundError: No module named 'autokeras'
 
 
 
-### Error 8, [Traceback at line 5389](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5389)<br />5389..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//charcnn_zhang.py", line 284, in <module>
+### Error 8, [Traceback at line 5433](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5433)<br />5433..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//charcnn_zhang.py", line 284, in <module>
 <br />    test(pars_choice="json", data_path= f"{root_path}/model_keras/charcnn_zhang.json")
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//charcnn_zhang.py", line 268, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//charcnn_zhang.py", line 268, in test
 <br />    model2 = load(out_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//charcnn_zhang.py", line 118, in load
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//charcnn_zhang.py", line 118, in load
 <br />    model = load_keras(load_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/util.py", line 602, in load_keras
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/util.py", line 602, in load_keras
 <br />    model.model = load_model(path_file)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/keras/saving/save.py", line 146, in load_model
 <br />    loader_impl.parse_saved_model(filepath)
@@ -91,23 +91,23 @@
 
 
 
-### Error 9, [Traceback at line 5443](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5443)<br />5443..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//charcnn.py", line 357, in <module>
+### Error 9, [Traceback at line 5494](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5494)<br />5494..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//charcnn.py", line 357, in <module>
 <br />    test(pars_choice="test01")
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//charcnn.py", line 320, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//charcnn.py", line 320, in test
 <br />    Xtuple = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//charcnn.py", line 216, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//charcnn.py", line 216, in get_dataset
 <br />    if data_pars['type'] == "npz":
 <br />KeyError: 'type'
 
 
 
-### Error 10, [Traceback at line 5489](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5489)<br />5489..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//namentity_crm_bilstm.py", line 348, in <module>
+### Error 10, [Traceback at line 5546](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5546)<br />5546..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//namentity_crm_bilstm.py", line 348, in <module>
 <br />    test(pars_choice="json", data_path=f"model_keras/namentity_crm_bilstm.json")
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//namentity_crm_bilstm.py", line 311, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//namentity_crm_bilstm.py", line 311, in test
 <br />    Xtuple = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//namentity_crm_bilstm.py", line 193, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//namentity_crm_bilstm.py", line 193, in get_dataset
 <br />    raise Exception(f"Not support dataset yet")
 <br />Exception: Not support dataset yet
 <br />
@@ -129,11 +129,18 @@
 <br />log_testall
 <br />test_jupyter
 <br />Fetching origin
-<br />Already up to date.
-<br />[master fa489da] ml_store
-<br /> 1 file changed, 45 insertions(+)
+<br />error: Your local changes to the following files would be overwritten by merge:
+<br />	deps.txt
+<br />Please commit your changes or stash them before you merge.
+<br />Aborting
+<br />Updating 66f9634..625ab75
 <br />To github.com:arita37/mlmodels_store.git
-<br />   e224737..fa489da  master -> master
+<br /> ! [rejected]        master -> master (non-fast-forward)
+<br />error: failed to push some refs to 'git@github.com:arita37/mlmodels_store.git'
+<br />hint: Updates were rejected because the tip of your current branch is behind
+<br />hint: its remote counterpart. Integrate the remote changes (e.g.
+<br />hint: 'git pull ...') before pushing again.
+<br />hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 <br />
 <br />
 <br />
@@ -141,7 +148,7 @@
 <br />
 <br /> ************************************************************************************************************************
 <br />
-<br />  python https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//textcnn.py 
+<br />  python https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//textcnn.py 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -152,9 +159,9 @@
 <br />Downloading data from https://s3.amazonaws.com/text-datasets/imdb.npz
 <br />
 <br />    8192/17464789 [..............................] - ETA: 0s
-<br /> 1744896/17464789 [=>............................] - ETA: 0s
-<br /> 9289728/17464789 [==============>...............] - ETA: 0s
-<br />12926976/17464789 [=====================>........] - ETA: 0s
+<br /> 1294336/17464789 [=>............................] - ETA: 0s
+<br /> 4505600/17464789 [======>.......................] - ETA: 0s
+<br />12181504/17464789 [===================>..........] - ETA: 0s
 <br />17465344/17464789 [==============================] - 0s 0us/step
 <br />Pad sequences (samples x time)...
 <br />
@@ -166,10 +173,10 @@
 <br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
 <br />Instructions for updating:
 <br />Use tf.where in 2.0, which has the same broadcast rule as np.where
-<br />2020-05-18 04:23:47.945743: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-<br />2020-05-18 04:23:47.950349: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
-<br />2020-05-18 04:23:47.950666: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b59e458e10 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-<br />2020-05-18 04:23:47.950685: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+<br />2020-05-18 12:28:07.073654: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+<br />2020-05-18 12:28:07.078167: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
+<br />2020-05-18 12:28:07.078294: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f2a1376820 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+<br />2020-05-18 12:28:07.078309: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 <br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 <br />
 <br />Model: "model_1"
@@ -207,34 +214,34 @@
 <br />Train on 25000 samples, validate on 25000 samples
 <br />Epoch 1/1
 <br />
-<br /> 1000/25000 [>.............................] - ETA: 13s - loss: 7.5593 - accuracy: 0.5070
-<br /> 2000/25000 [=>............................] - ETA: 9s - loss: 7.4596 - accuracy: 0.5135 
-<br /> 3000/25000 [==>...........................] - ETA: 8s - loss: 7.5848 - accuracy: 0.5053
-<br /> 4000/25000 [===>..........................] - ETA: 7s - loss: 7.5861 - accuracy: 0.5052
-<br /> 5000/25000 [=====>........................] - ETA: 6s - loss: 7.6513 - accuracy: 0.5010
-<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.6257 - accuracy: 0.5027
-<br /> 7000/25000 [=======>......................] - ETA: 6s - loss: 7.5878 - accuracy: 0.5051
-<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.6091 - accuracy: 0.5038
-<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.6070 - accuracy: 0.5039
-<br />10000/25000 [===========>..................] - ETA: 4s - loss: 7.5670 - accuracy: 0.5065
-<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.5607 - accuracy: 0.5069
-<br />12000/25000 [=============>................] - ETA: 4s - loss: 7.5900 - accuracy: 0.5050
-<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.6077 - accuracy: 0.5038
-<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.6064 - accuracy: 0.5039
-<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.6043 - accuracy: 0.5041
-<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.6053 - accuracy: 0.5040
-<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.5999 - accuracy: 0.5044
-<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.6300 - accuracy: 0.5024
-<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6343 - accuracy: 0.5021
-<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6329 - accuracy: 0.5022
-<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6287 - accuracy: 0.5025
-<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6513 - accuracy: 0.5010
-<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6520 - accuracy: 0.5010
-<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6564 - accuracy: 0.5007
-<br />25000/25000 [==============================] - 9s 377us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+<br /> 1000/25000 [>.............................] - ETA: 12s - loss: 7.7280 - accuracy: 0.4960
+<br /> 2000/25000 [=>............................] - ETA: 9s - loss: 7.3906 - accuracy: 0.5180 
+<br /> 3000/25000 [==>...........................] - ETA: 8s - loss: 7.3702 - accuracy: 0.5193
+<br /> 4000/25000 [===>..........................] - ETA: 7s - loss: 7.3906 - accuracy: 0.5180
+<br /> 5000/25000 [=====>........................] - ETA: 7s - loss: 7.4581 - accuracy: 0.5136
+<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.5388 - accuracy: 0.5083
+<br /> 7000/25000 [=======>......................] - ETA: 6s - loss: 7.5900 - accuracy: 0.5050
+<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.6417 - accuracy: 0.5016
+<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.6479 - accuracy: 0.5012
+<br />10000/25000 [===========>..................] - ETA: 4s - loss: 7.6283 - accuracy: 0.5025
+<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.6276 - accuracy: 0.5025
+<br />12000/25000 [=============>................] - ETA: 4s - loss: 7.6487 - accuracy: 0.5012
+<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.6713 - accuracy: 0.4997
+<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.6765 - accuracy: 0.4994
+<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.6952 - accuracy: 0.4981
+<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.6887 - accuracy: 0.4986
+<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.6747 - accuracy: 0.4995
+<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.6521 - accuracy: 0.5009
+<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6553 - accuracy: 0.5007
+<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6567 - accuracy: 0.5006
+<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6528 - accuracy: 0.5009
+<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6541 - accuracy: 0.5008
+<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6666 - accuracy: 0.5000
+<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6615 - accuracy: 0.5003
+<br />25000/25000 [==============================] - 10s 397us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 <br />
 <br />  #### save the trained model  ####################################### 
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/ztest/model_keras/textcnn/model.h5'}
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/ztest/model_keras/textcnn/model.h5'}
 <br />
 <br />  #### Predict   ##################################################### 
 <br />Loading data...
@@ -248,13 +255,13 @@
 <br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/keras/initializers.py:119: calling RandomUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
 <br />Instructions for updating:
 <br />Call initializer instance with the dtype argument instead of passing it to the constructor
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/ztest/model_keras/textcnn/model.h5'}
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/ztest/model_keras/textcnn/model.h5'}
-<br />(<mlmodels.util.Model_empty object at 0x7f22330d8320>, None)
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/ztest/model_keras/textcnn/model.h5'}
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/ztest/model_keras/textcnn/model.h5', 'model_path': 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/ztest/model_keras/textcnn/model.h5'}
+<br />(<mlmodels.util.Model_empty object at 0x7f413c967cc0>, None)
 <br />
 <br />  #### Module init   ############################################ 
 <br />
-<br />  <module 'mlmodels.model_keras.textcnn' from 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras/textcnn.py'> 
+<br />  <module 'mlmodels.model_keras.textcnn' from 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras/textcnn.py'> 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -292,7 +299,7 @@
 <br />Non-trainable params: 0
 <br />__________________________________________________________________________________________________
 <br />
-<br />  <mlmodels.model_keras.textcnn.Model object at 0x7f22331daef0> 
+<br />  <mlmodels.model_keras.textcnn.Model object at 0x7f413c9d18d0> 
 <br />
 <br />  #### Fit   ######################################################## 
 <br />Loading data...
@@ -300,31 +307,31 @@
 <br />Train on 25000 samples, validate on 25000 samples
 <br />Epoch 1/1
 <br />
-<br /> 1000/25000 [>.............................] - ETA: 12s - loss: 7.7433 - accuracy: 0.4950
-<br /> 2000/25000 [=>............................] - ETA: 9s - loss: 7.7586 - accuracy: 0.4940 
-<br /> 3000/25000 [==>...........................] - ETA: 8s - loss: 7.8046 - accuracy: 0.4910
-<br /> 4000/25000 [===>..........................] - ETA: 7s - loss: 7.8391 - accuracy: 0.4888
-<br /> 5000/25000 [=====>........................] - ETA: 6s - loss: 7.7862 - accuracy: 0.4922
-<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.8200 - accuracy: 0.4900
-<br /> 7000/25000 [=======>......................] - ETA: 5s - loss: 7.8068 - accuracy: 0.4909
-<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.7510 - accuracy: 0.4945
-<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.7280 - accuracy: 0.4960
-<br />10000/25000 [===========>..................] - ETA: 4s - loss: 7.7510 - accuracy: 0.4945
-<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.7503 - accuracy: 0.4945
-<br />12000/25000 [=============>................] - ETA: 4s - loss: 7.7816 - accuracy: 0.4925
-<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.7987 - accuracy: 0.4914
-<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.7772 - accuracy: 0.4928
-<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.7331 - accuracy: 0.4957
-<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.7021 - accuracy: 0.4977
-<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.6811 - accuracy: 0.4991
-<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.6905 - accuracy: 0.4984
-<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6650 - accuracy: 0.5001
-<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6536 - accuracy: 0.5009
-<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6469 - accuracy: 0.5013
-<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6527 - accuracy: 0.5009
-<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6580 - accuracy: 0.5006
-<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6653 - accuracy: 0.5001
-<br />25000/25000 [==============================] - 9s 373us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+<br /> 1000/25000 [>.............................] - ETA: 14s - loss: 7.3600 - accuracy: 0.5200
+<br /> 2000/25000 [=>............................] - ETA: 10s - loss: 7.2986 - accuracy: 0.5240
+<br /> 3000/25000 [==>...........................] - ETA: 9s - loss: 7.5082 - accuracy: 0.5103 
+<br /> 4000/25000 [===>..........................] - ETA: 8s - loss: 7.5631 - accuracy: 0.5067
+<br /> 5000/25000 [=====>........................] - ETA: 7s - loss: 7.6176 - accuracy: 0.5032
+<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.5925 - accuracy: 0.5048
+<br /> 7000/25000 [=======>......................] - ETA: 6s - loss: 7.5505 - accuracy: 0.5076
+<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.5401 - accuracy: 0.5082
+<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.5593 - accuracy: 0.5070
+<br />10000/25000 [===========>..................] - ETA: 5s - loss: 7.5532 - accuracy: 0.5074
+<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.5802 - accuracy: 0.5056
+<br />12000/25000 [=============>................] - ETA: 4s - loss: 7.5631 - accuracy: 0.5067
+<br />13000/25000 [==============>...............] - ETA: 4s - loss: 7.5510 - accuracy: 0.5075
+<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.5407 - accuracy: 0.5082
+<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.5818 - accuracy: 0.5055
+<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.5919 - accuracy: 0.5049
+<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.6035 - accuracy: 0.5041
+<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.6181 - accuracy: 0.5032
+<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6343 - accuracy: 0.5021
+<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6390 - accuracy: 0.5018
+<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6447 - accuracy: 0.5014
+<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6367 - accuracy: 0.5020
+<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6380 - accuracy: 0.5019
+<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6532 - accuracy: 0.5009
+<br />25000/25000 [==============================] - 10s 392us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 <br />
 <br />  #### Predict   #################################################### 
 <br />Loading data...
@@ -346,7 +353,7 @@
 <br />
 <br />  #### Module init   ############################################ 
 <br />
-<br />  <module 'mlmodels.model_keras.textcnn' from 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras/textcnn.py'> 
+<br />  <module 'mlmodels.model_keras.textcnn' from 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras/textcnn.py'> 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -390,31 +397,31 @@
 <br />Train on 25000 samples, validate on 25000 samples
 <br />Epoch 1/1
 <br />
-<br /> 1000/25000 [>.............................] - ETA: 12s - loss: 7.6820 - accuracy: 0.4990
-<br /> 2000/25000 [=>............................] - ETA: 9s - loss: 7.7280 - accuracy: 0.4960 
-<br /> 3000/25000 [==>...........................] - ETA: 8s - loss: 7.7024 - accuracy: 0.4977
-<br /> 4000/25000 [===>..........................] - ETA: 7s - loss: 7.7663 - accuracy: 0.4935
-<br /> 5000/25000 [=====>........................] - ETA: 6s - loss: 7.7034 - accuracy: 0.4976
-<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.7663 - accuracy: 0.4935
-<br /> 7000/25000 [=======>......................] - ETA: 5s - loss: 7.7017 - accuracy: 0.4977
-<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.7280 - accuracy: 0.4960
-<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.7705 - accuracy: 0.4932
-<br />10000/25000 [===========>..................] - ETA: 4s - loss: 7.7724 - accuracy: 0.4931
-<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.7363 - accuracy: 0.4955
-<br />12000/25000 [=============>................] - ETA: 4s - loss: 7.7165 - accuracy: 0.4967
-<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.7020 - accuracy: 0.4977
-<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.6852 - accuracy: 0.4988
-<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.6584 - accuracy: 0.5005
-<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.6810 - accuracy: 0.4991
-<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.6901 - accuracy: 0.4985
-<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.7007 - accuracy: 0.4978
-<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6924 - accuracy: 0.4983
-<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6919 - accuracy: 0.4983
-<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6827 - accuracy: 0.4990
-<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6868 - accuracy: 0.4987
-<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6800 - accuracy: 0.4991
-<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6762 - accuracy: 0.4994
-<br />25000/25000 [==============================] - 9s 367us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+<br /> 1000/25000 [>.............................] - ETA: 13s - loss: 7.8353 - accuracy: 0.4890
+<br /> 2000/25000 [=>............................] - ETA: 9s - loss: 7.9733 - accuracy: 0.4800 
+<br /> 3000/25000 [==>...........................] - ETA: 8s - loss: 7.9426 - accuracy: 0.4820
+<br /> 4000/25000 [===>..........................] - ETA: 7s - loss: 7.8123 - accuracy: 0.4905
+<br /> 5000/25000 [=====>........................] - ETA: 7s - loss: 7.7556 - accuracy: 0.4942
+<br /> 6000/25000 [======>.......................] - ETA: 6s - loss: 7.7101 - accuracy: 0.4972
+<br /> 7000/25000 [=======>......................] - ETA: 6s - loss: 7.6820 - accuracy: 0.4990
+<br /> 8000/25000 [========>.....................] - ETA: 5s - loss: 7.7548 - accuracy: 0.4942
+<br /> 9000/25000 [=========>....................] - ETA: 5s - loss: 7.7416 - accuracy: 0.4951
+<br />10000/25000 [===========>..................] - ETA: 4s - loss: 7.7218 - accuracy: 0.4964
+<br />11000/25000 [============>.................] - ETA: 4s - loss: 7.7015 - accuracy: 0.4977
+<br />12000/25000 [=============>................] - ETA: 4s - loss: 7.7420 - accuracy: 0.4951
+<br />13000/25000 [==============>...............] - ETA: 3s - loss: 7.7280 - accuracy: 0.4960
+<br />14000/25000 [===============>..............] - ETA: 3s - loss: 7.7203 - accuracy: 0.4965
+<br />15000/25000 [=================>............] - ETA: 3s - loss: 7.6901 - accuracy: 0.4985
+<br />16000/25000 [==================>...........] - ETA: 2s - loss: 7.6839 - accuracy: 0.4989
+<br />17000/25000 [===================>..........] - ETA: 2s - loss: 7.6666 - accuracy: 0.5000
+<br />18000/25000 [====================>.........] - ETA: 2s - loss: 7.6590 - accuracy: 0.5005
+<br />19000/25000 [=====================>........] - ETA: 1s - loss: 7.6481 - accuracy: 0.5012
+<br />20000/25000 [=======================>......] - ETA: 1s - loss: 7.6689 - accuracy: 0.4999
+<br />21000/25000 [========================>.....] - ETA: 1s - loss: 7.6644 - accuracy: 0.5001
+<br />22000/25000 [=========================>....] - ETA: 0s - loss: 7.6694 - accuracy: 0.4998
+<br />23000/25000 [==========================>...] - ETA: 0s - loss: 7.6760 - accuracy: 0.4994
+<br />24000/25000 [===========================>..] - ETA: 0s - loss: 7.6756 - accuracy: 0.4994
+<br />25000/25000 [==============================] - 10s 391us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 <br />fit success None
 <br />
 <br />  ############ Prediction############################################ 
@@ -447,17 +454,19 @@
 <br />log_testall
 <br />test_jupyter
 <br />Fetching origin
-<br />From github.com:arita37/mlmodels_store
-<br />   fa489da..f6309e9  master     -> origin/master
-<br />Updating fa489da..f6309e9
-<br />Fast-forward
-<br /> error_list/20200518/list_log_json_20200518.md    | 1146 +++++++++++-----------
-<br /> error_list/20200518/list_log_testall_20200518.md |  386 ++++----
-<br /> 2 files changed, 746 insertions(+), 786 deletions(-)
-<br />[master 13ee1b2] ml_store
-<br /> 1 file changed, 324 insertions(+)
+<br />Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+<br />error: Your local changes to the following files would be overwritten by merge:
+<br />	deps.txt
+<br />Please commit your changes or stash them before you merge.
+<br />Aborting
+<br />Updating 66f9634..625ab75
 <br />To github.com:arita37/mlmodels_store.git
-<br />   f6309e9..13ee1b2  master -> master
+<br /> ! [rejected]        master -> master (non-fast-forward)
+<br />error: failed to push some refs to 'git@github.com:arita37/mlmodels_store.git'
+<br />hint: Updates were rejected because the tip of your current branch is behind
+<br />hint: its remote counterpart. Integrate the remote changes (e.g.
+<br />hint: 'git pull ...') before pushing again.
+<br />hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 <br />
 <br />
 <br />
@@ -465,7 +474,7 @@
 <br />
 <br /> ************************************************************************************************************************
 <br />
-<br />  python https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//armdn.py 
+<br />  python https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//armdn.py 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -508,28 +517,28 @@
 <br />
 <br />Epoch 1/10
 <br />
-<br />13/13 [==============================] - 2s 116ms/step - loss: nan
+<br />13/13 [==============================] - 2s 123ms/step - loss: nan
 <br />Epoch 2/10
 <br />
 <br />13/13 [==============================] - 0s 5ms/step - loss: nan
 <br />Epoch 3/10
 <br />
-<br />13/13 [==============================] - 0s 5ms/step - loss: nan
+<br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 4/10
 <br />
-<br />13/13 [==============================] - 0s 4ms/step - loss: nan
+<br />13/13 [==============================] - 0s 5ms/step - loss: nan
 <br />Epoch 5/10
 <br />
-<br />13/13 [==============================] - 0s 5ms/step - loss: nan
+<br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 6/10
 <br />
 <br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 7/10
 <br />
-<br />13/13 [==============================] - 0s 5ms/step - loss: nan
+<br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 8/10
 <br />
-<br />13/13 [==============================] - 0s 5ms/step - loss: nan
+<br />13/13 [==============================] - 0s 4ms/step - loss: nan
 <br />Epoch 9/10
 <br />
 <br />13/13 [==============================] - 0s 5ms/step - loss: nan
@@ -550,12 +559,12 @@
 
 
 
-### Error 11, [Traceback at line 5934](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L5934)<br />5934..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//armdn.py", line 380, in <module>
+### Error 11, [Traceback at line 6000](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L6000)<br />6000..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//armdn.py", line 380, in <module>
 <br />    test(pars_choice="json", data_path= "model_keras/armdn.json")
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//armdn.py", line 354, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//armdn.py", line 354, in test
 <br />    y_pred, y_test = predict(model=model, model_pars=model_pars, data_pars=data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_keras//armdn.py", line 170, in predict
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_keras//armdn.py", line 170, in predict
 <br />    model.model_pars["n_mixes"], temp=1.0)
 <br />  File "<__array_function__ internals>", line 6, in apply_along_axis
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/numpy/lib/shape_base.py", line 379, in apply_along_axis
@@ -566,7 +575,7 @@
 
 
 
-### Error 12, [Traceback at line 8101](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8101)<br />8101..Traceback (most recent call last):
+### Error 12, [Traceback at line 8180](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8180)<br />8180..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
 <br />    return fn(*args)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
@@ -581,7 +590,7 @@
 
 
 
-### Error 13, [Traceback at line 8113](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8113)<br />8113..Traceback (most recent call last):
+### Error 13, [Traceback at line 8192](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8192)<br />8192..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1290, in restore
 <br />    {self.saver_def.filename_tensor_name: save_path})
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
@@ -635,7 +644,7 @@
 
 
 
-### Error 14, [Traceback at line 8164](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8164)<br />8164..Traceback (most recent call last):
+### Error 14, [Traceback at line 8243](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8243)<br />8243..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1300, in restore
 <br />    names_to_keys = object_graph_key_mapping(save_path)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1618, in object_graph_key_mapping
@@ -649,14 +658,14 @@
 
 
 
-### Error 15, [Traceback at line 8175](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8175)<br />8175..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tf//1_lstm.py", line 332, in <module>
+### Error 15, [Traceback at line 8254](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8254)<br />8254..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tf//1_lstm.py", line 332, in <module>
 <br />    test(data_path="", pars_choice="test01", config_mode="test")
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tf//1_lstm.py", line 320, in test
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tf//1_lstm.py", line 320, in test
 <br />    session = load(out_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tf//1_lstm.py", line 199, in load
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tf//1_lstm.py", line 199, in load
 <br />    return load_tf(load_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/util.py", line 477, in load_tf
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/util.py", line 477, in load_tf
 <br />    saver.restore(sess,  full_name)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 1306, in restore
 <br />    err, "a Variable name or other graph key that is missing")
@@ -718,11 +727,19 @@
 <br />log_testall
 <br />test_jupyter
 <br />Fetching origin
-<br />Already up to date.
-<br />[master e3d83c9] ml_store
-<br /> 1 file changed, 234 insertions(+)
+<br />Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
+<br />error: Your local changes to the following files would be overwritten by merge:
+<br />	deps.txt
+<br />Please commit your changes or stash them before you merge.
+<br />Aborting
+<br />Updating 66f9634..625ab75
 <br />To github.com:arita37/mlmodels_store.git
-<br />   f9e7a70..e3d83c9  master -> master
+<br /> ! [rejected]        master -> master (non-fast-forward)
+<br />error: failed to push some refs to 'git@github.com:arita37/mlmodels_store.git'
+<br />hint: Updates were rejected because the tip of your current branch is behind
+<br />hint: its remote counterpart. Integrate the remote changes (e.g.
+<br />hint: 'git pull ...') before pushing again.
+<br />hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 <br />
 <br />
 <br />
@@ -730,69 +747,27 @@
 <br />
 <br /> ************************************************************************************************************************
 <br />
-<br />  python https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tf//temporal_fusion_google.py 
+<br />  python https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tf//temporal_fusion_google.py 
 
 
 
-### Error 16, [Traceback at line 8257](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8257)<br />8257..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
+### Error 16, [Traceback at line 8344](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8344)<br />8344..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
 <br />    from mlmodels.mode_tf.raw  import temporal_fusion_google
 <br />ModuleNotFoundError: No module named 'mlmodels.mode_tf'
 
 
 
-### Error 17, [Traceback at line 8519](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8519)<br />8519..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
+### Error 17, [Traceback at line 8604](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8604)<br />8604..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
 <br />    test(data_path = "model_fb/fbprophet.json", choice="json" )
 <br />TypeError: test() got an unexpected keyword argument 'choice'
 
 
 
-### Error 18, [Traceback at line 10657](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10657)<br />10657..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+### Error 18, [Traceback at line 10735](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10735)<br />10735..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
 <br />    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
 <br />    cf = json.load(open(data_path, mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
-
-
-
-### Error 19, [Traceback at line 11173](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11173)<br />11173..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
-<br />    from dataloader import DataLoader
-<br />ModuleNotFoundError: No module named 'dataloader'
-
-
-
-### Error 20, [Traceback at line 11308](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11308)<br />11308..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
-<br />    "beta_vae": md.model.beta_vae,
-<br />AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
-
-
-
-### Error 21, [Traceback at line 11445](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11445)<br />11445..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//textcnn.py", line 153, in create_tabular_dataset
-<br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
-<br />    return util.load_model(name, **overrides)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/util.py", line 169, in load_model
-<br />    raise IOError(Errors.E050.format(name=name))
-<br />OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
-
-
-
-### Error 22, [Traceback at line 11456](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11456)<br />11456..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//textcnn.py", line 477, in <module>
-<br />    test( data_path="model_tch/textcnn.json", pars_choice = "test01" )
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//textcnn.py", line 442, in test
-<br />    Xtuple = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//textcnn.py", line 334, in get_dataset
-<br />    trainset, validset, vocab = create_tabular_dataset( data_pars['train_path'], data_pars['valid_path'], lang, pretrained_emb)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch//textcnn.py", line 159, in create_tabular_dataset
-<br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)  
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
-<br />    return util.load_model(name, **overrides)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/util.py", line 169, in load_model
-<br />    raise IOError(Errors.E050.format(name=name))
-<br />OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
