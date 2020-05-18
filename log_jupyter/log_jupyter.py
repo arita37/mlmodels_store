@@ -244,7 +244,7 @@ Generated Features:
 All Features:
 	int features: 6
 	object features: 8
-	Data preprocessing and feature engineering runtime = 0.23s ...
+	Data preprocessing and feature engineering runtime = 0.26s ...
 AutoGluon will gauge predictive performance using evaluation metric: accuracy
 To change this, specify the eval_metric argument of fit()
 AutoGluon will early stop models using evaluation metric: accuracy
@@ -328,134 +328,99 @@ Num of Finished Tasks is 0
 Num of Pending Tasks is 5
   0%|          | 0/5 [00:00<?, ?it/s]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
 Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 12% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 Saving dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06} and reward: 0.3862
 Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3862
 Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3862
- 40%|████      | 2/5 [00:49<01:14, 24.96s/it]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
-Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
-distributed.utils_perf - WARNING - full garbage collections took 12% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 12% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 12% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-Saving dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Finished Task with config: {'activation.choice': 2, 'dropout_prob': 0.33291991824194117, 'embedding_size_factor': 0.7953041989044733, 'layers.choice': 3, 'learning_rate': 0.004200837359177582, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 0.03937900688605826} and reward: 0.3488
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xd5N\x8fXBO\xf9X\x15\x00\x00\x00embedding_size_factorq\x03G?\xe9s!\xca\x95QrX\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?q4\xe5\xb1,\xfc7X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\xa4)|5r\xfc\x06u.' and reward: 0.3488
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xd5N\x8fXBO\xf9X\x15\x00\x00\x00embedding_size_factorq\x03G?\xe9s!\xca\x95QrX\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?q4\xe5\xb1,\xfc7X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\xa4)|5r\xfc\x06u.' and reward: 0.3488
- 60%|██████    | 3/5 [01:41<01:06, 33.06s/it] 60%|██████    | 3/5 [01:41<01:07, 33.96s/it]
+ 40%|████      | 2/5 [00:55<01:23, 27.68s/it] 40%|████      | 2/5 [00:55<01:23, 27.68s/it]
 Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
 Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-Saving dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
-Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.20714680413818315, 'embedding_size_factor': 1.3141721295337427, 'layers.choice': 0, 'learning_rate': 0.0002040218166401396, 'network_type.choice': 0, 'use_batchnorm.choice': 1, 'weight_decay': 1.3676334776490086e-08} and reward: 0.353
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xca\x83\xc9V\x9fH\xf6X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf5\x06\xd9Z\xda\x97\xf7X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?*\xbd\xd6\x0fn\x7f\x80X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G>M^\xa5\x01\xa0$\xa7u.' and reward: 0.353
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xca\x83\xc9V\x9fH\xf6X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf5\x06\xd9Z\xda\x97\xf7X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?*\xbd\xd6\x0fn\x7f\x80X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G>M^\xa5\x01\xa0$\xa7u.' and reward: 0.353
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+Saving dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
+Finished Task with config: {'activation.choice': 2, 'dropout_prob': 0.22412132446496746, 'embedding_size_factor': 1.2071327452324718, 'layers.choice': 0, 'learning_rate': 0.0003713265864338324, 'network_type.choice': 0, 'use_batchnorm.choice': 1, 'weight_decay': 5.298982895384028e-06} and reward: 0.3664
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xcc\xb0\x01\xeft\xe5\x0cX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf3Pjl\xebDDX\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?8U\xd3\x8b|\x82\xa7X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G>\xd69\xbdS\xc4`fu.' and reward: 0.3664
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xcc\xb0\x01\xeft\xe5\x0cX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf3Pjl\xebDDX\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?8U\xd3\x8b|\x82\xa7X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G>\xd69\xbdS\xc4`fu.' and reward: 0.3664
 Please either provide filename or allow plot in get_training_curves
-Time for Neural Network hyperparameter optimization: 152.3158519268036
+Time for Neural Network hyperparameter optimization: 111.87223315238953
 Best hyperparameter configuration for Tabular Neural Network: 
 {'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06}
 Saving dataset/models/trainer.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Loading: dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
-Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.77s of the -34.63s of remaining time.
-Ensemble size: 38
+Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.74s of the 6.36s of remaining time.
+Ensemble size: 11
 Ensemble weights: 
-[0.65789474 0.07894737 0.26315789]
-	0.3908	 = Validation accuracy score
-	1.01s	 = Training runtime
+[0.72727273 0.27272727]
+	0.3896	 = Validation accuracy score
+	0.96s	 = Training runtime
 	0.0s	 = Validation runtime
 Saving dataset/models/weighted_ensemble_k0_l1/model.pkl
 Saving dataset/models/trainer.pkl
 Saving dataset/models/trainer.pkl
 Saving dataset/models/trainer.pkl
-AutoGluon training complete, total runtime = 155.68s ...
+AutoGluon training complete, total runtime = 114.64s ...
 Loading: dataset/models/trainer.pkl
 Loaded data from: https://autogluon.s3.amazonaws.com/datasets/Inc/test.csv | Columns = 15 / 15 | Rows = 9769 -> 9769
 Loading: dataset/models/trainer.pkl
 Loading: dataset/models/weighted_ensemble_k0_l1/model.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
-Loading: dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
 test
 
@@ -558,7 +523,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7f75a93d6ac8> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7ff192834a90> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -601,14 +566,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [-0.09415824  0.04383673 -0.02600401  0.09493946  0.14470984 -0.12818807]
- [ 0.16309322  0.20194745 -0.17679085  0.0919519   0.13034458 -0.0703012 ]
- [ 0.12427807 -0.14149302  0.05455852  0.05044635  0.29611686 -0.06520549]
- [ 0.02541232  0.11256387  0.28228176 -0.11665554  0.06786072 -0.31343684]
- [-0.47052741 -0.11882485 -0.51869148  0.4336766   0.27419096 -0.24492539]
- [ 0.31709617  0.29331687 -0.25538427  0.13167764 -0.32781312 -0.56178045]
- [ 0.1365803  -0.40898234 -0.10232418  0.24761017  0.11011024  0.10636975]
- [-0.05906157 -0.305879   -0.29678291 -0.35948834 -0.18362132  0.10806257]
+ [ 0.1069865   0.01018785 -0.03477554 -0.0227038   0.11754055  0.07464302]
+ [ 0.27156439  0.27042848  0.10829305 -0.02949878  0.03999641 -0.02579247]
+ [-0.12271927  0.17343965 -0.06856058  0.13665791  0.08072576  0.11099711]
+ [ 0.05828048  0.12171094  0.06557287  0.38901004  0.1274637  -0.17023298]
+ [ 0.32728302  0.66523594 -0.20537612 -0.11239282  0.36393055  0.28684387]
+ [ 0.56720281  0.20691928  0.42501375 -0.74359667  0.03168174  0.60681736]
+ [ 0.21652928  0.46867618  0.49932671 -0.06514889  0.28193715  0.49405083]
+ [ 0.15188682  0.27648762 -0.60381603  0.19518571  0.66824156  0.12812553]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -683,7 +648,7 @@ model_tf.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.4639723412692547, 'loss_history': []}
+{'loss': 0.6874085366725922, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -692,7 +657,7 @@ model_tf.1_lstm.py
 Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 
   #### Load   ######################################################## 
-2020-05-18 00:24:05.670238: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+2020-05-18 05:16:52.354842: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
 Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 
@@ -806,7 +771,7 @@ model_tf.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.5800758227705956, 'loss_history': []}
+{'loss': 0.49034763127565384, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -815,7 +780,7 @@ model_tf.1_lstm.py
 Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 
   #### Load   ######################################################## 
-2020-05-18 00:24:06.779640: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+2020-05-18 05:16:53.576862: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
 Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 
@@ -937,806 +902,815 @@ ________________________________________________________________________________
 Loading data...
 Downloading data from https://s3.amazonaws.com/text-datasets/imdb.npz
 
-    8192/17464789 [..............................] - ETA: 0s
- 1482752/17464789 [=>............................] - ETA: 0s
- 4702208/17464789 [=======>......................] - ETA: 0s
- 9732096/17464789 [===============>..............] - ETA: 0s
-17465344/17464789 [==============================] - 0s 0us/step
+    8192/17464789 [..............................] - ETA: 2:11
+   40960/17464789 [..............................] - ETA: 52s 
+   90112/17464789 [..............................] - ETA: 35s
+  163840/17464789 [..............................] - ETA: 26s
+  319488/17464789 [..............................] - ETA: 16s
+  630784/17464789 [>.............................] - ETA: 9s 
+ 1253376/17464789 [=>............................] - ETA: 5s
+ 2498560/17464789 [===>..........................] - ETA: 2s
+ 4956160/17464789 [=======>......................] - ETA: 1s
+ 7938048/17464789 [============>.................] - ETA: 0s
+10870784/17464789 [=================>............] - ETA: 0s
+13705216/17464789 [======================>.......] - ETA: 0s
+16769024/17464789 [===========================>..] - ETA: 0s
+17465344/17464789 [==============================] - 1s 0us/step
 Pad sequences (samples x time)...
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use tf.where in 2.0, which has the same broadcast rule as np.where
-2020-05-18 00:24:18.021944: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
-2020-05-18 00:24:18.026204: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095090000 Hz
-2020-05-18 00:24:18.026334: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558b06ad7320 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-05-18 00:24:18.026345: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-18 05:17:06.630685: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-05-18 05:17:06.634377: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2394450000 Hz
+2020-05-18 05:17:06.635059: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a3f77ed830 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-18 05:17:06.635078: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Train on 25000 samples, validate on 25000 samples
 Epoch 1/1
 
-   32/25000 [..............................] - ETA: 4:40 - loss: 8.1458 - accuracy: 0.4688
-   64/25000 [..............................] - ETA: 2:49 - loss: 6.9479 - accuracy: 0.5469
-   96/25000 [..............................] - ETA: 2:12 - loss: 6.5486 - accuracy: 0.5729
-  128/25000 [..............................] - ETA: 1:54 - loss: 6.9479 - accuracy: 0.5469
-  160/25000 [..............................] - ETA: 1:42 - loss: 7.3791 - accuracy: 0.5188
-  192/25000 [..............................] - ETA: 1:35 - loss: 7.5868 - accuracy: 0.5052
-  224/25000 [..............................] - ETA: 1:30 - loss: 7.3928 - accuracy: 0.5179
-  256/25000 [..............................] - ETA: 1:26 - loss: 7.3671 - accuracy: 0.5195
-  288/25000 [..............................] - ETA: 1:23 - loss: 7.6134 - accuracy: 0.5035
-  320/25000 [..............................] - ETA: 1:21 - loss: 7.5708 - accuracy: 0.5063
-  352/25000 [..............................] - ETA: 1:19 - loss: 7.6231 - accuracy: 0.5028
-  384/25000 [..............................] - ETA: 1:17 - loss: 7.7065 - accuracy: 0.4974
-  416/25000 [..............................] - ETA: 1:16 - loss: 7.6298 - accuracy: 0.5024
-  448/25000 [..............................] - ETA: 1:15 - loss: 7.6324 - accuracy: 0.5022
-  480/25000 [..............................] - ETA: 1:14 - loss: 7.7944 - accuracy: 0.4917
-  512/25000 [..............................] - ETA: 1:13 - loss: 7.8463 - accuracy: 0.4883
-  544/25000 [..............................] - ETA: 1:12 - loss: 7.7794 - accuracy: 0.4926
-  576/25000 [..............................] - ETA: 1:11 - loss: 7.6666 - accuracy: 0.5000
-  608/25000 [..............................] - ETA: 1:11 - loss: 7.6414 - accuracy: 0.5016
-  640/25000 [..............................] - ETA: 1:10 - loss: 7.7625 - accuracy: 0.4938
-  672/25000 [..............................] - ETA: 1:10 - loss: 7.8492 - accuracy: 0.4881
-  704/25000 [..............................] - ETA: 1:09 - loss: 7.8626 - accuracy: 0.4872
-  736/25000 [..............................] - ETA: 1:08 - loss: 7.8125 - accuracy: 0.4905
-  768/25000 [..............................] - ETA: 1:08 - loss: 7.7265 - accuracy: 0.4961
-  800/25000 [..............................] - ETA: 1:08 - loss: 7.8008 - accuracy: 0.4913
-  832/25000 [..............................] - ETA: 1:07 - loss: 7.8325 - accuracy: 0.4892
-  864/25000 [>.............................] - ETA: 1:07 - loss: 7.8796 - accuracy: 0.4861
-  896/25000 [>.............................] - ETA: 1:07 - loss: 7.9575 - accuracy: 0.4810
-  928/25000 [>.............................] - ETA: 1:06 - loss: 7.8979 - accuracy: 0.4849
-  960/25000 [>.............................] - ETA: 1:06 - loss: 7.8263 - accuracy: 0.4896
-  992/25000 [>.............................] - ETA: 1:06 - loss: 7.8366 - accuracy: 0.4889
- 1024/25000 [>.............................] - ETA: 1:05 - loss: 7.8763 - accuracy: 0.4863
- 1056/25000 [>.............................] - ETA: 1:05 - loss: 7.9715 - accuracy: 0.4801
- 1088/25000 [>.............................] - ETA: 1:05 - loss: 7.8780 - accuracy: 0.4862
- 1120/25000 [>.............................] - ETA: 1:05 - loss: 7.8994 - accuracy: 0.4848
- 1152/25000 [>.............................] - ETA: 1:04 - loss: 7.8929 - accuracy: 0.4852
- 1184/25000 [>.............................] - ETA: 1:04 - loss: 7.9386 - accuracy: 0.4823
- 1216/25000 [>.............................] - ETA: 1:04 - loss: 7.9314 - accuracy: 0.4827
- 1248/25000 [>.............................] - ETA: 1:04 - loss: 7.9983 - accuracy: 0.4784
- 1280/25000 [>.............................] - ETA: 1:03 - loss: 8.0260 - accuracy: 0.4766
- 1312/25000 [>.............................] - ETA: 1:03 - loss: 8.1458 - accuracy: 0.4688
- 1344/25000 [>.............................] - ETA: 1:03 - loss: 8.1800 - accuracy: 0.4665
- 1376/25000 [>.............................] - ETA: 1:03 - loss: 8.1904 - accuracy: 0.4658
- 1408/25000 [>.............................] - ETA: 1:03 - loss: 8.2111 - accuracy: 0.4645
- 1440/25000 [>.............................] - ETA: 1:02 - loss: 8.2310 - accuracy: 0.4632
- 1472/25000 [>.............................] - ETA: 1:02 - loss: 8.2395 - accuracy: 0.4626
- 1504/25000 [>.............................] - ETA: 1:02 - loss: 8.2273 - accuracy: 0.4634
- 1536/25000 [>.............................] - ETA: 1:02 - loss: 8.2456 - accuracy: 0.4622
- 1568/25000 [>.............................] - ETA: 1:02 - loss: 8.2534 - accuracy: 0.4617
- 1600/25000 [>.............................] - ETA: 1:02 - loss: 8.2799 - accuracy: 0.4600
- 1632/25000 [>.............................] - ETA: 1:02 - loss: 8.2679 - accuracy: 0.4608
- 1664/25000 [>.............................] - ETA: 1:01 - loss: 8.2471 - accuracy: 0.4621
- 1696/25000 [=>............................] - ETA: 1:01 - loss: 8.1819 - accuracy: 0.4664
- 1728/25000 [=>............................] - ETA: 1:01 - loss: 8.1902 - accuracy: 0.4659
- 1760/25000 [=>............................] - ETA: 1:01 - loss: 8.1893 - accuracy: 0.4659
- 1792/25000 [=>............................] - ETA: 1:01 - loss: 8.1458 - accuracy: 0.4688
- 1824/25000 [=>............................] - ETA: 1:01 - loss: 8.1374 - accuracy: 0.4693
- 1856/25000 [=>............................] - ETA: 1:01 - loss: 8.1540 - accuracy: 0.4682
- 1888/25000 [=>............................] - ETA: 1:01 - loss: 8.1377 - accuracy: 0.4693
- 1920/25000 [=>............................] - ETA: 1:00 - loss: 8.1138 - accuracy: 0.4708
- 1952/25000 [=>............................] - ETA: 1:00 - loss: 8.0672 - accuracy: 0.4739
- 1984/25000 [=>............................] - ETA: 1:00 - loss: 8.0530 - accuracy: 0.4748
- 2016/25000 [=>............................] - ETA: 1:00 - loss: 8.0241 - accuracy: 0.4767
- 2048/25000 [=>............................] - ETA: 1:00 - loss: 7.9886 - accuracy: 0.4790
- 2080/25000 [=>............................] - ETA: 1:00 - loss: 7.9910 - accuracy: 0.4788
- 2112/25000 [=>............................] - ETA: 59s - loss: 7.9788 - accuracy: 0.4796 
- 2144/25000 [=>............................] - ETA: 59s - loss: 7.9741 - accuracy: 0.4799
- 2176/25000 [=>............................] - ETA: 59s - loss: 7.9837 - accuracy: 0.4793
- 2208/25000 [=>............................] - ETA: 59s - loss: 7.9791 - accuracy: 0.4796
- 2240/25000 [=>............................] - ETA: 59s - loss: 7.9678 - accuracy: 0.4804
- 2272/25000 [=>............................] - ETA: 59s - loss: 7.9636 - accuracy: 0.4806
- 2304/25000 [=>............................] - ETA: 59s - loss: 7.9461 - accuracy: 0.4818
- 2336/25000 [=>............................] - ETA: 58s - loss: 7.9292 - accuracy: 0.4829
- 2368/25000 [=>............................] - ETA: 58s - loss: 7.9515 - accuracy: 0.4814
- 2400/25000 [=>............................] - ETA: 58s - loss: 7.9541 - accuracy: 0.4812
- 2432/25000 [=>............................] - ETA: 58s - loss: 7.9629 - accuracy: 0.4807
- 2464/25000 [=>............................] - ETA: 58s - loss: 7.9280 - accuracy: 0.4830
- 2496/25000 [=>............................] - ETA: 58s - loss: 7.9431 - accuracy: 0.4820
- 2528/25000 [==>...........................] - ETA: 58s - loss: 7.9274 - accuracy: 0.4830
- 2560/25000 [==>...........................] - ETA: 58s - loss: 7.9421 - accuracy: 0.4820
- 2592/25000 [==>...........................] - ETA: 57s - loss: 7.9565 - accuracy: 0.4811
- 2624/25000 [==>...........................] - ETA: 57s - loss: 7.9413 - accuracy: 0.4821
- 2656/25000 [==>...........................] - ETA: 57s - loss: 7.9380 - accuracy: 0.4823
- 2688/25000 [==>...........................] - ETA: 57s - loss: 7.9461 - accuracy: 0.4818
- 2720/25000 [==>...........................] - ETA: 57s - loss: 7.9372 - accuracy: 0.4824
- 2752/25000 [==>...........................] - ETA: 57s - loss: 7.9173 - accuracy: 0.4836
- 2784/25000 [==>...........................] - ETA: 57s - loss: 7.8869 - accuracy: 0.4856
- 2816/25000 [==>...........................] - ETA: 57s - loss: 7.8844 - accuracy: 0.4858
- 2848/25000 [==>...........................] - ETA: 57s - loss: 7.8820 - accuracy: 0.4860
- 2880/25000 [==>...........................] - ETA: 56s - loss: 7.8796 - accuracy: 0.4861
- 2912/25000 [==>...........................] - ETA: 56s - loss: 7.8878 - accuracy: 0.4856
- 2944/25000 [==>...........................] - ETA: 56s - loss: 7.8906 - accuracy: 0.4854
- 2976/25000 [==>...........................] - ETA: 56s - loss: 7.8882 - accuracy: 0.4856
- 3008/25000 [==>...........................] - ETA: 56s - loss: 7.8858 - accuracy: 0.4857
- 3040/25000 [==>...........................] - ETA: 56s - loss: 7.8986 - accuracy: 0.4849
- 3072/25000 [==>...........................] - ETA: 56s - loss: 7.9062 - accuracy: 0.4844
- 3104/25000 [==>...........................] - ETA: 56s - loss: 7.9037 - accuracy: 0.4845
- 3136/25000 [==>...........................] - ETA: 56s - loss: 7.9209 - accuracy: 0.4834
- 3168/25000 [==>...........................] - ETA: 56s - loss: 7.9280 - accuracy: 0.4830
- 3200/25000 [==>...........................] - ETA: 56s - loss: 7.9302 - accuracy: 0.4828
- 3232/25000 [==>...........................] - ETA: 56s - loss: 7.9513 - accuracy: 0.4814
- 3264/25000 [==>...........................] - ETA: 55s - loss: 7.9532 - accuracy: 0.4813
- 3296/25000 [==>...........................] - ETA: 55s - loss: 7.9411 - accuracy: 0.4821
- 3328/25000 [==>...........................] - ETA: 55s - loss: 7.9246 - accuracy: 0.4832
- 3360/25000 [===>..........................] - ETA: 55s - loss: 7.9085 - accuracy: 0.4842
- 3392/25000 [===>..........................] - ETA: 55s - loss: 7.9017 - accuracy: 0.4847
- 3424/25000 [===>..........................] - ETA: 55s - loss: 7.9174 - accuracy: 0.4836
- 3456/25000 [===>..........................] - ETA: 55s - loss: 7.9373 - accuracy: 0.4823
- 3488/25000 [===>..........................] - ETA: 55s - loss: 7.9436 - accuracy: 0.4819
- 3520/25000 [===>..........................] - ETA: 55s - loss: 7.9323 - accuracy: 0.4827
- 3552/25000 [===>..........................] - ETA: 55s - loss: 7.9299 - accuracy: 0.4828
- 3584/25000 [===>..........................] - ETA: 54s - loss: 7.9276 - accuracy: 0.4830
- 3616/25000 [===>..........................] - ETA: 54s - loss: 7.9338 - accuracy: 0.4826
- 3648/25000 [===>..........................] - ETA: 54s - loss: 7.9356 - accuracy: 0.4825
- 3680/25000 [===>..........................] - ETA: 54s - loss: 7.9375 - accuracy: 0.4823
- 3712/25000 [===>..........................] - ETA: 54s - loss: 7.9145 - accuracy: 0.4838
- 3744/25000 [===>..........................] - ETA: 54s - loss: 7.9123 - accuracy: 0.4840
- 3776/25000 [===>..........................] - ETA: 54s - loss: 7.9103 - accuracy: 0.4841
- 3808/25000 [===>..........................] - ETA: 54s - loss: 7.9163 - accuracy: 0.4837
- 3840/25000 [===>..........................] - ETA: 54s - loss: 7.8982 - accuracy: 0.4849
- 3872/25000 [===>..........................] - ETA: 53s - loss: 7.9240 - accuracy: 0.4832
- 3904/25000 [===>..........................] - ETA: 53s - loss: 7.9141 - accuracy: 0.4839
- 3936/25000 [===>..........................] - ETA: 53s - loss: 7.9237 - accuracy: 0.4832
- 3968/25000 [===>..........................] - ETA: 53s - loss: 7.9139 - accuracy: 0.4839
- 4000/25000 [===>..........................] - ETA: 53s - loss: 7.9005 - accuracy: 0.4848
- 4032/25000 [===>..........................] - ETA: 53s - loss: 7.9062 - accuracy: 0.4844
- 4064/25000 [===>..........................] - ETA: 53s - loss: 7.9119 - accuracy: 0.4840
- 4096/25000 [===>..........................] - ETA: 53s - loss: 7.9137 - accuracy: 0.4839
- 4128/25000 [===>..........................] - ETA: 53s - loss: 7.8932 - accuracy: 0.4852
- 4160/25000 [===>..........................] - ETA: 53s - loss: 7.8693 - accuracy: 0.4868
- 4192/25000 [====>.........................] - ETA: 53s - loss: 7.8641 - accuracy: 0.4871
- 4224/25000 [====>.........................] - ETA: 53s - loss: 7.8699 - accuracy: 0.4867
- 4256/25000 [====>.........................] - ETA: 53s - loss: 7.8792 - accuracy: 0.4861
- 4288/25000 [====>.........................] - ETA: 52s - loss: 7.8740 - accuracy: 0.4865
- 4320/25000 [====>.........................] - ETA: 52s - loss: 7.8725 - accuracy: 0.4866
- 4352/25000 [====>.........................] - ETA: 52s - loss: 7.8674 - accuracy: 0.4869
- 4384/25000 [====>.........................] - ETA: 52s - loss: 7.8555 - accuracy: 0.4877
- 4416/25000 [====>.........................] - ETA: 52s - loss: 7.8576 - accuracy: 0.4875
- 4448/25000 [====>.........................] - ETA: 52s - loss: 7.8528 - accuracy: 0.4879
- 4480/25000 [====>.........................] - ETA: 52s - loss: 7.8686 - accuracy: 0.4868
- 4512/25000 [====>.........................] - ETA: 52s - loss: 7.8603 - accuracy: 0.4874
- 4544/25000 [====>.........................] - ETA: 52s - loss: 7.8758 - accuracy: 0.4864
- 4576/25000 [====>.........................] - ETA: 52s - loss: 7.8811 - accuracy: 0.4860
- 4608/25000 [====>.........................] - ETA: 52s - loss: 7.8829 - accuracy: 0.4859
- 4640/25000 [====>.........................] - ETA: 51s - loss: 7.8913 - accuracy: 0.4853
- 4672/25000 [====>.........................] - ETA: 51s - loss: 7.8832 - accuracy: 0.4859
- 4704/25000 [====>.........................] - ETA: 51s - loss: 7.8687 - accuracy: 0.4868
- 4736/25000 [====>.........................] - ETA: 51s - loss: 7.8738 - accuracy: 0.4865
- 4768/25000 [====>.........................] - ETA: 51s - loss: 7.8467 - accuracy: 0.4883
- 4800/25000 [====>.........................] - ETA: 51s - loss: 7.8679 - accuracy: 0.4869
- 4832/25000 [====>.........................] - ETA: 51s - loss: 7.8665 - accuracy: 0.4870
- 4864/25000 [====>.........................] - ETA: 51s - loss: 7.8463 - accuracy: 0.4883
- 4896/25000 [====>.........................] - ETA: 51s - loss: 7.8326 - accuracy: 0.4892
- 4928/25000 [====>.........................] - ETA: 51s - loss: 7.8346 - accuracy: 0.4890
- 4960/25000 [====>.........................] - ETA: 51s - loss: 7.8397 - accuracy: 0.4887
- 4992/25000 [====>.........................] - ETA: 51s - loss: 7.8448 - accuracy: 0.4884
- 5024/25000 [=====>........................] - ETA: 50s - loss: 7.8375 - accuracy: 0.4889
- 5056/25000 [=====>........................] - ETA: 50s - loss: 7.8334 - accuracy: 0.4891
- 5088/25000 [=====>........................] - ETA: 50s - loss: 7.8565 - accuracy: 0.4876
- 5120/25000 [=====>........................] - ETA: 50s - loss: 7.8523 - accuracy: 0.4879
- 5152/25000 [=====>........................] - ETA: 50s - loss: 7.8482 - accuracy: 0.4882
- 5184/25000 [=====>........................] - ETA: 50s - loss: 7.8352 - accuracy: 0.4890
- 5216/25000 [=====>........................] - ETA: 50s - loss: 7.8371 - accuracy: 0.4889
- 5248/25000 [=====>........................] - ETA: 50s - loss: 7.8448 - accuracy: 0.4884
- 5280/25000 [=====>........................] - ETA: 50s - loss: 7.8467 - accuracy: 0.4883
- 5312/25000 [=====>........................] - ETA: 50s - loss: 7.8514 - accuracy: 0.4880
- 5344/25000 [=====>........................] - ETA: 50s - loss: 7.8388 - accuracy: 0.4888
- 5376/25000 [=====>........................] - ETA: 49s - loss: 7.8377 - accuracy: 0.4888
- 5408/25000 [=====>........................] - ETA: 49s - loss: 7.8396 - accuracy: 0.4887
- 5440/25000 [=====>........................] - ETA: 49s - loss: 7.8526 - accuracy: 0.4879
- 5472/25000 [=====>........................] - ETA: 49s - loss: 7.8572 - accuracy: 0.4876
- 5504/25000 [=====>........................] - ETA: 49s - loss: 7.8477 - accuracy: 0.4882
- 5536/25000 [=====>........................] - ETA: 49s - loss: 7.8494 - accuracy: 0.4881
- 5568/25000 [=====>........................] - ETA: 49s - loss: 7.8594 - accuracy: 0.4874
- 5600/25000 [=====>........................] - ETA: 49s - loss: 7.8528 - accuracy: 0.4879
- 5632/25000 [=====>........................] - ETA: 49s - loss: 7.8381 - accuracy: 0.4888
- 5664/25000 [=====>........................] - ETA: 49s - loss: 7.8426 - accuracy: 0.4885
- 5696/25000 [=====>........................] - ETA: 49s - loss: 7.8335 - accuracy: 0.4891
- 5728/25000 [=====>........................] - ETA: 49s - loss: 7.8433 - accuracy: 0.4885
- 5760/25000 [=====>........................] - ETA: 49s - loss: 7.8423 - accuracy: 0.4885
- 5792/25000 [=====>........................] - ETA: 49s - loss: 7.8413 - accuracy: 0.4886
- 5824/25000 [=====>........................] - ETA: 48s - loss: 7.8351 - accuracy: 0.4890
- 5856/25000 [======>.......................] - ETA: 48s - loss: 7.8237 - accuracy: 0.4898
- 5888/25000 [======>.......................] - ETA: 48s - loss: 7.8307 - accuracy: 0.4893
- 5920/25000 [======>.......................] - ETA: 48s - loss: 7.8453 - accuracy: 0.4883
- 5952/25000 [======>.......................] - ETA: 48s - loss: 7.8366 - accuracy: 0.4889
- 5984/25000 [======>.......................] - ETA: 48s - loss: 7.8511 - accuracy: 0.4880
- 6016/25000 [======>.......................] - ETA: 48s - loss: 7.8603 - accuracy: 0.4874
- 6048/25000 [======>.......................] - ETA: 48s - loss: 7.8517 - accuracy: 0.4879
- 6080/25000 [======>.......................] - ETA: 48s - loss: 7.8457 - accuracy: 0.4883
- 6112/25000 [======>.......................] - ETA: 48s - loss: 7.8447 - accuracy: 0.4884
- 6144/25000 [======>.......................] - ETA: 48s - loss: 7.8363 - accuracy: 0.4889
- 6176/25000 [======>.......................] - ETA: 48s - loss: 7.8255 - accuracy: 0.4896
- 6208/25000 [======>.......................] - ETA: 48s - loss: 7.8247 - accuracy: 0.4897
- 6240/25000 [======>.......................] - ETA: 47s - loss: 7.8239 - accuracy: 0.4897
- 6272/25000 [======>.......................] - ETA: 47s - loss: 7.8182 - accuracy: 0.4901
- 6304/25000 [======>.......................] - ETA: 47s - loss: 7.8272 - accuracy: 0.4895
- 6336/25000 [======>.......................] - ETA: 47s - loss: 7.8360 - accuracy: 0.4890
- 6368/25000 [======>.......................] - ETA: 47s - loss: 7.8376 - accuracy: 0.4889
- 6400/25000 [======>.......................] - ETA: 47s - loss: 7.8176 - accuracy: 0.4902
- 6432/25000 [======>.......................] - ETA: 47s - loss: 7.8192 - accuracy: 0.4900
- 6464/25000 [======>.......................] - ETA: 47s - loss: 7.8256 - accuracy: 0.4896
- 6496/25000 [======>.......................] - ETA: 47s - loss: 7.8248 - accuracy: 0.4897
- 6528/25000 [======>.......................] - ETA: 47s - loss: 7.8263 - accuracy: 0.4896
- 6560/25000 [======>.......................] - ETA: 47s - loss: 7.8302 - accuracy: 0.4893
- 6592/25000 [======>.......................] - ETA: 47s - loss: 7.8201 - accuracy: 0.4900
- 6624/25000 [======>.......................] - ETA: 46s - loss: 7.8148 - accuracy: 0.4903
- 6656/25000 [======>.......................] - ETA: 46s - loss: 7.8141 - accuracy: 0.4904
- 6688/25000 [=======>......................] - ETA: 46s - loss: 7.8202 - accuracy: 0.4900
- 6720/25000 [=======>......................] - ETA: 46s - loss: 7.8127 - accuracy: 0.4905
- 6752/25000 [=======>......................] - ETA: 46s - loss: 7.8097 - accuracy: 0.4907
- 6784/25000 [=======>......................] - ETA: 46s - loss: 7.8181 - accuracy: 0.4901
- 6816/25000 [=======>......................] - ETA: 46s - loss: 7.8106 - accuracy: 0.4906
- 6848/25000 [=======>......................] - ETA: 46s - loss: 7.8122 - accuracy: 0.4905
- 6880/25000 [=======>......................] - ETA: 46s - loss: 7.8115 - accuracy: 0.4906
- 6912/25000 [=======>......................] - ETA: 46s - loss: 7.8064 - accuracy: 0.4909
- 6944/25000 [=======>......................] - ETA: 46s - loss: 7.7925 - accuracy: 0.4918
- 6976/25000 [=======>......................] - ETA: 46s - loss: 7.7875 - accuracy: 0.4921
- 7008/25000 [=======>......................] - ETA: 46s - loss: 7.7891 - accuracy: 0.4920
- 7040/25000 [=======>......................] - ETA: 46s - loss: 7.7799 - accuracy: 0.4926
- 7072/25000 [=======>......................] - ETA: 45s - loss: 7.7902 - accuracy: 0.4919
- 7104/25000 [=======>......................] - ETA: 45s - loss: 7.7961 - accuracy: 0.4916
- 7136/25000 [=======>......................] - ETA: 45s - loss: 7.7977 - accuracy: 0.4915
- 7168/25000 [=======>......................] - ETA: 45s - loss: 7.7971 - accuracy: 0.4915
- 7200/25000 [=======>......................] - ETA: 45s - loss: 7.7965 - accuracy: 0.4915
- 7232/25000 [=======>......................] - ETA: 45s - loss: 7.7875 - accuracy: 0.4921
- 7264/25000 [=======>......................] - ETA: 45s - loss: 7.8017 - accuracy: 0.4912
- 7296/25000 [=======>......................] - ETA: 45s - loss: 7.8158 - accuracy: 0.4903
- 7328/25000 [=======>......................] - ETA: 45s - loss: 7.8236 - accuracy: 0.4898
- 7360/25000 [=======>......................] - ETA: 45s - loss: 7.8270 - accuracy: 0.4895
- 7392/25000 [=======>......................] - ETA: 45s - loss: 7.8243 - accuracy: 0.4897
- 7424/25000 [=======>......................] - ETA: 45s - loss: 7.8195 - accuracy: 0.4900
- 7456/25000 [=======>......................] - ETA: 44s - loss: 7.8126 - accuracy: 0.4905
- 7488/25000 [=======>......................] - ETA: 44s - loss: 7.8079 - accuracy: 0.4908
- 7520/25000 [========>.....................] - ETA: 44s - loss: 7.8073 - accuracy: 0.4908
- 7552/25000 [========>.....................] - ETA: 44s - loss: 7.8047 - accuracy: 0.4910
- 7584/25000 [========>.....................] - ETA: 44s - loss: 7.8041 - accuracy: 0.4910
- 7616/25000 [========>.....................] - ETA: 44s - loss: 7.8075 - accuracy: 0.4908
- 7648/25000 [========>.....................] - ETA: 44s - loss: 7.8030 - accuracy: 0.4911
- 7680/25000 [========>.....................] - ETA: 44s - loss: 7.8004 - accuracy: 0.4913
- 7712/25000 [========>.....................] - ETA: 44s - loss: 7.8018 - accuracy: 0.4912
- 7744/25000 [========>.....................] - ETA: 44s - loss: 7.7953 - accuracy: 0.4916
- 7776/25000 [========>.....................] - ETA: 44s - loss: 7.7987 - accuracy: 0.4914
- 7808/25000 [========>.....................] - ETA: 44s - loss: 7.8002 - accuracy: 0.4913
- 7840/25000 [========>.....................] - ETA: 44s - loss: 7.7996 - accuracy: 0.4913
- 7872/25000 [========>.....................] - ETA: 43s - loss: 7.8010 - accuracy: 0.4912
- 7904/25000 [========>.....................] - ETA: 43s - loss: 7.8024 - accuracy: 0.4911
- 7936/25000 [========>.....................] - ETA: 43s - loss: 7.7961 - accuracy: 0.4916
- 7968/25000 [========>.....................] - ETA: 43s - loss: 7.7994 - accuracy: 0.4913
- 8000/25000 [========>.....................] - ETA: 43s - loss: 7.7950 - accuracy: 0.4916
- 8032/25000 [========>.....................] - ETA: 43s - loss: 7.7964 - accuracy: 0.4915
- 8064/25000 [========>.....................] - ETA: 43s - loss: 7.7921 - accuracy: 0.4918
- 8096/25000 [========>.....................] - ETA: 43s - loss: 7.7916 - accuracy: 0.4918
- 8128/25000 [========>.....................] - ETA: 43s - loss: 7.7855 - accuracy: 0.4922
- 8160/25000 [========>.....................] - ETA: 43s - loss: 7.7869 - accuracy: 0.4922
- 8192/25000 [========>.....................] - ETA: 43s - loss: 7.7958 - accuracy: 0.4916
- 8224/25000 [========>.....................] - ETA: 43s - loss: 7.7971 - accuracy: 0.4915
- 8256/25000 [========>.....................] - ETA: 42s - loss: 7.7948 - accuracy: 0.4916
- 8288/25000 [========>.....................] - ETA: 42s - loss: 7.7980 - accuracy: 0.4914
- 8320/25000 [========>.....................] - ETA: 42s - loss: 7.8012 - accuracy: 0.4912
- 8352/25000 [=========>....................] - ETA: 42s - loss: 7.7915 - accuracy: 0.4919
- 8384/25000 [=========>....................] - ETA: 42s - loss: 7.7855 - accuracy: 0.4922
- 8416/25000 [=========>....................] - ETA: 42s - loss: 7.7832 - accuracy: 0.4924
- 8448/25000 [=========>....................] - ETA: 42s - loss: 7.7792 - accuracy: 0.4927
- 8480/25000 [=========>....................] - ETA: 42s - loss: 7.7769 - accuracy: 0.4928
- 8512/25000 [=========>....................] - ETA: 42s - loss: 7.7729 - accuracy: 0.4931
- 8544/25000 [=========>....................] - ETA: 42s - loss: 7.7725 - accuracy: 0.4931
- 8576/25000 [=========>....................] - ETA: 42s - loss: 7.7757 - accuracy: 0.4929
- 8608/25000 [=========>....................] - ETA: 42s - loss: 7.7771 - accuracy: 0.4928
- 8640/25000 [=========>....................] - ETA: 41s - loss: 7.7855 - accuracy: 0.4922
- 8672/25000 [=========>....................] - ETA: 41s - loss: 7.7886 - accuracy: 0.4920
- 8704/25000 [=========>....................] - ETA: 41s - loss: 7.7987 - accuracy: 0.4914
- 8736/25000 [=========>....................] - ETA: 41s - loss: 7.7965 - accuracy: 0.4915
- 8768/25000 [=========>....................] - ETA: 41s - loss: 7.7943 - accuracy: 0.4917
- 8800/25000 [=========>....................] - ETA: 41s - loss: 7.7921 - accuracy: 0.4918
- 8832/25000 [=========>....................] - ETA: 41s - loss: 7.7847 - accuracy: 0.4923
- 8864/25000 [=========>....................] - ETA: 41s - loss: 7.7946 - accuracy: 0.4917
- 8896/25000 [=========>....................] - ETA: 41s - loss: 7.7924 - accuracy: 0.4918
- 8928/25000 [=========>....................] - ETA: 41s - loss: 7.7800 - accuracy: 0.4926
- 8960/25000 [=========>....................] - ETA: 41s - loss: 7.7779 - accuracy: 0.4927
- 8992/25000 [=========>....................] - ETA: 40s - loss: 7.7792 - accuracy: 0.4927
- 9024/25000 [=========>....................] - ETA: 40s - loss: 7.7754 - accuracy: 0.4929
- 9056/25000 [=========>....................] - ETA: 40s - loss: 7.7682 - accuracy: 0.4934
- 9088/25000 [=========>....................] - ETA: 40s - loss: 7.7594 - accuracy: 0.4939
- 9120/25000 [=========>....................] - ETA: 40s - loss: 7.7591 - accuracy: 0.4940
- 9152/25000 [=========>....................] - ETA: 40s - loss: 7.7588 - accuracy: 0.4940
- 9184/25000 [==========>...................] - ETA: 40s - loss: 7.7568 - accuracy: 0.4941
- 9216/25000 [==========>...................] - ETA: 40s - loss: 7.7615 - accuracy: 0.4938
- 9248/25000 [==========>...................] - ETA: 40s - loss: 7.7595 - accuracy: 0.4939
- 9280/25000 [==========>...................] - ETA: 40s - loss: 7.7525 - accuracy: 0.4944
- 9312/25000 [==========>...................] - ETA: 40s - loss: 7.7506 - accuracy: 0.4945
- 9344/25000 [==========>...................] - ETA: 40s - loss: 7.7503 - accuracy: 0.4945
- 9376/25000 [==========>...................] - ETA: 39s - loss: 7.7484 - accuracy: 0.4947
- 9408/25000 [==========>...................] - ETA: 39s - loss: 7.7465 - accuracy: 0.4948
- 9440/25000 [==========>...................] - ETA: 39s - loss: 7.7495 - accuracy: 0.4946
- 9472/25000 [==========>...................] - ETA: 39s - loss: 7.7540 - accuracy: 0.4943
- 9504/25000 [==========>...................] - ETA: 39s - loss: 7.7586 - accuracy: 0.4940
- 9536/25000 [==========>...................] - ETA: 39s - loss: 7.7583 - accuracy: 0.4940
- 9568/25000 [==========>...................] - ETA: 39s - loss: 7.7548 - accuracy: 0.4943
- 9600/25000 [==========>...................] - ETA: 39s - loss: 7.7640 - accuracy: 0.4936
- 9632/25000 [==========>...................] - ETA: 39s - loss: 7.7637 - accuracy: 0.4937
- 9664/25000 [==========>...................] - ETA: 39s - loss: 7.7634 - accuracy: 0.4937
- 9696/25000 [==========>...................] - ETA: 39s - loss: 7.7631 - accuracy: 0.4937
- 9728/25000 [==========>...................] - ETA: 38s - loss: 7.7612 - accuracy: 0.4938
- 9760/25000 [==========>...................] - ETA: 38s - loss: 7.7609 - accuracy: 0.4939
- 9792/25000 [==========>...................] - ETA: 38s - loss: 7.7543 - accuracy: 0.4943
- 9824/25000 [==========>...................] - ETA: 38s - loss: 7.7493 - accuracy: 0.4946
- 9856/25000 [==========>...................] - ETA: 38s - loss: 7.7475 - accuracy: 0.4947
- 9888/25000 [==========>...................] - ETA: 38s - loss: 7.7457 - accuracy: 0.4948
- 9920/25000 [==========>...................] - ETA: 38s - loss: 7.7377 - accuracy: 0.4954
- 9952/25000 [==========>...................] - ETA: 38s - loss: 7.7467 - accuracy: 0.4948
- 9984/25000 [==========>...................] - ETA: 38s - loss: 7.7419 - accuracy: 0.4951
-10016/25000 [===========>..................] - ETA: 38s - loss: 7.7447 - accuracy: 0.4949
-10048/25000 [===========>..................] - ETA: 38s - loss: 7.7444 - accuracy: 0.4949
-10080/25000 [===========>..................] - ETA: 37s - loss: 7.7457 - accuracy: 0.4948
-10112/25000 [===========>..................] - ETA: 37s - loss: 7.7470 - accuracy: 0.4948
-10144/25000 [===========>..................] - ETA: 37s - loss: 7.7467 - accuracy: 0.4948
-10176/25000 [===========>..................] - ETA: 37s - loss: 7.7435 - accuracy: 0.4950
-10208/25000 [===========>..................] - ETA: 37s - loss: 7.7357 - accuracy: 0.4955
-10240/25000 [===========>..................] - ETA: 37s - loss: 7.7370 - accuracy: 0.4954
-10272/25000 [===========>..................] - ETA: 37s - loss: 7.7398 - accuracy: 0.4952
-10304/25000 [===========>..................] - ETA: 37s - loss: 7.7410 - accuracy: 0.4951
-10336/25000 [===========>..................] - ETA: 37s - loss: 7.7512 - accuracy: 0.4945
-10368/25000 [===========>..................] - ETA: 37s - loss: 7.7494 - accuracy: 0.4946
-10400/25000 [===========>..................] - ETA: 37s - loss: 7.7477 - accuracy: 0.4947
-10432/25000 [===========>..................] - ETA: 37s - loss: 7.7460 - accuracy: 0.4948
-10464/25000 [===========>..................] - ETA: 36s - loss: 7.7516 - accuracy: 0.4945
-10496/25000 [===========>..................] - ETA: 36s - loss: 7.7543 - accuracy: 0.4943
-10528/25000 [===========>..................] - ETA: 36s - loss: 7.7482 - accuracy: 0.4947
-10560/25000 [===========>..................] - ETA: 36s - loss: 7.7421 - accuracy: 0.4951
-10592/25000 [===========>..................] - ETA: 36s - loss: 7.7390 - accuracy: 0.4953
-10624/25000 [===========>..................] - ETA: 36s - loss: 7.7373 - accuracy: 0.4954
-10656/25000 [===========>..................] - ETA: 36s - loss: 7.7371 - accuracy: 0.4954
-10688/25000 [===========>..................] - ETA: 36s - loss: 7.7384 - accuracy: 0.4953
-10720/25000 [===========>..................] - ETA: 36s - loss: 7.7296 - accuracy: 0.4959
-10752/25000 [===========>..................] - ETA: 36s - loss: 7.7336 - accuracy: 0.4956
-10784/25000 [===========>..................] - ETA: 36s - loss: 7.7334 - accuracy: 0.4956
-10816/25000 [===========>..................] - ETA: 36s - loss: 7.7347 - accuracy: 0.4956
-10848/25000 [============>.................] - ETA: 35s - loss: 7.7373 - accuracy: 0.4954
-10880/25000 [============>.................] - ETA: 35s - loss: 7.7371 - accuracy: 0.4954
-10912/25000 [============>.................] - ETA: 35s - loss: 7.7355 - accuracy: 0.4955
-10944/25000 [============>.................] - ETA: 35s - loss: 7.7353 - accuracy: 0.4955
-10976/25000 [============>.................] - ETA: 35s - loss: 7.7337 - accuracy: 0.4956
-11008/25000 [============>.................] - ETA: 35s - loss: 7.7265 - accuracy: 0.4961
-11040/25000 [============>.................] - ETA: 35s - loss: 7.7208 - accuracy: 0.4965
-11072/25000 [============>.................] - ETA: 35s - loss: 7.7234 - accuracy: 0.4963
-11104/25000 [============>.................] - ETA: 35s - loss: 7.7260 - accuracy: 0.4961
-11136/25000 [============>.................] - ETA: 35s - loss: 7.7217 - accuracy: 0.4964
-11168/25000 [============>.................] - ETA: 35s - loss: 7.7243 - accuracy: 0.4962
-11200/25000 [============>.................] - ETA: 34s - loss: 7.7269 - accuracy: 0.4961
-11232/25000 [============>.................] - ETA: 34s - loss: 7.7294 - accuracy: 0.4959
-11264/25000 [============>.................] - ETA: 34s - loss: 7.7320 - accuracy: 0.4957
-11296/25000 [============>.................] - ETA: 34s - loss: 7.7291 - accuracy: 0.4959
-11328/25000 [============>.................] - ETA: 34s - loss: 7.7289 - accuracy: 0.4959
-11360/25000 [============>.................] - ETA: 34s - loss: 7.7233 - accuracy: 0.4963
-11392/25000 [============>.................] - ETA: 34s - loss: 7.7191 - accuracy: 0.4966
-11424/25000 [============>.................] - ETA: 34s - loss: 7.7176 - accuracy: 0.4967
-11456/25000 [============>.................] - ETA: 34s - loss: 7.7202 - accuracy: 0.4965
-11488/25000 [============>.................] - ETA: 34s - loss: 7.7187 - accuracy: 0.4966
-11520/25000 [============>.................] - ETA: 34s - loss: 7.7199 - accuracy: 0.4965
-11552/25000 [============>.................] - ETA: 34s - loss: 7.7224 - accuracy: 0.4964
-11584/25000 [============>.................] - ETA: 34s - loss: 7.7275 - accuracy: 0.4960
-11616/25000 [============>.................] - ETA: 33s - loss: 7.7273 - accuracy: 0.4960
-11648/25000 [============>.................] - ETA: 33s - loss: 7.7285 - accuracy: 0.4960
-11680/25000 [=============>................] - ETA: 33s - loss: 7.7283 - accuracy: 0.4960
-11712/25000 [=============>................] - ETA: 33s - loss: 7.7268 - accuracy: 0.4961
-11744/25000 [=============>................] - ETA: 33s - loss: 7.7254 - accuracy: 0.4962
-11776/25000 [=============>................] - ETA: 33s - loss: 7.7226 - accuracy: 0.4963
-11808/25000 [=============>................] - ETA: 33s - loss: 7.7173 - accuracy: 0.4967
-11840/25000 [=============>................] - ETA: 33s - loss: 7.7249 - accuracy: 0.4962
-11872/25000 [=============>................] - ETA: 33s - loss: 7.7234 - accuracy: 0.4963
-11904/25000 [=============>................] - ETA: 33s - loss: 7.7284 - accuracy: 0.4960
-11936/25000 [=============>................] - ETA: 33s - loss: 7.7257 - accuracy: 0.4961
-11968/25000 [=============>................] - ETA: 33s - loss: 7.7281 - accuracy: 0.4960
-12000/25000 [=============>................] - ETA: 32s - loss: 7.7267 - accuracy: 0.4961
-12032/25000 [=============>................] - ETA: 32s - loss: 7.7265 - accuracy: 0.4961
-12064/25000 [=============>................] - ETA: 32s - loss: 7.7238 - accuracy: 0.4963
-12096/25000 [=============>................] - ETA: 32s - loss: 7.7211 - accuracy: 0.4964
-12128/25000 [=============>................] - ETA: 32s - loss: 7.7172 - accuracy: 0.4967
-12160/25000 [=============>................] - ETA: 32s - loss: 7.7171 - accuracy: 0.4967
-12192/25000 [=============>................] - ETA: 32s - loss: 7.7232 - accuracy: 0.4963
-12224/25000 [=============>................] - ETA: 32s - loss: 7.7218 - accuracy: 0.4964
-12256/25000 [=============>................] - ETA: 32s - loss: 7.7154 - accuracy: 0.4968
-12288/25000 [=============>................] - ETA: 32s - loss: 7.7165 - accuracy: 0.4967
-12320/25000 [=============>................] - ETA: 32s - loss: 7.7152 - accuracy: 0.4968
-12352/25000 [=============>................] - ETA: 32s - loss: 7.7113 - accuracy: 0.4971
-12384/25000 [=============>................] - ETA: 31s - loss: 7.7050 - accuracy: 0.4975
-12416/25000 [=============>................] - ETA: 31s - loss: 7.7049 - accuracy: 0.4975
-12448/25000 [=============>................] - ETA: 31s - loss: 7.7023 - accuracy: 0.4977
-12480/25000 [=============>................] - ETA: 31s - loss: 7.7035 - accuracy: 0.4976
-12512/25000 [==============>...............] - ETA: 31s - loss: 7.7009 - accuracy: 0.4978
-12544/25000 [==============>...............] - ETA: 31s - loss: 7.6947 - accuracy: 0.4982
-12576/25000 [==============>...............] - ETA: 31s - loss: 7.6971 - accuracy: 0.4980
-12608/25000 [==============>...............] - ETA: 31s - loss: 7.7007 - accuracy: 0.4978
-12640/25000 [==============>...............] - ETA: 31s - loss: 7.6994 - accuracy: 0.4979
-12672/25000 [==============>...............] - ETA: 31s - loss: 7.7017 - accuracy: 0.4977
-12704/25000 [==============>...............] - ETA: 31s - loss: 7.6944 - accuracy: 0.4982
-12736/25000 [==============>...............] - ETA: 31s - loss: 7.6967 - accuracy: 0.4980
-12768/25000 [==============>...............] - ETA: 30s - loss: 7.6918 - accuracy: 0.4984
-12800/25000 [==============>...............] - ETA: 30s - loss: 7.6966 - accuracy: 0.4980
-12832/25000 [==============>...............] - ETA: 30s - loss: 7.6881 - accuracy: 0.4986
-12864/25000 [==============>...............] - ETA: 30s - loss: 7.6857 - accuracy: 0.4988
-12896/25000 [==============>...............] - ETA: 30s - loss: 7.6904 - accuracy: 0.4984
-12928/25000 [==============>...............] - ETA: 30s - loss: 7.6892 - accuracy: 0.4985
-12960/25000 [==============>...............] - ETA: 30s - loss: 7.6879 - accuracy: 0.4986
-12992/25000 [==============>...............] - ETA: 30s - loss: 7.6867 - accuracy: 0.4987
-13024/25000 [==============>...............] - ETA: 30s - loss: 7.6796 - accuracy: 0.4992
-13056/25000 [==============>...............] - ETA: 30s - loss: 7.6831 - accuracy: 0.4989
-13088/25000 [==============>...............] - ETA: 30s - loss: 7.6818 - accuracy: 0.4990
-13120/25000 [==============>...............] - ETA: 30s - loss: 7.6783 - accuracy: 0.4992
-13152/25000 [==============>...............] - ETA: 29s - loss: 7.6759 - accuracy: 0.4994
-13184/25000 [==============>...............] - ETA: 29s - loss: 7.6736 - accuracy: 0.4995
-13216/25000 [==============>...............] - ETA: 29s - loss: 7.6724 - accuracy: 0.4996
-13248/25000 [==============>...............] - ETA: 29s - loss: 7.6724 - accuracy: 0.4996
-13280/25000 [==============>...............] - ETA: 29s - loss: 7.6724 - accuracy: 0.4996
-13312/25000 [==============>...............] - ETA: 29s - loss: 7.6712 - accuracy: 0.4997
-13344/25000 [===============>..............] - ETA: 29s - loss: 7.6666 - accuracy: 0.5000
-13376/25000 [===============>..............] - ETA: 29s - loss: 7.6666 - accuracy: 0.5000
-13408/25000 [===============>..............] - ETA: 29s - loss: 7.6712 - accuracy: 0.4997
-13440/25000 [===============>..............] - ETA: 29s - loss: 7.6769 - accuracy: 0.4993
-13472/25000 [===============>..............] - ETA: 29s - loss: 7.6723 - accuracy: 0.4996
-13504/25000 [===============>..............] - ETA: 29s - loss: 7.6768 - accuracy: 0.4993
-13536/25000 [===============>..............] - ETA: 28s - loss: 7.6825 - accuracy: 0.4990
-13568/25000 [===============>..............] - ETA: 28s - loss: 7.6836 - accuracy: 0.4989
-13600/25000 [===============>..............] - ETA: 28s - loss: 7.6892 - accuracy: 0.4985
-13632/25000 [===============>..............] - ETA: 28s - loss: 7.6880 - accuracy: 0.4986
-13664/25000 [===============>..............] - ETA: 28s - loss: 7.6913 - accuracy: 0.4984
-13696/25000 [===============>..............] - ETA: 28s - loss: 7.6968 - accuracy: 0.4980
-13728/25000 [===============>..............] - ETA: 28s - loss: 7.6934 - accuracy: 0.4983
-13760/25000 [===============>..............] - ETA: 28s - loss: 7.6900 - accuracy: 0.4985
-13792/25000 [===============>..............] - ETA: 28s - loss: 7.6911 - accuracy: 0.4984
-13824/25000 [===============>..............] - ETA: 28s - loss: 7.6921 - accuracy: 0.4983
-13856/25000 [===============>..............] - ETA: 28s - loss: 7.6910 - accuracy: 0.4984
-13888/25000 [===============>..............] - ETA: 28s - loss: 7.6920 - accuracy: 0.4983
-13920/25000 [===============>..............] - ETA: 27s - loss: 7.6953 - accuracy: 0.4981
-13952/25000 [===============>..............] - ETA: 27s - loss: 7.6919 - accuracy: 0.4984
-13984/25000 [===============>..............] - ETA: 27s - loss: 7.6918 - accuracy: 0.4984
-14016/25000 [===============>..............] - ETA: 27s - loss: 7.6929 - accuracy: 0.4983
-14048/25000 [===============>..............] - ETA: 27s - loss: 7.6939 - accuracy: 0.4982
-14080/25000 [===============>..............] - ETA: 27s - loss: 7.6971 - accuracy: 0.4980
-14112/25000 [===============>..............] - ETA: 27s - loss: 7.7025 - accuracy: 0.4977
-14144/25000 [===============>..............] - ETA: 27s - loss: 7.7046 - accuracy: 0.4975
-14176/25000 [================>.............] - ETA: 27s - loss: 7.7045 - accuracy: 0.4975
-14208/25000 [================>.............] - ETA: 27s - loss: 7.7076 - accuracy: 0.4973
-14240/25000 [================>.............] - ETA: 27s - loss: 7.7065 - accuracy: 0.4974
-14272/25000 [================>.............] - ETA: 27s - loss: 7.7064 - accuracy: 0.4974
-14304/25000 [================>.............] - ETA: 26s - loss: 7.7031 - accuracy: 0.4976
-14336/25000 [================>.............] - ETA: 26s - loss: 7.7062 - accuracy: 0.4974
-14368/25000 [================>.............] - ETA: 26s - loss: 7.7061 - accuracy: 0.4974
-14400/25000 [================>.............] - ETA: 26s - loss: 7.7018 - accuracy: 0.4977
-14432/25000 [================>.............] - ETA: 26s - loss: 7.7006 - accuracy: 0.4978
-14464/25000 [================>.............] - ETA: 26s - loss: 7.7048 - accuracy: 0.4975
-14496/25000 [================>.............] - ETA: 26s - loss: 7.7110 - accuracy: 0.4971
-14528/25000 [================>.............] - ETA: 26s - loss: 7.7088 - accuracy: 0.4972
-14560/25000 [================>.............] - ETA: 26s - loss: 7.7098 - accuracy: 0.4972
-14592/25000 [================>.............] - ETA: 26s - loss: 7.7108 - accuracy: 0.4971
-14624/25000 [================>.............] - ETA: 26s - loss: 7.7075 - accuracy: 0.4973
-14656/25000 [================>.............] - ETA: 26s - loss: 7.7074 - accuracy: 0.4973
-14688/25000 [================>.............] - ETA: 25s - loss: 7.7073 - accuracy: 0.4973
-14720/25000 [================>.............] - ETA: 25s - loss: 7.7072 - accuracy: 0.4974
-14752/25000 [================>.............] - ETA: 25s - loss: 7.7082 - accuracy: 0.4973
-14784/25000 [================>.............] - ETA: 25s - loss: 7.7029 - accuracy: 0.4976
-14816/25000 [================>.............] - ETA: 25s - loss: 7.7070 - accuracy: 0.4974
-14848/25000 [================>.............] - ETA: 25s - loss: 7.7110 - accuracy: 0.4971
-14880/25000 [================>.............] - ETA: 25s - loss: 7.7037 - accuracy: 0.4976
-14912/25000 [================>.............] - ETA: 25s - loss: 7.7047 - accuracy: 0.4975
-14944/25000 [================>.............] - ETA: 25s - loss: 7.7046 - accuracy: 0.4975
-14976/25000 [================>.............] - ETA: 25s - loss: 7.7014 - accuracy: 0.4977
-15008/25000 [=================>............] - ETA: 25s - loss: 7.7075 - accuracy: 0.4973
-15040/25000 [=================>............] - ETA: 25s - loss: 7.7105 - accuracy: 0.4971
-15072/25000 [=================>............] - ETA: 24s - loss: 7.7114 - accuracy: 0.4971
-15104/25000 [=================>............] - ETA: 24s - loss: 7.7113 - accuracy: 0.4971
-15136/25000 [=================>............] - ETA: 24s - loss: 7.7102 - accuracy: 0.4972
-15168/25000 [=================>............] - ETA: 24s - loss: 7.7151 - accuracy: 0.4968
-15200/25000 [=================>............] - ETA: 24s - loss: 7.7140 - accuracy: 0.4969
-15232/25000 [=================>............] - ETA: 24s - loss: 7.7149 - accuracy: 0.4968
-15264/25000 [=================>............] - ETA: 24s - loss: 7.7148 - accuracy: 0.4969
-15296/25000 [=================>............] - ETA: 24s - loss: 7.7127 - accuracy: 0.4970
-15328/25000 [=================>............] - ETA: 24s - loss: 7.7156 - accuracy: 0.4968
-15360/25000 [=================>............] - ETA: 24s - loss: 7.7105 - accuracy: 0.4971
-15392/25000 [=================>............] - ETA: 24s - loss: 7.7075 - accuracy: 0.4973
-15424/25000 [=================>............] - ETA: 24s - loss: 7.7064 - accuracy: 0.4974
-15456/25000 [=================>............] - ETA: 24s - loss: 7.7013 - accuracy: 0.4977
-15488/25000 [=================>............] - ETA: 23s - loss: 7.6983 - accuracy: 0.4979
-15520/25000 [=================>............] - ETA: 23s - loss: 7.6992 - accuracy: 0.4979
-15552/25000 [=================>............] - ETA: 23s - loss: 7.6982 - accuracy: 0.4979
-15584/25000 [=================>............] - ETA: 23s - loss: 7.6991 - accuracy: 0.4979
-15616/25000 [=================>............] - ETA: 23s - loss: 7.6951 - accuracy: 0.4981
-15648/25000 [=================>............] - ETA: 23s - loss: 7.6960 - accuracy: 0.4981
-15680/25000 [=================>............] - ETA: 23s - loss: 7.6960 - accuracy: 0.4981
-15712/25000 [=================>............] - ETA: 23s - loss: 7.6930 - accuracy: 0.4983
-15744/25000 [=================>............] - ETA: 23s - loss: 7.6958 - accuracy: 0.4981
-15776/25000 [=================>............] - ETA: 23s - loss: 7.6948 - accuracy: 0.4982
-15808/25000 [=================>............] - ETA: 23s - loss: 7.6957 - accuracy: 0.4981
-15840/25000 [==================>...........] - ETA: 23s - loss: 7.6976 - accuracy: 0.4980
-15872/25000 [==================>...........] - ETA: 22s - loss: 7.6966 - accuracy: 0.4980
-15904/25000 [==================>...........] - ETA: 22s - loss: 7.6955 - accuracy: 0.4981
-15936/25000 [==================>...........] - ETA: 22s - loss: 7.6945 - accuracy: 0.4982
-15968/25000 [==================>...........] - ETA: 22s - loss: 7.6964 - accuracy: 0.4981
-16000/25000 [==================>...........] - ETA: 22s - loss: 7.6973 - accuracy: 0.4980
-16032/25000 [==================>...........] - ETA: 22s - loss: 7.7001 - accuracy: 0.4978
-16064/25000 [==================>...........] - ETA: 22s - loss: 7.7029 - accuracy: 0.4976
-16096/25000 [==================>...........] - ETA: 22s - loss: 7.7047 - accuracy: 0.4975
-16128/25000 [==================>...........] - ETA: 22s - loss: 7.7046 - accuracy: 0.4975
-16160/25000 [==================>...........] - ETA: 22s - loss: 7.6989 - accuracy: 0.4979
-16192/25000 [==================>...........] - ETA: 22s - loss: 7.6950 - accuracy: 0.4981
-16224/25000 [==================>...........] - ETA: 22s - loss: 7.6940 - accuracy: 0.4982
-16256/25000 [==================>...........] - ETA: 21s - loss: 7.6911 - accuracy: 0.4984
-16288/25000 [==================>...........] - ETA: 21s - loss: 7.6920 - accuracy: 0.4983
-16320/25000 [==================>...........] - ETA: 21s - loss: 7.6939 - accuracy: 0.4982
-16352/25000 [==================>...........] - ETA: 21s - loss: 7.6901 - accuracy: 0.4985
-16384/25000 [==================>...........] - ETA: 21s - loss: 7.6938 - accuracy: 0.4982
-16416/25000 [==================>...........] - ETA: 21s - loss: 7.6937 - accuracy: 0.4982
-16448/25000 [==================>...........] - ETA: 21s - loss: 7.6918 - accuracy: 0.4984
-16480/25000 [==================>...........] - ETA: 21s - loss: 7.6945 - accuracy: 0.4982
-16512/25000 [==================>...........] - ETA: 21s - loss: 7.6973 - accuracy: 0.4980
-16544/25000 [==================>...........] - ETA: 21s - loss: 7.6972 - accuracy: 0.4980
-16576/25000 [==================>...........] - ETA: 21s - loss: 7.6962 - accuracy: 0.4981
-16608/25000 [==================>...........] - ETA: 21s - loss: 7.6962 - accuracy: 0.4981
-16640/25000 [==================>...........] - ETA: 20s - loss: 7.6933 - accuracy: 0.4983
-16672/25000 [===================>..........] - ETA: 20s - loss: 7.6951 - accuracy: 0.4981
-16704/25000 [===================>..........] - ETA: 20s - loss: 7.6960 - accuracy: 0.4981
-16736/25000 [===================>..........] - ETA: 20s - loss: 7.6941 - accuracy: 0.4982
-16768/25000 [===================>..........] - ETA: 20s - loss: 7.6877 - accuracy: 0.4986
-16800/25000 [===================>..........] - ETA: 20s - loss: 7.6867 - accuracy: 0.4987
-16832/25000 [===================>..........] - ETA: 20s - loss: 7.6839 - accuracy: 0.4989
-16864/25000 [===================>..........] - ETA: 20s - loss: 7.6866 - accuracy: 0.4987
-16896/25000 [===================>..........] - ETA: 20s - loss: 7.6857 - accuracy: 0.4988
-16928/25000 [===================>..........] - ETA: 20s - loss: 7.6847 - accuracy: 0.4988
-16960/25000 [===================>..........] - ETA: 20s - loss: 7.6874 - accuracy: 0.4986
-16992/25000 [===================>..........] - ETA: 20s - loss: 7.6838 - accuracy: 0.4989
-17024/25000 [===================>..........] - ETA: 20s - loss: 7.6855 - accuracy: 0.4988
-17056/25000 [===================>..........] - ETA: 19s - loss: 7.6864 - accuracy: 0.4987
-17088/25000 [===================>..........] - ETA: 19s - loss: 7.6855 - accuracy: 0.4988
-17120/25000 [===================>..........] - ETA: 19s - loss: 7.6872 - accuracy: 0.4987
-17152/25000 [===================>..........] - ETA: 19s - loss: 7.6854 - accuracy: 0.4988
-17184/25000 [===================>..........] - ETA: 19s - loss: 7.6862 - accuracy: 0.4987
-17216/25000 [===================>..........] - ETA: 19s - loss: 7.6862 - accuracy: 0.4987
-17248/25000 [===================>..........] - ETA: 19s - loss: 7.6862 - accuracy: 0.4987
-17280/25000 [===================>..........] - ETA: 19s - loss: 7.6861 - accuracy: 0.4987
-17312/25000 [===================>..........] - ETA: 19s - loss: 7.6861 - accuracy: 0.4987
-17344/25000 [===================>..........] - ETA: 19s - loss: 7.6834 - accuracy: 0.4989
-17376/25000 [===================>..........] - ETA: 19s - loss: 7.6825 - accuracy: 0.4990
-17408/25000 [===================>..........] - ETA: 19s - loss: 7.6834 - accuracy: 0.4989
-17440/25000 [===================>..........] - ETA: 18s - loss: 7.6851 - accuracy: 0.4988
-17472/25000 [===================>..........] - ETA: 18s - loss: 7.6789 - accuracy: 0.4992
-17504/25000 [====================>.........] - ETA: 18s - loss: 7.6806 - accuracy: 0.4991
-17536/25000 [====================>.........] - ETA: 18s - loss: 7.6832 - accuracy: 0.4989
-17568/25000 [====================>.........] - ETA: 18s - loss: 7.6806 - accuracy: 0.4991
-17600/25000 [====================>.........] - ETA: 18s - loss: 7.6771 - accuracy: 0.4993
-17632/25000 [====================>.........] - ETA: 18s - loss: 7.6779 - accuracy: 0.4993
-17664/25000 [====================>.........] - ETA: 18s - loss: 7.6770 - accuracy: 0.4993
-17696/25000 [====================>.........] - ETA: 18s - loss: 7.6718 - accuracy: 0.4997
-17728/25000 [====================>.........] - ETA: 18s - loss: 7.6735 - accuracy: 0.4995
-17760/25000 [====================>.........] - ETA: 18s - loss: 7.6718 - accuracy: 0.4997
-17792/25000 [====================>.........] - ETA: 18s - loss: 7.6752 - accuracy: 0.4994
-17824/25000 [====================>.........] - ETA: 17s - loss: 7.6769 - accuracy: 0.4993
-17856/25000 [====================>.........] - ETA: 17s - loss: 7.6786 - accuracy: 0.4992
-17888/25000 [====================>.........] - ETA: 17s - loss: 7.6803 - accuracy: 0.4991
-17920/25000 [====================>.........] - ETA: 17s - loss: 7.6803 - accuracy: 0.4991
-17952/25000 [====================>.........] - ETA: 17s - loss: 7.6803 - accuracy: 0.4991
-17984/25000 [====================>.........] - ETA: 17s - loss: 7.6820 - accuracy: 0.4990
-18016/25000 [====================>.........] - ETA: 17s - loss: 7.6819 - accuracy: 0.4990
-18048/25000 [====================>.........] - ETA: 17s - loss: 7.6828 - accuracy: 0.4989
-18080/25000 [====================>.........] - ETA: 17s - loss: 7.6827 - accuracy: 0.4989
-18112/25000 [====================>.........] - ETA: 17s - loss: 7.6836 - accuracy: 0.4989
-18144/25000 [====================>.........] - ETA: 17s - loss: 7.6810 - accuracy: 0.4991
-18176/25000 [====================>.........] - ETA: 17s - loss: 7.6869 - accuracy: 0.4987
-18208/25000 [====================>.........] - ETA: 17s - loss: 7.6868 - accuracy: 0.4987
-18240/25000 [====================>.........] - ETA: 16s - loss: 7.6851 - accuracy: 0.4988
-18272/25000 [====================>.........] - ETA: 16s - loss: 7.6876 - accuracy: 0.4986
-18304/25000 [====================>.........] - ETA: 16s - loss: 7.6892 - accuracy: 0.4985
-18336/25000 [=====================>........] - ETA: 16s - loss: 7.6884 - accuracy: 0.4986
-18368/25000 [=====================>........] - ETA: 16s - loss: 7.6875 - accuracy: 0.4986
-18400/25000 [=====================>........] - ETA: 16s - loss: 7.6883 - accuracy: 0.4986
-18432/25000 [=====================>........] - ETA: 16s - loss: 7.6916 - accuracy: 0.4984
-18464/25000 [=====================>........] - ETA: 16s - loss: 7.6907 - accuracy: 0.4984
-18496/25000 [=====================>........] - ETA: 16s - loss: 7.6956 - accuracy: 0.4981
-18528/25000 [=====================>........] - ETA: 16s - loss: 7.6981 - accuracy: 0.4979
-18560/25000 [=====================>........] - ETA: 16s - loss: 7.6964 - accuracy: 0.4981
-18592/25000 [=====================>........] - ETA: 16s - loss: 7.6963 - accuracy: 0.4981
-18624/25000 [=====================>........] - ETA: 15s - loss: 7.6971 - accuracy: 0.4980
-18656/25000 [=====================>........] - ETA: 15s - loss: 7.6987 - accuracy: 0.4979
-18688/25000 [=====================>........] - ETA: 15s - loss: 7.7003 - accuracy: 0.4978
-18720/25000 [=====================>........] - ETA: 15s - loss: 7.6961 - accuracy: 0.4981
-18752/25000 [=====================>........] - ETA: 15s - loss: 7.6928 - accuracy: 0.4983
-18784/25000 [=====================>........] - ETA: 15s - loss: 7.6919 - accuracy: 0.4983
-18816/25000 [=====================>........] - ETA: 15s - loss: 7.6919 - accuracy: 0.4984
-18848/25000 [=====================>........] - ETA: 15s - loss: 7.6886 - accuracy: 0.4986
-18880/25000 [=====================>........] - ETA: 15s - loss: 7.6869 - accuracy: 0.4987
-18912/25000 [=====================>........] - ETA: 15s - loss: 7.6869 - accuracy: 0.4987
-18944/25000 [=====================>........] - ETA: 15s - loss: 7.6860 - accuracy: 0.4987
-18976/25000 [=====================>........] - ETA: 15s - loss: 7.6868 - accuracy: 0.4987
-19008/25000 [=====================>........] - ETA: 14s - loss: 7.6868 - accuracy: 0.4987
-19040/25000 [=====================>........] - ETA: 14s - loss: 7.6892 - accuracy: 0.4985
-19072/25000 [=====================>........] - ETA: 14s - loss: 7.6859 - accuracy: 0.4987
-19104/25000 [=====================>........] - ETA: 14s - loss: 7.6851 - accuracy: 0.4988
-19136/25000 [=====================>........] - ETA: 14s - loss: 7.6826 - accuracy: 0.4990
-19168/25000 [======================>.......] - ETA: 14s - loss: 7.6826 - accuracy: 0.4990
-19200/25000 [======================>.......] - ETA: 14s - loss: 7.6770 - accuracy: 0.4993
-19232/25000 [======================>.......] - ETA: 14s - loss: 7.6778 - accuracy: 0.4993
-19264/25000 [======================>.......] - ETA: 14s - loss: 7.6809 - accuracy: 0.4991
-19296/25000 [======================>.......] - ETA: 14s - loss: 7.6801 - accuracy: 0.4991
-19328/25000 [======================>.......] - ETA: 14s - loss: 7.6793 - accuracy: 0.4992
-19360/25000 [======================>.......] - ETA: 14s - loss: 7.6793 - accuracy: 0.4992
-19392/25000 [======================>.......] - ETA: 14s - loss: 7.6753 - accuracy: 0.4994
-19424/25000 [======================>.......] - ETA: 13s - loss: 7.6753 - accuracy: 0.4994
-19456/25000 [======================>.......] - ETA: 13s - loss: 7.6737 - accuracy: 0.4995
-19488/25000 [======================>.......] - ETA: 13s - loss: 7.6713 - accuracy: 0.4997
-19520/25000 [======================>.......] - ETA: 13s - loss: 7.6713 - accuracy: 0.4997
-19552/25000 [======================>.......] - ETA: 13s - loss: 7.6737 - accuracy: 0.4995
-19584/25000 [======================>.......] - ETA: 13s - loss: 7.6705 - accuracy: 0.4997
-19616/25000 [======================>.......] - ETA: 13s - loss: 7.6697 - accuracy: 0.4998
-19648/25000 [======================>.......] - ETA: 13s - loss: 7.6697 - accuracy: 0.4998
-19680/25000 [======================>.......] - ETA: 13s - loss: 7.6697 - accuracy: 0.4998
-19712/25000 [======================>.......] - ETA: 13s - loss: 7.6682 - accuracy: 0.4999
-19744/25000 [======================>.......] - ETA: 13s - loss: 7.6658 - accuracy: 0.5001
-19776/25000 [======================>.......] - ETA: 13s - loss: 7.6643 - accuracy: 0.5002
-19808/25000 [======================>.......] - ETA: 12s - loss: 7.6604 - accuracy: 0.5004
-19840/25000 [======================>.......] - ETA: 12s - loss: 7.6589 - accuracy: 0.5005
-19872/25000 [======================>.......] - ETA: 12s - loss: 7.6612 - accuracy: 0.5004
-19904/25000 [======================>.......] - ETA: 12s - loss: 7.6635 - accuracy: 0.5002
-19936/25000 [======================>.......] - ETA: 12s - loss: 7.6643 - accuracy: 0.5002
-19968/25000 [======================>.......] - ETA: 12s - loss: 7.6620 - accuracy: 0.5003
-20000/25000 [=======================>......] - ETA: 12s - loss: 7.6620 - accuracy: 0.5003
-20032/25000 [=======================>......] - ETA: 12s - loss: 7.6605 - accuracy: 0.5004
-20064/25000 [=======================>......] - ETA: 12s - loss: 7.6590 - accuracy: 0.5005
-20096/25000 [=======================>......] - ETA: 12s - loss: 7.6575 - accuracy: 0.5006
-20128/25000 [=======================>......] - ETA: 12s - loss: 7.6598 - accuracy: 0.5004
-20160/25000 [=======================>......] - ETA: 12s - loss: 7.6567 - accuracy: 0.5006
-20192/25000 [=======================>......] - ETA: 11s - loss: 7.6552 - accuracy: 0.5007
-20224/25000 [=======================>......] - ETA: 11s - loss: 7.6568 - accuracy: 0.5006
-20256/25000 [=======================>......] - ETA: 11s - loss: 7.6530 - accuracy: 0.5009
-20288/25000 [=======================>......] - ETA: 11s - loss: 7.6538 - accuracy: 0.5008
-20320/25000 [=======================>......] - ETA: 11s - loss: 7.6508 - accuracy: 0.5010
-20352/25000 [=======================>......] - ETA: 11s - loss: 7.6508 - accuracy: 0.5010
-20384/25000 [=======================>......] - ETA: 11s - loss: 7.6508 - accuracy: 0.5010
-20416/25000 [=======================>......] - ETA: 11s - loss: 7.6501 - accuracy: 0.5011
-20448/25000 [=======================>......] - ETA: 11s - loss: 7.6494 - accuracy: 0.5011
-20480/25000 [=======================>......] - ETA: 11s - loss: 7.6524 - accuracy: 0.5009
-20512/25000 [=======================>......] - ETA: 11s - loss: 7.6539 - accuracy: 0.5008
-20544/25000 [=======================>......] - ETA: 11s - loss: 7.6532 - accuracy: 0.5009
-20576/25000 [=======================>......] - ETA: 11s - loss: 7.6540 - accuracy: 0.5008
-20608/25000 [=======================>......] - ETA: 10s - loss: 7.6510 - accuracy: 0.5010
-20640/25000 [=======================>......] - ETA: 10s - loss: 7.6510 - accuracy: 0.5010
-20672/25000 [=======================>......] - ETA: 10s - loss: 7.6481 - accuracy: 0.5012
-20704/25000 [=======================>......] - ETA: 10s - loss: 7.6496 - accuracy: 0.5011
-20736/25000 [=======================>......] - ETA: 10s - loss: 7.6474 - accuracy: 0.5013
-20768/25000 [=======================>......] - ETA: 10s - loss: 7.6489 - accuracy: 0.5012
-20800/25000 [=======================>......] - ETA: 10s - loss: 7.6475 - accuracy: 0.5013
-20832/25000 [=======================>......] - ETA: 10s - loss: 7.6460 - accuracy: 0.5013
-20864/25000 [========================>.....] - ETA: 10s - loss: 7.6468 - accuracy: 0.5013
-20896/25000 [========================>.....] - ETA: 10s - loss: 7.6431 - accuracy: 0.5015
-20928/25000 [========================>.....] - ETA: 10s - loss: 7.6461 - accuracy: 0.5013
-20960/25000 [========================>.....] - ETA: 10s - loss: 7.6447 - accuracy: 0.5014
-20992/25000 [========================>.....] - ETA: 9s - loss: 7.6447 - accuracy: 0.5014 
-21024/25000 [========================>.....] - ETA: 9s - loss: 7.6426 - accuracy: 0.5016
-21056/25000 [========================>.....] - ETA: 9s - loss: 7.6448 - accuracy: 0.5014
-21088/25000 [========================>.....] - ETA: 9s - loss: 7.6441 - accuracy: 0.5015
-21120/25000 [========================>.....] - ETA: 9s - loss: 7.6456 - accuracy: 0.5014
-21152/25000 [========================>.....] - ETA: 9s - loss: 7.6456 - accuracy: 0.5014
-21184/25000 [========================>.....] - ETA: 9s - loss: 7.6456 - accuracy: 0.5014
-21216/25000 [========================>.....] - ETA: 9s - loss: 7.6449 - accuracy: 0.5014
-21248/25000 [========================>.....] - ETA: 9s - loss: 7.6471 - accuracy: 0.5013
-21280/25000 [========================>.....] - ETA: 9s - loss: 7.6443 - accuracy: 0.5015
-21312/25000 [========================>.....] - ETA: 9s - loss: 7.6479 - accuracy: 0.5012
-21344/25000 [========================>.....] - ETA: 9s - loss: 7.6501 - accuracy: 0.5011
-21376/25000 [========================>.....] - ETA: 9s - loss: 7.6480 - accuracy: 0.5012
-21408/25000 [========================>.....] - ETA: 8s - loss: 7.6466 - accuracy: 0.5013
-21440/25000 [========================>.....] - ETA: 8s - loss: 7.6437 - accuracy: 0.5015
-21472/25000 [========================>.....] - ETA: 8s - loss: 7.6416 - accuracy: 0.5016
-21504/25000 [========================>.....] - ETA: 8s - loss: 7.6445 - accuracy: 0.5014
-21536/25000 [========================>.....] - ETA: 8s - loss: 7.6424 - accuracy: 0.5016
-21568/25000 [========================>.....] - ETA: 8s - loss: 7.6439 - accuracy: 0.5015
-21600/25000 [========================>.....] - ETA: 8s - loss: 7.6453 - accuracy: 0.5014
-21632/25000 [========================>.....] - ETA: 8s - loss: 7.6468 - accuracy: 0.5013
-21664/25000 [========================>.....] - ETA: 8s - loss: 7.6461 - accuracy: 0.5013
-21696/25000 [=========================>....] - ETA: 8s - loss: 7.6447 - accuracy: 0.5014
-21728/25000 [=========================>....] - ETA: 8s - loss: 7.6447 - accuracy: 0.5014
-21760/25000 [=========================>....] - ETA: 8s - loss: 7.6434 - accuracy: 0.5015
-21792/25000 [=========================>....] - ETA: 8s - loss: 7.6413 - accuracy: 0.5017
-21824/25000 [=========================>....] - ETA: 7s - loss: 7.6434 - accuracy: 0.5015
-21856/25000 [=========================>....] - ETA: 7s - loss: 7.6386 - accuracy: 0.5018
-21888/25000 [=========================>....] - ETA: 7s - loss: 7.6386 - accuracy: 0.5018
-21920/25000 [=========================>....] - ETA: 7s - loss: 7.6365 - accuracy: 0.5020
-21952/25000 [=========================>....] - ETA: 7s - loss: 7.6366 - accuracy: 0.5020
-21984/25000 [=========================>....] - ETA: 7s - loss: 7.6380 - accuracy: 0.5019
-22016/25000 [=========================>....] - ETA: 7s - loss: 7.6388 - accuracy: 0.5018
-22048/25000 [=========================>....] - ETA: 7s - loss: 7.6381 - accuracy: 0.5019
-22080/25000 [=========================>....] - ETA: 7s - loss: 7.6395 - accuracy: 0.5018
-22112/25000 [=========================>....] - ETA: 7s - loss: 7.6430 - accuracy: 0.5015
-22144/25000 [=========================>....] - ETA: 7s - loss: 7.6410 - accuracy: 0.5017
-22176/25000 [=========================>....] - ETA: 7s - loss: 7.6397 - accuracy: 0.5018
-22208/25000 [=========================>....] - ETA: 6s - loss: 7.6390 - accuracy: 0.5018
-22240/25000 [=========================>....] - ETA: 6s - loss: 7.6370 - accuracy: 0.5019
-22272/25000 [=========================>....] - ETA: 6s - loss: 7.6356 - accuracy: 0.5020
-22304/25000 [=========================>....] - ETA: 6s - loss: 7.6377 - accuracy: 0.5019
-22336/25000 [=========================>....] - ETA: 6s - loss: 7.6385 - accuracy: 0.5018
-22368/25000 [=========================>....] - ETA: 6s - loss: 7.6406 - accuracy: 0.5017
-22400/25000 [=========================>....] - ETA: 6s - loss: 7.6440 - accuracy: 0.5015
-22432/25000 [=========================>....] - ETA: 6s - loss: 7.6461 - accuracy: 0.5013
-22464/25000 [=========================>....] - ETA: 6s - loss: 7.6475 - accuracy: 0.5012
-22496/25000 [=========================>....] - ETA: 6s - loss: 7.6482 - accuracy: 0.5012
-22528/25000 [==========================>...] - ETA: 6s - loss: 7.6503 - accuracy: 0.5011
-22560/25000 [==========================>...] - ETA: 6s - loss: 7.6530 - accuracy: 0.5009
-22592/25000 [==========================>...] - ETA: 6s - loss: 7.6530 - accuracy: 0.5009
-22624/25000 [==========================>...] - ETA: 5s - loss: 7.6490 - accuracy: 0.5011
-22656/25000 [==========================>...] - ETA: 5s - loss: 7.6470 - accuracy: 0.5013
-22688/25000 [==========================>...] - ETA: 5s - loss: 7.6484 - accuracy: 0.5012
-22720/25000 [==========================>...] - ETA: 5s - loss: 7.6477 - accuracy: 0.5012
-22752/25000 [==========================>...] - ETA: 5s - loss: 7.6511 - accuracy: 0.5010
-22784/25000 [==========================>...] - ETA: 5s - loss: 7.6518 - accuracy: 0.5010
-22816/25000 [==========================>...] - ETA: 5s - loss: 7.6539 - accuracy: 0.5008
-22848/25000 [==========================>...] - ETA: 5s - loss: 7.6539 - accuracy: 0.5008
-22880/25000 [==========================>...] - ETA: 5s - loss: 7.6552 - accuracy: 0.5007
-22912/25000 [==========================>...] - ETA: 5s - loss: 7.6566 - accuracy: 0.5007
-22944/25000 [==========================>...] - ETA: 5s - loss: 7.6539 - accuracy: 0.5008
-22976/25000 [==========================>...] - ETA: 5s - loss: 7.6553 - accuracy: 0.5007
-23008/25000 [==========================>...] - ETA: 4s - loss: 7.6566 - accuracy: 0.5007
-23040/25000 [==========================>...] - ETA: 4s - loss: 7.6586 - accuracy: 0.5005
-23072/25000 [==========================>...] - ETA: 4s - loss: 7.6593 - accuracy: 0.5005
-23104/25000 [==========================>...] - ETA: 4s - loss: 7.6593 - accuracy: 0.5005
-23136/25000 [==========================>...] - ETA: 4s - loss: 7.6573 - accuracy: 0.5006
-23168/25000 [==========================>...] - ETA: 4s - loss: 7.6580 - accuracy: 0.5006
-23200/25000 [==========================>...] - ETA: 4s - loss: 7.6580 - accuracy: 0.5006
-23232/25000 [==========================>...] - ETA: 4s - loss: 7.6580 - accuracy: 0.5006
-23264/25000 [==========================>...] - ETA: 4s - loss: 7.6600 - accuracy: 0.5004
-23296/25000 [==========================>...] - ETA: 4s - loss: 7.6607 - accuracy: 0.5004
-23328/25000 [==========================>...] - ETA: 4s - loss: 7.6587 - accuracy: 0.5005
-23360/25000 [===========================>..] - ETA: 4s - loss: 7.6555 - accuracy: 0.5007
-23392/25000 [===========================>..] - ETA: 4s - loss: 7.6548 - accuracy: 0.5008
-23424/25000 [===========================>..] - ETA: 3s - loss: 7.6548 - accuracy: 0.5008
-23456/25000 [===========================>..] - ETA: 3s - loss: 7.6535 - accuracy: 0.5009
-23488/25000 [===========================>..] - ETA: 3s - loss: 7.6542 - accuracy: 0.5008
-23520/25000 [===========================>..] - ETA: 3s - loss: 7.6542 - accuracy: 0.5008
-23552/25000 [===========================>..] - ETA: 3s - loss: 7.6542 - accuracy: 0.5008
-23584/25000 [===========================>..] - ETA: 3s - loss: 7.6549 - accuracy: 0.5008
-23616/25000 [===========================>..] - ETA: 3s - loss: 7.6556 - accuracy: 0.5007
-23648/25000 [===========================>..] - ETA: 3s - loss: 7.6582 - accuracy: 0.5005
-23680/25000 [===========================>..] - ETA: 3s - loss: 7.6582 - accuracy: 0.5005
-23712/25000 [===========================>..] - ETA: 3s - loss: 7.6595 - accuracy: 0.5005
+   32/25000 [..............................] - ETA: 4:30 - loss: 6.7083 - accuracy: 0.5625
+   64/25000 [..............................] - ETA: 2:55 - loss: 6.9479 - accuracy: 0.5469
+   96/25000 [..............................] - ETA: 2:22 - loss: 7.1875 - accuracy: 0.5312
+  128/25000 [..............................] - ETA: 2:05 - loss: 7.6666 - accuracy: 0.5000
+  160/25000 [..............................] - ETA: 1:55 - loss: 7.4750 - accuracy: 0.5125
+  192/25000 [..............................] - ETA: 1:48 - loss: 7.3472 - accuracy: 0.5208
+  224/25000 [..............................] - ETA: 1:43 - loss: 7.5297 - accuracy: 0.5089
+  256/25000 [..............................] - ETA: 1:39 - loss: 7.4270 - accuracy: 0.5156
+  288/25000 [..............................] - ETA: 1:37 - loss: 7.5069 - accuracy: 0.5104
+  320/25000 [..............................] - ETA: 1:34 - loss: 7.7145 - accuracy: 0.4969
+  352/25000 [..............................] - ETA: 1:33 - loss: 7.5795 - accuracy: 0.5057
+  384/25000 [..............................] - ETA: 1:31 - loss: 7.7465 - accuracy: 0.4948
+  416/25000 [..............................] - ETA: 1:29 - loss: 7.6666 - accuracy: 0.5000
+  448/25000 [..............................] - ETA: 1:28 - loss: 7.6324 - accuracy: 0.5022
+  480/25000 [..............................] - ETA: 1:27 - loss: 7.7305 - accuracy: 0.4958
+  512/25000 [..............................] - ETA: 1:27 - loss: 7.7565 - accuracy: 0.4941
+  544/25000 [..............................] - ETA: 1:26 - loss: 7.5821 - accuracy: 0.5055
+  576/25000 [..............................] - ETA: 1:25 - loss: 7.6932 - accuracy: 0.4983
+  608/25000 [..............................] - ETA: 1:24 - loss: 7.6414 - accuracy: 0.5016
+  640/25000 [..............................] - ETA: 1:24 - loss: 7.6427 - accuracy: 0.5016
+  672/25000 [..............................] - ETA: 1:23 - loss: 7.6438 - accuracy: 0.5015
+  704/25000 [..............................] - ETA: 1:22 - loss: 7.5577 - accuracy: 0.5071
+  736/25000 [..............................] - ETA: 1:22 - loss: 7.5208 - accuracy: 0.5095
+  768/25000 [..............................] - ETA: 1:21 - loss: 7.4670 - accuracy: 0.5130
+  800/25000 [..............................] - ETA: 1:21 - loss: 7.4558 - accuracy: 0.5138
+  832/25000 [..............................] - ETA: 1:21 - loss: 7.4823 - accuracy: 0.5120
+  864/25000 [>.............................] - ETA: 1:20 - loss: 7.5956 - accuracy: 0.5046
+  896/25000 [>.............................] - ETA: 1:20 - loss: 7.6324 - accuracy: 0.5022
+  928/25000 [>.............................] - ETA: 1:19 - loss: 7.6005 - accuracy: 0.5043
+  960/25000 [>.............................] - ETA: 1:19 - loss: 7.6187 - accuracy: 0.5031
+  992/25000 [>.............................] - ETA: 1:19 - loss: 7.5893 - accuracy: 0.5050
+ 1024/25000 [>.............................] - ETA: 1:19 - loss: 7.6367 - accuracy: 0.5020
+ 1056/25000 [>.............................] - ETA: 1:18 - loss: 7.6231 - accuracy: 0.5028
+ 1088/25000 [>.............................] - ETA: 1:18 - loss: 7.6243 - accuracy: 0.5028
+ 1120/25000 [>.............................] - ETA: 1:18 - loss: 7.6529 - accuracy: 0.5009
+ 1152/25000 [>.............................] - ETA: 1:17 - loss: 7.6134 - accuracy: 0.5035
+ 1184/25000 [>.............................] - ETA: 1:17 - loss: 7.5889 - accuracy: 0.5051
+ 1216/25000 [>.............................] - ETA: 1:17 - loss: 7.6288 - accuracy: 0.5025
+ 1248/25000 [>.............................] - ETA: 1:17 - loss: 7.6420 - accuracy: 0.5016
+ 1280/25000 [>.............................] - ETA: 1:17 - loss: 7.5947 - accuracy: 0.5047
+ 1312/25000 [>.............................] - ETA: 1:16 - loss: 7.6199 - accuracy: 0.5030
+ 1344/25000 [>.............................] - ETA: 1:16 - loss: 7.6096 - accuracy: 0.5037
+ 1376/25000 [>.............................] - ETA: 1:16 - loss: 7.6443 - accuracy: 0.5015
+ 1408/25000 [>.............................] - ETA: 1:16 - loss: 7.6557 - accuracy: 0.5007
+ 1440/25000 [>.............................] - ETA: 1:16 - loss: 7.6347 - accuracy: 0.5021
+ 1472/25000 [>.............................] - ETA: 1:16 - loss: 7.6354 - accuracy: 0.5020
+ 1504/25000 [>.............................] - ETA: 1:16 - loss: 7.6156 - accuracy: 0.5033
+ 1536/25000 [>.............................] - ETA: 1:16 - loss: 7.6067 - accuracy: 0.5039
+ 1568/25000 [>.............................] - ETA: 1:15 - loss: 7.6177 - accuracy: 0.5032
+ 1600/25000 [>.............................] - ETA: 1:15 - loss: 7.6666 - accuracy: 0.5000
+ 1632/25000 [>.............................] - ETA: 1:15 - loss: 7.6384 - accuracy: 0.5018
+ 1664/25000 [>.............................] - ETA: 1:15 - loss: 7.6205 - accuracy: 0.5030
+ 1696/25000 [=>............................] - ETA: 1:15 - loss: 7.6757 - accuracy: 0.4994
+ 1728/25000 [=>............................] - ETA: 1:14 - loss: 7.7199 - accuracy: 0.4965
+ 1760/25000 [=>............................] - ETA: 1:14 - loss: 7.7625 - accuracy: 0.4938
+ 1792/25000 [=>............................] - ETA: 1:14 - loss: 7.7607 - accuracy: 0.4939
+ 1824/25000 [=>............................] - ETA: 1:14 - loss: 7.7591 - accuracy: 0.4940
+ 1856/25000 [=>............................] - ETA: 1:14 - loss: 7.7905 - accuracy: 0.4919
+ 1888/25000 [=>............................] - ETA: 1:14 - loss: 7.7641 - accuracy: 0.4936
+ 1920/25000 [=>............................] - ETA: 1:13 - loss: 7.7465 - accuracy: 0.4948
+ 1952/25000 [=>............................] - ETA: 1:13 - loss: 7.7373 - accuracy: 0.4954
+ 1984/25000 [=>............................] - ETA: 1:13 - loss: 7.7671 - accuracy: 0.4934
+ 2016/25000 [=>............................] - ETA: 1:13 - loss: 7.7503 - accuracy: 0.4945
+ 2048/25000 [=>............................] - ETA: 1:13 - loss: 7.7190 - accuracy: 0.4966
+ 2080/25000 [=>............................] - ETA: 1:13 - loss: 7.7182 - accuracy: 0.4966
+ 2112/25000 [=>............................] - ETA: 1:13 - loss: 7.6957 - accuracy: 0.4981
+ 2144/25000 [=>............................] - ETA: 1:13 - loss: 7.7381 - accuracy: 0.4953
+ 2176/25000 [=>............................] - ETA: 1:12 - loss: 7.7371 - accuracy: 0.4954
+ 2208/25000 [=>............................] - ETA: 1:12 - loss: 7.7569 - accuracy: 0.4941
+ 2240/25000 [=>............................] - ETA: 1:12 - loss: 7.7693 - accuracy: 0.4933
+ 2272/25000 [=>............................] - ETA: 1:12 - loss: 7.7544 - accuracy: 0.4943
+ 2304/25000 [=>............................] - ETA: 1:12 - loss: 7.7398 - accuracy: 0.4952
+ 2336/25000 [=>............................] - ETA: 1:12 - loss: 7.7323 - accuracy: 0.4957
+ 2368/25000 [=>............................] - ETA: 1:12 - loss: 7.7378 - accuracy: 0.4954
+ 2400/25000 [=>............................] - ETA: 1:11 - loss: 7.7113 - accuracy: 0.4971
+ 2432/25000 [=>............................] - ETA: 1:11 - loss: 7.6918 - accuracy: 0.4984
+ 2464/25000 [=>............................] - ETA: 1:11 - loss: 7.6915 - accuracy: 0.4984
+ 2496/25000 [=>............................] - ETA: 1:11 - loss: 7.7035 - accuracy: 0.4976
+ 2528/25000 [==>...........................] - ETA: 1:11 - loss: 7.6909 - accuracy: 0.4984
+ 2560/25000 [==>...........................] - ETA: 1:11 - loss: 7.6906 - accuracy: 0.4984
+ 2592/25000 [==>...........................] - ETA: 1:11 - loss: 7.6844 - accuracy: 0.4988
+ 2624/25000 [==>...........................] - ETA: 1:11 - loss: 7.6374 - accuracy: 0.5019
+ 2656/25000 [==>...........................] - ETA: 1:11 - loss: 7.6262 - accuracy: 0.5026
+ 2688/25000 [==>...........................] - ETA: 1:10 - loss: 7.6153 - accuracy: 0.5033
+ 2720/25000 [==>...........................] - ETA: 1:10 - loss: 7.6215 - accuracy: 0.5029
+ 2752/25000 [==>...........................] - ETA: 1:10 - loss: 7.6555 - accuracy: 0.5007
+ 2784/25000 [==>...........................] - ETA: 1:10 - loss: 7.6611 - accuracy: 0.5004
+ 2816/25000 [==>...........................] - ETA: 1:10 - loss: 7.6557 - accuracy: 0.5007
+ 2848/25000 [==>...........................] - ETA: 1:10 - loss: 7.6612 - accuracy: 0.5004
+ 2880/25000 [==>...........................] - ETA: 1:10 - loss: 7.6560 - accuracy: 0.5007
+ 2912/25000 [==>...........................] - ETA: 1:10 - loss: 7.6614 - accuracy: 0.5003
+ 2944/25000 [==>...........................] - ETA: 1:09 - loss: 7.6510 - accuracy: 0.5010
+ 2976/25000 [==>...........................] - ETA: 1:09 - loss: 7.6460 - accuracy: 0.5013
+ 3008/25000 [==>...........................] - ETA: 1:09 - loss: 7.6462 - accuracy: 0.5013
+ 3040/25000 [==>...........................] - ETA: 1:09 - loss: 7.6212 - accuracy: 0.5030
+ 3072/25000 [==>...........................] - ETA: 1:09 - loss: 7.6017 - accuracy: 0.5042
+ 3104/25000 [==>...........................] - ETA: 1:09 - loss: 7.5925 - accuracy: 0.5048
+ 3136/25000 [==>...........................] - ETA: 1:09 - loss: 7.6128 - accuracy: 0.5035
+ 3168/25000 [==>...........................] - ETA: 1:09 - loss: 7.6085 - accuracy: 0.5038
+ 3200/25000 [==>...........................] - ETA: 1:09 - loss: 7.6235 - accuracy: 0.5028
+ 3232/25000 [==>...........................] - ETA: 1:08 - loss: 7.6192 - accuracy: 0.5031
+ 3264/25000 [==>...........................] - ETA: 1:08 - loss: 7.6149 - accuracy: 0.5034
+ 3296/25000 [==>...........................] - ETA: 1:08 - loss: 7.6154 - accuracy: 0.5033
+ 3328/25000 [==>...........................] - ETA: 1:08 - loss: 7.6252 - accuracy: 0.5027
+ 3360/25000 [===>..........................] - ETA: 1:08 - loss: 7.6164 - accuracy: 0.5033
+ 3392/25000 [===>..........................] - ETA: 1:08 - loss: 7.5943 - accuracy: 0.5047
+ 3424/25000 [===>..........................] - ETA: 1:08 - loss: 7.5905 - accuracy: 0.5050
+ 3456/25000 [===>..........................] - ETA: 1:08 - loss: 7.6001 - accuracy: 0.5043
+ 3488/25000 [===>..........................] - ETA: 1:08 - loss: 7.5875 - accuracy: 0.5052
+ 3520/25000 [===>..........................] - ETA: 1:07 - loss: 7.5664 - accuracy: 0.5065
+ 3552/25000 [===>..........................] - ETA: 1:07 - loss: 7.5717 - accuracy: 0.5062
+ 3584/25000 [===>..........................] - ETA: 1:07 - loss: 7.5768 - accuracy: 0.5059
+ 3616/25000 [===>..........................] - ETA: 1:07 - loss: 7.5733 - accuracy: 0.5061
+ 3648/25000 [===>..........................] - ETA: 1:07 - loss: 7.5784 - accuracy: 0.5058
+ 3680/25000 [===>..........................] - ETA: 1:07 - loss: 7.6041 - accuracy: 0.5041
+ 3712/25000 [===>..........................] - ETA: 1:07 - loss: 7.6047 - accuracy: 0.5040
+ 3744/25000 [===>..........................] - ETA: 1:07 - loss: 7.5970 - accuracy: 0.5045
+ 3776/25000 [===>..........................] - ETA: 1:07 - loss: 7.5813 - accuracy: 0.5056
+ 3808/25000 [===>..........................] - ETA: 1:07 - loss: 7.5780 - accuracy: 0.5058
+ 3840/25000 [===>..........................] - ETA: 1:06 - loss: 7.5908 - accuracy: 0.5049
+ 3872/25000 [===>..........................] - ETA: 1:06 - loss: 7.5795 - accuracy: 0.5057
+ 3904/25000 [===>..........................] - ETA: 1:06 - loss: 7.5841 - accuracy: 0.5054
+ 3936/25000 [===>..........................] - ETA: 1:06 - loss: 7.5848 - accuracy: 0.5053
+ 3968/25000 [===>..........................] - ETA: 1:06 - loss: 7.5932 - accuracy: 0.5048
+ 4000/25000 [===>..........................] - ETA: 1:06 - loss: 7.5938 - accuracy: 0.5048
+ 4032/25000 [===>..........................] - ETA: 1:06 - loss: 7.5792 - accuracy: 0.5057
+ 4064/25000 [===>..........................] - ETA: 1:06 - loss: 7.5798 - accuracy: 0.5057
+ 4096/25000 [===>..........................] - ETA: 1:06 - loss: 7.5805 - accuracy: 0.5056
+ 4128/25000 [===>..........................] - ETA: 1:06 - loss: 7.5738 - accuracy: 0.5061
+ 4160/25000 [===>..........................] - ETA: 1:05 - loss: 7.5597 - accuracy: 0.5070
+ 4192/25000 [====>.........................] - ETA: 1:05 - loss: 7.5569 - accuracy: 0.5072
+ 4224/25000 [====>.........................] - ETA: 1:05 - loss: 7.5759 - accuracy: 0.5059
+ 4256/25000 [====>.........................] - ETA: 1:05 - loss: 7.5621 - accuracy: 0.5068
+ 4288/25000 [====>.........................] - ETA: 1:05 - loss: 7.5736 - accuracy: 0.5061
+ 4320/25000 [====>.........................] - ETA: 1:05 - loss: 7.5850 - accuracy: 0.5053
+ 4352/25000 [====>.........................] - ETA: 1:05 - loss: 7.5750 - accuracy: 0.5060
+ 4384/25000 [====>.........................] - ETA: 1:05 - loss: 7.5862 - accuracy: 0.5052
+ 4416/25000 [====>.........................] - ETA: 1:05 - loss: 7.5868 - accuracy: 0.5052
+ 4448/25000 [====>.........................] - ETA: 1:05 - loss: 7.5839 - accuracy: 0.5054
+ 4480/25000 [====>.........................] - ETA: 1:05 - loss: 7.5913 - accuracy: 0.5049
+ 4512/25000 [====>.........................] - ETA: 1:04 - loss: 7.5715 - accuracy: 0.5062
+ 4544/25000 [====>.........................] - ETA: 1:04 - loss: 7.5823 - accuracy: 0.5055
+ 4576/25000 [====>.........................] - ETA: 1:04 - loss: 7.5694 - accuracy: 0.5063
+ 4608/25000 [====>.........................] - ETA: 1:04 - loss: 7.5635 - accuracy: 0.5067
+ 4640/25000 [====>.........................] - ETA: 1:04 - loss: 7.5609 - accuracy: 0.5069
+ 4672/25000 [====>.........................] - ETA: 1:04 - loss: 7.5747 - accuracy: 0.5060
+ 4704/25000 [====>.........................] - ETA: 1:04 - loss: 7.5721 - accuracy: 0.5062
+ 4736/25000 [====>.........................] - ETA: 1:04 - loss: 7.5663 - accuracy: 0.5065
+ 4768/25000 [====>.........................] - ETA: 1:04 - loss: 7.5830 - accuracy: 0.5055
+ 4800/25000 [====>.........................] - ETA: 1:03 - loss: 7.5868 - accuracy: 0.5052
+ 4832/25000 [====>.........................] - ETA: 1:03 - loss: 7.5778 - accuracy: 0.5058
+ 4864/25000 [====>.........................] - ETA: 1:03 - loss: 7.5847 - accuracy: 0.5053
+ 4896/25000 [====>.........................] - ETA: 1:03 - loss: 7.5821 - accuracy: 0.5055
+ 4928/25000 [====>.........................] - ETA: 1:03 - loss: 7.5888 - accuracy: 0.5051
+ 4960/25000 [====>.........................] - ETA: 1:03 - loss: 7.5801 - accuracy: 0.5056
+ 4992/25000 [====>.........................] - ETA: 1:03 - loss: 7.5960 - accuracy: 0.5046
+ 5024/25000 [=====>........................] - ETA: 1:03 - loss: 7.5903 - accuracy: 0.5050
+ 5056/25000 [=====>........................] - ETA: 1:03 - loss: 7.5908 - accuracy: 0.5049
+ 5088/25000 [=====>........................] - ETA: 1:02 - loss: 7.5792 - accuracy: 0.5057
+ 5120/25000 [=====>........................] - ETA: 1:02 - loss: 7.5858 - accuracy: 0.5053
+ 5152/25000 [=====>........................] - ETA: 1:02 - loss: 7.5922 - accuracy: 0.5049
+ 5184/25000 [=====>........................] - ETA: 1:02 - loss: 7.6075 - accuracy: 0.5039
+ 5216/25000 [=====>........................] - ETA: 1:02 - loss: 7.6049 - accuracy: 0.5040
+ 5248/25000 [=====>........................] - ETA: 1:02 - loss: 7.6199 - accuracy: 0.5030
+ 5280/25000 [=====>........................] - ETA: 1:02 - loss: 7.6143 - accuracy: 0.5034
+ 5312/25000 [=====>........................] - ETA: 1:02 - loss: 7.6147 - accuracy: 0.5034
+ 5344/25000 [=====>........................] - ETA: 1:02 - loss: 7.6121 - accuracy: 0.5036
+ 5376/25000 [=====>........................] - ETA: 1:02 - loss: 7.6010 - accuracy: 0.5043
+ 5408/25000 [=====>........................] - ETA: 1:01 - loss: 7.6099 - accuracy: 0.5037
+ 5440/25000 [=====>........................] - ETA: 1:01 - loss: 7.6074 - accuracy: 0.5039
+ 5472/25000 [=====>........................] - ETA: 1:01 - loss: 7.6050 - accuracy: 0.5040
+ 5504/25000 [=====>........................] - ETA: 1:01 - loss: 7.6053 - accuracy: 0.5040
+ 5536/25000 [=====>........................] - ETA: 1:01 - loss: 7.6029 - accuracy: 0.5042
+ 5568/25000 [=====>........................] - ETA: 1:01 - loss: 7.6060 - accuracy: 0.5040
+ 5600/25000 [=====>........................] - ETA: 1:01 - loss: 7.5954 - accuracy: 0.5046
+ 5632/25000 [=====>........................] - ETA: 1:01 - loss: 7.5877 - accuracy: 0.5051
+ 5664/25000 [=====>........................] - ETA: 1:00 - loss: 7.5854 - accuracy: 0.5053
+ 5696/25000 [=====>........................] - ETA: 1:00 - loss: 7.5886 - accuracy: 0.5051
+ 5728/25000 [=====>........................] - ETA: 1:00 - loss: 7.5810 - accuracy: 0.5056
+ 5760/25000 [=====>........................] - ETA: 1:00 - loss: 7.5894 - accuracy: 0.5050
+ 5792/25000 [=====>........................] - ETA: 1:00 - loss: 7.5978 - accuracy: 0.5045
+ 5824/25000 [=====>........................] - ETA: 1:00 - loss: 7.6034 - accuracy: 0.5041
+ 5856/25000 [======>.......................] - ETA: 1:00 - loss: 7.6090 - accuracy: 0.5038
+ 5888/25000 [======>.......................] - ETA: 1:00 - loss: 7.5911 - accuracy: 0.5049
+ 5920/25000 [======>.......................] - ETA: 1:00 - loss: 7.5993 - accuracy: 0.5044
+ 5952/25000 [======>.......................] - ETA: 1:00 - loss: 7.6022 - accuracy: 0.5042
+ 5984/25000 [======>.......................] - ETA: 59s - loss: 7.6102 - accuracy: 0.5037 
+ 6016/25000 [======>.......................] - ETA: 59s - loss: 7.6207 - accuracy: 0.5030
+ 6048/25000 [======>.......................] - ETA: 59s - loss: 7.6184 - accuracy: 0.5031
+ 6080/25000 [======>.......................] - ETA: 59s - loss: 7.6288 - accuracy: 0.5025
+ 6112/25000 [======>.......................] - ETA: 59s - loss: 7.6290 - accuracy: 0.5025
+ 6144/25000 [======>.......................] - ETA: 59s - loss: 7.6442 - accuracy: 0.5015
+ 6176/25000 [======>.......................] - ETA: 59s - loss: 7.6319 - accuracy: 0.5023
+ 6208/25000 [======>.......................] - ETA: 59s - loss: 7.6296 - accuracy: 0.5024
+ 6240/25000 [======>.......................] - ETA: 59s - loss: 7.6347 - accuracy: 0.5021
+ 6272/25000 [======>.......................] - ETA: 58s - loss: 7.6324 - accuracy: 0.5022
+ 6304/25000 [======>.......................] - ETA: 58s - loss: 7.6301 - accuracy: 0.5024
+ 6336/25000 [======>.......................] - ETA: 58s - loss: 7.6327 - accuracy: 0.5022
+ 6368/25000 [======>.......................] - ETA: 58s - loss: 7.6281 - accuracy: 0.5025
+ 6400/25000 [======>.......................] - ETA: 58s - loss: 7.6379 - accuracy: 0.5019
+ 6432/25000 [======>.......................] - ETA: 58s - loss: 7.6404 - accuracy: 0.5017
+ 6464/25000 [======>.......................] - ETA: 58s - loss: 7.6310 - accuracy: 0.5023
+ 6496/25000 [======>.......................] - ETA: 58s - loss: 7.6265 - accuracy: 0.5026
+ 6528/25000 [======>.......................] - ETA: 58s - loss: 7.6267 - accuracy: 0.5026
+ 6560/25000 [======>.......................] - ETA: 57s - loss: 7.6339 - accuracy: 0.5021
+ 6592/25000 [======>.......................] - ETA: 57s - loss: 7.6341 - accuracy: 0.5021
+ 6624/25000 [======>.......................] - ETA: 57s - loss: 7.6296 - accuracy: 0.5024
+ 6656/25000 [======>.......................] - ETA: 57s - loss: 7.6390 - accuracy: 0.5018
+ 6688/25000 [=======>......................] - ETA: 57s - loss: 7.6368 - accuracy: 0.5019
+ 6720/25000 [=======>......................] - ETA: 57s - loss: 7.6370 - accuracy: 0.5019
+ 6752/25000 [=======>......................] - ETA: 57s - loss: 7.6416 - accuracy: 0.5016
+ 6784/25000 [=======>......................] - ETA: 57s - loss: 7.6440 - accuracy: 0.5015
+ 6816/25000 [=======>......................] - ETA: 57s - loss: 7.6351 - accuracy: 0.5021
+ 6848/25000 [=======>......................] - ETA: 57s - loss: 7.6241 - accuracy: 0.5028
+ 6880/25000 [=======>......................] - ETA: 56s - loss: 7.6310 - accuracy: 0.5023
+ 6912/25000 [=======>......................] - ETA: 56s - loss: 7.6444 - accuracy: 0.5014
+ 6944/25000 [=======>......................] - ETA: 56s - loss: 7.6512 - accuracy: 0.5010
+ 6976/25000 [=======>......................] - ETA: 56s - loss: 7.6600 - accuracy: 0.5004
+ 7008/25000 [=======>......................] - ETA: 56s - loss: 7.6579 - accuracy: 0.5006
+ 7040/25000 [=======>......................] - ETA: 56s - loss: 7.6579 - accuracy: 0.5006
+ 7072/25000 [=======>......................] - ETA: 56s - loss: 7.6601 - accuracy: 0.5004
+ 7104/25000 [=======>......................] - ETA: 56s - loss: 7.6645 - accuracy: 0.5001
+ 7136/25000 [=======>......................] - ETA: 56s - loss: 7.6623 - accuracy: 0.5003
+ 7168/25000 [=======>......................] - ETA: 56s - loss: 7.6581 - accuracy: 0.5006
+ 7200/25000 [=======>......................] - ETA: 55s - loss: 7.6773 - accuracy: 0.4993
+ 7232/25000 [=======>......................] - ETA: 55s - loss: 7.6709 - accuracy: 0.4997
+ 7264/25000 [=======>......................] - ETA: 55s - loss: 7.6751 - accuracy: 0.4994
+ 7296/25000 [=======>......................] - ETA: 55s - loss: 7.6708 - accuracy: 0.4997
+ 7328/25000 [=======>......................] - ETA: 55s - loss: 7.6687 - accuracy: 0.4999
+ 7360/25000 [=======>......................] - ETA: 55s - loss: 7.6708 - accuracy: 0.4997
+ 7392/25000 [=======>......................] - ETA: 55s - loss: 7.6728 - accuracy: 0.4996
+ 7424/25000 [=======>......................] - ETA: 55s - loss: 7.6769 - accuracy: 0.4993
+ 7456/25000 [=======>......................] - ETA: 55s - loss: 7.6790 - accuracy: 0.4992
+ 7488/25000 [=======>......................] - ETA: 55s - loss: 7.6789 - accuracy: 0.4992
+ 7520/25000 [========>.....................] - ETA: 54s - loss: 7.6850 - accuracy: 0.4988
+ 7552/25000 [========>.....................] - ETA: 54s - loss: 7.6788 - accuracy: 0.4992
+ 7584/25000 [========>.....................] - ETA: 54s - loss: 7.6828 - accuracy: 0.4989
+ 7616/25000 [========>.....................] - ETA: 54s - loss: 7.6928 - accuracy: 0.4983
+ 7648/25000 [========>.....................] - ETA: 54s - loss: 7.6887 - accuracy: 0.4986
+ 7680/25000 [========>.....................] - ETA: 54s - loss: 7.6906 - accuracy: 0.4984
+ 7712/25000 [========>.....................] - ETA: 54s - loss: 7.6905 - accuracy: 0.4984
+ 7744/25000 [========>.....................] - ETA: 54s - loss: 7.6884 - accuracy: 0.4986
+ 7776/25000 [========>.....................] - ETA: 54s - loss: 7.6785 - accuracy: 0.4992
+ 7808/25000 [========>.....................] - ETA: 54s - loss: 7.6823 - accuracy: 0.4990
+ 7840/25000 [========>.....................] - ETA: 53s - loss: 7.6764 - accuracy: 0.4994
+ 7872/25000 [========>.....................] - ETA: 53s - loss: 7.6822 - accuracy: 0.4990
+ 7904/25000 [========>.....................] - ETA: 53s - loss: 7.6744 - accuracy: 0.4995
+ 7936/25000 [========>.....................] - ETA: 53s - loss: 7.6686 - accuracy: 0.4999
+ 7968/25000 [========>.....................] - ETA: 53s - loss: 7.6647 - accuracy: 0.5001
+ 8000/25000 [========>.....................] - ETA: 53s - loss: 7.6647 - accuracy: 0.5001
+ 8032/25000 [========>.....................] - ETA: 53s - loss: 7.6628 - accuracy: 0.5002
+ 8064/25000 [========>.....................] - ETA: 53s - loss: 7.6609 - accuracy: 0.5004
+ 8096/25000 [========>.....................] - ETA: 53s - loss: 7.6666 - accuracy: 0.5000
+ 8128/25000 [========>.....................] - ETA: 52s - loss: 7.6779 - accuracy: 0.4993
+ 8160/25000 [========>.....................] - ETA: 52s - loss: 7.6779 - accuracy: 0.4993
+ 8192/25000 [========>.....................] - ETA: 52s - loss: 7.6835 - accuracy: 0.4989
+ 8224/25000 [========>.....................] - ETA: 52s - loss: 7.6815 - accuracy: 0.4990
+ 8256/25000 [========>.....................] - ETA: 52s - loss: 7.6759 - accuracy: 0.4994
+ 8288/25000 [========>.....................] - ETA: 52s - loss: 7.6796 - accuracy: 0.4992
+ 8320/25000 [========>.....................] - ETA: 52s - loss: 7.6869 - accuracy: 0.4987
+ 8352/25000 [=========>....................] - ETA: 52s - loss: 7.6850 - accuracy: 0.4988
+ 8384/25000 [=========>....................] - ETA: 52s - loss: 7.6922 - accuracy: 0.4983
+ 8416/25000 [=========>....................] - ETA: 52s - loss: 7.6885 - accuracy: 0.4986
+ 8448/25000 [=========>....................] - ETA: 51s - loss: 7.6830 - accuracy: 0.4989
+ 8480/25000 [=========>....................] - ETA: 51s - loss: 7.6865 - accuracy: 0.4987
+ 8512/25000 [=========>....................] - ETA: 51s - loss: 7.6864 - accuracy: 0.4987
+ 8544/25000 [=========>....................] - ETA: 51s - loss: 7.6846 - accuracy: 0.4988
+ 8576/25000 [=========>....................] - ETA: 51s - loss: 7.6773 - accuracy: 0.4993
+ 8608/25000 [=========>....................] - ETA: 51s - loss: 7.6791 - accuracy: 0.4992
+ 8640/25000 [=========>....................] - ETA: 51s - loss: 7.6755 - accuracy: 0.4994
+ 8672/25000 [=========>....................] - ETA: 51s - loss: 7.6755 - accuracy: 0.4994
+ 8704/25000 [=========>....................] - ETA: 51s - loss: 7.6754 - accuracy: 0.4994
+ 8736/25000 [=========>....................] - ETA: 51s - loss: 7.6736 - accuracy: 0.4995
+ 8768/25000 [=========>....................] - ETA: 50s - loss: 7.6824 - accuracy: 0.4990
+ 8800/25000 [=========>....................] - ETA: 50s - loss: 7.6771 - accuracy: 0.4993
+ 8832/25000 [=========>....................] - ETA: 50s - loss: 7.6805 - accuracy: 0.4991
+ 8864/25000 [=========>....................] - ETA: 50s - loss: 7.6770 - accuracy: 0.4993
+ 8896/25000 [=========>....................] - ETA: 50s - loss: 7.6752 - accuracy: 0.4994
+ 8928/25000 [=========>....................] - ETA: 50s - loss: 7.6701 - accuracy: 0.4998
+ 8960/25000 [=========>....................] - ETA: 50s - loss: 7.6632 - accuracy: 0.5002
+ 8992/25000 [=========>....................] - ETA: 50s - loss: 7.6598 - accuracy: 0.5004
+ 9024/25000 [=========>....................] - ETA: 50s - loss: 7.6513 - accuracy: 0.5010
+ 9056/25000 [=========>....................] - ETA: 50s - loss: 7.6480 - accuracy: 0.5012
+ 9088/25000 [=========>....................] - ETA: 49s - loss: 7.6531 - accuracy: 0.5009
+ 9120/25000 [=========>....................] - ETA: 49s - loss: 7.6532 - accuracy: 0.5009
+ 9152/25000 [=========>....................] - ETA: 49s - loss: 7.6465 - accuracy: 0.5013
+ 9184/25000 [==========>...................] - ETA: 49s - loss: 7.6533 - accuracy: 0.5009
+ 9216/25000 [==========>...................] - ETA: 49s - loss: 7.6566 - accuracy: 0.5007
+ 9248/25000 [==========>...................] - ETA: 49s - loss: 7.6451 - accuracy: 0.5014
+ 9280/25000 [==========>...................] - ETA: 49s - loss: 7.6336 - accuracy: 0.5022
+ 9312/25000 [==========>...................] - ETA: 49s - loss: 7.6287 - accuracy: 0.5025
+ 9344/25000 [==========>...................] - ETA: 49s - loss: 7.6256 - accuracy: 0.5027
+ 9376/25000 [==========>...................] - ETA: 49s - loss: 7.6208 - accuracy: 0.5030
+ 9408/25000 [==========>...................] - ETA: 48s - loss: 7.6275 - accuracy: 0.5026
+ 9440/25000 [==========>...................] - ETA: 48s - loss: 7.6179 - accuracy: 0.5032
+ 9472/25000 [==========>...................] - ETA: 48s - loss: 7.6229 - accuracy: 0.5029
+ 9504/25000 [==========>...................] - ETA: 48s - loss: 7.6279 - accuracy: 0.5025
+ 9536/25000 [==========>...................] - ETA: 48s - loss: 7.6329 - accuracy: 0.5022
+ 9568/25000 [==========>...................] - ETA: 48s - loss: 7.6298 - accuracy: 0.5024
+ 9600/25000 [==========>...................] - ETA: 48s - loss: 7.6283 - accuracy: 0.5025
+ 9632/25000 [==========>...................] - ETA: 48s - loss: 7.6284 - accuracy: 0.5025
+ 9664/25000 [==========>...................] - ETA: 48s - loss: 7.6365 - accuracy: 0.5020
+ 9696/25000 [==========>...................] - ETA: 48s - loss: 7.6334 - accuracy: 0.5022
+ 9728/25000 [==========>...................] - ETA: 47s - loss: 7.6288 - accuracy: 0.5025
+ 9760/25000 [==========>...................] - ETA: 47s - loss: 7.6352 - accuracy: 0.5020
+ 9792/25000 [==========>...................] - ETA: 47s - loss: 7.6306 - accuracy: 0.5023
+ 9824/25000 [==========>...................] - ETA: 47s - loss: 7.6276 - accuracy: 0.5025
+ 9856/25000 [==========>...................] - ETA: 47s - loss: 7.6371 - accuracy: 0.5019
+ 9888/25000 [==========>...................] - ETA: 47s - loss: 7.6434 - accuracy: 0.5015
+ 9920/25000 [==========>...................] - ETA: 47s - loss: 7.6481 - accuracy: 0.5012
+ 9952/25000 [==========>...................] - ETA: 47s - loss: 7.6497 - accuracy: 0.5011
+ 9984/25000 [==========>...................] - ETA: 47s - loss: 7.6528 - accuracy: 0.5009
+10016/25000 [===========>..................] - ETA: 47s - loss: 7.6544 - accuracy: 0.5008
+10048/25000 [===========>..................] - ETA: 46s - loss: 7.6544 - accuracy: 0.5008
+10080/25000 [===========>..................] - ETA: 46s - loss: 7.6590 - accuracy: 0.5005
+10112/25000 [===========>..................] - ETA: 46s - loss: 7.6651 - accuracy: 0.5001
+10144/25000 [===========>..................] - ETA: 46s - loss: 7.6727 - accuracy: 0.4996
+10176/25000 [===========>..................] - ETA: 46s - loss: 7.6681 - accuracy: 0.4999
+10208/25000 [===========>..................] - ETA: 46s - loss: 7.6726 - accuracy: 0.4996
+10240/25000 [===========>..................] - ETA: 46s - loss: 7.6816 - accuracy: 0.4990
+10272/25000 [===========>..................] - ETA: 46s - loss: 7.6815 - accuracy: 0.4990
+10304/25000 [===========>..................] - ETA: 46s - loss: 7.6845 - accuracy: 0.4988
+10336/25000 [===========>..................] - ETA: 46s - loss: 7.6859 - accuracy: 0.4987
+10368/25000 [===========>..................] - ETA: 45s - loss: 7.6799 - accuracy: 0.4991
+10400/25000 [===========>..................] - ETA: 45s - loss: 7.6740 - accuracy: 0.4995
+10432/25000 [===========>..................] - ETA: 45s - loss: 7.6710 - accuracy: 0.4997
+10464/25000 [===========>..................] - ETA: 45s - loss: 7.6754 - accuracy: 0.4994
+10496/25000 [===========>..................] - ETA: 45s - loss: 7.6856 - accuracy: 0.4988
+10528/25000 [===========>..................] - ETA: 45s - loss: 7.6856 - accuracy: 0.4988
+10560/25000 [===========>..................] - ETA: 45s - loss: 7.6797 - accuracy: 0.4991
+10592/25000 [===========>..................] - ETA: 45s - loss: 7.6854 - accuracy: 0.4988
+10624/25000 [===========>..................] - ETA: 45s - loss: 7.6883 - accuracy: 0.4986
+10656/25000 [===========>..................] - ETA: 45s - loss: 7.6853 - accuracy: 0.4988
+10688/25000 [===========>..................] - ETA: 44s - loss: 7.6867 - accuracy: 0.4987
+10720/25000 [===========>..................] - ETA: 44s - loss: 7.6852 - accuracy: 0.4988
+10752/25000 [===========>..................] - ETA: 44s - loss: 7.6823 - accuracy: 0.4990
+10784/25000 [===========>..................] - ETA: 44s - loss: 7.6865 - accuracy: 0.4987
+10816/25000 [===========>..................] - ETA: 44s - loss: 7.6808 - accuracy: 0.4991
+10848/25000 [============>.................] - ETA: 44s - loss: 7.6808 - accuracy: 0.4991
+10880/25000 [============>.................] - ETA: 44s - loss: 7.6849 - accuracy: 0.4988
+10912/25000 [============>.................] - ETA: 44s - loss: 7.6821 - accuracy: 0.4990
+10944/25000 [============>.................] - ETA: 44s - loss: 7.6778 - accuracy: 0.4993
+10976/25000 [============>.................] - ETA: 43s - loss: 7.6750 - accuracy: 0.4995
+11008/25000 [============>.................] - ETA: 43s - loss: 7.6792 - accuracy: 0.4992
+11040/25000 [============>.................] - ETA: 43s - loss: 7.6763 - accuracy: 0.4994
+11072/25000 [============>.................] - ETA: 43s - loss: 7.6763 - accuracy: 0.4994
+11104/25000 [============>.................] - ETA: 43s - loss: 7.6749 - accuracy: 0.4995
+11136/25000 [============>.................] - ETA: 43s - loss: 7.6708 - accuracy: 0.4997
+11168/25000 [============>.................] - ETA: 43s - loss: 7.6652 - accuracy: 0.5001
+11200/25000 [============>.................] - ETA: 43s - loss: 7.6625 - accuracy: 0.5003
+11232/25000 [============>.................] - ETA: 43s - loss: 7.6625 - accuracy: 0.5003
+11264/25000 [============>.................] - ETA: 43s - loss: 7.6571 - accuracy: 0.5006
+11296/25000 [============>.................] - ETA: 42s - loss: 7.6544 - accuracy: 0.5008
+11328/25000 [============>.................] - ETA: 42s - loss: 7.6558 - accuracy: 0.5007
+11360/25000 [============>.................] - ETA: 42s - loss: 7.6545 - accuracy: 0.5008
+11392/25000 [============>.................] - ETA: 42s - loss: 7.6518 - accuracy: 0.5010
+11424/25000 [============>.................] - ETA: 42s - loss: 7.6532 - accuracy: 0.5009
+11456/25000 [============>.................] - ETA: 42s - loss: 7.6532 - accuracy: 0.5009
+11488/25000 [============>.................] - ETA: 42s - loss: 7.6599 - accuracy: 0.5004
+11520/25000 [============>.................] - ETA: 42s - loss: 7.6586 - accuracy: 0.5005
+11552/25000 [============>.................] - ETA: 42s - loss: 7.6626 - accuracy: 0.5003
+11584/25000 [============>.................] - ETA: 41s - loss: 7.6640 - accuracy: 0.5002
+11616/25000 [============>.................] - ETA: 41s - loss: 7.6653 - accuracy: 0.5001
+11648/25000 [============>.................] - ETA: 41s - loss: 7.6666 - accuracy: 0.5000
+11680/25000 [=============>................] - ETA: 41s - loss: 7.6706 - accuracy: 0.4997
+11712/25000 [=============>................] - ETA: 41s - loss: 7.6732 - accuracy: 0.4996
+11744/25000 [=============>................] - ETA: 41s - loss: 7.6745 - accuracy: 0.4995
+11776/25000 [=============>................] - ETA: 41s - loss: 7.6783 - accuracy: 0.4992
+11808/25000 [=============>................] - ETA: 41s - loss: 7.6757 - accuracy: 0.4994
+11840/25000 [=============>................] - ETA: 41s - loss: 7.6731 - accuracy: 0.4996
+11872/25000 [=============>................] - ETA: 41s - loss: 7.6718 - accuracy: 0.4997
+11904/25000 [=============>................] - ETA: 40s - loss: 7.6718 - accuracy: 0.4997
+11936/25000 [=============>................] - ETA: 40s - loss: 7.6692 - accuracy: 0.4998
+11968/25000 [=============>................] - ETA: 40s - loss: 7.6666 - accuracy: 0.5000
+12000/25000 [=============>................] - ETA: 40s - loss: 7.6653 - accuracy: 0.5001
+12032/25000 [=============>................] - ETA: 40s - loss: 7.6692 - accuracy: 0.4998
+12064/25000 [=============>................] - ETA: 40s - loss: 7.6692 - accuracy: 0.4998
+12096/25000 [=============>................] - ETA: 40s - loss: 7.6679 - accuracy: 0.4999
+12128/25000 [=============>................] - ETA: 40s - loss: 7.6729 - accuracy: 0.4996
+12160/25000 [=============>................] - ETA: 40s - loss: 7.6742 - accuracy: 0.4995
+12192/25000 [=============>................] - ETA: 40s - loss: 7.6729 - accuracy: 0.4996
+12224/25000 [=============>................] - ETA: 39s - loss: 7.6729 - accuracy: 0.4996
+12256/25000 [=============>................] - ETA: 39s - loss: 7.6666 - accuracy: 0.5000
+12288/25000 [=============>................] - ETA: 39s - loss: 7.6716 - accuracy: 0.4997
+12320/25000 [=============>................] - ETA: 39s - loss: 7.6704 - accuracy: 0.4998
+12352/25000 [=============>................] - ETA: 39s - loss: 7.6679 - accuracy: 0.4999
+12384/25000 [=============>................] - ETA: 39s - loss: 7.6679 - accuracy: 0.4999
+12416/25000 [=============>................] - ETA: 39s - loss: 7.6691 - accuracy: 0.4998
+12448/25000 [=============>................] - ETA: 39s - loss: 7.6679 - accuracy: 0.4999
+12480/25000 [=============>................] - ETA: 39s - loss: 7.6666 - accuracy: 0.5000
+12512/25000 [==============>...............] - ETA: 39s - loss: 7.6691 - accuracy: 0.4998
+12544/25000 [==============>...............] - ETA: 38s - loss: 7.6678 - accuracy: 0.4999
+12576/25000 [==============>...............] - ETA: 38s - loss: 7.6715 - accuracy: 0.4997
+12608/25000 [==============>...............] - ETA: 38s - loss: 7.6691 - accuracy: 0.4998
+12640/25000 [==============>...............] - ETA: 38s - loss: 7.6654 - accuracy: 0.5001
+12672/25000 [==============>...............] - ETA: 38s - loss: 7.6642 - accuracy: 0.5002
+12704/25000 [==============>...............] - ETA: 38s - loss: 7.6606 - accuracy: 0.5004
+12736/25000 [==============>...............] - ETA: 38s - loss: 7.6606 - accuracy: 0.5004
+12768/25000 [==============>...............] - ETA: 38s - loss: 7.6618 - accuracy: 0.5003
+12800/25000 [==============>...............] - ETA: 38s - loss: 7.6630 - accuracy: 0.5002
+12832/25000 [==============>...............] - ETA: 38s - loss: 7.6666 - accuracy: 0.5000
+12864/25000 [==============>...............] - ETA: 37s - loss: 7.6619 - accuracy: 0.5003
+12896/25000 [==============>...............] - ETA: 37s - loss: 7.6571 - accuracy: 0.5006
+12928/25000 [==============>...............] - ETA: 37s - loss: 7.6571 - accuracy: 0.5006
+12960/25000 [==============>...............] - ETA: 37s - loss: 7.6583 - accuracy: 0.5005
+12992/25000 [==============>...............] - ETA: 37s - loss: 7.6619 - accuracy: 0.5003
+13024/25000 [==============>...............] - ETA: 37s - loss: 7.6584 - accuracy: 0.5005
+13056/25000 [==============>...............] - ETA: 37s - loss: 7.6607 - accuracy: 0.5004
+13088/25000 [==============>...............] - ETA: 37s - loss: 7.6666 - accuracy: 0.5000
+13120/25000 [==============>...............] - ETA: 37s - loss: 7.6725 - accuracy: 0.4996
+13152/25000 [==============>...............] - ETA: 37s - loss: 7.6713 - accuracy: 0.4997
+13184/25000 [==============>...............] - ETA: 36s - loss: 7.6678 - accuracy: 0.4999
+13216/25000 [==============>...............] - ETA: 36s - loss: 7.6678 - accuracy: 0.4999
+13248/25000 [==============>...............] - ETA: 36s - loss: 7.6655 - accuracy: 0.5001
+13280/25000 [==============>...............] - ETA: 36s - loss: 7.6655 - accuracy: 0.5001
+13312/25000 [==============>...............] - ETA: 36s - loss: 7.6689 - accuracy: 0.4998
+13344/25000 [===============>..............] - ETA: 36s - loss: 7.6643 - accuracy: 0.5001
+13376/25000 [===============>..............] - ETA: 36s - loss: 7.6609 - accuracy: 0.5004
+13408/25000 [===============>..............] - ETA: 36s - loss: 7.6598 - accuracy: 0.5004
+13440/25000 [===============>..............] - ETA: 36s - loss: 7.6564 - accuracy: 0.5007
+13472/25000 [===============>..............] - ETA: 35s - loss: 7.6598 - accuracy: 0.5004
+13504/25000 [===============>..............] - ETA: 35s - loss: 7.6587 - accuracy: 0.5005
+13536/25000 [===============>..............] - ETA: 35s - loss: 7.6576 - accuracy: 0.5006
+13568/25000 [===============>..............] - ETA: 35s - loss: 7.6542 - accuracy: 0.5008
+13600/25000 [===============>..............] - ETA: 35s - loss: 7.6565 - accuracy: 0.5007
+13632/25000 [===============>..............] - ETA: 35s - loss: 7.6520 - accuracy: 0.5010
+13664/25000 [===============>..............] - ETA: 35s - loss: 7.6487 - accuracy: 0.5012
+13696/25000 [===============>..............] - ETA: 35s - loss: 7.6521 - accuracy: 0.5009
+13728/25000 [===============>..............] - ETA: 35s - loss: 7.6555 - accuracy: 0.5007
+13760/25000 [===============>..............] - ETA: 35s - loss: 7.6510 - accuracy: 0.5010
+13792/25000 [===============>..............] - ETA: 34s - loss: 7.6522 - accuracy: 0.5009
+13824/25000 [===============>..............] - ETA: 34s - loss: 7.6500 - accuracy: 0.5011
+13856/25000 [===============>..............] - ETA: 34s - loss: 7.6500 - accuracy: 0.5011
+13888/25000 [===============>..............] - ETA: 34s - loss: 7.6534 - accuracy: 0.5009
+13920/25000 [===============>..............] - ETA: 34s - loss: 7.6534 - accuracy: 0.5009
+13952/25000 [===============>..............] - ETA: 34s - loss: 7.6512 - accuracy: 0.5010
+13984/25000 [===============>..............] - ETA: 34s - loss: 7.6513 - accuracy: 0.5010
+14016/25000 [===============>..............] - ETA: 34s - loss: 7.6568 - accuracy: 0.5006
+14048/25000 [===============>..............] - ETA: 34s - loss: 7.6601 - accuracy: 0.5004
+14080/25000 [===============>..............] - ETA: 34s - loss: 7.6568 - accuracy: 0.5006
+14112/25000 [===============>..............] - ETA: 33s - loss: 7.6503 - accuracy: 0.5011
+14144/25000 [===============>..............] - ETA: 33s - loss: 7.6493 - accuracy: 0.5011
+14176/25000 [================>.............] - ETA: 33s - loss: 7.6472 - accuracy: 0.5013
+14208/25000 [================>.............] - ETA: 33s - loss: 7.6483 - accuracy: 0.5012
+14240/25000 [================>.............] - ETA: 33s - loss: 7.6494 - accuracy: 0.5011
+14272/25000 [================>.............] - ETA: 33s - loss: 7.6527 - accuracy: 0.5009
+14304/25000 [================>.............] - ETA: 33s - loss: 7.6538 - accuracy: 0.5008
+14336/25000 [================>.............] - ETA: 33s - loss: 7.6516 - accuracy: 0.5010
+14368/25000 [================>.............] - ETA: 33s - loss: 7.6506 - accuracy: 0.5010
+14400/25000 [================>.............] - ETA: 33s - loss: 7.6496 - accuracy: 0.5011
+14432/25000 [================>.............] - ETA: 32s - loss: 7.6496 - accuracy: 0.5011
+14464/25000 [================>.............] - ETA: 32s - loss: 7.6497 - accuracy: 0.5011
+14496/25000 [================>.............] - ETA: 32s - loss: 7.6486 - accuracy: 0.5012
+14528/25000 [================>.............] - ETA: 32s - loss: 7.6476 - accuracy: 0.5012
+14560/25000 [================>.............] - ETA: 32s - loss: 7.6456 - accuracy: 0.5014
+14592/25000 [================>.............] - ETA: 32s - loss: 7.6425 - accuracy: 0.5016
+14624/25000 [================>.............] - ETA: 32s - loss: 7.6425 - accuracy: 0.5016
+14656/25000 [================>.............] - ETA: 32s - loss: 7.6405 - accuracy: 0.5017
+14688/25000 [================>.............] - ETA: 32s - loss: 7.6426 - accuracy: 0.5016
+14720/25000 [================>.............] - ETA: 32s - loss: 7.6447 - accuracy: 0.5014
+14752/25000 [================>.............] - ETA: 31s - loss: 7.6469 - accuracy: 0.5013
+14784/25000 [================>.............] - ETA: 31s - loss: 7.6500 - accuracy: 0.5011
+14816/25000 [================>.............] - ETA: 31s - loss: 7.6501 - accuracy: 0.5011
+14848/25000 [================>.............] - ETA: 31s - loss: 7.6501 - accuracy: 0.5011
+14880/25000 [================>.............] - ETA: 31s - loss: 7.6501 - accuracy: 0.5011
+14912/25000 [================>.............] - ETA: 31s - loss: 7.6563 - accuracy: 0.5007
+14944/25000 [================>.............] - ETA: 31s - loss: 7.6584 - accuracy: 0.5005
+14976/25000 [================>.............] - ETA: 31s - loss: 7.6605 - accuracy: 0.5004
+15008/25000 [=================>............] - ETA: 31s - loss: 7.6646 - accuracy: 0.5001
+15040/25000 [=================>............] - ETA: 31s - loss: 7.6615 - accuracy: 0.5003
+15072/25000 [=================>............] - ETA: 30s - loss: 7.6626 - accuracy: 0.5003
+15104/25000 [=================>............] - ETA: 30s - loss: 7.6585 - accuracy: 0.5005
+15136/25000 [=================>............] - ETA: 30s - loss: 7.6575 - accuracy: 0.5006
+15168/25000 [=================>............] - ETA: 30s - loss: 7.6545 - accuracy: 0.5008
+15200/25000 [=================>............] - ETA: 30s - loss: 7.6545 - accuracy: 0.5008
+15232/25000 [=================>............] - ETA: 30s - loss: 7.6525 - accuracy: 0.5009
+15264/25000 [=================>............] - ETA: 30s - loss: 7.6465 - accuracy: 0.5013
+15296/25000 [=================>............] - ETA: 30s - loss: 7.6446 - accuracy: 0.5014
+15328/25000 [=================>............] - ETA: 30s - loss: 7.6416 - accuracy: 0.5016
+15360/25000 [=================>............] - ETA: 30s - loss: 7.6387 - accuracy: 0.5018
+15392/25000 [=================>............] - ETA: 29s - loss: 7.6397 - accuracy: 0.5018
+15424/25000 [=================>............] - ETA: 29s - loss: 7.6378 - accuracy: 0.5019
+15456/25000 [=================>............] - ETA: 29s - loss: 7.6369 - accuracy: 0.5019
+15488/25000 [=================>............] - ETA: 29s - loss: 7.6349 - accuracy: 0.5021
+15520/25000 [=================>............] - ETA: 29s - loss: 7.6340 - accuracy: 0.5021
+15552/25000 [=================>............] - ETA: 29s - loss: 7.6361 - accuracy: 0.5020
+15584/25000 [=================>............] - ETA: 29s - loss: 7.6332 - accuracy: 0.5022
+15616/25000 [=================>............] - ETA: 29s - loss: 7.6303 - accuracy: 0.5024
+15648/25000 [=================>............] - ETA: 29s - loss: 7.6294 - accuracy: 0.5024
+15680/25000 [=================>............] - ETA: 29s - loss: 7.6334 - accuracy: 0.5022
+15712/25000 [=================>............] - ETA: 28s - loss: 7.6325 - accuracy: 0.5022
+15744/25000 [=================>............] - ETA: 28s - loss: 7.6335 - accuracy: 0.5022
+15776/25000 [=================>............] - ETA: 28s - loss: 7.6345 - accuracy: 0.5021
+15808/25000 [=================>............] - ETA: 28s - loss: 7.6356 - accuracy: 0.5020
+15840/25000 [==================>...........] - ETA: 28s - loss: 7.6376 - accuracy: 0.5019
+15872/25000 [==================>...........] - ETA: 28s - loss: 7.6376 - accuracy: 0.5019
+15904/25000 [==================>...........] - ETA: 28s - loss: 7.6387 - accuracy: 0.5018
+15936/25000 [==================>...........] - ETA: 28s - loss: 7.6445 - accuracy: 0.5014
+15968/25000 [==================>...........] - ETA: 28s - loss: 7.6465 - accuracy: 0.5013
+16000/25000 [==================>...........] - ETA: 28s - loss: 7.6436 - accuracy: 0.5015
+16032/25000 [==================>...........] - ETA: 27s - loss: 7.6465 - accuracy: 0.5013
+16064/25000 [==================>...........] - ETA: 27s - loss: 7.6408 - accuracy: 0.5017
+16096/25000 [==================>...........] - ETA: 27s - loss: 7.6390 - accuracy: 0.5018
+16128/25000 [==================>...........] - ETA: 27s - loss: 7.6390 - accuracy: 0.5018
+16160/25000 [==================>...........] - ETA: 27s - loss: 7.6391 - accuracy: 0.5018
+16192/25000 [==================>...........] - ETA: 27s - loss: 7.6429 - accuracy: 0.5015
+16224/25000 [==================>...........] - ETA: 27s - loss: 7.6430 - accuracy: 0.5015
+16256/25000 [==================>...........] - ETA: 27s - loss: 7.6440 - accuracy: 0.5015
+16288/25000 [==================>...........] - ETA: 27s - loss: 7.6412 - accuracy: 0.5017
+16320/25000 [==================>...........] - ETA: 27s - loss: 7.6403 - accuracy: 0.5017
+16352/25000 [==================>...........] - ETA: 26s - loss: 7.6422 - accuracy: 0.5016
+16384/25000 [==================>...........] - ETA: 26s - loss: 7.6451 - accuracy: 0.5014
+16416/25000 [==================>...........] - ETA: 26s - loss: 7.6470 - accuracy: 0.5013
+16448/25000 [==================>...........] - ETA: 26s - loss: 7.6470 - accuracy: 0.5013
+16480/25000 [==================>...........] - ETA: 26s - loss: 7.6489 - accuracy: 0.5012
+16512/25000 [==================>...........] - ETA: 26s - loss: 7.6480 - accuracy: 0.5012
+16544/25000 [==================>...........] - ETA: 26s - loss: 7.6499 - accuracy: 0.5011
+16576/25000 [==================>...........] - ETA: 26s - loss: 7.6509 - accuracy: 0.5010
+16608/25000 [==================>...........] - ETA: 26s - loss: 7.6472 - accuracy: 0.5013
+16640/25000 [==================>...........] - ETA: 26s - loss: 7.6500 - accuracy: 0.5011
+16672/25000 [===================>..........] - ETA: 25s - loss: 7.6473 - accuracy: 0.5013
+16704/25000 [===================>..........] - ETA: 25s - loss: 7.6483 - accuracy: 0.5012
+16736/25000 [===================>..........] - ETA: 25s - loss: 7.6510 - accuracy: 0.5010
+16768/25000 [===================>..........] - ETA: 25s - loss: 7.6511 - accuracy: 0.5010
+16800/25000 [===================>..........] - ETA: 25s - loss: 7.6529 - accuracy: 0.5009
+16832/25000 [===================>..........] - ETA: 25s - loss: 7.6530 - accuracy: 0.5009
+16864/25000 [===================>..........] - ETA: 25s - loss: 7.6539 - accuracy: 0.5008
+16896/25000 [===================>..........] - ETA: 25s - loss: 7.6548 - accuracy: 0.5008
+16928/25000 [===================>..........] - ETA: 25s - loss: 7.6539 - accuracy: 0.5008
+16960/25000 [===================>..........] - ETA: 25s - loss: 7.6558 - accuracy: 0.5007
+16992/25000 [===================>..........] - ETA: 24s - loss: 7.6549 - accuracy: 0.5008
+17024/25000 [===================>..........] - ETA: 24s - loss: 7.6531 - accuracy: 0.5009
+17056/25000 [===================>..........] - ETA: 24s - loss: 7.6540 - accuracy: 0.5008
+17088/25000 [===================>..........] - ETA: 24s - loss: 7.6532 - accuracy: 0.5009
+17120/25000 [===================>..........] - ETA: 24s - loss: 7.6559 - accuracy: 0.5007
+17152/25000 [===================>..........] - ETA: 24s - loss: 7.6568 - accuracy: 0.5006
+17184/25000 [===================>..........] - ETA: 24s - loss: 7.6568 - accuracy: 0.5006
+17216/25000 [===================>..........] - ETA: 24s - loss: 7.6568 - accuracy: 0.5006
+17248/25000 [===================>..........] - ETA: 24s - loss: 7.6577 - accuracy: 0.5006
+17280/25000 [===================>..........] - ETA: 24s - loss: 7.6560 - accuracy: 0.5007
+17312/25000 [===================>..........] - ETA: 23s - loss: 7.6516 - accuracy: 0.5010
+17344/25000 [===================>..........] - ETA: 23s - loss: 7.6454 - accuracy: 0.5014
+17376/25000 [===================>..........] - ETA: 23s - loss: 7.6463 - accuracy: 0.5013
+17408/25000 [===================>..........] - ETA: 23s - loss: 7.6472 - accuracy: 0.5013
+17440/25000 [===================>..........] - ETA: 23s - loss: 7.6473 - accuracy: 0.5013
+17472/25000 [===================>..........] - ETA: 23s - loss: 7.6429 - accuracy: 0.5015
+17504/25000 [====================>.........] - ETA: 23s - loss: 7.6412 - accuracy: 0.5017
+17536/25000 [====================>.........] - ETA: 23s - loss: 7.6404 - accuracy: 0.5017
+17568/25000 [====================>.........] - ETA: 23s - loss: 7.6369 - accuracy: 0.5019
+17600/25000 [====================>.........] - ETA: 23s - loss: 7.6353 - accuracy: 0.5020
+17632/25000 [====================>.........] - ETA: 22s - loss: 7.6362 - accuracy: 0.5020
+17664/25000 [====================>.........] - ETA: 22s - loss: 7.6397 - accuracy: 0.5018
+17696/25000 [====================>.........] - ETA: 22s - loss: 7.6380 - accuracy: 0.5019
+17728/25000 [====================>.........] - ETA: 22s - loss: 7.6398 - accuracy: 0.5017
+17760/25000 [====================>.........] - ETA: 22s - loss: 7.6407 - accuracy: 0.5017
+17792/25000 [====================>.........] - ETA: 22s - loss: 7.6347 - accuracy: 0.5021
+17824/25000 [====================>.........] - ETA: 22s - loss: 7.6322 - accuracy: 0.5022
+17856/25000 [====================>.........] - ETA: 22s - loss: 7.6331 - accuracy: 0.5022
+17888/25000 [====================>.........] - ETA: 22s - loss: 7.6340 - accuracy: 0.5021
+17920/25000 [====================>.........] - ETA: 22s - loss: 7.6350 - accuracy: 0.5021
+17952/25000 [====================>.........] - ETA: 21s - loss: 7.6359 - accuracy: 0.5020
+17984/25000 [====================>.........] - ETA: 21s - loss: 7.6376 - accuracy: 0.5019
+18016/25000 [====================>.........] - ETA: 21s - loss: 7.6411 - accuracy: 0.5017
+18048/25000 [====================>.........] - ETA: 21s - loss: 7.6394 - accuracy: 0.5018
+18080/25000 [====================>.........] - ETA: 21s - loss: 7.6446 - accuracy: 0.5014
+18112/25000 [====================>.........] - ETA: 21s - loss: 7.6480 - accuracy: 0.5012
+18144/25000 [====================>.........] - ETA: 21s - loss: 7.6472 - accuracy: 0.5013
+18176/25000 [====================>.........] - ETA: 21s - loss: 7.6438 - accuracy: 0.5015
+18208/25000 [====================>.........] - ETA: 21s - loss: 7.6439 - accuracy: 0.5015
+18240/25000 [====================>.........] - ETA: 21s - loss: 7.6414 - accuracy: 0.5016
+18272/25000 [====================>.........] - ETA: 20s - loss: 7.6431 - accuracy: 0.5015
+18304/25000 [====================>.........] - ETA: 20s - loss: 7.6415 - accuracy: 0.5016
+18336/25000 [=====================>........] - ETA: 20s - loss: 7.6407 - accuracy: 0.5017
+18368/25000 [=====================>........] - ETA: 20s - loss: 7.6424 - accuracy: 0.5016
+18400/25000 [=====================>........] - ETA: 20s - loss: 7.6458 - accuracy: 0.5014
+18432/25000 [=====================>........] - ETA: 20s - loss: 7.6425 - accuracy: 0.5016
+18464/25000 [=====================>........] - ETA: 20s - loss: 7.6409 - accuracy: 0.5017
+18496/25000 [=====================>........] - ETA: 20s - loss: 7.6476 - accuracy: 0.5012
+18528/25000 [=====================>........] - ETA: 20s - loss: 7.6492 - accuracy: 0.5011
+18560/25000 [=====================>........] - ETA: 20s - loss: 7.6451 - accuracy: 0.5014
+18592/25000 [=====================>........] - ETA: 19s - loss: 7.6427 - accuracy: 0.5016
+18624/25000 [=====================>........] - ETA: 19s - loss: 7.6411 - accuracy: 0.5017
+18656/25000 [=====================>........] - ETA: 19s - loss: 7.6428 - accuracy: 0.5016
+18688/25000 [=====================>........] - ETA: 19s - loss: 7.6412 - accuracy: 0.5017
+18720/25000 [=====================>........] - ETA: 19s - loss: 7.6437 - accuracy: 0.5015
+18752/25000 [=====================>........] - ETA: 19s - loss: 7.6421 - accuracy: 0.5016
+18784/25000 [=====================>........] - ETA: 19s - loss: 7.6413 - accuracy: 0.5017
+18816/25000 [=====================>........] - ETA: 19s - loss: 7.6389 - accuracy: 0.5018
+18848/25000 [=====================>........] - ETA: 19s - loss: 7.6373 - accuracy: 0.5019
+18880/25000 [=====================>........] - ETA: 19s - loss: 7.6333 - accuracy: 0.5022
+18912/25000 [=====================>........] - ETA: 18s - loss: 7.6318 - accuracy: 0.5023
+18944/25000 [=====================>........] - ETA: 18s - loss: 7.6342 - accuracy: 0.5021
+18976/25000 [=====================>........] - ETA: 18s - loss: 7.6359 - accuracy: 0.5020
+19008/25000 [=====================>........] - ETA: 18s - loss: 7.6384 - accuracy: 0.5018
+19040/25000 [=====================>........] - ETA: 18s - loss: 7.6352 - accuracy: 0.5020
+19072/25000 [=====================>........] - ETA: 18s - loss: 7.6312 - accuracy: 0.5023
+19104/25000 [=====================>........] - ETA: 18s - loss: 7.6321 - accuracy: 0.5023
+19136/25000 [=====================>........] - ETA: 18s - loss: 7.6306 - accuracy: 0.5024
+19168/25000 [======================>.......] - ETA: 18s - loss: 7.6298 - accuracy: 0.5024
+19200/25000 [======================>.......] - ETA: 18s - loss: 7.6323 - accuracy: 0.5022
+19232/25000 [======================>.......] - ETA: 17s - loss: 7.6315 - accuracy: 0.5023
+19264/25000 [======================>.......] - ETA: 17s - loss: 7.6380 - accuracy: 0.5019
+19296/25000 [======================>.......] - ETA: 17s - loss: 7.6380 - accuracy: 0.5019
+19328/25000 [======================>.......] - ETA: 17s - loss: 7.6373 - accuracy: 0.5019
+19360/25000 [======================>.......] - ETA: 17s - loss: 7.6365 - accuracy: 0.5020
+19392/25000 [======================>.......] - ETA: 17s - loss: 7.6342 - accuracy: 0.5021
+19424/25000 [======================>.......] - ETA: 17s - loss: 7.6358 - accuracy: 0.5020
+19456/25000 [======================>.......] - ETA: 17s - loss: 7.6367 - accuracy: 0.5020
+19488/25000 [======================>.......] - ETA: 17s - loss: 7.6351 - accuracy: 0.5021
+19520/25000 [======================>.......] - ETA: 17s - loss: 7.6391 - accuracy: 0.5018
+19552/25000 [======================>.......] - ETA: 16s - loss: 7.6407 - accuracy: 0.5017
+19584/25000 [======================>.......] - ETA: 16s - loss: 7.6455 - accuracy: 0.5014
+19616/25000 [======================>.......] - ETA: 16s - loss: 7.6463 - accuracy: 0.5013
+19648/25000 [======================>.......] - ETA: 16s - loss: 7.6432 - accuracy: 0.5015
+19680/25000 [======================>.......] - ETA: 16s - loss: 7.6456 - accuracy: 0.5014
+19712/25000 [======================>.......] - ETA: 16s - loss: 7.6456 - accuracy: 0.5014
+19744/25000 [======================>.......] - ETA: 16s - loss: 7.6511 - accuracy: 0.5010
+19776/25000 [======================>.......] - ETA: 16s - loss: 7.6519 - accuracy: 0.5010
+19808/25000 [======================>.......] - ETA: 16s - loss: 7.6511 - accuracy: 0.5010
+19840/25000 [======================>.......] - ETA: 16s - loss: 7.6527 - accuracy: 0.5009
+19872/25000 [======================>.......] - ETA: 15s - loss: 7.6558 - accuracy: 0.5007
+19904/25000 [======================>.......] - ETA: 15s - loss: 7.6566 - accuracy: 0.5007
+19936/25000 [======================>.......] - ETA: 15s - loss: 7.6589 - accuracy: 0.5005
+19968/25000 [======================>.......] - ETA: 15s - loss: 7.6612 - accuracy: 0.5004
+20000/25000 [=======================>......] - ETA: 15s - loss: 7.6605 - accuracy: 0.5004
+20032/25000 [=======================>......] - ETA: 15s - loss: 7.6567 - accuracy: 0.5006
+20064/25000 [=======================>......] - ETA: 15s - loss: 7.6574 - accuracy: 0.5006
+20096/25000 [=======================>......] - ETA: 15s - loss: 7.6552 - accuracy: 0.5007
+20128/25000 [=======================>......] - ETA: 15s - loss: 7.6567 - accuracy: 0.5006
+20160/25000 [=======================>......] - ETA: 15s - loss: 7.6575 - accuracy: 0.5006
+20192/25000 [=======================>......] - ETA: 14s - loss: 7.6590 - accuracy: 0.5005
+20224/25000 [=======================>......] - ETA: 14s - loss: 7.6621 - accuracy: 0.5003
+20256/25000 [=======================>......] - ETA: 14s - loss: 7.6583 - accuracy: 0.5005
+20288/25000 [=======================>......] - ETA: 14s - loss: 7.6591 - accuracy: 0.5005
+20320/25000 [=======================>......] - ETA: 14s - loss: 7.6576 - accuracy: 0.5006
+20352/25000 [=======================>......] - ETA: 14s - loss: 7.6546 - accuracy: 0.5008
+20384/25000 [=======================>......] - ETA: 14s - loss: 7.6583 - accuracy: 0.5005
+20416/25000 [=======================>......] - ETA: 14s - loss: 7.6584 - accuracy: 0.5005
+20448/25000 [=======================>......] - ETA: 14s - loss: 7.6554 - accuracy: 0.5007
+20480/25000 [=======================>......] - ETA: 14s - loss: 7.6561 - accuracy: 0.5007
+20512/25000 [=======================>......] - ETA: 13s - loss: 7.6554 - accuracy: 0.5007
+20544/25000 [=======================>......] - ETA: 13s - loss: 7.6592 - accuracy: 0.5005
+20576/25000 [=======================>......] - ETA: 13s - loss: 7.6592 - accuracy: 0.5005
+20608/25000 [=======================>......] - ETA: 13s - loss: 7.6599 - accuracy: 0.5004
+20640/25000 [=======================>......] - ETA: 13s - loss: 7.6599 - accuracy: 0.5004
+20672/25000 [=======================>......] - ETA: 13s - loss: 7.6570 - accuracy: 0.5006
+20704/25000 [=======================>......] - ETA: 13s - loss: 7.6577 - accuracy: 0.5006
+20736/25000 [=======================>......] - ETA: 13s - loss: 7.6577 - accuracy: 0.5006
+20768/25000 [=======================>......] - ETA: 13s - loss: 7.6570 - accuracy: 0.5006
+20800/25000 [=======================>......] - ETA: 13s - loss: 7.6578 - accuracy: 0.5006
+20832/25000 [=======================>......] - ETA: 12s - loss: 7.6585 - accuracy: 0.5005
+20864/25000 [========================>.....] - ETA: 12s - loss: 7.6593 - accuracy: 0.5005
+20896/25000 [========================>.....] - ETA: 12s - loss: 7.6585 - accuracy: 0.5005
+20928/25000 [========================>.....] - ETA: 12s - loss: 7.6556 - accuracy: 0.5007
+20960/25000 [========================>.....] - ETA: 12s - loss: 7.6593 - accuracy: 0.5005
+20992/25000 [========================>.....] - ETA: 12s - loss: 7.6600 - accuracy: 0.5004
+21024/25000 [========================>.....] - ETA: 12s - loss: 7.6593 - accuracy: 0.5005
+21056/25000 [========================>.....] - ETA: 12s - loss: 7.6579 - accuracy: 0.5006
+21088/25000 [========================>.....] - ETA: 12s - loss: 7.6593 - accuracy: 0.5005
+21120/25000 [========================>.....] - ETA: 12s - loss: 7.6623 - accuracy: 0.5003
+21152/25000 [========================>.....] - ETA: 11s - loss: 7.6608 - accuracy: 0.5004
+21184/25000 [========================>.....] - ETA: 11s - loss: 7.6608 - accuracy: 0.5004
+21216/25000 [========================>.....] - ETA: 11s - loss: 7.6616 - accuracy: 0.5003
+21248/25000 [========================>.....] - ETA: 11s - loss: 7.6608 - accuracy: 0.5004
+21280/25000 [========================>.....] - ETA: 11s - loss: 7.6623 - accuracy: 0.5003
+21312/25000 [========================>.....] - ETA: 11s - loss: 7.6609 - accuracy: 0.5004
+21344/25000 [========================>.....] - ETA: 11s - loss: 7.6602 - accuracy: 0.5004
+21376/25000 [========================>.....] - ETA: 11s - loss: 7.6645 - accuracy: 0.5001
+21408/25000 [========================>.....] - ETA: 11s - loss: 7.6659 - accuracy: 0.5000
+21440/25000 [========================>.....] - ETA: 11s - loss: 7.6680 - accuracy: 0.4999
+21472/25000 [========================>.....] - ETA: 10s - loss: 7.6673 - accuracy: 0.5000
+21504/25000 [========================>.....] - ETA: 10s - loss: 7.6680 - accuracy: 0.4999
+21536/25000 [========================>.....] - ETA: 10s - loss: 7.6680 - accuracy: 0.4999
+21568/25000 [========================>.....] - ETA: 10s - loss: 7.6702 - accuracy: 0.4998
+21600/25000 [========================>.....] - ETA: 10s - loss: 7.6709 - accuracy: 0.4997
+21632/25000 [========================>.....] - ETA: 10s - loss: 7.6716 - accuracy: 0.4997
+21664/25000 [========================>.....] - ETA: 10s - loss: 7.6723 - accuracy: 0.4996
+21696/25000 [=========================>....] - ETA: 10s - loss: 7.6687 - accuracy: 0.4999
+21728/25000 [=========================>....] - ETA: 10s - loss: 7.6673 - accuracy: 0.5000
+21760/25000 [=========================>....] - ETA: 10s - loss: 7.6680 - accuracy: 0.4999
+21792/25000 [=========================>....] - ETA: 9s - loss: 7.6680 - accuracy: 0.4999 
+21824/25000 [=========================>....] - ETA: 9s - loss: 7.6652 - accuracy: 0.5001
+21856/25000 [=========================>....] - ETA: 9s - loss: 7.6631 - accuracy: 0.5002
+21888/25000 [=========================>....] - ETA: 9s - loss: 7.6631 - accuracy: 0.5002
+21920/25000 [=========================>....] - ETA: 9s - loss: 7.6645 - accuracy: 0.5001
+21952/25000 [=========================>....] - ETA: 9s - loss: 7.6666 - accuracy: 0.5000
+21984/25000 [=========================>....] - ETA: 9s - loss: 7.6659 - accuracy: 0.5000
+22016/25000 [=========================>....] - ETA: 9s - loss: 7.6680 - accuracy: 0.4999
+22048/25000 [=========================>....] - ETA: 9s - loss: 7.6680 - accuracy: 0.4999
+22080/25000 [=========================>....] - ETA: 9s - loss: 7.6659 - accuracy: 0.5000
+22112/25000 [=========================>....] - ETA: 8s - loss: 7.6659 - accuracy: 0.5000
+22144/25000 [=========================>....] - ETA: 8s - loss: 7.6645 - accuracy: 0.5001
+22176/25000 [=========================>....] - ETA: 8s - loss: 7.6639 - accuracy: 0.5002
+22208/25000 [=========================>....] - ETA: 8s - loss: 7.6625 - accuracy: 0.5003
+22240/25000 [=========================>....] - ETA: 8s - loss: 7.6666 - accuracy: 0.5000
+22272/25000 [=========================>....] - ETA: 8s - loss: 7.6673 - accuracy: 0.5000
+22304/25000 [=========================>....] - ETA: 8s - loss: 7.6680 - accuracy: 0.4999
+22336/25000 [=========================>....] - ETA: 8s - loss: 7.6652 - accuracy: 0.5001
+22368/25000 [=========================>....] - ETA: 8s - loss: 7.6652 - accuracy: 0.5001
+22400/25000 [=========================>....] - ETA: 8s - loss: 7.6673 - accuracy: 0.5000
+22432/25000 [=========================>....] - ETA: 7s - loss: 7.6687 - accuracy: 0.4999
+22464/25000 [=========================>....] - ETA: 7s - loss: 7.6687 - accuracy: 0.4999
+22496/25000 [=========================>....] - ETA: 7s - loss: 7.6680 - accuracy: 0.4999
+22528/25000 [==========================>...] - ETA: 7s - loss: 7.6721 - accuracy: 0.4996
+22560/25000 [==========================>...] - ETA: 7s - loss: 7.6734 - accuracy: 0.4996
+22592/25000 [==========================>...] - ETA: 7s - loss: 7.6734 - accuracy: 0.4996
+22624/25000 [==========================>...] - ETA: 7s - loss: 7.6741 - accuracy: 0.4995
+22656/25000 [==========================>...] - ETA: 7s - loss: 7.6714 - accuracy: 0.4997
+22688/25000 [==========================>...] - ETA: 7s - loss: 7.6707 - accuracy: 0.4997
+22720/25000 [==========================>...] - ETA: 7s - loss: 7.6713 - accuracy: 0.4997
+22752/25000 [==========================>...] - ETA: 6s - loss: 7.6713 - accuracy: 0.4997
+22784/25000 [==========================>...] - ETA: 6s - loss: 7.6727 - accuracy: 0.4996
+22816/25000 [==========================>...] - ETA: 6s - loss: 7.6686 - accuracy: 0.4999
+22848/25000 [==========================>...] - ETA: 6s - loss: 7.6673 - accuracy: 0.5000
+22880/25000 [==========================>...] - ETA: 6s - loss: 7.6680 - accuracy: 0.4999
+22912/25000 [==========================>...] - ETA: 6s - loss: 7.6660 - accuracy: 0.5000
+22944/25000 [==========================>...] - ETA: 6s - loss: 7.6633 - accuracy: 0.5002
+22976/25000 [==========================>...] - ETA: 6s - loss: 7.6619 - accuracy: 0.5003
+23008/25000 [==========================>...] - ETA: 6s - loss: 7.6600 - accuracy: 0.5004
+23040/25000 [==========================>...] - ETA: 6s - loss: 7.6573 - accuracy: 0.5006
+23072/25000 [==========================>...] - ETA: 5s - loss: 7.6547 - accuracy: 0.5008
+23104/25000 [==========================>...] - ETA: 5s - loss: 7.6587 - accuracy: 0.5005
+23136/25000 [==========================>...] - ETA: 5s - loss: 7.6547 - accuracy: 0.5008
+23168/25000 [==========================>...] - ETA: 5s - loss: 7.6540 - accuracy: 0.5008
+23200/25000 [==========================>...] - ETA: 5s - loss: 7.6534 - accuracy: 0.5009
+23232/25000 [==========================>...] - ETA: 5s - loss: 7.6587 - accuracy: 0.5005
+23264/25000 [==========================>...] - ETA: 5s - loss: 7.6594 - accuracy: 0.5005
+23296/25000 [==========================>...] - ETA: 5s - loss: 7.6587 - accuracy: 0.5005
+23328/25000 [==========================>...] - ETA: 5s - loss: 7.6594 - accuracy: 0.5005
+23360/25000 [===========================>..] - ETA: 5s - loss: 7.6627 - accuracy: 0.5003
+23392/25000 [===========================>..] - ETA: 4s - loss: 7.6647 - accuracy: 0.5001
+23424/25000 [===========================>..] - ETA: 4s - loss: 7.6647 - accuracy: 0.5001
+23456/25000 [===========================>..] - ETA: 4s - loss: 7.6653 - accuracy: 0.5001
+23488/25000 [===========================>..] - ETA: 4s - loss: 7.6640 - accuracy: 0.5002
+23520/25000 [===========================>..] - ETA: 4s - loss: 7.6614 - accuracy: 0.5003
+23552/25000 [===========================>..] - ETA: 4s - loss: 7.6647 - accuracy: 0.5001
+23584/25000 [===========================>..] - ETA: 4s - loss: 7.6634 - accuracy: 0.5002
+23616/25000 [===========================>..] - ETA: 4s - loss: 7.6627 - accuracy: 0.5003
+23648/25000 [===========================>..] - ETA: 4s - loss: 7.6608 - accuracy: 0.5004
+23680/25000 [===========================>..] - ETA: 4s - loss: 7.6601 - accuracy: 0.5004
+23712/25000 [===========================>..] - ETA: 3s - loss: 7.6602 - accuracy: 0.5004
 23744/25000 [===========================>..] - ETA: 3s - loss: 7.6615 - accuracy: 0.5003
-23776/25000 [===========================>..] - ETA: 3s - loss: 7.6660 - accuracy: 0.5000
-23808/25000 [===========================>..] - ETA: 2s - loss: 7.6686 - accuracy: 0.4999
-23840/25000 [===========================>..] - ETA: 2s - loss: 7.6660 - accuracy: 0.5000
-23872/25000 [===========================>..] - ETA: 2s - loss: 7.6673 - accuracy: 0.5000
-23904/25000 [===========================>..] - ETA: 2s - loss: 7.6673 - accuracy: 0.5000
-23936/25000 [===========================>..] - ETA: 2s - loss: 7.6653 - accuracy: 0.5001
-23968/25000 [===========================>..] - ETA: 2s - loss: 7.6685 - accuracy: 0.4999
-24000/25000 [===========================>..] - ETA: 2s - loss: 7.6679 - accuracy: 0.4999
-24032/25000 [===========================>..] - ETA: 2s - loss: 7.6673 - accuracy: 0.5000
-24064/25000 [===========================>..] - ETA: 2s - loss: 7.6660 - accuracy: 0.5000
-24096/25000 [===========================>..] - ETA: 2s - loss: 7.6679 - accuracy: 0.4999
-24128/25000 [===========================>..] - ETA: 2s - loss: 7.6679 - accuracy: 0.4999
-24160/25000 [===========================>..] - ETA: 2s - loss: 7.6673 - accuracy: 0.5000
-24192/25000 [============================>.] - ETA: 2s - loss: 7.6660 - accuracy: 0.5000
-24224/25000 [============================>.] - ETA: 1s - loss: 7.6679 - accuracy: 0.4999
-24256/25000 [============================>.] - ETA: 1s - loss: 7.6679 - accuracy: 0.4999
-24288/25000 [============================>.] - ETA: 1s - loss: 7.6729 - accuracy: 0.4996
-24320/25000 [============================>.] - ETA: 1s - loss: 7.6685 - accuracy: 0.4999
-24352/25000 [============================>.] - ETA: 1s - loss: 7.6660 - accuracy: 0.5000
-24384/25000 [============================>.] - ETA: 1s - loss: 7.6647 - accuracy: 0.5001
-24416/25000 [============================>.] - ETA: 1s - loss: 7.6654 - accuracy: 0.5001
-24448/25000 [============================>.] - ETA: 1s - loss: 7.6679 - accuracy: 0.4999
-24480/25000 [============================>.] - ETA: 1s - loss: 7.6716 - accuracy: 0.4997
-24512/25000 [============================>.] - ETA: 1s - loss: 7.6710 - accuracy: 0.4997
-24544/25000 [============================>.] - ETA: 1s - loss: 7.6722 - accuracy: 0.4996
-24576/25000 [============================>.] - ETA: 1s - loss: 7.6716 - accuracy: 0.4997
-24608/25000 [============================>.] - ETA: 0s - loss: 7.6710 - accuracy: 0.4997
-24640/25000 [============================>.] - ETA: 0s - loss: 7.6716 - accuracy: 0.4997
-24672/25000 [============================>.] - ETA: 0s - loss: 7.6710 - accuracy: 0.4997
-24704/25000 [============================>.] - ETA: 0s - loss: 7.6722 - accuracy: 0.4996
-24736/25000 [============================>.] - ETA: 0s - loss: 7.6691 - accuracy: 0.4998
-24768/25000 [============================>.] - ETA: 0s - loss: 7.6660 - accuracy: 0.5000
-24800/25000 [============================>.] - ETA: 0s - loss: 7.6672 - accuracy: 0.5000
-24832/25000 [============================>.] - ETA: 0s - loss: 7.6648 - accuracy: 0.5001
-24864/25000 [============================>.] - ETA: 0s - loss: 7.6654 - accuracy: 0.5001
-24896/25000 [============================>.] - ETA: 0s - loss: 7.6679 - accuracy: 0.4999
-24928/25000 [============================>.] - ETA: 0s - loss: 7.6672 - accuracy: 0.5000
-24960/25000 [============================>.] - ETA: 0s - loss: 7.6654 - accuracy: 0.5001
-24992/25000 [============================>.] - ETA: 0s - loss: 7.6666 - accuracy: 0.5000
-25000/25000 [==============================] - 73s 3ms/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+23776/25000 [===========================>..] - ETA: 3s - loss: 7.6595 - accuracy: 0.5005
+23808/25000 [===========================>..] - ETA: 3s - loss: 7.6595 - accuracy: 0.5005
+23840/25000 [===========================>..] - ETA: 3s - loss: 7.6621 - accuracy: 0.5003
+23872/25000 [===========================>..] - ETA: 3s - loss: 7.6634 - accuracy: 0.5002
+23904/25000 [===========================>..] - ETA: 3s - loss: 7.6628 - accuracy: 0.5003
+23936/25000 [===========================>..] - ETA: 3s - loss: 7.6621 - accuracy: 0.5003
+23968/25000 [===========================>..] - ETA: 3s - loss: 7.6641 - accuracy: 0.5002
+24000/25000 [===========================>..] - ETA: 3s - loss: 7.6647 - accuracy: 0.5001
+24032/25000 [===========================>..] - ETA: 3s - loss: 7.6634 - accuracy: 0.5002
+24064/25000 [===========================>..] - ETA: 2s - loss: 7.6634 - accuracy: 0.5002
+24096/25000 [===========================>..] - ETA: 2s - loss: 7.6634 - accuracy: 0.5002
+24128/25000 [===========================>..] - ETA: 2s - loss: 7.6641 - accuracy: 0.5002
+24160/25000 [===========================>..] - ETA: 2s - loss: 7.6666 - accuracy: 0.5000
+24192/25000 [============================>.] - ETA: 2s - loss: 7.6666 - accuracy: 0.5000
+24224/25000 [============================>.] - ETA: 2s - loss: 7.6685 - accuracy: 0.4999
+24256/25000 [============================>.] - ETA: 2s - loss: 7.6685 - accuracy: 0.4999
+24288/25000 [============================>.] - ETA: 2s - loss: 7.6660 - accuracy: 0.5000
+24320/25000 [============================>.] - ETA: 2s - loss: 7.6679 - accuracy: 0.4999
+24352/25000 [============================>.] - ETA: 2s - loss: 7.6691 - accuracy: 0.4998
+24384/25000 [============================>.] - ETA: 1s - loss: 7.6698 - accuracy: 0.4998
+24416/25000 [============================>.] - ETA: 1s - loss: 7.6679 - accuracy: 0.4999
+24448/25000 [============================>.] - ETA: 1s - loss: 7.6666 - accuracy: 0.5000
+24480/25000 [============================>.] - ETA: 1s - loss: 7.6635 - accuracy: 0.5002
+24512/25000 [============================>.] - ETA: 1s - loss: 7.6647 - accuracy: 0.5001
+24544/25000 [============================>.] - ETA: 1s - loss: 7.6654 - accuracy: 0.5001
+24576/25000 [============================>.] - ETA: 1s - loss: 7.6666 - accuracy: 0.5000
+24608/25000 [============================>.] - ETA: 1s - loss: 7.6666 - accuracy: 0.5000
+24640/25000 [============================>.] - ETA: 1s - loss: 7.6654 - accuracy: 0.5001
+24672/25000 [============================>.] - ETA: 1s - loss: 7.6623 - accuracy: 0.5003
+24704/25000 [============================>.] - ETA: 0s - loss: 7.6635 - accuracy: 0.5002
+24736/25000 [============================>.] - ETA: 0s - loss: 7.6623 - accuracy: 0.5003
+24768/25000 [============================>.] - ETA: 0s - loss: 7.6629 - accuracy: 0.5002
+24800/25000 [============================>.] - ETA: 0s - loss: 7.6623 - accuracy: 0.5003
+24832/25000 [============================>.] - ETA: 0s - loss: 7.6629 - accuracy: 0.5002
+24864/25000 [============================>.] - ETA: 0s - loss: 7.6642 - accuracy: 0.5002
+24896/25000 [============================>.] - ETA: 0s - loss: 7.6648 - accuracy: 0.5001
+24928/25000 [============================>.] - ETA: 0s - loss: 7.6654 - accuracy: 0.5001
+24960/25000 [============================>.] - ETA: 0s - loss: 7.6660 - accuracy: 0.5000
+24992/25000 [============================>.] - ETA: 0s - loss: 7.6660 - accuracy: 0.5000
+25000/25000 [==============================] - 93s 4ms/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 Loading data...
 Using TensorFlow backend.
 
