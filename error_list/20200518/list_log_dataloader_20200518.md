@@ -1,24 +1,24 @@
 ## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py
 
 
-### Error 1, [Traceback at line 487](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L487)<br />487..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataloader.py", line 463, in test_dataloader
+### Error 1, [Traceback at line 489](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L489)<br />489..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataloader.py", line 463, in test_dataloader
 <br />    d = json.loads(open( f ).read())
-<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader_new.json'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader_new.json'
 
 
 
-### Error 2, [Traceback at line 491](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L491)<br />491..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataloader.py", line 463, in test_dataloader
+### Error 2, [Traceback at line 493](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L493)<br />493..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataloader.py", line 463, in test_dataloader
 <br />    d = json.loads(open( f ).read())
-<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataset/json/refactor/model_list_CIFAR.json'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataset/json/refactor/model_list_CIFAR.json'
 
 
 
-### Error 3, [Traceback at line 495](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L495)<br />495..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataloader.py", line 475, in test_dataloader
+### Error 3, [Traceback at line 497](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L497)<br />497..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataloader.py", line 475, in test_dataloader
 <br />    loader.compute()
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataloader.py", line 326, in compute
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataloader.py", line 326, in compute
 <br />    out_tmp = preprocessor_func(input_tmp, **args)
 <br />  File "mlmodels/dataloader.py", line 80, in pickle_dump
 <br />    with open(kwargs["path"], "wb") as fi:
@@ -26,11 +26,11 @@
 
 
 
-### Error 4, [Traceback at line 504](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L504)<br />504..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/dataloader.py", line 376, in test_run_model
+### Error 4, [Traceback at line 506](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L506)<br />506..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/dataloader.py", line 376, in test_run_model
 <br />    test_module( x['model_uri'],  path_norm_dict(x['pars']))
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/models.py", line 264, in test_module
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/models.py", line 264, in test_module
 <br />    model, sess = module.fit(model, data_pars, compute_pars, out_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/203a72830f23a80c3dd3ee4f0d2ce62ae396cb03/mlmodels/model_tch/torchhub.py", line 214, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch/torchhub.py", line 214, in fit
 <br />    model0.to(device)
 <br />AttributeError: 'ProgressiveGAN' object has no attribute 'to'
