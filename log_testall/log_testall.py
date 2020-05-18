@@ -10220,3 +10220,7 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master 31d8e82] ml_store
+ 1 file changed, 32 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   ce99c2e..31d8e82  master -> master
