@@ -9,17 +9,17 @@
 
  ************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/07a220f833a9ced594f1652cb287e318217b235e', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': '07a220f833a9ced594f1652cb287e318217b235e', 'workflow': 'test_dataloader'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/82c5b161058b5f6188d7af97c2913b706460ca41', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': '82c5b161058b5f6188d7af97c2913b706460ca41', 'workflow': 'test_dataloader'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_dataloader
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/adata2/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/07a220f833a9ced594f1652cb287e318217b235e
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/82c5b161058b5f6188d7af97c2913b706460ca41
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/07a220f833a9ced594f1652cb287e318217b235e
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/82c5b161058b5f6188d7af97c2913b706460ca41
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/07a220f833a9ced594f1652cb287e318217b235e
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/82c5b161058b5f6188d7af97c2913b706460ca41
 
  ************************************************************************************************************************
 
@@ -256,13 +256,13 @@ cls_name : Data
 
   URL:  mlmodels.preprocess.generic::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fdacd1a70d0>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7ff384f050d0>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fdacd1a70d0>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7ff384f050d0>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7fdacd1a70d0> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7ff384f050d0> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}} 
 
@@ -270,10 +270,10 @@ cls_name : Data
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 Using TensorFlow backend.
-0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 25%|██▍       | 2457600/9912422 [00:00<00:00, 23250706.03it/s] 74%|███████▍  | 7315456/9912422 [00:00<00:00, 27536804.81it/s]9920512it [00:00, 26495228.25it/s]                             
-0it [00:00, ?it/s]32768it [00:00, 633852.88it/s]
-0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 481626.81it/s]1654784it [00:00, 12352535.14it/s]                         
-0it [00:00, ?it/s]8192it [00:00, 234125.15it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 49%|████▉     | 4849664/9912422 [00:00<00:00, 48496108.13it/s]9920512it [00:00, 34624439.49it/s]                             
+0it [00:00, ?it/s]32768it [00:00, 565804.29it/s]
+0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 486210.10it/s]1654784it [00:00, 11997778.98it/s]                         
+0it [00:00, ?it/s]8192it [00:00, 200576.39it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
@@ -285,7 +285,7 @@ Processing...
 Done!
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7fdab63b78d0>, <torch.utils.data.dataloader.DataLoader object at 0x7fdab63c2c88>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7ff36e1178d0>, <torch.utils.data.dataloader.DataLoader object at 0x7ff36e11fc88>), {})
 
 
 
@@ -348,13 +348,13 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
 
   URL:  mlmodels/preprocess/generic.py::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fdab59a00d0>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7ff36d6fe0d0>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fdab59a00d0>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7ff36d6fe0d0>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7fdab59a00d0> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7ff36d6fe0d0> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
 
@@ -363,7 +363,7 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7fdab59a6710>, <torch.utils.data.dataloader.DataLoader object at 0x7fdab59a67b8>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7ff36d704710>, <torch.utils.data.dataloader.DataLoader object at 0x7ff36d7047b8>), {})
 
 
 
@@ -521,32 +521,32 @@ cls_name : Preprocess_namentity
 
   URL:  mlmodels/dataloader.py::split_xy_from_dict {'col_Xinput': ['X'], 'col_yinput': ['y']} 
 
-###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7fdacc2f0510>
+###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7ff38404f510>
 
  ######### postional parameteres :  ['out']
 
- ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7fdacc2f0510>
+ ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7ff38404f510>
 
   URL:  sklearn.model_selection::train_test_split {'test_size': 0.5} 
 
-###### load_callable_from_uri LOADED <function train_test_split at 0x7fdb1f928b70>
+###### load_callable_from_uri LOADED <function train_test_split at 0x7ff3d7686b70>
 
  ######### postional parameteres :  []
 
- ######### Execute : preprocessor_func <function train_test_split at 0x7fdb1f928b70>
+ ######### Execute : preprocessor_func <function train_test_split at 0x7ff3d7686b70>
 
   URL:  mlmodels/dataloader.py::pickle_dump {'path': 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'} 
 
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 479, in test_dataloader
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 480, in test_dataloader
     d = json.loads(open( f ).read())
 FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader_new.json'
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 479, in test_dataloader
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 480, in test_dataloader
     d = json.loads(open( f ).read())
 FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_list_CIFAR.json'
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 491, in test_dataloader
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 492, in test_dataloader
     loader.compute()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 326, in compute
     out_tmp = preprocessor_func(input_tmp, **args)
@@ -554,29 +554,23 @@ Traceback (most recent call last):
     with open(kwargs["path"], "wb") as fi:
 FileNotFoundError: [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 391, in test_run_model
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 392, in test_run_model
     print2(config)
   File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/pprint.py", line 121, in __init__
     indent = int(indent)
 TypeError: int() argument must be a string, a bytes-like object or a number, not 'dict'
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 391, in test_run_model
-    print2(config)
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/pprint.py", line 121, in __init__
-    indent = int(indent)
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'dict'
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 391, in test_run_model
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 392, in test_run_model
     print2(config)
   File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/pprint.py", line 121, in __init__
     indent = int(indent)
 TypeError: int() argument must be a string, a bytes-like object or a number, not 'dict'
 
-###### load_callable_from_uri LOADED <function pickle_dump at 0x7fdab704aa60>
+###### load_callable_from_uri LOADED <function pickle_dump at 0x7ff36ed95a60>
 
  ######### postional parameteres :  ['t']
 
- ######### Execute : preprocessor_func <function pickle_dump at 0x7fdab704aa60>
+ ######### Execute : preprocessor_func <function pickle_dump at 0x7ff36ed95a60>
 Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_new.json [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
 
 
@@ -594,9 +588,3 @@ Error dataset/json/refactor/charcnn.json int() argument must be a string, a byte
  ####################################################################################################
 dataset/json/refactor/charcnn_zhang.json
 Error dataset/json/refactor/charcnn_zhang.json int() argument must be a string, a bytes-like object or a number, not 'dict'
-
-
-
- ####################################################################################################
-dataset/json/refactor/torchhub_cnn_dataloader.json
-Error dataset/json/refactor/torchhub_cnn_dataloader.json int() argument must be a string, a bytes-like object or a number, not 'dict'
