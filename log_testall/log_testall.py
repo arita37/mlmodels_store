@@ -5939,3 +5939,1127 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master 4b31bc3] ml_store
+ 1 file changed, 126 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   b73a2b3..4b31bc3  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//02_cnn.py 
+
+  ('#### Loading params   ##############################################',) 
+
+  ('#### Path params   ################################################',) 
+
+  ('/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/charcnn/',) 
+
+  ('#### Model params   ################################################',) 
+
+  ('#### Loading dataset   #############################################',) 
+
+  ('#### Path params   ################################################',) 
+
+  ('/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/', '/home/runner/work/mlmodels/mlmodels/keras_deepAR/') 
+Downloading data from https://s3.amazonaws.com/img-datasets/mnist.npz
+
+    8192/11490434 [..............................] - ETA: 0s
+ 1081344/11490434 [=>............................] - ETA: 0s
+ 2334720/11490434 [=====>........................] - ETA: 0s
+ 4997120/11490434 [============>.................] - ETA: 0s
+ 8814592/11490434 [======================>.......] - ETA: 0s
+11493376/11490434 [==============================] - 0s 0us/step
+
+  ('#### Model init, fit   #############################################',) 
+Using TensorFlow backend.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+
+  ('#### Path params   ################################################',) 
+
+  ('/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/', '/home/runner/work/mlmodels/mlmodels/keras_deepAR/') 
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/1
+
+   32/60000 [..............................] - ETA: 8:13 - loss: 2.3403 - categorical_accuracy: 0.0625
+   96/60000 [..............................] - ETA: 3:48 - loss: 2.2951 - categorical_accuracy: 0.1354
+  128/60000 [..............................] - ETA: 3:14 - loss: 2.2647 - categorical_accuracy: 0.1562
+  192/60000 [..............................] - ETA: 2:38 - loss: 2.2274 - categorical_accuracy: 0.1875
+  256/60000 [..............................] - ETA: 2:19 - loss: 2.1734 - categorical_accuracy: 0.2266
+  320/60000 [..............................] - ETA: 2:08 - loss: 2.1013 - categorical_accuracy: 0.2594
+  384/60000 [..............................] - ETA: 2:00 - loss: 2.0557 - categorical_accuracy: 0.2812
+  448/60000 [..............................] - ETA: 1:55 - loss: 1.9680 - categorical_accuracy: 0.3103
+  512/60000 [..............................] - ETA: 1:52 - loss: 1.9011 - categorical_accuracy: 0.3379
+  544/60000 [..............................] - ETA: 1:51 - loss: 1.8553 - categorical_accuracy: 0.3548
+  608/60000 [..............................] - ETA: 1:49 - loss: 1.8084 - categorical_accuracy: 0.3766
+  672/60000 [..............................] - ETA: 1:46 - loss: 1.7690 - categorical_accuracy: 0.3869
+  736/60000 [..............................] - ETA: 1:44 - loss: 1.7320 - categorical_accuracy: 0.3967
+  800/60000 [..............................] - ETA: 1:43 - loss: 1.6885 - categorical_accuracy: 0.4175
+  864/60000 [..............................] - ETA: 1:41 - loss: 1.6413 - categorical_accuracy: 0.4375
+  928/60000 [..............................] - ETA: 1:39 - loss: 1.6235 - categorical_accuracy: 0.4440
+  992/60000 [..............................] - ETA: 1:38 - loss: 1.5952 - categorical_accuracy: 0.4526
+ 1056/60000 [..............................] - ETA: 1:37 - loss: 1.5619 - categorical_accuracy: 0.4659
+ 1120/60000 [..............................] - ETA: 1:36 - loss: 1.5379 - categorical_accuracy: 0.4759
+ 1184/60000 [..............................] - ETA: 1:36 - loss: 1.5227 - categorical_accuracy: 0.4823
+ 1248/60000 [..............................] - ETA: 1:35 - loss: 1.4984 - categorical_accuracy: 0.4872
+ 1312/60000 [..............................] - ETA: 1:34 - loss: 1.4711 - categorical_accuracy: 0.4992
+ 1376/60000 [..............................] - ETA: 1:33 - loss: 1.4513 - categorical_accuracy: 0.5073
+ 1440/60000 [..............................] - ETA: 1:33 - loss: 1.4203 - categorical_accuracy: 0.5201
+ 1504/60000 [..............................] - ETA: 1:32 - loss: 1.4046 - categorical_accuracy: 0.5259
+ 1568/60000 [..............................] - ETA: 1:32 - loss: 1.3783 - categorical_accuracy: 0.5344
+ 1632/60000 [..............................] - ETA: 1:31 - loss: 1.3587 - categorical_accuracy: 0.5404
+ 1696/60000 [..............................] - ETA: 1:31 - loss: 1.3248 - categorical_accuracy: 0.5525
+ 1760/60000 [..............................] - ETA: 1:31 - loss: 1.3010 - categorical_accuracy: 0.5591
+ 1824/60000 [..............................] - ETA: 1:30 - loss: 1.2762 - categorical_accuracy: 0.5702
+ 1888/60000 [..............................] - ETA: 1:30 - loss: 1.2521 - categorical_accuracy: 0.5784
+ 1952/60000 [..............................] - ETA: 1:30 - loss: 1.2272 - categorical_accuracy: 0.5871
+ 2016/60000 [>.............................] - ETA: 1:30 - loss: 1.2098 - categorical_accuracy: 0.5938
+ 2080/60000 [>.............................] - ETA: 1:29 - loss: 1.1943 - categorical_accuracy: 0.6000
+ 2144/60000 [>.............................] - ETA: 1:29 - loss: 1.1692 - categorical_accuracy: 0.6087
+ 2208/60000 [>.............................] - ETA: 1:29 - loss: 1.1572 - categorical_accuracy: 0.6119
+ 2240/60000 [>.............................] - ETA: 1:29 - loss: 1.1505 - categorical_accuracy: 0.6138
+ 2304/60000 [>.............................] - ETA: 1:29 - loss: 1.1305 - categorical_accuracy: 0.6211
+ 2368/60000 [>.............................] - ETA: 1:28 - loss: 1.1136 - categorical_accuracy: 0.6280
+ 2432/60000 [>.............................] - ETA: 1:28 - loss: 1.0973 - categorical_accuracy: 0.6324
+ 2496/60000 [>.............................] - ETA: 1:28 - loss: 1.0776 - categorical_accuracy: 0.6402
+ 2560/60000 [>.............................] - ETA: 1:27 - loss: 1.0595 - categorical_accuracy: 0.6465
+ 2592/60000 [>.............................] - ETA: 1:27 - loss: 1.0488 - categorical_accuracy: 0.6505
+ 2656/60000 [>.............................] - ETA: 1:27 - loss: 1.0297 - categorical_accuracy: 0.6574
+ 2720/60000 [>.............................] - ETA: 1:27 - loss: 1.0147 - categorical_accuracy: 0.6625
+ 2752/60000 [>.............................] - ETA: 1:27 - loss: 1.0108 - categorical_accuracy: 0.6639
+ 2816/60000 [>.............................] - ETA: 1:27 - loss: 0.9937 - categorical_accuracy: 0.6694
+ 2880/60000 [>.............................] - ETA: 1:27 - loss: 0.9768 - categorical_accuracy: 0.6753
+ 2944/60000 [>.............................] - ETA: 1:26 - loss: 0.9668 - categorical_accuracy: 0.6783
+ 3008/60000 [>.............................] - ETA: 1:26 - loss: 0.9584 - categorical_accuracy: 0.6818
+ 3072/60000 [>.............................] - ETA: 1:26 - loss: 0.9496 - categorical_accuracy: 0.6855
+ 3136/60000 [>.............................] - ETA: 1:26 - loss: 0.9374 - categorical_accuracy: 0.6904
+ 3200/60000 [>.............................] - ETA: 1:26 - loss: 0.9281 - categorical_accuracy: 0.6947
+ 3232/60000 [>.............................] - ETA: 1:26 - loss: 0.9235 - categorical_accuracy: 0.6971
+ 3296/60000 [>.............................] - ETA: 1:26 - loss: 0.9113 - categorical_accuracy: 0.7005
+ 3360/60000 [>.............................] - ETA: 1:25 - loss: 0.8985 - categorical_accuracy: 0.7048
+ 3424/60000 [>.............................] - ETA: 1:25 - loss: 0.8866 - categorical_accuracy: 0.7094
+ 3488/60000 [>.............................] - ETA: 1:25 - loss: 0.8761 - categorical_accuracy: 0.7130
+ 3552/60000 [>.............................] - ETA: 1:25 - loss: 0.8633 - categorical_accuracy: 0.7171
+ 3616/60000 [>.............................] - ETA: 1:25 - loss: 0.8559 - categorical_accuracy: 0.7204
+ 3680/60000 [>.............................] - ETA: 1:24 - loss: 0.8469 - categorical_accuracy: 0.7242
+ 3744/60000 [>.............................] - ETA: 1:24 - loss: 0.8409 - categorical_accuracy: 0.7265
+ 3808/60000 [>.............................] - ETA: 1:24 - loss: 0.8313 - categorical_accuracy: 0.7295
+ 3872/60000 [>.............................] - ETA: 1:24 - loss: 0.8224 - categorical_accuracy: 0.7327
+ 3936/60000 [>.............................] - ETA: 1:24 - loss: 0.8142 - categorical_accuracy: 0.7353
+ 4000/60000 [=>............................] - ETA: 1:24 - loss: 0.8070 - categorical_accuracy: 0.7377
+ 4064/60000 [=>............................] - ETA: 1:23 - loss: 0.8005 - categorical_accuracy: 0.7397
+ 4128/60000 [=>............................] - ETA: 1:23 - loss: 0.7928 - categorical_accuracy: 0.7427
+ 4192/60000 [=>............................] - ETA: 1:23 - loss: 0.7846 - categorical_accuracy: 0.7455
+ 4256/60000 [=>............................] - ETA: 1:23 - loss: 0.7767 - categorical_accuracy: 0.7479
+ 4320/60000 [=>............................] - ETA: 1:23 - loss: 0.7683 - categorical_accuracy: 0.7507
+ 4384/60000 [=>............................] - ETA: 1:23 - loss: 0.7615 - categorical_accuracy: 0.7530
+ 4448/60000 [=>............................] - ETA: 1:23 - loss: 0.7561 - categorical_accuracy: 0.7552
+ 4512/60000 [=>............................] - ETA: 1:22 - loss: 0.7501 - categorical_accuracy: 0.7569
+ 4576/60000 [=>............................] - ETA: 1:22 - loss: 0.7420 - categorical_accuracy: 0.7598
+ 4640/60000 [=>............................] - ETA: 1:22 - loss: 0.7385 - categorical_accuracy: 0.7616
+ 4704/60000 [=>............................] - ETA: 1:22 - loss: 0.7305 - categorical_accuracy: 0.7645
+ 4768/60000 [=>............................] - ETA: 1:22 - loss: 0.7244 - categorical_accuracy: 0.7666
+ 4832/60000 [=>............................] - ETA: 1:22 - loss: 0.7181 - categorical_accuracy: 0.7690
+ 4896/60000 [=>............................] - ETA: 1:22 - loss: 0.7144 - categorical_accuracy: 0.7702
+ 4960/60000 [=>............................] - ETA: 1:21 - loss: 0.7080 - categorical_accuracy: 0.7722
+ 5024/60000 [=>............................] - ETA: 1:21 - loss: 0.7037 - categorical_accuracy: 0.7729
+ 5088/60000 [=>............................] - ETA: 1:21 - loss: 0.6980 - categorical_accuracy: 0.7746
+ 5152/60000 [=>............................] - ETA: 1:21 - loss: 0.6952 - categorical_accuracy: 0.7760
+ 5216/60000 [=>............................] - ETA: 1:21 - loss: 0.6910 - categorical_accuracy: 0.7778
+ 5280/60000 [=>............................] - ETA: 1:21 - loss: 0.6845 - categorical_accuracy: 0.7799
+ 5344/60000 [=>............................] - ETA: 1:21 - loss: 0.6784 - categorical_accuracy: 0.7820
+ 5408/60000 [=>............................] - ETA: 1:20 - loss: 0.6728 - categorical_accuracy: 0.7835
+ 5472/60000 [=>............................] - ETA: 1:20 - loss: 0.6713 - categorical_accuracy: 0.7844
+ 5536/60000 [=>............................] - ETA: 1:20 - loss: 0.6673 - categorical_accuracy: 0.7859
+ 5600/60000 [=>............................] - ETA: 1:20 - loss: 0.6632 - categorical_accuracy: 0.7871
+ 5664/60000 [=>............................] - ETA: 1:20 - loss: 0.6583 - categorical_accuracy: 0.7890
+ 5728/60000 [=>............................] - ETA: 1:20 - loss: 0.6558 - categorical_accuracy: 0.7902
+ 5792/60000 [=>............................] - ETA: 1:20 - loss: 0.6505 - categorical_accuracy: 0.7921
+ 5856/60000 [=>............................] - ETA: 1:19 - loss: 0.6466 - categorical_accuracy: 0.7935
+ 5920/60000 [=>............................] - ETA: 1:19 - loss: 0.6440 - categorical_accuracy: 0.7941
+ 5984/60000 [=>............................] - ETA: 1:19 - loss: 0.6399 - categorical_accuracy: 0.7956
+ 6048/60000 [==>...........................] - ETA: 1:19 - loss: 0.6352 - categorical_accuracy: 0.7975
+ 6112/60000 [==>...........................] - ETA: 1:19 - loss: 0.6314 - categorical_accuracy: 0.7983
+ 6176/60000 [==>...........................] - ETA: 1:19 - loss: 0.6269 - categorical_accuracy: 0.7997
+ 6240/60000 [==>...........................] - ETA: 1:19 - loss: 0.6234 - categorical_accuracy: 0.8006
+ 6304/60000 [==>...........................] - ETA: 1:19 - loss: 0.6230 - categorical_accuracy: 0.8011
+ 6368/60000 [==>...........................] - ETA: 1:18 - loss: 0.6185 - categorical_accuracy: 0.8028
+ 6432/60000 [==>...........................] - ETA: 1:18 - loss: 0.6150 - categorical_accuracy: 0.8041
+ 6496/60000 [==>...........................] - ETA: 1:18 - loss: 0.6101 - categorical_accuracy: 0.8056
+ 6528/60000 [==>...........................] - ETA: 1:18 - loss: 0.6082 - categorical_accuracy: 0.8062
+ 6560/60000 [==>...........................] - ETA: 1:18 - loss: 0.6068 - categorical_accuracy: 0.8067
+ 6624/60000 [==>...........................] - ETA: 1:18 - loss: 0.6024 - categorical_accuracy: 0.8080
+ 6688/60000 [==>...........................] - ETA: 1:18 - loss: 0.5987 - categorical_accuracy: 0.8092
+ 6752/60000 [==>...........................] - ETA: 1:18 - loss: 0.5968 - categorical_accuracy: 0.8101
+ 6784/60000 [==>...........................] - ETA: 1:18 - loss: 0.5944 - categorical_accuracy: 0.8109
+ 6848/60000 [==>...........................] - ETA: 1:18 - loss: 0.5926 - categorical_accuracy: 0.8119
+ 6912/60000 [==>...........................] - ETA: 1:18 - loss: 0.5887 - categorical_accuracy: 0.8132
+ 6976/60000 [==>...........................] - ETA: 1:17 - loss: 0.5847 - categorical_accuracy: 0.8147
+ 7040/60000 [==>...........................] - ETA: 1:17 - loss: 0.5821 - categorical_accuracy: 0.8155
+ 7104/60000 [==>...........................] - ETA: 1:17 - loss: 0.5797 - categorical_accuracy: 0.8162
+ 7168/60000 [==>...........................] - ETA: 1:17 - loss: 0.5787 - categorical_accuracy: 0.8165
+ 7232/60000 [==>...........................] - ETA: 1:17 - loss: 0.5752 - categorical_accuracy: 0.8178
+ 7296/60000 [==>...........................] - ETA: 1:17 - loss: 0.5719 - categorical_accuracy: 0.8188
+ 7360/60000 [==>...........................] - ETA: 1:17 - loss: 0.5697 - categorical_accuracy: 0.8198
+ 7424/60000 [==>...........................] - ETA: 1:17 - loss: 0.5661 - categorical_accuracy: 0.8211
+ 7488/60000 [==>...........................] - ETA: 1:16 - loss: 0.5625 - categorical_accuracy: 0.8222
+ 7552/60000 [==>...........................] - ETA: 1:16 - loss: 0.5592 - categorical_accuracy: 0.8232
+ 7616/60000 [==>...........................] - ETA: 1:16 - loss: 0.5566 - categorical_accuracy: 0.8241
+ 7680/60000 [==>...........................] - ETA: 1:16 - loss: 0.5538 - categorical_accuracy: 0.8246
+ 7744/60000 [==>...........................] - ETA: 1:16 - loss: 0.5528 - categorical_accuracy: 0.8252
+ 7808/60000 [==>...........................] - ETA: 1:16 - loss: 0.5512 - categorical_accuracy: 0.8257
+ 7872/60000 [==>...........................] - ETA: 1:16 - loss: 0.5486 - categorical_accuracy: 0.8263
+ 7936/60000 [==>...........................] - ETA: 1:16 - loss: 0.5462 - categorical_accuracy: 0.8271
+ 8000/60000 [===>..........................] - ETA: 1:16 - loss: 0.5438 - categorical_accuracy: 0.8279
+ 8064/60000 [===>..........................] - ETA: 1:15 - loss: 0.5414 - categorical_accuracy: 0.8285
+ 8128/60000 [===>..........................] - ETA: 1:15 - loss: 0.5401 - categorical_accuracy: 0.8290
+ 8192/60000 [===>..........................] - ETA: 1:15 - loss: 0.5376 - categorical_accuracy: 0.8300
+ 8256/60000 [===>..........................] - ETA: 1:15 - loss: 0.5351 - categorical_accuracy: 0.8308
+ 8320/60000 [===>..........................] - ETA: 1:15 - loss: 0.5330 - categorical_accuracy: 0.8315
+ 8384/60000 [===>..........................] - ETA: 1:15 - loss: 0.5315 - categorical_accuracy: 0.8322
+ 8448/60000 [===>..........................] - ETA: 1:15 - loss: 0.5290 - categorical_accuracy: 0.8329
+ 8512/60000 [===>..........................] - ETA: 1:15 - loss: 0.5255 - categorical_accuracy: 0.8339
+ 8576/60000 [===>..........................] - ETA: 1:14 - loss: 0.5241 - categorical_accuracy: 0.8345
+ 8640/60000 [===>..........................] - ETA: 1:14 - loss: 0.5221 - categorical_accuracy: 0.8353
+ 8704/60000 [===>..........................] - ETA: 1:14 - loss: 0.5209 - categorical_accuracy: 0.8357
+ 8768/60000 [===>..........................] - ETA: 1:14 - loss: 0.5194 - categorical_accuracy: 0.8359
+ 8800/60000 [===>..........................] - ETA: 1:14 - loss: 0.5187 - categorical_accuracy: 0.8363
+ 8864/60000 [===>..........................] - ETA: 1:14 - loss: 0.5173 - categorical_accuracy: 0.8366
+ 8928/60000 [===>..........................] - ETA: 1:14 - loss: 0.5151 - categorical_accuracy: 0.8371
+ 8992/60000 [===>..........................] - ETA: 1:14 - loss: 0.5128 - categorical_accuracy: 0.8379
+ 9024/60000 [===>..........................] - ETA: 1:14 - loss: 0.5116 - categorical_accuracy: 0.8383
+ 9088/60000 [===>..........................] - ETA: 1:14 - loss: 0.5111 - categorical_accuracy: 0.8387
+ 9152/60000 [===>..........................] - ETA: 1:14 - loss: 0.5084 - categorical_accuracy: 0.8394
+ 9216/60000 [===>..........................] - ETA: 1:13 - loss: 0.5056 - categorical_accuracy: 0.8401
+ 9280/60000 [===>..........................] - ETA: 1:13 - loss: 0.5029 - categorical_accuracy: 0.8411
+ 9344/60000 [===>..........................] - ETA: 1:13 - loss: 0.5022 - categorical_accuracy: 0.8413
+ 9408/60000 [===>..........................] - ETA: 1:13 - loss: 0.5006 - categorical_accuracy: 0.8417
+ 9472/60000 [===>..........................] - ETA: 1:13 - loss: 0.4989 - categorical_accuracy: 0.8423
+ 9536/60000 [===>..........................] - ETA: 1:13 - loss: 0.4970 - categorical_accuracy: 0.8430
+ 9600/60000 [===>..........................] - ETA: 1:13 - loss: 0.4966 - categorical_accuracy: 0.8433
+ 9664/60000 [===>..........................] - ETA: 1:13 - loss: 0.4951 - categorical_accuracy: 0.8436
+ 9728/60000 [===>..........................] - ETA: 1:13 - loss: 0.4936 - categorical_accuracy: 0.8442
+ 9792/60000 [===>..........................] - ETA: 1:12 - loss: 0.4911 - categorical_accuracy: 0.8450
+ 9856/60000 [===>..........................] - ETA: 1:12 - loss: 0.4888 - categorical_accuracy: 0.8458
+ 9920/60000 [===>..........................] - ETA: 1:12 - loss: 0.4885 - categorical_accuracy: 0.8459
+ 9984/60000 [===>..........................] - ETA: 1:12 - loss: 0.4877 - categorical_accuracy: 0.8462
+10048/60000 [====>.........................] - ETA: 1:12 - loss: 0.4865 - categorical_accuracy: 0.8467
+10112/60000 [====>.........................] - ETA: 1:12 - loss: 0.4849 - categorical_accuracy: 0.8473
+10176/60000 [====>.........................] - ETA: 1:12 - loss: 0.4827 - categorical_accuracy: 0.8481
+10240/60000 [====>.........................] - ETA: 1:12 - loss: 0.4810 - categorical_accuracy: 0.8487
+10304/60000 [====>.........................] - ETA: 1:12 - loss: 0.4801 - categorical_accuracy: 0.8491
+10368/60000 [====>.........................] - ETA: 1:12 - loss: 0.4776 - categorical_accuracy: 0.8500
+10432/60000 [====>.........................] - ETA: 1:11 - loss: 0.4756 - categorical_accuracy: 0.8508
+10496/60000 [====>.........................] - ETA: 1:11 - loss: 0.4741 - categorical_accuracy: 0.8514
+10560/60000 [====>.........................] - ETA: 1:11 - loss: 0.4728 - categorical_accuracy: 0.8521
+10624/60000 [====>.........................] - ETA: 1:11 - loss: 0.4725 - categorical_accuracy: 0.8524
+10688/60000 [====>.........................] - ETA: 1:11 - loss: 0.4716 - categorical_accuracy: 0.8526
+10752/60000 [====>.........................] - ETA: 1:11 - loss: 0.4701 - categorical_accuracy: 0.8531
+10816/60000 [====>.........................] - ETA: 1:11 - loss: 0.4699 - categorical_accuracy: 0.8536
+10848/60000 [====>.........................] - ETA: 1:11 - loss: 0.4691 - categorical_accuracy: 0.8537
+10912/60000 [====>.........................] - ETA: 1:11 - loss: 0.4678 - categorical_accuracy: 0.8541
+10976/60000 [====>.........................] - ETA: 1:11 - loss: 0.4661 - categorical_accuracy: 0.8546
+11040/60000 [====>.........................] - ETA: 1:11 - loss: 0.4640 - categorical_accuracy: 0.8553
+11104/60000 [====>.........................] - ETA: 1:10 - loss: 0.4618 - categorical_accuracy: 0.8559
+11168/60000 [====>.........................] - ETA: 1:10 - loss: 0.4604 - categorical_accuracy: 0.8564
+11232/60000 [====>.........................] - ETA: 1:10 - loss: 0.4581 - categorical_accuracy: 0.8570
+11296/60000 [====>.........................] - ETA: 1:10 - loss: 0.4568 - categorical_accuracy: 0.8574
+11360/60000 [====>.........................] - ETA: 1:10 - loss: 0.4559 - categorical_accuracy: 0.8577
+11424/60000 [====>.........................] - ETA: 1:10 - loss: 0.4546 - categorical_accuracy: 0.8580
+11488/60000 [====>.........................] - ETA: 1:10 - loss: 0.4536 - categorical_accuracy: 0.8582
+11552/60000 [====>.........................] - ETA: 1:10 - loss: 0.4526 - categorical_accuracy: 0.8588
+11616/60000 [====>.........................] - ETA: 1:10 - loss: 0.4513 - categorical_accuracy: 0.8592
+11680/60000 [====>.........................] - ETA: 1:10 - loss: 0.4496 - categorical_accuracy: 0.8598
+11744/60000 [====>.........................] - ETA: 1:09 - loss: 0.4477 - categorical_accuracy: 0.8604
+11808/60000 [====>.........................] - ETA: 1:09 - loss: 0.4465 - categorical_accuracy: 0.8608
+11872/60000 [====>.........................] - ETA: 1:09 - loss: 0.4448 - categorical_accuracy: 0.8611
+11936/60000 [====>.........................] - ETA: 1:09 - loss: 0.4431 - categorical_accuracy: 0.8616
+12000/60000 [=====>........................] - ETA: 1:09 - loss: 0.4423 - categorical_accuracy: 0.8618
+12064/60000 [=====>........................] - ETA: 1:09 - loss: 0.4419 - categorical_accuracy: 0.8620
+12128/60000 [=====>........................] - ETA: 1:09 - loss: 0.4405 - categorical_accuracy: 0.8625
+12192/60000 [=====>........................] - ETA: 1:09 - loss: 0.4391 - categorical_accuracy: 0.8629
+12256/60000 [=====>........................] - ETA: 1:09 - loss: 0.4377 - categorical_accuracy: 0.8635
+12288/60000 [=====>........................] - ETA: 1:09 - loss: 0.4367 - categorical_accuracy: 0.8638
+12352/60000 [=====>........................] - ETA: 1:09 - loss: 0.4357 - categorical_accuracy: 0.8642
+12416/60000 [=====>........................] - ETA: 1:08 - loss: 0.4349 - categorical_accuracy: 0.8644
+12480/60000 [=====>........................] - ETA: 1:08 - loss: 0.4335 - categorical_accuracy: 0.8649
+12544/60000 [=====>........................] - ETA: 1:08 - loss: 0.4321 - categorical_accuracy: 0.8654
+12608/60000 [=====>........................] - ETA: 1:08 - loss: 0.4316 - categorical_accuracy: 0.8657
+12672/60000 [=====>........................] - ETA: 1:08 - loss: 0.4307 - categorical_accuracy: 0.8659
+12736/60000 [=====>........................] - ETA: 1:08 - loss: 0.4290 - categorical_accuracy: 0.8665
+12800/60000 [=====>........................] - ETA: 1:08 - loss: 0.4276 - categorical_accuracy: 0.8670
+12864/60000 [=====>........................] - ETA: 1:08 - loss: 0.4260 - categorical_accuracy: 0.8675
+12928/60000 [=====>........................] - ETA: 1:08 - loss: 0.4245 - categorical_accuracy: 0.8680
+12960/60000 [=====>........................] - ETA: 1:08 - loss: 0.4241 - categorical_accuracy: 0.8681
+13024/60000 [=====>........................] - ETA: 1:08 - loss: 0.4243 - categorical_accuracy: 0.8682
+13088/60000 [=====>........................] - ETA: 1:08 - loss: 0.4230 - categorical_accuracy: 0.8684
+13120/60000 [=====>........................] - ETA: 1:07 - loss: 0.4224 - categorical_accuracy: 0.8686
+13184/60000 [=====>........................] - ETA: 1:07 - loss: 0.4209 - categorical_accuracy: 0.8692
+13216/60000 [=====>........................] - ETA: 1:07 - loss: 0.4202 - categorical_accuracy: 0.8694
+13280/60000 [=====>........................] - ETA: 1:07 - loss: 0.4189 - categorical_accuracy: 0.8697
+13344/60000 [=====>........................] - ETA: 1:07 - loss: 0.4179 - categorical_accuracy: 0.8700
+13408/60000 [=====>........................] - ETA: 1:07 - loss: 0.4172 - categorical_accuracy: 0.8703
+13472/60000 [=====>........................] - ETA: 1:07 - loss: 0.4158 - categorical_accuracy: 0.8706
+13536/60000 [=====>........................] - ETA: 1:07 - loss: 0.4142 - categorical_accuracy: 0.8711
+13600/60000 [=====>........................] - ETA: 1:07 - loss: 0.4134 - categorical_accuracy: 0.8713
+13664/60000 [=====>........................] - ETA: 1:07 - loss: 0.4129 - categorical_accuracy: 0.8713
+13728/60000 [=====>........................] - ETA: 1:07 - loss: 0.4119 - categorical_accuracy: 0.8715
+13792/60000 [=====>........................] - ETA: 1:06 - loss: 0.4108 - categorical_accuracy: 0.8719
+13856/60000 [=====>........................] - ETA: 1:06 - loss: 0.4093 - categorical_accuracy: 0.8723
+13920/60000 [=====>........................] - ETA: 1:06 - loss: 0.4081 - categorical_accuracy: 0.8726
+13984/60000 [=====>........................] - ETA: 1:06 - loss: 0.4072 - categorical_accuracy: 0.8731
+14048/60000 [======>.......................] - ETA: 1:06 - loss: 0.4066 - categorical_accuracy: 0.8733
+14112/60000 [======>.......................] - ETA: 1:06 - loss: 0.4053 - categorical_accuracy: 0.8737
+14176/60000 [======>.......................] - ETA: 1:06 - loss: 0.4039 - categorical_accuracy: 0.8740
+14240/60000 [======>.......................] - ETA: 1:06 - loss: 0.4031 - categorical_accuracy: 0.8742
+14304/60000 [======>.......................] - ETA: 1:06 - loss: 0.4018 - categorical_accuracy: 0.8747
+14368/60000 [======>.......................] - ETA: 1:06 - loss: 0.4003 - categorical_accuracy: 0.8752
+14432/60000 [======>.......................] - ETA: 1:05 - loss: 0.3995 - categorical_accuracy: 0.8755
+14496/60000 [======>.......................] - ETA: 1:05 - loss: 0.3993 - categorical_accuracy: 0.8754
+14560/60000 [======>.......................] - ETA: 1:05 - loss: 0.3987 - categorical_accuracy: 0.8758
+14624/60000 [======>.......................] - ETA: 1:05 - loss: 0.3981 - categorical_accuracy: 0.8760
+14688/60000 [======>.......................] - ETA: 1:05 - loss: 0.3969 - categorical_accuracy: 0.8764
+14752/60000 [======>.......................] - ETA: 1:05 - loss: 0.3960 - categorical_accuracy: 0.8766
+14816/60000 [======>.......................] - ETA: 1:05 - loss: 0.3951 - categorical_accuracy: 0.8769
+14880/60000 [======>.......................] - ETA: 1:05 - loss: 0.3943 - categorical_accuracy: 0.8772
+14944/60000 [======>.......................] - ETA: 1:05 - loss: 0.3937 - categorical_accuracy: 0.8774
+14976/60000 [======>.......................] - ETA: 1:05 - loss: 0.3931 - categorical_accuracy: 0.8775
+15040/60000 [======>.......................] - ETA: 1:05 - loss: 0.3920 - categorical_accuracy: 0.8779
+15104/60000 [======>.......................] - ETA: 1:04 - loss: 0.3914 - categorical_accuracy: 0.8780
+15168/60000 [======>.......................] - ETA: 1:04 - loss: 0.3904 - categorical_accuracy: 0.8785
+15232/60000 [======>.......................] - ETA: 1:04 - loss: 0.3890 - categorical_accuracy: 0.8789
+15296/60000 [======>.......................] - ETA: 1:04 - loss: 0.3876 - categorical_accuracy: 0.8793
+15360/60000 [======>.......................] - ETA: 1:04 - loss: 0.3867 - categorical_accuracy: 0.8796
+15424/60000 [======>.......................] - ETA: 1:04 - loss: 0.3857 - categorical_accuracy: 0.8801
+15488/60000 [======>.......................] - ETA: 1:04 - loss: 0.3850 - categorical_accuracy: 0.8804
+15552/60000 [======>.......................] - ETA: 1:04 - loss: 0.3839 - categorical_accuracy: 0.8806
+15616/60000 [======>.......................] - ETA: 1:04 - loss: 0.3827 - categorical_accuracy: 0.8810
+15680/60000 [======>.......................] - ETA: 1:04 - loss: 0.3816 - categorical_accuracy: 0.8814
+15744/60000 [======>.......................] - ETA: 1:03 - loss: 0.3808 - categorical_accuracy: 0.8817
+15808/60000 [======>.......................] - ETA: 1:03 - loss: 0.3794 - categorical_accuracy: 0.8821
+15872/60000 [======>.......................] - ETA: 1:03 - loss: 0.3785 - categorical_accuracy: 0.8824
+15936/60000 [======>.......................] - ETA: 1:03 - loss: 0.3773 - categorical_accuracy: 0.8828
+16000/60000 [=======>......................] - ETA: 1:03 - loss: 0.3765 - categorical_accuracy: 0.8829
+16064/60000 [=======>......................] - ETA: 1:03 - loss: 0.3754 - categorical_accuracy: 0.8832
+16128/60000 [=======>......................] - ETA: 1:03 - loss: 0.3744 - categorical_accuracy: 0.8835
+16192/60000 [=======>......................] - ETA: 1:03 - loss: 0.3738 - categorical_accuracy: 0.8838
+16256/60000 [=======>......................] - ETA: 1:03 - loss: 0.3726 - categorical_accuracy: 0.8842
+16320/60000 [=======>......................] - ETA: 1:03 - loss: 0.3722 - categorical_accuracy: 0.8843
+16384/60000 [=======>......................] - ETA: 1:02 - loss: 0.3716 - categorical_accuracy: 0.8845
+16448/60000 [=======>......................] - ETA: 1:02 - loss: 0.3706 - categorical_accuracy: 0.8847
+16512/60000 [=======>......................] - ETA: 1:02 - loss: 0.3696 - categorical_accuracy: 0.8849
+16576/60000 [=======>......................] - ETA: 1:02 - loss: 0.3686 - categorical_accuracy: 0.8852
+16640/60000 [=======>......................] - ETA: 1:02 - loss: 0.3681 - categorical_accuracy: 0.8853
+16704/60000 [=======>......................] - ETA: 1:02 - loss: 0.3673 - categorical_accuracy: 0.8855
+16768/60000 [=======>......................] - ETA: 1:02 - loss: 0.3666 - categorical_accuracy: 0.8857
+16832/60000 [=======>......................] - ETA: 1:02 - loss: 0.3656 - categorical_accuracy: 0.8861
+16896/60000 [=======>......................] - ETA: 1:02 - loss: 0.3647 - categorical_accuracy: 0.8865
+16960/60000 [=======>......................] - ETA: 1:02 - loss: 0.3635 - categorical_accuracy: 0.8869
+17024/60000 [=======>......................] - ETA: 1:01 - loss: 0.3630 - categorical_accuracy: 0.8869
+17088/60000 [=======>......................] - ETA: 1:01 - loss: 0.3617 - categorical_accuracy: 0.8873
+17152/60000 [=======>......................] - ETA: 1:01 - loss: 0.3611 - categorical_accuracy: 0.8877
+17216/60000 [=======>......................] - ETA: 1:01 - loss: 0.3603 - categorical_accuracy: 0.8878
+17280/60000 [=======>......................] - ETA: 1:01 - loss: 0.3596 - categorical_accuracy: 0.8880
+17344/60000 [=======>......................] - ETA: 1:01 - loss: 0.3590 - categorical_accuracy: 0.8881
+17408/60000 [=======>......................] - ETA: 1:01 - loss: 0.3581 - categorical_accuracy: 0.8884
+17472/60000 [=======>......................] - ETA: 1:01 - loss: 0.3579 - categorical_accuracy: 0.8885
+17536/60000 [=======>......................] - ETA: 1:01 - loss: 0.3573 - categorical_accuracy: 0.8886
+17600/60000 [=======>......................] - ETA: 1:01 - loss: 0.3567 - categorical_accuracy: 0.8888
+17664/60000 [=======>......................] - ETA: 1:01 - loss: 0.3560 - categorical_accuracy: 0.8890
+17728/60000 [=======>......................] - ETA: 1:00 - loss: 0.3551 - categorical_accuracy: 0.8893
+17792/60000 [=======>......................] - ETA: 1:00 - loss: 0.3541 - categorical_accuracy: 0.8896
+17824/60000 [=======>......................] - ETA: 1:00 - loss: 0.3537 - categorical_accuracy: 0.8896
+17888/60000 [=======>......................] - ETA: 1:00 - loss: 0.3537 - categorical_accuracy: 0.8898
+17952/60000 [=======>......................] - ETA: 1:00 - loss: 0.3528 - categorical_accuracy: 0.8901
+18016/60000 [========>.....................] - ETA: 1:00 - loss: 0.3518 - categorical_accuracy: 0.8904
+18080/60000 [========>.....................] - ETA: 1:00 - loss: 0.3507 - categorical_accuracy: 0.8907
+18144/60000 [========>.....................] - ETA: 1:00 - loss: 0.3501 - categorical_accuracy: 0.8908
+18208/60000 [========>.....................] - ETA: 1:00 - loss: 0.3497 - categorical_accuracy: 0.8910
+18272/60000 [========>.....................] - ETA: 1:00 - loss: 0.3492 - categorical_accuracy: 0.8913
+18336/60000 [========>.....................] - ETA: 1:00 - loss: 0.3489 - categorical_accuracy: 0.8914
+18400/60000 [========>.....................] - ETA: 59s - loss: 0.3479 - categorical_accuracy: 0.8917 
+18464/60000 [========>.....................] - ETA: 59s - loss: 0.3473 - categorical_accuracy: 0.8919
+18528/60000 [========>.....................] - ETA: 59s - loss: 0.3466 - categorical_accuracy: 0.8921
+18592/60000 [========>.....................] - ETA: 59s - loss: 0.3459 - categorical_accuracy: 0.8923
+18624/60000 [========>.....................] - ETA: 59s - loss: 0.3456 - categorical_accuracy: 0.8925
+18688/60000 [========>.....................] - ETA: 59s - loss: 0.3446 - categorical_accuracy: 0.8928
+18752/60000 [========>.....................] - ETA: 59s - loss: 0.3441 - categorical_accuracy: 0.8930
+18816/60000 [========>.....................] - ETA: 59s - loss: 0.3436 - categorical_accuracy: 0.8931
+18880/60000 [========>.....................] - ETA: 59s - loss: 0.3430 - categorical_accuracy: 0.8933
+18944/60000 [========>.....................] - ETA: 59s - loss: 0.3425 - categorical_accuracy: 0.8935
+19008/60000 [========>.....................] - ETA: 59s - loss: 0.3418 - categorical_accuracy: 0.8938
+19072/60000 [========>.....................] - ETA: 58s - loss: 0.3409 - categorical_accuracy: 0.8940
+19136/60000 [========>.....................] - ETA: 58s - loss: 0.3404 - categorical_accuracy: 0.8943
+19200/60000 [========>.....................] - ETA: 58s - loss: 0.3394 - categorical_accuracy: 0.8946
+19264/60000 [========>.....................] - ETA: 58s - loss: 0.3389 - categorical_accuracy: 0.8948
+19328/60000 [========>.....................] - ETA: 58s - loss: 0.3382 - categorical_accuracy: 0.8950
+19392/60000 [========>.....................] - ETA: 58s - loss: 0.3375 - categorical_accuracy: 0.8951
+19456/60000 [========>.....................] - ETA: 58s - loss: 0.3365 - categorical_accuracy: 0.8954
+19520/60000 [========>.....................] - ETA: 58s - loss: 0.3359 - categorical_accuracy: 0.8956
+19552/60000 [========>.....................] - ETA: 58s - loss: 0.3356 - categorical_accuracy: 0.8957
+19584/60000 [========>.....................] - ETA: 58s - loss: 0.3352 - categorical_accuracy: 0.8958
+19648/60000 [========>.....................] - ETA: 58s - loss: 0.3343 - categorical_accuracy: 0.8961
+19712/60000 [========>.....................] - ETA: 58s - loss: 0.3333 - categorical_accuracy: 0.8964
+19776/60000 [========>.....................] - ETA: 57s - loss: 0.3330 - categorical_accuracy: 0.8965
+19840/60000 [========>.....................] - ETA: 57s - loss: 0.3322 - categorical_accuracy: 0.8968
+19904/60000 [========>.....................] - ETA: 57s - loss: 0.3313 - categorical_accuracy: 0.8971
+19968/60000 [========>.....................] - ETA: 57s - loss: 0.3306 - categorical_accuracy: 0.8973
+20032/60000 [=========>....................] - ETA: 57s - loss: 0.3302 - categorical_accuracy: 0.8974
+20096/60000 [=========>....................] - ETA: 57s - loss: 0.3293 - categorical_accuracy: 0.8977
+20160/60000 [=========>....................] - ETA: 57s - loss: 0.3286 - categorical_accuracy: 0.8978
+20224/60000 [=========>....................] - ETA: 57s - loss: 0.3281 - categorical_accuracy: 0.8980
+20288/60000 [=========>....................] - ETA: 57s - loss: 0.3272 - categorical_accuracy: 0.8982
+20352/60000 [=========>....................] - ETA: 57s - loss: 0.3276 - categorical_accuracy: 0.8983
+20416/60000 [=========>....................] - ETA: 57s - loss: 0.3269 - categorical_accuracy: 0.8986
+20480/60000 [=========>....................] - ETA: 56s - loss: 0.3261 - categorical_accuracy: 0.8988
+20544/60000 [=========>....................] - ETA: 56s - loss: 0.3257 - categorical_accuracy: 0.8989
+20608/60000 [=========>....................] - ETA: 56s - loss: 0.3250 - categorical_accuracy: 0.8992
+20672/60000 [=========>....................] - ETA: 56s - loss: 0.3241 - categorical_accuracy: 0.8995
+20736/60000 [=========>....................] - ETA: 56s - loss: 0.3235 - categorical_accuracy: 0.8997
+20800/60000 [=========>....................] - ETA: 56s - loss: 0.3228 - categorical_accuracy: 0.9000
+20864/60000 [=========>....................] - ETA: 56s - loss: 0.3223 - categorical_accuracy: 0.9001
+20928/60000 [=========>....................] - ETA: 56s - loss: 0.3218 - categorical_accuracy: 0.9003
+20992/60000 [=========>....................] - ETA: 56s - loss: 0.3213 - categorical_accuracy: 0.9005
+21056/60000 [=========>....................] - ETA: 56s - loss: 0.3210 - categorical_accuracy: 0.9006
+21088/60000 [=========>....................] - ETA: 56s - loss: 0.3206 - categorical_accuracy: 0.9007
+21152/60000 [=========>....................] - ETA: 55s - loss: 0.3201 - categorical_accuracy: 0.9009
+21216/60000 [=========>....................] - ETA: 55s - loss: 0.3194 - categorical_accuracy: 0.9011
+21280/60000 [=========>....................] - ETA: 55s - loss: 0.3187 - categorical_accuracy: 0.9014
+21344/60000 [=========>....................] - ETA: 55s - loss: 0.3185 - categorical_accuracy: 0.9014
+21408/60000 [=========>....................] - ETA: 55s - loss: 0.3182 - categorical_accuracy: 0.9015
+21472/60000 [=========>....................] - ETA: 55s - loss: 0.3178 - categorical_accuracy: 0.9016
+21536/60000 [=========>....................] - ETA: 55s - loss: 0.3173 - categorical_accuracy: 0.9018
+21600/60000 [=========>....................] - ETA: 55s - loss: 0.3165 - categorical_accuracy: 0.9020
+21664/60000 [=========>....................] - ETA: 55s - loss: 0.3163 - categorical_accuracy: 0.9022
+21728/60000 [=========>....................] - ETA: 55s - loss: 0.3162 - categorical_accuracy: 0.9022
+21792/60000 [=========>....................] - ETA: 55s - loss: 0.3160 - categorical_accuracy: 0.9023
+21856/60000 [=========>....................] - ETA: 54s - loss: 0.3159 - categorical_accuracy: 0.9022
+21920/60000 [=========>....................] - ETA: 54s - loss: 0.3157 - categorical_accuracy: 0.9022
+21984/60000 [=========>....................] - ETA: 54s - loss: 0.3150 - categorical_accuracy: 0.9025
+22048/60000 [==========>...................] - ETA: 54s - loss: 0.3145 - categorical_accuracy: 0.9026
+22112/60000 [==========>...................] - ETA: 54s - loss: 0.3141 - categorical_accuracy: 0.9027
+22176/60000 [==========>...................] - ETA: 54s - loss: 0.3133 - categorical_accuracy: 0.9030
+22240/60000 [==========>...................] - ETA: 54s - loss: 0.3127 - categorical_accuracy: 0.9032
+22304/60000 [==========>...................] - ETA: 54s - loss: 0.3120 - categorical_accuracy: 0.9035
+22368/60000 [==========>...................] - ETA: 54s - loss: 0.3116 - categorical_accuracy: 0.9037
+22432/60000 [==========>...................] - ETA: 54s - loss: 0.3109 - categorical_accuracy: 0.9039
+22496/60000 [==========>...................] - ETA: 53s - loss: 0.3105 - categorical_accuracy: 0.9041
+22560/60000 [==========>...................] - ETA: 53s - loss: 0.3100 - categorical_accuracy: 0.9043
+22624/60000 [==========>...................] - ETA: 53s - loss: 0.3093 - categorical_accuracy: 0.9045
+22688/60000 [==========>...................] - ETA: 53s - loss: 0.3088 - categorical_accuracy: 0.9046
+22752/60000 [==========>...................] - ETA: 53s - loss: 0.3082 - categorical_accuracy: 0.9048
+22816/60000 [==========>...................] - ETA: 53s - loss: 0.3078 - categorical_accuracy: 0.9049
+22880/60000 [==========>...................] - ETA: 53s - loss: 0.3079 - categorical_accuracy: 0.9049
+22944/60000 [==========>...................] - ETA: 53s - loss: 0.3072 - categorical_accuracy: 0.9051
+23008/60000 [==========>...................] - ETA: 53s - loss: 0.3068 - categorical_accuracy: 0.9052
+23072/60000 [==========>...................] - ETA: 53s - loss: 0.3063 - categorical_accuracy: 0.9054
+23136/60000 [==========>...................] - ETA: 53s - loss: 0.3060 - categorical_accuracy: 0.9055
+23200/60000 [==========>...................] - ETA: 52s - loss: 0.3055 - categorical_accuracy: 0.9057
+23264/60000 [==========>...................] - ETA: 52s - loss: 0.3051 - categorical_accuracy: 0.9058
+23328/60000 [==========>...................] - ETA: 52s - loss: 0.3045 - categorical_accuracy: 0.9060
+23392/60000 [==========>...................] - ETA: 52s - loss: 0.3039 - categorical_accuracy: 0.9062
+23456/60000 [==========>...................] - ETA: 52s - loss: 0.3032 - categorical_accuracy: 0.9064
+23520/60000 [==========>...................] - ETA: 52s - loss: 0.3027 - categorical_accuracy: 0.9065
+23584/60000 [==========>...................] - ETA: 52s - loss: 0.3021 - categorical_accuracy: 0.9067
+23648/60000 [==========>...................] - ETA: 52s - loss: 0.3018 - categorical_accuracy: 0.9069
+23712/60000 [==========>...................] - ETA: 52s - loss: 0.3015 - categorical_accuracy: 0.9069
+23776/60000 [==========>...................] - ETA: 52s - loss: 0.3011 - categorical_accuracy: 0.9070
+23808/60000 [==========>...................] - ETA: 52s - loss: 0.3010 - categorical_accuracy: 0.9070
+23872/60000 [==========>...................] - ETA: 51s - loss: 0.3004 - categorical_accuracy: 0.9072
+23904/60000 [==========>...................] - ETA: 51s - loss: 0.3002 - categorical_accuracy: 0.9073
+23968/60000 [==========>...................] - ETA: 51s - loss: 0.2999 - categorical_accuracy: 0.9073
+24032/60000 [===========>..................] - ETA: 51s - loss: 0.2995 - categorical_accuracy: 0.9074
+24096/60000 [===========>..................] - ETA: 51s - loss: 0.2989 - categorical_accuracy: 0.9076
+24160/60000 [===========>..................] - ETA: 51s - loss: 0.2985 - categorical_accuracy: 0.9077
+24224/60000 [===========>..................] - ETA: 51s - loss: 0.2980 - categorical_accuracy: 0.9079
+24288/60000 [===========>..................] - ETA: 51s - loss: 0.2974 - categorical_accuracy: 0.9081
+24352/60000 [===========>..................] - ETA: 51s - loss: 0.2971 - categorical_accuracy: 0.9082
+24416/60000 [===========>..................] - ETA: 51s - loss: 0.2970 - categorical_accuracy: 0.9082
+24480/60000 [===========>..................] - ETA: 51s - loss: 0.2965 - categorical_accuracy: 0.9083
+24544/60000 [===========>..................] - ETA: 51s - loss: 0.2959 - categorical_accuracy: 0.9085
+24608/60000 [===========>..................] - ETA: 50s - loss: 0.2953 - categorical_accuracy: 0.9088
+24672/60000 [===========>..................] - ETA: 50s - loss: 0.2948 - categorical_accuracy: 0.9089
+24736/60000 [===========>..................] - ETA: 50s - loss: 0.2942 - categorical_accuracy: 0.9091
+24800/60000 [===========>..................] - ETA: 50s - loss: 0.2935 - categorical_accuracy: 0.9094
+24864/60000 [===========>..................] - ETA: 50s - loss: 0.2929 - categorical_accuracy: 0.9095
+24928/60000 [===========>..................] - ETA: 50s - loss: 0.2927 - categorical_accuracy: 0.9097
+24992/60000 [===========>..................] - ETA: 50s - loss: 0.2921 - categorical_accuracy: 0.9099
+25056/60000 [===========>..................] - ETA: 50s - loss: 0.2921 - categorical_accuracy: 0.9099
+25120/60000 [===========>..................] - ETA: 50s - loss: 0.2917 - categorical_accuracy: 0.9100
+25184/60000 [===========>..................] - ETA: 50s - loss: 0.2911 - categorical_accuracy: 0.9102
+25248/60000 [===========>..................] - ETA: 49s - loss: 0.2910 - categorical_accuracy: 0.9103
+25312/60000 [===========>..................] - ETA: 49s - loss: 0.2905 - categorical_accuracy: 0.9104
+25376/60000 [===========>..................] - ETA: 49s - loss: 0.2906 - categorical_accuracy: 0.9105
+25440/60000 [===========>..................] - ETA: 49s - loss: 0.2901 - categorical_accuracy: 0.9106
+25504/60000 [===========>..................] - ETA: 49s - loss: 0.2896 - categorical_accuracy: 0.9108
+25568/60000 [===========>..................] - ETA: 49s - loss: 0.2891 - categorical_accuracy: 0.9109
+25632/60000 [===========>..................] - ETA: 49s - loss: 0.2888 - categorical_accuracy: 0.9110
+25696/60000 [===========>..................] - ETA: 49s - loss: 0.2885 - categorical_accuracy: 0.9112
+25760/60000 [===========>..................] - ETA: 49s - loss: 0.2881 - categorical_accuracy: 0.9113
+25824/60000 [===========>..................] - ETA: 49s - loss: 0.2882 - categorical_accuracy: 0.9114
+25888/60000 [===========>..................] - ETA: 49s - loss: 0.2876 - categorical_accuracy: 0.9115
+25952/60000 [===========>..................] - ETA: 48s - loss: 0.2869 - categorical_accuracy: 0.9117
+26016/60000 [============>.................] - ETA: 48s - loss: 0.2865 - categorical_accuracy: 0.9119
+26080/60000 [============>.................] - ETA: 48s - loss: 0.2862 - categorical_accuracy: 0.9119
+26144/60000 [============>.................] - ETA: 48s - loss: 0.2858 - categorical_accuracy: 0.9119
+26208/60000 [============>.................] - ETA: 48s - loss: 0.2852 - categorical_accuracy: 0.9121
+26272/60000 [============>.................] - ETA: 48s - loss: 0.2849 - categorical_accuracy: 0.9122
+26336/60000 [============>.................] - ETA: 48s - loss: 0.2844 - categorical_accuracy: 0.9124
+26400/60000 [============>.................] - ETA: 48s - loss: 0.2838 - categorical_accuracy: 0.9126
+26464/60000 [============>.................] - ETA: 48s - loss: 0.2835 - categorical_accuracy: 0.9127
+26496/60000 [============>.................] - ETA: 48s - loss: 0.2833 - categorical_accuracy: 0.9128
+26560/60000 [============>.................] - ETA: 48s - loss: 0.2827 - categorical_accuracy: 0.9129
+26624/60000 [============>.................] - ETA: 47s - loss: 0.2824 - categorical_accuracy: 0.9129
+26688/60000 [============>.................] - ETA: 47s - loss: 0.2822 - categorical_accuracy: 0.9130
+26752/60000 [============>.................] - ETA: 47s - loss: 0.2824 - categorical_accuracy: 0.9130
+26816/60000 [============>.................] - ETA: 47s - loss: 0.2824 - categorical_accuracy: 0.9130
+26880/60000 [============>.................] - ETA: 47s - loss: 0.2818 - categorical_accuracy: 0.9132
+26944/60000 [============>.................] - ETA: 47s - loss: 0.2819 - categorical_accuracy: 0.9132
+27008/60000 [============>.................] - ETA: 47s - loss: 0.2814 - categorical_accuracy: 0.9133
+27072/60000 [============>.................] - ETA: 47s - loss: 0.2809 - categorical_accuracy: 0.9135
+27136/60000 [============>.................] - ETA: 47s - loss: 0.2804 - categorical_accuracy: 0.9137
+27200/60000 [============>.................] - ETA: 47s - loss: 0.2804 - categorical_accuracy: 0.9136
+27264/60000 [============>.................] - ETA: 47s - loss: 0.2799 - categorical_accuracy: 0.9138
+27328/60000 [============>.................] - ETA: 46s - loss: 0.2795 - categorical_accuracy: 0.9139
+27392/60000 [============>.................] - ETA: 46s - loss: 0.2789 - categorical_accuracy: 0.9141
+27456/60000 [============>.................] - ETA: 46s - loss: 0.2785 - categorical_accuracy: 0.9142
+27520/60000 [============>.................] - ETA: 46s - loss: 0.2785 - categorical_accuracy: 0.9142
+27584/60000 [============>.................] - ETA: 46s - loss: 0.2780 - categorical_accuracy: 0.9143
+27648/60000 [============>.................] - ETA: 46s - loss: 0.2775 - categorical_accuracy: 0.9145
+27712/60000 [============>.................] - ETA: 46s - loss: 0.2771 - categorical_accuracy: 0.9146
+27776/60000 [============>.................] - ETA: 46s - loss: 0.2770 - categorical_accuracy: 0.9146
+27840/60000 [============>.................] - ETA: 46s - loss: 0.2769 - categorical_accuracy: 0.9147
+27904/60000 [============>.................] - ETA: 46s - loss: 0.2770 - categorical_accuracy: 0.9147
+27968/60000 [============>.................] - ETA: 46s - loss: 0.2768 - categorical_accuracy: 0.9147
+28032/60000 [=============>................] - ETA: 45s - loss: 0.2763 - categorical_accuracy: 0.9148
+28096/60000 [=============>................] - ETA: 45s - loss: 0.2759 - categorical_accuracy: 0.9150
+28128/60000 [=============>................] - ETA: 45s - loss: 0.2756 - categorical_accuracy: 0.9150
+28160/60000 [=============>................] - ETA: 45s - loss: 0.2754 - categorical_accuracy: 0.9151
+28224/60000 [=============>................] - ETA: 45s - loss: 0.2752 - categorical_accuracy: 0.9151
+28288/60000 [=============>................] - ETA: 45s - loss: 0.2746 - categorical_accuracy: 0.9153
+28352/60000 [=============>................] - ETA: 45s - loss: 0.2741 - categorical_accuracy: 0.9155
+28416/60000 [=============>................] - ETA: 45s - loss: 0.2737 - categorical_accuracy: 0.9156
+28480/60000 [=============>................] - ETA: 45s - loss: 0.2735 - categorical_accuracy: 0.9157
+28544/60000 [=============>................] - ETA: 45s - loss: 0.2731 - categorical_accuracy: 0.9158
+28608/60000 [=============>................] - ETA: 45s - loss: 0.2728 - categorical_accuracy: 0.9159
+28672/60000 [=============>................] - ETA: 44s - loss: 0.2727 - categorical_accuracy: 0.9160
+28736/60000 [=============>................] - ETA: 44s - loss: 0.2725 - categorical_accuracy: 0.9160
+28800/60000 [=============>................] - ETA: 44s - loss: 0.2724 - categorical_accuracy: 0.9160
+28864/60000 [=============>................] - ETA: 44s - loss: 0.2719 - categorical_accuracy: 0.9162
+28928/60000 [=============>................] - ETA: 44s - loss: 0.2714 - categorical_accuracy: 0.9163
+28992/60000 [=============>................] - ETA: 44s - loss: 0.2712 - categorical_accuracy: 0.9165
+29056/60000 [=============>................] - ETA: 44s - loss: 0.2708 - categorical_accuracy: 0.9166
+29120/60000 [=============>................] - ETA: 44s - loss: 0.2703 - categorical_accuracy: 0.9168
+29184/60000 [=============>................] - ETA: 44s - loss: 0.2699 - categorical_accuracy: 0.9169
+29248/60000 [=============>................] - ETA: 44s - loss: 0.2699 - categorical_accuracy: 0.9170
+29312/60000 [=============>................] - ETA: 44s - loss: 0.2696 - categorical_accuracy: 0.9170
+29376/60000 [=============>................] - ETA: 43s - loss: 0.2692 - categorical_accuracy: 0.9171
+29440/60000 [=============>................] - ETA: 43s - loss: 0.2688 - categorical_accuracy: 0.9172
+29504/60000 [=============>................] - ETA: 43s - loss: 0.2684 - categorical_accuracy: 0.9173
+29568/60000 [=============>................] - ETA: 43s - loss: 0.2679 - categorical_accuracy: 0.9175
+29632/60000 [=============>................] - ETA: 43s - loss: 0.2678 - categorical_accuracy: 0.9176
+29696/60000 [=============>................] - ETA: 43s - loss: 0.2676 - categorical_accuracy: 0.9176
+29760/60000 [=============>................] - ETA: 43s - loss: 0.2673 - categorical_accuracy: 0.9177
+29824/60000 [=============>................] - ETA: 43s - loss: 0.2670 - categorical_accuracy: 0.9178
+29888/60000 [=============>................] - ETA: 43s - loss: 0.2667 - categorical_accuracy: 0.9178
+29952/60000 [=============>................] - ETA: 43s - loss: 0.2665 - categorical_accuracy: 0.9179
+30016/60000 [==============>...............] - ETA: 43s - loss: 0.2660 - categorical_accuracy: 0.9180
+30080/60000 [==============>...............] - ETA: 42s - loss: 0.2655 - categorical_accuracy: 0.9182
+30112/60000 [==============>...............] - ETA: 42s - loss: 0.2652 - categorical_accuracy: 0.9183
+30176/60000 [==============>...............] - ETA: 42s - loss: 0.2649 - categorical_accuracy: 0.9184
+30240/60000 [==============>...............] - ETA: 42s - loss: 0.2646 - categorical_accuracy: 0.9185
+30272/60000 [==============>...............] - ETA: 42s - loss: 0.2647 - categorical_accuracy: 0.9184
+30304/60000 [==============>...............] - ETA: 42s - loss: 0.2645 - categorical_accuracy: 0.9185
+30368/60000 [==============>...............] - ETA: 42s - loss: 0.2641 - categorical_accuracy: 0.9186
+30432/60000 [==============>...............] - ETA: 42s - loss: 0.2637 - categorical_accuracy: 0.9188
+30496/60000 [==============>...............] - ETA: 42s - loss: 0.2633 - categorical_accuracy: 0.9189
+30560/60000 [==============>...............] - ETA: 42s - loss: 0.2634 - categorical_accuracy: 0.9189
+30624/60000 [==============>...............] - ETA: 42s - loss: 0.2633 - categorical_accuracy: 0.9189
+30688/60000 [==============>...............] - ETA: 42s - loss: 0.2628 - categorical_accuracy: 0.9191
+30752/60000 [==============>...............] - ETA: 41s - loss: 0.2628 - categorical_accuracy: 0.9191
+30816/60000 [==============>...............] - ETA: 41s - loss: 0.2626 - categorical_accuracy: 0.9192
+30880/60000 [==============>...............] - ETA: 41s - loss: 0.2623 - categorical_accuracy: 0.9193
+30944/60000 [==============>...............] - ETA: 41s - loss: 0.2620 - categorical_accuracy: 0.9194
+31008/60000 [==============>...............] - ETA: 41s - loss: 0.2620 - categorical_accuracy: 0.9194
+31072/60000 [==============>...............] - ETA: 41s - loss: 0.2618 - categorical_accuracy: 0.9195
+31136/60000 [==============>...............] - ETA: 41s - loss: 0.2615 - categorical_accuracy: 0.9196
+31200/60000 [==============>...............] - ETA: 41s - loss: 0.2612 - categorical_accuracy: 0.9197
+31264/60000 [==============>...............] - ETA: 41s - loss: 0.2608 - categorical_accuracy: 0.9198
+31328/60000 [==============>...............] - ETA: 41s - loss: 0.2608 - categorical_accuracy: 0.9198
+31392/60000 [==============>...............] - ETA: 41s - loss: 0.2611 - categorical_accuracy: 0.9198
+31456/60000 [==============>...............] - ETA: 40s - loss: 0.2608 - categorical_accuracy: 0.9199
+31520/60000 [==============>...............] - ETA: 40s - loss: 0.2604 - categorical_accuracy: 0.9200
+31552/60000 [==============>...............] - ETA: 40s - loss: 0.2603 - categorical_accuracy: 0.9200
+31616/60000 [==============>...............] - ETA: 40s - loss: 0.2600 - categorical_accuracy: 0.9201
+31680/60000 [==============>...............] - ETA: 40s - loss: 0.2598 - categorical_accuracy: 0.9202
+31744/60000 [==============>...............] - ETA: 40s - loss: 0.2595 - categorical_accuracy: 0.9203
+31808/60000 [==============>...............] - ETA: 40s - loss: 0.2593 - categorical_accuracy: 0.9204
+31872/60000 [==============>...............] - ETA: 40s - loss: 0.2590 - categorical_accuracy: 0.9205
+31936/60000 [==============>...............] - ETA: 40s - loss: 0.2587 - categorical_accuracy: 0.9206
+32000/60000 [===============>..............] - ETA: 40s - loss: 0.2584 - categorical_accuracy: 0.9207
+32064/60000 [===============>..............] - ETA: 40s - loss: 0.2581 - categorical_accuracy: 0.9208
+32096/60000 [===============>..............] - ETA: 40s - loss: 0.2579 - categorical_accuracy: 0.9208
+32160/60000 [===============>..............] - ETA: 39s - loss: 0.2578 - categorical_accuracy: 0.9208
+32224/60000 [===============>..............] - ETA: 39s - loss: 0.2573 - categorical_accuracy: 0.9210
+32288/60000 [===============>..............] - ETA: 39s - loss: 0.2569 - categorical_accuracy: 0.9211
+32352/60000 [===============>..............] - ETA: 39s - loss: 0.2566 - categorical_accuracy: 0.9212
+32384/60000 [===============>..............] - ETA: 39s - loss: 0.2563 - categorical_accuracy: 0.9213
+32416/60000 [===============>..............] - ETA: 39s - loss: 0.2562 - categorical_accuracy: 0.9214
+32480/60000 [===============>..............] - ETA: 39s - loss: 0.2559 - categorical_accuracy: 0.9215
+32544/60000 [===============>..............] - ETA: 39s - loss: 0.2555 - categorical_accuracy: 0.9216
+32608/60000 [===============>..............] - ETA: 39s - loss: 0.2550 - categorical_accuracy: 0.9217
+32672/60000 [===============>..............] - ETA: 39s - loss: 0.2549 - categorical_accuracy: 0.9218
+32736/60000 [===============>..............] - ETA: 39s - loss: 0.2548 - categorical_accuracy: 0.9219
+32800/60000 [===============>..............] - ETA: 39s - loss: 0.2548 - categorical_accuracy: 0.9219
+32864/60000 [===============>..............] - ETA: 38s - loss: 0.2546 - categorical_accuracy: 0.9220
+32928/60000 [===============>..............] - ETA: 38s - loss: 0.2543 - categorical_accuracy: 0.9221
+32992/60000 [===============>..............] - ETA: 38s - loss: 0.2539 - categorical_accuracy: 0.9222
+33056/60000 [===============>..............] - ETA: 38s - loss: 0.2536 - categorical_accuracy: 0.9223
+33120/60000 [===============>..............] - ETA: 38s - loss: 0.2535 - categorical_accuracy: 0.9223
+33184/60000 [===============>..............] - ETA: 38s - loss: 0.2532 - categorical_accuracy: 0.9224
+33248/60000 [===============>..............] - ETA: 38s - loss: 0.2530 - categorical_accuracy: 0.9224
+33312/60000 [===============>..............] - ETA: 38s - loss: 0.2526 - categorical_accuracy: 0.9226
+33376/60000 [===============>..............] - ETA: 38s - loss: 0.2524 - categorical_accuracy: 0.9226
+33440/60000 [===============>..............] - ETA: 38s - loss: 0.2521 - categorical_accuracy: 0.9227
+33504/60000 [===============>..............] - ETA: 38s - loss: 0.2518 - categorical_accuracy: 0.9228
+33568/60000 [===============>..............] - ETA: 37s - loss: 0.2514 - categorical_accuracy: 0.9229
+33632/60000 [===============>..............] - ETA: 37s - loss: 0.2510 - categorical_accuracy: 0.9230
+33696/60000 [===============>..............] - ETA: 37s - loss: 0.2508 - categorical_accuracy: 0.9231
+33760/60000 [===============>..............] - ETA: 37s - loss: 0.2504 - categorical_accuracy: 0.9232
+33824/60000 [===============>..............] - ETA: 37s - loss: 0.2501 - categorical_accuracy: 0.9233
+33888/60000 [===============>..............] - ETA: 37s - loss: 0.2497 - categorical_accuracy: 0.9234
+33952/60000 [===============>..............] - ETA: 37s - loss: 0.2494 - categorical_accuracy: 0.9235
+34016/60000 [================>.............] - ETA: 37s - loss: 0.2491 - categorical_accuracy: 0.9235
+34080/60000 [================>.............] - ETA: 37s - loss: 0.2488 - categorical_accuracy: 0.9236
+34144/60000 [================>.............] - ETA: 37s - loss: 0.2486 - categorical_accuracy: 0.9237
+34176/60000 [================>.............] - ETA: 37s - loss: 0.2486 - categorical_accuracy: 0.9237
+34240/60000 [================>.............] - ETA: 36s - loss: 0.2484 - categorical_accuracy: 0.9238
+34304/60000 [================>.............] - ETA: 36s - loss: 0.2480 - categorical_accuracy: 0.9239
+34368/60000 [================>.............] - ETA: 36s - loss: 0.2478 - categorical_accuracy: 0.9239
+34432/60000 [================>.............] - ETA: 36s - loss: 0.2477 - categorical_accuracy: 0.9240
+34496/60000 [================>.............] - ETA: 36s - loss: 0.2475 - categorical_accuracy: 0.9240
+34560/60000 [================>.............] - ETA: 36s - loss: 0.2474 - categorical_accuracy: 0.9240
+34592/60000 [================>.............] - ETA: 36s - loss: 0.2472 - categorical_accuracy: 0.9241
+34656/60000 [================>.............] - ETA: 36s - loss: 0.2469 - categorical_accuracy: 0.9242
+34720/60000 [================>.............] - ETA: 36s - loss: 0.2466 - categorical_accuracy: 0.9242
+34784/60000 [================>.............] - ETA: 36s - loss: 0.2463 - categorical_accuracy: 0.9242
+34816/60000 [================>.............] - ETA: 36s - loss: 0.2462 - categorical_accuracy: 0.9243
+34880/60000 [================>.............] - ETA: 36s - loss: 0.2459 - categorical_accuracy: 0.9244
+34944/60000 [================>.............] - ETA: 35s - loss: 0.2457 - categorical_accuracy: 0.9245
+35008/60000 [================>.............] - ETA: 35s - loss: 0.2453 - categorical_accuracy: 0.9246
+35072/60000 [================>.............] - ETA: 35s - loss: 0.2449 - categorical_accuracy: 0.9247
+35136/60000 [================>.............] - ETA: 35s - loss: 0.2446 - categorical_accuracy: 0.9248
+35200/60000 [================>.............] - ETA: 35s - loss: 0.2445 - categorical_accuracy: 0.9249
+35264/60000 [================>.............] - ETA: 35s - loss: 0.2443 - categorical_accuracy: 0.9249
+35328/60000 [================>.............] - ETA: 35s - loss: 0.2441 - categorical_accuracy: 0.9250
+35392/60000 [================>.............] - ETA: 35s - loss: 0.2437 - categorical_accuracy: 0.9251
+35456/60000 [================>.............] - ETA: 35s - loss: 0.2435 - categorical_accuracy: 0.9251
+35520/60000 [================>.............] - ETA: 35s - loss: 0.2432 - categorical_accuracy: 0.9252
+35584/60000 [================>.............] - ETA: 35s - loss: 0.2430 - categorical_accuracy: 0.9253
+35648/60000 [================>.............] - ETA: 34s - loss: 0.2427 - categorical_accuracy: 0.9253
+35712/60000 [================>.............] - ETA: 34s - loss: 0.2425 - categorical_accuracy: 0.9253
+35776/60000 [================>.............] - ETA: 34s - loss: 0.2423 - categorical_accuracy: 0.9254
+35840/60000 [================>.............] - ETA: 34s - loss: 0.2420 - categorical_accuracy: 0.9255
+35904/60000 [================>.............] - ETA: 34s - loss: 0.2419 - categorical_accuracy: 0.9255
+35968/60000 [================>.............] - ETA: 34s - loss: 0.2417 - categorical_accuracy: 0.9256
+36032/60000 [=================>............] - ETA: 34s - loss: 0.2415 - categorical_accuracy: 0.9256
+36096/60000 [=================>............] - ETA: 34s - loss: 0.2412 - categorical_accuracy: 0.9257
+36160/60000 [=================>............] - ETA: 34s - loss: 0.2409 - categorical_accuracy: 0.9258
+36224/60000 [=================>............] - ETA: 34s - loss: 0.2408 - categorical_accuracy: 0.9258
+36288/60000 [=================>............] - ETA: 33s - loss: 0.2405 - categorical_accuracy: 0.9259
+36352/60000 [=================>............] - ETA: 33s - loss: 0.2401 - categorical_accuracy: 0.9259
+36416/60000 [=================>............] - ETA: 33s - loss: 0.2399 - categorical_accuracy: 0.9260
+36480/60000 [=================>............] - ETA: 33s - loss: 0.2399 - categorical_accuracy: 0.9260
+36544/60000 [=================>............] - ETA: 33s - loss: 0.2395 - categorical_accuracy: 0.9261
+36608/60000 [=================>............] - ETA: 33s - loss: 0.2394 - categorical_accuracy: 0.9262
+36672/60000 [=================>............] - ETA: 33s - loss: 0.2391 - categorical_accuracy: 0.9262
+36736/60000 [=================>............] - ETA: 33s - loss: 0.2390 - categorical_accuracy: 0.9263
+36800/60000 [=================>............] - ETA: 33s - loss: 0.2386 - categorical_accuracy: 0.9264
+36864/60000 [=================>............] - ETA: 33s - loss: 0.2385 - categorical_accuracy: 0.9264
+36928/60000 [=================>............] - ETA: 33s - loss: 0.2382 - categorical_accuracy: 0.9265
+36992/60000 [=================>............] - ETA: 32s - loss: 0.2382 - categorical_accuracy: 0.9265
+37056/60000 [=================>............] - ETA: 32s - loss: 0.2378 - categorical_accuracy: 0.9266
+37120/60000 [=================>............] - ETA: 32s - loss: 0.2376 - categorical_accuracy: 0.9266
+37184/60000 [=================>............] - ETA: 32s - loss: 0.2374 - categorical_accuracy: 0.9267
+37248/60000 [=================>............] - ETA: 32s - loss: 0.2372 - categorical_accuracy: 0.9268
+37312/60000 [=================>............] - ETA: 32s - loss: 0.2370 - categorical_accuracy: 0.9268
+37376/60000 [=================>............] - ETA: 32s - loss: 0.2368 - categorical_accuracy: 0.9269
+37440/60000 [=================>............] - ETA: 32s - loss: 0.2365 - categorical_accuracy: 0.9270
+37504/60000 [=================>............] - ETA: 32s - loss: 0.2362 - categorical_accuracy: 0.9271
+37568/60000 [=================>............] - ETA: 32s - loss: 0.2359 - categorical_accuracy: 0.9272
+37632/60000 [=================>............] - ETA: 32s - loss: 0.2356 - categorical_accuracy: 0.9273
+37696/60000 [=================>............] - ETA: 31s - loss: 0.2355 - categorical_accuracy: 0.9274
+37760/60000 [=================>............] - ETA: 31s - loss: 0.2355 - categorical_accuracy: 0.9274
+37824/60000 [=================>............] - ETA: 31s - loss: 0.2353 - categorical_accuracy: 0.9274
+37888/60000 [=================>............] - ETA: 31s - loss: 0.2351 - categorical_accuracy: 0.9274
+37952/60000 [=================>............] - ETA: 31s - loss: 0.2350 - categorical_accuracy: 0.9275
+38016/60000 [==================>...........] - ETA: 31s - loss: 0.2347 - categorical_accuracy: 0.9276
+38080/60000 [==================>...........] - ETA: 31s - loss: 0.2345 - categorical_accuracy: 0.9276
+38144/60000 [==================>...........] - ETA: 31s - loss: 0.2342 - categorical_accuracy: 0.9277
+38208/60000 [==================>...........] - ETA: 31s - loss: 0.2340 - categorical_accuracy: 0.9277
+38272/60000 [==================>...........] - ETA: 31s - loss: 0.2338 - categorical_accuracy: 0.9278
+38336/60000 [==================>...........] - ETA: 31s - loss: 0.2336 - categorical_accuracy: 0.9279
+38400/60000 [==================>...........] - ETA: 30s - loss: 0.2336 - categorical_accuracy: 0.9279
+38464/60000 [==================>...........] - ETA: 30s - loss: 0.2333 - categorical_accuracy: 0.9280
+38528/60000 [==================>...........] - ETA: 30s - loss: 0.2330 - categorical_accuracy: 0.9281
+38592/60000 [==================>...........] - ETA: 30s - loss: 0.2329 - categorical_accuracy: 0.9281
+38656/60000 [==================>...........] - ETA: 30s - loss: 0.2327 - categorical_accuracy: 0.9282
+38720/60000 [==================>...........] - ETA: 30s - loss: 0.2327 - categorical_accuracy: 0.9282
+38784/60000 [==================>...........] - ETA: 30s - loss: 0.2324 - categorical_accuracy: 0.9282
+38848/60000 [==================>...........] - ETA: 30s - loss: 0.2322 - categorical_accuracy: 0.9283
+38912/60000 [==================>...........] - ETA: 30s - loss: 0.2321 - categorical_accuracy: 0.9282
+38976/60000 [==================>...........] - ETA: 30s - loss: 0.2319 - categorical_accuracy: 0.9283
+39008/60000 [==================>...........] - ETA: 30s - loss: 0.2318 - categorical_accuracy: 0.9283
+39072/60000 [==================>...........] - ETA: 29s - loss: 0.2317 - categorical_accuracy: 0.9284
+39136/60000 [==================>...........] - ETA: 29s - loss: 0.2314 - categorical_accuracy: 0.9285
+39200/60000 [==================>...........] - ETA: 29s - loss: 0.2311 - categorical_accuracy: 0.9285
+39264/60000 [==================>...........] - ETA: 29s - loss: 0.2308 - categorical_accuracy: 0.9286
+39328/60000 [==================>...........] - ETA: 29s - loss: 0.2305 - categorical_accuracy: 0.9288
+39392/60000 [==================>...........] - ETA: 29s - loss: 0.2303 - categorical_accuracy: 0.9288
+39456/60000 [==================>...........] - ETA: 29s - loss: 0.2301 - categorical_accuracy: 0.9288
+39520/60000 [==================>...........] - ETA: 29s - loss: 0.2298 - categorical_accuracy: 0.9289
+39584/60000 [==================>...........] - ETA: 29s - loss: 0.2298 - categorical_accuracy: 0.9289
+39648/60000 [==================>...........] - ETA: 29s - loss: 0.2298 - categorical_accuracy: 0.9289
+39712/60000 [==================>...........] - ETA: 29s - loss: 0.2297 - categorical_accuracy: 0.9289
+39776/60000 [==================>...........] - ETA: 28s - loss: 0.2294 - categorical_accuracy: 0.9291
+39840/60000 [==================>...........] - ETA: 28s - loss: 0.2293 - categorical_accuracy: 0.9291
+39904/60000 [==================>...........] - ETA: 28s - loss: 0.2292 - categorical_accuracy: 0.9292
+39968/60000 [==================>...........] - ETA: 28s - loss: 0.2290 - categorical_accuracy: 0.9292
+40032/60000 [===================>..........] - ETA: 28s - loss: 0.2287 - categorical_accuracy: 0.9293
+40096/60000 [===================>..........] - ETA: 28s - loss: 0.2287 - categorical_accuracy: 0.9294
+40160/60000 [===================>..........] - ETA: 28s - loss: 0.2287 - categorical_accuracy: 0.9295
+40224/60000 [===================>..........] - ETA: 28s - loss: 0.2284 - categorical_accuracy: 0.9295
+40288/60000 [===================>..........] - ETA: 28s - loss: 0.2283 - categorical_accuracy: 0.9295
+40320/60000 [===================>..........] - ETA: 28s - loss: 0.2282 - categorical_accuracy: 0.9295
+40384/60000 [===================>..........] - ETA: 28s - loss: 0.2281 - categorical_accuracy: 0.9295
+40448/60000 [===================>..........] - ETA: 27s - loss: 0.2278 - categorical_accuracy: 0.9296
+40512/60000 [===================>..........] - ETA: 27s - loss: 0.2275 - categorical_accuracy: 0.9297
+40576/60000 [===================>..........] - ETA: 27s - loss: 0.2272 - categorical_accuracy: 0.9298
+40640/60000 [===================>..........] - ETA: 27s - loss: 0.2269 - categorical_accuracy: 0.9299
+40704/60000 [===================>..........] - ETA: 27s - loss: 0.2269 - categorical_accuracy: 0.9300
+40768/60000 [===================>..........] - ETA: 27s - loss: 0.2268 - categorical_accuracy: 0.9300
+40832/60000 [===================>..........] - ETA: 27s - loss: 0.2269 - categorical_accuracy: 0.9300
+40896/60000 [===================>..........] - ETA: 27s - loss: 0.2266 - categorical_accuracy: 0.9301
+40960/60000 [===================>..........] - ETA: 27s - loss: 0.2265 - categorical_accuracy: 0.9301
+41024/60000 [===================>..........] - ETA: 27s - loss: 0.2264 - categorical_accuracy: 0.9302
+41088/60000 [===================>..........] - ETA: 27s - loss: 0.2261 - categorical_accuracy: 0.9303
+41152/60000 [===================>..........] - ETA: 26s - loss: 0.2259 - categorical_accuracy: 0.9303
+41184/60000 [===================>..........] - ETA: 26s - loss: 0.2259 - categorical_accuracy: 0.9303
+41248/60000 [===================>..........] - ETA: 26s - loss: 0.2259 - categorical_accuracy: 0.9303
+41312/60000 [===================>..........] - ETA: 26s - loss: 0.2256 - categorical_accuracy: 0.9304
+41376/60000 [===================>..........] - ETA: 26s - loss: 0.2253 - categorical_accuracy: 0.9305
+41440/60000 [===================>..........] - ETA: 26s - loss: 0.2251 - categorical_accuracy: 0.9306
+41504/60000 [===================>..........] - ETA: 26s - loss: 0.2248 - categorical_accuracy: 0.9307
+41568/60000 [===================>..........] - ETA: 26s - loss: 0.2246 - categorical_accuracy: 0.9308
+41632/60000 [===================>..........] - ETA: 26s - loss: 0.2245 - categorical_accuracy: 0.9308
+41696/60000 [===================>..........] - ETA: 26s - loss: 0.2243 - categorical_accuracy: 0.9309
+41760/60000 [===================>..........] - ETA: 26s - loss: 0.2242 - categorical_accuracy: 0.9309
+41824/60000 [===================>..........] - ETA: 25s - loss: 0.2241 - categorical_accuracy: 0.9310
+41888/60000 [===================>..........] - ETA: 25s - loss: 0.2238 - categorical_accuracy: 0.9311
+41952/60000 [===================>..........] - ETA: 25s - loss: 0.2236 - categorical_accuracy: 0.9312
+42016/60000 [====================>.........] - ETA: 25s - loss: 0.2234 - categorical_accuracy: 0.9312
+42080/60000 [====================>.........] - ETA: 25s - loss: 0.2231 - categorical_accuracy: 0.9313
+42144/60000 [====================>.........] - ETA: 25s - loss: 0.2229 - categorical_accuracy: 0.9314
+42208/60000 [====================>.........] - ETA: 25s - loss: 0.2226 - categorical_accuracy: 0.9315
+42272/60000 [====================>.........] - ETA: 25s - loss: 0.2225 - categorical_accuracy: 0.9315
+42336/60000 [====================>.........] - ETA: 25s - loss: 0.2223 - categorical_accuracy: 0.9316
+42400/60000 [====================>.........] - ETA: 25s - loss: 0.2222 - categorical_accuracy: 0.9317
+42464/60000 [====================>.........] - ETA: 25s - loss: 0.2219 - categorical_accuracy: 0.9317
+42528/60000 [====================>.........] - ETA: 24s - loss: 0.2219 - categorical_accuracy: 0.9317
+42592/60000 [====================>.........] - ETA: 24s - loss: 0.2216 - categorical_accuracy: 0.9318
+42656/60000 [====================>.........] - ETA: 24s - loss: 0.2216 - categorical_accuracy: 0.9319
+42720/60000 [====================>.........] - ETA: 24s - loss: 0.2213 - categorical_accuracy: 0.9320
+42784/60000 [====================>.........] - ETA: 24s - loss: 0.2214 - categorical_accuracy: 0.9320
+42848/60000 [====================>.........] - ETA: 24s - loss: 0.2211 - categorical_accuracy: 0.9321
+42912/60000 [====================>.........] - ETA: 24s - loss: 0.2209 - categorical_accuracy: 0.9321
+42976/60000 [====================>.........] - ETA: 24s - loss: 0.2209 - categorical_accuracy: 0.9321
+43040/60000 [====================>.........] - ETA: 24s - loss: 0.2207 - categorical_accuracy: 0.9322
+43104/60000 [====================>.........] - ETA: 24s - loss: 0.2206 - categorical_accuracy: 0.9322
+43168/60000 [====================>.........] - ETA: 24s - loss: 0.2205 - categorical_accuracy: 0.9322
+43232/60000 [====================>.........] - ETA: 23s - loss: 0.2204 - categorical_accuracy: 0.9323
+43296/60000 [====================>.........] - ETA: 23s - loss: 0.2203 - categorical_accuracy: 0.9323
+43360/60000 [====================>.........] - ETA: 23s - loss: 0.2200 - categorical_accuracy: 0.9324
+43424/60000 [====================>.........] - ETA: 23s - loss: 0.2198 - categorical_accuracy: 0.9324
+43488/60000 [====================>.........] - ETA: 23s - loss: 0.2196 - categorical_accuracy: 0.9324
+43552/60000 [====================>.........] - ETA: 23s - loss: 0.2194 - categorical_accuracy: 0.9325
+43616/60000 [====================>.........] - ETA: 23s - loss: 0.2193 - categorical_accuracy: 0.9325
+43680/60000 [====================>.........] - ETA: 23s - loss: 0.2192 - categorical_accuracy: 0.9326
+43744/60000 [====================>.........] - ETA: 23s - loss: 0.2190 - categorical_accuracy: 0.9326
+43808/60000 [====================>.........] - ETA: 23s - loss: 0.2189 - categorical_accuracy: 0.9326
+43872/60000 [====================>.........] - ETA: 23s - loss: 0.2188 - categorical_accuracy: 0.9327
+43936/60000 [====================>.........] - ETA: 22s - loss: 0.2185 - categorical_accuracy: 0.9328
+44000/60000 [=====================>........] - ETA: 22s - loss: 0.2184 - categorical_accuracy: 0.9328
+44064/60000 [=====================>........] - ETA: 22s - loss: 0.2181 - categorical_accuracy: 0.9329
+44128/60000 [=====================>........] - ETA: 22s - loss: 0.2181 - categorical_accuracy: 0.9329
+44192/60000 [=====================>........] - ETA: 22s - loss: 0.2178 - categorical_accuracy: 0.9330
+44256/60000 [=====================>........] - ETA: 22s - loss: 0.2175 - categorical_accuracy: 0.9331
+44320/60000 [=====================>........] - ETA: 22s - loss: 0.2173 - categorical_accuracy: 0.9332
+44384/60000 [=====================>........] - ETA: 22s - loss: 0.2171 - categorical_accuracy: 0.9333
+44448/60000 [=====================>........] - ETA: 22s - loss: 0.2169 - categorical_accuracy: 0.9333
+44512/60000 [=====================>........] - ETA: 22s - loss: 0.2167 - categorical_accuracy: 0.9334
+44576/60000 [=====================>........] - ETA: 22s - loss: 0.2164 - categorical_accuracy: 0.9335
+44640/60000 [=====================>........] - ETA: 21s - loss: 0.2164 - categorical_accuracy: 0.9335
+44704/60000 [=====================>........] - ETA: 21s - loss: 0.2162 - categorical_accuracy: 0.9336
+44768/60000 [=====================>........] - ETA: 21s - loss: 0.2161 - categorical_accuracy: 0.9336
+44832/60000 [=====================>........] - ETA: 21s - loss: 0.2160 - categorical_accuracy: 0.9337
+44896/60000 [=====================>........] - ETA: 21s - loss: 0.2158 - categorical_accuracy: 0.9337
+44960/60000 [=====================>........] - ETA: 21s - loss: 0.2157 - categorical_accuracy: 0.9338
+45024/60000 [=====================>........] - ETA: 21s - loss: 0.2156 - categorical_accuracy: 0.9338
+45088/60000 [=====================>........] - ETA: 21s - loss: 0.2155 - categorical_accuracy: 0.9338
+45152/60000 [=====================>........] - ETA: 21s - loss: 0.2154 - categorical_accuracy: 0.9339
+45216/60000 [=====================>........] - ETA: 21s - loss: 0.2152 - categorical_accuracy: 0.9339
+45280/60000 [=====================>........] - ETA: 21s - loss: 0.2152 - categorical_accuracy: 0.9339
+45344/60000 [=====================>........] - ETA: 20s - loss: 0.2150 - categorical_accuracy: 0.9340
+45408/60000 [=====================>........] - ETA: 20s - loss: 0.2149 - categorical_accuracy: 0.9340
+45472/60000 [=====================>........] - ETA: 20s - loss: 0.2147 - categorical_accuracy: 0.9340
+45536/60000 [=====================>........] - ETA: 20s - loss: 0.2145 - categorical_accuracy: 0.9341
+45568/60000 [=====================>........] - ETA: 20s - loss: 0.2144 - categorical_accuracy: 0.9341
+45632/60000 [=====================>........] - ETA: 20s - loss: 0.2142 - categorical_accuracy: 0.9342
+45696/60000 [=====================>........] - ETA: 20s - loss: 0.2139 - categorical_accuracy: 0.9343
+45760/60000 [=====================>........] - ETA: 20s - loss: 0.2137 - categorical_accuracy: 0.9343
+45824/60000 [=====================>........] - ETA: 20s - loss: 0.2136 - categorical_accuracy: 0.9344
+45888/60000 [=====================>........] - ETA: 20s - loss: 0.2134 - categorical_accuracy: 0.9344
+45952/60000 [=====================>........] - ETA: 20s - loss: 0.2135 - categorical_accuracy: 0.9344
+46016/60000 [======================>.......] - ETA: 19s - loss: 0.2133 - categorical_accuracy: 0.9345
+46080/60000 [======================>.......] - ETA: 19s - loss: 0.2131 - categorical_accuracy: 0.9345
+46144/60000 [======================>.......] - ETA: 19s - loss: 0.2128 - categorical_accuracy: 0.9346
+46208/60000 [======================>.......] - ETA: 19s - loss: 0.2128 - categorical_accuracy: 0.9346
+46272/60000 [======================>.......] - ETA: 19s - loss: 0.2126 - categorical_accuracy: 0.9347
+46336/60000 [======================>.......] - ETA: 19s - loss: 0.2124 - categorical_accuracy: 0.9347
+46400/60000 [======================>.......] - ETA: 19s - loss: 0.2122 - categorical_accuracy: 0.9348
+46464/60000 [======================>.......] - ETA: 19s - loss: 0.2119 - categorical_accuracy: 0.9349
+46528/60000 [======================>.......] - ETA: 19s - loss: 0.2119 - categorical_accuracy: 0.9349
+46592/60000 [======================>.......] - ETA: 19s - loss: 0.2117 - categorical_accuracy: 0.9349
+46656/60000 [======================>.......] - ETA: 19s - loss: 0.2116 - categorical_accuracy: 0.9350
+46720/60000 [======================>.......] - ETA: 18s - loss: 0.2115 - categorical_accuracy: 0.9350
+46784/60000 [======================>.......] - ETA: 18s - loss: 0.2113 - categorical_accuracy: 0.9351
+46848/60000 [======================>.......] - ETA: 18s - loss: 0.2111 - categorical_accuracy: 0.9351
+46912/60000 [======================>.......] - ETA: 18s - loss: 0.2109 - categorical_accuracy: 0.9352
+46976/60000 [======================>.......] - ETA: 18s - loss: 0.2108 - categorical_accuracy: 0.9352
+47040/60000 [======================>.......] - ETA: 18s - loss: 0.2107 - categorical_accuracy: 0.9352
+47104/60000 [======================>.......] - ETA: 18s - loss: 0.2105 - categorical_accuracy: 0.9353
+47168/60000 [======================>.......] - ETA: 18s - loss: 0.2105 - categorical_accuracy: 0.9353
+47232/60000 [======================>.......] - ETA: 18s - loss: 0.2104 - categorical_accuracy: 0.9353
+47296/60000 [======================>.......] - ETA: 18s - loss: 0.2103 - categorical_accuracy: 0.9353
+47360/60000 [======================>.......] - ETA: 18s - loss: 0.2101 - categorical_accuracy: 0.9354
+47424/60000 [======================>.......] - ETA: 17s - loss: 0.2099 - categorical_accuracy: 0.9355
+47488/60000 [======================>.......] - ETA: 17s - loss: 0.2098 - categorical_accuracy: 0.9355
+47552/60000 [======================>.......] - ETA: 17s - loss: 0.2096 - categorical_accuracy: 0.9356
+47616/60000 [======================>.......] - ETA: 17s - loss: 0.2094 - categorical_accuracy: 0.9356
+47680/60000 [======================>.......] - ETA: 17s - loss: 0.2096 - categorical_accuracy: 0.9356
+47744/60000 [======================>.......] - ETA: 17s - loss: 0.2094 - categorical_accuracy: 0.9357
+47776/60000 [======================>.......] - ETA: 17s - loss: 0.2093 - categorical_accuracy: 0.9357
+47840/60000 [======================>.......] - ETA: 17s - loss: 0.2091 - categorical_accuracy: 0.9358
+47904/60000 [======================>.......] - ETA: 17s - loss: 0.2091 - categorical_accuracy: 0.9358
+47968/60000 [======================>.......] - ETA: 17s - loss: 0.2089 - categorical_accuracy: 0.9358
+48032/60000 [=======================>......] - ETA: 17s - loss: 0.2088 - categorical_accuracy: 0.9359
+48096/60000 [=======================>......] - ETA: 16s - loss: 0.2086 - categorical_accuracy: 0.9359
+48160/60000 [=======================>......] - ETA: 16s - loss: 0.2085 - categorical_accuracy: 0.9360
+48224/60000 [=======================>......] - ETA: 16s - loss: 0.2084 - categorical_accuracy: 0.9359
+48288/60000 [=======================>......] - ETA: 16s - loss: 0.2082 - categorical_accuracy: 0.9360
+48352/60000 [=======================>......] - ETA: 16s - loss: 0.2080 - categorical_accuracy: 0.9361
+48416/60000 [=======================>......] - ETA: 16s - loss: 0.2078 - categorical_accuracy: 0.9361
+48480/60000 [=======================>......] - ETA: 16s - loss: 0.2076 - categorical_accuracy: 0.9361
+48544/60000 [=======================>......] - ETA: 16s - loss: 0.2074 - categorical_accuracy: 0.9362
+48608/60000 [=======================>......] - ETA: 16s - loss: 0.2072 - categorical_accuracy: 0.9363
+48672/60000 [=======================>......] - ETA: 16s - loss: 0.2070 - categorical_accuracy: 0.9363
+48736/60000 [=======================>......] - ETA: 16s - loss: 0.2068 - categorical_accuracy: 0.9364
+48800/60000 [=======================>......] - ETA: 15s - loss: 0.2069 - categorical_accuracy: 0.9364
+48864/60000 [=======================>......] - ETA: 15s - loss: 0.2067 - categorical_accuracy: 0.9365
+48928/60000 [=======================>......] - ETA: 15s - loss: 0.2065 - categorical_accuracy: 0.9365
+48992/60000 [=======================>......] - ETA: 15s - loss: 0.2063 - categorical_accuracy: 0.9365
+49056/60000 [=======================>......] - ETA: 15s - loss: 0.2061 - categorical_accuracy: 0.9366
+49120/60000 [=======================>......] - ETA: 15s - loss: 0.2060 - categorical_accuracy: 0.9366
+49184/60000 [=======================>......] - ETA: 15s - loss: 0.2059 - categorical_accuracy: 0.9367
+49248/60000 [=======================>......] - ETA: 15s - loss: 0.2057 - categorical_accuracy: 0.9368
+49312/60000 [=======================>......] - ETA: 15s - loss: 0.2057 - categorical_accuracy: 0.9368
+49376/60000 [=======================>......] - ETA: 15s - loss: 0.2056 - categorical_accuracy: 0.9368
+49440/60000 [=======================>......] - ETA: 15s - loss: 0.2056 - categorical_accuracy: 0.9368
+49504/60000 [=======================>......] - ETA: 14s - loss: 0.2054 - categorical_accuracy: 0.9369
+49568/60000 [=======================>......] - ETA: 14s - loss: 0.2052 - categorical_accuracy: 0.9369
+49632/60000 [=======================>......] - ETA: 14s - loss: 0.2051 - categorical_accuracy: 0.9369
+49696/60000 [=======================>......] - ETA: 14s - loss: 0.2050 - categorical_accuracy: 0.9370
+49760/60000 [=======================>......] - ETA: 14s - loss: 0.2049 - categorical_accuracy: 0.9370
+49824/60000 [=======================>......] - ETA: 14s - loss: 0.2048 - categorical_accuracy: 0.9371
+49888/60000 [=======================>......] - ETA: 14s - loss: 0.2047 - categorical_accuracy: 0.9371
+49920/60000 [=======================>......] - ETA: 14s - loss: 0.2046 - categorical_accuracy: 0.9372
+49984/60000 [=======================>......] - ETA: 14s - loss: 0.2047 - categorical_accuracy: 0.9371
+50048/60000 [========================>.....] - ETA: 14s - loss: 0.2046 - categorical_accuracy: 0.9372
+50112/60000 [========================>.....] - ETA: 14s - loss: 0.2046 - categorical_accuracy: 0.9372
+50176/60000 [========================>.....] - ETA: 14s - loss: 0.2044 - categorical_accuracy: 0.9372
+50208/60000 [========================>.....] - ETA: 13s - loss: 0.2043 - categorical_accuracy: 0.9372
+50272/60000 [========================>.....] - ETA: 13s - loss: 0.2041 - categorical_accuracy: 0.9373
+50336/60000 [========================>.....] - ETA: 13s - loss: 0.2040 - categorical_accuracy: 0.9374
+50400/60000 [========================>.....] - ETA: 13s - loss: 0.2039 - categorical_accuracy: 0.9374
+50464/60000 [========================>.....] - ETA: 13s - loss: 0.2037 - categorical_accuracy: 0.9375
+50528/60000 [========================>.....] - ETA: 13s - loss: 0.2037 - categorical_accuracy: 0.9375
+50592/60000 [========================>.....] - ETA: 13s - loss: 0.2035 - categorical_accuracy: 0.9376
+50656/60000 [========================>.....] - ETA: 13s - loss: 0.2034 - categorical_accuracy: 0.9376
+50720/60000 [========================>.....] - ETA: 13s - loss: 0.2033 - categorical_accuracy: 0.9377
+50784/60000 [========================>.....] - ETA: 13s - loss: 0.2033 - categorical_accuracy: 0.9377
+50816/60000 [========================>.....] - ETA: 13s - loss: 0.2032 - categorical_accuracy: 0.9377
+50880/60000 [========================>.....] - ETA: 13s - loss: 0.2030 - categorical_accuracy: 0.9378
+50944/60000 [========================>.....] - ETA: 12s - loss: 0.2030 - categorical_accuracy: 0.9378
+51008/60000 [========================>.....] - ETA: 12s - loss: 0.2028 - categorical_accuracy: 0.9378
+51072/60000 [========================>.....] - ETA: 12s - loss: 0.2027 - categorical_accuracy: 0.9379
+51136/60000 [========================>.....] - ETA: 12s - loss: 0.2026 - categorical_accuracy: 0.9379
+51200/60000 [========================>.....] - ETA: 12s - loss: 0.2024 - categorical_accuracy: 0.9379
+51264/60000 [========================>.....] - ETA: 12s - loss: 0.2024 - categorical_accuracy: 0.9379
+51328/60000 [========================>.....] - ETA: 12s - loss: 0.2022 - categorical_accuracy: 0.9380
+51392/60000 [========================>.....] - ETA: 12s - loss: 0.2021 - categorical_accuracy: 0.9380
+51456/60000 [========================>.....] - ETA: 12s - loss: 0.2020 - categorical_accuracy: 0.9381
+51520/60000 [========================>.....] - ETA: 12s - loss: 0.2018 - categorical_accuracy: 0.9381
+51584/60000 [========================>.....] - ETA: 12s - loss: 0.2017 - categorical_accuracy: 0.9381
+51648/60000 [========================>.....] - ETA: 11s - loss: 0.2016 - categorical_accuracy: 0.9382
+51712/60000 [========================>.....] - ETA: 11s - loss: 0.2015 - categorical_accuracy: 0.9382
+51776/60000 [========================>.....] - ETA: 11s - loss: 0.2014 - categorical_accuracy: 0.9382
+51840/60000 [========================>.....] - ETA: 11s - loss: 0.2013 - categorical_accuracy: 0.9382
+51904/60000 [========================>.....] - ETA: 11s - loss: 0.2011 - categorical_accuracy: 0.9383
+51968/60000 [========================>.....] - ETA: 11s - loss: 0.2009 - categorical_accuracy: 0.9383
+52032/60000 [=========================>....] - ETA: 11s - loss: 0.2008 - categorical_accuracy: 0.9383
+52064/60000 [=========================>....] - ETA: 11s - loss: 0.2007 - categorical_accuracy: 0.9384
+52096/60000 [=========================>....] - ETA: 11s - loss: 0.2007 - categorical_accuracy: 0.9384
+52160/60000 [=========================>....] - ETA: 11s - loss: 0.2006 - categorical_accuracy: 0.9384
+52224/60000 [=========================>....] - ETA: 11s - loss: 0.2004 - categorical_accuracy: 0.9385
+52288/60000 [=========================>....] - ETA: 11s - loss: 0.2002 - categorical_accuracy: 0.9386
+52352/60000 [=========================>....] - ETA: 10s - loss: 0.2000 - categorical_accuracy: 0.9386
+52416/60000 [=========================>....] - ETA: 10s - loss: 0.2000 - categorical_accuracy: 0.9386
+52480/60000 [=========================>....] - ETA: 10s - loss: 0.1998 - categorical_accuracy: 0.9387
+52512/60000 [=========================>....] - ETA: 10s - loss: 0.1997 - categorical_accuracy: 0.9387
+52576/60000 [=========================>....] - ETA: 10s - loss: 0.1995 - categorical_accuracy: 0.9388
+52640/60000 [=========================>....] - ETA: 10s - loss: 0.1994 - categorical_accuracy: 0.9388
+52704/60000 [=========================>....] - ETA: 10s - loss: 0.1992 - categorical_accuracy: 0.9389
+52768/60000 [=========================>....] - ETA: 10s - loss: 0.1992 - categorical_accuracy: 0.9389
+52800/60000 [=========================>....] - ETA: 10s - loss: 0.1992 - categorical_accuracy: 0.9389
+52864/60000 [=========================>....] - ETA: 10s - loss: 0.1990 - categorical_accuracy: 0.9389
+52928/60000 [=========================>....] - ETA: 10s - loss: 0.1990 - categorical_accuracy: 0.9389
+52992/60000 [=========================>....] - ETA: 9s - loss: 0.1988 - categorical_accuracy: 0.9390 
+53024/60000 [=========================>....] - ETA: 9s - loss: 0.1989 - categorical_accuracy: 0.9390
+53088/60000 [=========================>....] - ETA: 9s - loss: 0.1988 - categorical_accuracy: 0.9390
+53152/60000 [=========================>....] - ETA: 9s - loss: 0.1987 - categorical_accuracy: 0.9390
+53216/60000 [=========================>....] - ETA: 9s - loss: 0.1987 - categorical_accuracy: 0.9390
+53248/60000 [=========================>....] - ETA: 9s - loss: 0.1986 - categorical_accuracy: 0.9391
+53312/60000 [=========================>....] - ETA: 9s - loss: 0.1985 - categorical_accuracy: 0.9391
+53376/60000 [=========================>....] - ETA: 9s - loss: 0.1984 - categorical_accuracy: 0.9391
+53440/60000 [=========================>....] - ETA: 9s - loss: 0.1982 - categorical_accuracy: 0.9392
+53504/60000 [=========================>....] - ETA: 9s - loss: 0.1981 - categorical_accuracy: 0.9393
+53536/60000 [=========================>....] - ETA: 9s - loss: 0.1981 - categorical_accuracy: 0.9393
+53600/60000 [=========================>....] - ETA: 9s - loss: 0.1980 - categorical_accuracy: 0.9393
+53664/60000 [=========================>....] - ETA: 9s - loss: 0.1978 - categorical_accuracy: 0.9394
+53728/60000 [=========================>....] - ETA: 8s - loss: 0.1977 - categorical_accuracy: 0.9394
+53792/60000 [=========================>....] - ETA: 8s - loss: 0.1975 - categorical_accuracy: 0.9395
+53856/60000 [=========================>....] - ETA: 8s - loss: 0.1973 - categorical_accuracy: 0.9396
+53920/60000 [=========================>....] - ETA: 8s - loss: 0.1973 - categorical_accuracy: 0.9396
+53984/60000 [=========================>....] - ETA: 8s - loss: 0.1971 - categorical_accuracy: 0.9396
+54048/60000 [==========================>...] - ETA: 8s - loss: 0.1970 - categorical_accuracy: 0.9397
+54112/60000 [==========================>...] - ETA: 8s - loss: 0.1970 - categorical_accuracy: 0.9397
+54176/60000 [==========================>...] - ETA: 8s - loss: 0.1969 - categorical_accuracy: 0.9397
+54240/60000 [==========================>...] - ETA: 8s - loss: 0.1967 - categorical_accuracy: 0.9398
+54304/60000 [==========================>...] - ETA: 8s - loss: 0.1967 - categorical_accuracy: 0.9398
+54368/60000 [==========================>...] - ETA: 8s - loss: 0.1967 - categorical_accuracy: 0.9398
+54432/60000 [==========================>...] - ETA: 7s - loss: 0.1965 - categorical_accuracy: 0.9398
+54464/60000 [==========================>...] - ETA: 7s - loss: 0.1965 - categorical_accuracy: 0.9399
+54528/60000 [==========================>...] - ETA: 7s - loss: 0.1964 - categorical_accuracy: 0.9399
+54592/60000 [==========================>...] - ETA: 7s - loss: 0.1962 - categorical_accuracy: 0.9399
+54656/60000 [==========================>...] - ETA: 7s - loss: 0.1960 - categorical_accuracy: 0.9400
+54720/60000 [==========================>...] - ETA: 7s - loss: 0.1959 - categorical_accuracy: 0.9400
+54784/60000 [==========================>...] - ETA: 7s - loss: 0.1957 - categorical_accuracy: 0.9401
+54848/60000 [==========================>...] - ETA: 7s - loss: 0.1956 - categorical_accuracy: 0.9401
+54912/60000 [==========================>...] - ETA: 7s - loss: 0.1955 - categorical_accuracy: 0.9402
+54976/60000 [==========================>...] - ETA: 7s - loss: 0.1953 - categorical_accuracy: 0.9403
+55040/60000 [==========================>...] - ETA: 7s - loss: 0.1951 - categorical_accuracy: 0.9403
+55104/60000 [==========================>...] - ETA: 6s - loss: 0.1950 - categorical_accuracy: 0.9403
+55168/60000 [==========================>...] - ETA: 6s - loss: 0.1948 - categorical_accuracy: 0.9404
+55232/60000 [==========================>...] - ETA: 6s - loss: 0.1946 - categorical_accuracy: 0.9405
+55296/60000 [==========================>...] - ETA: 6s - loss: 0.1944 - categorical_accuracy: 0.9405
+55360/60000 [==========================>...] - ETA: 6s - loss: 0.1943 - categorical_accuracy: 0.9406
+55424/60000 [==========================>...] - ETA: 6s - loss: 0.1942 - categorical_accuracy: 0.9406
+55488/60000 [==========================>...] - ETA: 6s - loss: 0.1940 - categorical_accuracy: 0.9407
+55520/60000 [==========================>...] - ETA: 6s - loss: 0.1941 - categorical_accuracy: 0.9406
+55584/60000 [==========================>...] - ETA: 6s - loss: 0.1939 - categorical_accuracy: 0.9407
+55648/60000 [==========================>...] - ETA: 6s - loss: 0.1940 - categorical_accuracy: 0.9407
+55712/60000 [==========================>...] - ETA: 6s - loss: 0.1939 - categorical_accuracy: 0.9407
+55776/60000 [==========================>...] - ETA: 6s - loss: 0.1938 - categorical_accuracy: 0.9407
+55840/60000 [==========================>...] - ETA: 5s - loss: 0.1936 - categorical_accuracy: 0.9408
+55904/60000 [==========================>...] - ETA: 5s - loss: 0.1935 - categorical_accuracy: 0.9408
+55968/60000 [==========================>...] - ETA: 5s - loss: 0.1933 - categorical_accuracy: 0.9409
+56032/60000 [===========================>..] - ETA: 5s - loss: 0.1933 - categorical_accuracy: 0.9409
+56096/60000 [===========================>..] - ETA: 5s - loss: 0.1933 - categorical_accuracy: 0.9410
+56160/60000 [===========================>..] - ETA: 5s - loss: 0.1932 - categorical_accuracy: 0.9410
+56224/60000 [===========================>..] - ETA: 5s - loss: 0.1930 - categorical_accuracy: 0.9411
+56288/60000 [===========================>..] - ETA: 5s - loss: 0.1928 - categorical_accuracy: 0.9411
+56352/60000 [===========================>..] - ETA: 5s - loss: 0.1926 - categorical_accuracy: 0.9412
+56416/60000 [===========================>..] - ETA: 5s - loss: 0.1925 - categorical_accuracy: 0.9412
+56480/60000 [===========================>..] - ETA: 5s - loss: 0.1924 - categorical_accuracy: 0.9413
+56544/60000 [===========================>..] - ETA: 4s - loss: 0.1922 - categorical_accuracy: 0.9413
+56608/60000 [===========================>..] - ETA: 4s - loss: 0.1921 - categorical_accuracy: 0.9413
+56672/60000 [===========================>..] - ETA: 4s - loss: 0.1922 - categorical_accuracy: 0.9413
+56736/60000 [===========================>..] - ETA: 4s - loss: 0.1922 - categorical_accuracy: 0.9413
+56800/60000 [===========================>..] - ETA: 4s - loss: 0.1921 - categorical_accuracy: 0.9414
+56864/60000 [===========================>..] - ETA: 4s - loss: 0.1919 - categorical_accuracy: 0.9414
+56928/60000 [===========================>..] - ETA: 4s - loss: 0.1918 - categorical_accuracy: 0.9414
+56992/60000 [===========================>..] - ETA: 4s - loss: 0.1916 - categorical_accuracy: 0.9415
+57056/60000 [===========================>..] - ETA: 4s - loss: 0.1915 - categorical_accuracy: 0.9415
+57088/60000 [===========================>..] - ETA: 4s - loss: 0.1914 - categorical_accuracy: 0.9415
+57152/60000 [===========================>..] - ETA: 4s - loss: 0.1912 - categorical_accuracy: 0.9415
+57216/60000 [===========================>..] - ETA: 3s - loss: 0.1911 - categorical_accuracy: 0.9416
+57280/60000 [===========================>..] - ETA: 3s - loss: 0.1909 - categorical_accuracy: 0.9416
+57344/60000 [===========================>..] - ETA: 3s - loss: 0.1907 - categorical_accuracy: 0.9417
+57408/60000 [===========================>..] - ETA: 3s - loss: 0.1906 - categorical_accuracy: 0.9417
+57472/60000 [===========================>..] - ETA: 3s - loss: 0.1905 - categorical_accuracy: 0.9417
+57536/60000 [===========================>..] - ETA: 3s - loss: 0.1903 - categorical_accuracy: 0.9417
+57600/60000 [===========================>..] - ETA: 3s - loss: 0.1901 - categorical_accuracy: 0.9418
+57664/60000 [===========================>..] - ETA: 3s - loss: 0.1902 - categorical_accuracy: 0.9418
+57728/60000 [===========================>..] - ETA: 3s - loss: 0.1900 - categorical_accuracy: 0.9419
+57792/60000 [===========================>..] - ETA: 3s - loss: 0.1900 - categorical_accuracy: 0.9419
+57856/60000 [===========================>..] - ETA: 3s - loss: 0.1898 - categorical_accuracy: 0.9420
+57920/60000 [===========================>..] - ETA: 2s - loss: 0.1896 - categorical_accuracy: 0.9420
+57984/60000 [===========================>..] - ETA: 2s - loss: 0.1895 - categorical_accuracy: 0.9421
+58048/60000 [============================>.] - ETA: 2s - loss: 0.1894 - categorical_accuracy: 0.9421
+58112/60000 [============================>.] - ETA: 2s - loss: 0.1893 - categorical_accuracy: 0.9421
+58176/60000 [============================>.] - ETA: 2s - loss: 0.1892 - categorical_accuracy: 0.9422
+58240/60000 [============================>.] - ETA: 2s - loss: 0.1891 - categorical_accuracy: 0.9422
+58304/60000 [============================>.] - ETA: 2s - loss: 0.1891 - categorical_accuracy: 0.9422
+58368/60000 [============================>.] - ETA: 2s - loss: 0.1890 - categorical_accuracy: 0.9422
+58432/60000 [============================>.] - ETA: 2s - loss: 0.1888 - categorical_accuracy: 0.9423
+58496/60000 [============================>.] - ETA: 2s - loss: 0.1888 - categorical_accuracy: 0.9423
+58560/60000 [============================>.] - ETA: 2s - loss: 0.1888 - categorical_accuracy: 0.9423
+58624/60000 [============================>.] - ETA: 1s - loss: 0.1886 - categorical_accuracy: 0.9423
+58656/60000 [============================>.] - ETA: 1s - loss: 0.1885 - categorical_accuracy: 0.9423
+58720/60000 [============================>.] - ETA: 1s - loss: 0.1884 - categorical_accuracy: 0.9424
+58784/60000 [============================>.] - ETA: 1s - loss: 0.1882 - categorical_accuracy: 0.9425
+58848/60000 [============================>.] - ETA: 1s - loss: 0.1884 - categorical_accuracy: 0.9425
+58912/60000 [============================>.] - ETA: 1s - loss: 0.1882 - categorical_accuracy: 0.9425
+58976/60000 [============================>.] - ETA: 1s - loss: 0.1881 - categorical_accuracy: 0.9425
+59040/60000 [============================>.] - ETA: 1s - loss: 0.1881 - categorical_accuracy: 0.9425
+59104/60000 [============================>.] - ETA: 1s - loss: 0.1880 - categorical_accuracy: 0.9426
+59168/60000 [============================>.] - ETA: 1s - loss: 0.1878 - categorical_accuracy: 0.9426
+59232/60000 [============================>.] - ETA: 1s - loss: 0.1877 - categorical_accuracy: 0.9426
+59296/60000 [============================>.] - ETA: 1s - loss: 0.1875 - categorical_accuracy: 0.9427
+59360/60000 [============================>.] - ETA: 0s - loss: 0.1875 - categorical_accuracy: 0.9427
+59424/60000 [============================>.] - ETA: 0s - loss: 0.1875 - categorical_accuracy: 0.9427
+59488/60000 [============================>.] - ETA: 0s - loss: 0.1874 - categorical_accuracy: 0.9427
+59552/60000 [============================>.] - ETA: 0s - loss: 0.1873 - categorical_accuracy: 0.9428
+59616/60000 [============================>.] - ETA: 0s - loss: 0.1874 - categorical_accuracy: 0.9427
+59680/60000 [============================>.] - ETA: 0s - loss: 0.1873 - categorical_accuracy: 0.9428
+59744/60000 [============================>.] - ETA: 0s - loss: 0.1871 - categorical_accuracy: 0.9428
+59808/60000 [============================>.] - ETA: 0s - loss: 0.1872 - categorical_accuracy: 0.9428
+59872/60000 [============================>.] - ETA: 0s - loss: 0.1870 - categorical_accuracy: 0.9429
+59936/60000 [============================>.] - ETA: 0s - loss: 0.1871 - categorical_accuracy: 0.9429
+60000/60000 [==============================] - 88s 1ms/step - loss: 0.1870 - categorical_accuracy: 0.9429 - val_loss: 0.0460 - val_categorical_accuracy: 0.9855
+
+  ('#### Predict   ####################################################',) 
+
+  ('#### Path params   ################################################',) 
+
+  ('/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/', '/home/runner/work/mlmodels/mlmodels/keras_deepAR/') 
+
+   32/10000 [..............................] - ETA: 15s
+  224/10000 [..............................] - ETA: 4s 
+  416/10000 [>.............................] - ETA: 3s
+  608/10000 [>.............................] - ETA: 3s
+  800/10000 [=>............................] - ETA: 2s
+  992/10000 [=>............................] - ETA: 2s
+ 1216/10000 [==>...........................] - ETA: 2s
+ 1408/10000 [===>..........................] - ETA: 2s
+ 1600/10000 [===>..........................] - ETA: 2s
+ 1792/10000 [====>.........................] - ETA: 2s
+ 2016/10000 [=====>........................] - ETA: 2s
+ 2240/10000 [=====>........................] - ETA: 2s
+ 2464/10000 [======>.......................] - ETA: 2s
+ 2656/10000 [======>.......................] - ETA: 2s
+ 2880/10000 [=======>......................] - ETA: 1s
+ 3040/10000 [========>.....................] - ETA: 1s
+ 3232/10000 [========>.....................] - ETA: 1s
+ 3456/10000 [=========>....................] - ETA: 1s
+ 3648/10000 [=========>....................] - ETA: 1s
+ 3872/10000 [==========>...................] - ETA: 1s
+ 4096/10000 [===========>..................] - ETA: 1s
+ 4288/10000 [===========>..................] - ETA: 1s
+ 4512/10000 [============>.................] - ETA: 1s
+ 4704/10000 [=============>................] - ETA: 1s
+ 4896/10000 [=============>................] - ETA: 1s
+ 5120/10000 [==============>...............] - ETA: 1s
+ 5312/10000 [==============>...............] - ETA: 1s
+ 5504/10000 [===============>..............] - ETA: 1s
+ 5728/10000 [================>.............] - ETA: 1s
+ 5952/10000 [================>.............] - ETA: 1s
+ 6176/10000 [=================>............] - ETA: 1s
+ 6400/10000 [==================>...........] - ETA: 0s
+ 6624/10000 [==================>...........] - ETA: 0s
+ 6816/10000 [===================>..........] - ETA: 0s
+ 7040/10000 [====================>.........] - ETA: 0s
+ 7264/10000 [====================>.........] - ETA: 0s
+ 7488/10000 [=====================>........] - ETA: 0s
+ 7680/10000 [======================>.......] - ETA: 0s
+ 7904/10000 [======================>.......] - ETA: 0s
+ 8096/10000 [=======================>......] - ETA: 0s
+ 8320/10000 [=======================>......] - ETA: 0s
+ 8512/10000 [========================>.....] - ETA: 0s
+ 8704/10000 [=========================>....] - ETA: 0s
+ 8864/10000 [=========================>....] - ETA: 0s
+ 9056/10000 [==========================>...] - ETA: 0s
+ 9280/10000 [==========================>...] - ETA: 0s
+ 9472/10000 [===========================>..] - ETA: 0s
+ 9664/10000 [===========================>..] - ETA: 0s
+ 9856/10000 [============================>.] - ETA: 0s
+10000/10000 [==============================] - 3s 268us/step
+[[3.72793096e-07 1.46648873e-07 4.96977627e-05 ... 9.99934196e-01
+  1.23368551e-07 5.76113598e-06]
+ [9.01602980e-05 2.62232468e-04 9.99602973e-01 ... 6.41931521e-08
+  9.07620779e-06 3.34813031e-08]
+ [3.53657629e-06 9.99428451e-01 8.57460182e-05 ... 2.19607784e-04
+  4.15839713e-05 6.00686690e-06]
+ ...
+ [1.21603236e-07 3.40710676e-06 2.44576892e-08 ... 1.71965130e-05
+  1.02838139e-05 4.93204752e-05]
+ [2.52136033e-06 1.01671205e-07 6.06900414e-08 ... 4.12359043e-07
+  3.49599007e-03 1.44508886e-05]
+ [1.15881521e-05 2.21987960e-07 2.92676432e-05 ... 2.60081112e-08
+  2.70372493e-06 3.10412673e-07]]
+
+  ('#### metrics   ####################################################',) 
+
+  ('#### Path params   ################################################',) 
+
+  ('/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/', '/home/runner/work/mlmodels/mlmodels/keras_deepAR/') 
+{'loss_test:': 0.04596794061735272, 'accuracy_test:': 0.9854999780654907}
+
+  ('#### Save   #######################################################',) 
+{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/charcnn/result'}
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Warning: Permanently added the RSA host key for IP address '140.82.118.3' to the list of known hosts.
+From github.com:arita37/mlmodels_store
+   4b31bc3..b6c237a  master     -> origin/master
+Updating 4b31bc3..b6c237a
+Fast-forward
+ .../20200519/list_log_pullrequest_20200519.md      |   2 +-
+ error_list/20200519/list_log_testall_20200519.md   | 433 +++++++++++++++++++++
+ 2 files changed, 434 insertions(+), 1 deletion(-)
