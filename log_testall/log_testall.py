@@ -8210,3 +8210,215 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master 240481a] ml_store
+ 1 file changed, 36 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   1840f61..240481a  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//gluon_automl.py 
+
+  #### Loading params   ############################################## 
+
+  #### Model params   ################################################ 
+
+  #### Loading dataset   ############################################# 
+/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/optimizer/optimizer.py:167: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  Optimizer.opt_registry[name].__name__))
+Loaded data from: https://autogluon.s3.amazonaws.com/datasets/Inc/train.csv | Columns = 15 / 15 | Rows = 39073 -> 39073
+
+  #### Model init, fit   ############################################# 
+Loaded data from: https://autogluon.s3.amazonaws.com/datasets/Inc/train.csv | Columns = 15 / 15 | Rows = 39073 -> 39073
+Warning: `hyperparameter_tune=True` is currently experimental and may cause the process to hang. Setting `auto_stack=True` instead is recommended to achieve maximum quality models.
+Beginning AutoGluon training ... Time limit = 120s
+AutoGluon will save models to dataset/
+Train Data Rows:    39073
+Train Data Columns: 15
+Preprocessing data ...
+Here are the first 10 unique label values in your data:  [' Tech-support' ' Transport-moving' ' Other-service' ' ?'
+ ' Handlers-cleaners' ' Sales' ' Craft-repair' ' Adm-clerical'
+ ' Exec-managerial' ' Prof-specialty']
+AutoGluon infers your prediction problem is: multiclass  (because dtype of label-column == object)
+If this is wrong, please specify `problem_type` argument in fit() instead (You may specify problem_type as one of: ['binary', 'multiclass', 'regression'])
+
+Feature Generator processed 39073 data points with 14 features
+Original Features:
+	int features: 6
+	object features: 8
+Generated Features:
+	int features: 0
+All Features:
+	int features: 6
+	object features: 8
+	Data preprocessing and feature engineering runtime = 0.23s ...
+AutoGluon will gauge predictive performance using evaluation metric: accuracy
+To change this, specify the eval_metric argument of fit()
+AutoGluon will early stop models using evaluation metric: accuracy
+Saving dataset/learner.pkl
+Beginning hyperparameter tuning for Gradient Boosting Model...
+Hyperparameter search space for Gradient Boosting Model: 
+num_leaves:   Int: lower=26, upper=66
+learning_rate:   Real: lower=0.005, upper=0.2
+feature_fraction:   Real: lower=0.75, upper=1.0
+min_data_in_leaf:   Int: lower=2, upper=30
+Starting Experiments
+Num of Finished Tasks is 0
+Num of Pending Tasks is 5
+  0%|          | 0/5 [00:00<?, ?it/s]Saving dataset/models/LightGBMClassifier/trial_0_model.pkl
+Finished Task with config: {'feature_fraction': 1.0, 'learning_rate': 0.1, 'min_data_in_leaf': 20, 'num_leaves': 36} and reward: 0.3908
+Finished Task with config: b'\x80\x03}q\x00(X\x10\x00\x00\x00feature_fractionq\x01G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00learning_rateq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x10\x00\x00\x00min_data_in_leafq\x03K\x14X\n\x00\x00\x00num_leavesq\x04K$u.' and reward: 0.3908
+Finished Task with config: b'\x80\x03}q\x00(X\x10\x00\x00\x00feature_fractionq\x01G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00learning_rateq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x10\x00\x00\x00min_data_in_leafq\x03K\x14X\n\x00\x00\x00num_leavesq\x04K$u.' and reward: 0.3908
+ 40%|████      | 2/5 [00:20<00:30, 10.23s/it]Saving dataset/models/LightGBMClassifier/trial_1_model.pkl
+Finished Task with config: {'feature_fraction': 0.8446280935872369, 'learning_rate': 0.015348215470608505, 'min_data_in_leaf': 24, 'num_leaves': 33} and reward: 0.3896
+Finished Task with config: b'\x80\x03}q\x00(X\x10\x00\x00\x00feature_fractionq\x01G?\xeb\x071~\xe7\xae)X\r\x00\x00\x00learning_rateq\x02G?\x8fn\xe2\x9b\xfc]FX\x10\x00\x00\x00min_data_in_leafq\x03K\x18X\n\x00\x00\x00num_leavesq\x04K!u.' and reward: 0.3896
+Finished Task with config: b'\x80\x03}q\x00(X\x10\x00\x00\x00feature_fractionq\x01G?\xeb\x071~\xe7\xae)X\r\x00\x00\x00learning_rateq\x02G?\x8fn\xe2\x9b\xfc]FX\x10\x00\x00\x00min_data_in_leafq\x03K\x18X\n\x00\x00\x00num_leavesq\x04K!u.' and reward: 0.3896
+ 60%|██████    | 3/5 [00:40<00:26, 13.15s/it]Saving dataset/models/LightGBMClassifier/trial_2_model.pkl
+Finished Task with config: {'feature_fraction': 0.7962183503371144, 'learning_rate': 0.025630264475646525, 'min_data_in_leaf': 5, 'num_leaves': 34} and reward: 0.3888
+Finished Task with config: b'\x80\x03}q\x00(X\x10\x00\x00\x00feature_fractionq\x01G?\xe9z\x9e\xe7\xe5\x89\x07X\r\x00\x00\x00learning_rateq\x02G?\x9a>\xd1\xee\xd7\xca=X\x10\x00\x00\x00min_data_in_leafq\x03K\x05X\n\x00\x00\x00num_leavesq\x04K"u.' and reward: 0.3888
+Finished Task with config: b'\x80\x03}q\x00(X\x10\x00\x00\x00feature_fractionq\x01G?\xe9z\x9e\xe7\xe5\x89\x07X\r\x00\x00\x00learning_rateq\x02G?\x9a>\xd1\xee\xd7\xca=X\x10\x00\x00\x00min_data_in_leafq\x03K\x05X\n\x00\x00\x00num_leavesq\x04K"u.' and reward: 0.3888
+ 80%|████████  | 4/5 [01:00<00:15, 15.33s/it] 80%|████████  | 4/5 [01:00<00:15, 15.21s/it]
+Saving dataset/models/LightGBMClassifier/trial_3_model.pkl
+Finished Task with config: {'feature_fraction': 0.8199597904347836, 'learning_rate': 0.019600268920594587, 'min_data_in_leaf': 16, 'num_leaves': 35} and reward: 0.39
+Finished Task with config: b'\x80\x03}q\x00(X\x10\x00\x00\x00feature_fractionq\x01G?\xea=\x1cP~z#X\r\x00\x00\x00learning_rateq\x02G?\x94\x12\x17\xc8\x06\xeb\xd3X\x10\x00\x00\x00min_data_in_leafq\x03K\x10X\n\x00\x00\x00num_leavesq\x04K#u.' and reward: 0.39
+Finished Task with config: b'\x80\x03}q\x00(X\x10\x00\x00\x00feature_fractionq\x01G?\xea=\x1cP~z#X\r\x00\x00\x00learning_rateq\x02G?\x94\x12\x17\xc8\x06\xeb\xd3X\x10\x00\x00\x00min_data_in_leafq\x03K\x10X\n\x00\x00\x00num_leavesq\x04K#u.' and reward: 0.39
+Time for Gradient Boosting hyperparameter optimization: 81.53900051116943
+Best hyperparameter configuration for Gradient Boosting Model: 
+{'feature_fraction': 1.0, 'learning_rate': 0.1, 'min_data_in_leaf': 20, 'num_leaves': 36}
+Saving dataset/models/trainer.pkl
+Beginning hyperparameter tuning for Neural Network...
+Hyperparameter search space for Neural Network: 
+network_type:   Categorical['widedeep', 'feedforward']
+layers:   Categorical[[100], [1000], [200, 100], [300, 200, 100]]
+activation:   Categorical['relu', 'softrelu', 'tanh']
+embedding_size_factor:   Real: lower=0.5, upper=1.5
+use_batchnorm:   Categorical[True, False]
+dropout_prob:   Real: lower=0.0, upper=0.5
+learning_rate:   Real: lower=0.0001, upper=0.01
+weight_decay:   Real: lower=1e-12, upper=0.1
+AutoGluon Neural Network infers features are of the following types:
+{
+    "continuous": [
+        "age",
+        "education-num",
+        "hours-per-week"
+    ],
+    "skewed": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss"
+    ],
+    "onehot": [
+        "sex",
+        "class"
+    ],
+    "embed": [
+        "workclass",
+        "education",
+        "marital-status",
+        "relationship",
+        "race",
+        "native-country"
+    ],
+    "language": []
+}
+
+
+Saving dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
+Saving dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
+Starting Experiments
+Num of Finished Tasks is 0
+Num of Pending Tasks is 5
+  0%|          | 0/5 [00:00<?, ?it/s]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
+Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
+Saving dataset/models/NeuralNetClassifier/trial_4_tabularNN.pkl
+Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06} and reward: 0.3894
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3894
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3894
+ 40%|████      | 2/5 [00:49<01:14, 24.98s/it]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
+Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
+Saving dataset/models/NeuralNetClassifier/trial_5_tabularNN.pkl
+Finished Task with config: {'activation.choice': 2, 'dropout_prob': 0.428150297247848, 'embedding_size_factor': 0.6904951924404505, 'layers.choice': 0, 'learning_rate': 0.00017427850207949277, 'network_type.choice': 1, 'use_batchnorm.choice': 1, 'weight_decay': 6.667995627116388e-08} and reward: 0.3298
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xdbf\xd0\x81\x1c\xf0\x9dX\x15\x00\x00\x00embedding_size_factorq\x03G?\xe6\x18\x89_\xb2vxX\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?&\xd7\xd0\xef\x03\xfc\x8aX\x13\x00\x00\x00network_type.choiceq\x06K\x01X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G>q\xe6627D\xdfu.' and reward: 0.3298
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xdbf\xd0\x81\x1c\xf0\x9dX\x15\x00\x00\x00embedding_size_factorq\x03G?\xe6\x18\x89_\xb2vxX\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?&\xd7\xd0\xef\x03\xfc\x8aX\x13\x00\x00\x00network_type.choiceq\x06K\x01X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G>q\xe6627D\xdfu.' and reward: 0.3298
+ 60%|██████    | 3/5 [01:37<01:03, 31.79s/it] 60%|██████    | 3/5 [01:37<01:05, 32.55s/it]
+Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
+Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
+Saving dataset/models/NeuralNetClassifier/trial_6_tabularNN.pkl
+Finished Task with config: {'activation.choice': 2, 'dropout_prob': 0.43438736775409326, 'embedding_size_factor': 0.6647602103298169, 'layers.choice': 3, 'learning_rate': 0.004610810345908348, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 8.384220083558818e-05} and reward: 0.3788
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xdb\xcd\x00\xac\x93(\xa4X\x15\x00\x00\x00embedding_size_factorq\x03G?\xe5E\xb74a\x8e\x80X\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?r\xe2\xc8\xfaL\xbc\xddX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\x15\xfa\x8e\n\xdeD\xf1u.' and reward: 0.3788
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xdb\xcd\x00\xac\x93(\xa4X\x15\x00\x00\x00embedding_size_factorq\x03G?\xe5E\xb74a\x8e\x80X\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?r\xe2\xc8\xfaL\xbc\xddX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\x15\xfa\x8e\n\xdeD\xf1u.' and reward: 0.3788
+
+Please either provide filename or allow plot in get_training_curves
+Time for Neural Network hyperparameter optimization: 151.02971005439758
+Best hyperparameter configuration for Tabular Neural Network: 
+{'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06}
+Saving dataset/models/trainer.pkl
+Loading: dataset/models/LightGBMClassifier/trial_0_model.pkl
+Loading: dataset/models/LightGBMClassifier/trial_1_model.pkl
+Loading: dataset/models/LightGBMClassifier/trial_2_model.pkl
+Loading: dataset/models/LightGBMClassifier/trial_3_model.pkl
+Loading: dataset/models/NeuralNetClassifier/trial_4_tabularNN.pkl
+Loading: dataset/models/NeuralNetClassifier/trial_5_tabularNN.pkl
+Loading: dataset/models/NeuralNetClassifier/trial_6_tabularNN.pkl
+Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.77s of the -116.52s of remaining time.
+Ensemble size: 6
+Ensemble weights: 
+[0.5        0.         0.         0.33333333 0.         0.
+ 0.16666667]
+	0.4014	 = Validation accuracy score
+	1.56s	 = Training runtime
+	0.0s	 = Validation runtime
+Saving dataset/models/weighted_ensemble_k0_l1/model.pkl
+Saving dataset/models/trainer.pkl
+Saving dataset/models/trainer.pkl
+Saving dataset/models/trainer.pkl
+AutoGluon training complete, total runtime = 238.13s ...
+Loading: dataset/models/trainer.pkl
+
+  #### save the trained model  ####################################### 
+
+  #### Predict   #################################################### 
+Loaded data from: https://autogluon.s3.amazonaws.com/datasets/Inc/test.csv | Columns = 15 / 15 | Rows = 9769 -> 9769
+Loading: dataset/models/trainer.pkl
+Loading: dataset/models/weighted_ensemble_k0_l1/model.pkl
+Loading: dataset/models/LightGBMClassifier/trial_0_model.pkl
+Loading: dataset/models/NeuralNetClassifier/trial_4_tabularNN.pkl
+Loading: dataset/models/NeuralNetClassifier/trial_5_tabularNN.pkl
+
+  #### Plot   ####################################################### 
+
+  #### Save/Load   ################################################## 
+Saving dataset/learner.pkl
+TabularPredictor saved. To load, use: TabularPredictor.load(dataset/)
+<mlmodels.model_gluon.util_autogluon.Model_empty object at 0x7f37c812ac18>
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+From github.com:arita37/mlmodels_store
+   240481a..b5bc5ff  master     -> origin/master
+Updating 240481a..b5bc5ff
+Fast-forward
+ error_list/20200519/list_log_testall_20200519.md | 175 +++++++++++++++++++++++
+ 1 file changed, 175 insertions(+)
