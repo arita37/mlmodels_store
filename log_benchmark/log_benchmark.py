@@ -9,15 +9,17 @@
 
  ************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/76b7a81be9b27c2e92c4951280c0a8da664b997c', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '76b7a81be9b27c2e92c4951280c0a8da664b997c', 'workflow': 'test_benchmark'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '73f54da32a5da4768415eb9105ad096255137679', 'workflow': 'test_benchmark'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_benchmark
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/76b7a81be9b27c2e92c4951280c0a8da664b997c
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/76b7a81be9b27c2e92c4951280c0a8da664b997c
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/73f54da32a5da4768415eb9105ad096255137679
+
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679
 
  ************************************************************************************************************************
 
@@ -133,13 +135,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f4ff068cf28> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fa6bb444e80> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-17 12:14:08.999256
+  date_run                              2020-05-19 08:14:24.468998
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -147,7 +149,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-05-17 12:14:09.002936
+  date_run                              2020-05-19 08:14:24.472751
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -155,7 +157,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-05-17 12:14:09.005992
+  date_run                              2020-05-19 08:14:24.476211
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -163,7 +165,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-05-17 12:14:09.009025
+  date_run                              2020-05-19 08:14:24.479772
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -213,166 +215,166 @@ Non-trainable params: 0
 _________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.armdn.Model object at 0x7f4ffc4563c8> <class 'mlmodels.model_keras.armdn.Model'>
+>>>model:  <mlmodels.model_keras.armdn.Model object at 0x7fa6bb1c8a58> <class 'mlmodels.model_keras.armdn.Model'>
 
   #### Loading dataset   ############################################# 
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Epoch 1/10
 
-1/1 [==============================] - 2s 2s/step - loss: 354453.4375
+1/1 [==============================] - 2s 2s/step - loss: 356205.4375
 Epoch 2/10
 
-1/1 [==============================] - 0s 105ms/step - loss: 260406.2656
+1/1 [==============================] - 0s 114ms/step - loss: 280919.7500
 Epoch 3/10
 
-1/1 [==============================] - 0s 103ms/step - loss: 167947.8438
+1/1 [==============================] - 0s 110ms/step - loss: 193960.7969
 Epoch 4/10
 
-1/1 [==============================] - 0s 98ms/step - loss: 97775.4844
+1/1 [==============================] - 0s 110ms/step - loss: 117953.8125
 Epoch 5/10
 
-1/1 [==============================] - 0s 99ms/step - loss: 56355.2422
+1/1 [==============================] - 0s 109ms/step - loss: 68366.2188
 Epoch 6/10
 
-1/1 [==============================] - 0s 98ms/step - loss: 33527.3750
+1/1 [==============================] - 0s 101ms/step - loss: 40797.9805
 Epoch 7/10
 
-1/1 [==============================] - 0s 100ms/step - loss: 21121.3613
+1/1 [==============================] - 0s 107ms/step - loss: 25387.6348
 Epoch 8/10
 
-1/1 [==============================] - 0s 109ms/step - loss: 14150.5420
+1/1 [==============================] - 0s 101ms/step - loss: 16715.9980
 Epoch 9/10
 
-1/1 [==============================] - 0s 103ms/step - loss: 10044.7881
+1/1 [==============================] - 0s 99ms/step - loss: 11806.6445
 Epoch 10/10
 
-1/1 [==============================] - 0s 100ms/step - loss: 7542.6650
+1/1 [==============================] - 0s 103ms/step - loss: 8850.9336
 
   #### Inference Need return ypred, ytrue ######################### 
-[[ 8.2369310e-01 -5.2478516e-01  9.3614161e-03  1.4110944e+00
-  -7.1628034e-02 -1.3394301e-01  1.4468534e+00 -7.0223224e-01
-  -8.9721274e-01 -4.0947664e-01  8.8413936e-01 -3.9279789e-01
-   1.3245974e+00 -3.5920143e-03 -2.4041303e-02 -4.1516539e-01
-  -4.3092626e-01  6.2100226e-01  2.9361308e-02  1.3576729e+00
-  -2.5319171e-01  9.8834997e-01  2.7998966e-01  4.3860674e-03
-   1.1325760e+00  1.5660770e+00 -6.9570291e-01  3.0299756e-01
-   2.8733069e-01  7.1673989e-01  3.2823437e-01  1.2233876e+00
-   3.8480544e-01  7.9827738e-01  1.1132150e+00  1.3352137e+00
-   6.7126381e-01 -8.1862736e-01  1.3771514e+00 -3.5296637e-01
-   5.0163347e-01 -6.7630976e-01 -3.4115678e-01 -1.7710036e-01
-  -1.4761084e+00 -7.9543942e-01  3.2884714e-01  8.3330345e-01
-   1.7625213e-01  5.2181679e-01 -1.8043101e-02 -1.4654338e+00
-  -4.0039811e-01  3.5926968e-01  3.7952754e-01 -2.5759152e-01
-   1.5589572e-01 -6.3724774e-01 -5.3047907e-01 -2.7113575e-01
-   5.9344232e-02  8.7313193e-01  3.3580929e-01 -2.5504422e-01
-   9.7579741e-01  1.0393685e-01  1.2083354e+00 -6.6379452e-01
-   7.0006406e-01 -1.5004520e+00  3.3376604e-01  7.1757984e-01
-  -1.1656496e-01  1.5679411e+00  1.1139526e+00  5.1768589e-01
-   8.5573041e-01  9.1432166e-01 -7.6913500e-01 -3.5322037e-01
-  -8.3323163e-01  6.8714112e-01  3.9878882e-02  1.3980489e+00
-  -5.0930709e-02  6.4030731e-01 -1.9896552e-01 -1.5532200e+00
-  -2.5188088e-01 -1.8685499e-01 -8.3307976e-01  1.4779449e+00
-  -1.7423687e+00  4.9677342e-01  6.8293941e-01 -4.1835368e-01
-   8.1127107e-02 -1.4554487e+00 -3.8581178e-01  1.1552001e+00
-  -1.7213091e+00  4.9468458e-02  5.9809613e-01  1.0863791e+00
-   6.2156957e-01  1.3551762e+00 -1.5044609e-01 -8.2531464e-01
-  -2.1632296e-01 -9.0862751e-02  1.8562114e+00  1.3195639e+00
-  -7.6815081e-01  1.2774439e+00 -1.5503910e+00  5.4727817e-01
-   1.3794125e+00  6.2197715e-01 -6.9999379e-01 -1.7678563e-01
-  -1.1543822e-02  8.0368690e+00  6.4563370e+00  5.7248192e+00
-   7.8987417e+00  7.4945664e+00  6.3124685e+00  8.6980152e+00
-   5.8599300e+00  7.7216263e+00  6.9031796e+00  8.3998718e+00
-   7.5694942e+00  7.9873109e+00  6.9640870e+00  7.5759187e+00
-   8.1470251e+00  5.6243696e+00  8.6551857e+00  7.8494859e+00
-   7.0756769e+00  7.2139959e+00  5.6079979e+00  8.5622826e+00
-   8.4948339e+00  6.3018789e+00  8.4379673e+00  7.8487082e+00
-   6.3559861e+00  8.1103086e+00  7.5388174e+00  8.9033899e+00
-   7.1243525e+00  8.5261021e+00  7.5172424e+00  6.3509045e+00
-   8.1576786e+00  7.8691010e+00  7.7870526e+00  6.5611205e+00
-   7.1634159e+00  7.0945072e+00  7.7107258e+00  5.9467330e+00
-   6.0630326e+00  6.6814647e+00  7.5570922e+00  7.3822017e+00
-   7.8953443e+00  7.8887854e+00  7.4514785e+00  7.2999606e+00
-   6.9992285e+00  9.0688553e+00  6.0058770e+00  7.3956213e+00
-   5.4063044e+00  7.5515013e+00  7.1048894e+00  8.1894798e+00
-   1.1233778e+00  4.7459173e-01  1.5522386e+00  8.5720444e-01
-   1.1396220e+00  2.3848493e+00  9.6544254e-01  1.5165070e+00
-   2.3730345e+00  1.0819950e+00  1.4060121e+00  5.7505751e-01
-   6.0420406e-01  2.4438272e+00  4.5756555e-01  1.6606364e+00
-   1.4268119e+00  5.3541976e-01  1.2640033e+00  1.7740315e+00
-   1.9364777e+00  2.1378288e+00  1.1374667e+00  2.0282631e+00
-   5.9774864e-01  1.3334388e+00  5.3885990e-01  1.7048370e+00
-   2.1142659e+00  2.8261089e-01  1.6706935e+00  3.3492613e-01
-   1.0730075e+00  3.3982629e-01  4.2212170e-01  1.7468939e+00
-   1.4771909e+00  8.0890149e-01  2.0190678e+00  1.1004214e+00
-   4.1019452e-01  3.9673829e-01  2.8397899e+00  1.3985463e+00
-   2.0383084e+00  7.8337538e-01  1.0458429e+00  2.2798982e+00
-   6.2723339e-01  1.1722248e+00  5.2706701e-01  3.2447582e-01
-   1.3414797e+00  2.1665344e+00  1.7224096e+00  9.8863202e-01
-   1.7296510e+00  2.4432459e+00  8.2260644e-01  8.4253085e-01
-   1.1403260e+00  7.5347483e-01  1.7055509e+00  1.3143301e+00
-   2.2905393e+00  1.4267677e+00  1.5603101e+00  8.4093803e-01
-   8.2282150e-01  1.2798452e+00  1.4653326e+00  9.7844374e-01
-   8.6894369e-01  3.9319456e-01  1.6164942e+00  2.4326930e+00
-   3.3616531e-01  4.1413271e-01  8.3879232e-01  1.4378932e+00
-   1.2203059e+00  4.1506928e-01  1.3157868e-01  4.8889971e-01
-   2.8926353e+00  1.5696596e+00  8.6566389e-01  6.8514192e-01
-   1.0535560e+00  9.5889920e-01  2.9350626e-01  1.8122067e+00
-   1.1669017e+00  4.6155113e-01  2.3380846e-01  2.0356698e+00
-   1.3839002e+00  1.0040481e+00  2.1061273e+00  7.7666926e-01
-   2.1760781e+00  8.0711216e-01  9.0889657e-01  1.4479749e+00
-   2.8711492e-01  4.3556571e-01  6.9547331e-01  1.3567204e+00
-   2.2030334e+00  1.5698720e+00  4.2030013e-01  1.1396905e+00
-   2.7436912e-01  2.1966434e+00  2.2061574e-01  6.7558360e-01
-   7.8687441e-01  8.7331355e-02  7.2152120e-01  1.9426646e+00
-   8.7361574e-02  9.1327200e+00  9.0303164e+00  6.7611947e+00
-   6.3750443e+00  8.8816175e+00  8.5222893e+00  7.4355712e+00
-   7.6159496e+00  6.9869037e+00  6.9547539e+00  7.9876590e+00
-   8.2035055e+00  8.8266745e+00  9.1403303e+00  7.2991710e+00
-   6.9336734e+00  8.0019217e+00  7.7386007e+00  8.1551180e+00
-   6.0735898e+00  8.7178068e+00  8.3441763e+00  6.9728799e+00
-   8.3337355e+00  7.5876994e+00  8.1495638e+00  8.3386497e+00
-   7.7095747e+00  8.9814205e+00  9.2219486e+00  7.1859832e+00
-   6.9380212e+00  8.1143646e+00  8.3091621e+00  7.0198236e+00
-   9.3963232e+00  7.3727384e+00  9.1260462e+00  7.2248421e+00
-   8.4885769e+00  6.3346877e+00  7.6374135e+00  8.2861462e+00
-   8.5160809e+00  7.2799144e+00  7.9970241e+00  7.9511962e+00
-   7.0386114e+00  8.4197693e+00  7.6387997e+00  7.7870049e+00
-   8.0027246e+00  7.7868419e+00  7.8239970e+00  7.0506439e+00
-   7.5935535e+00  8.1070814e+00  7.8755522e+00  9.1585989e+00
-  -8.5588255e+00 -2.2821019e+00  2.0631990e+00]]
+[[ 1.30077913e-01  7.61766243e+00  5.19895601e+00  5.31935501e+00
+   7.50051212e+00  7.25887012e+00  7.53937769e+00  7.34339046e+00
+   6.10836458e+00  6.80659389e+00  6.47840548e+00  6.85901117e+00
+   4.55206728e+00  8.28784084e+00  6.13435888e+00  6.14340591e+00
+   7.11636639e+00  6.59264421e+00  7.80150795e+00  6.63936758e+00
+   6.20499277e+00  7.12220764e+00  6.37816477e+00  5.47230673e+00
+   6.85406160e+00  6.96719837e+00  6.11612368e+00  6.36430025e+00
+   6.51712275e+00  6.48813581e+00  7.81557274e+00  8.15991497e+00
+   5.14056587e+00  6.68512678e+00  7.68457651e+00  7.04089260e+00
+   7.11744308e+00  8.13958740e+00  7.86168051e+00  6.85369205e+00
+   7.39719534e+00  6.28740454e+00  7.02028942e+00  6.15390301e+00
+   7.07239485e+00  6.54129887e+00  7.26904058e+00  6.40060091e+00
+   6.05745173e+00  7.31857681e+00  6.87500668e+00  7.67347193e+00
+   5.80395222e+00  6.31024790e+00  5.85214472e+00  7.70157719e+00
+   7.26420498e+00  5.96045876e+00  7.33417988e+00  5.50056314e+00
+   1.20347345e+00 -7.47853994e-01 -1.20037723e+00 -6.44025445e-01
+  -7.93910265e-01  3.75807524e-01 -9.95898426e-01 -4.33488578e-01
+   2.50163972e-02  1.24163055e+00  8.54119658e-03 -4.37383592e-01
+  -6.59193039e-01  4.86371636e-01 -9.94662642e-01  3.60006988e-01
+  -1.79346323e-01  2.10508317e-01  6.40808225e-01 -6.21665835e-01
+   1.02076566e+00  9.07991409e-01  1.66188610e+00  2.10277438e-01
+  -3.58055413e-01  2.30604291e-01 -1.70483446e+00 -1.32862782e+00
+   1.93519294e-01 -8.93563092e-01 -1.33367801e+00  1.41864169e+00
+  -1.62195832e-01 -2.49184072e-01  5.47192037e-01  2.64444768e-01
+   1.48345542e+00 -4.56800759e-01  4.46122944e-01  1.91772354e+00
+   1.02283669e+00  2.31832623e-01 -8.77430081e-01  8.25912356e-01
+   1.22606301e+00  2.77262837e-01 -7.29849517e-01  4.77295309e-01
+   3.05084765e-01  1.98305392e+00  1.25401056e+00 -3.38312328e-01
+   5.20275414e-01  3.08932275e-01  5.98136067e-01  3.73522997e-01
+   7.78388306e-02  1.77169526e+00  6.43648326e-01 -1.72907162e+00
+  -2.00515890e+00 -7.41804481e-01 -8.52877319e-01  8.53468537e-01
+  -9.49333012e-01 -2.53361851e-01  5.03421724e-02 -2.05686510e-01
+   5.97984910e-01  9.90384221e-01  2.85141885e-01 -3.54231268e-01
+   9.53196883e-01  1.16303539e+00  3.94055486e-01  1.85213852e+00
+   1.95855647e-03  4.24930871e-01  8.42292786e-01  1.17425549e+00
+  -1.04705453e+00  1.49677634e+00  1.29174316e+00  1.07917655e+00
+   2.31869549e-01 -1.65182829e+00 -7.32374012e-01 -4.65548038e-03
+  -1.31772256e+00  5.83773792e-01 -1.58893788e+00 -6.30043626e-01
+  -6.68281019e-01 -2.37118199e-01  6.96740985e-01  5.76719999e-01
+   2.26341105e+00  5.74176550e-01 -1.16482759e+00  3.12546551e-01
+  -8.41585398e-02 -1.35116041e+00 -8.12011719e-01 -4.47642326e-01
+  -1.79634988e-01  1.09147334e+00  4.36634779e-01 -7.57138848e-01
+   1.58444390e-01 -3.79294544e-01  9.57014143e-01 -1.54474831e+00
+  -4.91650611e-01  2.75437057e-01 -6.53291702e-01  9.57976520e-01
+   7.22727180e-02 -2.46224210e-01  9.29888427e-01  1.27696311e+00
+   8.28626752e-02  5.69465351e+00  6.40227222e+00  6.99754381e+00
+   7.59873343e+00  6.19169760e+00  7.67849493e+00  5.30731773e+00
+   7.08438206e+00  7.26083422e+00  7.89637041e+00  7.83428335e+00
+   8.05146027e+00  7.34668827e+00  9.01473808e+00  7.21382952e+00
+   8.71019650e+00  8.19252682e+00  6.59498882e+00  7.60528326e+00
+   5.50736856e+00  6.75447845e+00  7.97216034e+00  7.28828955e+00
+   7.74917603e+00  7.99899864e+00  6.33963919e+00  7.16124344e+00
+   7.84190416e+00  5.83876657e+00  7.56703186e+00  7.05590773e+00
+   7.21574450e+00  7.91071987e+00  7.62324238e+00  8.32148743e+00
+   7.65332413e+00  7.47185183e+00  8.04419708e+00  6.55430984e+00
+   7.25340223e+00  6.50463390e+00  6.82784700e+00  7.14154196e+00
+   6.88833714e+00  6.43527746e+00  6.58507538e+00  6.74297953e+00
+   7.92425394e+00  7.39762497e+00  7.38855314e+00  6.97887039e+00
+   8.13994980e+00  7.53864574e+00  8.47870827e+00  7.17568207e+00
+   8.27776718e+00  6.49896908e+00  7.99853849e+00  8.03791142e+00
+   5.72487652e-01  4.59745765e-01  2.12113357e+00  1.86287308e+00
+   2.56235838e+00  1.62547040e+00  1.96250379e-01  8.09683084e-01
+   4.40233767e-01  9.49084342e-01  1.01504886e+00  1.63727999e+00
+   1.62656486e+00  2.21213484e+00  5.38005888e-01  1.13566685e+00
+   1.97654378e+00  4.81599391e-01  8.66363108e-01  3.66299212e-01
+   8.24728847e-01  2.76800847e+00  1.05444705e+00  8.31298172e-01
+   1.69004405e+00  7.23809600e-01  1.14940965e+00  1.31271601e+00
+   1.04966664e+00  5.16673803e-01  3.01679087e+00  2.31777406e+00
+   1.65777385e+00  1.36188459e+00  1.30017877e+00  5.28831065e-01
+   2.19684315e+00  3.42970490e-01  1.23284602e+00  1.25348473e+00
+   8.43774915e-01  2.20396042e+00  2.53776860e+00  6.86795473e-01
+   1.03391945e+00  1.55920744e-01  1.20707798e+00  3.57455373e-01
+   6.14704430e-01  7.20451832e-01  3.36854815e-01  1.33046150e-01
+   8.94689679e-01  1.91482592e+00  2.69344664e+00  2.20528984e+00
+   1.57490683e+00  5.90033770e-01  2.02996111e+00  1.80511761e+00
+   6.78151250e-01  2.34536791e+00  1.49360871e+00  8.68382454e-01
+   2.71003914e+00  7.22354531e-01  4.35158134e-01  2.73232818e-01
+   1.11463070e-01  3.62777591e-01  2.02753735e+00  1.82398653e+00
+   1.70804274e+00  4.55496311e-01  1.19503474e+00  7.01920390e-01
+   1.05815220e+00  2.99949312e+00  6.01786733e-01  2.19073832e-01
+   2.01793909e-01  4.32076693e-01  1.12815285e+00  1.08715999e+00
+   1.87765777e-01  4.56873834e-01  1.25494611e+00  9.97998178e-01
+   1.53751206e+00  9.25404727e-01  3.80032301e-01  2.41764355e+00
+   9.60635662e-01  1.36648524e+00  1.74244463e+00  1.14554346e+00
+   1.91797137e+00  2.24015808e+00  7.34442949e-01  1.73772573e+00
+   1.86999881e+00  1.10431850e-01  1.01870096e+00  1.11722374e+00
+   1.45572877e+00  1.47584808e+00  1.59211707e+00  1.73118591e+00
+   1.20677960e+00  7.01036811e-01  7.57946968e-01  9.50671017e-01
+   2.51848745e+00  5.65362811e-01  6.13295555e-01  1.16513944e+00
+   5.88365138e-01  2.19789076e+00  1.22344375e-01  5.60499907e-01
+   6.00401592e+00 -7.32963085e+00 -7.80993557e+00]]
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-17 12:14:18.118978
+  date_run                              2020-05-19 08:14:34.619709
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   95.1039
+metric                                                   95.4481
 metric_name                                  mean_absolute_error
 Name: 4, dtype: object 
 
-  date_run                              2020-05-17 12:14:18.123997
+  date_run                              2020-05-19 08:14:34.623847
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   9062.34
+metric                                                   9128.18
 metric_name                                   mean_squared_error
 Name: 5, dtype: object 
 
-  date_run                              2020-05-17 12:14:18.127619
+  date_run                              2020-05-19 08:14:34.627867
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   95.1961
+metric                                                   95.1651
 metric_name                                median_absolute_error
 Name: 6, dtype: object 
 
-  date_run                              2020-05-17 12:14:18.131843
+  date_run                              2020-05-19 08:14:34.631153
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                  -810.597
+metric                                                  -816.493
 metric_name                                             r2_score
 Name: 7, dtype: object 
 
@@ -388,16 +390,16 @@ Name: 7, dtype: object
   #### Setup Model   ############################################## 
 | N-Beats
 | --  Stack Nbeatsnet.Generic_Block (#0) (share_weights_in_stack=0)
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @139980970243408
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @139978440995224
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @139978440995728
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140353740912064
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140352648143368
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140352648143872
 | --  Stack Nbeatsnet.Generic_Block (#1) (share_weights_in_stack=0)
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @139978440996232
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @139978440996736
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @139978440997240
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140352648144376
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140352648144880
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140352648145384
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.nbeats.Model object at 0x7f4fdbff9da0> <class 'mlmodels.model_tch.nbeats.Model'>
+>>>model:  <mlmodels.model_tch.nbeats.Model object at 0x7fa6a6dcfe10> <class 'mlmodels.model_tch.nbeats.Model'>
 [[0.40504701]
  [0.40695405]
  [0.39710839]
@@ -406,520 +408,520 @@ Name: 7, dtype: object
  [0.95086039]
  [0.95547277]]
 --- fiting ---
-grad_step = 000000, loss = 0.461442
+grad_step = 000000, loss = 0.494447
 plot()
 Saved image to .//n_beats_0.png.
-grad_step = 000001, loss = 0.427355
-grad_step = 000002, loss = 0.404432
-grad_step = 000003, loss = 0.379343
-grad_step = 000004, loss = 0.352624
-grad_step = 000005, loss = 0.326060
-grad_step = 000006, loss = 0.299754
-grad_step = 000007, loss = 0.283359
-grad_step = 000008, loss = 0.269376
-grad_step = 000009, loss = 0.255762
-grad_step = 000010, loss = 0.242808
-grad_step = 000011, loss = 0.229252
-grad_step = 000012, loss = 0.217699
-grad_step = 000013, loss = 0.208493
-grad_step = 000014, loss = 0.201008
-grad_step = 000015, loss = 0.193916
-grad_step = 000016, loss = 0.186753
-grad_step = 000017, loss = 0.178870
-grad_step = 000018, loss = 0.170248
-grad_step = 000019, loss = 0.161595
-grad_step = 000020, loss = 0.153354
-grad_step = 000021, loss = 0.145624
-grad_step = 000022, loss = 0.138687
-grad_step = 000023, loss = 0.132240
-grad_step = 000024, loss = 0.125700
-grad_step = 000025, loss = 0.119053
-grad_step = 000026, loss = 0.112816
-grad_step = 000027, loss = 0.107381
-grad_step = 000028, loss = 0.102449
-grad_step = 000029, loss = 0.097316
-grad_step = 000030, loss = 0.091830
-grad_step = 000031, loss = 0.086471
-grad_step = 000032, loss = 0.081578
-grad_step = 000033, loss = 0.077056
-grad_step = 000034, loss = 0.072821
-grad_step = 000035, loss = 0.068907
-grad_step = 000036, loss = 0.065143
-grad_step = 000037, loss = 0.061375
-grad_step = 000038, loss = 0.057812
-grad_step = 000039, loss = 0.054578
-grad_step = 000040, loss = 0.051483
-grad_step = 000041, loss = 0.048502
-grad_step = 000042, loss = 0.045678
-grad_step = 000043, loss = 0.042905
-grad_step = 000044, loss = 0.040248
-grad_step = 000045, loss = 0.037887
-grad_step = 000046, loss = 0.035705
-grad_step = 000047, loss = 0.033558
-grad_step = 000048, loss = 0.031524
-grad_step = 000049, loss = 0.029585
-grad_step = 000050, loss = 0.027727
-grad_step = 000051, loss = 0.026023
-grad_step = 000052, loss = 0.024423
-grad_step = 000053, loss = 0.022889
-grad_step = 000054, loss = 0.021459
-grad_step = 000055, loss = 0.020093
-grad_step = 000056, loss = 0.018809
-grad_step = 000057, loss = 0.017645
-grad_step = 000058, loss = 0.016529
-grad_step = 000059, loss = 0.015467
-grad_step = 000060, loss = 0.014478
-grad_step = 000061, loss = 0.013539
-grad_step = 000062, loss = 0.012679
-grad_step = 000063, loss = 0.011877
-grad_step = 000064, loss = 0.011128
-grad_step = 000065, loss = 0.010444
-grad_step = 000066, loss = 0.009792
-grad_step = 000067, loss = 0.009189
-grad_step = 000068, loss = 0.008635
-grad_step = 000069, loss = 0.008111
-grad_step = 000070, loss = 0.007637
-grad_step = 000071, loss = 0.007195
-grad_step = 000072, loss = 0.006791
-grad_step = 000073, loss = 0.006420
-grad_step = 000074, loss = 0.006075
-grad_step = 000075, loss = 0.005764
-grad_step = 000076, loss = 0.005470
-grad_step = 000077, loss = 0.005201
-grad_step = 000078, loss = 0.004955
-grad_step = 000079, loss = 0.004728
-grad_step = 000080, loss = 0.004525
-grad_step = 000081, loss = 0.004334
-grad_step = 000082, loss = 0.004160
-grad_step = 000083, loss = 0.003997
-grad_step = 000084, loss = 0.003848
-grad_step = 000085, loss = 0.003712
-grad_step = 000086, loss = 0.003586
-grad_step = 000087, loss = 0.003470
-grad_step = 000088, loss = 0.003361
-grad_step = 000089, loss = 0.003262
-grad_step = 000090, loss = 0.003170
-grad_step = 000091, loss = 0.003085
-grad_step = 000092, loss = 0.003004
-grad_step = 000093, loss = 0.002931
-grad_step = 000094, loss = 0.002863
-grad_step = 000095, loss = 0.002800
-grad_step = 000096, loss = 0.002742
-grad_step = 000097, loss = 0.002688
-grad_step = 000098, loss = 0.002638
-grad_step = 000099, loss = 0.002592
-grad_step = 000100, loss = 0.002549
+grad_step = 000001, loss = 0.461861
+grad_step = 000002, loss = 0.435492
+grad_step = 000003, loss = 0.408104
+grad_step = 000004, loss = 0.381600
+grad_step = 000005, loss = 0.361561
+grad_step = 000006, loss = 0.348978
+grad_step = 000007, loss = 0.332440
+grad_step = 000008, loss = 0.319544
+grad_step = 000009, loss = 0.306794
+grad_step = 000010, loss = 0.293070
+grad_step = 000011, loss = 0.281539
+grad_step = 000012, loss = 0.271933
+grad_step = 000013, loss = 0.261983
+grad_step = 000014, loss = 0.250993
+grad_step = 000015, loss = 0.240063
+grad_step = 000016, loss = 0.229796
+grad_step = 000017, loss = 0.219388
+grad_step = 000018, loss = 0.209634
+grad_step = 000019, loss = 0.200949
+grad_step = 000020, loss = 0.192236
+grad_step = 000021, loss = 0.183087
+grad_step = 000022, loss = 0.173835
+grad_step = 000023, loss = 0.164898
+grad_step = 000024, loss = 0.156606
+grad_step = 000025, loss = 0.148957
+grad_step = 000026, loss = 0.141511
+grad_step = 000027, loss = 0.133850
+grad_step = 000028, loss = 0.126055
+grad_step = 000029, loss = 0.118771
+grad_step = 000030, loss = 0.112375
+grad_step = 000031, loss = 0.106279
+grad_step = 000032, loss = 0.099960
+grad_step = 000033, loss = 0.093562
+grad_step = 000034, loss = 0.087477
+grad_step = 000035, loss = 0.082072
+grad_step = 000036, loss = 0.077049
+grad_step = 000037, loss = 0.071998
+grad_step = 000038, loss = 0.067003
+grad_step = 000039, loss = 0.062272
+grad_step = 000040, loss = 0.057915
+grad_step = 000041, loss = 0.053781
+grad_step = 000042, loss = 0.049854
+grad_step = 000043, loss = 0.046125
+grad_step = 000044, loss = 0.042608
+grad_step = 000045, loss = 0.039258
+grad_step = 000046, loss = 0.036110
+grad_step = 000047, loss = 0.033227
+grad_step = 000048, loss = 0.030548
+grad_step = 000049, loss = 0.027995
+grad_step = 000050, loss = 0.025600
+grad_step = 000051, loss = 0.023447
+grad_step = 000052, loss = 0.021487
+grad_step = 000053, loss = 0.019620
+grad_step = 000054, loss = 0.017878
+grad_step = 000055, loss = 0.016322
+grad_step = 000056, loss = 0.014930
+grad_step = 000057, loss = 0.013626
+grad_step = 000058, loss = 0.012430
+grad_step = 000059, loss = 0.011346
+grad_step = 000060, loss = 0.010359
+grad_step = 000061, loss = 0.009464
+grad_step = 000062, loss = 0.008666
+grad_step = 000063, loss = 0.007937
+grad_step = 000064, loss = 0.007255
+grad_step = 000065, loss = 0.006650
+grad_step = 000066, loss = 0.006119
+grad_step = 000067, loss = 0.005628
+grad_step = 000068, loss = 0.005170
+grad_step = 000069, loss = 0.004771
+grad_step = 000070, loss = 0.004416
+grad_step = 000071, loss = 0.004092
+grad_step = 000072, loss = 0.003801
+grad_step = 000073, loss = 0.003543
+grad_step = 000074, loss = 0.003312
+grad_step = 000075, loss = 0.003110
+grad_step = 000076, loss = 0.002932
+grad_step = 000077, loss = 0.002770
+grad_step = 000078, loss = 0.002631
+grad_step = 000079, loss = 0.002516
+grad_step = 000080, loss = 0.002414
+grad_step = 000081, loss = 0.002322
+grad_step = 000082, loss = 0.002246
+grad_step = 000083, loss = 0.002183
+grad_step = 000084, loss = 0.002135
+grad_step = 000085, loss = 0.002104
+grad_step = 000086, loss = 0.002123
+grad_step = 000087, loss = 0.002055
+grad_step = 000088, loss = 0.002013
+grad_step = 000089, loss = 0.001971
+grad_step = 000090, loss = 0.001957
+grad_step = 000091, loss = 0.001968
+grad_step = 000092, loss = 0.001958
+grad_step = 000093, loss = 0.001943
+grad_step = 000094, loss = 0.001918
+grad_step = 000095, loss = 0.001891
+grad_step = 000096, loss = 0.001873
+grad_step = 000097, loss = 0.001873
+grad_step = 000098, loss = 0.001883
+grad_step = 000099, loss = 0.001895
+grad_step = 000100, loss = 0.001905
 plot()
 Saved image to .//n_beats_100.png.
-grad_step = 000101, loss = 0.002510
-grad_step = 000102, loss = 0.002474
-grad_step = 000103, loss = 0.002441
-grad_step = 000104, loss = 0.002411
-grad_step = 000105, loss = 0.002383
-grad_step = 000106, loss = 0.002358
-grad_step = 000107, loss = 0.002334
-grad_step = 000108, loss = 0.002313
-grad_step = 000109, loss = 0.002294
-grad_step = 000110, loss = 0.002277
-grad_step = 000111, loss = 0.002261
-grad_step = 000112, loss = 0.002247
-grad_step = 000113, loss = 0.002233
-grad_step = 000114, loss = 0.002222
-grad_step = 000115, loss = 0.002211
-grad_step = 000116, loss = 0.002201
-grad_step = 000117, loss = 0.002192
-grad_step = 000118, loss = 0.002184
-grad_step = 000119, loss = 0.002177
-grad_step = 000120, loss = 0.002170
-grad_step = 000121, loss = 0.002163
-grad_step = 000122, loss = 0.002157
-grad_step = 000123, loss = 0.002151
-grad_step = 000124, loss = 0.002145
-grad_step = 000125, loss = 0.002139
-grad_step = 000126, loss = 0.002134
-grad_step = 000127, loss = 0.002129
-grad_step = 000128, loss = 0.002123
-grad_step = 000129, loss = 0.002118
-grad_step = 000130, loss = 0.002113
-grad_step = 000131, loss = 0.002107
-grad_step = 000132, loss = 0.002102
-grad_step = 000133, loss = 0.002096
-grad_step = 000134, loss = 0.002090
-grad_step = 000135, loss = 0.002085
-grad_step = 000136, loss = 0.002080
-grad_step = 000137, loss = 0.002074
-grad_step = 000138, loss = 0.002068
-grad_step = 000139, loss = 0.002065
-grad_step = 000140, loss = 0.002065
-grad_step = 000141, loss = 0.002061
-grad_step = 000142, loss = 0.002053
-grad_step = 000143, loss = 0.002045
-grad_step = 000144, loss = 0.002040
-grad_step = 000145, loss = 0.002040
-grad_step = 000146, loss = 0.002035
-grad_step = 000147, loss = 0.002024
-grad_step = 000148, loss = 0.002021
-grad_step = 000149, loss = 0.002020
-grad_step = 000150, loss = 0.002014
-grad_step = 000151, loss = 0.002009
-grad_step = 000152, loss = 0.002010
-grad_step = 000153, loss = 0.002009
-grad_step = 000154, loss = 0.001997
-grad_step = 000155, loss = 0.001992
-grad_step = 000156, loss = 0.001994
-grad_step = 000157, loss = 0.001987
-grad_step = 000158, loss = 0.001979
-grad_step = 000159, loss = 0.001978
-grad_step = 000160, loss = 0.001976
-grad_step = 000161, loss = 0.001967
-grad_step = 000162, loss = 0.001964
-grad_step = 000163, loss = 0.001963
-grad_step = 000164, loss = 0.001958
-grad_step = 000165, loss = 0.001957
-grad_step = 000166, loss = 0.001967
-grad_step = 000167, loss = 0.001989
-grad_step = 000168, loss = 0.002019
-grad_step = 000169, loss = 0.001982
-grad_step = 000170, loss = 0.001941
-grad_step = 000171, loss = 0.001943
-grad_step = 000172, loss = 0.001962
-grad_step = 000173, loss = 0.001950
-grad_step = 000174, loss = 0.001925
-grad_step = 000175, loss = 0.001927
-grad_step = 000176, loss = 0.001947
-grad_step = 000177, loss = 0.001946
-grad_step = 000178, loss = 0.001928
-grad_step = 000179, loss = 0.001909
-grad_step = 000180, loss = 0.001909
-grad_step = 000181, loss = 0.001920
-grad_step = 000182, loss = 0.001921
-grad_step = 000183, loss = 0.001910
-grad_step = 000184, loss = 0.001895
-grad_step = 000185, loss = 0.001892
-grad_step = 000186, loss = 0.001896
-grad_step = 000187, loss = 0.001898
-grad_step = 000188, loss = 0.001897
-grad_step = 000189, loss = 0.001889
-grad_step = 000190, loss = 0.001882
-grad_step = 000191, loss = 0.001875
-grad_step = 000192, loss = 0.001872
-grad_step = 000193, loss = 0.001871
-grad_step = 000194, loss = 0.001872
-grad_step = 000195, loss = 0.001874
-grad_step = 000196, loss = 0.001875
-grad_step = 000197, loss = 0.001877
-grad_step = 000198, loss = 0.001876
-grad_step = 000199, loss = 0.001873
-grad_step = 000200, loss = 0.001868
+grad_step = 000101, loss = 0.001877
+grad_step = 000102, loss = 0.001849
+grad_step = 000103, loss = 0.001822
+grad_step = 000104, loss = 0.001809
+grad_step = 000105, loss = 0.001813
+grad_step = 000106, loss = 0.001828
+grad_step = 000107, loss = 0.001849
+grad_step = 000108, loss = 0.001851
+grad_step = 000109, loss = 0.001850
+grad_step = 000110, loss = 0.001807
+grad_step = 000111, loss = 0.001773
+grad_step = 000112, loss = 0.001758
+grad_step = 000113, loss = 0.001768
+grad_step = 000114, loss = 0.001793
+grad_step = 000115, loss = 0.001792
+grad_step = 000116, loss = 0.001785
+grad_step = 000117, loss = 0.001751
+grad_step = 000118, loss = 0.001728
+grad_step = 000119, loss = 0.001723
+grad_step = 000120, loss = 0.001731
+grad_step = 000121, loss = 0.001745
+grad_step = 000122, loss = 0.001743
+grad_step = 000123, loss = 0.001738
+grad_step = 000124, loss = 0.001718
+grad_step = 000125, loss = 0.001702
+grad_step = 000126, loss = 0.001692
+grad_step = 000127, loss = 0.001690
+grad_step = 000128, loss = 0.001694
+grad_step = 000129, loss = 0.001703
+grad_step = 000130, loss = 0.001719
+grad_step = 000131, loss = 0.001728
+grad_step = 000132, loss = 0.001743
+grad_step = 000133, loss = 0.001732
+grad_step = 000134, loss = 0.001715
+grad_step = 000135, loss = 0.001688
+grad_step = 000136, loss = 0.001676
+grad_step = 000137, loss = 0.001677
+grad_step = 000138, loss = 0.001682
+grad_step = 000139, loss = 0.001685
+grad_step = 000140, loss = 0.001673
+grad_step = 000141, loss = 0.001663
+grad_step = 000142, loss = 0.001653
+grad_step = 000143, loss = 0.001650
+grad_step = 000144, loss = 0.001652
+grad_step = 000145, loss = 0.001657
+grad_step = 000146, loss = 0.001659
+grad_step = 000147, loss = 0.001659
+grad_step = 000148, loss = 0.001650
+grad_step = 000149, loss = 0.001639
+grad_step = 000150, loss = 0.001628
+grad_step = 000151, loss = 0.001620
+grad_step = 000152, loss = 0.001621
+grad_step = 000153, loss = 0.001630
+grad_step = 000154, loss = 0.001656
+grad_step = 000155, loss = 0.001704
+grad_step = 000156, loss = 0.001803
+grad_step = 000157, loss = 0.001884
+grad_step = 000158, loss = 0.001937
+grad_step = 000159, loss = 0.001767
+grad_step = 000160, loss = 0.001639
+grad_step = 000161, loss = 0.001668
+grad_step = 000162, loss = 0.001711
+grad_step = 000163, loss = 0.001675
+grad_step = 000164, loss = 0.001622
+grad_step = 000165, loss = 0.001671
+grad_step = 000166, loss = 0.001744
+grad_step = 000167, loss = 0.001679
+grad_step = 000168, loss = 0.001600
+grad_step = 000169, loss = 0.001584
+grad_step = 000170, loss = 0.001636
+grad_step = 000171, loss = 0.001678
+grad_step = 000172, loss = 0.001626
+grad_step = 000173, loss = 0.001572
+grad_step = 000174, loss = 0.001569
+grad_step = 000175, loss = 0.001604
+grad_step = 000176, loss = 0.001619
+grad_step = 000177, loss = 0.001586
+grad_step = 000178, loss = 0.001556
+grad_step = 000179, loss = 0.001561
+grad_step = 000180, loss = 0.001578
+grad_step = 000181, loss = 0.001582
+grad_step = 000182, loss = 0.001561
+grad_step = 000183, loss = 0.001546
+grad_step = 000184, loss = 0.001547
+grad_step = 000185, loss = 0.001556
+grad_step = 000186, loss = 0.001559
+grad_step = 000187, loss = 0.001548
+grad_step = 000188, loss = 0.001534
+grad_step = 000189, loss = 0.001526
+grad_step = 000190, loss = 0.001527
+grad_step = 000191, loss = 0.001533
+grad_step = 000192, loss = 0.001535
+grad_step = 000193, loss = 0.001534
+grad_step = 000194, loss = 0.001528
+grad_step = 000195, loss = 0.001523
+grad_step = 000196, loss = 0.001520
+grad_step = 000197, loss = 0.001526
+grad_step = 000198, loss = 0.001543
+grad_step = 000199, loss = 0.001581
+grad_step = 000200, loss = 0.001597
 plot()
 Saved image to .//n_beats_200.png.
-grad_step = 000201, loss = 0.001864
-grad_step = 000202, loss = 0.001857
-grad_step = 000203, loss = 0.001851
-grad_step = 000204, loss = 0.001846
-grad_step = 000205, loss = 0.001842
-grad_step = 000206, loss = 0.001839
-grad_step = 000207, loss = 0.001836
-grad_step = 000208, loss = 0.001835
-grad_step = 000209, loss = 0.001835
-grad_step = 000210, loss = 0.001837
-grad_step = 000211, loss = 0.001843
-grad_step = 000212, loss = 0.001859
-grad_step = 000213, loss = 0.001884
-grad_step = 000214, loss = 0.001929
-grad_step = 000215, loss = 0.001919
-grad_step = 000216, loss = 0.001890
-grad_step = 000217, loss = 0.001843
-grad_step = 000218, loss = 0.001830
-grad_step = 000219, loss = 0.001845
-grad_step = 000220, loss = 0.001857
-grad_step = 000221, loss = 0.001848
-grad_step = 000222, loss = 0.001820
-grad_step = 000223, loss = 0.001809
-grad_step = 000224, loss = 0.001829
-grad_step = 000225, loss = 0.001838
-grad_step = 000226, loss = 0.001817
-grad_step = 000227, loss = 0.001806
-grad_step = 000228, loss = 0.001815
-grad_step = 000229, loss = 0.001813
-grad_step = 000230, loss = 0.001796
-grad_step = 000231, loss = 0.001791
-grad_step = 000232, loss = 0.001801
-grad_step = 000233, loss = 0.001801
-grad_step = 000234, loss = 0.001789
-grad_step = 000235, loss = 0.001788
-grad_step = 000236, loss = 0.001793
-grad_step = 000237, loss = 0.001791
-grad_step = 000238, loss = 0.001783
-grad_step = 000239, loss = 0.001779
-grad_step = 000240, loss = 0.001781
-grad_step = 000241, loss = 0.001783
-grad_step = 000242, loss = 0.001779
-grad_step = 000243, loss = 0.001776
-grad_step = 000244, loss = 0.001779
-grad_step = 000245, loss = 0.001785
-grad_step = 000246, loss = 0.001791
-grad_step = 000247, loss = 0.001802
-grad_step = 000248, loss = 0.001817
-grad_step = 000249, loss = 0.001842
-grad_step = 000250, loss = 0.001839
-grad_step = 000251, loss = 0.001820
-grad_step = 000252, loss = 0.001778
-grad_step = 000253, loss = 0.001754
-grad_step = 000254, loss = 0.001757
-grad_step = 000255, loss = 0.001770
-grad_step = 000256, loss = 0.001778
-grad_step = 000257, loss = 0.001771
-grad_step = 000258, loss = 0.001761
-grad_step = 000259, loss = 0.001751
-grad_step = 000260, loss = 0.001743
-grad_step = 000261, loss = 0.001741
-grad_step = 000262, loss = 0.001744
-grad_step = 000263, loss = 0.001748
-grad_step = 000264, loss = 0.001747
-grad_step = 000265, loss = 0.001739
-grad_step = 000266, loss = 0.001729
-grad_step = 000267, loss = 0.001723
-grad_step = 000268, loss = 0.001723
-grad_step = 000269, loss = 0.001728
-grad_step = 000270, loss = 0.001730
-grad_step = 000271, loss = 0.001727
-grad_step = 000272, loss = 0.001721
-grad_step = 000273, loss = 0.001715
-grad_step = 000274, loss = 0.001712
-grad_step = 000275, loss = 0.001711
-grad_step = 000276, loss = 0.001714
-grad_step = 000277, loss = 0.001717
-grad_step = 000278, loss = 0.001719
-grad_step = 000279, loss = 0.001717
-grad_step = 000280, loss = 0.001714
-grad_step = 000281, loss = 0.001715
-grad_step = 000282, loss = 0.001725
-grad_step = 000283, loss = 0.001740
-grad_step = 000284, loss = 0.001771
-grad_step = 000285, loss = 0.001790
-grad_step = 000286, loss = 0.001814
-grad_step = 000287, loss = 0.001780
-grad_step = 000288, loss = 0.001731
-grad_step = 000289, loss = 0.001692
-grad_step = 000290, loss = 0.001697
-grad_step = 000291, loss = 0.001727
-grad_step = 000292, loss = 0.001736
-grad_step = 000293, loss = 0.001716
-grad_step = 000294, loss = 0.001686
-grad_step = 000295, loss = 0.001679
-grad_step = 000296, loss = 0.001695
-grad_step = 000297, loss = 0.001708
-grad_step = 000298, loss = 0.001702
-grad_step = 000299, loss = 0.001683
-grad_step = 000300, loss = 0.001670
+grad_step = 000201, loss = 0.001614
+grad_step = 000202, loss = 0.001564
+grad_step = 000203, loss = 0.001506
+grad_step = 000204, loss = 0.001486
+grad_step = 000205, loss = 0.001517
+grad_step = 000206, loss = 0.001567
+grad_step = 000207, loss = 0.001572
+grad_step = 000208, loss = 0.001533
+grad_step = 000209, loss = 0.001481
+grad_step = 000210, loss = 0.001481
+grad_step = 000211, loss = 0.001517
+grad_step = 000212, loss = 0.001539
+grad_step = 000213, loss = 0.001531
+grad_step = 000214, loss = 0.001506
+grad_step = 000215, loss = 0.001514
+grad_step = 000216, loss = 0.001572
+grad_step = 000217, loss = 0.001636
+grad_step = 000218, loss = 0.001680
+grad_step = 000219, loss = 0.001612
+grad_step = 000220, loss = 0.001521
+grad_step = 000221, loss = 0.001450
+grad_step = 000222, loss = 0.001471
+grad_step = 000223, loss = 0.001540
+grad_step = 000224, loss = 0.001542
+grad_step = 000225, loss = 0.001501
+grad_step = 000226, loss = 0.001434
+grad_step = 000227, loss = 0.001419
+grad_step = 000228, loss = 0.001455
+grad_step = 000229, loss = 0.001490
+grad_step = 000230, loss = 0.001509
+grad_step = 000231, loss = 0.001468
+grad_step = 000232, loss = 0.001424
+grad_step = 000233, loss = 0.001396
+grad_step = 000234, loss = 0.001401
+grad_step = 000235, loss = 0.001423
+grad_step = 000236, loss = 0.001430
+grad_step = 000237, loss = 0.001419
+grad_step = 000238, loss = 0.001392
+grad_step = 000239, loss = 0.001377
+grad_step = 000240, loss = 0.001386
+grad_step = 000241, loss = 0.001436
+grad_step = 000242, loss = 0.001594
+grad_step = 000243, loss = 0.001873
+grad_step = 000244, loss = 0.001536
+grad_step = 000245, loss = 0.001643
+grad_step = 000246, loss = 0.001472
+grad_step = 000247, loss = 0.001507
+grad_step = 000248, loss = 0.001494
+grad_step = 000249, loss = 0.001503
+grad_step = 000250, loss = 0.001496
+grad_step = 000251, loss = 0.001468
+grad_step = 000252, loss = 0.001441
+grad_step = 000253, loss = 0.001429
+grad_step = 000254, loss = 0.001457
+grad_step = 000255, loss = 0.001442
+grad_step = 000256, loss = 0.001427
+grad_step = 000257, loss = 0.001386
+grad_step = 000258, loss = 0.001405
+grad_step = 000259, loss = 0.001386
+grad_step = 000260, loss = 0.001418
+grad_step = 000261, loss = 0.001371
+grad_step = 000262, loss = 0.001398
+grad_step = 000263, loss = 0.001354
+grad_step = 000264, loss = 0.001385
+grad_step = 000265, loss = 0.001356
+grad_step = 000266, loss = 0.001379
+grad_step = 000267, loss = 0.001359
+grad_step = 000268, loss = 0.001362
+grad_step = 000269, loss = 0.001352
+grad_step = 000270, loss = 0.001344
+grad_step = 000271, loss = 0.001350
+grad_step = 000272, loss = 0.001339
+grad_step = 000273, loss = 0.001351
+grad_step = 000274, loss = 0.001338
+grad_step = 000275, loss = 0.001348
+grad_step = 000276, loss = 0.001339
+grad_step = 000277, loss = 0.001341
+grad_step = 000278, loss = 0.001337
+grad_step = 000279, loss = 0.001331
+grad_step = 000280, loss = 0.001334
+grad_step = 000281, loss = 0.001325
+grad_step = 000282, loss = 0.001327
+grad_step = 000283, loss = 0.001321
+grad_step = 000284, loss = 0.001321
+grad_step = 000285, loss = 0.001319
+grad_step = 000286, loss = 0.001315
+grad_step = 000287, loss = 0.001316
+grad_step = 000288, loss = 0.001312
+grad_step = 000289, loss = 0.001313
+grad_step = 000290, loss = 0.001311
+grad_step = 000291, loss = 0.001310
+grad_step = 000292, loss = 0.001310
+grad_step = 000293, loss = 0.001309
+grad_step = 000294, loss = 0.001313
+grad_step = 000295, loss = 0.001316
+grad_step = 000296, loss = 0.001328
+grad_step = 000297, loss = 0.001348
+grad_step = 000298, loss = 0.001392
+grad_step = 000299, loss = 0.001446
+grad_step = 000300, loss = 0.001549
 plot()
 Saved image to .//n_beats_300.png.
-grad_step = 000301, loss = 0.001672
-grad_step = 000302, loss = 0.001681
-grad_step = 000303, loss = 0.001687
-grad_step = 000304, loss = 0.001683
-grad_step = 000305, loss = 0.001673
-grad_step = 000306, loss = 0.001664
-grad_step = 000307, loss = 0.001661
-grad_step = 000308, loss = 0.001664
-grad_step = 000309, loss = 0.001667
-grad_step = 000310, loss = 0.001669
-grad_step = 000311, loss = 0.001666
-grad_step = 000312, loss = 0.001662
-grad_step = 000313, loss = 0.001658
-grad_step = 000314, loss = 0.001657
-grad_step = 000315, loss = 0.001660
-grad_step = 000316, loss = 0.001668
-grad_step = 000317, loss = 0.001682
-grad_step = 000318, loss = 0.001707
-grad_step = 000319, loss = 0.001750
-grad_step = 000320, loss = 0.001796
-grad_step = 000321, loss = 0.001851
-grad_step = 000322, loss = 0.001804
-grad_step = 000323, loss = 0.001725
-grad_step = 000324, loss = 0.001670
-grad_step = 000325, loss = 0.001667
-grad_step = 000326, loss = 0.001674
-grad_step = 000327, loss = 0.001670
-grad_step = 000328, loss = 0.001691
-grad_step = 000329, loss = 0.001686
-grad_step = 000330, loss = 0.001642
-grad_step = 000331, loss = 0.001643
-grad_step = 000332, loss = 0.001665
-grad_step = 000333, loss = 0.001647
-grad_step = 000334, loss = 0.001635
-grad_step = 000335, loss = 0.001647
-grad_step = 000336, loss = 0.001642
-grad_step = 000337, loss = 0.001630
-grad_step = 000338, loss = 0.001634
-grad_step = 000339, loss = 0.001634
-grad_step = 000340, loss = 0.001623
-grad_step = 000341, loss = 0.001623
-grad_step = 000342, loss = 0.001630
-grad_step = 000343, loss = 0.001625
-grad_step = 000344, loss = 0.001615
-grad_step = 000345, loss = 0.001616
-grad_step = 000346, loss = 0.001620
-grad_step = 000347, loss = 0.001614
-grad_step = 000348, loss = 0.001610
-grad_step = 000349, loss = 0.001612
-grad_step = 000350, loss = 0.001612
-grad_step = 000351, loss = 0.001607
-grad_step = 000352, loss = 0.001605
-grad_step = 000353, loss = 0.001606
-grad_step = 000354, loss = 0.001605
-grad_step = 000355, loss = 0.001601
-grad_step = 000356, loss = 0.001598
-grad_step = 000357, loss = 0.001598
-grad_step = 000358, loss = 0.001598
-grad_step = 000359, loss = 0.001596
-grad_step = 000360, loss = 0.001593
-grad_step = 000361, loss = 0.001593
-grad_step = 000362, loss = 0.001593
-grad_step = 000363, loss = 0.001591
-grad_step = 000364, loss = 0.001589
-grad_step = 000365, loss = 0.001589
-grad_step = 000366, loss = 0.001590
-grad_step = 000367, loss = 0.001592
-grad_step = 000368, loss = 0.001595
-grad_step = 000369, loss = 0.001604
-grad_step = 000370, loss = 0.001619
-grad_step = 000371, loss = 0.001651
-grad_step = 000372, loss = 0.001693
-grad_step = 000373, loss = 0.001762
-grad_step = 000374, loss = 0.001794
-grad_step = 000375, loss = 0.001800
-grad_step = 000376, loss = 0.001716
-grad_step = 000377, loss = 0.001622
-grad_step = 000378, loss = 0.001587
-grad_step = 000379, loss = 0.001613
-grad_step = 000380, loss = 0.001656
-grad_step = 000381, loss = 0.001660
-grad_step = 000382, loss = 0.001610
-grad_step = 000383, loss = 0.001572
-grad_step = 000384, loss = 0.001583
-grad_step = 000385, loss = 0.001615
-grad_step = 000386, loss = 0.001619
-grad_step = 000387, loss = 0.001587
-grad_step = 000388, loss = 0.001564
-grad_step = 000389, loss = 0.001568
-grad_step = 000390, loss = 0.001578
-grad_step = 000391, loss = 0.001582
-grad_step = 000392, loss = 0.001578
-grad_step = 000393, loss = 0.001567
-grad_step = 000394, loss = 0.001556
-grad_step = 000395, loss = 0.001553
-grad_step = 000396, loss = 0.001560
-grad_step = 000397, loss = 0.001567
-grad_step = 000398, loss = 0.001560
-grad_step = 000399, loss = 0.001548
-grad_step = 000400, loss = 0.001542
+grad_step = 000301, loss = 0.001561
+grad_step = 000302, loss = 0.001538
+grad_step = 000303, loss = 0.001397
+grad_step = 000304, loss = 0.001306
+grad_step = 000305, loss = 0.001339
+grad_step = 000306, loss = 0.001418
+grad_step = 000307, loss = 0.001436
+grad_step = 000308, loss = 0.001357
+grad_step = 000309, loss = 0.001298
+grad_step = 000310, loss = 0.001297
+grad_step = 000311, loss = 0.001336
+grad_step = 000312, loss = 0.001389
+grad_step = 000313, loss = 0.001398
+grad_step = 000314, loss = 0.001384
+grad_step = 000315, loss = 0.001339
+grad_step = 000316, loss = 0.001304
+grad_step = 000317, loss = 0.001297
+grad_step = 000318, loss = 0.001310
+grad_step = 000319, loss = 0.001321
+grad_step = 000320, loss = 0.001317
+grad_step = 000321, loss = 0.001308
+grad_step = 000322, loss = 0.001299
+grad_step = 000323, loss = 0.001295
+grad_step = 000324, loss = 0.001294
+grad_step = 000325, loss = 0.001289
+grad_step = 000326, loss = 0.001283
+grad_step = 000327, loss = 0.001280
+grad_step = 000328, loss = 0.001281
+grad_step = 000329, loss = 0.001285
+grad_step = 000330, loss = 0.001285
+grad_step = 000331, loss = 0.001280
+grad_step = 000332, loss = 0.001271
+grad_step = 000333, loss = 0.001264
+grad_step = 000334, loss = 0.001261
+grad_step = 000335, loss = 0.001264
+grad_step = 000336, loss = 0.001268
+grad_step = 000337, loss = 0.001269
+grad_step = 000338, loss = 0.001267
+grad_step = 000339, loss = 0.001261
+grad_step = 000340, loss = 0.001256
+grad_step = 000341, loss = 0.001252
+grad_step = 000342, loss = 0.001251
+grad_step = 000343, loss = 0.001252
+grad_step = 000344, loss = 0.001253
+grad_step = 000345, loss = 0.001253
+grad_step = 000346, loss = 0.001252
+grad_step = 000347, loss = 0.001249
+grad_step = 000348, loss = 0.001246
+grad_step = 000349, loss = 0.001244
+grad_step = 000350, loss = 0.001243
+grad_step = 000351, loss = 0.001242
+grad_step = 000352, loss = 0.001242
+grad_step = 000353, loss = 0.001242
+grad_step = 000354, loss = 0.001243
+grad_step = 000355, loss = 0.001243
+grad_step = 000356, loss = 0.001245
+grad_step = 000357, loss = 0.001246
+grad_step = 000358, loss = 0.001249
+grad_step = 000359, loss = 0.001254
+grad_step = 000360, loss = 0.001263
+grad_step = 000361, loss = 0.001275
+grad_step = 000362, loss = 0.001296
+grad_step = 000363, loss = 0.001319
+grad_step = 000364, loss = 0.001352
+grad_step = 000365, loss = 0.001373
+grad_step = 000366, loss = 0.001391
+grad_step = 000367, loss = 0.001383
+grad_step = 000368, loss = 0.001348
+grad_step = 000369, loss = 0.001300
+grad_step = 000370, loss = 0.001251
+grad_step = 000371, loss = 0.001228
+grad_step = 000372, loss = 0.001235
+grad_step = 000373, loss = 0.001262
+grad_step = 000374, loss = 0.001291
+grad_step = 000375, loss = 0.001319
+grad_step = 000376, loss = 0.001318
+grad_step = 000377, loss = 0.001305
+grad_step = 000378, loss = 0.001270
+grad_step = 000379, loss = 0.001238
+grad_step = 000380, loss = 0.001219
+grad_step = 000381, loss = 0.001219
+grad_step = 000382, loss = 0.001229
+grad_step = 000383, loss = 0.001241
+grad_step = 000384, loss = 0.001243
+grad_step = 000385, loss = 0.001236
+grad_step = 000386, loss = 0.001225
+grad_step = 000387, loss = 0.001215
+grad_step = 000388, loss = 0.001212
+grad_step = 000389, loss = 0.001212
+grad_step = 000390, loss = 0.001214
+grad_step = 000391, loss = 0.001213
+grad_step = 000392, loss = 0.001209
+grad_step = 000393, loss = 0.001205
+grad_step = 000394, loss = 0.001202
+grad_step = 000395, loss = 0.001202
+grad_step = 000396, loss = 0.001204
+grad_step = 000397, loss = 0.001208
+grad_step = 000398, loss = 0.001212
+grad_step = 000399, loss = 0.001216
+grad_step = 000400, loss = 0.001216
 plot()
 Saved image to .//n_beats_400.png.
-grad_step = 000401, loss = 0.001546
-grad_step = 000402, loss = 0.001551
-grad_step = 000403, loss = 0.001549
-grad_step = 000404, loss = 0.001543
-grad_step = 000405, loss = 0.001540
-grad_step = 000406, loss = 0.001539
-grad_step = 000407, loss = 0.001538
-grad_step = 000408, loss = 0.001535
-grad_step = 000409, loss = 0.001533
-grad_step = 000410, loss = 0.001533
-grad_step = 000411, loss = 0.001532
-grad_step = 000412, loss = 0.001529
-grad_step = 000413, loss = 0.001526
-grad_step = 000414, loss = 0.001524
-grad_step = 000415, loss = 0.001524
-grad_step = 000416, loss = 0.001524
-grad_step = 000417, loss = 0.001523
-grad_step = 000418, loss = 0.001520
-grad_step = 000419, loss = 0.001517
-grad_step = 000420, loss = 0.001515
-grad_step = 000421, loss = 0.001515
-grad_step = 000422, loss = 0.001514
-grad_step = 000423, loss = 0.001513
-grad_step = 000424, loss = 0.001511
-grad_step = 000425, loss = 0.001509
-grad_step = 000426, loss = 0.001508
-grad_step = 000427, loss = 0.001507
-grad_step = 000428, loss = 0.001507
-grad_step = 000429, loss = 0.001506
-grad_step = 000430, loss = 0.001505
-grad_step = 000431, loss = 0.001505
-grad_step = 000432, loss = 0.001506
-grad_step = 000433, loss = 0.001510
-grad_step = 000434, loss = 0.001516
-grad_step = 000435, loss = 0.001528
-grad_step = 000436, loss = 0.001544
-grad_step = 000437, loss = 0.001568
-grad_step = 000438, loss = 0.001589
-grad_step = 000439, loss = 0.001605
-grad_step = 000440, loss = 0.001598
-grad_step = 000441, loss = 0.001576
-grad_step = 000442, loss = 0.001544
-grad_step = 000443, loss = 0.001528
-grad_step = 000444, loss = 0.001529
-grad_step = 000445, loss = 0.001543
-grad_step = 000446, loss = 0.001553
-grad_step = 000447, loss = 0.001547
-grad_step = 000448, loss = 0.001526
-grad_step = 000449, loss = 0.001504
-grad_step = 000450, loss = 0.001488
-grad_step = 000451, loss = 0.001486
-grad_step = 000452, loss = 0.001493
-grad_step = 000453, loss = 0.001502
-grad_step = 000454, loss = 0.001506
-grad_step = 000455, loss = 0.001496
-grad_step = 000456, loss = 0.001483
-grad_step = 000457, loss = 0.001472
-grad_step = 000458, loss = 0.001470
-grad_step = 000459, loss = 0.001475
-grad_step = 000460, loss = 0.001479
-grad_step = 000461, loss = 0.001478
-grad_step = 000462, loss = 0.001471
-grad_step = 000463, loss = 0.001464
-grad_step = 000464, loss = 0.001461
-grad_step = 000465, loss = 0.001463
-grad_step = 000466, loss = 0.001466
-grad_step = 000467, loss = 0.001469
-grad_step = 000468, loss = 0.001469
-grad_step = 000469, loss = 0.001466
-grad_step = 000470, loss = 0.001463
-grad_step = 000471, loss = 0.001463
-grad_step = 000472, loss = 0.001464
-grad_step = 000473, loss = 0.001470
-grad_step = 000474, loss = 0.001473
-grad_step = 000475, loss = 0.001481
-grad_step = 000476, loss = 0.001479
-grad_step = 000477, loss = 0.001480
-grad_step = 000478, loss = 0.001468
-grad_step = 000479, loss = 0.001458
-grad_step = 000480, loss = 0.001445
-grad_step = 000481, loss = 0.001438
-grad_step = 000482, loss = 0.001436
-grad_step = 000483, loss = 0.001438
-grad_step = 000484, loss = 0.001442
-grad_step = 000485, loss = 0.001442
-grad_step = 000486, loss = 0.001440
-grad_step = 000487, loss = 0.001434
-grad_step = 000488, loss = 0.001428
-grad_step = 000489, loss = 0.001423
-grad_step = 000490, loss = 0.001421
-grad_step = 000491, loss = 0.001421
-grad_step = 000492, loss = 0.001422
-grad_step = 000493, loss = 0.001423
-grad_step = 000494, loss = 0.001424
-grad_step = 000495, loss = 0.001424
-grad_step = 000496, loss = 0.001423
-grad_step = 000497, loss = 0.001423
-grad_step = 000498, loss = 0.001423
-grad_step = 000499, loss = 0.001424
-grad_step = 000500, loss = 0.001425
+grad_step = 000401, loss = 0.001215
+grad_step = 000402, loss = 0.001211
+grad_step = 000403, loss = 0.001206
+grad_step = 000404, loss = 0.001201
+grad_step = 000405, loss = 0.001196
+grad_step = 000406, loss = 0.001191
+grad_step = 000407, loss = 0.001188
+grad_step = 000408, loss = 0.001185
+grad_step = 000409, loss = 0.001182
+grad_step = 000410, loss = 0.001181
+grad_step = 000411, loss = 0.001179
+grad_step = 000412, loss = 0.001178
+grad_step = 000413, loss = 0.001177
+grad_step = 000414, loss = 0.001176
+grad_step = 000415, loss = 0.001175
+grad_step = 000416, loss = 0.001174
+grad_step = 000417, loss = 0.001174
+grad_step = 000418, loss = 0.001173
+grad_step = 000419, loss = 0.001173
+grad_step = 000420, loss = 0.001173
+grad_step = 000421, loss = 0.001175
+grad_step = 000422, loss = 0.001179
+grad_step = 000423, loss = 0.001188
+grad_step = 000424, loss = 0.001202
+grad_step = 000425, loss = 0.001231
+grad_step = 000426, loss = 0.001270
+grad_step = 000427, loss = 0.001344
+grad_step = 000428, loss = 0.001403
+grad_step = 000429, loss = 0.001463
+grad_step = 000430, loss = 0.001425
+grad_step = 000431, loss = 0.001325
+grad_step = 000432, loss = 0.001205
+grad_step = 000433, loss = 0.001161
+grad_step = 000434, loss = 0.001205
+grad_step = 000435, loss = 0.001271
+grad_step = 000436, loss = 0.001303
+grad_step = 000437, loss = 0.001252
+grad_step = 000438, loss = 0.001201
+grad_step = 000439, loss = 0.001184
+grad_step = 000440, loss = 0.001211
+grad_step = 000441, loss = 0.001249
+grad_step = 000442, loss = 0.001246
+grad_step = 000443, loss = 0.001212
+grad_step = 000444, loss = 0.001170
+grad_step = 000445, loss = 0.001155
+grad_step = 000446, loss = 0.001168
+grad_step = 000447, loss = 0.001179
+grad_step = 000448, loss = 0.001174
+grad_step = 000449, loss = 0.001151
+grad_step = 000450, loss = 0.001136
+grad_step = 000451, loss = 0.001137
+grad_step = 000452, loss = 0.001149
+grad_step = 000453, loss = 0.001160
+grad_step = 000454, loss = 0.001158
+grad_step = 000455, loss = 0.001151
+grad_step = 000456, loss = 0.001144
+grad_step = 000457, loss = 0.001145
+grad_step = 000458, loss = 0.001153
+grad_step = 000459, loss = 0.001162
+grad_step = 000460, loss = 0.001166
+grad_step = 000461, loss = 0.001164
+grad_step = 000462, loss = 0.001161
+grad_step = 000463, loss = 0.001159
+grad_step = 000464, loss = 0.001159
+grad_step = 000465, loss = 0.001158
+grad_step = 000466, loss = 0.001155
+grad_step = 000467, loss = 0.001147
+grad_step = 000468, loss = 0.001136
+grad_step = 000469, loss = 0.001124
+grad_step = 000470, loss = 0.001116
+grad_step = 000471, loss = 0.001113
+grad_step = 000472, loss = 0.001113
+grad_step = 000473, loss = 0.001113
+grad_step = 000474, loss = 0.001114
+grad_step = 000475, loss = 0.001114
+grad_step = 000476, loss = 0.001114
+grad_step = 000477, loss = 0.001115
+grad_step = 000478, loss = 0.001116
+grad_step = 000479, loss = 0.001118
+grad_step = 000480, loss = 0.001119
+grad_step = 000481, loss = 0.001121
+grad_step = 000482, loss = 0.001121
+grad_step = 000483, loss = 0.001121
+grad_step = 000484, loss = 0.001120
+grad_step = 000485, loss = 0.001119
+grad_step = 000486, loss = 0.001117
+grad_step = 000487, loss = 0.001115
+grad_step = 000488, loss = 0.001112
+grad_step = 000489, loss = 0.001110
+grad_step = 000490, loss = 0.001107
+grad_step = 000491, loss = 0.001103
+grad_step = 000492, loss = 0.001100
+grad_step = 000493, loss = 0.001096
+grad_step = 000494, loss = 0.001093
+grad_step = 000495, loss = 0.001090
+grad_step = 000496, loss = 0.001087
+grad_step = 000497, loss = 0.001085
+grad_step = 000498, loss = 0.001083
+grad_step = 000499, loss = 0.001081
+grad_step = 000500, loss = 0.001080
 plot()
 Saved image to .//n_beats_500.png.
-grad_step = 000501, loss = 0.001427
+grad_step = 000501, loss = 0.001079
 Finished.
 
   #### Inference Need return ypred, ytrue ######################### 
@@ -933,35 +935,35 @@ Finished.
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-17 12:14:41.216332
+  date_run                              2020-05-19 08:14:59.379466
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                  0.270401
+metric                                                   0.29628
 metric_name                                  mean_absolute_error
 Name: 8, dtype: object 
 
-  date_run                              2020-05-17 12:14:41.222953
+  date_run                              2020-05-19 08:14:59.387068
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                  0.184911
+metric                                                  0.276673
 metric_name                                   mean_squared_error
 Name: 9, dtype: object 
 
-  date_run                              2020-05-17 12:14:41.230007
+  date_run                              2020-05-19 08:14:59.396131
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                  0.151208
+metric                                                  0.147455
 metric_name                                median_absolute_error
 Name: 10, dtype: object 
 
-  date_run                              2020-05-17 12:14:41.235898
+  date_run                              2020-05-19 08:14:59.402564
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                  -1.80979
+metric                                                  -3.20414
 metric_name                                             r2_score
 Name: 11, dtype: object 
 
@@ -996,13 +998,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in DeepARTrainingNetwork: 26844
-100%|██████████| 10/10 [00:02<00:00,  4.09it/s, avg_epoch_loss=5.21]
-INFO:root:Epoch[0] Elapsed time 2.447 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.209227
+100%|██████████| 10/10 [00:03<00:00,  3.17it/s, avg_epoch_loss=5.23]
+INFO:root:Epoch[0] Elapsed time 3.154 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.225453
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.20922703742981 (occurred at epoch 0)
+INFO:root:Final loss: 5.225452899932861 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f4ff82d7e80> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa6c720e320> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1029,13 +1031,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in DeepFactorTrainingNetwork: 12466
-100%|██████████| 10/10 [00:01<00:00,  7.99it/s, avg_epoch_loss=3.59e+3]
-INFO:root:Epoch[0] Elapsed time 1.252 seconds
+100%|██████████| 10/10 [00:01<00:00,  6.32it/s, avg_epoch_loss=3.59e+3]
+INFO:root:Epoch[0] Elapsed time 1.584 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=3590.403646
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 3590.4036458333335 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f4f3f73e6a0> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa60e437588> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1064,13 +1066,13 @@ INFO:root:using training windows of length = 12
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in WaveNet: 97636
- 30%|███       | 3/10 [00:12<00:28,  4.10s/it, avg_epoch_loss=6.93] 60%|██████    | 6/10 [00:23<00:15,  3.96s/it, avg_epoch_loss=6.9]  90%|█████████ | 9/10 [00:34<00:03,  3.88s/it, avg_epoch_loss=6.87]100%|██████████| 10/10 [00:37<00:00,  3.80s/it, avg_epoch_loss=6.87]
-INFO:root:Epoch[0] Elapsed time 37.964 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.866617
+ 30%|███       | 3/10 [00:13<00:32,  4.60s/it, avg_epoch_loss=6.94] 60%|██████    | 6/10 [00:25<00:17,  4.41s/it, avg_epoch_loss=6.91] 90%|█████████ | 9/10 [00:38<00:04,  4.32s/it, avg_epoch_loss=6.88]100%|██████████| 10/10 [00:42<00:00,  4.20s/it, avg_epoch_loss=6.87]
+INFO:root:Epoch[0] Elapsed time 42.035 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.868105
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 6.866617202758789 (occurred at epoch 0)
+INFO:root:Final loss: 6.868105125427246 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f4f281b7160> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa5f272f1d0> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1097,13 +1099,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in TransformerTrainingNetwork: 33911
-100%|██████████| 10/10 [00:01<00:00,  5.61it/s, avg_epoch_loss=5.79]
-INFO:root:Epoch[0] Elapsed time 1.783 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.790056
+100%|██████████| 10/10 [00:02<00:00,  4.49it/s, avg_epoch_loss=5.78]
+INFO:root:Epoch[0] Elapsed time 2.227 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.781131
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.790056037902832 (occurred at epoch 0)
+INFO:root:Final loss: 5.7811308860778805 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f4f281beda0> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa5f15ece10> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1130,13 +1132,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in DeepStateTrainingNetwork: 28054
- 10%|█         | 1/10 [02:12<19:46, 131.80s/it, avg_epoch_loss=0.412] 20%|██        | 2/10 [05:13<19:33, 146.66s/it, avg_epoch_loss=0.399] 30%|███       | 3/10 [08:58<19:51, 170.15s/it, avg_epoch_loss=0.39]  40%|████      | 4/10 [12:37<18:30, 185.03s/it, avg_epoch_loss=0.385] 50%|█████     | 5/10 [16:16<16:16, 195.22s/it, avg_epoch_loss=0.384] 60%|██████    | 6/10 [20:11<13:47, 206.94s/it, avg_epoch_loss=0.383] 70%|███████   | 7/10 [23:58<10:39, 213.03s/it, avg_epoch_loss=0.381] 80%|████████  | 8/10 [27:53<07:19, 219.79s/it, avg_epoch_loss=0.378] 90%|█████████ | 9/10 [31:46<03:43, 223.55s/it, avg_epoch_loss=0.376]100%|██████████| 10/10 [35:53<00:00, 230.75s/it, avg_epoch_loss=0.375]100%|██████████| 10/10 [35:54<00:00, 215.41s/it, avg_epoch_loss=0.375]
-INFO:root:Epoch[0] Elapsed time 2154.094 seconds
+ 10%|█         | 1/10 [02:11<19:44, 131.60s/it, avg_epoch_loss=0.412] 20%|██        | 2/10 [05:18<19:46, 148.27s/it, avg_epoch_loss=0.399] 30%|███       | 3/10 [08:42<19:15, 165.03s/it, avg_epoch_loss=0.39]  40%|████      | 4/10 [12:08<17:43, 177.21s/it, avg_epoch_loss=0.385] 50%|█████     | 5/10 [15:23<15:12, 182.52s/it, avg_epoch_loss=0.384] 60%|██████    | 6/10 [18:34<12:20, 185.18s/it, avg_epoch_loss=0.383] 70%|███████   | 7/10 [22:12<09:44, 194.91s/it, avg_epoch_loss=0.381] 80%|████████  | 8/10 [25:55<06:46, 203.26s/it, avg_epoch_loss=0.378] 90%|█████████ | 9/10 [29:19<03:23, 203.58s/it, avg_epoch_loss=0.376]100%|██████████| 10/10 [33:03<00:00, 209.82s/it, avg_epoch_loss=0.375]100%|██████████| 10/10 [33:03<00:00, 198.39s/it, avg_epoch_loss=0.375]
+INFO:root:Epoch[0] Elapsed time 1983.924 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=0.374571
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 0.3745713621377945 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f4f280b2128> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa5f1627ac8> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1163,13 +1165,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in GaussianProcessTrainingNetwork: 14
-100%|██████████| 10/10 [00:02<00:00,  3.55it/s, avg_epoch_loss=415]
-INFO:root:Epoch[0] Elapsed time 2.841 seconds
+100%|██████████| 10/10 [00:01<00:00,  5.09it/s, avg_epoch_loss=415]
+INFO:root:Epoch[0] Elapsed time 1.985 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=414.652022
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 414.65202175008733 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f4f3f7cca20> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa664272a58> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1196,13 +1198,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in SimpleFeedForwardTrainingNetwork: 20323
-100%|██████████| 10/10 [00:00<00:00, 42.26it/s, avg_epoch_loss=5.15]
-INFO:root:Epoch[0] Elapsed time 0.238 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.151470
+100%|██████████| 10/10 [00:00<00:00, 39.63it/s, avg_epoch_loss=5.18]
+INFO:root:Epoch[0] Elapsed time 0.254 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.176167
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.1514702320098875 (occurred at epoch 0)
+INFO:root:Final loss: 5.176167440414429 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f4f440c0438> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa664208c18> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1227,18 +1229,18 @@ layer_sizes
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/timeseries/test02/model_list.json 
 
                         date_run  ...            metric_name
-0   2020-05-17 12:14:08.999256  ...    mean_absolute_error
-1   2020-05-17 12:14:09.002936  ...     mean_squared_error
-2   2020-05-17 12:14:09.005992  ...  median_absolute_error
-3   2020-05-17 12:14:09.009025  ...               r2_score
-4   2020-05-17 12:14:18.118978  ...    mean_absolute_error
-5   2020-05-17 12:14:18.123997  ...     mean_squared_error
-6   2020-05-17 12:14:18.127619  ...  median_absolute_error
-7   2020-05-17 12:14:18.131843  ...               r2_score
-8   2020-05-17 12:14:41.216332  ...    mean_absolute_error
-9   2020-05-17 12:14:41.222953  ...     mean_squared_error
-10  2020-05-17 12:14:41.230007  ...  median_absolute_error
-11  2020-05-17 12:14:41.235898  ...               r2_score
+0   2020-05-19 08:14:24.468998  ...    mean_absolute_error
+1   2020-05-19 08:14:24.472751  ...     mean_squared_error
+2   2020-05-19 08:14:24.476211  ...  median_absolute_error
+3   2020-05-19 08:14:24.479772  ...               r2_score
+4   2020-05-19 08:14:34.619709  ...    mean_absolute_error
+5   2020-05-19 08:14:34.623847  ...     mean_squared_error
+6   2020-05-19 08:14:34.627867  ...  median_absolute_error
+7   2020-05-19 08:14:34.631153  ...               r2_score
+8   2020-05-19 08:14:59.379466  ...    mean_absolute_error
+9   2020-05-19 08:14:59.387068  ...     mean_squared_error
+10  2020-05-19 08:14:59.396131  ...  median_absolute_error
+11  2020-05-19 08:14:59.402564  ...               r2_score
 
 [12 rows x 6 columns] 
 Traceback (most recent call last):
@@ -1282,7 +1284,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa502564be0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe070296ba8> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet18', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet18/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/'}} 'data_info' 
 
@@ -1298,7 +1300,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa4b1d789e8> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe01faad8d0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet34', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet34/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/'}} 'data_info' 
 
@@ -1314,7 +1316,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa4b4f21e48> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe022c51d30> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x0_5', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x0_5/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/'}} 'data_info' 
 
@@ -1330,7 +1332,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa4b1d789e8> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe01faad8d0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x1_0', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x1_0/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/'}} 'data_info' 
 
@@ -1346,7 +1348,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa502564be0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe070296ba8> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet101', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet101/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/'}} 'data_info' 
 
@@ -1362,7 +1364,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa4b1d789e8> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe01faad8d0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet101_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet101_2/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/'}} 'data_info' 
 
@@ -1378,7 +1380,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa4b4f21e48> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe022c51d30> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext101_32x8d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext101_32x8d/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/'}} 'data_info' 
 
@@ -1394,7 +1396,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa4b1d789e8> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe01faad8d0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext50_32x4d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext50_32x4d/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/'}} 'data_info' 
 
@@ -1410,7 +1412,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa502564be0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe070296ba8> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet50', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet50/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/'}} 'data_info' 
 
@@ -1426,7 +1428,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa4ac739fd0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe01faad8d0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet152', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet152/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/'}} 'data_info' 
 
@@ -1560,7 +1562,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa4b4f21e48> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fe022c51d30> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet50_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet50_2/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/'}} 'data_info' 
 
@@ -1614,37 +1616,37 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do fashion_vi
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f5066c4d198> <class 'mlmodels.model_tch.textcnn.Model'>
+>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f1bba2fb080> <class 'mlmodels.model_tch.textcnn.Model'>
 Spliting original file to train/valid set...
 
   Download en 
 Collecting en_core_web_sm==2.2.5
   Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz (12.0 MB)
 Requirement already satisfied: spacy>=2.2.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from en_core_web_sm==2.2.5) (2.2.4)
-Requirement already satisfied: wasabi<1.1.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.6.0)
-Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
-Requirement already satisfied: thinc==7.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (7.4.0)
-Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.2)
-Requirement already satisfied: srsly<1.1.0,>=1.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
 Requirement already satisfied: blis<0.5.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.4.1)
-Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.0.3)
-Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.23.0)
-Requirement already satisfied: catalogue<1.1.0,>=0.0.7 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.0)
-Requirement already satisfied: numpy>=1.15.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.18.4)
+Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.2)
 Requirement already satisfied: setuptools in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (45.2.0)
-Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (4.46.0)
+Requirement already satisfied: catalogue<1.1.0,>=0.0.7 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.0)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.0.3)
+Requirement already satisfied: srsly<1.1.0,>=1.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
 Requirement already satisfied: plac<1.2.0,>=0.9.6 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.1.3)
-Requirement already satisfied: certifi>=2017.4.17 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2020.4.5.1)
-Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (1.25.9)
-Requirement already satisfied: chardet<4,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.4)
-Requirement already satisfied: idna<3,>=2.5 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2.9)
+Requirement already satisfied: numpy>=1.15.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.18.4)
+Requirement already satisfied: thinc==7.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (7.4.0)
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
+Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (4.46.0)
+Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.23.0)
+Requirement already satisfied: wasabi<1.1.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.6.0)
 Requirement already satisfied: importlib-metadata>=0.20; python_version < "3.8" in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from catalogue<1.1.0,>=0.0.7->spacy>=2.2.2->en_core_web_sm==2.2.5) (1.6.0)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (1.25.9)
+Requirement already satisfied: idna<3,>=2.5 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2.9)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2020.4.5.1)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.4)
 Requirement already satisfied: zipp>=0.5 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy>=2.2.2->en_core_web_sm==2.2.5) (3.1.0)
 Building wheels for collected packages: en-core-web-sm
   Building wheel for en-core-web-sm (setup.py): started
   Building wheel for en-core-web-sm (setup.py): finished with status 'done'
-  Created wheel for en-core-web-sm: filename=en_core_web_sm-2.2.5-py3-none-any.whl size=12011738 sha256=dfd378eaec44a7c4128d49af02d4a7ae3338f29947cb3071ff175f074ecebd24
-  Stored in directory: /tmp/pip-ephem-wheel-cache-drjjdkhz/wheels/b5/94/56/596daa677d7e91038cbddfcf32b591d0c915a1b3a3e3d3c79d
+  Created wheel for en-core-web-sm: filename=en_core_web_sm-2.2.5-py3-none-any.whl size=12011738 sha256=9b41ac7a41f6084b63ba77a6b6809ebb39ca679a7c6ae61850cb1efd29f370a3
+  Stored in directory: /tmp/pip-ephem-wheel-cache-dnciord3/wheels/b5/94/56/596daa677d7e91038cbddfcf32b591d0c915a1b3a3e3d3c79d
 Successfully built en-core-web-sm
 Installing collected packages: en-core-web-sm
 Successfully installed en-core-web-sm-2.2.5
@@ -1729,60 +1731,60 @@ Non-trainable params: 0
 __________________________________________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f4fff92aef0> <class 'mlmodels.model_keras.textcnn.Model'>
+>>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f1b5a026c88> <class 'mlmodels.model_keras.textcnn.Model'>
 Loading data...
 Downloading data from https://s3.amazonaws.com/text-datasets/imdb.npz
 
     8192/17464789 [..............................] - ETA: 0s
- 4472832/17464789 [======>.......................] - ETA: 0s
-11468800/17464789 [==================>...........] - ETA: 0s
-16408576/17464789 [===========================>..] - ETA: 0s
+ 3563520/17464789 [=====>........................] - ETA: 0s
+11714560/17464789 [===================>..........] - ETA: 0s
+16506880/17464789 [===========================>..] - ETA: 0s
 17465344/17464789 [==============================] - 0s 0us/step
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use tf.where in 2.0, which has the same broadcast rule as np.where
-2020-05-17 12:53:12.396936: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2020-05-17 12:53:12.412621: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
-2020-05-17 12:53:12.412814: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5559a491c280 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-05-17 12:53:12.412833: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-19 08:50:42.283345: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-05-19 08:50:42.297826: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
+2020-05-19 08:50:42.298071: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558413a927c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-19 08:50:42.298092: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Pad sequences (samples x time)...
 Train on 25000 samples, validate on 25000 samples
 Epoch 1/1
 
- 1000/25000 [>.............................] - ETA: 15s - loss: 7.5593 - accuracy: 0.5070
- 2000/25000 [=>............................] - ETA: 11s - loss: 7.6590 - accuracy: 0.5005
- 3000/25000 [==>...........................] - ETA: 9s - loss: 7.6615 - accuracy: 0.5003 
- 4000/25000 [===>..........................] - ETA: 8s - loss: 7.5785 - accuracy: 0.5058
- 5000/25000 [=====>........................] - ETA: 7s - loss: 7.6636 - accuracy: 0.5002
- 6000/25000 [======>.......................] - ETA: 6s - loss: 7.7024 - accuracy: 0.4977
- 7000/25000 [=======>......................] - ETA: 6s - loss: 7.7170 - accuracy: 0.4967
- 8000/25000 [========>.....................] - ETA: 5s - loss: 7.7356 - accuracy: 0.4955
- 9000/25000 [=========>....................] - ETA: 5s - loss: 7.7416 - accuracy: 0.4951
-10000/25000 [===========>..................] - ETA: 5s - loss: 7.7310 - accuracy: 0.4958
-11000/25000 [============>.................] - ETA: 4s - loss: 7.7335 - accuracy: 0.4956
-12000/25000 [=============>................] - ETA: 4s - loss: 7.7318 - accuracy: 0.4958
-13000/25000 [==============>...............] - ETA: 3s - loss: 7.7209 - accuracy: 0.4965
-14000/25000 [===============>..............] - ETA: 3s - loss: 7.7071 - accuracy: 0.4974
-15000/25000 [=================>............] - ETA: 3s - loss: 7.7249 - accuracy: 0.4962
-16000/25000 [==================>...........] - ETA: 2s - loss: 7.7030 - accuracy: 0.4976
-17000/25000 [===================>..........] - ETA: 2s - loss: 7.7000 - accuracy: 0.4978
-18000/25000 [====================>.........] - ETA: 2s - loss: 7.6888 - accuracy: 0.4986
-19000/25000 [=====================>........] - ETA: 1s - loss: 7.6852 - accuracy: 0.4988
-20000/25000 [=======================>......] - ETA: 1s - loss: 7.6751 - accuracy: 0.4994
-21000/25000 [========================>.....] - ETA: 1s - loss: 7.6608 - accuracy: 0.5004
-22000/25000 [=========================>....] - ETA: 0s - loss: 7.6673 - accuracy: 0.5000
-23000/25000 [==========================>...] - ETA: 0s - loss: 7.6760 - accuracy: 0.4994
-24000/25000 [===========================>..] - ETA: 0s - loss: 7.6743 - accuracy: 0.4995
-25000/25000 [==============================] - 10s 388us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+ 1000/25000 [>.............................] - ETA: 15s - loss: 7.0993 - accuracy: 0.5370
+ 2000/25000 [=>............................] - ETA: 11s - loss: 7.1990 - accuracy: 0.5305
+ 3000/25000 [==>...........................] - ETA: 9s - loss: 7.3600 - accuracy: 0.5200 
+ 4000/25000 [===>..........................] - ETA: 8s - loss: 7.4635 - accuracy: 0.5132
+ 5000/25000 [=====>........................] - ETA: 7s - loss: 7.5072 - accuracy: 0.5104
+ 6000/25000 [======>.......................] - ETA: 7s - loss: 7.5414 - accuracy: 0.5082
+ 7000/25000 [=======>......................] - ETA: 6s - loss: 7.5659 - accuracy: 0.5066
+ 8000/25000 [========>.....................] - ETA: 6s - loss: 7.6130 - accuracy: 0.5035
+ 9000/25000 [=========>....................] - ETA: 5s - loss: 7.6223 - accuracy: 0.5029
+10000/25000 [===========>..................] - ETA: 5s - loss: 7.6222 - accuracy: 0.5029
+11000/25000 [============>.................] - ETA: 4s - loss: 7.6485 - accuracy: 0.5012
+12000/25000 [=============>................] - ETA: 4s - loss: 7.6794 - accuracy: 0.4992
+13000/25000 [==============>...............] - ETA: 4s - loss: 7.6761 - accuracy: 0.4994
+14000/25000 [===============>..............] - ETA: 3s - loss: 7.7039 - accuracy: 0.4976
+15000/25000 [=================>............] - ETA: 3s - loss: 7.7106 - accuracy: 0.4971
+16000/25000 [==================>...........] - ETA: 3s - loss: 7.7011 - accuracy: 0.4978
+17000/25000 [===================>..........] - ETA: 2s - loss: 7.6874 - accuracy: 0.4986
+18000/25000 [====================>.........] - ETA: 2s - loss: 7.6879 - accuracy: 0.4986
+19000/25000 [=====================>........] - ETA: 1s - loss: 7.6908 - accuracy: 0.4984
+20000/25000 [=======================>......] - ETA: 1s - loss: 7.6827 - accuracy: 0.4990
+21000/25000 [========================>.....] - ETA: 1s - loss: 7.6827 - accuracy: 0.4990
+22000/25000 [=========================>....] - ETA: 0s - loss: 7.6778 - accuracy: 0.4993
+23000/25000 [==========================>...] - ETA: 0s - loss: 7.6800 - accuracy: 0.4991
+24000/25000 [===========================>..] - ETA: 0s - loss: 7.6622 - accuracy: 0.5003
+25000/25000 [==============================] - 10s 401us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 
   #### Inference Need return ypred, ytrue ######################### 
 Loading data...
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-17 12:53:29.320413
+  date_run                              2020-05-19 08:51:00.146894
 model_uri                                 model_keras.textcnn.py
 json           [{'model_uri': 'model_keras.textcnn.py', 'maxl...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -1793,7 +1795,7 @@ Name: 0, dtype: object
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/text_classification/ 
 
                        date_run               model_uri  ... metric     metric_name
-0  2020-05-17 12:53:29.320413  model_keras.textcnn.py  ...    0.5  accuracy_score
+0  2020-05-19 08:51:00.146894  model_keras.textcnn.py  ...    0.5  accuracy_score
 
 [1 rows x 6 columns] 
 python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do text_classification 
@@ -1823,16 +1825,16 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do text_class
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
   #### Fit  ####################################################### 
-.vector_cache/glove.6B.zip: 0.00B [00:00, ?B/s].vector_cache/glove.6B.zip:   0%|          | 8.19k/862M [00:02<75:50:54, 3.16kB/s].vector_cache/glove.6B.zip:   0%|          | 49.2k/862M [00:02<53:19:26, 4.49kB/s].vector_cache/glove.6B.zip:   0%|          | 221k/862M [00:02<37:22:29, 6.41kB/s] .vector_cache/glove.6B.zip:   0%|          | 901k/862M [00:02<26:09:20, 9.15kB/s].vector_cache/glove.6B.zip:   0%|          | 3.65M/862M [00:03<18:15:15, 13.1kB/s].vector_cache/glove.6B.zip:   1%|          | 9.38M/862M [00:03<12:41:39, 18.7kB/s].vector_cache/glove.6B.zip:   2%|▏         | 14.6M/862M [00:03<8:49:59, 26.7kB/s] .vector_cache/glove.6B.zip:   2%|▏         | 18.0M/862M [00:03<6:09:36, 38.1kB/s].vector_cache/glove.6B.zip:   3%|▎         | 23.2M/862M [00:03<4:17:13, 54.4kB/s].vector_cache/glove.6B.zip:   3%|▎         | 26.5M/862M [00:03<2:59:28, 77.6kB/s].vector_cache/glove.6B.zip:   4%|▎         | 31.6M/862M [00:03<2:04:56, 111kB/s] .vector_cache/glove.6B.zip:   4%|▍         | 35.1M/862M [00:03<1:27:12, 158kB/s].vector_cache/glove.6B.zip:   5%|▍         | 39.4M/862M [00:03<1:00:49, 225kB/s].vector_cache/glove.6B.zip:   5%|▌         | 43.6M/862M [00:04<42:28, 321kB/s]  .vector_cache/glove.6B.zip:   6%|▌         | 48.7M/862M [00:04<29:37, 458kB/s].vector_cache/glove.6B.zip:   6%|▌         | 52.6M/862M [00:04<21:23, 631kB/s].vector_cache/glove.6B.zip:   7%|▋         | 56.7M/862M [00:06<16:48, 798kB/s].vector_cache/glove.6B.zip:   7%|▋         | 56.9M/862M [00:06<14:05, 952kB/s].vector_cache/glove.6B.zip:   7%|▋         | 57.9M/862M [00:07<10:25, 1.29MB/s].vector_cache/glove.6B.zip:   7%|▋         | 60.8M/862M [00:08<09:35, 1.39MB/s].vector_cache/glove.6B.zip:   7%|▋         | 61.1M/862M [00:08<08:22, 1.60MB/s].vector_cache/glove.6B.zip:   7%|▋         | 62.4M/862M [00:09<06:16, 2.13MB/s].vector_cache/glove.6B.zip:   8%|▊         | 65.0M/862M [00:10<07:02, 1.89MB/s].vector_cache/glove.6B.zip:   8%|▊         | 65.2M/862M [00:10<07:44, 1.72MB/s].vector_cache/glove.6B.zip:   8%|▊         | 65.9M/862M [00:11<06:00, 2.21MB/s].vector_cache/glove.6B.zip:   8%|▊         | 67.8M/862M [00:11<04:24, 3.00MB/s].vector_cache/glove.6B.zip:   8%|▊         | 69.1M/862M [00:12<07:49, 1.69MB/s].vector_cache/glove.6B.zip:   8%|▊         | 69.5M/862M [00:12<06:49, 1.93MB/s].vector_cache/glove.6B.zip:   8%|▊         | 71.1M/862M [00:13<05:06, 2.58MB/s].vector_cache/glove.6B.zip:   8%|▊         | 73.3M/862M [00:14<06:41, 1.96MB/s].vector_cache/glove.6B.zip:   9%|▊         | 73.4M/862M [00:14<07:24, 1.78MB/s].vector_cache/glove.6B.zip:   9%|▊         | 74.2M/862M [00:15<05:45, 2.28MB/s].vector_cache/glove.6B.zip:   9%|▉         | 77.1M/862M [00:15<04:09, 3.15MB/s].vector_cache/glove.6B.zip:   9%|▉         | 77.4M/862M [00:16<28:33, 458kB/s] .vector_cache/glove.6B.zip:   9%|▉         | 77.8M/862M [00:16<21:20, 613kB/s].vector_cache/glove.6B.zip:   9%|▉         | 79.3M/862M [00:16<15:14, 856kB/s].vector_cache/glove.6B.zip:   9%|▉         | 81.5M/862M [00:18<13:41, 950kB/s].vector_cache/glove.6B.zip:   9%|▉         | 81.9M/862M [00:18<10:56, 1.19MB/s].vector_cache/glove.6B.zip:  10%|▉         | 83.4M/862M [00:18<07:58, 1.63MB/s].vector_cache/glove.6B.zip:  10%|▉         | 85.6M/862M [00:20<08:36, 1.50MB/s].vector_cache/glove.6B.zip:  10%|▉         | 86.0M/862M [00:20<07:20, 1.76MB/s].vector_cache/glove.6B.zip:  10%|█         | 87.6M/862M [00:20<05:25, 2.38MB/s].vector_cache/glove.6B.zip:  10%|█         | 89.7M/862M [00:22<06:50, 1.88MB/s].vector_cache/glove.6B.zip:  10%|█         | 89.9M/862M [00:22<07:24, 1.74MB/s].vector_cache/glove.6B.zip:  11%|█         | 90.7M/862M [00:22<05:46, 2.23MB/s].vector_cache/glove.6B.zip:  11%|█         | 93.5M/862M [00:22<04:09, 3.08MB/s].vector_cache/glove.6B.zip:  11%|█         | 93.8M/862M [00:24<21:17, 601kB/s] .vector_cache/glove.6B.zip:  11%|█         | 94.2M/862M [00:24<16:13, 789kB/s].vector_cache/glove.6B.zip:  11%|█         | 95.8M/862M [00:24<11:39, 1.10MB/s].vector_cache/glove.6B.zip:  11%|█▏        | 97.9M/862M [00:26<11:08, 1.14MB/s].vector_cache/glove.6B.zip:  11%|█▏        | 98.1M/862M [00:26<10:29, 1.21MB/s].vector_cache/glove.6B.zip:  11%|█▏        | 98.9M/862M [00:26<07:53, 1.61MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 101M/862M [00:26<05:40, 2.23MB/s] .vector_cache/glove.6B.zip:  12%|█▏        | 102M/862M [00:28<10:29, 1.21MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 102M/862M [00:28<08:39, 1.46MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 104M/862M [00:28<06:21, 1.99MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 106M/862M [00:30<07:24, 1.70MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 107M/862M [00:30<06:28, 1.95MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 108M/862M [00:30<04:47, 2.62MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 110M/862M [00:32<06:18, 1.99MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 111M/862M [00:32<05:40, 2.20MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 112M/862M [00:32<04:13, 2.95MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 114M/862M [00:34<05:56, 2.10MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 115M/862M [00:34<06:41, 1.86MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 115M/862M [00:34<05:13, 2.38MB/s].vector_cache/glove.6B.zip:  14%|█▎        | 118M/862M [00:34<03:48, 3.26MB/s].vector_cache/glove.6B.zip:  14%|█▎        | 119M/862M [00:36<11:35, 1.07MB/s].vector_cache/glove.6B.zip:  14%|█▍        | 119M/862M [00:36<09:23, 1.32MB/s].vector_cache/glove.6B.zip:  14%|█▍        | 120M/862M [00:36<06:52, 1.80MB/s].vector_cache/glove.6B.zip:  14%|█▍        | 123M/862M [00:38<08:42, 1.41MB/s].vector_cache/glove.6B.zip:  15%|█▍        | 127M/862M [00:40<07:17, 1.68MB/s].vector_cache/glove.6B.zip:  15%|█▍        | 127M/862M [00:40<05:46, 2.12MB/s].vector_cache/glove.6B.zip:  15%|█▌        | 130M/862M [00:40<04:10, 2.92MB/s].vector_cache/glove.6B.zip:  15%|█▌        | 131M/862M [00:42<12:53, 946kB/s] .vector_cache/glove.6B.zip:  15%|█▌        | 131M/862M [00:42<11:24, 1.07MB/s].vector_cache/glove.6B.zip:  15%|█▌        | 132M/862M [00:42<08:34, 1.42MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 135M/862M [00:44<07:57, 1.52MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 135M/862M [00:44<06:51, 1.77MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 137M/862M [00:44<05:06, 2.37MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 139M/862M [00:46<06:19, 1.90MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 139M/862M [00:46<06:52, 1.75MB/s].vector_cache/glove.6B.zip:  16%|█▋        | 140M/862M [00:46<05:25, 2.22MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 143M/862M [00:48<05:43, 2.09MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 144M/862M [00:48<05:14, 2.28MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 145M/862M [00:48<03:58, 3.01MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 147M/862M [00:50<05:34, 2.14MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 148M/862M [00:50<06:19, 1.88MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 148M/862M [00:50<05:02, 2.36MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 151M/862M [00:50<03:39, 3.23MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 151M/862M [00:52<1:27:13, 136kB/s].vector_cache/glove.6B.zip:  18%|█▊        | 152M/862M [00:52<1:02:14, 190kB/s].vector_cache/glove.6B.zip:  18%|█▊        | 153M/862M [00:52<43:46, 270kB/s]  .vector_cache/glove.6B.zip:  18%|█▊        | 156M/862M [00:54<33:18, 353kB/s].vector_cache/glove.6B.zip:  18%|█▊        | 156M/862M [00:54<25:43, 458kB/s].vector_cache/glove.6B.zip:  18%|█▊        | 157M/862M [00:54<18:35, 633kB/s].vector_cache/glove.6B.zip:  19%|█▊        | 160M/862M [00:54<13:06, 893kB/s].vector_cache/glove.6B.zip:  19%|█▊        | 160M/862M [00:55<1:32:57, 126kB/s].vector_cache/glove.6B.zip:  19%|█▊        | 160M/862M [00:56<1:06:13, 177kB/s].vector_cache/glove.6B.zip:  19%|█▊        | 162M/862M [00:56<46:33, 251kB/s]  .vector_cache/glove.6B.zip:  19%|█▉        | 164M/862M [00:57<35:12, 331kB/s].vector_cache/glove.6B.zip:  19%|█▉        | 164M/862M [00:58<27:06, 429kB/s].vector_cache/glove.6B.zip:  19%|█▉        | 165M/862M [00:58<19:33, 594kB/s].vector_cache/glove.6B.zip:  19%|█▉        | 168M/862M [00:58<13:46, 840kB/s].vector_cache/glove.6B.zip:  19%|█▉        | 168M/862M [00:59<1:32:19, 125kB/s].vector_cache/glove.6B.zip:  20%|█▉        | 168M/862M [01:00<1:05:47, 176kB/s].vector_cache/glove.6B.zip:  20%|█▉        | 170M/862M [01:00<46:11, 250kB/s]  .vector_cache/glove.6B.zip:  20%|█▉        | 172M/862M [01:01<34:57, 329kB/s].vector_cache/glove.6B.zip:  20%|█▉        | 172M/862M [01:01<26:47, 429kB/s].vector_cache/glove.6B.zip:  20%|██        | 173M/862M [01:02<19:14, 597kB/s].vector_cache/glove.6B.zip:  20%|██        | 175M/862M [01:02<13:36, 842kB/s].vector_cache/glove.6B.zip:  20%|██        | 176M/862M [01:03<14:30, 788kB/s].vector_cache/glove.6B.zip:  20%|██        | 177M/862M [01:03<11:18, 1.01MB/s].vector_cache/glove.6B.zip:  21%|██        | 178M/862M [01:04<08:09, 1.40MB/s].vector_cache/glove.6B.zip:  21%|██        | 180M/862M [01:05<08:21, 1.36MB/s].vector_cache/glove.6B.zip:  21%|██        | 181M/862M [01:05<07:00, 1.62MB/s].vector_cache/glove.6B.zip:  21%|██        | 182M/862M [01:06<05:08, 2.20MB/s].vector_cache/glove.6B.zip:  21%|██▏       | 184M/862M [01:07<06:17, 1.80MB/s].vector_cache/glove.6B.zip:  21%|██▏       | 185M/862M [01:07<05:32, 2.04MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 186M/862M [01:07<04:07, 2.73MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 189M/862M [01:09<05:33, 2.02MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 189M/862M [01:09<05:01, 2.23MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 190M/862M [01:09<03:47, 2.95MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 193M/862M [01:11<05:17, 2.11MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 193M/862M [01:11<04:50, 2.31MB/s].vector_cache/glove.6B.zip:  23%|██▎       | 195M/862M [01:11<03:39, 3.04MB/s].vector_cache/glove.6B.zip:  23%|██▎       | 197M/862M [01:13<05:10, 2.14MB/s].vector_cache/glove.6B.zip:  23%|██▎       | 197M/862M [01:13<05:52, 1.89MB/s].vector_cache/glove.6B.zip:  23%|██▎       | 198M/862M [01:13<04:37, 2.39MB/s].vector_cache/glove.6B.zip:  23%|██▎       | 201M/862M [01:13<03:19, 3.31MB/s].vector_cache/glove.6B.zip:  23%|██▎       | 201M/862M [01:15<45:35, 242kB/s] .vector_cache/glove.6B.zip:  23%|██▎       | 201M/862M [01:15<33:02, 333kB/s].vector_cache/glove.6B.zip:  24%|██▎       | 203M/862M [01:15<23:20, 471kB/s].vector_cache/glove.6B.zip:  24%|██▍       | 205M/862M [01:17<18:51, 581kB/s].vector_cache/glove.6B.zip:  24%|██▍       | 205M/862M [01:17<14:18, 765kB/s].vector_cache/glove.6B.zip:  24%|██▍       | 207M/862M [01:17<10:16, 1.06MB/s].vector_cache/glove.6B.zip:  24%|██▍       | 209M/862M [01:19<09:43, 1.12MB/s].vector_cache/glove.6B.zip:  24%|██▍       | 209M/862M [01:19<07:55, 1.37MB/s].vector_cache/glove.6B.zip:  24%|██▍       | 211M/862M [01:19<05:46, 1.88MB/s].vector_cache/glove.6B.zip:  25%|██▍       | 213M/862M [01:21<06:34, 1.65MB/s].vector_cache/glove.6B.zip:  25%|██▍       | 213M/862M [01:21<06:47, 1.59MB/s].vector_cache/glove.6B.zip:  25%|██▍       | 214M/862M [01:21<05:12, 2.07MB/s].vector_cache/glove.6B.zip:  25%|██▌       | 217M/862M [01:21<03:46, 2.86MB/s].vector_cache/glove.6B.zip:  25%|██▌       | 217M/862M [01:23<10:36, 1.01MB/s].vector_cache/glove.6B.zip:  25%|██▌       | 218M/862M [01:23<08:32, 1.26MB/s].vector_cache/glove.6B.zip:  25%|██▌       | 219M/862M [01:23<06:14, 1.72MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 221M/862M [01:25<06:51, 1.56MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 222M/862M [01:25<05:52, 1.81MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 223M/862M [01:25<04:20, 2.45MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 226M/862M [01:27<05:32, 1.92MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 226M/862M [01:27<06:02, 1.76MB/s].vector_cache/glove.6B.zip:  26%|██▋       | 227M/862M [01:27<04:45, 2.23MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 230M/862M [01:29<05:01, 2.10MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 230M/862M [01:29<04:36, 2.29MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 232M/862M [01:29<03:29, 3.01MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 234M/862M [01:31<04:52, 2.15MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 234M/862M [01:31<04:28, 2.34MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 236M/862M [01:31<03:20, 3.12MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 238M/862M [01:33<04:49, 2.16MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 238M/862M [01:33<05:29, 1.90MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 239M/862M [01:33<04:17, 2.42MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 241M/862M [01:33<03:06, 3.32MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 242M/862M [01:35<11:26, 904kB/s] .vector_cache/glove.6B.zip:  28%|██▊       | 242M/862M [01:35<09:02, 1.14MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 244M/862M [01:35<06:34, 1.57MB/s].vector_cache/glove.6B.zip:  29%|██▊       | 246M/862M [01:37<07:00, 1.47MB/s].vector_cache/glove.6B.zip:  29%|██▊       | 246M/862M [01:37<05:56, 1.73MB/s].vector_cache/glove.6B.zip:  29%|██▉       | 248M/862M [01:37<04:22, 2.34MB/s].vector_cache/glove.6B.zip:  29%|██▉       | 250M/862M [01:39<05:29, 1.86MB/s].vector_cache/glove.6B.zip:  29%|██▉       | 250M/862M [01:39<05:55, 1.72MB/s].vector_cache/glove.6B.zip:  29%|██▉       | 251M/862M [01:39<04:34, 2.22MB/s].vector_cache/glove.6B.zip:  29%|██▉       | 253M/862M [01:39<03:20, 3.04MB/s].vector_cache/glove.6B.zip:  29%|██▉       | 254M/862M [01:41<08:16, 1.22MB/s].vector_cache/glove.6B.zip:  30%|██▉       | 258M/862M [01:43<06:54, 1.46MB/s].vector_cache/glove.6B.zip:  30%|███       | 259M/862M [01:43<05:54, 1.70MB/s].vector_cache/glove.6B.zip:  30%|███       | 260M/862M [01:43<04:23, 2.28MB/s].vector_cache/glove.6B.zip:  30%|███       | 263M/862M [01:45<05:21, 1.86MB/s].vector_cache/glove.6B.zip:  30%|███       | 263M/862M [01:45<05:54, 1.69MB/s].vector_cache/glove.6B.zip:  31%|███       | 263M/862M [01:45<04:34, 2.18MB/s].vector_cache/glove.6B.zip:  31%|███       | 266M/862M [01:45<03:19, 2.98MB/s].vector_cache/glove.6B.zip:  31%|███       | 267M/862M [01:46<07:03, 1.41MB/s].vector_cache/glove.6B.zip:  31%|███       | 267M/862M [01:47<05:48, 1.71MB/s].vector_cache/glove.6B.zip:  31%|███       | 269M/862M [01:47<04:19, 2.29MB/s].vector_cache/glove.6B.zip:  31%|███▏      | 271M/862M [01:48<05:18, 1.86MB/s].vector_cache/glove.6B.zip:  31%|███▏      | 271M/862M [01:49<05:43, 1.72MB/s].vector_cache/glove.6B.zip:  32%|███▏      | 272M/862M [01:49<04:26, 2.21MB/s].vector_cache/glove.6B.zip:  32%|███▏      | 275M/862M [01:49<03:12, 3.05MB/s].vector_cache/glove.6B.zip:  32%|███▏      | 275M/862M [01:50<15:04, 650kB/s] .vector_cache/glove.6B.zip:  32%|███▏      | 275M/862M [01:51<11:33, 847kB/s].vector_cache/glove.6B.zip:  32%|███▏      | 277M/862M [01:51<08:18, 1.17MB/s].vector_cache/glove.6B.zip:  32%|███▏      | 279M/862M [01:52<08:05, 1.20MB/s].vector_cache/glove.6B.zip:  32%|███▏      | 279M/862M [01:52<07:37, 1.27MB/s].vector_cache/glove.6B.zip:  32%|███▏      | 280M/862M [01:53<05:50, 1.66MB/s].vector_cache/glove.6B.zip:  33%|███▎      | 283M/862M [01:53<04:11, 2.30MB/s].vector_cache/glove.6B.zip:  33%|███▎      | 283M/862M [01:54<1:11:52, 134kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 284M/862M [01:54<51:06, 189kB/s]  .vector_cache/glove.6B.zip:  33%|███▎      | 285M/862M [01:55<35:57, 268kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 287M/862M [01:55<25:11, 381kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 287M/862M [01:56<56:08, 171kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 287M/862M [01:56<41:15, 232kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 288M/862M [01:57<29:19, 326kB/s].vector_cache/glove.6B.zip:  34%|███▍      | 291M/862M [01:57<20:31, 464kB/s].vector_cache/glove.6B.zip:  34%|███▍      | 291M/862M [01:58<9:23:42, 16.9kB/s].vector_cache/glove.6B.zip:  34%|███▍      | 292M/862M [01:58<6:35:18, 24.1kB/s].vector_cache/glove.6B.zip:  34%|███▍      | 293M/862M [01:58<4:36:10, 34.3kB/s].vector_cache/glove.6B.zip:  34%|███▍      | 295M/862M [02:00<3:14:48, 48.5kB/s].vector_cache/glove.6B.zip:  34%|███▍      | 296M/862M [02:00<2:18:14, 68.3kB/s].vector_cache/glove.6B.zip:  34%|███▍      | 296M/862M [02:00<1:37:03, 97.1kB/s].vector_cache/glove.6B.zip:  35%|███▍      | 299M/862M [02:01<1:07:43, 139kB/s] .vector_cache/glove.6B.zip:  35%|███▍      | 300M/862M [02:02<56:09, 167kB/s]  .vector_cache/glove.6B.zip:  35%|███▍      | 300M/862M [02:02<40:13, 233kB/s].vector_cache/glove.6B.zip:  35%|███▍      | 302M/862M [02:02<28:19, 330kB/s].vector_cache/glove.6B.zip:  35%|███▌      | 304M/862M [02:04<21:56, 424kB/s].vector_cache/glove.6B.zip:  35%|███▌      | 304M/862M [02:04<17:14, 540kB/s].vector_cache/glove.6B.zip:  35%|███▌      | 305M/862M [02:04<12:31, 742kB/s].vector_cache/glove.6B.zip:  36%|███▌      | 308M/862M [02:06<10:13, 904kB/s].vector_cache/glove.6B.zip:  36%|███▌      | 308M/862M [02:06<08:06, 1.14MB/s].vector_cache/glove.6B.zip:  36%|███▌      | 310M/862M [02:06<05:53, 1.56MB/s].vector_cache/glove.6B.zip:  36%|███▌      | 312M/862M [02:08<06:15, 1.47MB/s].vector_cache/glove.6B.zip:  36%|███▌      | 312M/862M [02:08<05:18, 1.73MB/s].vector_cache/glove.6B.zip:  36%|███▋      | 314M/862M [02:08<03:57, 2.31MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 316M/862M [02:10<04:54, 1.86MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 316M/862M [02:10<05:17, 1.72MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 317M/862M [02:10<04:05, 2.22MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 319M/862M [02:10<02:58, 3.04MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 320M/862M [02:12<06:56, 1.30MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 321M/862M [02:12<05:46, 1.56MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 322M/862M [02:12<04:15, 2.11MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 324M/862M [02:14<05:04, 1.76MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 324M/862M [02:14<05:23, 1.66MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 325M/862M [02:14<04:10, 2.15MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 328M/862M [02:14<03:00, 2.96MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 328M/862M [02:16<08:22, 1.06MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 329M/862M [02:16<06:47, 1.31MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 330M/862M [02:16<04:57, 1.79MB/s].vector_cache/glove.6B.zip:  39%|███▊      | 332M/862M [02:18<05:31, 1.60MB/s].vector_cache/glove.6B.zip:  39%|███▊      | 333M/862M [02:18<04:44, 1.86MB/s].vector_cache/glove.6B.zip:  39%|███▉      | 334M/862M [02:18<03:32, 2.48MB/s].vector_cache/glove.6B.zip:  39%|███▉      | 337M/862M [02:20<04:32, 1.93MB/s].vector_cache/glove.6B.zip:  39%|███▉      | 337M/862M [02:20<04:08, 2.11MB/s].vector_cache/glove.6B.zip:  39%|███▉      | 339M/862M [02:20<03:08, 2.78MB/s].vector_cache/glove.6B.zip:  40%|███▉      | 341M/862M [02:22<04:12, 2.06MB/s].vector_cache/glove.6B.zip:  40%|███▉      | 341M/862M [02:22<03:49, 2.27MB/s].vector_cache/glove.6B.zip:  40%|███▉      | 343M/862M [02:22<02:56, 2.94MB/s].vector_cache/glove.6B.zip:  40%|███▉      | 345M/862M [02:24<04:02, 2.13MB/s].vector_cache/glove.6B.zip:  40%|████      | 345M/862M [02:24<03:55, 2.19MB/s].vector_cache/glove.6B.zip:  40%|████      | 347M/862M [02:24<02:57, 2.90MB/s].vector_cache/glove.6B.zip:  40%|████      | 349M/862M [02:26<04:02, 2.12MB/s].vector_cache/glove.6B.zip:  41%|████      | 349M/862M [02:26<03:44, 2.28MB/s].vector_cache/glove.6B.zip:  41%|████      | 351M/862M [02:26<02:49, 3.01MB/s].vector_cache/glove.6B.zip:  41%|████      | 353M/862M [02:28<03:56, 2.15MB/s].vector_cache/glove.6B.zip:  41%|████      | 353M/862M [02:28<03:48, 2.23MB/s].vector_cache/glove.6B.zip:  41%|████      | 355M/862M [02:28<02:49, 2.99MB/s].vector_cache/glove.6B.zip:  41%|████▏     | 357M/862M [02:28<02:05, 4.02MB/s].vector_cache/glove.6B.zip:  41%|████▏     | 357M/862M [02:30<1:39:22, 84.7kB/s].vector_cache/glove.6B.zip:  41%|████▏     | 358M/862M [02:30<1:10:23, 119kB/s] .vector_cache/glove.6B.zip:  42%|████▏     | 359M/862M [02:30<49:22, 170kB/s]  .vector_cache/glove.6B.zip:  42%|████▏     | 361M/862M [02:32<36:21, 230kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 362M/862M [02:32<26:17, 317kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 363M/862M [02:32<18:33, 448kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 365M/862M [02:34<14:52, 557kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 366M/862M [02:34<12:06, 684kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 366M/862M [02:34<08:52, 931kB/s].vector_cache/glove.6B.zip:  43%|████▎     | 370M/862M [02:36<07:30, 1.09MB/s].vector_cache/glove.6B.zip:  43%|████▎     | 370M/862M [02:36<06:06, 1.34MB/s].vector_cache/glove.6B.zip:  43%|████▎     | 371M/862M [02:36<04:28, 1.83MB/s].vector_cache/glove.6B.zip:  43%|████▎     | 374M/862M [02:37<05:00, 1.63MB/s].vector_cache/glove.6B.zip:  43%|████▎     | 374M/862M [02:38<05:10, 1.57MB/s].vector_cache/glove.6B.zip:  43%|████▎     | 375M/862M [02:38<04:01, 2.02MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 378M/862M [02:39<04:06, 1.96MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 378M/862M [02:40<03:42, 2.17MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 380M/862M [02:40<02:48, 2.87MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 382M/862M [02:41<03:48, 2.10MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 382M/862M [02:42<04:17, 1.87MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 383M/862M [02:42<03:24, 2.35MB/s].vector_cache/glove.6B.zip:  45%|████▍     | 386M/862M [02:43<03:39, 2.17MB/s].vector_cache/glove.6B.zip:  45%|████▍     | 386M/862M [02:43<03:21, 2.36MB/s].vector_cache/glove.6B.zip:  45%|████▍     | 388M/862M [02:44<02:33, 3.09MB/s].vector_cache/glove.6B.zip:  45%|████▌     | 390M/862M [02:45<03:37, 2.17MB/s].vector_cache/glove.6B.zip:  45%|████▌     | 390M/862M [02:45<04:04, 1.93MB/s].vector_cache/glove.6B.zip:  45%|████▌     | 391M/862M [02:46<03:11, 2.46MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 393M/862M [02:46<02:19, 3.35MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 394M/862M [02:47<05:16, 1.48MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 395M/862M [02:47<04:21, 1.78MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 396M/862M [02:47<03:13, 2.42MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 398M/862M [02:48<02:20, 3.29MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 398M/862M [02:49<20:19, 380kB/s] .vector_cache/glove.6B.zip:  46%|████▌     | 399M/862M [02:49<15:47, 489kB/s].vector_cache/glove.6B.zip:  46%|████▋     | 399M/862M [02:49<11:23, 677kB/s].vector_cache/glove.6B.zip:  47%|████▋     | 402M/862M [02:50<08:01, 956kB/s].vector_cache/glove.6B.zip:  47%|████▋     | 402M/862M [02:51<11:33, 663kB/s].vector_cache/glove.6B.zip:  47%|████▋     | 403M/862M [02:51<08:52, 863kB/s].vector_cache/glove.6B.zip:  47%|████▋     | 404M/862M [02:51<06:22, 1.20MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 407M/862M [02:53<06:13, 1.22MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 407M/862M [02:53<05:54, 1.29MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 408M/862M [02:53<04:31, 1.68MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 411M/862M [02:54<03:14, 2.32MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 411M/862M [02:55<56:01, 134kB/s] .vector_cache/glove.6B.zip:  48%|████▊     | 411M/862M [02:55<39:56, 188kB/s].vector_cache/glove.6B.zip:  48%|████▊     | 413M/862M [02:55<28:01, 267kB/s].vector_cache/glove.6B.zip:  48%|████▊     | 415M/862M [02:57<21:17, 350kB/s].vector_cache/glove.6B.zip:  48%|████▊     | 415M/862M [02:57<16:24, 454kB/s].vector_cache/glove.6B.zip:  48%|████▊     | 416M/862M [02:57<11:47, 631kB/s].vector_cache/glove.6B.zip:  48%|████▊     | 418M/862M [02:57<08:18, 890kB/s].vector_cache/glove.6B.zip:  49%|████▊     | 419M/862M [02:59<09:40, 764kB/s].vector_cache/glove.6B.zip:  49%|████▊     | 419M/862M [02:59<07:31, 980kB/s].vector_cache/glove.6B.zip:  49%|████▉     | 421M/862M [02:59<05:24, 1.36MB/s].vector_cache/glove.6B.zip:  49%|████▉     | 423M/862M [03:01<05:29, 1.33MB/s].vector_cache/glove.6B.zip:  49%|████▉     | 423M/862M [03:01<05:20, 1.37MB/s].vector_cache/glove.6B.zip:  49%|████▉     | 424M/862M [03:01<04:06, 1.78MB/s].vector_cache/glove.6B.zip:  50%|████▉     | 427M/862M [03:03<04:01, 1.80MB/s].vector_cache/glove.6B.zip:  50%|████▉     | 428M/862M [03:03<03:34, 2.03MB/s].vector_cache/glove.6B.zip:  50%|████▉     | 429M/862M [03:03<02:40, 2.70MB/s].vector_cache/glove.6B.zip:  50%|█████     | 431M/862M [03:05<03:32, 2.02MB/s].vector_cache/glove.6B.zip:  50%|█████     | 431M/862M [03:05<03:57, 1.81MB/s].vector_cache/glove.6B.zip:  50%|█████     | 432M/862M [03:05<03:07, 2.29MB/s].vector_cache/glove.6B.zip:  50%|█████     | 435M/862M [03:07<03:20, 2.13MB/s].vector_cache/glove.6B.zip:  51%|█████     | 436M/862M [03:07<03:03, 2.32MB/s].vector_cache/glove.6B.zip:  51%|█████     | 437M/862M [03:07<02:18, 3.08MB/s].vector_cache/glove.6B.zip:  51%|█████     | 439M/862M [03:09<03:15, 2.17MB/s].vector_cache/glove.6B.zip:  51%|█████     | 440M/862M [03:09<03:40, 1.92MB/s].vector_cache/glove.6B.zip:  51%|█████     | 440M/862M [03:09<03:16, 2.15MB/s].vector_cache/glove.6B.zip:  51%|█████     | 441M/862M [03:09<02:27, 2.86MB/s].vector_cache/glove.6B.zip:  51%|█████▏    | 444M/862M [03:11<03:10, 2.19MB/s].vector_cache/glove.6B.zip:  51%|█████▏    | 444M/862M [03:11<02:57, 2.36MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 445M/862M [03:11<02:12, 3.14MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 448M/862M [03:13<03:09, 2.18MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 448M/862M [03:13<03:39, 1.89MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 449M/862M [03:13<02:51, 2.42MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 450M/862M [03:13<02:07, 3.24MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 452M/862M [03:15<03:36, 1.89MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 452M/862M [03:15<03:15, 2.10MB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 454M/862M [03:15<02:26, 2.78MB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 456M/862M [03:17<03:16, 2.07MB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 456M/862M [03:17<03:40, 1.84MB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 457M/862M [03:17<02:54, 2.32MB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 460M/862M [03:19<03:06, 2.15MB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 460M/862M [03:19<02:46, 2.41MB/s].vector_cache/glove.6B.zip:  54%|█████▎    | 462M/862M [03:19<02:07, 3.15MB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 464M/862M [03:19<01:33, 4.26MB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 464M/862M [03:21<14:00, 474kB/s] .vector_cache/glove.6B.zip:  54%|█████▍    | 464M/862M [03:21<11:09, 594kB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 465M/862M [03:21<08:06, 817kB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 468M/862M [03:21<05:42, 1.15MB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 468M/862M [03:23<14:09, 464kB/s] .vector_cache/glove.6B.zip:  54%|█████▍    | 469M/862M [03:23<10:35, 619kB/s].vector_cache/glove.6B.zip:  55%|█████▍    | 470M/862M [03:23<07:33, 865kB/s].vector_cache/glove.6B.zip:  55%|█████▍    | 472M/862M [03:25<07:20, 884kB/s].vector_cache/glove.6B.zip:  55%|█████▌    | 476M/862M [03:27<05:42, 1.13MB/s].vector_cache/glove.6B.zip:  55%|█████▌    | 477M/862M [03:27<04:17, 1.49MB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 479M/862M [03:27<03:07, 2.04MB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 481M/862M [03:28<03:50, 1.65MB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 481M/862M [03:29<04:25, 1.43MB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 481M/862M [03:29<03:27, 1.83MB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 483M/862M [03:29<02:32, 2.48MB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 485M/862M [03:30<03:19, 1.89MB/s].vector_cache/glove.6B.zip:  56%|█████▋    | 485M/862M [03:31<02:58, 2.11MB/s].vector_cache/glove.6B.zip:  56%|█████▋    | 487M/862M [03:31<02:13, 2.82MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 489M/862M [03:31<01:37, 3.84MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 489M/862M [03:32<1:02:47, 99.1kB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 489M/862M [03:33<45:11, 138kB/s]   .vector_cache/glove.6B.zip:  57%|█████▋    | 490M/862M [03:33<31:50, 195kB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 492M/862M [03:33<22:14, 277kB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 493M/862M [03:34<18:36, 331kB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 493M/862M [03:35<13:38, 450kB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 495M/862M [03:35<09:40, 633kB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 497M/862M [03:36<08:09, 747kB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 497M/862M [03:36<06:59, 869kB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 498M/862M [03:37<05:12, 1.17MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 501M/862M [03:37<03:41, 1.63MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 501M/862M [03:38<45:28, 132kB/s] .vector_cache/glove.6B.zip:  58%|█████▊    | 502M/862M [03:38<32:25, 185kB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 503M/862M [03:39<22:45, 263kB/s].vector_cache/glove.6B.zip:  59%|█████▊    | 505M/862M [03:40<17:13, 345kB/s].vector_cache/glove.6B.zip:  59%|█████▊    | 506M/862M [03:40<13:15, 448kB/s].vector_cache/glove.6B.zip:  59%|█████▊    | 506M/862M [03:41<09:31, 623kB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 508M/862M [03:41<06:45, 874kB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 509M/862M [03:42<06:26, 912kB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 510M/862M [03:42<05:06, 1.15MB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 511M/862M [03:43<03:42, 1.58MB/s].vector_cache/glove.6B.zip:  60%|█████▉    | 514M/862M [03:44<03:56, 1.47MB/s].vector_cache/glove.6B.zip:  60%|█████▉    | 514M/862M [03:44<03:22, 1.72MB/s].vector_cache/glove.6B.zip:  60%|█████▉    | 516M/862M [03:44<02:29, 2.31MB/s].vector_cache/glove.6B.zip:  60%|██████    | 518M/862M [03:46<03:04, 1.87MB/s].vector_cache/glove.6B.zip:  60%|██████    | 518M/862M [03:46<03:28, 1.65MB/s].vector_cache/glove.6B.zip:  60%|██████    | 518M/862M [03:46<02:59, 1.92MB/s].vector_cache/glove.6B.zip:  60%|██████    | 519M/862M [03:46<02:19, 2.46MB/s].vector_cache/glove.6B.zip:  60%|██████    | 521M/862M [03:47<01:43, 3.31MB/s].vector_cache/glove.6B.zip:  61%|██████    | 522M/862M [03:48<03:19, 1.71MB/s].vector_cache/glove.6B.zip:  61%|██████    | 522M/862M [03:48<03:02, 1.86MB/s].vector_cache/glove.6B.zip:  61%|██████    | 523M/862M [03:48<02:18, 2.45MB/s].vector_cache/glove.6B.zip:  61%|██████    | 526M/862M [03:50<02:43, 2.06MB/s].vector_cache/glove.6B.zip:  61%|██████    | 526M/862M [03:50<02:36, 2.15MB/s].vector_cache/glove.6B.zip:  61%|██████    | 528M/862M [03:50<01:57, 2.84MB/s].vector_cache/glove.6B.zip:  61%|██████▏   | 530M/862M [03:50<01:27, 3.82MB/s].vector_cache/glove.6B.zip:  61%|██████▏   | 530M/862M [03:52<05:48, 952kB/s] .vector_cache/glove.6B.zip:  62%|██████▏   | 530M/862M [03:52<04:44, 1.16MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 532M/862M [03:52<03:28, 1.58MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 534M/862M [03:54<03:31, 1.55MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 535M/862M [03:54<03:08, 1.74MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 536M/862M [03:54<02:19, 2.33MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 538M/862M [03:56<02:44, 1.97MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 539M/862M [03:56<02:28, 2.18MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 540M/862M [03:56<01:52, 2.87MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 543M/862M [03:58<02:31, 2.11MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 543M/862M [03:58<02:19, 2.29MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 544M/862M [03:58<01:45, 3.01MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 547M/862M [04:00<02:26, 2.15MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 547M/862M [04:00<02:47, 1.89MB/s].vector_cache/glove.6B.zip:  64%|██████▎   | 548M/862M [04:00<02:12, 2.37MB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 551M/862M [04:02<02:22, 2.18MB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 551M/862M [04:02<02:11, 2.37MB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 553M/862M [04:02<01:39, 3.12MB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 555M/862M [04:04<02:21, 2.18MB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 555M/862M [04:04<02:10, 2.36MB/s].vector_cache/glove.6B.zip:  65%|██████▍   | 557M/862M [04:04<01:38, 3.10MB/s].vector_cache/glove.6B.zip:  65%|██████▍   | 559M/862M [04:06<02:20, 2.16MB/s].vector_cache/glove.6B.zip:  65%|██████▍   | 559M/862M [04:06<02:39, 1.90MB/s].vector_cache/glove.6B.zip:  65%|██████▍   | 560M/862M [04:06<02:07, 2.38MB/s].vector_cache/glove.6B.zip:  65%|██████▌   | 563M/862M [04:06<01:31, 3.27MB/s].vector_cache/glove.6B.zip:  65%|██████▌   | 563M/862M [04:08<05:40, 877kB/s] .vector_cache/glove.6B.zip:  65%|██████▌   | 563M/862M [04:08<04:29, 1.11MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 565M/862M [04:08<03:15, 1.52MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 567M/862M [04:10<03:24, 1.44MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 568M/862M [04:10<02:53, 1.70MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 569M/862M [04:10<02:07, 2.29MB/s].vector_cache/glove.6B.zip:  66%|██████▋   | 571M/862M [04:12<02:37, 1.84MB/s].vector_cache/glove.6B.zip:  66%|██████▋   | 572M/862M [04:12<02:50, 1.70MB/s].vector_cache/glove.6B.zip:  66%|██████▋   | 572M/862M [04:12<02:13, 2.17MB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 575M/862M [04:14<02:19, 2.06MB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 576M/862M [04:14<02:07, 2.25MB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 577M/862M [04:14<01:36, 2.96MB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 580M/862M [04:16<02:13, 2.12MB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 580M/862M [04:16<02:01, 2.32MB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 582M/862M [04:16<01:31, 3.08MB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 584M/862M [04:18<02:09, 2.14MB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 584M/862M [04:18<01:59, 2.32MB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 586M/862M [04:18<01:29, 3.10MB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 588M/862M [04:20<02:07, 2.15MB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 588M/862M [04:20<01:57, 2.34MB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 590M/862M [04:20<01:28, 3.08MB/s].vector_cache/glove.6B.zip:  69%|██████▊   | 592M/862M [04:22<02:05, 2.15MB/s].vector_cache/glove.6B.zip:  69%|██████▊   | 592M/862M [04:22<01:55, 2.34MB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 594M/862M [04:22<01:27, 3.08MB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 596M/862M [04:24<02:03, 2.15MB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 596M/862M [04:24<02:20, 1.89MB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 597M/862M [04:24<01:49, 2.42MB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 598M/862M [04:24<01:21, 3.23MB/s].vector_cache/glove.6B.zip:  70%|██████▉   | 600M/862M [04:25<02:11, 1.99MB/s].vector_cache/glove.6B.zip:  70%|██████▉   | 601M/862M [04:26<01:59, 2.19MB/s].vector_cache/glove.6B.zip:  70%|██████▉   | 602M/862M [04:26<01:28, 2.93MB/s].vector_cache/glove.6B.zip:  70%|███████   | 604M/862M [04:27<02:01, 2.12MB/s].vector_cache/glove.6B.zip:  70%|███████   | 605M/862M [04:28<01:48, 2.38MB/s].vector_cache/glove.6B.zip:  70%|███████   | 605M/862M [04:28<1:12:44, 59.0kB/s].vector_cache/glove.6B.zip:  71%|███████   | 608M/862M [04:29<50:39, 83.5kB/s]  .vector_cache/glove.6B.zip:  71%|███████   | 609M/862M [04:30<35:51, 118kB/s] .vector_cache/glove.6B.zip:  71%|███████   | 610M/862M [04:30<25:02, 168kB/s].vector_cache/glove.6B.zip:  71%|███████   | 612M/862M [04:31<18:19, 227kB/s].vector_cache/glove.6B.zip:  71%|███████   | 613M/862M [04:32<13:14, 314kB/s].vector_cache/glove.6B.zip:  71%|███████▏  | 614M/862M [04:32<09:18, 444kB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 617M/862M [04:33<07:24, 553kB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 617M/862M [04:33<06:02, 676kB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 618M/862M [04:34<04:23, 927kB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 619M/862M [04:34<03:07, 1.30MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 621M/862M [04:35<03:39, 1.10MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 621M/862M [04:35<02:58, 1.35MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 623M/862M [04:36<02:09, 1.85MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 625M/862M [04:37<02:25, 1.63MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 625M/862M [04:37<02:30, 1.58MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 626M/862M [04:38<01:55, 2.05MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 628M/862M [04:38<01:22, 2.83MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 629M/862M [04:39<03:50, 1.01MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 629M/862M [04:39<03:04, 1.26MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 631M/862M [04:39<02:13, 1.73MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 633M/862M [04:41<02:26, 1.57MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 633M/862M [04:41<02:05, 1.82MB/s].vector_cache/glove.6B.zip:  74%|███████▎  | 635M/862M [04:41<01:32, 2.46MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 637M/862M [04:43<01:57, 1.92MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 638M/862M [04:43<01:44, 2.14MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 639M/862M [04:43<01:17, 2.87MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 641M/862M [04:45<01:46, 2.07MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 641M/862M [04:45<01:59, 1.85MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 642M/862M [04:45<01:33, 2.36MB/s].vector_cache/glove.6B.zip:  75%|███████▍  | 645M/862M [04:45<01:06, 3.25MB/s].vector_cache/glove.6B.zip:  75%|███████▍  | 645M/862M [04:47<05:51, 617kB/s] .vector_cache/glove.6B.zip:  75%|███████▍  | 646M/862M [04:47<04:27, 809kB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 647M/862M [04:47<03:10, 1.13MB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 650M/862M [04:49<03:02, 1.17MB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 650M/862M [04:49<02:50, 1.24MB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 650M/862M [04:49<02:09, 1.63MB/s].vector_cache/glove.6B.zip:  76%|███████▌  | 654M/862M [04:51<02:03, 1.69MB/s].vector_cache/glove.6B.zip:  76%|███████▌  | 654M/862M [04:51<01:47, 1.93MB/s].vector_cache/glove.6B.zip:  76%|███████▌  | 656M/862M [04:51<01:20, 2.57MB/s].vector_cache/glove.6B.zip:  76%|███████▋  | 658M/862M [04:53<01:43, 1.98MB/s].vector_cache/glove.6B.zip:  76%|███████▋  | 658M/862M [04:53<01:32, 2.20MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 660M/862M [04:53<01:09, 2.91MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 662M/862M [04:55<01:35, 2.09MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 662M/862M [04:55<01:27, 2.29MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 664M/862M [04:55<01:04, 3.06MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 666M/862M [04:57<01:31, 2.14MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 666M/862M [04:57<01:43, 1.89MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 667M/862M [04:57<01:22, 2.37MB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 670M/862M [04:59<01:28, 2.18MB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 670M/862M [04:59<01:21, 2.34MB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 672M/862M [04:59<01:00, 3.12MB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 674M/862M [05:01<01:26, 2.18MB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 674M/862M [05:01<01:38, 1.90MB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 675M/862M [05:01<01:16, 2.43MB/s].vector_cache/glove.6B.zip:  79%|███████▊  | 678M/862M [05:01<00:55, 3.34MB/s].vector_cache/glove.6B.zip:  79%|███████▊  | 678M/862M [05:03<03:07, 981kB/s] .vector_cache/glove.6B.zip:  79%|███████▊  | 679M/862M [05:03<02:29, 1.22MB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 680M/862M [05:03<01:48, 1.67MB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 682M/862M [05:05<01:57, 1.53MB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 683M/862M [05:05<01:58, 1.52MB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 683M/862M [05:05<01:31, 1.95MB/s].vector_cache/glove.6B.zip:  80%|███████▉  | 687M/862M [05:07<01:31, 1.92MB/s].vector_cache/glove.6B.zip:  80%|███████▉  | 687M/862M [05:07<01:21, 2.14MB/s].vector_cache/glove.6B.zip:  80%|███████▉  | 688M/862M [05:07<01:01, 2.84MB/s].vector_cache/glove.6B.zip:  80%|████████  | 691M/862M [05:09<01:22, 2.08MB/s].vector_cache/glove.6B.zip:  80%|████████  | 691M/862M [05:09<01:32, 1.85MB/s].vector_cache/glove.6B.zip:  80%|████████  | 692M/862M [05:09<01:12, 2.37MB/s].vector_cache/glove.6B.zip:  80%|████████  | 694M/862M [05:09<00:51, 3.24MB/s].vector_cache/glove.6B.zip:  81%|████████  | 695M/862M [05:11<02:12, 1.27MB/s].vector_cache/glove.6B.zip:  81%|████████  | 695M/862M [05:11<01:49, 1.52MB/s].vector_cache/glove.6B.zip:  81%|████████  | 697M/862M [05:11<01:20, 2.06MB/s].vector_cache/glove.6B.zip:  81%|████████  | 699M/862M [05:13<01:33, 1.74MB/s].vector_cache/glove.6B.zip:  81%|████████  | 699M/862M [05:13<01:22, 1.99MB/s].vector_cache/glove.6B.zip:  81%|████████▏ | 701M/862M [05:13<01:01, 2.64MB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 703M/862M [05:15<01:19, 1.99MB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 703M/862M [05:15<01:28, 1.80MB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 704M/862M [05:15<01:09, 2.27MB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 707M/862M [05:17<01:12, 2.13MB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 707M/862M [05:17<01:06, 2.32MB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 709M/862M [05:17<00:50, 3.06MB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 711M/862M [05:18<01:09, 2.16MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 711M/862M [05:19<01:19, 1.90MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 712M/862M [05:19<01:01, 2.43MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 714M/862M [05:19<00:44, 3.31MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 715M/862M [05:20<01:40, 1.46MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 716M/862M [05:21<01:25, 1.71MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 717M/862M [05:21<01:02, 2.32MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 719M/862M [05:22<01:16, 1.86MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 720M/862M [05:23<01:08, 2.09MB/s].vector_cache/glove.6B.zip:  84%|████████▎ | 721M/862M [05:23<00:50, 2.77MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 724M/862M [05:24<01:07, 2.06MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 724M/862M [05:24<01:15, 1.84MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 725M/862M [05:25<00:59, 2.32MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 728M/862M [05:26<01:02, 2.16MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 728M/862M [05:26<00:57, 2.35MB/s].vector_cache/glove.6B.zip:  85%|████████▍ | 730M/862M [05:27<00:42, 3.09MB/s].vector_cache/glove.6B.zip:  85%|████████▍ | 732M/862M [05:28<01:00, 2.17MB/s].vector_cache/glove.6B.zip:  85%|████████▍ | 732M/862M [05:28<01:08, 1.90MB/s].vector_cache/glove.6B.zip:  85%|████████▍ | 733M/862M [05:29<00:53, 2.42MB/s].vector_cache/glove.6B.zip:  85%|████████▌ | 735M/862M [05:29<00:38, 3.31MB/s].vector_cache/glove.6B.zip:  85%|████████▌ | 736M/862M [05:30<01:44, 1.21MB/s].vector_cache/glove.6B.zip:  85%|████████▌ | 736M/862M [05:30<01:25, 1.46MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 738M/862M [05:31<01:02, 1.99MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 740M/862M [05:32<01:11, 1.70MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 740M/862M [05:32<01:14, 1.63MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 741M/862M [05:32<00:57, 2.11MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 743M/862M [05:33<00:40, 2.90MB/s].vector_cache/glove.6B.zip:  86%|████████▋ | 744M/862M [05:34<01:40, 1.18MB/s].vector_cache/glove.6B.zip:  86%|████████▋ | 745M/862M [05:34<01:22, 1.43MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 746M/862M [05:34<00:59, 1.94MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 748M/862M [05:36<01:07, 1.68MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 748M/862M [05:36<01:10, 1.61MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 749M/862M [05:36<00:54, 2.07MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 752M/862M [05:38<00:55, 1.99MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 753M/862M [05:38<00:49, 2.20MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 754M/862M [05:38<00:36, 2.95MB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 756M/862M [05:40<00:49, 2.12MB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 757M/862M [05:40<00:56, 1.87MB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 757M/862M [05:40<00:44, 2.37MB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 760M/862M [05:40<00:31, 3.27MB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 761M/862M [05:42<06:59, 242kB/s] .vector_cache/glove.6B.zip:  88%|████████▊ | 761M/862M [05:42<05:03, 334kB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 763M/862M [05:42<03:31, 472kB/s].vector_cache/glove.6B.zip:  89%|████████▊ | 765M/862M [05:44<02:47, 582kB/s].vector_cache/glove.6B.zip:  89%|████████▊ | 765M/862M [05:44<02:16, 712kB/s].vector_cache/glove.6B.zip:  89%|████████▉ | 766M/862M [05:44<01:39, 967kB/s].vector_cache/glove.6B.zip:  89%|████████▉ | 769M/862M [05:44<01:08, 1.36MB/s].vector_cache/glove.6B.zip:  89%|████████▉ | 769M/862M [05:46<12:01, 129kB/s] .vector_cache/glove.6B.zip:  89%|████████▉ | 769M/862M [05:46<08:32, 181kB/s].vector_cache/glove.6B.zip:  89%|████████▉ | 771M/862M [05:46<05:55, 257kB/s].vector_cache/glove.6B.zip:  90%|████████▉ | 773M/862M [05:48<04:23, 338kB/s].vector_cache/glove.6B.zip:  90%|████████▉ | 773M/862M [05:48<03:12, 461kB/s].vector_cache/glove.6B.zip:  90%|████████▉ | 775M/862M [05:48<02:14, 648kB/s].vector_cache/glove.6B.zip:  90%|█████████ | 777M/862M [05:50<01:52, 759kB/s].vector_cache/glove.6B.zip:  90%|█████████ | 777M/862M [05:50<01:26, 977kB/s].vector_cache/glove.6B.zip:  90%|█████████ | 779M/862M [05:50<01:01, 1.35MB/s].vector_cache/glove.6B.zip:  91%|█████████ | 781M/862M [05:52<01:01, 1.32MB/s].vector_cache/glove.6B.zip:  91%|█████████ | 782M/862M [05:52<00:50, 1.58MB/s].vector_cache/glove.6B.zip:  91%|█████████ | 783M/862M [05:52<00:36, 2.14MB/s].vector_cache/glove.6B.zip:  91%|█████████ | 785M/862M [05:54<00:43, 1.77MB/s].vector_cache/glove.6B.zip:  91%|█████████ | 786M/862M [05:54<00:38, 2.01MB/s].vector_cache/glove.6B.zip:  91%|█████████ | 787M/862M [05:54<00:28, 2.63MB/s].vector_cache/glove.6B.zip:  91%|█████████▏| 788M/862M [05:54<00:20, 3.52MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 789M/862M [05:56<00:48, 1.50MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 790M/862M [05:56<00:42, 1.69MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 791M/862M [05:56<00:31, 2.26MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 794M/862M [05:58<00:35, 1.96MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 794M/862M [05:58<00:41, 1.66MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 794M/862M [05:58<00:32, 2.11MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 796M/862M [05:58<00:22, 2.87MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 798M/862M [06:00<00:36, 1.79MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 798M/862M [06:00<00:32, 1.99MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 800M/862M [06:00<00:23, 2.63MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 802M/862M [06:02<00:29, 2.07MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 802M/862M [06:02<00:32, 1.84MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 802M/862M [06:02<00:29, 2.06MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 803M/862M [06:02<00:22, 2.67MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 805M/862M [06:02<00:15, 3.59MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 806M/862M [06:04<00:41, 1.35MB/s].vector_cache/glove.6B.zip:  94%|█████████▎| 806M/862M [06:04<00:36, 1.53MB/s].vector_cache/glove.6B.zip:  94%|█████████▎| 807M/862M [06:04<00:26, 2.04MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 810M/862M [06:06<00:27, 1.87MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 810M/862M [06:06<00:25, 2.04MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 812M/862M [06:06<00:18, 2.68MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 814M/862M [06:08<00:22, 2.12MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 814M/862M [06:08<00:25, 1.84MB/s].vector_cache/glove.6B.zip:  95%|█████████▍| 815M/862M [06:08<00:20, 2.34MB/s].vector_cache/glove.6B.zip:  95%|█████████▍| 817M/862M [06:08<00:14, 3.19MB/s].vector_cache/glove.6B.zip:  95%|█████████▍| 818M/862M [06:10<00:28, 1.53MB/s].vector_cache/glove.6B.zip:  95%|█████████▍| 819M/862M [06:10<00:24, 1.79MB/s].vector_cache/glove.6B.zip:  95%|█████████▌| 820M/862M [06:10<00:17, 2.40MB/s].vector_cache/glove.6B.zip:  95%|█████████▌| 823M/862M [06:12<00:20, 1.90MB/s].vector_cache/glove.6B.zip:  95%|█████████▌| 823M/862M [06:12<00:18, 2.13MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 824M/862M [06:12<00:13, 2.81MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 827M/862M [06:14<00:17, 2.07MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 827M/862M [06:14<00:15, 2.32MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 828M/862M [06:14<00:11, 2.99MB/s].vector_cache/glove.6B.zip:  96%|█████████▋| 831M/862M [06:14<00:07, 4.06MB/s].vector_cache/glove.6B.zip:  96%|█████████▋| 831M/862M [06:15<02:02, 256kB/s] .vector_cache/glove.6B.zip:  96%|█████████▋| 831M/862M [06:16<01:28, 353kB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 833M/862M [06:16<00:59, 497kB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 835M/862M [06:17<00:44, 608kB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 835M/862M [06:18<00:33, 792kB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 837M/862M [06:18<00:23, 1.10MB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 839M/862M [06:19<00:20, 1.15MB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 839M/862M [06:20<00:16, 1.39MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 841M/862M [06:20<00:11, 1.90MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 843M/862M [06:20<00:07, 2.61MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 843M/862M [06:21<03:47, 83.8kB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 843M/862M [06:22<02:38, 118kB/s] .vector_cache/glove.6B.zip:  98%|█████████▊| 845M/862M [06:22<01:41, 168kB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 847M/862M [06:23<01:05, 227kB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 848M/862M [06:23<00:46, 314kB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 849M/862M [06:24<00:29, 442kB/s].vector_cache/glove.6B.zip:  99%|█████████▊| 851M/862M [06:25<00:19, 552kB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 852M/862M [06:25<00:14, 720kB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 853M/862M [06:26<00:08, 1.01MB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 855M/862M [06:26<00:05, 1.40MB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 855M/862M [06:27<00:09, 678kB/s] .vector_cache/glove.6B.zip:  99%|█████████▉| 856M/862M [06:27<00:07, 881kB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 857M/862M [06:28<00:03, 1.22MB/s].vector_cache/glove.6B.zip: 100%|█████████▉| 860M/862M [06:29<00:02, 1.23MB/s].vector_cache/glove.6B.zip: 100%|█████████▉| 860M/862M [06:29<00:01, 1.54MB/s].vector_cache/glove.6B.zip: 100%|█████████▉| 861M/862M [06:29<00:00, 2.06MB/s].vector_cache/glove.6B.zip: 862MB [06:29, 2.21MB/s]                           
-  0%|          | 0/400000 [00:00<?, ?it/s]  0%|          | 1/400000 [00:01<162:25:23,  1.46s/it]  0%|          | 796/400000 [00:01<113:28:28,  1.02s/it]  0%|          | 1585/400000 [00:01<79:16:45,  1.40it/s]  1%|          | 2418/400000 [00:01<55:23:00,  1.99it/s]  1%|          | 3295/400000 [00:01<38:41:12,  2.85it/s]  1%|          | 4074/400000 [00:01<27:01:54,  4.07it/s]  1%|          | 4927/400000 [00:02<18:53:07,  5.81it/s]  1%|▏         | 5696/400000 [00:02<13:11:53,  8.30it/s]  2%|▏         | 6496/400000 [00:02<9:13:26, 11.85it/s]   2%|▏         | 7275/400000 [00:02<6:26:53, 16.92it/s]  2%|▏         | 8055/400000 [00:02<4:30:32, 24.15it/s]  2%|▏         | 8830/400000 [00:02<3:09:15, 34.45it/s]  2%|▏         | 9637/400000 [00:02<2:12:26, 49.12it/s]  3%|▎         | 10480/400000 [00:02<1:32:44, 70.00it/s]  3%|▎         | 11345/400000 [00:02<1:05:00, 99.65it/s]  3%|▎         | 12165/400000 [00:02<45:39, 141.60it/s]   3%|▎         | 12977/400000 [00:03<32:07, 200.78it/s]  3%|▎         | 13789/400000 [00:03<22:41, 283.68it/s]  4%|▎         | 14590/400000 [00:03<16:05, 399.06it/s]  4%|▍         | 15414/400000 [00:03<11:28, 558.49it/s]  4%|▍         | 16240/400000 [00:03<08:14, 775.36it/s]  4%|▍         | 17059/400000 [00:03<05:59, 1064.43it/s]  4%|▍         | 17872/400000 [00:03<04:26, 1435.90it/s]  5%|▍         | 18703/400000 [00:03<03:19, 1909.84it/s]  5%|▍         | 19513/400000 [00:03<02:33, 2471.63it/s]  5%|▌         | 20317/400000 [00:03<02:02, 3105.08it/s]  5%|▌         | 21112/400000 [00:04<01:40, 3787.75it/s]  5%|▌         | 21902/400000 [00:04<01:24, 4450.59it/s]  6%|▌         | 22710/400000 [00:04<01:13, 5142.94it/s]  6%|▌         | 23516/400000 [00:04<01:05, 5768.28it/s]  6%|▌         | 24312/400000 [00:04<00:59, 6286.75it/s]  6%|▋         | 25131/400000 [00:04<00:55, 6756.46it/s]  6%|▋         | 25932/400000 [00:04<00:53, 6971.39it/s]  7%|▋         | 26722/400000 [00:04<00:51, 7225.57it/s]  7%|▋         | 27510/400000 [00:04<00:50, 7406.65it/s]  7%|▋         | 28298/400000 [00:05<00:50, 7414.78it/s]  7%|▋         | 29135/400000 [00:05<00:48, 7676.55it/s]  7%|▋         | 29945/400000 [00:05<00:47, 7797.21it/s]  8%|▊         | 30743/400000 [00:05<00:47, 7850.02it/s]  8%|▊         | 31582/400000 [00:05<00:46, 8004.30it/s]  8%|▊         | 32420/400000 [00:05<00:45, 8111.51it/s]  8%|▊         | 33239/400000 [00:05<00:45, 7991.87it/s]  9%|▊         | 34044/400000 [00:05<00:45, 8001.13it/s]  9%|▊         | 34848/400000 [00:05<00:46, 7814.68it/s]  9%|▉         | 35656/400000 [00:05<00:46, 7892.20it/s]  9%|▉         | 36534/400000 [00:06<00:44, 8138.39it/s]  9%|▉         | 37382/400000 [00:06<00:44, 8236.43it/s] 10%|▉         | 38209/400000 [00:06<00:44, 8194.58it/s] 10%|▉         | 39031/400000 [00:06<00:44, 8061.10it/s] 10%|▉         | 39840/400000 [00:06<00:45, 7922.59it/s] 10%|█         | 40635/400000 [00:06<00:45, 7928.95it/s] 10%|█         | 41430/400000 [00:06<00:45, 7895.66it/s] 11%|█         | 42221/400000 [00:06<00:45, 7854.27it/s] 11%|█         | 43024/400000 [00:06<00:45, 7904.46it/s] 11%|█         | 43850/400000 [00:06<00:44, 8006.43it/s] 11%|█         | 44704/400000 [00:07<00:43, 8158.02it/s] 11%|█▏        | 45547/400000 [00:07<00:43, 8234.01it/s] 12%|█▏        | 46372/400000 [00:07<00:43, 8143.59it/s] 12%|█▏        | 47193/400000 [00:07<00:43, 8162.68it/s] 12%|█▏        | 48010/400000 [00:07<00:43, 8083.70it/s] 12%|█▏        | 48820/400000 [00:07<00:44, 7979.89it/s] 12%|█▏        | 49642/400000 [00:07<00:43, 8049.21it/s] 13%|█▎        | 50485/400000 [00:07<00:42, 8158.29it/s] 13%|█▎        | 51370/400000 [00:07<00:41, 8351.44it/s] 13%|█▎        | 52259/400000 [00:07<00:40, 8505.14it/s] 13%|█▎        | 53165/400000 [00:08<00:40, 8663.20it/s] 14%|█▎        | 54070/400000 [00:08<00:39, 8773.92it/s] 14%|█▎        | 54950/400000 [00:08<00:39, 8708.31it/s] 14%|█▍        | 55823/400000 [00:08<00:39, 8604.84it/s] 14%|█▍        | 56685/400000 [00:08<00:40, 8414.73it/s] 14%|█▍        | 57529/400000 [00:08<00:41, 8285.19it/s] 15%|█▍        | 58360/400000 [00:08<00:41, 8150.48it/s] 15%|█▍        | 59177/400000 [00:08<00:41, 8117.18it/s] 15%|█▌        | 60008/400000 [00:08<00:41, 8172.26it/s] 15%|█▌        | 60832/400000 [00:08<00:41, 8191.04it/s] 15%|█▌        | 61655/400000 [00:09<00:41, 8201.92it/s] 16%|█▌        | 62476/400000 [00:09<00:41, 8127.42it/s] 16%|█▌        | 63290/400000 [00:09<00:41, 8092.81it/s] 16%|█▌        | 64100/400000 [00:09<00:41, 8012.63it/s] 16%|█▌        | 64902/400000 [00:09<00:42, 7882.90it/s] 16%|█▋        | 65692/400000 [00:09<00:42, 7854.04it/s] 17%|█▋        | 66515/400000 [00:09<00:41, 7960.34it/s] 17%|█▋        | 67320/400000 [00:09<00:41, 7984.48it/s] 17%|█▋        | 68119/400000 [00:09<00:41, 7949.28it/s] 17%|█▋        | 68957/400000 [00:09<00:41, 8072.86it/s] 17%|█▋        | 69788/400000 [00:10<00:40, 8139.92it/s] 18%|█▊        | 70620/400000 [00:10<00:40, 8191.66it/s] 18%|█▊        | 71440/400000 [00:10<00:40, 8078.65it/s] 18%|█▊        | 72282/400000 [00:10<00:40, 8178.03it/s] 18%|█▊        | 73101/400000 [00:10<00:39, 8172.86it/s] 18%|█▊        | 73964/400000 [00:10<00:39, 8300.34it/s] 19%|█▊        | 74815/400000 [00:10<00:38, 8360.97it/s] 19%|█▉        | 75652/400000 [00:10<00:39, 8163.35it/s] 19%|█▉        | 76470/400000 [00:10<00:39, 8124.66it/s] 19%|█▉        | 77321/400000 [00:11<00:39, 8233.18it/s] 20%|█▉        | 78172/400000 [00:11<00:38, 8313.62it/s] 20%|█▉        | 79005/400000 [00:11<00:38, 8253.57it/s] 20%|█▉        | 79832/400000 [00:11<00:38, 8228.89it/s] 20%|██        | 80656/400000 [00:11<00:39, 8164.12it/s] 20%|██        | 81473/400000 [00:11<00:39, 8116.97it/s] 21%|██        | 82286/400000 [00:11<00:39, 8089.82it/s] 21%|██        | 83104/400000 [00:11<00:39, 8116.26it/s] 21%|██        | 83916/400000 [00:11<00:39, 8013.44it/s] 21%|██        | 84745/400000 [00:11<00:38, 8092.12it/s] 21%|██▏       | 85583/400000 [00:12<00:38, 8174.69it/s] 22%|██▏       | 86423/400000 [00:12<00:38, 8240.78it/s] 22%|██▏       | 87252/400000 [00:12<00:37, 8252.90it/s] 22%|██▏       | 88078/400000 [00:12<00:38, 8162.30it/s] 22%|██▏       | 88895/400000 [00:12<00:38, 8084.00it/s] 22%|██▏       | 89704/400000 [00:12<00:38, 8057.41it/s] 23%|██▎       | 90513/400000 [00:12<00:38, 8064.05it/s] 23%|██▎       | 91343/400000 [00:12<00:37, 8132.70it/s] 23%|██▎       | 92157/400000 [00:12<00:38, 8065.20it/s] 23%|██▎       | 93010/400000 [00:12<00:37, 8196.99it/s] 23%|██▎       | 93851/400000 [00:13<00:37, 8259.55it/s] 24%|██▎       | 94678/400000 [00:13<00:37, 8247.53it/s] 24%|██▍       | 95524/400000 [00:13<00:36, 8307.84it/s] 24%|██▍       | 96356/400000 [00:13<00:37, 8201.99it/s] 24%|██▍       | 97191/400000 [00:13<00:36, 8245.32it/s] 25%|██▍       | 98017/400000 [00:13<00:36, 8191.00it/s] 25%|██▍       | 98837/400000 [00:13<00:37, 8072.55it/s] 25%|██▍       | 99662/400000 [00:13<00:36, 8124.55it/s] 25%|██▌       | 100476/400000 [00:13<00:37, 8094.77it/s] 25%|██▌       | 101289/400000 [00:13<00:36, 8104.22it/s] 26%|██▌       | 102119/400000 [00:14<00:36, 8160.38it/s] 26%|██▌       | 102936/400000 [00:14<00:36, 8064.73it/s] 26%|██▌       | 103743/400000 [00:14<00:37, 8003.99it/s] 26%|██▌       | 104544/400000 [00:14<00:36, 7991.38it/s] 26%|██▋       | 105357/400000 [00:14<00:36, 8030.31it/s] 27%|██▋       | 106161/400000 [00:14<00:36, 8028.03it/s] 27%|██▋       | 106982/400000 [00:14<00:36, 8080.20it/s] 27%|██▋       | 107801/400000 [00:14<00:36, 8112.62it/s] 27%|██▋       | 108613/400000 [00:14<00:36, 7954.67it/s] 27%|██▋       | 109430/400000 [00:14<00:36, 8015.91it/s] 28%|██▊       | 110264/400000 [00:15<00:35, 8108.67it/s] 28%|██▊       | 111079/400000 [00:15<00:35, 8120.46it/s] 28%|██▊       | 111892/400000 [00:15<00:35, 8082.45it/s] 28%|██▊       | 112701/400000 [00:15<00:35, 8033.08it/s] 28%|██▊       | 113525/400000 [00:15<00:35, 8093.77it/s] 29%|██▊       | 114345/400000 [00:15<00:35, 8123.58it/s] 29%|██▉       | 115158/400000 [00:15<00:35, 8082.56it/s] 29%|██▉       | 115967/400000 [00:15<00:35, 8082.13it/s] 29%|██▉       | 116776/400000 [00:15<00:35, 7967.72it/s] 29%|██▉       | 117574/400000 [00:15<00:35, 7880.31it/s] 30%|██▉       | 118389/400000 [00:16<00:35, 7958.08it/s] 30%|██▉       | 119211/400000 [00:16<00:34, 8034.27it/s] 30%|███       | 120041/400000 [00:16<00:34, 8109.88it/s] 30%|███       | 120853/400000 [00:16<00:34, 8066.63it/s] 30%|███       | 121708/400000 [00:16<00:33, 8203.98it/s] 31%|███       | 122530/400000 [00:16<00:34, 8114.82it/s] 31%|███       | 123366/400000 [00:16<00:33, 8184.27it/s] 31%|███       | 124186/400000 [00:16<00:33, 8177.71it/s] 31%|███▏      | 125005/400000 [00:16<00:34, 8043.45it/s] 31%|███▏      | 125811/400000 [00:16<00:34, 8032.00it/s] 32%|███▏      | 126640/400000 [00:17<00:33, 8106.66it/s] 32%|███▏      | 127466/400000 [00:17<00:33, 8151.81it/s] 32%|███▏      | 128300/400000 [00:17<00:33, 8204.67it/s] 32%|███▏      | 129121/400000 [00:17<00:33, 8048.09it/s] 32%|███▏      | 129927/400000 [00:17<00:33, 8006.21it/s] 33%|███▎      | 130729/400000 [00:17<00:33, 7921.00it/s] 33%|███▎      | 131543/400000 [00:17<00:33, 7982.91it/s] 33%|███▎      | 132356/400000 [00:17<00:33, 8025.77it/s] 33%|███▎      | 133160/400000 [00:17<00:33, 7908.47it/s] 33%|███▎      | 133984/400000 [00:18<00:33, 8001.86it/s] 34%|███▎      | 134806/400000 [00:18<00:32, 8065.09it/s] 34%|███▍      | 135615/400000 [00:18<00:32, 8068.08it/s] 34%|███▍      | 136424/400000 [00:18<00:32, 8073.99it/s] 34%|███▍      | 137232/400000 [00:18<00:32, 8040.06it/s] 35%|███▍      | 138055/400000 [00:18<00:32, 8093.79it/s] 35%|███▍      | 138871/400000 [00:18<00:32, 8111.28it/s] 35%|███▍      | 139683/400000 [00:18<00:32, 8031.37it/s] 35%|███▌      | 140487/400000 [00:18<00:32, 8016.22it/s] 35%|███▌      | 141289/400000 [00:18<00:32, 7923.78it/s] 36%|███▌      | 142115/400000 [00:19<00:32, 8021.70it/s] 36%|███▌      | 142922/400000 [00:19<00:31, 8034.71it/s] 36%|███▌      | 143726/400000 [00:19<00:32, 7995.58it/s] 36%|███▌      | 144541/400000 [00:19<00:31, 8039.24it/s] 36%|███▋      | 145346/400000 [00:19<00:31, 8025.64it/s] 37%|███▋      | 146166/400000 [00:19<00:31, 8075.80it/s] 37%|███▋      | 146986/400000 [00:19<00:31, 8110.20it/s] 37%|███▋      | 147798/400000 [00:19<00:32, 7693.17it/s] 37%|███▋      | 148582/400000 [00:19<00:32, 7735.72it/s] 37%|███▋      | 149359/400000 [00:19<00:33, 7566.54it/s] 38%|███▊      | 150119/400000 [00:20<00:33, 7497.30it/s] 38%|███▊      | 150872/400000 [00:20<00:33, 7371.84it/s] 38%|███▊      | 151612/400000 [00:20<00:33, 7334.93it/s] 38%|███▊      | 152348/400000 [00:20<00:33, 7299.53it/s] 38%|███▊      | 153129/400000 [00:20<00:33, 7443.12it/s] 38%|███▊      | 153970/400000 [00:20<00:31, 7707.55it/s] 39%|███▊      | 154745/400000 [00:20<00:32, 7582.76it/s] 39%|███▉      | 155529/400000 [00:20<00:31, 7658.11it/s] 39%|███▉      | 156297/400000 [00:20<00:31, 7618.35it/s] 39%|███▉      | 157061/400000 [00:20<00:32, 7455.52it/s] 39%|███▉      | 157852/400000 [00:21<00:31, 7583.82it/s] 40%|███▉      | 158691/400000 [00:21<00:30, 7808.48it/s] 40%|███▉      | 159503/400000 [00:21<00:30, 7898.73it/s] 40%|████      | 160303/400000 [00:21<00:30, 7928.73it/s] 40%|████      | 161099/400000 [00:21<00:30, 7937.01it/s] 40%|████      | 161895/400000 [00:21<00:29, 7943.75it/s] 41%|████      | 162706/400000 [00:21<00:29, 7990.41it/s] 41%|████      | 163527/400000 [00:21<00:29, 8052.71it/s] 41%|████      | 164333/400000 [00:21<00:29, 7970.67it/s] 41%|████▏     | 165131/400000 [00:21<00:29, 7877.84it/s] 41%|████▏     | 165921/400000 [00:22<00:29, 7884.26it/s] 42%|████▏     | 166729/400000 [00:22<00:29, 7940.74it/s] 42%|████▏     | 167559/400000 [00:22<00:28, 8042.86it/s] 42%|████▏     | 168402/400000 [00:22<00:28, 8154.83it/s] 42%|████▏     | 169219/400000 [00:22<00:28, 7986.33it/s] 43%|████▎     | 170019/400000 [00:22<00:28, 7937.23it/s] 43%|████▎     | 170880/400000 [00:22<00:28, 8127.16it/s] 43%|████▎     | 171754/400000 [00:22<00:27, 8301.24it/s] 43%|████▎     | 172615/400000 [00:22<00:27, 8387.57it/s] 43%|████▎     | 173456/400000 [00:23<00:27, 8190.28it/s] 44%|████▎     | 174333/400000 [00:23<00:27, 8355.81it/s] 44%|████▍     | 175218/400000 [00:23<00:26, 8497.05it/s] 44%|████▍     | 176106/400000 [00:23<00:26, 8607.14it/s] 44%|████▍     | 176969/400000 [00:23<00:25, 8610.21it/s] 44%|████▍     | 177832/400000 [00:23<00:26, 8326.89it/s] 45%|████▍     | 178668/400000 [00:23<00:27, 8051.07it/s] 45%|████▍     | 179478/400000 [00:23<00:27, 7990.32it/s] 45%|████▌     | 180310/400000 [00:23<00:27, 8085.72it/s] 45%|████▌     | 181121/400000 [00:23<00:27, 8031.24it/s] 45%|████▌     | 181931/400000 [00:24<00:27, 8051.30it/s] 46%|████▌     | 182738/400000 [00:24<00:26, 8047.65it/s] 46%|████▌     | 183544/400000 [00:24<00:27, 7914.59it/s] 46%|████▌     | 184374/400000 [00:24<00:26, 8026.27it/s] 46%|████▋     | 185178/400000 [00:24<00:26, 8016.25it/s] 47%|████▋     | 186010/400000 [00:24<00:26, 8104.18it/s] 47%|████▋     | 186865/400000 [00:24<00:25, 8232.77it/s] 47%|████▋     | 187691/400000 [00:24<00:25, 8239.40it/s] 47%|████▋     | 188516/400000 [00:24<00:25, 8193.96it/s] 47%|████▋     | 189336/400000 [00:24<00:26, 7904.52it/s] 48%|████▊     | 190161/400000 [00:25<00:26, 8003.83it/s] 48%|████▊     | 190964/400000 [00:25<00:26, 7762.85it/s] 48%|████▊     | 191770/400000 [00:25<00:26, 7848.20it/s] 48%|████▊     | 192613/400000 [00:25<00:25, 8013.90it/s] 48%|████▊     | 193417/400000 [00:25<00:25, 8015.33it/s] 49%|████▊     | 194298/400000 [00:25<00:24, 8236.71it/s] 49%|████▉     | 195190/400000 [00:25<00:24, 8430.24it/s] 49%|████▉     | 196108/400000 [00:25<00:23, 8641.02it/s] 49%|████▉     | 196976/400000 [00:25<00:24, 8370.17it/s] 49%|████▉     | 197818/400000 [00:25<00:24, 8281.21it/s] 50%|████▉     | 198673/400000 [00:26<00:24, 8358.52it/s] 50%|████▉     | 199546/400000 [00:26<00:23, 8465.83it/s] 50%|█████     | 200464/400000 [00:26<00:23, 8666.41it/s] 50%|█████     | 201352/400000 [00:26<00:22, 8727.12it/s] 51%|█████     | 202227/400000 [00:26<00:23, 8556.03it/s] 51%|█████     | 203095/400000 [00:26<00:22, 8592.49it/s] 51%|█████     | 203956/400000 [00:26<00:22, 8552.29it/s] 51%|█████     | 204813/400000 [00:26<00:23, 8256.50it/s] 51%|█████▏    | 205642/400000 [00:26<00:23, 8240.93it/s] 52%|█████▏    | 206469/400000 [00:27<00:23, 8174.20it/s] 52%|█████▏    | 207291/400000 [00:27<00:23, 8185.22it/s] 52%|█████▏    | 208111/400000 [00:27<00:23, 8170.83it/s] 52%|█████▏    | 208929/400000 [00:27<00:23, 8132.95it/s] 52%|█████▏    | 209743/400000 [00:27<00:23, 8055.30it/s] 53%|█████▎    | 210550/400000 [00:27<00:23, 7961.69it/s] 53%|█████▎    | 211349/400000 [00:27<00:23, 7969.54it/s] 53%|█████▎    | 212182/400000 [00:27<00:23, 8073.97it/s] 53%|█████▎    | 212991/400000 [00:27<00:23, 8006.03it/s] 53%|█████▎    | 213812/400000 [00:27<00:23, 8063.68it/s] 54%|█████▎    | 214619/400000 [00:28<00:23, 7931.27it/s] 54%|█████▍    | 215440/400000 [00:28<00:23, 8010.18it/s] 54%|█████▍    | 216253/400000 [00:28<00:22, 8043.81it/s] 54%|█████▍    | 217090/400000 [00:28<00:22, 8137.08it/s] 54%|█████▍    | 217920/400000 [00:28<00:22, 8182.11it/s] 55%|█████▍    | 218739/400000 [00:28<00:22, 8129.81it/s] 55%|█████▍    | 219553/400000 [00:28<00:22, 8109.59it/s] 55%|█████▌    | 220365/400000 [00:28<00:22, 8081.12it/s] 55%|█████▌    | 221192/400000 [00:28<00:21, 8135.42it/s] 56%|█████▌    | 222006/400000 [00:28<00:22, 8022.22it/s] 56%|█████▌    | 222809/400000 [00:29<00:22, 7978.26it/s] 56%|█████▌    | 223622/400000 [00:29<00:21, 8021.32it/s] 56%|█████▌    | 224425/400000 [00:29<00:22, 7949.84it/s] 56%|█████▋    | 225227/400000 [00:29<00:21, 7969.25it/s] 57%|█████▋    | 226026/400000 [00:29<00:21, 7975.26it/s] 57%|█████▋    | 226824/400000 [00:29<00:21, 7968.17it/s] 57%|█████▋    | 227621/400000 [00:29<00:21, 7955.65it/s] 57%|█████▋    | 228435/400000 [00:29<00:21, 8007.94it/s] 57%|█████▋    | 229247/400000 [00:29<00:21, 8039.04it/s] 58%|█████▊    | 230052/400000 [00:29<00:21, 8008.86it/s] 58%|█████▊    | 230870/400000 [00:30<00:20, 8057.86it/s] 58%|█████▊    | 231676/400000 [00:30<00:20, 8040.04it/s] 58%|█████▊    | 232497/400000 [00:30<00:20, 8087.80it/s] 58%|█████▊    | 233310/400000 [00:30<00:20, 8099.42it/s] 59%|█████▊    | 234121/400000 [00:30<00:20, 8029.10it/s] 59%|█████▊    | 234925/400000 [00:30<00:20, 7971.87it/s] 59%|█████▉    | 235744/400000 [00:30<00:20, 8034.93it/s] 59%|█████▉    | 236613/400000 [00:30<00:19, 8218.91it/s] 59%|█████▉    | 237439/400000 [00:30<00:19, 8231.03it/s] 60%|█████▉    | 238263/400000 [00:30<00:19, 8227.93it/s] 60%|█████▉    | 239087/400000 [00:31<00:20, 8042.15it/s] 60%|█████▉    | 239893/400000 [00:31<00:20, 8004.27it/s] 60%|██████    | 240734/400000 [00:31<00:19, 8120.62it/s] 60%|██████    | 241590/400000 [00:31<00:19, 8245.42it/s] 61%|██████    | 242434/400000 [00:31<00:18, 8300.88it/s] 61%|██████    | 243266/400000 [00:31<00:19, 8202.57it/s] 61%|██████    | 244097/400000 [00:31<00:18, 8233.21it/s] 61%|██████    | 244923/400000 [00:31<00:18, 8240.83it/s] 61%|██████▏   | 245771/400000 [00:31<00:18, 8308.89it/s] 62%|██████▏   | 246606/400000 [00:31<00:18, 8320.93it/s] 62%|██████▏   | 247439/400000 [00:32<00:18, 8292.45it/s] 62%|██████▏   | 248280/400000 [00:32<00:18, 8325.55it/s] 62%|██████▏   | 249113/400000 [00:32<00:18, 8087.20it/s] 62%|██████▏   | 249979/400000 [00:32<00:18, 8250.76it/s] 63%|██████▎   | 250807/400000 [00:32<00:18, 8242.46it/s] 63%|██████▎   | 251633/400000 [00:32<00:18, 8034.83it/s] 63%|██████▎   | 252451/400000 [00:32<00:18, 8076.69it/s] 63%|██████▎   | 253274/400000 [00:32<00:18, 8120.80it/s] 64%|██████▎   | 254088/400000 [00:32<00:18, 7978.41it/s] 64%|██████▎   | 254888/400000 [00:32<00:18, 7977.51it/s] 64%|██████▍   | 255687/400000 [00:33<00:18, 7920.68it/s] 64%|██████▍   | 256495/400000 [00:33<00:18, 7966.42it/s] 64%|██████▍   | 257341/400000 [00:33<00:17, 8107.10it/s] 65%|██████▍   | 258201/400000 [00:33<00:17, 8246.42it/s] 65%|██████▍   | 259027/400000 [00:33<00:17, 8209.92it/s] 65%|██████▍   | 259849/400000 [00:33<00:17, 8111.75it/s] 65%|██████▌   | 260689/400000 [00:33<00:17, 8193.67it/s] 65%|██████▌   | 261547/400000 [00:33<00:16, 8305.39it/s] 66%|██████▌   | 262379/400000 [00:33<00:16, 8294.44it/s] 66%|██████▌   | 263215/400000 [00:34<00:16, 8311.28it/s] 66%|██████▌   | 264047/400000 [00:34<00:16, 8212.63it/s] 66%|██████▌   | 264869/400000 [00:34<00:16, 8101.24it/s] 66%|██████▋   | 265695/400000 [00:34<00:16, 8146.09it/s] 67%|██████▋   | 266532/400000 [00:34<00:16, 8211.26it/s] 67%|██████▋   | 267362/400000 [00:34<00:16, 8235.21it/s] 67%|██████▋   | 268186/400000 [00:34<00:16, 8209.12it/s] 67%|██████▋   | 269008/400000 [00:34<00:16, 8182.41it/s] 67%|██████▋   | 269851/400000 [00:34<00:15, 8253.42it/s] 68%|██████▊   | 270677/400000 [00:34<00:15, 8169.66it/s] 68%|██████▊   | 271495/400000 [00:35<00:15, 8105.68it/s] 68%|██████▊   | 272306/400000 [00:35<00:15, 8031.33it/s] 68%|██████▊   | 273126/400000 [00:35<00:15, 8081.09it/s] 68%|██████▊   | 273984/400000 [00:35<00:15, 8222.97it/s] 69%|██████▊   | 274831/400000 [00:35<00:15, 8292.84it/s] 69%|██████▉   | 275662/400000 [00:35<00:15, 8283.86it/s] 69%|██████▉   | 276491/400000 [00:35<00:15, 8167.30it/s] 69%|██████▉   | 277309/400000 [00:35<00:15, 8152.47it/s] 70%|██████▉   | 278125/400000 [00:35<00:14, 8143.31it/s] 70%|██████▉   | 278940/400000 [00:35<00:15, 7963.26it/s] 70%|██████▉   | 279738/400000 [00:36<00:15, 7966.32it/s] 70%|███████   | 280536/400000 [00:36<00:15, 7955.95it/s] 70%|███████   | 281333/400000 [00:36<00:14, 7946.16it/s] 71%|███████   | 282136/400000 [00:36<00:14, 7970.08it/s] 71%|███████   | 282949/400000 [00:36<00:14, 8015.75it/s] 71%|███████   | 283751/400000 [00:36<00:14, 8000.52it/s] 71%|███████   | 284552/400000 [00:36<00:14, 7995.41it/s] 71%|███████▏  | 285352/400000 [00:36<00:14, 7898.92it/s] 72%|███████▏  | 286161/400000 [00:36<00:14, 7954.88it/s] 72%|███████▏  | 286978/400000 [00:36<00:14, 8017.88it/s] 72%|███████▏  | 287781/400000 [00:37<00:14, 8006.58it/s] 72%|███████▏  | 288611/400000 [00:37<00:13, 8091.74it/s] 72%|███████▏  | 289421/400000 [00:37<00:13, 8017.63it/s] 73%|███████▎  | 290224/400000 [00:37<00:13, 7915.34it/s] 73%|███████▎  | 291017/400000 [00:37<00:13, 7864.37it/s] 73%|███████▎  | 291804/400000 [00:37<00:13, 7849.98it/s] 73%|███████▎  | 292590/400000 [00:37<00:13, 7803.10it/s] 73%|███████▎  | 293371/400000 [00:37<00:13, 7778.29it/s] 74%|███████▎  | 294176/400000 [00:37<00:13, 7856.43it/s] 74%|███████▎  | 294975/400000 [00:37<00:13, 7895.84it/s] 74%|███████▍  | 295786/400000 [00:38<00:13, 7956.68it/s] 74%|███████▍  | 296601/400000 [00:38<00:12, 8012.83it/s] 74%|███████▍  | 297403/400000 [00:38<00:12, 7907.88it/s] 75%|███████▍  | 298235/400000 [00:38<00:12, 8026.59it/s] 75%|███████▍  | 299070/400000 [00:38<00:12, 8119.48it/s] 75%|███████▍  | 299903/400000 [00:38<00:12, 8179.65it/s] 75%|███████▌  | 300722/400000 [00:38<00:12, 8164.64it/s] 75%|███████▌  | 301539/400000 [00:38<00:12, 8054.63it/s] 76%|███████▌  | 302352/400000 [00:38<00:12, 8074.51it/s] 76%|███████▌  | 303160/400000 [00:38<00:12, 8066.67it/s] 76%|███████▌  | 303975/400000 [00:39<00:11, 8090.41it/s] 76%|███████▌  | 304785/400000 [00:39<00:11, 8022.10it/s] 76%|███████▋  | 305588/400000 [00:39<00:12, 7867.33it/s] 77%|███████▋  | 306388/400000 [00:39<00:11, 7905.89it/s] 77%|███████▋  | 307180/400000 [00:39<00:11, 7903.03it/s] 77%|███████▋  | 307988/400000 [00:39<00:11, 7954.08it/s] 77%|███████▋  | 308791/400000 [00:39<00:11, 7976.70it/s] 77%|███████▋  | 309589/400000 [00:39<00:11, 7944.03it/s] 78%|███████▊  | 310398/400000 [00:39<00:11, 7987.23it/s] 78%|███████▊  | 311197/400000 [00:39<00:11, 7973.74it/s] 78%|███████▊  | 311995/400000 [00:40<00:11, 7926.41it/s] 78%|███████▊  | 312814/400000 [00:40<00:10, 8002.73it/s] 78%|███████▊  | 313615/400000 [00:40<00:10, 7935.54it/s] 79%|███████▊  | 314426/400000 [00:40<00:10, 7985.99it/s] 79%|███████▉  | 315225/400000 [00:40<00:10, 7925.18it/s] 79%|███████▉  | 316020/400000 [00:40<00:10, 7930.02it/s] 79%|███████▉  | 316814/400000 [00:40<00:10, 7921.23it/s] 79%|███████▉  | 317607/400000 [00:40<00:10, 7904.10it/s] 80%|███████▉  | 318398/400000 [00:40<00:10, 7850.51it/s] 80%|███████▉  | 319184/400000 [00:40<00:10, 7717.72it/s] 80%|███████▉  | 319980/400000 [00:41<00:10, 7788.65it/s] 80%|████████  | 320782/400000 [00:41<00:10, 7855.17it/s] 80%|████████  | 321569/400000 [00:41<00:10, 7750.21it/s] 81%|████████  | 322409/400000 [00:41<00:09, 7932.31it/s] 81%|████████  | 323261/400000 [00:41<00:09, 8099.86it/s] 81%|████████  | 324073/400000 [00:41<00:09, 8076.60it/s] 81%|████████  | 324911/400000 [00:41<00:09, 8164.06it/s] 81%|████████▏ | 325729/400000 [00:41<00:09, 8118.10it/s] 82%|████████▏ | 326548/400000 [00:41<00:09, 8138.04it/s] 82%|████████▏ | 327398/400000 [00:42<00:08, 8243.15it/s] 82%|████████▏ | 328224/400000 [00:42<00:08, 8221.57it/s] 82%|████████▏ | 329047/400000 [00:42<00:08, 8221.16it/s] 82%|████████▏ | 329870/400000 [00:42<00:08, 8139.17it/s] 83%|████████▎ | 330685/400000 [00:42<00:08, 8064.31it/s] 83%|████████▎ | 331492/400000 [00:42<00:08, 7745.46it/s] 83%|████████▎ | 332270/400000 [00:42<00:08, 7721.78it/s] 83%|████████▎ | 333103/400000 [00:42<00:08, 7894.46it/s] 83%|████████▎ | 333895/400000 [00:42<00:08, 7900.39it/s] 84%|████████▎ | 334692/400000 [00:42<00:08, 7919.28it/s] 84%|████████▍ | 335550/400000 [00:43<00:07, 8104.65it/s] 84%|████████▍ | 336371/400000 [00:43<00:07, 8134.76it/s] 84%|████████▍ | 337187/400000 [00:43<00:07, 8141.57it/s] 85%|████████▍ | 338034/400000 [00:43<00:07, 8235.82it/s] 85%|████████▍ | 338859/400000 [00:43<00:07, 8215.81it/s] 85%|████████▍ | 339682/400000 [00:43<00:07, 8171.71it/s] 85%|████████▌ | 340507/400000 [00:43<00:07, 8192.33it/s] 85%|████████▌ | 341333/400000 [00:43<00:07, 8210.99it/s] 86%|████████▌ | 342204/400000 [00:43<00:06, 8352.19it/s] 86%|████████▌ | 343041/400000 [00:43<00:06, 8253.42it/s] 86%|████████▌ | 343900/400000 [00:44<00:06, 8349.75it/s] 86%|████████▌ | 344736/400000 [00:44<00:06, 8337.21it/s] 86%|████████▋ | 345571/400000 [00:44<00:06, 8075.91it/s] 87%|████████▋ | 346400/400000 [00:44<00:06, 8136.76it/s] 87%|████████▋ | 347216/400000 [00:44<00:06, 8061.77it/s] 87%|████████▋ | 348052/400000 [00:44<00:06, 8147.73it/s] 87%|████████▋ | 348899/400000 [00:44<00:06, 8240.20it/s] 87%|████████▋ | 349731/400000 [00:44<00:06, 8263.41it/s] 88%|████████▊ | 350580/400000 [00:44<00:05, 8327.59it/s] 88%|████████▊ | 351414/400000 [00:44<00:05, 8295.40it/s] 88%|████████▊ | 352285/400000 [00:45<00:05, 8413.31it/s] 88%|████████▊ | 353128/400000 [00:45<00:05, 8319.19it/s] 88%|████████▊ | 353961/400000 [00:45<00:05, 8138.49it/s] 89%|████████▊ | 354782/400000 [00:45<00:05, 8158.04it/s] 89%|████████▉ | 355599/400000 [00:45<00:05, 8071.63it/s] 89%|████████▉ | 356408/400000 [00:45<00:05, 7994.58it/s] 89%|████████▉ | 357209/400000 [00:45<00:05, 7931.00it/s] 90%|████████▉ | 358011/400000 [00:45<00:05, 7956.61it/s] 90%|████████▉ | 358808/400000 [00:45<00:05, 7563.94it/s] 90%|████████▉ | 359569/400000 [00:45<00:05, 7528.93it/s] 90%|█████████ | 360354/400000 [00:46<00:05, 7622.36it/s] 90%|█████████ | 361133/400000 [00:46<00:05, 7670.65it/s] 90%|█████████ | 361953/400000 [00:46<00:04, 7820.87it/s] 91%|█████████ | 362778/400000 [00:46<00:04, 7940.07it/s] 91%|█████████ | 363574/400000 [00:46<00:04, 7904.94it/s] 91%|█████████ | 364377/400000 [00:46<00:04, 7940.17it/s] 91%|█████████▏| 365185/400000 [00:46<00:04, 7978.96it/s] 91%|█████████▏| 365994/400000 [00:46<00:04, 8009.82it/s] 92%|█████████▏| 366805/400000 [00:46<00:04, 8038.34it/s] 92%|█████████▏| 367610/400000 [00:47<00:04, 7989.34it/s] 92%|█████████▏| 368410/400000 [00:47<00:03, 7924.88it/s] 92%|█████████▏| 369252/400000 [00:47<00:03, 8066.81it/s] 93%|█████████▎| 370100/400000 [00:47<00:03, 8186.04it/s] 93%|█████████▎| 370943/400000 [00:47<00:03, 8255.16it/s] 93%|█████████▎| 371770/400000 [00:47<00:03, 8103.82it/s] 93%|█████████▎| 372582/400000 [00:47<00:03, 8031.94it/s] 93%|█████████▎| 373391/400000 [00:47<00:03, 8048.74it/s] 94%|█████████▎| 374222/400000 [00:47<00:03, 8122.46it/s] 94%|█████████▍| 375036/400000 [00:47<00:03, 8125.47it/s] 94%|█████████▍| 375850/400000 [00:48<00:02, 8067.79it/s] 94%|█████████▍| 376688/400000 [00:48<00:02, 8157.55it/s] 94%|█████████▍| 377505/400000 [00:48<00:02, 8144.29it/s] 95%|█████████▍| 378320/400000 [00:48<00:02, 8118.84it/s] 95%|█████████▍| 379133/400000 [00:48<00:02, 8097.79it/s] 95%|█████████▍| 379943/400000 [00:48<00:02, 7893.15it/s] 95%|█████████▌| 380755/400000 [00:48<00:02, 7958.16it/s] 95%|█████████▌| 381555/400000 [00:48<00:02, 7969.49it/s] 96%|█████████▌| 382389/400000 [00:48<00:02, 8076.10it/s] 96%|█████████▌| 383207/400000 [00:48<00:02, 8103.03it/s] 96%|█████████▌| 384018/400000 [00:49<00:01, 8070.42it/s] 96%|█████████▌| 384860/400000 [00:49<00:01, 8170.80it/s] 96%|█████████▋| 385678/400000 [00:49<00:01, 8138.05it/s] 97%|█████████▋| 386493/400000 [00:49<00:01, 8087.65it/s] 97%|█████████▋| 387330/400000 [00:49<00:01, 8168.74it/s] 97%|█████████▋| 388148/400000 [00:49<00:01, 8064.34it/s] 97%|█████████▋| 388976/400000 [00:49<00:01, 8126.48it/s] 97%|█████████▋| 389798/400000 [00:49<00:01, 8153.55it/s] 98%|█████████▊| 390622/400000 [00:49<00:01, 8178.37it/s] 98%|█████████▊| 391454/400000 [00:49<00:01, 8220.24it/s] 98%|█████████▊| 392277/400000 [00:50<00:00, 8161.75it/s] 98%|█████████▊| 393122/400000 [00:50<00:00, 8245.68it/s] 98%|█████████▊| 393961/400000 [00:50<00:00, 8286.32it/s] 99%|█████████▊| 394817/400000 [00:50<00:00, 8364.31it/s] 99%|█████████▉| 395668/400000 [00:50<00:00, 8406.80it/s] 99%|█████████▉| 396510/400000 [00:50<00:00, 8356.26it/s] 99%|█████████▉| 397366/400000 [00:50<00:00, 8414.48it/s]100%|█████████▉| 398245/400000 [00:50<00:00, 8522.57it/s]100%|█████████▉| 399099/400000 [00:50<00:00, 8525.97it/s]100%|█████████▉| 399952/400000 [00:50<00:00, 8308.04it/s]100%|█████████▉| 399999/400000 [00:50<00:00, 7849.33it/s]>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f1d3011e940> <class 'mlmodels.model_tch.textcnn.Model'>
+.vector_cache/glove.6B.zip: 0.00B [00:00, ?B/s].vector_cache/glove.6B.zip:   0%|          | 8.19k/862M [00:01<42:08:53, 5.68kB/s].vector_cache/glove.6B.zip:   0%|          | 49.2k/862M [00:01<29:44:03, 8.05kB/s].vector_cache/glove.6B.zip:   0%|          | 221k/862M [00:01<20:51:55, 11.5kB/s] .vector_cache/glove.6B.zip:   0%|          | 901k/862M [00:01<14:36:30, 16.4kB/s].vector_cache/glove.6B.zip:   0%|          | 3.65M/862M [00:01<10:11:48, 23.4kB/s].vector_cache/glove.6B.zip:   1%|          | 8.91M/862M [00:02<7:05:43, 33.4kB/s] .vector_cache/glove.6B.zip:   1%|▏         | 12.9M/862M [00:02<4:56:43, 47.7kB/s].vector_cache/glove.6B.zip:   2%|▏         | 17.2M/862M [00:02<3:26:44, 68.1kB/s].vector_cache/glove.6B.zip:   3%|▎         | 21.8M/862M [00:02<2:24:03, 97.2kB/s].vector_cache/glove.6B.zip:   3%|▎         | 26.8M/862M [00:02<1:40:19, 139kB/s] .vector_cache/glove.6B.zip:   4%|▎         | 30.4M/862M [00:02<1:10:02, 198kB/s].vector_cache/glove.6B.zip:   4%|▍         | 34.2M/862M [00:02<48:55, 282kB/s]  .vector_cache/glove.6B.zip:   4%|▍         | 36.2M/862M [00:02<34:30, 399kB/s].vector_cache/glove.6B.zip:   5%|▍         | 40.5M/862M [00:02<24:07, 567kB/s].vector_cache/glove.6B.zip:   5%|▌         | 44.1M/862M [00:03<16:56, 805kB/s].vector_cache/glove.6B.zip:   6%|▌         | 47.8M/862M [00:03<11:54, 1.14MB/s].vector_cache/glove.6B.zip:   6%|▌         | 52.1M/862M [00:03<08:45, 1.54MB/s].vector_cache/glove.6B.zip:   7%|▋         | 56.3M/862M [00:05<08:01, 1.67MB/s].vector_cache/glove.6B.zip:   7%|▋         | 56.5M/862M [00:05<07:33, 1.78MB/s].vector_cache/glove.6B.zip:   7%|▋         | 57.6M/862M [00:05<05:41, 2.35MB/s].vector_cache/glove.6B.zip:   7%|▋         | 60.4M/862M [00:06<04:07, 3.24MB/s].vector_cache/glove.6B.zip:   7%|▋         | 60.4M/862M [00:07<2:42:05, 82.4kB/s].vector_cache/glove.6B.zip:   7%|▋         | 60.6M/862M [00:07<1:56:09, 115kB/s] .vector_cache/glove.6B.zip:   7%|▋         | 61.4M/862M [00:07<1:21:48, 163kB/s].vector_cache/glove.6B.zip:   7%|▋         | 63.7M/862M [00:07<57:15, 232kB/s]  .vector_cache/glove.6B.zip:   7%|▋         | 64.5M/862M [00:09<48:14, 276kB/s].vector_cache/glove.6B.zip:   8%|▊         | 64.9M/862M [00:09<35:07, 378kB/s].vector_cache/glove.6B.zip:   8%|▊         | 66.5M/862M [00:09<24:53, 533kB/s].vector_cache/glove.6B.zip:   8%|▊         | 68.6M/862M [00:11<20:27, 647kB/s].vector_cache/glove.6B.zip:   8%|▊         | 68.8M/862M [00:11<16:59, 778kB/s].vector_cache/glove.6B.zip:   8%|▊         | 69.6M/862M [00:11<12:33, 1.05MB/s].vector_cache/glove.6B.zip:   8%|▊         | 72.8M/862M [00:13<10:53, 1.21MB/s].vector_cache/glove.6B.zip:   8%|▊         | 73.1M/862M [00:13<08:57, 1.47MB/s].vector_cache/glove.6B.zip:   9%|▊         | 74.7M/862M [00:13<06:32, 2.00MB/s].vector_cache/glove.6B.zip:   9%|▉         | 76.9M/862M [00:15<07:39, 1.71MB/s].vector_cache/glove.6B.zip:   9%|▉         | 77.3M/862M [00:15<06:40, 1.96MB/s].vector_cache/glove.6B.zip:   9%|▉         | 78.8M/862M [00:15<04:56, 2.65MB/s].vector_cache/glove.6B.zip:   9%|▉         | 81.0M/862M [00:17<06:33, 1.98MB/s].vector_cache/glove.6B.zip:   9%|▉         | 81.2M/862M [00:17<07:15, 1.79MB/s].vector_cache/glove.6B.zip:  10%|▉         | 82.0M/862M [00:17<05:38, 2.30MB/s].vector_cache/glove.6B.zip:  10%|▉         | 84.5M/862M [00:17<04:05, 3.17MB/s].vector_cache/glove.6B.zip:  10%|▉         | 85.3M/862M [00:19<11:06, 1.17MB/s].vector_cache/glove.6B.zip:  10%|▉         | 85.7M/862M [00:19<09:05, 1.42MB/s].vector_cache/glove.6B.zip:  10%|█         | 87.3M/862M [00:19<06:40, 1.94MB/s].vector_cache/glove.6B.zip:  10%|█         | 89.4M/862M [00:21<07:45, 1.66MB/s].vector_cache/glove.6B.zip:  10%|█         | 89.6M/862M [00:21<08:02, 1.60MB/s].vector_cache/glove.6B.zip:  10%|█         | 90.4M/862M [00:21<06:11, 2.08MB/s].vector_cache/glove.6B.zip:  11%|█         | 93.0M/862M [00:21<04:27, 2.87MB/s].vector_cache/glove.6B.zip:  11%|█         | 93.5M/862M [00:23<15:19, 836kB/s] .vector_cache/glove.6B.zip:  11%|█         | 93.9M/862M [00:23<12:01, 1.06MB/s].vector_cache/glove.6B.zip:  11%|█         | 95.5M/862M [00:23<08:41, 1.47MB/s].vector_cache/glove.6B.zip:  11%|█▏        | 97.6M/862M [00:25<09:03, 1.41MB/s].vector_cache/glove.6B.zip:  11%|█▏        | 98.0M/862M [00:25<07:38, 1.67MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 99.6M/862M [00:25<05:39, 2.25MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 102M/862M [00:27<06:52, 1.84MB/s] .vector_cache/glove.6B.zip:  12%|█▏        | 102M/862M [00:27<07:24, 1.71MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 103M/862M [00:27<05:48, 2.18MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 106M/862M [00:29<06:06, 2.06MB/s].vector_cache/glove.6B.zip:  12%|█▏        | 106M/862M [00:29<05:35, 2.25MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 108M/862M [00:29<04:11, 2.99MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 110M/862M [00:31<05:49, 2.15MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 110M/862M [00:31<06:36, 1.89MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 111M/862M [00:31<05:15, 2.38MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 114M/862M [00:33<05:41, 2.19MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 115M/862M [00:33<05:15, 2.37MB/s].vector_cache/glove.6B.zip:  13%|█▎        | 116M/862M [00:33<03:57, 3.15MB/s].vector_cache/glove.6B.zip:  14%|█▎        | 118M/862M [00:35<05:40, 2.18MB/s].vector_cache/glove.6B.zip:  14%|█▎        | 119M/862M [00:35<06:31, 1.90MB/s].vector_cache/glove.6B.zip:  14%|█▍        | 119M/862M [00:35<05:06, 2.43MB/s].vector_cache/glove.6B.zip:  14%|█▍        | 120M/862M [00:36<07:09, 1.73MB/s].vector_cache/glove.6B.zip:  14%|█▍        | 122M/862M [00:37<06:13, 1.98MB/s].vector_cache/glove.6B.zip:  14%|█▍        | 123M/862M [00:37<05:38, 2.19MB/s].vector_cache/glove.6B.zip:  14%|█▍        | 124M/862M [00:37<04:11, 2.93MB/s].vector_cache/glove.6B.zip:  15%|█▍        | 127M/862M [00:39<05:49, 2.11MB/s].vector_cache/glove.6B.zip:  15%|█▍        | 127M/862M [00:39<06:37, 1.85MB/s].vector_cache/glove.6B.zip:  15%|█▍        | 128M/862M [00:39<05:09, 2.37MB/s].vector_cache/glove.6B.zip:  15%|█▌        | 129M/862M [00:39<03:47, 3.22MB/s].vector_cache/glove.6B.zip:  15%|█▌        | 131M/862M [00:41<07:20, 1.66MB/s].vector_cache/glove.6B.zip:  15%|█▌        | 131M/862M [00:41<06:24, 1.90MB/s].vector_cache/glove.6B.zip:  15%|█▌        | 133M/862M [00:41<04:44, 2.56MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 135M/862M [00:43<06:07, 1.98MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 135M/862M [00:43<05:31, 2.19MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 137M/862M [00:43<04:10, 2.90MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 139M/862M [00:45<05:46, 2.09MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 139M/862M [00:45<06:32, 1.84MB/s].vector_cache/glove.6B.zip:  16%|█▌        | 140M/862M [00:45<05:06, 2.36MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 142M/862M [00:45<03:42, 3.24MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 143M/862M [00:47<11:31, 1.04MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 143M/862M [00:47<09:20, 1.28MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 145M/862M [00:47<06:48, 1.76MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 147M/862M [00:48<07:31, 1.58MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 148M/862M [00:49<06:28, 1.84MB/s].vector_cache/glove.6B.zip:  17%|█▋        | 149M/862M [00:49<04:50, 2.46MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 151M/862M [00:50<06:10, 1.92MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 151M/862M [00:51<06:44, 1.76MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 152M/862M [00:51<05:19, 2.22MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 155M/862M [00:52<05:39, 2.08MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 156M/862M [00:53<06:22, 1.85MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 156M/862M [00:53<05:03, 2.32MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 159M/862M [00:53<03:39, 3.21MB/s].vector_cache/glove.6B.zip:  18%|█▊        | 159M/862M [00:54<20:03, 584kB/s] .vector_cache/glove.6B.zip:  19%|█▊        | 160M/862M [00:55<15:13, 769kB/s].vector_cache/glove.6B.zip:  19%|█▊        | 161M/862M [00:55<10:56, 1.07MB/s].vector_cache/glove.6B.zip:  19%|█▉        | 164M/862M [00:56<10:21, 1.12MB/s].vector_cache/glove.6B.zip:  19%|█▉        | 164M/862M [00:56<08:25, 1.38MB/s].vector_cache/glove.6B.zip:  19%|█▉        | 166M/862M [00:57<06:08, 1.89MB/s].vector_cache/glove.6B.zip:  19%|█▉        | 168M/862M [00:58<07:02, 1.64MB/s].vector_cache/glove.6B.zip:  19%|█▉        | 168M/862M [00:58<06:07, 1.89MB/s].vector_cache/glove.6B.zip:  20%|█▉        | 170M/862M [00:59<04:31, 2.55MB/s].vector_cache/glove.6B.zip:  20%|█▉        | 172M/862M [01:00<05:54, 1.95MB/s].vector_cache/glove.6B.zip:  20%|█▉        | 172M/862M [01:00<06:28, 1.78MB/s].vector_cache/glove.6B.zip:  20%|██        | 173M/862M [01:01<05:01, 2.28MB/s].vector_cache/glove.6B.zip:  20%|██        | 175M/862M [01:01<03:38, 3.14MB/s].vector_cache/glove.6B.zip:  20%|██        | 176M/862M [01:02<10:24, 1.10MB/s].vector_cache/glove.6B.zip:  20%|██        | 176M/862M [01:02<08:28, 1.35MB/s].vector_cache/glove.6B.zip:  21%|██        | 178M/862M [01:03<06:12, 1.84MB/s].vector_cache/glove.6B.zip:  21%|██        | 180M/862M [01:04<07:00, 1.62MB/s].vector_cache/glove.6B.zip:  21%|██        | 180M/862M [01:04<07:13, 1.57MB/s].vector_cache/glove.6B.zip:  21%|██        | 181M/862M [01:04<05:32, 2.05MB/s].vector_cache/glove.6B.zip:  21%|██▏       | 183M/862M [01:05<04:00, 2.82MB/s].vector_cache/glove.6B.zip:  21%|██▏       | 184M/862M [01:06<09:20, 1.21MB/s].vector_cache/glove.6B.zip:  21%|██▏       | 185M/862M [01:06<07:41, 1.47MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 186M/862M [01:06<05:39, 1.99MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 188M/862M [01:08<06:35, 1.71MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 188M/862M [01:08<06:53, 1.63MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 189M/862M [01:08<05:24, 2.07MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 192M/862M [01:09<03:54, 2.85MB/s].vector_cache/glove.6B.zip:  22%|██▏       | 192M/862M [01:10<1:22:26, 135kB/s].vector_cache/glove.6B.zip:  22%|██▏       | 193M/862M [01:10<58:48, 190kB/s]  .vector_cache/glove.6B.zip:  23%|██▎       | 194M/862M [01:10<41:21, 269kB/s].vector_cache/glove.6B.zip:  23%|██▎       | 197M/862M [01:12<31:27, 353kB/s].vector_cache/glove.6B.zip:  23%|██▎       | 197M/862M [01:12<23:07, 479kB/s].vector_cache/glove.6B.zip:  23%|██▎       | 198M/862M [01:12<16:23, 675kB/s].vector_cache/glove.6B.zip:  23%|██▎       | 201M/862M [01:14<14:04, 784kB/s].vector_cache/glove.6B.zip:  23%|██▎       | 201M/862M [01:14<12:06, 911kB/s].vector_cache/glove.6B.zip:  23%|██▎       | 202M/862M [01:14<09:01, 1.22MB/s].vector_cache/glove.6B.zip:  24%|██▎       | 205M/862M [01:16<08:03, 1.36MB/s].vector_cache/glove.6B.zip:  24%|██▍       | 205M/862M [01:16<06:44, 1.62MB/s].vector_cache/glove.6B.zip:  24%|██▍       | 207M/862M [01:16<04:57, 2.20MB/s].vector_cache/glove.6B.zip:  24%|██▍       | 209M/862M [01:18<06:01, 1.81MB/s].vector_cache/glove.6B.zip:  24%|██▍       | 209M/862M [01:18<06:25, 1.69MB/s].vector_cache/glove.6B.zip:  24%|██▍       | 210M/862M [01:18<04:58, 2.19MB/s].vector_cache/glove.6B.zip:  25%|██▍       | 212M/862M [01:18<03:36, 3.01MB/s].vector_cache/glove.6B.zip:  25%|██▍       | 213M/862M [01:20<08:51, 1.22MB/s].vector_cache/glove.6B.zip:  25%|██▍       | 213M/862M [01:20<07:18, 1.48MB/s].vector_cache/glove.6B.zip:  25%|██▍       | 215M/862M [01:20<05:22, 2.01MB/s].vector_cache/glove.6B.zip:  25%|██▌       | 217M/862M [01:22<06:16, 1.72MB/s].vector_cache/glove.6B.zip:  25%|██▌       | 217M/862M [01:22<06:34, 1.63MB/s].vector_cache/glove.6B.zip:  25%|██▌       | 218M/862M [01:22<05:04, 2.11MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 221M/862M [01:22<03:40, 2.92MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 221M/862M [01:24<10:58, 973kB/s] .vector_cache/glove.6B.zip:  26%|██▌       | 222M/862M [01:24<08:47, 1.22MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 223M/862M [01:24<06:24, 1.66MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 225M/862M [01:26<06:57, 1.52MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 226M/862M [01:26<07:01, 1.51MB/s].vector_cache/glove.6B.zip:  26%|██▌       | 226M/862M [01:26<05:26, 1.94MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 229M/862M [01:28<05:30, 1.91MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 230M/862M [01:28<04:55, 2.14MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 231M/862M [01:28<03:42, 2.84MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 234M/862M [01:30<05:02, 2.08MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 234M/862M [01:30<04:34, 2.29MB/s].vector_cache/glove.6B.zip:  27%|██▋       | 236M/862M [01:30<03:27, 3.02MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 238M/862M [01:32<04:52, 2.13MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 238M/862M [01:32<05:32, 1.88MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 239M/862M [01:32<04:24, 2.36MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 242M/862M [01:34<04:44, 2.18MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 242M/862M [01:34<04:23, 2.35MB/s].vector_cache/glove.6B.zip:  28%|██▊       | 244M/862M [01:34<03:20, 3.09MB/s].vector_cache/glove.6B.zip:  29%|██▊       | 246M/862M [01:36<04:42, 2.18MB/s].vector_cache/glove.6B.zip:  29%|██▊       | 246M/862M [01:36<05:22, 1.91MB/s].vector_cache/glove.6B.zip:  29%|██▊       | 247M/862M [01:36<04:17, 2.39MB/s].vector_cache/glove.6B.zip:  29%|██▉       | 250M/862M [01:36<03:07, 3.27MB/s].vector_cache/glove.6B.zip:  29%|██▉       | 250M/862M [01:38<1:15:08, 136kB/s].vector_cache/glove.6B.zip:  29%|██▉       | 250M/862M [01:38<53:37, 190kB/s]  .vector_cache/glove.6B.zip:  29%|██▉       | 252M/862M [01:38<37:40, 270kB/s].vector_cache/glove.6B.zip:  29%|██▉       | 254M/862M [01:40<28:37, 354kB/s].vector_cache/glove.6B.zip:  30%|██▉       | 254M/862M [01:40<21:03, 481kB/s].vector_cache/glove.6B.zip:  30%|██▉       | 256M/862M [01:40<14:57, 675kB/s].vector_cache/glove.6B.zip:  30%|██▉       | 259M/862M [01:42<12:39, 794kB/s].vector_cache/glove.6B.zip:  30%|███       | 259M/862M [01:42<10:44, 936kB/s].vector_cache/glove.6B.zip:  30%|███       | 260M/862M [01:42<07:58, 1.26MB/s].vector_cache/glove.6B.zip:  30%|███       | 263M/862M [01:44<07:13, 1.38MB/s].vector_cache/glove.6B.zip:  31%|███       | 263M/862M [01:44<06:11, 1.61MB/s].vector_cache/glove.6B.zip:  31%|███       | 264M/862M [01:44<04:33, 2.18MB/s].vector_cache/glove.6B.zip:  31%|███       | 267M/862M [01:46<05:19, 1.86MB/s].vector_cache/glove.6B.zip:  31%|███       | 267M/862M [01:46<05:44, 1.73MB/s].vector_cache/glove.6B.zip:  31%|███       | 268M/862M [01:46<04:31, 2.19MB/s].vector_cache/glove.6B.zip:  31%|███▏      | 271M/862M [01:46<03:15, 3.02MB/s].vector_cache/glove.6B.zip:  31%|███▏      | 271M/862M [01:48<9:29:29, 17.3kB/s].vector_cache/glove.6B.zip:  31%|███▏      | 271M/862M [01:48<6:39:24, 24.7kB/s].vector_cache/glove.6B.zip:  32%|███▏      | 273M/862M [01:48<4:39:03, 35.2kB/s].vector_cache/glove.6B.zip:  32%|███▏      | 276M/862M [01:48<3:14:34, 50.2kB/s].vector_cache/glove.6B.zip:  32%|███▏      | 276M/862M [01:50<2:29:26, 65.4kB/s].vector_cache/glove.6B.zip:  32%|███▏      | 276M/862M [01:50<1:48:02, 90.4kB/s].vector_cache/glove.6B.zip:  32%|███▏      | 277M/862M [01:50<1:16:23, 128kB/s] .vector_cache/glove.6B.zip:  32%|███▏      | 279M/862M [01:50<53:30, 182kB/s]  .vector_cache/glove.6B.zip:  32%|███▏      | 280M/862M [01:52<40:09, 242kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 280M/862M [01:52<29:20, 330kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 282M/862M [01:52<20:49, 465kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 284M/862M [01:54<16:23, 588kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 285M/862M [01:54<12:43, 756kB/s].vector_cache/glove.6B.zip:  33%|███▎      | 286M/862M [01:54<09:09, 1.05MB/s].vector_cache/glove.6B.zip:  33%|███▎      | 288M/862M [01:56<08:15, 1.16MB/s].vector_cache/glove.6B.zip:  33%|███▎      | 289M/862M [01:56<08:06, 1.18MB/s].vector_cache/glove.6B.zip:  34%|███▎      | 289M/862M [01:56<06:10, 1.55MB/s].vector_cache/glove.6B.zip:  34%|███▍      | 291M/862M [01:56<04:26, 2.14MB/s].vector_cache/glove.6B.zip:  34%|███▍      | 293M/862M [01:58<06:41, 1.42MB/s].vector_cache/glove.6B.zip:  34%|███▍      | 293M/862M [01:58<05:39, 1.68MB/s].vector_cache/glove.6B.zip:  34%|███▍      | 295M/862M [01:58<04:11, 2.25MB/s].vector_cache/glove.6B.zip:  34%|███▍      | 297M/862M [02:00<05:06, 1.85MB/s].vector_cache/glove.6B.zip:  34%|███▍      | 297M/862M [02:00<04:31, 2.08MB/s].vector_cache/glove.6B.zip:  35%|███▍      | 299M/862M [02:00<03:21, 2.80MB/s].vector_cache/glove.6B.zip:  35%|███▍      | 301M/862M [02:02<04:34, 2.04MB/s].vector_cache/glove.6B.zip:  35%|███▍      | 301M/862M [02:02<05:05, 1.83MB/s].vector_cache/glove.6B.zip:  35%|███▌      | 302M/862M [02:02<03:58, 2.34MB/s].vector_cache/glove.6B.zip:  35%|███▌      | 305M/862M [02:02<02:52, 3.23MB/s].vector_cache/glove.6B.zip:  35%|███▌      | 305M/862M [02:04<13:26, 691kB/s] .vector_cache/glove.6B.zip:  35%|███▌      | 305M/862M [02:04<10:22, 895kB/s].vector_cache/glove.6B.zip:  36%|███▌      | 307M/862M [02:04<07:28, 1.24MB/s].vector_cache/glove.6B.zip:  36%|███▌      | 309M/862M [02:06<07:22, 1.25MB/s].vector_cache/glove.6B.zip:  36%|███▌      | 309M/862M [02:06<05:57, 1.55MB/s].vector_cache/glove.6B.zip:  36%|███▌      | 311M/862M [02:06<04:23, 2.09MB/s].vector_cache/glove.6B.zip:  36%|███▋      | 313M/862M [02:08<05:14, 1.75MB/s].vector_cache/glove.6B.zip:  36%|███▋      | 313M/862M [02:08<05:31, 1.66MB/s].vector_cache/glove.6B.zip:  36%|███▋      | 314M/862M [02:08<04:16, 2.14MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 316M/862M [02:08<03:06, 2.93MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 317M/862M [02:10<06:33, 1.38MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 318M/862M [02:10<05:31, 1.64MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 319M/862M [02:10<04:05, 2.22MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 321M/862M [02:12<04:57, 1.82MB/s].vector_cache/glove.6B.zip:  37%|███▋      | 322M/862M [02:12<04:23, 2.05MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 323M/862M [02:12<03:17, 2.72MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 326M/862M [02:14<04:24, 2.03MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 326M/862M [02:14<03:59, 2.24MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 328M/862M [02:14<03:00, 2.96MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 330M/862M [02:16<04:12, 2.11MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 330M/862M [02:16<04:44, 1.87MB/s].vector_cache/glove.6B.zip:  38%|███▊      | 331M/862M [02:16<03:42, 2.38MB/s].vector_cache/glove.6B.zip:  39%|███▊      | 333M/862M [02:16<02:40, 3.28MB/s].vector_cache/glove.6B.zip:  39%|███▊      | 334M/862M [02:17<13:40, 644kB/s] .vector_cache/glove.6B.zip:  39%|███▉      | 334M/862M [02:18<10:27, 841kB/s].vector_cache/glove.6B.zip:  39%|███▉      | 336M/862M [02:18<07:31, 1.17MB/s].vector_cache/glove.6B.zip:  39%|███▉      | 338M/862M [02:19<07:17, 1.20MB/s].vector_cache/glove.6B.zip:  39%|███▉      | 338M/862M [02:20<05:59, 1.46MB/s].vector_cache/glove.6B.zip:  39%|███▉      | 340M/862M [02:20<04:23, 1.98MB/s].vector_cache/glove.6B.zip:  40%|███▉      | 342M/862M [02:21<05:07, 1.69MB/s].vector_cache/glove.6B.zip:  40%|███▉      | 342M/862M [02:22<05:20, 1.62MB/s].vector_cache/glove.6B.zip:  40%|███▉      | 343M/862M [02:22<04:10, 2.07MB/s].vector_cache/glove.6B.zip:  40%|████      | 346M/862M [02:23<04:18, 2.00MB/s].vector_cache/glove.6B.zip:  40%|████      | 347M/862M [02:24<03:53, 2.21MB/s].vector_cache/glove.6B.zip:  40%|████      | 348M/862M [02:24<02:56, 2.91MB/s].vector_cache/glove.6B.zip:  41%|████      | 350M/862M [02:25<04:02, 2.11MB/s].vector_cache/glove.6B.zip:  41%|████      | 350M/862M [02:25<04:34, 1.86MB/s].vector_cache/glove.6B.zip:  41%|████      | 351M/862M [02:26<03:38, 2.34MB/s].vector_cache/glove.6B.zip:  41%|████      | 354M/862M [02:26<02:38, 3.20MB/s].vector_cache/glove.6B.zip:  41%|████      | 354M/862M [02:27<1:02:20, 136kB/s].vector_cache/glove.6B.zip:  41%|████      | 355M/862M [02:27<44:27, 190kB/s]  .vector_cache/glove.6B.zip:  41%|████▏     | 356M/862M [02:28<31:13, 270kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 358M/862M [02:29<23:43, 354kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 359M/862M [02:29<18:20, 458kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 359M/862M [02:30<13:14, 633kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 363M/862M [02:30<09:18, 894kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 363M/862M [02:31<8:05:45, 17.1kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 363M/862M [02:31<5:40:31, 24.4kB/s].vector_cache/glove.6B.zip:  42%|████▏     | 364M/862M [02:31<3:57:51, 34.9kB/s].vector_cache/glove.6B.zip:  43%|████▎     | 367M/862M [02:33<2:47:39, 49.3kB/s].vector_cache/glove.6B.zip:  43%|████▎     | 367M/862M [02:33<1:58:59, 69.4kB/s].vector_cache/glove.6B.zip:  43%|████▎     | 368M/862M [02:33<1:23:32, 98.7kB/s].vector_cache/glove.6B.zip:  43%|████▎     | 370M/862M [02:34<58:16, 141kB/s]   .vector_cache/glove.6B.zip:  43%|████▎     | 371M/862M [02:35<47:33, 172kB/s].vector_cache/glove.6B.zip:  43%|████▎     | 371M/862M [02:35<34:05, 240kB/s].vector_cache/glove.6B.zip:  43%|████▎     | 373M/862M [02:35<24:00, 340kB/s].vector_cache/glove.6B.zip:  43%|████▎     | 375M/862M [02:37<18:38, 436kB/s].vector_cache/glove.6B.zip:  44%|████▎     | 375M/862M [02:37<13:51, 585kB/s].vector_cache/glove.6B.zip:  44%|████▎     | 377M/862M [02:37<09:52, 819kB/s].vector_cache/glove.6B.zip:  44%|████▍     | 379M/862M [02:39<08:46, 917kB/s].vector_cache/glove.6B.zip:  44%|████▍     | 379M/862M [02:39<07:47, 1.03MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 380M/862M [02:39<05:51, 1.37MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 383M/862M [02:41<05:22, 1.49MB/s].vector_cache/glove.6B.zip:  44%|████▍     | 384M/862M [02:41<04:34, 1.74MB/s].vector_cache/glove.6B.zip:  45%|████▍     | 385M/862M [02:41<03:23, 2.34MB/s].vector_cache/glove.6B.zip:  45%|████▍     | 387M/862M [02:43<04:13, 1.87MB/s].vector_cache/glove.6B.zip:  45%|████▍     | 387M/862M [02:43<04:33, 1.73MB/s].vector_cache/glove.6B.zip:  45%|████▌     | 388M/862M [02:43<03:32, 2.23MB/s].vector_cache/glove.6B.zip:  45%|████▌     | 391M/862M [02:43<02:33, 3.07MB/s].vector_cache/glove.6B.zip:  45%|████▌     | 391M/862M [02:45<07:18, 1.07MB/s].vector_cache/glove.6B.zip:  45%|████▌     | 392M/862M [02:45<05:47, 1.36MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 393M/862M [02:45<04:12, 1.86MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 395M/862M [02:45<03:02, 2.56MB/s].vector_cache/glove.6B.zip:  46%|████▌     | 395M/862M [02:47<33:24, 233kB/s] .vector_cache/glove.6B.zip:  46%|████▌     | 396M/862M [02:47<24:58, 311kB/s].vector_cache/glove.6B.zip:  46%|████▌     | 396M/862M [02:47<17:47, 436kB/s].vector_cache/glove.6B.zip:  46%|████▌     | 398M/862M [02:47<12:31, 617kB/s].vector_cache/glove.6B.zip:  46%|████▋     | 400M/862M [02:49<11:55, 646kB/s].vector_cache/glove.6B.zip:  46%|████▋     | 400M/862M [02:49<09:08, 843kB/s].vector_cache/glove.6B.zip:  47%|████▋     | 402M/862M [02:49<06:34, 1.17MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 404M/862M [02:51<06:21, 1.20MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 404M/862M [02:51<06:00, 1.27MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 405M/862M [02:51<04:32, 1.68MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 407M/862M [02:51<03:16, 2.32MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 408M/862M [02:53<05:25, 1.40MB/s].vector_cache/glove.6B.zip:  47%|████▋     | 408M/862M [02:53<04:34, 1.65MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 410M/862M [02:53<03:21, 2.24MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 412M/862M [02:55<04:06, 1.83MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 412M/862M [02:55<03:38, 2.05MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 414M/862M [02:55<02:42, 2.76MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 416M/862M [02:57<03:39, 2.03MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 416M/862M [02:57<03:18, 2.25MB/s].vector_cache/glove.6B.zip:  48%|████▊     | 418M/862M [02:57<02:29, 2.97MB/s].vector_cache/glove.6B.zip:  49%|████▊     | 420M/862M [02:59<03:28, 2.12MB/s].vector_cache/glove.6B.zip:  49%|████▉     | 421M/862M [02:59<03:10, 2.31MB/s].vector_cache/glove.6B.zip:  49%|████▉     | 422M/862M [02:59<02:24, 3.04MB/s].vector_cache/glove.6B.zip:  49%|████▉     | 424M/862M [03:01<03:24, 2.14MB/s].vector_cache/glove.6B.zip:  49%|████▉     | 424M/862M [03:01<03:51, 1.89MB/s].vector_cache/glove.6B.zip:  49%|████▉     | 425M/862M [03:01<03:04, 2.37MB/s].vector_cache/glove.6B.zip:  50%|████▉     | 428M/862M [03:03<03:18, 2.18MB/s].vector_cache/glove.6B.zip:  50%|████▉     | 429M/862M [03:03<03:02, 2.37MB/s].vector_cache/glove.6B.zip:  50%|████▉     | 430M/862M [03:03<02:18, 3.12MB/s].vector_cache/glove.6B.zip:  50%|█████     | 433M/862M [03:05<03:17, 2.18MB/s].vector_cache/glove.6B.zip:  50%|█████     | 433M/862M [03:05<03:02, 2.36MB/s].vector_cache/glove.6B.zip:  50%|█████     | 434M/862M [03:05<02:16, 3.14MB/s].vector_cache/glove.6B.zip:  51%|█████     | 437M/862M [03:07<03:15, 2.18MB/s].vector_cache/glove.6B.zip:  51%|█████     | 437M/862M [03:07<03:00, 2.36MB/s].vector_cache/glove.6B.zip:  51%|█████     | 439M/862M [03:07<02:16, 3.10MB/s].vector_cache/glove.6B.zip:  51%|█████     | 441M/862M [03:08<03:14, 2.16MB/s].vector_cache/glove.6B.zip:  51%|█████     | 441M/862M [03:09<03:41, 1.90MB/s].vector_cache/glove.6B.zip:  51%|█████     | 442M/862M [03:09<02:56, 2.38MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 445M/862M [03:10<03:10, 2.19MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 445M/862M [03:11<02:55, 2.38MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 447M/862M [03:11<02:12, 3.12MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 449M/862M [03:12<03:09, 2.18MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 449M/862M [03:13<03:39, 1.88MB/s].vector_cache/glove.6B.zip:  52%|█████▏    | 450M/862M [03:13<02:54, 2.36MB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 453M/862M [03:13<02:06, 3.24MB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 453M/862M [03:14<26:06, 261kB/s] .vector_cache/glove.6B.zip:  53%|█████▎    | 453M/862M [03:15<18:58, 359kB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 455M/862M [03:15<13:24, 506kB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 457M/862M [03:16<10:55, 618kB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 458M/862M [03:16<08:20, 809kB/s].vector_cache/glove.6B.zip:  53%|█████▎    | 459M/862M [03:17<05:58, 1.12MB/s].vector_cache/glove.6B.zip:  54%|█████▎    | 461M/862M [03:18<05:44, 1.16MB/s].vector_cache/glove.6B.zip:  54%|█████▎    | 462M/862M [03:18<04:41, 1.42MB/s].vector_cache/glove.6B.zip:  54%|█████▎    | 463M/862M [03:19<03:26, 1.93MB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 465M/862M [03:20<03:56, 1.67MB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 466M/862M [03:20<04:06, 1.61MB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 466M/862M [03:21<03:09, 2.09MB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 468M/862M [03:21<02:17, 2.86MB/s].vector_cache/glove.6B.zip:  54%|█████▍    | 470M/862M [03:22<04:37, 1.42MB/s].vector_cache/glove.6B.zip:  55%|█████▍    | 470M/862M [03:22<03:53, 1.68MB/s].vector_cache/glove.6B.zip:  55%|█████▍    | 471M/862M [03:22<02:53, 2.26MB/s].vector_cache/glove.6B.zip:  55%|█████▍    | 474M/862M [03:24<03:31, 1.84MB/s].vector_cache/glove.6B.zip:  55%|█████▍    | 474M/862M [03:24<03:48, 1.70MB/s].vector_cache/glove.6B.zip:  55%|█████▌    | 475M/862M [03:24<02:57, 2.18MB/s].vector_cache/glove.6B.zip:  55%|█████▌    | 478M/862M [03:25<02:07, 3.02MB/s].vector_cache/glove.6B.zip:  55%|█████▌    | 478M/862M [03:26<14:55, 429kB/s] .vector_cache/glove.6B.zip:  55%|█████▌    | 478M/862M [03:26<11:06, 577kB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 480M/862M [03:26<07:54, 807kB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 482M/862M [03:28<06:59, 907kB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 482M/862M [03:28<05:31, 1.15MB/s].vector_cache/glove.6B.zip:  56%|█████▌    | 484M/862M [03:28<04:00, 1.57MB/s].vector_cache/glove.6B.zip:  56%|█████▋    | 486M/862M [03:30<04:17, 1.46MB/s].vector_cache/glove.6B.zip:  56%|█████▋    | 486M/862M [03:30<04:17, 1.46MB/s].vector_cache/glove.6B.zip:  56%|█████▋    | 487M/862M [03:30<03:15, 1.92MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 489M/862M [03:30<02:21, 2.63MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 490M/862M [03:32<04:29, 1.38MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 491M/862M [03:32<03:46, 1.64MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 492M/862M [03:32<02:46, 2.22MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 494M/862M [03:34<03:22, 1.82MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 494M/862M [03:34<03:37, 1.69MB/s].vector_cache/glove.6B.zip:  57%|█████▋    | 495M/862M [03:34<02:48, 2.18MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 498M/862M [03:34<02:01, 3.01MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 498M/862M [03:36<05:56, 1.02MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 499M/862M [03:36<04:46, 1.27MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 500M/862M [03:36<03:29, 1.73MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 503M/862M [03:38<03:47, 1.58MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 503M/862M [03:38<03:50, 1.56MB/s].vector_cache/glove.6B.zip:  58%|█████▊    | 504M/862M [03:38<02:58, 2.01MB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 507M/862M [03:40<03:02, 1.95MB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 507M/862M [03:40<02:44, 2.16MB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 509M/862M [03:40<02:02, 2.89MB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 511M/862M [03:42<02:47, 2.09MB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 511M/862M [03:42<02:32, 2.30MB/s].vector_cache/glove.6B.zip:  59%|█████▉    | 513M/862M [03:42<01:55, 3.03MB/s].vector_cache/glove.6B.zip:  60%|█████▉    | 515M/862M [03:44<02:42, 2.14MB/s].vector_cache/glove.6B.zip:  60%|█████▉    | 515M/862M [03:44<03:04, 1.88MB/s].vector_cache/glove.6B.zip:  60%|█████▉    | 516M/862M [03:44<02:26, 2.36MB/s].vector_cache/glove.6B.zip:  60%|██████    | 519M/862M [03:44<01:45, 3.24MB/s].vector_cache/glove.6B.zip:  60%|██████    | 519M/862M [03:46<1:07:53, 84.2kB/s].vector_cache/glove.6B.zip:  60%|██████    | 520M/862M [03:46<48:03, 119kB/s]   .vector_cache/glove.6B.zip:  60%|██████    | 521M/862M [03:46<33:37, 169kB/s].vector_cache/glove.6B.zip:  61%|██████    | 523M/862M [03:48<24:43, 228kB/s].vector_cache/glove.6B.zip:  61%|██████    | 524M/862M [03:48<17:51, 316kB/s].vector_cache/glove.6B.zip:  61%|██████    | 525M/862M [03:48<12:33, 447kB/s].vector_cache/glove.6B.zip:  61%|██████    | 527M/862M [03:50<10:03, 555kB/s].vector_cache/glove.6B.zip:  61%|██████    | 528M/862M [03:50<08:10, 683kB/s].vector_cache/glove.6B.zip:  61%|██████▏   | 528M/862M [03:50<05:56, 936kB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 530M/862M [03:50<04:12, 1.31MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 531M/862M [03:52<05:43, 963kB/s] .vector_cache/glove.6B.zip:  62%|██████▏   | 532M/862M [03:52<04:34, 1.20MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 533M/862M [03:52<03:19, 1.65MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 536M/862M [03:54<03:35, 1.52MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 536M/862M [03:54<03:03, 1.77MB/s].vector_cache/glove.6B.zip:  62%|██████▏   | 538M/862M [03:54<02:16, 2.38MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 540M/862M [03:56<02:51, 1.88MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 540M/862M [03:56<02:32, 2.11MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 542M/862M [03:56<01:54, 2.80MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 544M/862M [03:58<02:34, 2.05MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 544M/862M [03:58<02:52, 1.84MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 545M/862M [03:58<02:15, 2.35MB/s].vector_cache/glove.6B.zip:  63%|██████▎   | 547M/862M [03:58<01:37, 3.23MB/s].vector_cache/glove.6B.zip:  64%|██████▎   | 548M/862M [04:00<06:45, 776kB/s] .vector_cache/glove.6B.zip:  64%|██████▎   | 548M/862M [04:00<05:15, 996kB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 550M/862M [04:00<03:47, 1.37MB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 552M/862M [04:02<03:51, 1.34MB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 552M/862M [04:02<03:44, 1.38MB/s].vector_cache/glove.6B.zip:  64%|██████▍   | 553M/862M [04:02<02:52, 1.79MB/s].vector_cache/glove.6B.zip:  65%|██████▍   | 556M/862M [04:04<02:49, 1.81MB/s].vector_cache/glove.6B.zip:  65%|██████▍   | 557M/862M [04:04<02:29, 2.04MB/s].vector_cache/glove.6B.zip:  65%|██████▍   | 558M/862M [04:04<01:51, 2.72MB/s].vector_cache/glove.6B.zip:  65%|██████▍   | 560M/862M [04:05<02:28, 2.03MB/s].vector_cache/glove.6B.zip:  65%|██████▌   | 560M/862M [04:06<02:45, 1.83MB/s].vector_cache/glove.6B.zip:  65%|██████▌   | 561M/862M [04:06<02:08, 2.34MB/s].vector_cache/glove.6B.zip:  65%|██████▌   | 564M/862M [04:06<01:33, 3.21MB/s].vector_cache/glove.6B.zip:  65%|██████▌   | 564M/862M [04:07<04:10, 1.19MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 565M/862M [04:08<03:25, 1.44MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 566M/862M [04:08<02:29, 1.98MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 568M/862M [04:09<02:53, 1.70MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 569M/862M [04:10<03:01, 1.62MB/s].vector_cache/glove.6B.zip:  66%|██████▌   | 569M/862M [04:10<02:21, 2.07MB/s].vector_cache/glove.6B.zip:  66%|██████▋   | 573M/862M [04:10<01:41, 2.87MB/s].vector_cache/glove.6B.zip:  66%|██████▋   | 573M/862M [04:11<4:40:43, 17.2kB/s].vector_cache/glove.6B.zip:  66%|██████▋   | 573M/862M [04:11<3:16:44, 24.5kB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 575M/862M [04:12<2:17:05, 35.0kB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 577M/862M [04:13<1:36:21, 49.4kB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 577M/862M [04:13<1:08:22, 69.5kB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 578M/862M [04:14<47:56, 98.9kB/s]  .vector_cache/glove.6B.zip:  67%|██████▋   | 580M/862M [04:14<33:21, 141kB/s] .vector_cache/glove.6B.zip:  67%|██████▋   | 581M/862M [04:15<25:54, 181kB/s].vector_cache/glove.6B.zip:  67%|██████▋   | 581M/862M [04:15<18:36, 252kB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 583M/862M [04:16<13:04, 356kB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 585M/862M [04:17<10:09, 455kB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 585M/862M [04:17<08:02, 574kB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 586M/862M [04:17<05:49, 791kB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 588M/862M [04:18<04:05, 1.11MB/s].vector_cache/glove.6B.zip:  68%|██████▊   | 589M/862M [04:19<05:43, 796kB/s] .vector_cache/glove.6B.zip:  68%|██████▊   | 589M/862M [04:19<04:23, 1.03MB/s].vector_cache/glove.6B.zip:  69%|██████▊   | 591M/862M [04:19<03:09, 1.43MB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 593M/862M [04:20<02:15, 1.99MB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 593M/862M [04:21<12:52, 348kB/s] .vector_cache/glove.6B.zip:  69%|██████▉   | 593M/862M [04:21<09:55, 451kB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 594M/862M [04:21<07:09, 624kB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 597M/862M [04:23<05:40, 779kB/s].vector_cache/glove.6B.zip:  69%|██████▉   | 598M/862M [04:23<04:24, 999kB/s].vector_cache/glove.6B.zip:  70%|██████▉   | 599M/862M [04:23<03:10, 1.38MB/s].vector_cache/glove.6B.zip:  70%|██████▉   | 601M/862M [04:25<03:13, 1.35MB/s].vector_cache/glove.6B.zip:  70%|██████▉   | 602M/862M [04:25<04:26, 979kB/s] .vector_cache/glove.6B.zip:  70%|███████   | 605M/862M [04:26<03:06, 1.38MB/s].vector_cache/glove.6B.zip:  70%|███████   | 606M/862M [04:27<05:07, 834kB/s] .vector_cache/glove.6B.zip:  70%|███████   | 606M/862M [04:27<04:02, 1.06MB/s].vector_cache/glove.6B.zip:  70%|███████   | 607M/862M [04:27<02:53, 1.47MB/s].vector_cache/glove.6B.zip:  71%|███████   | 610M/862M [04:29<03:00, 1.40MB/s].vector_cache/glove.6B.zip:  71%|███████   | 610M/862M [04:29<02:31, 1.66MB/s].vector_cache/glove.6B.zip:  71%|███████   | 612M/862M [04:29<01:51, 2.24MB/s].vector_cache/glove.6B.zip:  71%|███████   | 614M/862M [04:31<02:16, 1.82MB/s].vector_cache/glove.6B.zip:  71%|███████   | 614M/862M [04:31<02:00, 2.06MB/s].vector_cache/glove.6B.zip:  71%|███████▏  | 616M/862M [04:31<01:30, 2.73MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 618M/862M [04:33<02:00, 2.03MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 618M/862M [04:33<01:49, 2.24MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 620M/862M [04:33<01:22, 2.95MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 622M/862M [04:35<01:53, 2.11MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 622M/862M [04:35<02:08, 1.87MB/s].vector_cache/glove.6B.zip:  72%|███████▏  | 623M/862M [04:35<01:41, 2.35MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 626M/862M [04:37<01:48, 2.17MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 626M/862M [04:37<01:40, 2.36MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 628M/862M [04:37<01:15, 3.10MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 630M/862M [04:39<01:46, 2.17MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 630M/862M [04:39<02:02, 1.89MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 631M/862M [04:39<01:35, 2.41MB/s].vector_cache/glove.6B.zip:  73%|███████▎  | 633M/862M [04:39<01:09, 3.28MB/s].vector_cache/glove.6B.zip:  74%|███████▎  | 634M/862M [04:41<02:21, 1.61MB/s].vector_cache/glove.6B.zip:  74%|███████▎  | 635M/862M [04:41<02:02, 1.86MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 636M/862M [04:41<01:30, 2.49MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 638M/862M [04:43<01:55, 1.94MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 639M/862M [04:43<01:43, 2.15MB/s].vector_cache/glove.6B.zip:  74%|███████▍  | 640M/862M [04:43<01:17, 2.85MB/s].vector_cache/glove.6B.zip:  75%|███████▍  | 643M/862M [04:45<01:45, 2.08MB/s].vector_cache/glove.6B.zip:  75%|███████▍  | 643M/862M [04:45<01:58, 1.85MB/s].vector_cache/glove.6B.zip:  75%|███████▍  | 644M/862M [04:45<01:32, 2.37MB/s].vector_cache/glove.6B.zip:  75%|███████▍  | 646M/862M [04:45<01:06, 3.24MB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 647M/862M [04:47<02:40, 1.34MB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 647M/862M [04:47<02:10, 1.65MB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 648M/862M [04:47<01:37, 2.20MB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 651M/862M [04:47<01:09, 3.04MB/s].vector_cache/glove.6B.zip:  75%|███████▌  | 651M/862M [04:49<15:00, 235kB/s] .vector_cache/glove.6B.zip:  76%|███████▌  | 651M/862M [04:49<11:12, 314kB/s].vector_cache/glove.6B.zip:  76%|███████▌  | 652M/862M [04:49<07:58, 440kB/s].vector_cache/glove.6B.zip:  76%|███████▌  | 654M/862M [04:49<05:33, 623kB/s].vector_cache/glove.6B.zip:  76%|███████▌  | 655M/862M [04:51<07:09, 482kB/s].vector_cache/glove.6B.zip:  76%|███████▌  | 655M/862M [04:51<05:21, 644kB/s].vector_cache/glove.6B.zip:  76%|███████▌  | 657M/862M [04:51<03:48, 899kB/s].vector_cache/glove.6B.zip:  76%|███████▋  | 659M/862M [04:53<03:25, 987kB/s].vector_cache/glove.6B.zip:  76%|███████▋  | 659M/862M [04:53<03:06, 1.09MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 660M/862M [04:53<02:20, 1.44MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 663M/862M [04:53<01:39, 2.01MB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 663M/862M [04:55<13:11, 252kB/s] .vector_cache/glove.6B.zip:  77%|███████▋  | 663M/862M [04:55<09:30, 349kB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 665M/862M [04:55<06:41, 492kB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 667M/862M [04:55<04:40, 696kB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 667M/862M [04:56<09:24, 345kB/s].vector_cache/glove.6B.zip:  77%|███████▋  | 667M/862M [04:57<07:14, 448kB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 668M/862M [04:57<05:11, 623kB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 671M/862M [04:57<03:37, 880kB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 671M/862M [04:58<04:38, 685kB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 672M/862M [04:59<03:30, 903kB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 673M/862M [04:59<02:30, 1.26MB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 675M/862M [04:59<01:47, 1.74MB/s].vector_cache/glove.6B.zip:  78%|███████▊  | 675M/862M [05:00<15:32, 200kB/s] .vector_cache/glove.6B.zip:  78%|███████▊  | 676M/862M [05:01<11:10, 278kB/s].vector_cache/glove.6B.zip:  79%|███████▊  | 677M/862M [05:01<07:49, 394kB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 680M/862M [05:02<06:09, 494kB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 680M/862M [05:03<04:34, 664kB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 682M/862M [05:03<03:14, 928kB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 684M/862M [05:04<02:56, 1.01MB/s].vector_cache/glove.6B.zip:  79%|███████▉  | 684M/862M [05:04<02:21, 1.26MB/s].vector_cache/glove.6B.zip:  80%|███████▉  | 686M/862M [05:05<01:42, 1.73MB/s].vector_cache/glove.6B.zip:  80%|███████▉  | 688M/862M [05:06<01:51, 1.56MB/s].vector_cache/glove.6B.zip:  80%|███████▉  | 688M/862M [05:06<01:35, 1.82MB/s].vector_cache/glove.6B.zip:  80%|████████  | 690M/862M [05:07<01:10, 2.44MB/s].vector_cache/glove.6B.zip:  80%|████████  | 692M/862M [05:08<01:29, 1.91MB/s].vector_cache/glove.6B.zip:  80%|████████  | 692M/862M [05:08<01:37, 1.75MB/s].vector_cache/glove.6B.zip:  80%|████████  | 693M/862M [05:09<01:16, 2.22MB/s].vector_cache/glove.6B.zip:  81%|████████  | 696M/862M [05:09<00:54, 3.06MB/s].vector_cache/glove.6B.zip:  81%|████████  | 696M/862M [05:10<2:40:22, 17.3kB/s].vector_cache/glove.6B.zip:  81%|████████  | 696M/862M [05:10<1:52:17, 24.6kB/s].vector_cache/glove.6B.zip:  81%|████████  | 698M/862M [05:10<1:17:55, 35.1kB/s].vector_cache/glove.6B.zip:  81%|████████  | 700M/862M [05:12<54:27, 49.6kB/s]  .vector_cache/glove.6B.zip:  81%|████████  | 700M/862M [05:12<38:37, 69.8kB/s].vector_cache/glove.6B.zip:  81%|████████▏ | 701M/862M [05:12<27:01, 99.3kB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 704M/862M [05:13<18:39, 142kB/s] .vector_cache/glove.6B.zip:  82%|████████▏ | 704M/862M [05:14<14:58, 176kB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 705M/862M [05:14<10:40, 246kB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 706M/862M [05:14<07:27, 349kB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 708M/862M [05:14<05:11, 494kB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 708M/862M [05:16<17:31, 146kB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 709M/862M [05:16<12:30, 205kB/s].vector_cache/glove.6B.zip:  82%|████████▏ | 710M/862M [05:16<08:43, 290kB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 712M/862M [05:18<06:36, 377kB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 713M/862M [05:18<04:52, 511kB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 714M/862M [05:18<03:26, 717kB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 717M/862M [05:20<02:56, 824kB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 717M/862M [05:20<02:18, 1.05MB/s].vector_cache/glove.6B.zip:  83%|████████▎ | 719M/862M [05:20<01:39, 1.45MB/s].vector_cache/glove.6B.zip:  84%|████████▎ | 721M/862M [05:22<01:41, 1.39MB/s].vector_cache/glove.6B.zip:  84%|████████▎ | 721M/862M [05:22<01:39, 1.41MB/s].vector_cache/glove.6B.zip:  84%|████████▎ | 722M/862M [05:22<01:15, 1.85MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 724M/862M [05:22<00:54, 2.56MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 725M/862M [05:24<01:51, 1.23MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 725M/862M [05:24<01:31, 1.49MB/s].vector_cache/glove.6B.zip:  84%|████████▍ | 727M/862M [05:24<01:06, 2.02MB/s].vector_cache/glove.6B.zip:  85%|████████▍ | 729M/862M [05:26<01:17, 1.73MB/s].vector_cache/glove.6B.zip:  85%|████████▍ | 729M/862M [05:26<01:19, 1.67MB/s].vector_cache/glove.6B.zip:  85%|████████▍ | 730M/862M [05:26<01:02, 2.12MB/s].vector_cache/glove.6B.zip:  85%|████████▌ | 733M/862M [05:28<01:03, 2.03MB/s].vector_cache/glove.6B.zip:  85%|████████▌ | 733M/862M [05:28<00:57, 2.23MB/s].vector_cache/glove.6B.zip:  85%|████████▌ | 735M/862M [05:28<00:42, 2.99MB/s].vector_cache/glove.6B.zip:  85%|████████▌ | 737M/862M [05:30<00:58, 2.13MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 738M/862M [05:30<00:53, 2.32MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 739M/862M [05:30<00:40, 3.06MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 741M/862M [05:32<00:56, 2.15MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 742M/862M [05:32<00:51, 2.34MB/s].vector_cache/glove.6B.zip:  86%|████████▌ | 743M/862M [05:32<00:38, 3.08MB/s].vector_cache/glove.6B.zip:  86%|████████▋ | 745M/862M [05:34<00:54, 2.15MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 746M/862M [05:34<00:49, 2.34MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 747M/862M [05:34<00:37, 3.09MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 750M/862M [05:36<00:52, 2.16MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 750M/862M [05:36<00:48, 2.34MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 751M/862M [05:36<00:35, 3.08MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 754M/862M [05:38<00:50, 2.15MB/s].vector_cache/glove.6B.zip:  87%|████████▋ | 754M/862M [05:38<00:57, 1.89MB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 755M/862M [05:38<00:45, 2.38MB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 758M/862M [05:38<00:31, 3.27MB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 758M/862M [05:40<1:40:43, 17.3kB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 758M/862M [05:40<1:10:24, 24.6kB/s].vector_cache/glove.6B.zip:  88%|████████▊ | 760M/862M [05:40<48:37, 35.2kB/s]  .vector_cache/glove.6B.zip:  88%|████████▊ | 763M/862M [05:40<32:59, 50.2kB/s].vector_cache/glove.6B.zip:  89%|████████▊ | 764M/862M [05:42<24:13, 67.7kB/s].vector_cache/glove.6B.zip:  89%|████████▊ | 764M/862M [05:43<18:16, 89.7kB/s].vector_cache/glove.6B.zip:  89%|████████▊ | 764M/862M [05:43<13:08, 124kB/s] .vector_cache/glove.6B.zip:  89%|████████▊ | 765M/862M [05:43<09:14, 176kB/s].vector_cache/glove.6B.zip:  89%|████████▉ | 767M/862M [05:43<06:18, 251kB/s].vector_cache/glove.6B.zip:  89%|████████▉ | 768M/862M [05:44<05:47, 271kB/s].vector_cache/glove.6B.zip:  89%|████████▉ | 768M/862M [05:45<04:10, 375kB/s].vector_cache/glove.6B.zip:  89%|████████▉ | 770M/862M [05:45<02:54, 529kB/s].vector_cache/glove.6B.zip:  90%|████████▉ | 772M/862M [05:45<02:00, 749kB/s].vector_cache/glove.6B.zip:  90%|████████▉ | 772M/862M [05:46<05:11, 289kB/s].vector_cache/glove.6B.zip:  90%|████████▉ | 772M/862M [05:47<03:55, 381kB/s].vector_cache/glove.6B.zip:  90%|████████▉ | 773M/862M [05:47<02:48, 530kB/s].vector_cache/glove.6B.zip:  90%|█████████ | 776M/862M [05:47<01:54, 752kB/s].vector_cache/glove.6B.zip:  90%|█████████ | 776M/862M [05:48<11:48, 122kB/s].vector_cache/glove.6B.zip:  90%|█████████ | 777M/862M [05:49<08:22, 171kB/s].vector_cache/glove.6B.zip:  90%|█████████ | 778M/862M [05:49<05:47, 242kB/s].vector_cache/glove.6B.zip:  90%|█████████ | 780M/862M [05:50<04:16, 320kB/s].vector_cache/glove.6B.zip:  91%|█████████ | 780M/862M [05:50<03:15, 418kB/s].vector_cache/glove.6B.zip:  91%|█████████ | 781M/862M [05:51<02:19, 582kB/s].vector_cache/glove.6B.zip:  91%|█████████ | 784M/862M [05:51<01:35, 823kB/s].vector_cache/glove.6B.zip:  91%|█████████ | 784M/862M [05:52<02:05, 622kB/s].vector_cache/glove.6B.zip:  91%|█████████ | 785M/862M [05:52<01:35, 814kB/s].vector_cache/glove.6B.zip:  91%|█████████ | 786M/862M [05:53<01:07, 1.13MB/s].vector_cache/glove.6B.zip:  91%|█████████▏| 788M/862M [05:54<01:03, 1.17MB/s].vector_cache/glove.6B.zip:  91%|█████████▏| 789M/862M [05:54<00:51, 1.43MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 790M/862M [05:55<00:36, 1.94MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 793M/862M [05:56<00:41, 1.67MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 793M/862M [05:56<00:36, 1.92MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 795M/862M [05:57<00:26, 2.57MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 797M/862M [05:58<00:33, 1.96MB/s].vector_cache/glove.6B.zip:  92%|█████████▏| 797M/862M [05:58<00:29, 2.18MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 799M/862M [05:58<00:22, 2.89MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 801M/862M [06:00<00:29, 2.09MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 801M/862M [06:00<00:32, 1.86MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 802M/862M [06:00<00:25, 2.34MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 805M/862M [06:02<00:26, 2.17MB/s].vector_cache/glove.6B.zip:  93%|█████████▎| 805M/862M [06:02<00:24, 2.36MB/s].vector_cache/glove.6B.zip:  94%|█████████▎| 807M/862M [06:02<00:17, 3.13MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 809M/862M [06:04<00:24, 2.18MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 809M/862M [06:04<00:22, 2.36MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 811M/862M [06:04<00:16, 3.11MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 813M/862M [06:06<00:22, 2.16MB/s].vector_cache/glove.6B.zip:  94%|█████████▍| 814M/862M [06:06<00:20, 2.35MB/s].vector_cache/glove.6B.zip:  95%|█████████▍| 815M/862M [06:06<00:15, 3.10MB/s].vector_cache/glove.6B.zip:  95%|█████████▍| 817M/862M [06:08<00:20, 2.16MB/s].vector_cache/glove.6B.zip:  95%|█████████▍| 817M/862M [06:08<00:23, 1.90MB/s].vector_cache/glove.6B.zip:  95%|█████████▍| 818M/862M [06:08<00:18, 2.42MB/s].vector_cache/glove.6B.zip:  95%|█████████▌| 820M/862M [06:08<00:12, 3.30MB/s].vector_cache/glove.6B.zip:  95%|█████████▌| 821M/862M [06:10<00:29, 1.40MB/s].vector_cache/glove.6B.zip:  95%|█████████▌| 822M/862M [06:10<00:24, 1.66MB/s].vector_cache/glove.6B.zip:  95%|█████████▌| 823M/862M [06:10<00:17, 2.25MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 825M/862M [06:12<00:20, 1.83MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 826M/862M [06:12<00:21, 1.71MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 826M/862M [06:12<00:16, 2.21MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 828M/862M [06:12<00:11, 3.01MB/s].vector_cache/glove.6B.zip:  96%|█████████▌| 830M/862M [06:14<00:21, 1.55MB/s].vector_cache/glove.6B.zip:  96%|█████████▋| 830M/862M [06:14<00:17, 1.80MB/s].vector_cache/glove.6B.zip:  96%|█████████▋| 832M/862M [06:14<00:12, 2.43MB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 834M/862M [06:16<00:14, 1.93MB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 834M/862M [06:16<00:15, 1.77MB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 835M/862M [06:16<00:12, 2.25MB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 838M/862M [06:18<00:11, 2.10MB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 838M/862M [06:18<00:13, 1.84MB/s].vector_cache/glove.6B.zip:  97%|█████████▋| 839M/862M [06:18<00:09, 2.35MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 841M/862M [06:18<00:06, 3.22MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 842M/862M [06:20<00:17, 1.15MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 842M/862M [06:20<00:13, 1.44MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 844M/862M [06:20<00:09, 1.97MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 846M/862M [06:20<00:05, 2.71MB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 846M/862M [06:22<01:08, 233kB/s] .vector_cache/glove.6B.zip:  98%|█████████▊| 847M/862M [06:22<00:48, 322kB/s].vector_cache/glove.6B.zip:  98%|█████████▊| 848M/862M [06:22<00:30, 456kB/s].vector_cache/glove.6B.zip:  99%|█████████▊| 850M/862M [06:24<00:20, 565kB/s].vector_cache/glove.6B.zip:  99%|█████████▊| 851M/862M [06:24<00:16, 697kB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 851M/862M [06:24<00:11, 955kB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 853M/862M [06:24<00:07, 1.33MB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 855M/862M [06:26<00:06, 1.22MB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 855M/862M [06:26<00:04, 1.47MB/s].vector_cache/glove.6B.zip:  99%|█████████▉| 856M/862M [06:26<00:02, 2.00MB/s].vector_cache/glove.6B.zip: 100%|█████████▉| 859M/862M [06:28<00:02, 1.72MB/s].vector_cache/glove.6B.zip: 100%|█████████▉| 859M/862M [06:28<00:01, 1.96MB/s].vector_cache/glove.6B.zip: 100%|█████████▉| 861M/862M [06:28<00:00, 2.63MB/s].vector_cache/glove.6B.zip: 862MB [06:28, 2.22MB/s]                           
+  0%|          | 0/400000 [00:00<?, ?it/s]  0%|          | 1/400000 [00:01<159:43:08,  1.44s/it]  0%|          | 768/400000 [00:01<111:35:35,  1.01s/it]  0%|          | 1518/400000 [00:01<77:58:22,  1.42it/s]  1%|          | 2224/400000 [00:01<54:29:20,  2.03it/s]  1%|          | 2852/400000 [00:01<38:05:14,  2.90it/s]  1%|          | 3576/400000 [00:01<26:37:01,  4.14it/s]  1%|          | 4342/400000 [00:02<18:36:01,  5.91it/s]  1%|▏         | 5117/400000 [00:02<12:59:56,  8.44it/s]  1%|▏         | 5872/400000 [00:02<9:05:10, 12.05it/s]   2%|▏         | 6622/400000 [00:02<6:21:09, 17.20it/s]  2%|▏         | 7358/400000 [00:02<4:26:34, 24.55it/s]  2%|▏         | 8153/400000 [00:02<3:06:28, 35.02it/s]  2%|▏         | 8897/400000 [00:02<2:10:32, 49.93it/s]  2%|▏         | 9651/400000 [00:02<1:31:28, 71.13it/s]  3%|▎         | 10403/400000 [00:02<1:04:09, 101.20it/s]  3%|▎         | 11151/400000 [00:02<45:06, 143.70it/s]    3%|▎         | 11928/400000 [00:03<31:45, 203.67it/s]  3%|▎         | 12720/400000 [00:03<22:25, 287.78it/s]  3%|▎         | 13482/400000 [00:03<15:57, 403.72it/s]  4%|▎         | 14282/400000 [00:03<11:23, 564.52it/s]  4%|▍         | 15037/400000 [00:03<08:13, 779.45it/s]  4%|▍         | 15784/400000 [00:03<06:00, 1065.76it/s]  4%|▍         | 16542/400000 [00:03<04:27, 1435.98it/s]  4%|▍         | 17301/400000 [00:03<03:21, 1897.32it/s]  5%|▍         | 18060/400000 [00:03<02:36, 2447.93it/s]  5%|▍         | 18812/400000 [00:03<02:04, 3062.01it/s]  5%|▍         | 19560/400000 [00:04<01:42, 3706.75it/s]  5%|▌         | 20323/400000 [00:04<01:26, 4382.73it/s]  5%|▌         | 21072/400000 [00:04<01:15, 5004.47it/s]  5%|▌         | 21821/400000 [00:04<01:08, 5524.79it/s]  6%|▌         | 22585/400000 [00:04<01:02, 6023.72it/s]  6%|▌         | 23334/400000 [00:04<01:00, 6263.41it/s]  6%|▌         | 24066/400000 [00:04<00:57, 6538.32it/s]  6%|▌         | 24841/400000 [00:04<00:54, 6860.00it/s]  6%|▋         | 25628/400000 [00:04<00:52, 7132.50it/s]  7%|▋         | 26385/400000 [00:04<00:52, 7167.07it/s]  7%|▋         | 27133/400000 [00:05<00:52, 7114.97it/s]  7%|▋         | 27866/400000 [00:05<00:52, 7073.34it/s]  7%|▋         | 28589/400000 [00:05<00:54, 6842.25it/s]  7%|▋         | 29287/400000 [00:05<00:53, 6881.24it/s]  7%|▋         | 29996/400000 [00:05<00:53, 6940.05it/s]  8%|▊         | 30735/400000 [00:05<00:52, 7067.05it/s]  8%|▊         | 31463/400000 [00:05<00:51, 7129.13it/s]  8%|▊         | 32185/400000 [00:05<00:51, 7154.16it/s]  8%|▊         | 32903/400000 [00:05<00:52, 6986.11it/s]  8%|▊         | 33608/400000 [00:06<00:52, 7003.20it/s]  9%|▊         | 34336/400000 [00:06<00:51, 7083.63it/s]  9%|▉         | 35046/400000 [00:06<00:51, 7082.09it/s]  9%|▉         | 35778/400000 [00:06<00:50, 7150.87it/s]  9%|▉         | 36512/400000 [00:06<00:50, 7204.27it/s]  9%|▉         | 37266/400000 [00:06<00:49, 7299.88it/s] 10%|▉         | 38057/400000 [00:06<00:48, 7469.42it/s] 10%|▉         | 38810/400000 [00:06<00:48, 7487.40it/s] 10%|▉         | 39560/400000 [00:06<00:48, 7417.65it/s] 10%|█         | 40339/400000 [00:06<00:47, 7524.80it/s] 10%|█         | 41093/400000 [00:07<00:49, 7313.18it/s] 10%|█         | 41853/400000 [00:07<00:48, 7395.79it/s] 11%|█         | 42613/400000 [00:07<00:48, 7295.94it/s] 11%|█         | 43345/400000 [00:07<00:49, 7268.46it/s] 11%|█         | 44083/400000 [00:07<00:48, 7300.48it/s] 11%|█         | 44840/400000 [00:07<00:48, 7379.22it/s] 11%|█▏        | 45630/400000 [00:07<00:47, 7526.49it/s] 12%|█▏        | 46398/400000 [00:07<00:46, 7570.01it/s] 12%|█▏        | 47156/400000 [00:07<00:46, 7550.48it/s] 12%|█▏        | 47912/400000 [00:07<00:47, 7460.75it/s] 12%|█▏        | 48659/400000 [00:08<00:47, 7433.42it/s] 12%|█▏        | 49413/400000 [00:08<00:46, 7463.60it/s] 13%|█▎        | 50170/400000 [00:08<00:46, 7495.01it/s] 13%|█▎        | 50949/400000 [00:08<00:46, 7580.37it/s] 13%|█▎        | 51708/400000 [00:08<00:46, 7549.76it/s] 13%|█▎        | 52464/400000 [00:08<00:46, 7475.89it/s] 13%|█▎        | 53212/400000 [00:08<00:50, 6927.43it/s] 13%|█▎        | 53969/400000 [00:08<00:48, 7106.73it/s] 14%|█▎        | 54744/400000 [00:08<00:47, 7286.38it/s] 14%|█▍        | 55529/400000 [00:08<00:46, 7445.54it/s] 14%|█▍        | 56306/400000 [00:09<00:45, 7538.98it/s] 14%|█▍        | 57121/400000 [00:09<00:44, 7711.24it/s] 14%|█▍        | 57896/400000 [00:09<00:44, 7630.13it/s] 15%|█▍        | 58693/400000 [00:09<00:44, 7726.87it/s] 15%|█▍        | 59468/400000 [00:09<00:44, 7689.42it/s] 15%|█▌        | 60239/400000 [00:09<00:45, 7521.62it/s] 15%|█▌        | 60994/400000 [00:09<00:45, 7424.69it/s] 15%|█▌        | 61739/400000 [00:09<00:45, 7422.96it/s] 16%|█▌        | 62483/400000 [00:09<00:45, 7364.43it/s] 16%|█▌        | 63221/400000 [00:10<00:47, 7113.73it/s] 16%|█▌        | 63935/400000 [00:10<00:47, 7025.40it/s] 16%|█▌        | 64640/400000 [00:10<00:48, 6972.82it/s] 16%|█▋        | 65363/400000 [00:10<00:47, 7047.94it/s] 17%|█▋        | 66070/400000 [00:10<00:47, 7008.32it/s] 17%|█▋        | 66850/400000 [00:10<00:46, 7225.57it/s] 17%|█▋        | 67575/400000 [00:10<00:46, 7211.48it/s] 17%|█▋        | 68354/400000 [00:10<00:44, 7375.51it/s] 17%|█▋        | 69130/400000 [00:10<00:44, 7484.35it/s] 17%|█▋        | 69912/400000 [00:10<00:43, 7579.48it/s] 18%|█▊        | 70721/400000 [00:11<00:42, 7724.94it/s] 18%|█▊        | 71496/400000 [00:11<00:43, 7485.75it/s] 18%|█▊        | 72326/400000 [00:11<00:42, 7712.43it/s] 18%|█▊        | 73151/400000 [00:11<00:41, 7865.63it/s] 18%|█▊        | 73941/400000 [00:11<00:43, 7540.52it/s] 19%|█▊        | 74796/400000 [00:11<00:41, 7815.90it/s] 19%|█▉        | 75591/400000 [00:11<00:41, 7853.48it/s] 19%|█▉        | 76381/400000 [00:11<00:41, 7815.21it/s] 19%|█▉        | 77241/400000 [00:11<00:40, 8034.25it/s] 20%|█▉        | 78049/400000 [00:11<00:40, 7921.77it/s] 20%|█▉        | 78845/400000 [00:12<00:40, 7901.75it/s] 20%|█▉        | 79638/400000 [00:12<00:41, 7764.83it/s] 20%|██        | 80417/400000 [00:12<00:41, 7636.37it/s] 20%|██        | 81227/400000 [00:12<00:41, 7768.15it/s] 21%|██        | 82035/400000 [00:12<00:40, 7857.26it/s] 21%|██        | 82834/400000 [00:12<00:40, 7894.94it/s] 21%|██        | 83625/400000 [00:12<00:41, 7670.55it/s] 21%|██        | 84396/400000 [00:12<00:41, 7681.32it/s] 21%|██▏       | 85166/400000 [00:12<00:41, 7574.78it/s] 21%|██▏       | 85925/400000 [00:12<00:41, 7576.54it/s] 22%|██▏       | 86757/400000 [00:13<00:40, 7784.89it/s] 22%|██▏       | 87538/400000 [00:13<00:41, 7447.30it/s] 22%|██▏       | 88288/400000 [00:13<00:41, 7444.94it/s] 22%|██▏       | 89036/400000 [00:13<00:42, 7339.92it/s] 22%|██▏       | 89777/400000 [00:13<00:42, 7358.16it/s] 23%|██▎       | 90537/400000 [00:13<00:41, 7428.69it/s] 23%|██▎       | 91282/400000 [00:13<00:42, 7231.05it/s] 23%|██▎       | 92008/400000 [00:13<00:42, 7235.23it/s] 23%|██▎       | 92734/400000 [00:13<00:43, 7104.82it/s] 23%|██▎       | 93447/400000 [00:14<00:43, 7067.37it/s] 24%|██▎       | 94164/400000 [00:14<00:43, 7095.77it/s] 24%|██▎       | 94943/400000 [00:14<00:41, 7288.72it/s] 24%|██▍       | 95782/400000 [00:14<00:40, 7587.49it/s] 24%|██▍       | 96618/400000 [00:14<00:38, 7801.95it/s] 24%|██▍       | 97405/400000 [00:14<00:38, 7818.78it/s] 25%|██▍       | 98285/400000 [00:14<00:37, 8087.63it/s] 25%|██▍       | 99099/400000 [00:14<00:37, 7951.41it/s] 25%|██▍       | 99976/400000 [00:14<00:36, 8177.35it/s] 25%|██▌       | 100826/400000 [00:14<00:36, 8268.29it/s] 25%|██▌       | 101659/400000 [00:15<00:36, 8284.98it/s] 26%|██▌       | 102525/400000 [00:15<00:35, 8393.61it/s] 26%|██▌       | 103367/400000 [00:15<00:36, 8222.46it/s] 26%|██▌       | 104192/400000 [00:15<00:37, 7956.88it/s] 26%|██▌       | 104992/400000 [00:15<00:38, 7584.22it/s] 26%|██▋       | 105786/400000 [00:15<00:38, 7685.32it/s] 27%|██▋       | 106601/400000 [00:15<00:37, 7817.81it/s] 27%|██▋       | 107387/400000 [00:15<00:37, 7710.90it/s] 27%|██▋       | 108162/400000 [00:15<00:38, 7570.15it/s] 27%|██▋       | 108922/400000 [00:15<00:39, 7327.51it/s] 27%|██▋       | 109746/400000 [00:16<00:38, 7578.60it/s] 28%|██▊       | 110509/400000 [00:16<00:38, 7550.24it/s] 28%|██▊       | 111340/400000 [00:16<00:37, 7762.15it/s] 28%|██▊       | 112175/400000 [00:16<00:36, 7929.33it/s] 28%|██▊       | 113016/400000 [00:16<00:35, 8064.28it/s] 28%|██▊       | 113835/400000 [00:16<00:35, 8100.09it/s] 29%|██▊       | 114656/400000 [00:16<00:35, 8131.43it/s] 29%|██▉       | 115471/400000 [00:16<00:35, 8058.56it/s] 29%|██▉       | 116306/400000 [00:16<00:34, 8141.89it/s] 29%|██▉       | 117122/400000 [00:17<00:35, 7974.54it/s] 29%|██▉       | 117921/400000 [00:17<00:36, 7719.87it/s] 30%|██▉       | 118696/400000 [00:17<00:36, 7724.45it/s] 30%|██▉       | 119471/400000 [00:17<00:37, 7538.13it/s] 30%|███       | 120230/400000 [00:17<00:37, 7552.04it/s] 30%|███       | 121035/400000 [00:17<00:36, 7692.78it/s] 30%|███       | 121823/400000 [00:17<00:35, 7746.79it/s] 31%|███       | 122600/400000 [00:17<00:36, 7690.85it/s] 31%|███       | 123415/400000 [00:17<00:35, 7820.53it/s] 31%|███       | 124266/400000 [00:17<00:34, 8013.49it/s] 31%|███▏      | 125070/400000 [00:18<00:34, 7976.78it/s] 31%|███▏      | 125870/400000 [00:18<00:34, 7920.50it/s] 32%|███▏      | 126664/400000 [00:18<00:35, 7762.72it/s] 32%|███▏      | 127519/400000 [00:18<00:34, 7982.41it/s] 32%|███▏      | 128338/400000 [00:18<00:33, 8043.23it/s] 32%|███▏      | 129253/400000 [00:18<00:32, 8345.48it/s] 33%|███▎      | 130101/400000 [00:18<00:32, 8382.90it/s] 33%|███▎      | 130943/400000 [00:18<00:33, 7921.60it/s] 33%|███▎      | 131743/400000 [00:18<00:34, 7762.70it/s] 33%|███▎      | 132526/400000 [00:18<00:35, 7622.84it/s] 33%|███▎      | 133293/400000 [00:19<00:35, 7546.44it/s] 34%|███▎      | 134052/400000 [00:19<00:36, 7374.91it/s] 34%|███▎      | 134793/400000 [00:19<00:36, 7310.23it/s] 34%|███▍      | 135527/400000 [00:19<00:36, 7313.42it/s] 34%|███▍      | 136341/400000 [00:19<00:34, 7542.68it/s] 34%|███▍      | 137123/400000 [00:19<00:34, 7621.72it/s] 34%|███▍      | 137888/400000 [00:19<00:34, 7609.26it/s] 35%|███▍      | 138654/400000 [00:19<00:34, 7621.74it/s] 35%|███▍      | 139418/400000 [00:19<00:34, 7615.85it/s] 35%|███▌      | 140181/400000 [00:20<00:34, 7544.15it/s] 35%|███▌      | 140961/400000 [00:20<00:34, 7615.45it/s] 35%|███▌      | 141724/400000 [00:20<00:33, 7610.87it/s] 36%|███▌      | 142486/400000 [00:20<00:34, 7495.89it/s] 36%|███▌      | 143237/400000 [00:20<00:34, 7426.29it/s] 36%|███▌      | 143990/400000 [00:20<00:34, 7455.12it/s] 36%|███▌      | 144781/400000 [00:20<00:33, 7583.18it/s] 36%|███▋      | 145541/400000 [00:20<00:34, 7474.91it/s] 37%|███▋      | 146290/400000 [00:20<00:34, 7455.81it/s] 37%|███▋      | 147155/400000 [00:20<00:32, 7776.51it/s] 37%|███▋      | 148006/400000 [00:21<00:31, 7979.81it/s] 37%|███▋      | 148812/400000 [00:21<00:31, 8001.77it/s] 37%|███▋      | 149616/400000 [00:21<00:31, 8003.63it/s] 38%|███▊      | 150419/400000 [00:21<00:31, 7930.80it/s] 38%|███▊      | 151214/400000 [00:21<00:32, 7591.28it/s] 38%|███▊      | 151978/400000 [00:21<00:33, 7398.10it/s] 38%|███▊      | 152757/400000 [00:21<00:32, 7509.29it/s] 38%|███▊      | 153513/400000 [00:21<00:32, 7523.24it/s] 39%|███▊      | 154268/400000 [00:21<00:33, 7309.29it/s] 39%|███▉      | 155102/400000 [00:21<00:32, 7590.14it/s] 39%|███▉      | 155866/400000 [00:22<00:32, 7423.54it/s] 39%|███▉      | 156613/400000 [00:22<00:32, 7407.59it/s] 39%|███▉      | 157391/400000 [00:22<00:32, 7512.84it/s] 40%|███▉      | 158173/400000 [00:22<00:31, 7601.53it/s] 40%|███▉      | 159040/400000 [00:22<00:30, 7891.82it/s] 40%|███▉      | 159852/400000 [00:22<00:30, 7957.90it/s] 40%|████      | 160667/400000 [00:22<00:29, 8012.96it/s] 40%|████      | 161482/400000 [00:22<00:29, 8051.68it/s] 41%|████      | 162289/400000 [00:22<00:29, 7946.07it/s] 41%|████      | 163095/400000 [00:22<00:29, 7979.01it/s] 41%|████      | 163917/400000 [00:23<00:29, 8049.42it/s] 41%|████      | 164789/400000 [00:23<00:28, 8238.47it/s] 41%|████▏     | 165615/400000 [00:23<00:28, 8164.88it/s] 42%|████▏     | 166433/400000 [00:23<00:29, 8008.68it/s] 42%|████▏     | 167236/400000 [00:23<00:29, 8012.21it/s] 42%|████▏     | 168039/400000 [00:23<00:29, 7919.54it/s] 42%|████▏     | 168832/400000 [00:23<00:29, 7895.98it/s] 42%|████▏     | 169623/400000 [00:23<00:30, 7447.05it/s] 43%|████▎     | 170384/400000 [00:23<00:30, 7491.40it/s] 43%|████▎     | 171240/400000 [00:24<00:29, 7782.46it/s] 43%|████▎     | 172072/400000 [00:24<00:28, 7935.16it/s] 43%|████▎     | 172872/400000 [00:24<00:28, 7951.61it/s] 43%|████▎     | 173671/400000 [00:24<00:28, 7946.22it/s] 44%|████▎     | 174515/400000 [00:24<00:27, 8086.36it/s] 44%|████▍     | 175326/400000 [00:24<00:28, 8002.77it/s] 44%|████▍     | 176129/400000 [00:24<00:28, 7895.35it/s] 44%|████▍     | 176965/400000 [00:24<00:27, 8027.42it/s] 44%|████▍     | 177778/400000 [00:24<00:27, 8057.25it/s] 45%|████▍     | 178591/400000 [00:24<00:27, 8077.33it/s] 45%|████▍     | 179462/400000 [00:25<00:26, 8255.08it/s] 45%|████▌     | 180290/400000 [00:25<00:27, 8119.83it/s] 45%|████▌     | 181104/400000 [00:25<00:27, 7962.90it/s] 45%|████▌     | 181903/400000 [00:25<00:28, 7560.94it/s] 46%|████▌     | 182665/400000 [00:25<00:29, 7467.73it/s] 46%|████▌     | 183416/400000 [00:25<00:29, 7390.14it/s] 46%|████▌     | 184188/400000 [00:25<00:28, 7483.07it/s] 46%|████▌     | 184939/400000 [00:25<00:28, 7442.95it/s] 46%|████▋     | 185686/400000 [00:25<00:29, 7341.88it/s] 47%|████▋     | 186462/400000 [00:25<00:28, 7460.46it/s] 47%|████▋     | 187258/400000 [00:26<00:27, 7600.71it/s] 47%|████▋     | 188064/400000 [00:26<00:27, 7730.33it/s] 47%|████▋     | 188842/400000 [00:26<00:27, 7743.24it/s] 47%|████▋     | 189618/400000 [00:26<00:27, 7670.59it/s] 48%|████▊     | 190387/400000 [00:26<00:27, 7588.41it/s] 48%|████▊     | 191147/400000 [00:26<00:27, 7591.76it/s] 48%|████▊     | 191918/400000 [00:26<00:27, 7625.64it/s] 48%|████▊     | 192682/400000 [00:26<00:27, 7451.73it/s] 48%|████▊     | 193447/400000 [00:26<00:27, 7508.86it/s] 49%|████▊     | 194199/400000 [00:26<00:28, 7259.42it/s] 49%|████▊     | 194971/400000 [00:27<00:27, 7390.82it/s] 49%|████▉     | 195713/400000 [00:27<00:28, 7152.41it/s] 49%|████▉     | 196439/400000 [00:27<00:28, 7183.02it/s] 49%|████▉     | 197160/400000 [00:27<00:28, 7153.69it/s] 49%|████▉     | 197955/400000 [00:27<00:27, 7373.55it/s] 50%|████▉     | 198744/400000 [00:27<00:26, 7520.75it/s] 50%|████▉     | 199499/400000 [00:27<00:27, 7204.22it/s] 50%|█████     | 200289/400000 [00:27<00:26, 7397.88it/s] 50%|█████     | 201034/400000 [00:27<00:27, 7161.33it/s] 50%|█████     | 201780/400000 [00:28<00:27, 7246.94it/s] 51%|█████     | 202577/400000 [00:28<00:26, 7449.47it/s] 51%|█████     | 203342/400000 [00:28<00:26, 7506.88it/s] 51%|█████     | 204098/400000 [00:28<00:26, 7521.65it/s] 51%|█████     | 204853/400000 [00:28<00:26, 7413.60it/s] 51%|█████▏    | 205629/400000 [00:28<00:25, 7514.14it/s] 52%|█████▏    | 206423/400000 [00:28<00:25, 7635.80it/s] 52%|█████▏    | 207189/400000 [00:28<00:25, 7449.49it/s] 52%|█████▏    | 207937/400000 [00:28<00:25, 7451.43it/s] 52%|█████▏    | 208728/400000 [00:28<00:25, 7581.70it/s] 52%|█████▏    | 209530/400000 [00:29<00:24, 7706.32it/s] 53%|█████▎    | 210303/400000 [00:29<00:24, 7706.97it/s] 53%|█████▎    | 211075/400000 [00:29<00:24, 7675.20it/s] 53%|█████▎    | 211865/400000 [00:29<00:24, 7739.11it/s] 53%|█████▎    | 212640/400000 [00:29<00:24, 7519.10it/s] 53%|█████▎    | 213394/400000 [00:29<00:24, 7519.63it/s] 54%|█████▎    | 214176/400000 [00:29<00:24, 7605.01it/s] 54%|█████▎    | 214938/400000 [00:29<00:24, 7605.74it/s] 54%|█████▍    | 215700/400000 [00:29<00:24, 7543.47it/s] 54%|█████▍    | 216456/400000 [00:29<00:24, 7428.02it/s] 54%|█████▍    | 217215/400000 [00:30<00:24, 7473.16it/s] 54%|█████▍    | 217985/400000 [00:30<00:24, 7537.55it/s] 55%|█████▍    | 218745/400000 [00:30<00:23, 7554.43it/s] 55%|█████▍    | 219516/400000 [00:30<00:23, 7598.95it/s] 55%|█████▌    | 220277/400000 [00:30<00:24, 7348.72it/s] 55%|█████▌    | 221029/400000 [00:30<00:24, 7397.01it/s] 55%|█████▌    | 221782/400000 [00:30<00:23, 7436.10it/s] 56%|█████▌    | 222629/400000 [00:30<00:22, 7717.83it/s] 56%|█████▌    | 223405/400000 [00:30<00:22, 7679.59it/s] 56%|█████▌    | 224221/400000 [00:30<00:22, 7817.33it/s] 56%|█████▋    | 225006/400000 [00:31<00:22, 7803.10it/s] 56%|█████▋    | 225788/400000 [00:31<00:22, 7591.27it/s] 57%|█████▋    | 226601/400000 [00:31<00:22, 7744.75it/s] 57%|█████▋    | 227379/400000 [00:31<00:22, 7753.42it/s] 57%|█████▋    | 228157/400000 [00:31<00:22, 7739.95it/s] 57%|█████▋    | 228933/400000 [00:31<00:22, 7658.09it/s] 57%|█████▋    | 229742/400000 [00:31<00:21, 7780.63it/s] 58%|█████▊    | 230522/400000 [00:31<00:22, 7658.74it/s] 58%|█████▊    | 231290/400000 [00:31<00:22, 7625.13it/s] 58%|█████▊    | 232087/400000 [00:32<00:21, 7722.10it/s] 58%|█████▊    | 232861/400000 [00:32<00:21, 7722.23it/s] 58%|█████▊    | 233634/400000 [00:32<00:21, 7724.42it/s] 59%|█████▊    | 234421/400000 [00:32<00:21, 7765.73it/s] 59%|█████▉    | 235225/400000 [00:32<00:21, 7843.81it/s] 59%|█████▉    | 236010/400000 [00:32<00:21, 7601.23it/s] 59%|█████▉    | 236773/400000 [00:32<00:21, 7473.90it/s] 59%|█████▉    | 237528/400000 [00:32<00:21, 7495.91it/s] 60%|█████▉    | 238287/400000 [00:32<00:21, 7521.23it/s] 60%|█████▉    | 239041/400000 [00:32<00:21, 7508.75it/s] 60%|█████▉    | 239793/400000 [00:33<00:21, 7429.05it/s] 60%|██████    | 240588/400000 [00:33<00:21, 7576.19it/s] 60%|██████    | 241391/400000 [00:33<00:20, 7706.42it/s] 61%|██████    | 242209/400000 [00:33<00:20, 7841.56it/s] 61%|██████    | 242995/400000 [00:33<00:20, 7666.37it/s] 61%|██████    | 243764/400000 [00:33<00:20, 7631.49it/s] 61%|██████    | 244529/400000 [00:33<00:20, 7525.09it/s] 61%|██████▏   | 245283/400000 [00:33<00:21, 7363.14it/s] 62%|██████▏   | 246022/400000 [00:33<00:21, 7219.81it/s] 62%|██████▏   | 246750/400000 [00:33<00:21, 7237.37it/s] 62%|██████▏   | 247484/400000 [00:34<00:20, 7266.22it/s] 62%|██████▏   | 248250/400000 [00:34<00:20, 7379.99it/s] 62%|██████▏   | 249012/400000 [00:34<00:20, 7449.92it/s] 62%|██████▏   | 249791/400000 [00:34<00:19, 7546.90it/s] 63%|██████▎   | 250551/400000 [00:34<00:19, 7560.76it/s] 63%|██████▎   | 251317/400000 [00:34<00:19, 7588.86it/s] 63%|██████▎   | 252077/400000 [00:34<00:19, 7469.49it/s] 63%|██████▎   | 252863/400000 [00:34<00:19, 7582.33it/s] 63%|██████▎   | 253623/400000 [00:34<00:19, 7560.21it/s] 64%|██████▎   | 254408/400000 [00:34<00:19, 7642.97it/s] 64%|██████▍   | 255173/400000 [00:35<00:18, 7643.91it/s] 64%|██████▍   | 255949/400000 [00:35<00:18, 7676.70it/s] 64%|██████▍   | 256771/400000 [00:35<00:18, 7831.90it/s] 64%|██████▍   | 257574/400000 [00:35<00:18, 7889.04it/s] 65%|██████▍   | 258364/400000 [00:35<00:18, 7698.75it/s] 65%|██████▍   | 259136/400000 [00:35<00:18, 7597.84it/s] 65%|██████▍   | 259898/400000 [00:35<00:18, 7585.83it/s] 65%|██████▌   | 260717/400000 [00:35<00:17, 7755.65it/s] 65%|██████▌   | 261589/400000 [00:35<00:17, 8019.31it/s] 66%|██████▌   | 262435/400000 [00:35<00:16, 8145.36it/s] 66%|██████▌   | 263253/400000 [00:36<00:17, 7979.63it/s] 66%|██████▌   | 264136/400000 [00:36<00:16, 8216.62it/s] 66%|██████▌   | 264962/400000 [00:36<00:16, 8212.73it/s] 66%|██████▋   | 265797/400000 [00:36<00:16, 8253.19it/s] 67%|██████▋   | 266625/400000 [00:36<00:16, 8214.95it/s] 67%|██████▋   | 267448/400000 [00:36<00:16, 8138.46it/s] 67%|██████▋   | 268276/400000 [00:36<00:16, 8178.98it/s] 67%|██████▋   | 269095/400000 [00:36<00:16, 8070.81it/s] 67%|██████▋   | 269926/400000 [00:36<00:15, 8139.59it/s] 68%|██████▊   | 270804/400000 [00:36<00:15, 8320.38it/s] 68%|██████▊   | 271638/400000 [00:37<00:15, 8241.75it/s] 68%|██████▊   | 272464/400000 [00:37<00:16, 7932.61it/s] 68%|██████▊   | 273264/400000 [00:37<00:15, 7952.02it/s] 69%|██████▊   | 274062/400000 [00:37<00:15, 7902.94it/s] 69%|██████▊   | 274855/400000 [00:37<00:15, 7899.63it/s] 69%|██████▉   | 275647/400000 [00:37<00:15, 7774.43it/s] 69%|██████▉   | 276427/400000 [00:37<00:15, 7782.07it/s] 69%|██████▉   | 277243/400000 [00:37<00:15, 7889.85it/s] 70%|██████▉   | 278033/400000 [00:37<00:15, 7852.38it/s] 70%|██████▉   | 278833/400000 [00:38<00:15, 7893.04it/s] 70%|██████▉   | 279623/400000 [00:38<00:15, 7587.63it/s] 70%|███████   | 280385/400000 [00:38<00:16, 7269.90it/s] 70%|███████   | 281117/400000 [00:38<00:16, 7251.72it/s] 70%|███████   | 281903/400000 [00:38<00:15, 7422.62it/s] 71%|███████   | 282667/400000 [00:38<00:15, 7485.99it/s] 71%|███████   | 283419/400000 [00:38<00:15, 7389.52it/s] 71%|███████   | 284160/400000 [00:38<00:15, 7258.86it/s] 71%|███████   | 284909/400000 [00:38<00:15, 7325.73it/s] 71%|███████▏  | 285644/400000 [00:38<00:15, 7260.89it/s] 72%|███████▏  | 286444/400000 [00:39<00:15, 7467.35it/s] 72%|███████▏  | 287194/400000 [00:39<00:15, 7299.10it/s] 72%|███████▏  | 288021/400000 [00:39<00:14, 7565.18it/s] 72%|███████▏  | 288782/400000 [00:39<00:14, 7563.99it/s] 72%|███████▏  | 289559/400000 [00:39<00:14, 7621.59it/s] 73%|███████▎  | 290338/400000 [00:39<00:14, 7668.94it/s] 73%|███████▎  | 291107/400000 [00:39<00:14, 7606.64it/s] 73%|███████▎  | 291869/400000 [00:39<00:14, 7531.83it/s] 73%|███████▎  | 292646/400000 [00:39<00:14, 7600.92it/s] 73%|███████▎  | 293407/400000 [00:39<00:14, 7550.35it/s] 74%|███████▎  | 294194/400000 [00:40<00:13, 7642.54it/s] 74%|███████▎  | 294960/400000 [00:40<00:14, 7352.42it/s] 74%|███████▍  | 295776/400000 [00:40<00:13, 7576.51it/s] 74%|███████▍  | 296538/400000 [00:40<00:13, 7484.00it/s] 74%|███████▍  | 297290/400000 [00:40<00:13, 7369.05it/s] 75%|███████▍  | 298030/400000 [00:40<00:14, 7237.34it/s] 75%|███████▍  | 298756/400000 [00:40<00:14, 7203.76it/s] 75%|███████▍  | 299539/400000 [00:40<00:13, 7379.01it/s] 75%|███████▌  | 300354/400000 [00:40<00:13, 7592.39it/s] 75%|███████▌  | 301117/400000 [00:41<00:13, 7557.99it/s] 75%|███████▌  | 301882/400000 [00:41<00:12, 7584.63it/s] 76%|███████▌  | 302643/400000 [00:41<00:12, 7515.82it/s] 76%|███████▌  | 303415/400000 [00:41<00:12, 7572.64it/s] 76%|███████▌  | 304174/400000 [00:41<00:13, 7303.71it/s] 76%|███████▌  | 304952/400000 [00:41<00:12, 7436.77it/s] 76%|███████▋  | 305717/400000 [00:41<00:12, 7498.52it/s] 77%|███████▋  | 306469/400000 [00:41<00:12, 7478.19it/s] 77%|███████▋  | 307310/400000 [00:41<00:11, 7735.24it/s] 77%|███████▋  | 308127/400000 [00:41<00:11, 7859.95it/s] 77%|███████▋  | 309004/400000 [00:42<00:11, 8111.15it/s] 77%|███████▋  | 309857/400000 [00:42<00:10, 8229.80it/s] 78%|███████▊  | 310684/400000 [00:42<00:11, 8087.35it/s] 78%|███████▊  | 311566/400000 [00:42<00:10, 8293.29it/s] 78%|███████▊  | 312444/400000 [00:42<00:10, 8432.22it/s] 78%|███████▊  | 313315/400000 [00:42<00:10, 8510.58it/s] 79%|███████▊  | 314176/400000 [00:42<00:10, 8538.71it/s] 79%|███████▉  | 315032/400000 [00:42<00:10, 8367.44it/s] 79%|███████▉  | 315871/400000 [00:42<00:10, 7999.01it/s] 79%|███████▉  | 316676/400000 [00:42<00:10, 7650.82it/s] 79%|███████▉  | 317448/400000 [00:43<00:10, 7574.95it/s] 80%|███████▉  | 318218/400000 [00:43<00:10, 7609.95it/s] 80%|███████▉  | 319054/400000 [00:43<00:10, 7819.78it/s] 80%|███████▉  | 319925/400000 [00:43<00:09, 8064.77it/s] 80%|████████  | 320783/400000 [00:43<00:09, 8212.13it/s] 80%|████████  | 321631/400000 [00:43<00:09, 8290.41it/s] 81%|████████  | 322463/400000 [00:43<00:09, 8146.29it/s] 81%|████████  | 323281/400000 [00:43<00:09, 8045.30it/s] 81%|████████  | 324088/400000 [00:43<00:09, 7988.44it/s] 81%|████████  | 324889/400000 [00:44<00:09, 7934.17it/s] 81%|████████▏ | 325702/400000 [00:44<00:09, 7989.35it/s] 82%|████████▏ | 326502/400000 [00:44<00:09, 7972.76it/s] 82%|████████▏ | 327300/400000 [00:44<00:09, 7862.49it/s] 82%|████████▏ | 328088/400000 [00:44<00:09, 7733.63it/s] 82%|████████▏ | 328863/400000 [00:44<00:09, 7404.96it/s] 82%|████████▏ | 329647/400000 [00:44<00:09, 7529.72it/s] 83%|████████▎ | 330404/400000 [00:44<00:09, 7261.86it/s] 83%|████████▎ | 331152/400000 [00:44<00:09, 7325.77it/s] 83%|████████▎ | 331888/400000 [00:44<00:09, 7326.70it/s] 83%|████████▎ | 332623/400000 [00:45<00:09, 7155.45it/s] 83%|████████▎ | 333420/400000 [00:45<00:09, 7380.60it/s] 84%|████████▎ | 334162/400000 [00:45<00:08, 7338.50it/s] 84%|████████▎ | 334899/400000 [00:45<00:08, 7305.77it/s] 84%|████████▍ | 335633/400000 [00:45<00:08, 7312.98it/s] 84%|████████▍ | 336374/400000 [00:45<00:08, 7340.32it/s] 84%|████████▍ | 337109/400000 [00:45<00:08, 7269.24it/s] 84%|████████▍ | 337837/400000 [00:45<00:08, 7245.84it/s] 85%|████████▍ | 338628/400000 [00:45<00:08, 7432.55it/s] 85%|████████▍ | 339435/400000 [00:45<00:07, 7611.02it/s] 85%|████████▌ | 340265/400000 [00:46<00:07, 7804.05it/s] 85%|████████▌ | 341049/400000 [00:46<00:07, 7757.15it/s] 85%|████████▌ | 341883/400000 [00:46<00:07, 7922.04it/s] 86%|████████▌ | 342715/400000 [00:46<00:07, 8034.82it/s] 86%|████████▌ | 343614/400000 [00:46<00:06, 8295.47it/s] 86%|████████▌ | 344484/400000 [00:46<00:06, 8410.56it/s] 86%|████████▋ | 345359/400000 [00:46<00:06, 8509.17it/s] 87%|████████▋ | 346213/400000 [00:46<00:06, 8515.36it/s] 87%|████████▋ | 347067/400000 [00:46<00:06, 8272.06it/s] 87%|████████▋ | 347897/400000 [00:46<00:06, 8177.84it/s] 87%|████████▋ | 348717/400000 [00:47<00:06, 8050.62it/s] 87%|████████▋ | 349542/400000 [00:47<00:06, 8107.68it/s] 88%|████████▊ | 350355/400000 [00:47<00:06, 8057.94it/s] 88%|████████▊ | 351162/400000 [00:47<00:06, 8002.93it/s] 88%|████████▊ | 351964/400000 [00:47<00:06, 7710.42it/s] 88%|████████▊ | 352776/400000 [00:47<00:06, 7828.88it/s] 88%|████████▊ | 353562/400000 [00:47<00:05, 7773.91it/s] 89%|████████▊ | 354342/400000 [00:47<00:06, 7578.55it/s] 89%|████████▉ | 355103/400000 [00:47<00:05, 7549.48it/s] 89%|████████▉ | 355890/400000 [00:48<00:05, 7642.00it/s] 89%|████████▉ | 356672/400000 [00:48<00:05, 7694.47it/s] 89%|████████▉ | 357443/400000 [00:48<00:05, 7628.66it/s] 90%|████████▉ | 358207/400000 [00:48<00:05, 7166.71it/s] 90%|████████▉ | 358955/400000 [00:48<00:05, 7256.61it/s] 90%|████████▉ | 359712/400000 [00:48<00:05, 7347.37it/s] 90%|█████████ | 360451/400000 [00:48<00:05, 7187.94it/s] 90%|█████████ | 361201/400000 [00:48<00:05, 7278.34it/s] 90%|█████████ | 361933/400000 [00:48<00:05, 7288.86it/s] 91%|█████████ | 362664/400000 [00:48<00:05, 7116.65it/s] 91%|█████████ | 363378/400000 [00:49<00:05, 7102.62it/s] 91%|█████████ | 364144/400000 [00:49<00:04, 7258.46it/s] 91%|█████████ | 364872/400000 [00:49<00:04, 7170.95it/s] 91%|█████████▏| 365595/400000 [00:49<00:04, 7186.52it/s] 92%|█████████▏| 366327/400000 [00:49<00:04, 7223.29it/s] 92%|█████████▏| 367067/400000 [00:49<00:04, 7271.38it/s] 92%|█████████▏| 367831/400000 [00:49<00:04, 7376.15it/s] 92%|█████████▏| 368570/400000 [00:49<00:04, 7326.12it/s] 92%|█████████▏| 369304/400000 [00:49<00:04, 7226.44it/s] 93%|█████████▎| 370074/400000 [00:49<00:04, 7360.68it/s] 93%|█████████▎| 370835/400000 [00:50<00:03, 7431.52it/s] 93%|█████████▎| 371602/400000 [00:50<00:03, 7499.90it/s] 93%|█████████▎| 372378/400000 [00:50<00:03, 7574.17it/s] 93%|█████████▎| 373137/400000 [00:50<00:03, 7350.39it/s] 93%|█████████▎| 373875/400000 [00:50<00:03, 7319.45it/s] 94%|█████████▎| 374609/400000 [00:50<00:03, 7312.66it/s] 94%|█████████▍| 375342/400000 [00:50<00:03, 7178.57it/s] 94%|█████████▍| 376095/400000 [00:50<00:03, 7277.78it/s] 94%|█████████▍| 376824/400000 [00:50<00:03, 7246.94it/s] 94%|█████████▍| 377603/400000 [00:50<00:03, 7399.42it/s] 95%|█████████▍| 378345/400000 [00:51<00:03, 7049.72it/s] 95%|█████████▍| 379125/400000 [00:51<00:02, 7258.59it/s] 95%|█████████▍| 379903/400000 [00:51<00:02, 7405.88it/s] 95%|█████████▌| 380690/400000 [00:51<00:02, 7538.84it/s] 95%|█████████▌| 381448/400000 [00:51<00:02, 7528.64it/s] 96%|█████████▌| 382241/400000 [00:51<00:02, 7642.19it/s] 96%|█████████▌| 383040/400000 [00:51<00:02, 7741.29it/s] 96%|█████████▌| 383816/400000 [00:51<00:02, 7631.17it/s] 96%|█████████▌| 384581/400000 [00:51<00:02, 7555.78it/s] 96%|█████████▋| 385410/400000 [00:52<00:01, 7761.17it/s] 97%|█████████▋| 386216/400000 [00:52<00:01, 7847.74it/s] 97%|█████████▋| 387003/400000 [00:52<00:01, 7705.63it/s] 97%|█████████▋| 387776/400000 [00:52<00:01, 7709.64it/s] 97%|█████████▋| 388549/400000 [00:52<00:01, 7684.94it/s] 97%|█████████▋| 389380/400000 [00:52<00:01, 7859.96it/s] 98%|█████████▊| 390193/400000 [00:52<00:01, 7938.69it/s] 98%|█████████▊| 391007/400000 [00:52<00:01, 7995.71it/s] 98%|█████████▊| 391808/400000 [00:52<00:01, 7906.37it/s] 98%|█████████▊| 392600/400000 [00:52<00:00, 7701.97it/s] 98%|█████████▊| 393440/400000 [00:53<00:00, 7898.35it/s] 99%|█████████▊| 394247/400000 [00:53<00:00, 7948.65it/s] 99%|█████████▉| 395044/400000 [00:53<00:00, 7712.81it/s] 99%|█████████▉| 395819/400000 [00:53<00:00, 7509.39it/s] 99%|█████████▉| 396574/400000 [00:53<00:00, 7305.38it/s] 99%|█████████▉| 397308/400000 [00:53<00:00, 7294.84it/s]100%|█████████▉| 398040/400000 [00:53<00:00, 7275.25it/s]100%|█████████▉| 398804/400000 [00:53<00:00, 7379.17it/s]100%|█████████▉| 399560/400000 [00:53<00:00, 7430.59it/s]100%|█████████▉| 399999/400000 [00:53<00:00, 7416.38it/s]>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f634d291ba8> <class 'mlmodels.model_tch.textcnn.Model'>
 Spliting original file to train/valid set...
 Preprocessing the text...
 Creating tabular datasets...It might take a while to finish!
 Building vocaulary...
-Train Epoch: 1 	 Loss: 0.012124871320819991 	 Accuracy: 49
-Train Epoch: 1 	 Loss: 0.01086499001270154 	 Accuracy: 76
+Train Epoch: 1 	 Loss: 0.011071185697301774 	 Accuracy: 53
+Train Epoch: 1 	 Loss: 0.011093313279359238 	 Accuracy: 51
 
-  model saves at 76% accuracy 
+  model saves at 51% accuracy 
 
   #### Inference Need return ypred, ytrue ######################### 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 1, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': False}
@@ -1841,9 +1843,7 @@ Preprocessing the text...
 Creating tabular datasets...It might take a while to finish!
 Building vocaulary...
 
-  ### Calculate Metrics    ######################################## 
-
-  {'hypermodel_pars': {}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': False}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} module 'sklearn.metrics' has no attribute 'accuracy, f1_score' 
+  {'hypermodel_pars': {}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': False}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} index out of range: Tried to access index 15713 out of table with 15694 rows. at /pytorch/aten/src/TH/generic/THTensorEvenMoreMath.cpp:237 
 
   
 
@@ -1870,11 +1870,21 @@ Building vocaulary...
   #### Setup Model   ############################################## 
 
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 140, in benchmark_run
-    metric_val = metric_eval(actual=ytrue, pred=ypred,  metric_name=metric)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 60, in metric_eval
-    metric = getattr(importlib.import_module("sklearn.metrics"), metric_name)
-AttributeError: module 'sklearn.metrics' has no attribute 'accuracy, f1_score'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 133, in benchmark_run
+    return_ytrue=1)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/textcnn.py", line 352, in predict
+    ypred = model0(x_test)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/textcnn.py", line 238, in forward
+    emb_x = self.embed(x)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/nn/modules/sparse.py", line 114, in forward
+    self.norm_type, self.scale_grad_by_freq, self.sparse)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/torch/nn/functional.py", line 1467, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: index out of range: Tried to access index 15713 out of table with 15694 rows. at /pytorch/aten/src/TH/generic/THTensorEvenMoreMath.cpp:237
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 120, in benchmark_run
     model     = module.Model(model_pars, data_pars, compute_pars)
@@ -1920,43 +1930,43 @@ ________________________________________________________________________________
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use tf.where in 2.0, which has the same broadcast rule as np.where
-2020-05-17 13:02:35.654474: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2020-05-17 13:02:35.659411: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
-2020-05-17 13:02:35.659578: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55819e5ee0f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-05-17 13:02:35.659593: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-19 09:00:17.259376: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-05-19 09:00:17.263237: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
+2020-05-19 09:00:17.263400: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e229b16130 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-19 09:00:17.263416: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
->>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f1cd9532908> <class 'mlmodels.model_keras.textcnn.Model'>
+>>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f62f8b51048> <class 'mlmodels.model_keras.textcnn.Model'>
 Loading data...
 Pad sequences (samples x time)...
 Train on 25000 samples, validate on 25000 samples
 Epoch 1/1
 
- 1000/25000 [>.............................] - ETA: 13s - loss: 7.6513 - accuracy: 0.5010
- 2000/25000 [=>............................] - ETA: 9s - loss: 7.4673 - accuracy: 0.5130 
- 3000/25000 [==>...........................] - ETA: 8s - loss: 7.4366 - accuracy: 0.5150
- 4000/25000 [===>..........................] - ETA: 7s - loss: 7.3830 - accuracy: 0.5185
- 5000/25000 [=====>........................] - ETA: 7s - loss: 7.5041 - accuracy: 0.5106
- 6000/25000 [======>.......................] - ETA: 6s - loss: 7.5848 - accuracy: 0.5053
- 7000/25000 [=======>......................] - ETA: 6s - loss: 7.5374 - accuracy: 0.5084
- 8000/25000 [========>.....................] - ETA: 5s - loss: 7.5478 - accuracy: 0.5077
- 9000/25000 [=========>....................] - ETA: 5s - loss: 7.5678 - accuracy: 0.5064
-10000/25000 [===========>..................] - ETA: 5s - loss: 7.5562 - accuracy: 0.5072
-11000/25000 [============>.................] - ETA: 4s - loss: 7.5454 - accuracy: 0.5079
-12000/25000 [=============>................] - ETA: 4s - loss: 7.5478 - accuracy: 0.5077
-13000/25000 [==============>...............] - ETA: 3s - loss: 7.5675 - accuracy: 0.5065
-14000/25000 [===============>..............] - ETA: 3s - loss: 7.5812 - accuracy: 0.5056
-15000/25000 [=================>............] - ETA: 3s - loss: 7.5900 - accuracy: 0.5050
-16000/25000 [==================>...........] - ETA: 2s - loss: 7.5832 - accuracy: 0.5054
-17000/25000 [===================>..........] - ETA: 2s - loss: 7.5764 - accuracy: 0.5059
-18000/25000 [====================>.........] - ETA: 2s - loss: 7.5866 - accuracy: 0.5052
-19000/25000 [=====================>........] - ETA: 1s - loss: 7.6239 - accuracy: 0.5028
+ 1000/25000 [>.............................] - ETA: 13s - loss: 7.7893 - accuracy: 0.4920
+ 2000/25000 [=>............................] - ETA: 10s - loss: 7.7510 - accuracy: 0.4945
+ 3000/25000 [==>...........................] - ETA: 8s - loss: 7.6513 - accuracy: 0.5010 
+ 4000/25000 [===>..........................] - ETA: 7s - loss: 7.6245 - accuracy: 0.5027
+ 5000/25000 [=====>........................] - ETA: 7s - loss: 7.6636 - accuracy: 0.5002
+ 6000/25000 [======>.......................] - ETA: 6s - loss: 7.7177 - accuracy: 0.4967
+ 7000/25000 [=======>......................] - ETA: 6s - loss: 7.6841 - accuracy: 0.4989
+ 8000/25000 [========>.....................] - ETA: 5s - loss: 7.6264 - accuracy: 0.5026
+ 9000/25000 [=========>....................] - ETA: 5s - loss: 7.6291 - accuracy: 0.5024
+10000/25000 [===========>..................] - ETA: 5s - loss: 7.6145 - accuracy: 0.5034
+11000/25000 [============>.................] - ETA: 4s - loss: 7.6415 - accuracy: 0.5016
+12000/25000 [=============>................] - ETA: 4s - loss: 7.6321 - accuracy: 0.5023
+13000/25000 [==============>...............] - ETA: 4s - loss: 7.6265 - accuracy: 0.5026
+14000/25000 [===============>..............] - ETA: 3s - loss: 7.6349 - accuracy: 0.5021
+15000/25000 [=================>............] - ETA: 3s - loss: 7.6124 - accuracy: 0.5035
+16000/25000 [==================>...........] - ETA: 2s - loss: 7.6254 - accuracy: 0.5027
+17000/25000 [===================>..........] - ETA: 2s - loss: 7.6269 - accuracy: 0.5026
+18000/25000 [====================>.........] - ETA: 2s - loss: 7.6240 - accuracy: 0.5028
+19000/25000 [=====================>........] - ETA: 1s - loss: 7.6327 - accuracy: 0.5022
 20000/25000 [=======================>......] - ETA: 1s - loss: 7.6344 - accuracy: 0.5021
-21000/25000 [========================>.....] - ETA: 1s - loss: 7.6374 - accuracy: 0.5019
-22000/25000 [=========================>....] - ETA: 0s - loss: 7.6290 - accuracy: 0.5025
-23000/25000 [==========================>...] - ETA: 0s - loss: 7.6593 - accuracy: 0.5005
-24000/25000 [===========================>..] - ETA: 0s - loss: 7.6641 - accuracy: 0.5002
-25000/25000 [==============================] - 10s 393us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+21000/25000 [========================>.....] - ETA: 1s - loss: 7.6265 - accuracy: 0.5026
+22000/25000 [=========================>....] - ETA: 0s - loss: 7.6401 - accuracy: 0.5017
+23000/25000 [==========================>...] - ETA: 0s - loss: 7.6420 - accuracy: 0.5016
+24000/25000 [===========================>..] - ETA: 0s - loss: 7.6436 - accuracy: 0.5015
+25000/25000 [==============================] - 10s 399us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 
   #### Inference Need return ypred, ytrue ######################### 
 Loading data...
@@ -2003,7 +2013,7 @@ Loading data...
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.transformer_sentence.Model object at 0x7f1c94e555f8> <class 'mlmodels.model_tch.transformer_sentence.Model'>
+>>>model:  <mlmodels.model_tch.transformer_sentence.Model object at 0x7f62cdce6ef0> <class 'mlmodels.model_tch.transformer_sentence.Model'>
 
   {'notes': 'Using Yelp Reviews dataset', 'model_pars': {'model_uri': 'model_tch.transformer_sentence.py', 'embedding_model': 'BERT', 'embedding_model_name': 'bert-base-uncased'}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/', 'train_path': 'AllNLI', 'train_type': 'NLI', 'test_path': 'stsbenchmark', 'test_type': 'sts', 'train': True}, 'compute_pars': {'loss': 'SoftmaxLoss', 'batch_size': 32, 'num_epochs': 1, 'evaluation_steps': 10, 'warmup_steps': 100}, 'out_pars': {'path': './output/transformer_sentence/', 'modelpath': './output/transformer_sentence/model.h5'}} 'model_path' 
 
@@ -2037,11 +2047,11 @@ Non-trainable params: 0
 _________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.namentity_crm_bilstm.Model object at 0x7f1cac0d8358> <class 'mlmodels.model_keras.namentity_crm_bilstm.Model'>
+>>>model:  <mlmodels.model_keras.namentity_crm_bilstm.Model object at 0x7f62cdb786d8> <class 'mlmodels.model_keras.namentity_crm_bilstm.Model'>
 Train on 1 samples, validate on 1 samples
 Epoch 1/1
 
-1/1 [==============================] - 1s 1s/step - loss: 1.6742 - crf_viterbi_accuracy: 0.1467 - val_loss: 1.5721 - val_crf_viterbi_accuracy: 0.1067
+1/1 [==============================] - 1s 1s/step - loss: 1.2068 - crf_viterbi_accuracy: 0.0267 - val_loss: 1.1123 - val_crf_viterbi_accuracy: 0.0000e+00
 
   #### Inference Need return ypred, ytrue ######################### 
 
