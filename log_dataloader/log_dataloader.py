@@ -167,13 +167,13 @@ cls_name : Data
 
   URL:  mlmodels.preprocess.generic::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f9010014378>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fea224ba378>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f9010014378>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fea224ba378>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7f9010014378> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7fea224ba378> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}} 
 
@@ -181,10 +181,10 @@ cls_name : Data
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 Using TensorFlow backend.
-0it [00:00, ?it/s]  0%|          | 16384/9912422 [00:00<01:17, 127355.69it/s] 79%|███████▉  | 7856128/9912422 [00:00<00:11, 181809.59it/s]9920512it [00:00, 40582579.25it/s]                           
-0it [00:00, ?it/s]32768it [00:00, 595293.38it/s]
-0it [00:00, ?it/s]  6%|▋         | 106496/1648877 [00:00<00:01, 1003812.75it/s]1654784it [00:00, 12538124.97it/s]                           
-0it [00:00, ?it/s]8192it [00:00, 219454.29it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 32%|███▏      | 3129344/9912422 [00:00<00:00, 30874623.77it/s]9920512it [00:00, 32351538.65it/s]                             
+0it [00:00, ?it/s]32768it [00:00, 697769.46it/s]
+0it [00:00, ?it/s]  6%|▋         | 106496/1648877 [00:00<00:01, 1010754.34it/s]1654784it [00:00, 12321440.00it/s]                           
+0it [00:00, ?it/s]8192it [00:00, 241364.88it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
@@ -196,7 +196,7 @@ Processing...
 Done!
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7f8ff922c7f0>, <torch.utils.data.dataloader.DataLoader object at 0x7f8ff92387f0>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7fea0b6d17f0>, <torch.utils.data.dataloader.DataLoader object at 0x7fea0b6dd828>), {})
 
 
 
@@ -259,13 +259,13 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
 
   URL:  mlmodels/preprocess/generic.py::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f8ff880a6a8>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fea0acaf6a8>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f8ff880a6a8>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fea0acaf6a8>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7f8ff880a6a8> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7fea0acaf6a8> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
 
@@ -274,7 +274,7 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7f8ff8817630>, <torch.utils.data.dataloader.DataLoader object at 0x7f8ff88176d8>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7fea0acbc630>, <torch.utils.data.dataloader.DataLoader object at 0x7fea0acbc6d8>), {})
 
 
 
@@ -432,27 +432,27 @@ cls_name : Preprocess_namentity
 
   URL:  mlmodels/dataloader.py::split_xy_from_dict {'col_Xinput': ['X'], 'col_yinput': ['y']} 
 
-###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7f8ff881bc80>
+###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7fea0acc0c80>
 
  ######### postional parameteres :  ['out']
 
- ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7f8ff881bc80>
+ ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7fea0acc0c80>
 
   URL:  sklearn.model_selection::train_test_split {'test_size': 0.5} 
 
-###### load_callable_from_uri LOADED <function train_test_split at 0x7f9062793d90>
+###### load_callable_from_uri LOADED <function train_test_split at 0x7fea74c37d90>
 
  ######### postional parameteres :  []
 
- ######### Execute : preprocessor_func <function train_test_split at 0x7f9062793d90>
+ ######### Execute : preprocessor_func <function train_test_split at 0x7fea74c37d90>
 
   URL:  mlmodels/dataloader.py::pickle_dump {'path': 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'} 
 
-###### load_callable_from_uri LOADED <function pickle_dump at 0x7f8ff881b9d8>
+###### load_callable_from_uri LOADED <function pickle_dump at 0x7fea0acc09d8>
 
  ######### postional parameteres :  ['t']
 
- ######### Execute : preprocessor_func <function pickle_dump at 0x7f8ff881b9d8>
+ ######### Execute : preprocessor_func <function pickle_dump at 0x7fea0acc09d8>
 Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_new.json [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
 
 
@@ -471,7 +471,7 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namenti
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tch.torchhub.Model object at 0x7f8ff8817a58> 
+  <mlmodels.model_tch.torchhub.Model object at 0x7fea825ef4e0> 
 
   #### Fit   ######################################################## 
 
