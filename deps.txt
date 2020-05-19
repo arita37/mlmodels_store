@@ -26,7 +26,7 @@ convertdate==2.2.1
 cryptography==2.9.2
 cycler==0.10.0
 cymem==2.0.3
-Cython==0.29.18
+Cython==0.29.17
 dask==2.6.0
 databricks-cli==0.10.0
 dataclasses==0.7
@@ -79,20 +79,20 @@ MarkupSafe==1.1.1
 matchzoo-py==1.1.1
 matplotlib==3.2.1
 mlflow==1.7.1
--e git+https://github.com/arita37/mlmodels@73f54da32a5da4768415eb9105ad096255137679#egg=mlmodels
+-e git+https://github.com/arita37/mlmodels@4ef62130366793ae7b99c72786bb70d7d21ee062#egg=mlmodels
 msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
 networkx==2.4
 nltk==3.5
 numexpr==2.7.1
-numpy==1.18.4
+numpy==1.18.2
 opt-einsum==3.2.1
 optuna==1.1.0
 pandas==0.25.3
 paramiko==2.7.1
 pbr==5.4.5
-Pillow==6.2.2
+Pillow==6.2.1
 plac==1.1.3
 plotly==4.7.1
 portalocker==1.7.0
