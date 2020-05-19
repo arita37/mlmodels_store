@@ -9896,3 +9896,66 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master dd6b6a5] ml_store
+ 1 file changed, 36 insertions(+)
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+To github.com:arita37/mlmodels_store.git
+   8ec8de7..dd6b6a5  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:19<160:40:41, 19.65s/it][A
+Iteration:   0%|          | 2/29440 [01:31<288:28:53, 35.28s/it][A
+Iteration:   0%|          | 3/29440 [02:09<295:54:02, 36.19s/it][A
+Iteration:   0%|          | 4/29440 [02:49<305:07:18, 37.32s/it][A
+Iteration:   0%|          | 5/29440 [04:46<501:07:20, 61.29s/it][A
+Iteration:   0%|          | 6/29440 [05:45<494:24:05, 60.47s/it][A
+Iteration:   0%|          | 7/29440 [06:37<472:57:03, 57.85s/it][A
+Iteration:   0%|          | 8/29440 [06:50<364:08:09, 44.54s/it][A
+Iteration:   0%|          | 9/29440 [08:47<540:55:58, 66.17s/it][A
+Iteration:   0%|          | 10/29440 [11:43<810:29:49, 99.14s/it][A
+Iteration:   0%|          | 11/29440 [13:41<857:47:52, 104.93s/it][A
+Iteration:   0%|          | 12/29440 [14:34<729:38:54, 89.26s/it] [A
+Iteration:   0%|          | 13/29440 [15:06<588:42:51, 72.02s/it][A
+Iteration:   0%|          | 14/29440 [15:40<495:07:19, 60.57s/it][A
+Iteration:   0%|          | 15/29440 [17:52<669:52:38, 81.96s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+From github.com:arita37/mlmodels_store
+   dd6b6a5..1d17166  master     -> origin/master
+Updating dd6b6a5..1d17166
+Fast-forward
+ error_list/20200519/list_log_testall_20200519.md | 7 +++++++
+ 1 file changed, 7 insertions(+)
