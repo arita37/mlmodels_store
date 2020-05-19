@@ -11265,3 +11265,7 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master ba72668] ml_store
+ 2 files changed, 34 insertions(+), 5 deletions(-)
+To github.com:arita37/mlmodels_store.git
+   5a7aa2c..ba72668  master -> master
