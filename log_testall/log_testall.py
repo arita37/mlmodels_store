@@ -11233,3 +11233,35 @@ Fast-forward
  ...-10_73f54da32a5da4768415eb9105ad096255137679.py |  628 +++++++
  6 files changed, 2361 insertions(+), 2068 deletions(-)
  create mode 100644 log_pullrequest/log_pr_2020-05-19-01-10_73f54da32a5da4768415eb9105ad096255137679.py
+[master 5a7aa2c] ml_store
+ 1 file changed, 3747 insertions(+), 3667 deletions(-)
+To github.com:arita37/mlmodels_store.git
+   025478a..5a7aa2c  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//mlp.py 
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
