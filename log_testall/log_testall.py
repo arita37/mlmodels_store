@@ -10576,3 +10576,151 @@ Fast-forward
  ...-10_69b309ad857428cc5a734b8afd99842edf9b2a42.py | 627 +++++++++++++++++++++
  4 files changed, 642 insertions(+), 2 deletions(-)
  create mode 100644 log_pullrequest/log_pr_2020-05-19-21-10_69b309ad857428cc5a734b8afd99842edf9b2a42.py
+[master aa91e8d] ml_store
+ 1 file changed, 70 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   e32db93..aa91e8d  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//torchhub.py 
+
+  #### Loading params   ############################################## 
+
+  {'data_info': {'data_path': 'mlmodels/dataset/vision/MNIST', 'dataset': 'MNIST', 'data_type': 'tch_dataset', 'batch_size': 10, 'train': True}, 'preprocessors': [{'name': 'tch_dataset_start', 'uri': 'mlmodels/preprocess/generic.py::get_dataset_torch', 'args': {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True}}]} {'checkpointdir': 'ztest/model_tch/torchhub/restnet18/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/'} 
+
+  #### Loading dataset   ############################################# 
+
+  URL:  mlmodels/preprocess/generic.py::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
+
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f75dd9fae18>
+
+ ######### postional parameteres :  ['data_info']
+
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f75dd9fae18>
+
+  function with postional parmater data_info <function get_dataset_torch at 0x7f75dd9fae18> , (data_info, **args) 
+
+  #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
+
+  #### Loading dataloader URI 
+
+  dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
+0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 22%|██▏       | 2138112/9912422 [00:00<00:00, 20889325.10it/s] 80%|███████▉  | 7888896/9912422 [00:00<00:00, 25821811.84it/s]9920512it [00:00, 27415022.03it/s]                             
+0it [00:00, ?it/s]32768it [00:00, 708649.12it/s]
+0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 472171.17it/s]1654784it [00:00, 11813278.19it/s]                         
+0it [00:00, ?it/s]8192it [00:00, 178253.24it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
+Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz
+Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/t10k-images-idx3-ubyte.gz
+Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/t10k-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/t10k-labels-idx1-ubyte.gz
+Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/t10k-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
+Processing...
+Done!
+
+  #### Model init, fit   ############################################# 
+
+  URL:  mlmodels/preprocess/generic.py::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
+
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f75dcd31b70>
+
+ ######### postional parameteres :  ['data_info']
+
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f75dcd31b70>
+
+  function with postional parmater data_info <function get_dataset_torch at 0x7f75dcd31b70> , (data_info, **args) 
+
+  #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
+
+  #### Loading dataloader URI 
+
+  dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
+Train Epoch: 1 	 Loss: 0.0019275787274042765 	 Accuracy: 0
+Train Epoch: 1 	 Loss: 0.010650259256362916 	 Accuracy: 1
+model saves at 1 accuracy
+Train Epoch: 2 	 Loss: 0.001387138307094574 	 Accuracy: 0
+Train Epoch: 2 	 Loss: 0.009435018539428712 	 Accuracy: 1
+
+  #### Predict   ##################################################### 
+
+  URL:  mlmodels/preprocess/generic.py::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
+
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f75dcd31950>
+
+ ######### postional parameteres :  ['data_info']
+
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f75dcd31950>
+
+  function with postional parmater data_info <function get_dataset_torch at 0x7f75dcd31950> , (data_info, **args) 
+
+  #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
+
+  #### Loading dataloader URI 
+
+  dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
+
+  #### metrics   ##################################################### 
+None
+
+  #### Plot   ######################################################## 
+
+  #### Save  ######################################################### 
+
+  /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18//torch_model/ ['model.pb', 'torch_model_pars.pkl'] 
+
+  #### Load   ######################################################## 
+<__main__.Model object at 0x7f75dd7af860>
+
+  #### Loading params   ############################################## 
+
+  {'data_info': {'data_path': 'mlmodels/dataset/vision/MNIST', 'dataset': 'MNIST', 'data_type': 'tch_dataset', 'batch_size': 10, 'train': True}, 'preprocessors': [{'name': 'tch_dataset_start', 'uri': 'mlmodels.preprocess.generic::get_dataset_torch', 'args': {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}}, 'shuffle': True, 'download': True}}]} {'checkpointdir': 'ztest/model_tch/torchhub/restnet18/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/'} 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+
+  #### Predict   ##################################################### 
+img_01.png
+torch_model
+
+  #### metrics   ##################################################### 
+
+  #### Plot   ######################################################## 
+
+  #### Save/Load   ################################################### 
+
+  /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18//torch_model/ ['model.pb', 'torch_model_pars.pkl'] 
+img_01.png
+torch_model
+
+Downloading: "https://github.com/pytorch/vision/archive/master.zip" to /home/runner/.cache/torch/hub/master.zip
+Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
+Downloading: "https://github.com/facebookresearch/pytorch_GAN_zoo/archive/hub.zip" to /home/runner/.cache/torch/hub/hub.zip
+Using cache found in /home/runner/.cache/torch/hub/facebookresearch_pytorch_GAN_zoo_hub
+<__main__.Model object at 0x7f75dc4ce668>
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
