@@ -769,3 +769,31 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
 <br />    "beta_vae": md.model.beta_vae,
 <br />AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
+
+
+
+### Error 21, [Traceback at line 10481](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10481)<br />10481..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch//textcnn.py", line 153, in create_tabular_dataset
+<br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
+<br />    return util.load_model(name, **overrides)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/util.py", line 169, in load_model
+<br />    raise IOError(Errors.E050.format(name=name))
+<br />OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
+
+
+
+### Error 22, [Traceback at line 10492](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10492)<br />10492..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch//textcnn.py", line 477, in <module>
+<br />    test( data_path="model_tch/textcnn.json", pars_choice = "test01" )
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch//textcnn.py", line 442, in test
+<br />    Xtuple = get_dataset(data_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch//textcnn.py", line 334, in get_dataset
+<br />    trainset, validset, vocab = create_tabular_dataset( data_pars['train_path'], data_pars['valid_path'], lang, pretrained_emb)
+<br />  File "https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679/mlmodels/model_tch//textcnn.py", line 159, in create_tabular_dataset
+<br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)  
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
+<br />    return util.load_model(name, **overrides)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/util.py", line 169, in load_model
+<br />    raise IOError(Errors.E050.format(name=name))
+<br />OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
