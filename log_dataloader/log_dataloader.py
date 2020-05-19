@@ -9,17 +9,17 @@
 
  ************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/82c5b161058b5f6188d7af97c2913b706460ca41', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': '82c5b161058b5f6188d7af97c2913b706460ca41', 'workflow': 'test_dataloader'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/516dda05a542721fda6d17f03e4351368ef767f3', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': '516dda05a542721fda6d17f03e4351368ef767f3', 'workflow': 'test_dataloader'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_dataloader
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/adata2/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/82c5b161058b5f6188d7af97c2913b706460ca41
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/516dda05a542721fda6d17f03e4351368ef767f3
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/82c5b161058b5f6188d7af97c2913b706460ca41
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/516dda05a542721fda6d17f03e4351368ef767f3
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/82c5b161058b5f6188d7af97c2913b706460ca41
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/516dda05a542721fda6d17f03e4351368ef767f3
 
  ************************************************************************************************************************
 
@@ -256,13 +256,13 @@ cls_name : Data
 
   URL:  mlmodels.preprocess.generic::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7ff384f050d0>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fd802a440d0>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7ff384f050d0>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fd802a440d0>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7ff384f050d0> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7fd802a440d0> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}} 
 
@@ -270,10 +270,10 @@ cls_name : Data
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 Using TensorFlow backend.
-0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 49%|████▉     | 4849664/9912422 [00:00<00:00, 48496108.13it/s]9920512it [00:00, 34624439.49it/s]                             
-0it [00:00, ?it/s]32768it [00:00, 565804.29it/s]
-0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 486210.10it/s]1654784it [00:00, 11997778.98it/s]                         
-0it [00:00, ?it/s]8192it [00:00, 200576.39it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 38%|███▊      | 3784704/9912422 [00:00<00:00, 36895891.68it/s]9920512it [00:00, 35165763.21it/s]                             
+0it [00:00, ?it/s]32768it [00:00, 611611.78it/s]
+0it [00:00, ?it/s]  1%|          | 16384/1648877 [00:00<00:12, 134195.71it/s]1654784it [00:00, 10641163.78it/s]                         
+0it [00:00, ?it/s]  0%|          | 0/4542 [00:00<?, ?it/s]8192it [00:00, 18784.87it/s]            Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
@@ -285,7 +285,7 @@ Processing...
 Done!
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7ff36e1178d0>, <torch.utils.data.dataloader.DataLoader object at 0x7ff36e11fc88>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7fd7ebc548d0>, <torch.utils.data.dataloader.DataLoader object at 0x7fd7ebc5dc88>), {})
 
 
 
@@ -348,13 +348,13 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
 
   URL:  mlmodels/preprocess/generic.py::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7ff36d6fe0d0>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fd7eb23c0d0>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7ff36d6fe0d0>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fd7eb23c0d0>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7ff36d6fe0d0> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7fd7eb23c0d0> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
 
@@ -363,7 +363,7 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7ff36d704710>, <torch.utils.data.dataloader.DataLoader object at 0x7ff36d7047b8>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7fd7eb242710>, <torch.utils.data.dataloader.DataLoader object at 0x7fd7eb2427b8>), {})
 
 
 
@@ -521,21 +521,46 @@ cls_name : Preprocess_namentity
 
   URL:  mlmodels/dataloader.py::split_xy_from_dict {'col_Xinput': ['X'], 'col_yinput': ['y']} 
 
-###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7ff38404f510>
+###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7fd801b8c510>
 
  ######### postional parameteres :  ['out']
 
- ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7ff38404f510>
+ ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7fd801b8c510>
 
   URL:  sklearn.model_selection::train_test_split {'test_size': 0.5} 
 
-###### load_callable_from_uri LOADED <function train_test_split at 0x7ff3d7686b70>
+###### load_callable_from_uri LOADED <function train_test_split at 0x7fd8551c4b70>
 
  ######### postional parameteres :  []
 
- ######### Execute : preprocessor_func <function train_test_split at 0x7ff3d7686b70>
+ ######### Execute : preprocessor_func <function train_test_split at 0x7fd8551c4b70>
 
   URL:  mlmodels/dataloader.py::pickle_dump {'path': 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'} 
+
+###### load_callable_from_uri LOADED <function pickle_dump at 0x7fd7ec8d3a60>
+
+ ######### postional parameteres :  ['t']
+
+ ######### Execute : preprocessor_func <function pickle_dump at 0x7fd7ec8d3a60>
+Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_new.json [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
+
+
+
+###### Test_run_model  #############################################################
+
+
+
+ ####################################################################################################
+dataset/json/refactor/charcnn.json
+{"test": {"model_pars": {"model_uri": "model_keras.dataloader.charcnn.py", "embedding_size": 128, "conv_layers": [[256, 10], [256, 7], [256, 5], [256, 3]], "fully_connected_layers": [1024, 1024], "threshold": 1e-06, "dropout_p": 0.1, "optimizer": "adam", "loss": "categorical_crossentropy"}, "data_pars": {"data_info": {"dataset": "mlmodels/dataset/text/ag_news_csv", "train": true, "alphabet_size": 69, "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}", "input_size": 1014, "num_of_classes": 4}, "preprocessors": [{"name": "loader", "uri": "mlmodels/preprocess/generic.py::pandasDataset", "args": {"colX": ["colX"], "coly": ["coly"], "encoding": "'ISO-8859-1'", "read_csv_parm": {"usecols": [0, 1], "names": ["coly", "colX"]}}}, {"name": "tokenizer", "uri": "mlmodels/model_keras/raw/char_cnn/data_utils.py::Data", "args": {"data_source": "", "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}", "input_size": 1014, "num_of_classes": 4}}]}, "compute_pars": {"epochs": 1, "batch_size": 128}, "out_pars": {"path": "ztest/ml_keras/charcnn/charcnn.h5", "data_type": "pandas", "size": [0, 0, 6], "output_size": [0, 6]}}, "prod": {"model_pars": {}, "data_pars": {}}}
+
+  #### Module init   ############################################ 
+
+  <module 'mlmodels.model_keras.dataloader.charcnn' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/dataloader/charcnn.py'> 
+
+  #### Loading params   ############################################## 
+
+  #### Model init   ############################################ 
 
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 480, in test_dataloader
@@ -553,38 +578,306 @@ Traceback (most recent call last):
   File "mlmodels/dataloader.py", line 80, in pickle_dump
     with open(kwargs["path"], "wb") as fi:
 FileNotFoundError: [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 392, in test_run_model
-    print2(config)
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/pprint.py", line 121, in __init__
-    indent = int(indent)
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'dict'
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 392, in test_run_model
-    print2(config)
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/pprint.py", line 121, in __init__
-    indent = int(indent)
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'dict'
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3313: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+CharCNNKim model built: 
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+sent_input (InputLayer)         (None, 1014)         0                                            
+__________________________________________________________________________________________________
+embedding_1 (Embedding)         (None, 1014, 128)    8960        sent_input[0][0]                 
+__________________________________________________________________________________________________
+Conv1D_256_10 (Conv1D)          (None, 1005, 256)    327936      embedding_1[0][0]                
+__________________________________________________________________________________________________
+Conv1D_256_7 (Conv1D)           (None, 1008, 256)    229632      embedding_1[0][0]                
+__________________________________________________________________________________________________
+Conv1D_256_5 (Conv1D)           (None, 1010, 256)    164096      embedding_1[0][0]                
+__________________________________________________________________________________________________
+Conv1D_256_3 (Conv1D)           (None, 1012, 256)    98560       embedding_1[0][0]                
+__________________________________________________________________________________________________
+MaxPoolingOverTime_256_10 (Glob (None, 256)          0           Conv1D_256_10[0][0]              
+__________________________________________________________________________________________________
+MaxPoolingOverTime_256_7 (Globa (None, 256)          0           Conv1D_256_7[0][0]               
+__________________________________________________________________________________________________
+MaxPoolingOverTime_256_5 (Globa (None, 256)          0           Conv1D_256_5[0][0]               
+__________________________________________________________________________________________________
+MaxPoolingOverTime_256_3 (Globa (None, 256)          0           Conv1D_256_3[0][0]               
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 1024)         0           MaxPoolingOverTime_256_10[0][0]  
+                                                                 MaxPoolingOverTime_256_7[0][0]   
+                                                                 MaxPoolingOverTime_256_5[0][0]   
+                                                                 MaxPoolingOverTime_256_3[0][0]   
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 1024)         1049600     concatenate_1[0][0]              
+__________________________________________________________________________________________________
+alpha_dropout_1 (AlphaDropout)  (None, 1024)         0           dense_1[0][0]                    
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 1024)         1049600     alpha_dropout_1[0][0]            
+__________________________________________________________________________________________________
+alpha_dropout_2 (AlphaDropout)  (None, 1024)         0           dense_2[0][0]                    
+__________________________________________________________________________________________________
+dense_3 (Dense)                 (None, 4)            4100        alpha_dropout_2[0][0]            
+==================================================================================================
+Total params: 2,932,484
+Trainable params: 2,932,484
+Non-trainable params: 0
+__________________________________________________________________________________________________
 
-###### load_callable_from_uri LOADED <function pickle_dump at 0x7ff36ed95a60>
+  <mlmodels.model_keras.dataloader.charcnn.Model object at 0x7fd7ebc5df60> 
 
- ######### postional parameteres :  ['t']
+  #### Fit   ######################################################## 
 
- ######### Execute : preprocessor_func <function pickle_dump at 0x7ff36ed95a60>
-Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_new.json [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
+  URL:  mlmodels/preprocess/generic.py::pandasDataset {'colX': ['colX'], 'coly': ['coly'], 'encoding': "'ISO-8859-1'", 'read_csv_parm': {'usecols': [0, 1], 'names': ['coly', 'colX']}} 
 
+###### load_callable_from_uri LOADED <class 'mlmodels/preprocess/generic.pandasDataset'>
+cls_name : pandasDataset
 
+  URL:  mlmodels/model_keras/raw/char_cnn/data_utils.py::Data {'data_source': '', 'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'input_size': 1014, 'num_of_classes': 4} 
 
-###### Test_run_model  #############################################################
+###### load_callable_from_uri LOADED <class 'mlmodels/model_keras/raw/char_cnn/data_utils.Data'>
+cls_name : Data
 
+ Object Creation
 
+ Object Compute
 
- ####################################################################################################
-dataset/json/refactor/charcnn.json
-Error dataset/json/refactor/charcnn.json int() argument must be a string, a bytes-like object or a number, not 'dict'
+ Object get_data
+
+  URL:  mlmodels/preprocess/generic.py::pandasDataset {'colX': ['colX'], 'coly': ['coly'], 'encoding': "'ISO-8859-1'", 'read_csv_parm': {'usecols': [0, 1], 'names': ['coly', 'colX']}} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/preprocess/generic.pandasDataset'>
+cls_name : pandasDataset
+
+  URL:  mlmodels/model_keras/raw/char_cnn/data_utils.py::Data {'data_source': '', 'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'input_size': 1014, 'num_of_classes': 4} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/model_keras/raw/char_cnn/data_utils.Data'>
+cls_name : Data
+2020-05-19 14:56:37.024125: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-05-19 14:56:37.028956: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
+2020-05-19 14:56:37.029226: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c23b8220b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-19 14:56:37.029243: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2020-05-19 14:56:37.713033: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 132120576 exceeds 10% of system memory.
+2020-05-19 14:56:37.724876: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 132644864 exceeds 10% of system memory.
+2020-05-19 14:56:38.455157: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 132644864 exceeds 10% of system memory.
+2020-05-19 14:56:38.642241: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 131727360 exceeds 10% of system memory.
+2020-05-19 14:56:39.007505: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 132120576 exceeds 10% of system memory.
+
+ Object Creation
+
+ Object Compute
+
+ Object get_data
+Train on 354 samples, validate on 354 samples
+Epoch 1/1
+
+128/354 [=========>....................] - ETA: 14s - loss: 1.9565
+256/354 [====================>.........] - ETA: 6s - loss: 1.4007 
+354/354 [==============================] - 28s 78ms/step - loss: 1.2632 - val_loss: 0.8190
+
+  #### Predict   #################################################### 
+
+  URL:  mlmodels/preprocess/generic.py::pandasDataset {'colX': ['colX'], 'coly': ['coly'], 'encoding': "'ISO-8859-1'", 'read_csv_parm': {'usecols': [0, 1], 'names': ['coly', 'colX']}} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/preprocess/generic.pandasDataset'>
+cls_name : pandasDataset
+
+  URL:  mlmodels/model_keras/raw/char_cnn/data_utils.py::Data {'data_source': '', 'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'input_size': 1014, 'num_of_classes': 4} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/model_keras/raw/char_cnn/data_utils.Data'>
+cls_name : Data
+
+ Object Creation
+
+ Object Compute
+
+ Object get_data
+[[1.4169398e-05 1.5315660e-05 5.3002741e-02 9.4696778e-01]
+ [9.6475997e-06 1.2236366e-05 4.9010996e-02 9.5096707e-01]
+ [1.3249708e-05 1.4073096e-05 5.4999549e-02 9.4497317e-01]
+ ...
+ [2.0481857e-05 2.0968007e-05 5.4962050e-02 9.4499648e-01]
+ [2.2428983e-05 2.7953600e-05 5.8218997e-02 9.4173068e-01]
+ [1.9706422e-05 2.2621985e-05 5.7646204e-02 9.4231141e-01]]
+
+  #### Get  metrics   ################################################ 
+
+  URL:  mlmodels/preprocess/generic.py::pandasDataset {'colX': ['colX'], 'coly': ['coly'], 'encoding': "'ISO-8859-1'", 'read_csv_parm': {'usecols': [0, 1], 'names': ['coly', 'colX']}} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/preprocess/generic.pandasDataset'>
+cls_name : pandasDataset
+
+  URL:  mlmodels/model_keras/raw/char_cnn/data_utils.py::Data {'data_source': '', 'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'input_size': 1014, 'num_of_classes': 4} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/model_keras/raw/char_cnn/data_utils.Data'>
+cls_name : Data
+
+ Object Creation
+
+ Object Compute
+
+ Object get_data
+
+  #### Save   ######################################################## 
+
+  #### Load   ######################################################## 
 
 
 
  ####################################################################################################
 dataset/json/refactor/charcnn_zhang.json
-Error dataset/json/refactor/charcnn_zhang.json int() argument must be a string, a bytes-like object or a number, not 'dict'
+{"test": {"model_pars": {"model_uri": "model_keras.dataloader.charcnn_zhang.py", "embedding_size": 128, "conv_layers": [[256, 7, 3], [256, 7, 3], [256, 3, -1], [256, 3, -1], [256, 3, -1], [256, 3, 3]], "fully_connected_layers": [1024, 1024], "threshold": 1e-06, "dropout_p": 0.5, "optimizer": "adam", "loss": "categorical_crossentropy"}, "data_pars": {"data_info": {"dataset": "mlmodels/dataset/text/ag_news_csv", "train": true, "alphabet_size": 69, "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}", "input_size": 1014, "num_of_classes": 4}, "preprocessors": [{"name": "loader", "uri": "mlmodels/preprocess/generic.py::pandasDataset", "args": {"colX": ["colX"], "coly": ["coly"], "encoding": "'ISO-8859-1'", "read_csv_parm": {"usecols": [0, 1], "names": ["coly", "colX"]}}}, {"name": "tokenizer", "uri": "mlmodels/model_keras/raw/char_cnn/data_utils.py::Data", "args": {"data_source": "", "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}", "input_size": 1014, "num_of_classes": 4}}]}, "compute_pars": {"epochs": 1, "batch_size": 128}, "out_pars": {"path": "ztest/ml_keras/charcnn_zhang/", "data_type": "pandas", "size": [0, 0, 6], "output_size": [0, 6]}}, "prod": {"model_pars": {}, "data_pars": {}}}
+
+  #### Module init   ############################################ 
+/home/runner/work/mlmodels/mlmodels/mlmodels/dataset
+
+  <module 'mlmodels.model_keras.dataloader.charcnn_zhang' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/dataloader/charcnn_zhang.py'> 
+
+  #### Loading params   ############################################## 
+
+  #### Model init   ############################################ 
+/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/callbacks/callbacks.py:846: RuntimeWarning: Early stopping conditioned on metric `val_acc` which is not available. Available metrics are: val_loss,loss
+  (self.monitor, ','.join(list(logs.keys()))), RuntimeWarning
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+CharCNNZhang model built: 
+Model: "model_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+sent_input (InputLayer)      (None, 1014)              0         
+_________________________________________________________________
+embedding_2 (Embedding)      (None, 1014, 128)         8960      
+_________________________________________________________________
+conv1d_1 (Conv1D)            (None, 1008, 256)         229632    
+_________________________________________________________________
+thresholded_re_lu_1 (Thresho (None, 1008, 256)         0         
+_________________________________________________________________
+max_pooling1d_1 (MaxPooling1 (None, 336, 256)          0         
+_________________________________________________________________
+conv1d_2 (Conv1D)            (None, 330, 256)          459008    
+_________________________________________________________________
+thresholded_re_lu_2 (Thresho (None, 330, 256)          0         
+_________________________________________________________________
+max_pooling1d_2 (MaxPooling1 (None, 110, 256)          0         
+_________________________________________________________________
+conv1d_3 (Conv1D)            (None, 108, 256)          196864    
+_________________________________________________________________
+thresholded_re_lu_3 (Thresho (None, 108, 256)          0         
+_________________________________________________________________
+conv1d_4 (Conv1D)            (None, 106, 256)          196864    
+_________________________________________________________________
+thresholded_re_lu_4 (Thresho (None, 106, 256)          0         
+_________________________________________________________________
+conv1d_5 (Conv1D)            (None, 104, 256)          196864    
+_________________________________________________________________
+thresholded_re_lu_5 (Thresho (None, 104, 256)          0         
+_________________________________________________________________
+conv1d_6 (Conv1D)            (None, 102, 256)          196864    
+_________________________________________________________________
+thresholded_re_lu_6 (Thresho (None, 102, 256)          0         
+_________________________________________________________________
+max_pooling1d_3 (MaxPooling1 (None, 34, 256)           0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 8704)              0         
+_________________________________________________________________
+dense_4 (Dense)              (None, 1024)              8913920   
+_________________________________________________________________
+thresholded_re_lu_7 (Thresho (None, 1024)              0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 1024)              0         
+_________________________________________________________________
+dense_5 (Dense)              (None, 1024)              1049600   
+_________________________________________________________________
+thresholded_re_lu_8 (Thresho (None, 1024)              0         
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 1024)              0         
+_________________________________________________________________
+dense_6 (Dense)              (None, 4)                 4100      
+=================================================================
+Total params: 11,452,676
+Trainable params: 11,452,676
+Non-trainable params: 0
+_________________________________________________________________
+
+  <mlmodels.model_keras.dataloader.charcnn_zhang.Model object at 0x7fd7eb226828> 
+
+  #### Fit   ######################################################## 
+
+  URL:  mlmodels/preprocess/generic.py::pandasDataset {'colX': ['colX'], 'coly': ['coly'], 'encoding': "'ISO-8859-1'", 'read_csv_parm': {'usecols': [0, 1], 'names': ['coly', 'colX']}} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/preprocess/generic.pandasDataset'>
+cls_name : pandasDataset
+
+  URL:  mlmodels/model_keras/raw/char_cnn/data_utils.py::Data {'data_source': '', 'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'input_size': 1014, 'num_of_classes': 4} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/model_keras/raw/char_cnn/data_utils.Data'>
+cls_name : Data
+
+ Object Creation
+
+ Object Compute
+
+ Object get_data
+
+  URL:  mlmodels/preprocess/generic.py::pandasDataset {'colX': ['colX'], 'coly': ['coly'], 'encoding': "'ISO-8859-1'", 'read_csv_parm': {'usecols': [0, 1], 'names': ['coly', 'colX']}} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/preprocess/generic.pandasDataset'>
+cls_name : pandasDataset
+
+  URL:  mlmodels/model_keras/raw/char_cnn/data_utils.py::Data {'data_source': '', 'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'input_size': 1014, 'num_of_classes': 4} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/model_keras/raw/char_cnn/data_utils.Data'>
+cls_name : Data
+
+ Object Creation
+
+ Object Compute
+
+ Object get_data
+Train on 354 samples, validate on 354 samples
+Epoch 1/1
+
+128/354 [=========>....................] - ETA: 9s - loss: 1.3822
+256/354 [====================>.........] - ETA: 3s - loss: 1.2212
+354/354 [==============================] - 17s 48ms/step - loss: 1.3883 - val_loss: 0.6726
+
+  #### Predict   #################################################### 
+
+  URL:  mlmodels/preprocess/generic.py::pandasDataset {'colX': ['colX'], 'coly': ['coly'], 'encoding': "'ISO-8859-1'", 'read_csv_parm': {'usecols': [0, 1], 'names': ['coly', 'colX']}} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/preprocess/generic.pandasDataset'>
+cls_name : pandasDataset
+
+  URL:  mlmodels/model_keras/raw/char_cnn/data_utils.py::Data {'data_source': '', 'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'input_size': 1014, 'num_of_classes': 4} 
+
+###### load_callable_from_uri LOADED <class 'mlmodels/model_keras/raw/char_cnn/data_utils.Data'>
+cls_name : Data
+
+ Object Creation
+
+ Object Compute
+
+ Object get_data
+[[0.04249943 0.037075   0.28225926 0.63816637]
+ [0.04238511 0.03697229 0.28213426 0.63850826]
+ [0.04255107 0.03712101 0.28234172 0.6379861 ]
+ ...
+ [0.04287128 0.03740567 0.2828313  0.6368918 ]
+ [0.04291303 0.03743317 0.2828773  0.63677645]
+ [0.0428619  0.03739224 0.28281033 0.6369355 ]]
+
+  #### Get  metrics   ################################################ 
+
+  #### Save   ######################################################## 
+
+  #### Load   ######################################################## 
+/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/callbacks/callbacks.py:846: RuntimeWarning: Early stopping conditioned on metric `val_acc` which is not available. Available metrics are: val_loss,loss
+  (self.monitor, ','.join(list(logs.keys()))), RuntimeWarning
