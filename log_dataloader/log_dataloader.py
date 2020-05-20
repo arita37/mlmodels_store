@@ -9,17 +9,17 @@
 
  ************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/69b309ad857428cc5a734b8afd99842edf9b2a42', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '69b309ad857428cc5a734b8afd99842edf9b2a42', 'workflow': 'test_dataloader'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/7d2329693089c1f82c9643c24694005c94b5ebed', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '7d2329693089c1f82c9643c24694005c94b5ebed', 'workflow': 'test_dataloader'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_dataloader
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/69b309ad857428cc5a734b8afd99842edf9b2a42
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/7d2329693089c1f82c9643c24694005c94b5ebed
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/69b309ad857428cc5a734b8afd99842edf9b2a42
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/7d2329693089c1f82c9643c24694005c94b5ebed
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/69b309ad857428cc5a734b8afd99842edf9b2a42
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/7d2329693089c1f82c9643c24694005c94b5ebed
 
  ************************************************************************************************************************
 
@@ -256,13 +256,13 @@ cls_name : Data
 
   URL:  mlmodels.preprocess.generic::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fc0c49b6378>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fbc814d7378>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fc0c49b6378>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fbc814d7378>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7fc0c49b6378> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7fbc814d7378> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}} 
 
@@ -270,10 +270,10 @@ cls_name : Data
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 Using TensorFlow backend.
-0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 30%|███       | 2990080/9912422 [00:00<00:00, 29791303.23it/s]9920512it [00:00, 35190924.17it/s]                             
-0it [00:00, ?it/s]32768it [00:00, 605196.67it/s]
-0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 485393.88it/s]1654784it [00:00, 11670655.41it/s]                         
-0it [00:00, ?it/s]8192it [00:00, 270596.00it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 26%|██▌       | 2596864/9912422 [00:00<00:00, 25803176.97it/s]9920512it [00:00, 36651049.39it/s]                             
+0it [00:00, ?it/s]32768it [00:00, 658948.92it/s]
+0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 489357.37it/s]1654784it [00:00, 12559270.17it/s]                         
+0it [00:00, ?it/s]8192it [00:00, 233701.56it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting mlmodels/dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz to mlmodels/dataset/vision/MNIST/MNIST/raw
@@ -285,7 +285,7 @@ Processing...
 Done!
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7fc0adbd0860>, <torch.utils.data.dataloader.DataLoader object at 0x7fc0adbdb898>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7fbc6aa97278>, <torch.utils.data.dataloader.DataLoader object at 0x7fbc6a6fd198>), {})
 
 
 
@@ -338,13 +338,13 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
 
   URL:  mlmodels/preprocess/generic.py::get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
 
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fc0adbd4730>
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7fbc6a6f6730>
 
  ######### postional parameteres :  ['data_info']
 
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fc0adbd4730>
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7fbc6a6f6730>
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7fc0adbd4730> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7fbc6a6f6730> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
 
@@ -353,7 +353,7 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/model_l
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
  #####  get_Data DataLoader 
-((<torch.utils.data.dataloader.DataLoader object at 0x7fc0ad7ef6a0>, <torch.utils.data.dataloader.DataLoader object at 0x7fc0ad7ef748>), {})
+((<torch.utils.data.dataloader.DataLoader object at 0x7fbc6a3106a0>, <torch.utils.data.dataloader.DataLoader object at 0x7fbc6a310748>), {})
 
 
 
@@ -511,27 +511,27 @@ cls_name : Preprocess_namentity
 
   URL:  mlmodels/dataloader.py::split_xy_from_dict {'col_Xinput': ['X'], 'col_yinput': ['y']} 
 
-###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7fc0c49332f0>
+###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7fbc814542f0>
 
  ######### postional parameteres :  ['out']
 
- ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7fc0c49332f0>
+ ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7fbc814542f0>
 
   URL:  sklearn.model_selection::train_test_split {'test_size': 0.5} 
 
-###### load_callable_from_uri LOADED <function train_test_split at 0x7fc117135e18>
+###### load_callable_from_uri LOADED <function train_test_split at 0x7fbcd3c56e18>
 
  ######### postional parameteres :  []
 
- ######### Execute : preprocessor_func <function train_test_split at 0x7fc117135e18>
+ ######### Execute : preprocessor_func <function train_test_split at 0x7fbcd3c56e18>
 
   URL:  mlmodels/dataloader.py::pickle_dump {'path': 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'} 
 
-###### load_callable_from_uri LOADED <function pickle_dump at 0x7fc0ae850bf8>
+###### load_callable_from_uri LOADED <function pickle_dump at 0x7fbc6b371bf8>
 
  ######### postional parameteres :  ['t']
 
- ######### Execute : preprocessor_func <function pickle_dump at 0x7fc0ae850bf8>
+ ######### Execute : preprocessor_func <function pickle_dump at 0x7fbc6b371bf8>
 Error /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_new.json [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
 
 
@@ -714,7 +714,7 @@ Trainable params: 2,932,484
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-  <mlmodels.model_keras.dataloader.charcnn.Model object at 0x7fc114844160> 
+  <mlmodels.model_keras.dataloader.charcnn.Model object at 0x7fbcd1365160> 
 
   #### Fit   ######################################################## 
 
@@ -743,10 +743,10 @@ cls_name : pandasDataset
 
 ###### load_callable_from_uri LOADED <class 'mlmodels/model_keras/raw/char_cnn/data_utils.Data'>
 cls_name : Data
-2020-05-20 12:09:58.783592: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2020-05-20 12:09:58.788356: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294685000 Hz
-2020-05-20 12:09:58.788503: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ae85f98090 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-05-20 12:09:58.788520: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-20 18:08:50.484707: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-05-20 18:08:50.499608: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095190000 Hz
+2020-05-20 18:08:50.499791: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c9ef1a6ed0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-20 18:08:50.499809: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 
@@ -758,9 +758,9 @@ WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/sit
 Train on 354 samples, validate on 354 samples
 Epoch 1/1
 
-128/354 [=========>....................] - ETA: 14s - loss: 1.8231
-256/354 [====================>.........] - ETA: 6s - loss: 1.4314 
-354/354 [==============================] - 27s 77ms/step - loss: 1.2765 - val_loss: 0.6776
+128/354 [=========>....................] - ETA: 10s - loss: 1.8812
+256/354 [====================>.........] - ETA: 4s - loss: 1.4326 
+354/354 [==============================] - 17s 49ms/step - loss: 1.3134 - val_loss: 0.7078
 
   #### Predict   #################################################### 
 
@@ -779,13 +779,13 @@ cls_name : Data
  Object Compute
 
  Object get_data
-[[2.90219559e-05 1.42674835e-05 1.46239340e-01 8.53717387e-01]
- [2.31900794e-05 1.18254165e-05 1.37379646e-01 8.62585366e-01]
- [2.86140985e-05 1.50773185e-05 1.46589518e-01 8.53366852e-01]
+[[1.41627734e-05 2.48365359e-05 1.08133376e-01 8.91827583e-01]
+ [1.04601149e-05 1.68850638e-05 1.00266419e-01 8.99706244e-01]
+ [1.39055410e-05 2.14540742e-05 1.12174407e-01 8.87790203e-01]
  ...
- [3.90291316e-05 1.92299194e-05 1.31637782e-01 8.68303955e-01]
- [4.16002622e-05 2.22223189e-05 1.48237318e-01 8.51698875e-01]
- [4.03554259e-05 2.07060220e-05 1.40885621e-01 8.59053254e-01]]
+ [1.95056618e-05 3.00746451e-05 1.04146816e-01 8.95803630e-01]
+ [2.01863204e-05 3.48104113e-05 1.07538812e-01 8.92406166e-01]
+ [2.15590280e-05 3.50581613e-05 1.13270015e-01 8.86673450e-01]]
 
   #### Get  metrics   ################################################ 
 
@@ -1000,7 +1000,7 @@ Trainable params: 11,452,676
 Non-trainable params: 0
 _________________________________________________________________
 
-  <mlmodels.model_keras.dataloader.charcnn_zhang.Model object at 0x7fc0a0716c18> 
+  <mlmodels.model_keras.dataloader.charcnn_zhang.Model object at 0x7fbc5d256c18> 
 
   #### Fit   ######################################################## 
 
@@ -1038,9 +1038,9 @@ cls_name : Data
 Train on 354 samples, validate on 354 samples
 Epoch 1/1
 
-128/354 [=========>....................] - ETA: 9s - loss: 1.3823
-256/354 [====================>.........] - ETA: 3s - loss: 1.2170
-354/354 [==============================] - 17s 48ms/step - loss: 1.3313 - val_loss: 0.6448
+128/354 [=========>....................] - ETA: 5s - loss: 1.3854
+256/354 [====================>.........] - ETA: 2s - loss: 1.2974
+354/354 [==============================] - 10s 29ms/step - loss: 1.2764 - val_loss: 0.8497
 
   #### Predict   #################################################### 
 
@@ -1059,13 +1059,13 @@ cls_name : Data
  Object Compute
 
  Object get_data
-[[0.03013098 0.03261516 0.23574752 0.7015064 ]
- [0.03012628 0.03260433 0.23574963 0.7015197 ]
- [0.03014158 0.03263046 0.23574816 0.70147985]
+[[0.11129028 0.10968398 0.28323367 0.49579197]
+ [0.11120654 0.10960381 0.2832292  0.49596035]
+ [0.11125847 0.10965354 0.2832105  0.4958775 ]
  ...
- [0.03043801 0.0329529  0.236475   0.70013404]
- [0.03038643 0.03289326 0.2363701  0.70035017]
- [0.0303939  0.03290699 0.23639284 0.7003062 ]]
+ [0.11163992 0.11008482 0.28330117 0.49497402]
+ [0.11164245 0.11010188 0.28327072 0.494985  ]
+ [0.11160644 0.11006954 0.2833173  0.49500674]]
 
   #### Get  metrics   ################################################ 
 
@@ -1164,7 +1164,7 @@ Trainable params: 77,819
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-  <mlmodels.model_keras.dataloader.textcnn.Model object at 0x7fc0adbdb390> 
+  <mlmodels.model_keras.dataloader.textcnn.Model object at 0x7fbc6a6fd278> 
 
   #### Fit   ######################################################## 
 Loading data...
@@ -1261,7 +1261,7 @@ dataset/json/refactor/torchhub_cnn_dataloader.json
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tch.torchhub.Model object at 0x7fc114844080> 
+  <mlmodels.model_tch.torchhub.Model object at 0x7fbc69804a58> 
 
   #### Fit   ######################################################## 
 /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/callbacks/callbacks.py:846: RuntimeWarning: Early stopping conditioned on metric `val_acc` which is not available. Available metrics are: val_loss,loss
