@@ -9,17 +9,17 @@
 
  ************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '73f54da32a5da4768415eb9105ad096255137679', 'workflow': 'test_json'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/69b309ad857428cc5a734b8afd99842edf9b2a42', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '69b309ad857428cc5a734b8afd99842edf9b2a42', 'workflow': 'test_json'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_json
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/69b309ad857428cc5a734b8afd99842edf9b2a42
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/73f54da32a5da4768415eb9105ad096255137679
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/69b309ad857428cc5a734b8afd99842edf9b2a42
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/73f54da32a5da4768415eb9105ad096255137679
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/69b309ad857428cc5a734b8afd99842edf9b2a42
 
  ************************************************************************************************************************
 
@@ -49,40 +49,42 @@ fit
   ##### Init model_tch.textcnn.py {'path': './output/text_cnn_tch/model.h5', 'model_uri': 'model_tch.textcnn.py'} 
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
-  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7fa472a0ada0> 
+  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7fd446171da0> 
 Spliting original file to train/valid set...
 
   Download en 
 Collecting en_core_web_sm==2.2.5
   Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz (12.0 MB)
 Requirement already satisfied: spacy>=2.2.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from en_core_web_sm==2.2.5) (2.2.4)
-Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.2)
-Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.0.3)
-Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (4.46.0)
-Requirement already satisfied: setuptools in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (45.2.0)
-Requirement already satisfied: srsly<1.1.0,>=1.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
-Requirement already satisfied: numpy>=1.15.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.18.2)
-Requirement already satisfied: catalogue<1.1.0,>=0.0.7 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.0)
-Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.23.0)
-Requirement already satisfied: plac<1.2.0,>=0.9.6 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.1.3)
-Requirement already satisfied: wasabi<1.1.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.6.0)
 Requirement already satisfied: thinc==7.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (7.4.0)
+Requirement already satisfied: numpy>=1.15.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.18.2)
+Requirement already satisfied: plac<1.2.0,>=0.9.6 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.1.3)
+Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (4.46.0)
 Requirement already satisfied: blis<0.5.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.4.1)
+Requirement already satisfied: setuptools in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (45.2.0)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.0.3)
 Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
+Requirement already satisfied: catalogue<1.1.0,>=0.0.7 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.0)
+Requirement already satisfied: wasabi<1.1.0,>=0.4.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (0.6.0)
+Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (2.23.0)
+Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.2)
+Requirement already satisfied: srsly<1.1.0,>=1.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from spacy>=2.2.2->en_core_web_sm==2.2.5) (1.0.2)
 Requirement already satisfied: importlib-metadata>=0.20; python_version < "3.8" in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from catalogue<1.1.0,>=0.0.7->spacy>=2.2.2->en_core_web_sm==2.2.5) (1.6.0)
-Requirement already satisfied: certifi>=2017.4.17 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2020.4.5.1)
 Requirement already satisfied: chardet<4,>=3.0.2 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (3.0.4)
 Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (1.25.9)
 Requirement already satisfied: idna<3,>=2.5 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2.9)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en_core_web_sm==2.2.5) (2020.4.5.1)
 Requirement already satisfied: zipp>=0.5 in /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages (from importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy>=2.2.2->en_core_web_sm==2.2.5) (3.1.0)
 Building wheels for collected packages: en-core-web-sm
   Building wheel for en-core-web-sm (setup.py): started
   Building wheel for en-core-web-sm (setup.py): finished with status 'done'
-  Created wheel for en-core-web-sm: filename=en_core_web_sm-2.2.5-py3-none-any.whl size=12011738 sha256=0bd402204cc5696ef169a35c31e52a8a4ac26ead51f0a06c1958625fc26c2c36
-  Stored in directory: /tmp/pip-ephem-wheel-cache-bec5bi83/wheels/b5/94/56/596daa677d7e91038cbddfcf32b591d0c915a1b3a3e3d3c79d
+  Created wheel for en-core-web-sm: filename=en_core_web_sm-2.2.5-py3-none-any.whl size=12011738 sha256=c9f786491fd51ea5d81e3e5c964033ed3dcac3ac93eaf9c181e222208c79d59f
+  Stored in directory: /tmp/pip-ephem-wheel-cache-yd8crp11/wheels/b5/94/56/596daa677d7e91038cbddfcf32b591d0c915a1b3a3e3d3c79d
 Successfully built en-core-web-sm
 Installing collected packages: en-core-web-sm
 Successfully installed en-core-web-sm-2.2.5
+WARNING: You are using pip version 20.1; however, version 20.1.1 is available.
+You should consider upgrading via the '/opt/hostedtoolcache/Python/3.6.10/x64/bin/python -m pip install --upgrade pip' command.
 [38;5;2m✔ Download and installation successful[0m
 You can now load the model via spacy.load('en_core_web_sm')
 [38;5;2m✔ Linking successful[0m
@@ -197,63 +199,53 @@ Trainable params: 77,819
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7f642505dcf8> 
+  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7f4bce8c9d30> 
 Loading data...
 Downloading data from https://s3.amazonaws.com/text-datasets/imdb.npz
 
     8192/17464789 [..............................] - ETA: 0s
-   24576/17464789 [..............................] - ETA: 45s
-   49152/17464789 [..............................] - ETA: 46s
-   98304/17464789 [..............................] - ETA: 34s
-  172032/17464789 [..............................] - ETA: 26s
-  327680/17464789 [..............................] - ETA: 17s
-  655360/17464789 [>.............................] - ETA: 10s
- 1286144/17464789 [=>............................] - ETA: 5s 
- 2555904/17464789 [===>..........................] - ETA: 3s
- 5095424/17464789 [=======>......................] - ETA: 1s
- 8126464/17464789 [============>.................] - ETA: 0s
-11206656/17464789 [==================>...........] - ETA: 0s
-14319616/17464789 [=======================>......] - ETA: 0s
-17334272/17464789 [============================>.] - ETA: 0s
-17465344/17464789 [==============================] - 1s 0us/step
+ 4218880/17464789 [======>.......................] - ETA: 0s
+11419648/17464789 [==================>...........] - ETA: 0s
+16441344/17464789 [===========================>..] - ETA: 0s
+17465344/17464789 [==============================] - 0s 0us/step
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use tf.where in 2.0, which has the same broadcast rule as np.where
-2020-05-19 07:14:34.887064: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
-2020-05-19 07:14:34.891192: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095074999 Hz
-2020-05-19 07:14:34.891425: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5633224dfa50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-05-19 07:14:34.891441: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-20 07:14:09.286587: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-05-20 07:14:09.291629: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294680000 Hz
+2020-05-20 07:14:09.291794: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5605434d2ef0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-20 07:14:09.291810: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Pad sequences (samples x time)...
 Train on 25000 samples, validate on 25000 samples
 Epoch 1/1
 
- 1000/25000 [>.............................] - ETA: 13s - loss: 8.0653 - accuracy: 0.4740
- 2000/25000 [=>............................] - ETA: 9s - loss: 7.9580 - accuracy: 0.4810 
- 3000/25000 [==>...........................] - ETA: 7s - loss: 7.9477 - accuracy: 0.4817
- 4000/25000 [===>..........................] - ETA: 6s - loss: 7.8430 - accuracy: 0.4885
- 5000/25000 [=====>........................] - ETA: 5s - loss: 7.8598 - accuracy: 0.4874
- 6000/25000 [======>.......................] - ETA: 5s - loss: 7.8583 - accuracy: 0.4875
- 7000/25000 [=======>......................] - ETA: 4s - loss: 7.8178 - accuracy: 0.4901
- 8000/25000 [========>.....................] - ETA: 4s - loss: 7.7605 - accuracy: 0.4939
- 9000/25000 [=========>....................] - ETA: 4s - loss: 7.7177 - accuracy: 0.4967
-10000/25000 [===========>..................] - ETA: 3s - loss: 7.7755 - accuracy: 0.4929
-11000/25000 [============>.................] - ETA: 3s - loss: 7.7726 - accuracy: 0.4931
-12000/25000 [=============>................] - ETA: 3s - loss: 7.7446 - accuracy: 0.4949
-13000/25000 [==============>...............] - ETA: 3s - loss: 7.7456 - accuracy: 0.4948
-14000/25000 [===============>..............] - ETA: 2s - loss: 7.7312 - accuracy: 0.4958
-15000/25000 [=================>............] - ETA: 2s - loss: 7.7228 - accuracy: 0.4963
-16000/25000 [==================>...........] - ETA: 2s - loss: 7.7232 - accuracy: 0.4963
-17000/25000 [===================>..........] - ETA: 1s - loss: 7.7072 - accuracy: 0.4974
-18000/25000 [====================>.........] - ETA: 1s - loss: 7.7015 - accuracy: 0.4977
-19000/25000 [=====================>........] - ETA: 1s - loss: 7.7159 - accuracy: 0.4968
-20000/25000 [=======================>......] - ETA: 1s - loss: 7.6919 - accuracy: 0.4983
-21000/25000 [========================>.....] - ETA: 0s - loss: 7.6929 - accuracy: 0.4983
-22000/25000 [=========================>....] - ETA: 0s - loss: 7.6736 - accuracy: 0.4995
-23000/25000 [==========================>...] - ETA: 0s - loss: 7.6786 - accuracy: 0.4992
-24000/25000 [===========================>..] - ETA: 0s - loss: 7.6692 - accuracy: 0.4998
-25000/25000 [==============================] - 7s 281us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
+ 1000/25000 [>.............................] - ETA: 15s - loss: 7.7280 - accuracy: 0.4960
+ 2000/25000 [=>............................] - ETA: 11s - loss: 7.6436 - accuracy: 0.5015
+ 3000/25000 [==>...........................] - ETA: 9s - loss: 7.6513 - accuracy: 0.5010 
+ 4000/25000 [===>..........................] - ETA: 8s - loss: 7.7011 - accuracy: 0.4978
+ 5000/25000 [=====>........................] - ETA: 7s - loss: 7.7556 - accuracy: 0.4942
+ 6000/25000 [======>.......................] - ETA: 6s - loss: 7.7280 - accuracy: 0.4960
+ 7000/25000 [=======>......................] - ETA: 6s - loss: 7.7608 - accuracy: 0.4939
+ 8000/25000 [========>.....................] - ETA: 5s - loss: 7.6800 - accuracy: 0.4991
+ 9000/25000 [=========>....................] - ETA: 5s - loss: 7.6888 - accuracy: 0.4986
+10000/25000 [===========>..................] - ETA: 5s - loss: 7.7188 - accuracy: 0.4966
+11000/25000 [============>.................] - ETA: 4s - loss: 7.7029 - accuracy: 0.4976
+12000/25000 [=============>................] - ETA: 4s - loss: 7.6896 - accuracy: 0.4985
+13000/25000 [==============>...............] - ETA: 4s - loss: 7.6985 - accuracy: 0.4979
+14000/25000 [===============>..............] - ETA: 3s - loss: 7.6776 - accuracy: 0.4993
+15000/25000 [=================>............] - ETA: 3s - loss: 7.6595 - accuracy: 0.5005
+16000/25000 [==================>...........] - ETA: 2s - loss: 7.6590 - accuracy: 0.5005
+17000/25000 [===================>..........] - ETA: 2s - loss: 7.6783 - accuracy: 0.4992
+18000/25000 [====================>.........] - ETA: 2s - loss: 7.6837 - accuracy: 0.4989
+19000/25000 [=====================>........] - ETA: 1s - loss: 7.6674 - accuracy: 0.4999
+20000/25000 [=======================>......] - ETA: 1s - loss: 7.6559 - accuracy: 0.5007
+21000/25000 [========================>.....] - ETA: 1s - loss: 7.6571 - accuracy: 0.5006
+22000/25000 [=========================>....] - ETA: 0s - loss: 7.6394 - accuracy: 0.5018
+23000/25000 [==========================>...] - ETA: 0s - loss: 7.6593 - accuracy: 0.5005
+24000/25000 [===========================>..] - ETA: 0s - loss: 7.6583 - accuracy: 0.5005
+25000/25000 [==============================] - 10s 393us/step - loss: 7.6666 - accuracy: 0.5000 - val_loss: 7.6246 - val_accuracy: 0.5000
 
   ##### Save None 
 {'path': './output/textcnn_keras//model.h5', 'model_uri': 'model_keras.textcnn.py'}
@@ -446,17 +438,17 @@ Trainable params: 43,460
 Non-trainable params: 0
 _________________________________________________________________
 
-  ##### Fit <mlmodels.model_keras.namentity_crm_bilstm.Model object at 0x7f987cb9be10> 
-2020-05-19 07:14:51.152875: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
-2020-05-19 07:14:51.157733: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095074999 Hz
-2020-05-19 07:14:51.157982: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561d26936a90 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-05-19 07:14:51.157996: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+  ##### Fit <mlmodels.model_keras.namentity_crm_bilstm.Model object at 0x7fbb2d2c3dd8> 
+2020-05-20 07:14:28.565499: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-05-20 07:14:28.570921: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294680000 Hz
+2020-05-20 07:14:28.571114: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564c498677e0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-20 07:14:28.571129: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Train on 1 samples, validate on 1 samples
 Epoch 1/1
 
-1/1 [==============================] - 1s 1s/step - loss: 1.6307 - crf_viterbi_accuracy: 0.3333 - val_loss: 1.5764 - val_crf_viterbi_accuracy: 0.3467
+1/1 [==============================] - 1s 1s/step - loss: 2.1529 - crf_viterbi_accuracy: 0.0133 - val_loss: 2.1420 - val_crf_viterbi_accuracy: 0.0000e+00
 
   ##### Save None 
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/ml_keras/namentity_crm_bilstm/', 'model_uri': 'model_keras.namentity_crm_bilstm.py'}
@@ -1012,16 +1004,16 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fcc6fea9978> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f6c3abe2ef0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in DeepARTrainingNetwork: 26844
-100%|██████████| 10/10 [00:02<00:00,  4.16it/s, avg_epoch_loss=5.21]
-INFO:root:Epoch[0] Elapsed time 2.407 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.205817
+100%|██████████| 10/10 [00:02<00:00,  3.39it/s, avg_epoch_loss=5.21]
+INFO:root:Epoch[0] Elapsed time 2.956 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.214566
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.205816793441772 (occurred at epoch 0)
+INFO:root:Final loss: 5.214565944671631 (occurred at epoch 0)
 INFO:root:End model training
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -1064,13 +1056,13 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7ff16956def0> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f5b17f67ef0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in DeepFactorTrainingNetwork: 12466
-100%|██████████| 10/10 [00:01<00:00,  7.58it/s, avg_epoch_loss=3.95e+3]
-INFO:root:Epoch[0] Elapsed time 1.321 seconds
+100%|██████████| 10/10 [00:01<00:00,  6.98it/s, avg_epoch_loss=3.95e+3]
+INFO:root:Epoch[0] Elapsed time 1.434 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=3953.066797
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 3953.066796875 (occurred at epoch 0)
@@ -1117,17 +1109,17 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f9b0a500ef0> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fbb0484eef0> 
 INFO:root:using training windows of length = 12
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in WaveNet: 97636
- 30%|███       | 3/10 [00:12<00:30,  4.32s/it, avg_epoch_loss=6.91] 60%|██████    | 6/10 [00:24<00:16,  4.14s/it, avg_epoch_loss=6.89] 90%|█████████ | 9/10 [00:35<00:04,  4.01s/it, avg_epoch_loss=6.85]100%|██████████| 10/10 [00:38<00:00,  3.89s/it, avg_epoch_loss=6.84]
-INFO:root:Epoch[0] Elapsed time 38.935 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.841031
+ 30%|███       | 3/10 [00:13<00:30,  4.35s/it, avg_epoch_loss=6.91] 60%|██████    | 6/10 [00:24<00:16,  4.15s/it, avg_epoch_loss=6.88] 90%|█████████ | 9/10 [00:35<00:03,  4.00s/it, avg_epoch_loss=6.85]100%|██████████| 10/10 [00:38<00:00,  3.87s/it, avg_epoch_loss=6.83]
+INFO:root:Epoch[0] Elapsed time 38.724 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.832235
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 6.841031217575074 (occurred at epoch 0)
+INFO:root:Final loss: 6.8322347640991214 (occurred at epoch 0)
 INFO:root:End model training
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -1170,16 +1162,16 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f37b77d3ef0> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f649a05eef0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in TransformerTrainingNetwork: 33911
-100%|██████████| 10/10 [00:02<00:00,  4.73it/s, avg_epoch_loss=4.98]
-INFO:root:Epoch[0] Elapsed time 2.122 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=4.976619
+100%|██████████| 10/10 [00:02<00:00,  4.70it/s, avg_epoch_loss=5]
+INFO:root:Epoch[0] Elapsed time 2.131 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=4.999846
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 4.9766185760498045 (occurred at epoch 0)
+INFO:root:Final loss: 4.999845886230469 (occurred at epoch 0)
 INFO:root:End model training
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -1222,13 +1214,13 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f13a8de7ef0> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f8b5cb13ef0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in DeepStateTrainingNetwork: 28054
- 10%|█         | 1/10 [01:59<17:55, 119.51s/it, avg_epoch_loss=0.524] 20%|██        | 2/10 [05:19<19:08, 143.57s/it, avg_epoch_loss=0.508] 30%|███       | 3/10 [08:48<19:02, 163.17s/it, avg_epoch_loss=0.492] 40%|████      | 4/10 [12:26<17:57, 179.59s/it, avg_epoch_loss=0.477] 50%|█████     | 5/10 [16:08<16:02, 192.56s/it, avg_epoch_loss=0.464] 60%|██████    | 6/10 [19:42<13:15, 198.83s/it, avg_epoch_loss=0.451] 70%|███████   | 7/10 [23:18<10:12, 204.02s/it, avg_epoch_loss=0.441] 80%|████████  | 8/10 [27:08<07:03, 211.71s/it, avg_epoch_loss=0.432] 90%|█████████ | 9/10 [30:45<03:33, 213.49s/it, avg_epoch_loss=0.425]100%|██████████| 10/10 [34:03<00:00, 208.75s/it, avg_epoch_loss=0.42]100%|██████████| 10/10 [34:03<00:00, 204.35s/it, avg_epoch_loss=0.42]
-INFO:root:Epoch[0] Elapsed time 2043.494 seconds
+ 10%|█         | 1/10 [02:01<18:09, 121.04s/it, avg_epoch_loss=0.524] 20%|██        | 2/10 [04:58<18:24, 138.05s/it, avg_epoch_loss=0.508] 30%|███       | 3/10 [08:37<18:56, 162.33s/it, avg_epoch_loss=0.492] 40%|████      | 4/10 [11:56<17:20, 173.36s/it, avg_epoch_loss=0.477] 50%|█████     | 5/10 [15:45<15:49, 189.84s/it, avg_epoch_loss=0.464] 60%|██████    | 6/10 [19:10<12:57, 194.49s/it, avg_epoch_loss=0.451] 70%|███████   | 7/10 [22:25<09:44, 194.79s/it, avg_epoch_loss=0.441] 80%|████████  | 8/10 [26:06<06:44, 202.50s/it, avg_epoch_loss=0.432] 90%|█████████ | 9/10 [29:55<03:30, 210.31s/it, avg_epoch_loss=0.425]100%|██████████| 10/10 [33:41<00:00, 215.02s/it, avg_epoch_loss=0.42]100%|██████████| 10/10 [33:41<00:00, 202.11s/it, avg_epoch_loss=0.42]
+INFO:root:Epoch[0] Elapsed time 2021.095 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=0.420168
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 0.42016832530498505 (occurred at epoch 0)
@@ -1274,13 +1266,13 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f2793cdeda0> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f6cd5af5da0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in GaussianProcessTrainingNetwork: 14
-100%|██████████| 10/10 [00:01<00:00,  7.19it/s, avg_epoch_loss=150]
-INFO:root:Epoch[0] Elapsed time 1.394 seconds
+100%|██████████| 10/10 [00:01<00:00,  7.92it/s, avg_epoch_loss=150]
+INFO:root:Epoch[0] Elapsed time 1.267 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=149.961486
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 149.96148552311243 (occurred at epoch 0)
@@ -1326,15 +1318,15 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f12cee50e10> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f9e98bfae80> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in SimpleFeedForwardTrainingNetwork: 20323
-100%|██████████| 10/10 [00:00<00:00, 55.74it/s, avg_epoch_loss=5.19]
-INFO:root:Epoch[0] Elapsed time 0.181 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.186443
+100%|██████████| 10/10 [00:00<00:00, 48.61it/s, avg_epoch_loss=5.23]
+INFO:root:Epoch[0] Elapsed time 0.208 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.230531
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.186442947387695 (occurred at epoch 0)
+INFO:root:Final loss: 5.2305309772491455 (occurred at epoch 0)
 INFO:root:End model training
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -1427,16 +1419,16 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f68af2efd68> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f8f79ce5da0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in DeepARTrainingNetwork: 26844
-100%|██████████| 10/10 [00:02<00:00,  3.96it/s, avg_epoch_loss=5.24]
-INFO:root:Epoch[0] Elapsed time 2.530 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.244711
+100%|██████████| 10/10 [00:02<00:00,  3.65it/s, avg_epoch_loss=5.27]
+INFO:root:Epoch[0] Elapsed time 2.741 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.274336
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.2447114944458 (occurred at epoch 0)
+INFO:root:Final loss: 5.274336338043213 (occurred at epoch 0)
 INFO:root:End model training
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -1479,13 +1471,13 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7ff6afd7ad30> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f12d84a4da0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in DeepFactorTrainingNetwork: 12466
-100%|██████████| 10/10 [00:01<00:00,  7.68it/s, avg_epoch_loss=3.95e+3]
-INFO:root:Epoch[0] Elapsed time 1.304 seconds
+100%|██████████| 10/10 [00:01<00:00,  7.02it/s, avg_epoch_loss=3.95e+3]
+INFO:root:Epoch[0] Elapsed time 1.427 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=3953.066797
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 3953.066796875 (occurred at epoch 0)
@@ -1532,17 +1524,17 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fe3e511f208> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f0dacb61da0> 
 INFO:root:using training windows of length = 12
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in WaveNet: 97636
- 30%|███       | 3/10 [00:12<00:29,  4.22s/it, avg_epoch_loss=6.91] 60%|██████    | 6/10 [00:23<00:16,  4.06s/it, avg_epoch_loss=6.89] 90%|█████████ | 9/10 [00:34<00:03,  3.96s/it, avg_epoch_loss=6.86]100%|██████████| 10/10 [00:38<00:00,  3.86s/it, avg_epoch_loss=6.84]
-INFO:root:Epoch[0] Elapsed time 38.564 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.844368
+ 30%|███       | 3/10 [00:13<00:31,  4.44s/it, avg_epoch_loss=6.92] 60%|██████    | 6/10 [00:24<00:16,  4.23s/it, avg_epoch_loss=6.88] 90%|█████████ | 9/10 [00:35<00:04,  4.07s/it, avg_epoch_loss=6.86]100%|██████████| 10/10 [00:39<00:00,  3.94s/it, avg_epoch_loss=6.85]
+INFO:root:Epoch[0] Elapsed time 39.380 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.846722
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 6.844367647171021 (occurred at epoch 0)
+INFO:root:Final loss: 6.846721506118774 (occurred at epoch 0)
 INFO:root:End model training
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -1585,16 +1577,16 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f9dea7d5cf8> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fdfc70e4da0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in TransformerTrainingNetwork: 33911
-100%|██████████| 10/10 [00:02<00:00,  4.94it/s, avg_epoch_loss=5.01]
-INFO:root:Epoch[0] Elapsed time 2.025 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.007007
+100%|██████████| 10/10 [00:02<00:00,  4.89it/s, avg_epoch_loss=5.02]
+INFO:root:Epoch[0] Elapsed time 2.046 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.019196
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.0070067882537845 (occurred at epoch 0)
+INFO:root:Final loss: 5.019195604324341 (occurred at epoch 0)
 INFO:root:End model training
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -1637,13 +1629,13 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f9bc913dd30> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f918cb5ed30> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in DeepStateTrainingNetwork: 28054
- 10%|█         | 1/10 [01:47<16:03, 107.09s/it, avg_epoch_loss=0.524] 20%|██        | 2/10 [04:29<16:28, 123.56s/it, avg_epoch_loss=0.508] 30%|███       | 3/10 [07:54<17:16, 148.13s/it, avg_epoch_loss=0.492] 40%|████      | 4/10 [10:54<15:46, 157.70s/it, avg_epoch_loss=0.477] 50%|█████     | 5/10 [14:35<14:43, 176.63s/it, avg_epoch_loss=0.464] 60%|██████    | 6/10 [18:17<12:40, 190.17s/it, avg_epoch_loss=0.451] 70%|███████   | 7/10 [21:33<09:35, 191.96s/it, avg_epoch_loss=0.441] 80%|████████  | 8/10 [25:31<06:51, 205.82s/it, avg_epoch_loss=0.432] 90%|█████████ | 9/10 [29:00<03:26, 206.89s/it, avg_epoch_loss=0.425]100%|██████████| 10/10 [32:40<00:00, 210.86s/it, avg_epoch_loss=0.42]100%|██████████| 10/10 [32:40<00:00, 196.10s/it, avg_epoch_loss=0.42]
-INFO:root:Epoch[0] Elapsed time 1960.984 seconds
+ 10%|█         | 1/10 [01:57<17:37, 117.51s/it, avg_epoch_loss=0.524] 20%|██        | 2/10 [04:59<18:14, 136.75s/it, avg_epoch_loss=0.508] 30%|███       | 3/10 [08:37<18:48, 161.22s/it, avg_epoch_loss=0.492] 40%|████      | 4/10 [11:59<17:20, 173.39s/it, avg_epoch_loss=0.477] 50%|█████     | 5/10 [15:51<15:54, 190.99s/it, avg_epoch_loss=0.464] 60%|██████    | 6/10 [19:41<13:31, 202.80s/it, avg_epoch_loss=0.451] 70%|███████   | 7/10 [23:22<10:24, 208.24s/it, avg_epoch_loss=0.441] 80%|████████  | 8/10 [27:17<07:12, 216.10s/it, avg_epoch_loss=0.432] 90%|█████████ | 9/10 [30:38<03:31, 211.79s/it, avg_epoch_loss=0.425]100%|██████████| 10/10 [34:04<00:00, 210.05s/it, avg_epoch_loss=0.42]100%|██████████| 10/10 [34:04<00:00, 204.48s/it, avg_epoch_loss=0.42]
+INFO:root:Epoch[0] Elapsed time 2044.816 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=0.420168
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 0.42016832530498505 (occurred at epoch 0)
@@ -1689,13 +1681,13 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fbd1f5adcf8> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f505b8abda0> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:root:Number of parameters in GaussianProcessTrainingNetwork: 14
-100%|██████████| 10/10 [00:01<00:00,  7.21it/s, avg_epoch_loss=150]
-INFO:root:Epoch[0] Elapsed time 1.389 seconds
+100%|██████████| 10/10 [00:01<00:00,  6.91it/s, avg_epoch_loss=150]
+INFO:root:Epoch[0] Elapsed time 1.449 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=149.961486
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 149.96148552311243 (occurred at epoch 0)
@@ -1741,15 +1733,15 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa928624d30> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f5a88cd1cf8> 
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in SimpleFeedForwardTrainingNetwork: 20323
-100%|██████████| 10/10 [00:00<00:00, 58.24it/s, avg_epoch_loss=5.26]
-INFO:root:Epoch[0] Elapsed time 0.173 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.257647
+100%|██████████| 10/10 [00:00<00:00, 46.77it/s, avg_epoch_loss=5.25]
+INFO:root:Epoch[0] Elapsed time 0.216 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.249446
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.257647466659546 (occurred at epoch 0)
+INFO:root:Final loss: 5.249446201324463 (occurred at epoch 0)
 INFO:root:End model training
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -1945,7 +1937,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f46cdb874a8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6be99decf8> 
 Downloading: "https://github.com/pytorch/vision/archive/master.zip" to /home/runner/.cache/torch/hub/master.zip
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1960,7 +1952,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2005,7 +1997,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7d040b0dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1cb3cf94a8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2020,7 +2012,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2065,7 +2057,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f98829ecdd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f35ab7b7dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2080,7 +2072,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2125,7 +2117,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ff9c4b8d358> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f936997ddd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2140,7 +2132,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2185,7 +2177,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f06602ee0b8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f362f48e748> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2200,7 +2192,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2245,7 +2237,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f348b7a2dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9bc1bf4dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2260,7 +2252,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2305,7 +2297,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f0520c69e10> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbf734e9e80> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2320,7 +2312,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2365,7 +2357,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fea538a3dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f3d21009dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2380,7 +2372,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2425,7 +2417,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f244caf5e10> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8381d52e10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2440,7 +2432,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2485,7 +2477,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2479e9e4a8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f0c63d9fdd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2500,7 +2492,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2545,7 +2537,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4360c78d68> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fac74c61dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2560,7 +2552,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2605,7 +2597,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6dea603dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbfda885dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2620,7 +2612,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2665,7 +2657,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f66914e4dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ff4e9573dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2680,7 +2672,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2725,7 +2717,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f733f0fae10> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f759c03b0b8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2740,7 +2732,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2785,7 +2777,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fa5a49111d0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4da9382dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2800,7 +2792,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2845,7 +2837,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9cad5c4dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7febd84d5dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2860,7 +2852,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2905,7 +2897,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1cb6750d68> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc2c4d22dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2920,7 +2912,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2965,7 +2957,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2cb5753dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2cd5036dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2980,7 +2972,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3025,7 +3017,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f462f54e7f0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f0b463c5dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3040,7 +3032,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3085,7 +3077,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fce142cd358> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2d12706dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3100,7 +3092,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3145,7 +3137,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbc8dc67e10> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4bbaff01d0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3160,7 +3152,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3205,7 +3197,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc261d65dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f52b813cdd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3220,7 +3212,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3265,7 +3257,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbd9c7acf60> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f43e8e9f2e8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3280,7 +3272,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3325,7 +3317,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbafa060dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7efcc3c73e10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3340,7 +3332,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3385,7 +3377,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe32b8943c8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f145a3504a8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3400,7 +3392,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3445,7 +3437,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc17effadd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd17d917e10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3460,7 +3452,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 238, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 236, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
