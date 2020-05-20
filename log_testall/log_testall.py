@@ -5198,3 +5198,153 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master 4f8722e] ml_store
+ 1 file changed, 36 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   da44db2..4f8722e  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py 
+/home/runner/work/mlmodels/mlmodels/mlmodels/dataset
+
+  #### Loading params   ############################################## 
+
+  #### Loading daaset   ############################################# 
+Loading data...
+Data loaded from /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/ag_news_csv/train.csv
+Data loaded from /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/ag_news_csv/test.csv
+
+  #### Model init, fit   ############################################# 
+Using TensorFlow backend.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2020-05-20 04:22:42.421945: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-05-20 04:22:42.426206: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095195000 Hz
+2020-05-20 04:22:42.426370: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d8ddbd0ae0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-20 04:22:42.426384: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+CharCNNZhang model built: 
+Model: "model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+sent_input (InputLayer)      (None, 1014)              0         
+_________________________________________________________________
+embedding_1 (Embedding)      (None, 1014, 128)         8960      
+_________________________________________________________________
+conv1d_1 (Conv1D)            (None, 1008, 256)         229632    
+_________________________________________________________________
+thresholded_re_lu_1 (Thresho (None, 1008, 256)         0         
+_________________________________________________________________
+max_pooling1d_1 (MaxPooling1 (None, 336, 256)          0         
+_________________________________________________________________
+conv1d_2 (Conv1D)            (None, 330, 256)          459008    
+_________________________________________________________________
+thresholded_re_lu_2 (Thresho (None, 330, 256)          0         
+_________________________________________________________________
+max_pooling1d_2 (MaxPooling1 (None, 110, 256)          0         
+_________________________________________________________________
+conv1d_3 (Conv1D)            (None, 108, 256)          196864    
+_________________________________________________________________
+thresholded_re_lu_3 (Thresho (None, 108, 256)          0         
+_________________________________________________________________
+conv1d_4 (Conv1D)            (None, 106, 256)          196864    
+_________________________________________________________________
+thresholded_re_lu_4 (Thresho (None, 106, 256)          0         
+_________________________________________________________________
+conv1d_5 (Conv1D)            (None, 104, 256)          196864    
+_________________________________________________________________
+thresholded_re_lu_5 (Thresho (None, 104, 256)          0         
+_________________________________________________________________
+conv1d_6 (Conv1D)            (None, 102, 256)          196864    
+_________________________________________________________________
+thresholded_re_lu_6 (Thresho (None, 102, 256)          0         
+_________________________________________________________________
+max_pooling1d_3 (MaxPooling1 (None, 34, 256)           0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 8704)              0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 1024)              8913920   
+_________________________________________________________________
+thresholded_re_lu_7 (Thresho (None, 1024)              0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 1024)              0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 1024)              1049600   
+_________________________________________________________________
+thresholded_re_lu_8 (Thresho (None, 1024)              0         
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 1024)              0         
+_________________________________________________________________
+dense_3 (Dense)              (None, 4)                 4100      
+=================================================================
+Total params: 11,452,676
+Trainable params: 11,452,676
+Non-trainable params: 0
+_________________________________________________________________
+Loading data...
+Data loaded from /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/ag_news_csv/train.csv
+Data loaded from /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/ag_news_csv/test.csv
+Train on 354 samples, validate on 236 samples
+Epoch 1/1
+
+128/354 [=========>....................] - ETA: 5s - loss: 1.3872
+256/354 [====================>.........] - ETA: 2s - loss: 1.2907
+354/354 [==============================] - 9s 25ms/step - loss: 1.2609 - val_loss: 1.7501
+
+  #### Predict   ##################################################### 
+Data loaded from /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/ag_news_csv/test.csv
+
+  #### metrics   ##################################################### 
+{}
+
+  #### Plot   ######################################################## 
+
+  #### Save/Load   ################################################### 
+/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/callbacks/callbacks.py:846: RuntimeWarning: Early stopping conditioned on metric `val_acc` which is not available. Available metrics are: val_loss,loss
+  (self.monitor, ','.join(list(logs.keys()))), RuntimeWarning
+{'path': 'ztest/ml_keras/charcnn_zhang/', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
+{'path': 'ztest/ml_keras/charcnn_zhang/', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 284, in <module>
+    test(pars_choice="json", data_path= f"{root_path}/model_keras/charcnn_zhang.json")
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 268, in test
+    model2 = load(out_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 118, in load
+    model = load_keras(load_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 602, in load_keras
+    model.model = load_model(path_file)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/keras/saving/save.py", line 146, in load_model
+    loader_impl.parse_saved_model(filepath)
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/saved_model/loader_impl.py", line 83, in parse_saved_model
+    constants.SAVED_MODEL_FILENAME_PB))
+OSError: SavedModel file does not exist at: ztest/ml_keras/charcnn_zhang//model.h5/{saved_model.pbtxt|saved_model.pb}
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
