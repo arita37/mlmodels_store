@@ -9975,3 +9975,39 @@ Updating 3b17624..7c12a53
 Fast-forward
  error_list/20200520/list_log_testall_20200520.md | 7 +++++++
  1 file changed, 7 insertions(+)
+[master 52a6eb7] ml_store
+ 1 file changed, 53 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   7c12a53..52a6eb7  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pytorch_vae.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
+    "beta_vae": md.model.beta_vae,
+AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
