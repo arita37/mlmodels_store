@@ -10436,3 +10436,41 @@ test_jupyter
 Fetching origin
 Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
 Already up to date.
+[master a4c5185] ml_store
+ 1 file changed, 1124 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   8aacfab..a4c5185  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+    cf = json.load(open(data_path, mode='r'))
+FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
