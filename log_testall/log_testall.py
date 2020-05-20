@@ -9922,3 +9922,56 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master 3b17624] ml_store
+ 1 file changed, 36 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   dbffd25..3b17624  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:08<69:14:44,  8.47s/it][A
+Iteration:   0%|          | 2/29440 [00:51<154:23:59, 18.88s/it][A
+Iteration:   0%|          | 3/29440 [01:16<167:57:49, 20.54s/it][A
+Iteration:   0%|          | 4/29440 [03:24<432:24:58, 52.88s/it][A
+Iteration:   0%|          | 5/29440 [04:34<474:06:42, 57.99s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Warning: Permanently added the RSA host key for IP address '13.237.44.5' to the list of known hosts.
+From github.com:arita37/mlmodels_store
+   3b17624..7c12a53  master     -> origin/master
+Updating 3b17624..7c12a53
+Fast-forward
+ error_list/20200520/list_log_testall_20200520.md | 7 +++++++
+ 1 file changed, 7 insertions(+)
