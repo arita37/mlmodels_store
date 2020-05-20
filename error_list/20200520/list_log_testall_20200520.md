@@ -743,3 +743,12 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/7d2329693089c1f82c9643c24694005c94b5ebed/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
 <br />    test(data_path = "model_fb/fbprophet.json", choice="json" )
 <br />TypeError: test() got an unexpected keyword argument 'choice'
+
+
+
+### Error 17, [Traceback at line 9716](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L9716)<br />9716..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/7d2329693089c1f82c9643c24694005c94b5ebed/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+<br />    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/7d2329693089c1f82c9643c24694005c94b5ebed/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+<br />    cf = json.load(open(data_path, mode='r'))
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
