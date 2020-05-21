@@ -10752,3 +10752,60 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master ad40c92] ml_store
+ 1 file changed, 36 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   0b60e36..ad40c92  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:14<121:01:20, 14.80s/it][A
+Iteration:   0%|          | 2/29440 [00:28<117:46:10, 14.40s/it][A
+Iteration:   0%|          | 3/29440 [00:40<112:43:52, 13.79s/it][A
+Iteration:   0%|          | 4/29440 [01:42<231:25:50, 28.30s/it][A
+Iteration:   0%|          | 5/29440 [02:15<243:19:56, 29.76s/it][A
+Iteration:   0%|          | 6/29440 [02:39<228:16:46, 27.92s/it][A
+Iteration:   0%|          | 7/29440 [02:59<209:26:08, 25.62s/it][A
+Iteration:   0%|          | 8/29440 [03:14<182:53:58, 22.37s/it][A
+Iteration:   0%|          | 9/29440 [03:34<175:50:13, 21.51s/it][A
+Iteration:   0%|          | 10/29440 [08:13<808:44:46, 98.93s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+From github.com:arita37/mlmodels_store
+   ad40c92..bcef55a  master     -> origin/master
+Updating ad40c92..bcef55a
+Fast-forward
+ error_list/20200521/list_log_testall_20200521.md | 7 +++++++
+ 1 file changed, 7 insertions(+)
