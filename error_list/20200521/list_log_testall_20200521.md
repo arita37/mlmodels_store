@@ -749,3 +749,10 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
 <br />    from dataloader import DataLoader
 <br />ModuleNotFoundError: No module named 'dataloader'
+
+
+
+### Error 19, [Traceback at line 11204](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11204)<br />11204..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
+<br />    "beta_vae": md.model.beta_vae,
+<br />AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
