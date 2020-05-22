@@ -149,3 +149,16 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras/namentity_crm_bilstm_dataloader.py", line 197, in get_params
 <br />    cf = json.load(open(data_path, mode="r"))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader.json'
+
+
+
+### Error 11, [Traceback at line 8553](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8553)<br />8553..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//01_deepctr.py", line 541, in <module>
+<br />    test(pars_choice=5, **{"model_name": model_name})
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//01_deepctr.py", line 517, in test
+<br />    module, model = module_load_full("model_keras.01_deepctr", model_pars, data_pars, compute_pars, dataset=dataset)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/models.py", line 101, in module_load_full
+<br />    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras/01_deepctr.py", line 155, in __init__
+<br />    self.model = modeli(feature_columns, **MODEL_PARAMS[model_name])
+<br />TypeError: PNN() got an unexpected keyword argument 'embedding_size'
