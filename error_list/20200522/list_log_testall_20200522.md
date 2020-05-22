@@ -709,3 +709,10 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//keras_gan.py", line 31, in <module>
 <br />    'AAE' : kg.aae.aae,
 <br />AttributeError: module 'mlmodels.model_keras.raw.keras_gan' has no attribute 'aae'
+
+
+
+### Error 21, [Traceback at line 10809](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10809)<br />10809..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
+<br />    test(data_path = "model_fb/fbprophet.json", choice="json" )
+<br />TypeError: test() got an unexpected keyword argument 'choice'
