@@ -2768,3 +2768,129 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master ff0b451] ml_store
+ 1 file changed, 48 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   37bd8ef..ff0b451  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py 
+
+  #### Loading params   ############################################## 
+
+  #### Model init   ################################################## 
+Using TensorFlow backend.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_probability/python/distributions/mixture.py:154: Categorical.event_size (from tensorflow_probability.python.distributions.categorical) is deprecated and will be removed after 2019-05-19.
+Instructions for updating:
+The `event_size` property is deprecated.  Use `num_categories` instead.  They have the same value, but `event_size` is misnamed.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_ops.py:2509: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+LSTM_1 (LSTM)                (None, 12, 300)           362400    
+_________________________________________________________________
+LSTM_2 (LSTM)                (None, 12, 200)           400800    
+_________________________________________________________________
+LSTM_3 (LSTM)                (None, 12, 24)            21600     
+_________________________________________________________________
+LSTM_4 (LSTM)                (None, 12)                1776      
+_________________________________________________________________
+dense_1 (Dense)              (None, 10)                130       
+_________________________________________________________________
+mdn_1 (MDN)                  (None, 75)                825       
+=================================================================
+Total params: 787,531
+Trainable params: 787,531
+Non-trainable params: 0
+_________________________________________________________________
+
+  ### Model Fit ###################################################### 
+
+  #### Loading dataset   ############################################# 
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+Epoch 1/10
+
+13/13 [==============================] - 2s 136ms/step - loss: nan
+Epoch 2/10
+
+13/13 [==============================] - 0s 5ms/step - loss: nan
+Epoch 3/10
+
+13/13 [==============================] - 0s 4ms/step - loss: nan
+Epoch 4/10
+
+13/13 [==============================] - 0s 5ms/step - loss: nan
+Epoch 5/10
+
+13/13 [==============================] - 0s 5ms/step - loss: nan
+Epoch 6/10
+
+13/13 [==============================] - 0s 4ms/step - loss: nan
+Epoch 7/10
+
+13/13 [==============================] - 0s 5ms/step - loss: nan
+Epoch 8/10
+
+13/13 [==============================] - 0s 5ms/step - loss: nan
+Epoch 9/10
+
+13/13 [==============================] - 0s 5ms/step - loss: nan
+Epoch 10/10
+
+13/13 [==============================] - 0s 4ms/step - loss: nan
+
+  fitted metrics {'loss': [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]} 
+
+  #### Predict   ##################################################### 
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mdn/__init__.py:209: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+[[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+  nan nan nan]]
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py", line 380, in <module>
+    test(pars_choice="json", data_path= "model_keras/armdn.json")
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py", line 354, in test
+    y_pred, y_test = predict(model=model, model_pars=model_pars, data_pars=data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py", line 170, in predict
+    model.model_pars["n_mixes"], temp=1.0)
+  File "<__array_function__ internals>", line 6, in apply_along_axis
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/numpy/lib/shape_base.py", line 379, in apply_along_axis
+    res = asanyarray(func1d(inarr_view[ind0], *args, **kwargs))
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mdn/__init__.py", line 237, in sample_from_output
+    cov_matrix = np.identity(output_dim) * sig_vector
+ValueError: operands could not be broadcast together with shapes (12,12) (0,) 
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
