@@ -737,3 +737,45 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
 <br />    cf = json.load(open(data_path, mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
+
+
+
+### Error 18, [Traceback at line 11077](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11077)<br />11077..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
+<br />    from dataloader import DataLoader
+<br />ModuleNotFoundError: No module named 'dataloader'
+
+
+
+### Error 19, [Traceback at line 11159](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11159)<br />11159..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
+<br />    "beta_vae": md.model.beta_vae,
+<br />AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
+
+
+
+### Error 20, [Traceback at line 11291](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11291)<br />11291..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//textcnn.py", line 153, in create_tabular_dataset
+<br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
+<br />    return util.load_model(name, **overrides)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/util.py", line 169, in load_model
+<br />    raise IOError(Errors.E050.format(name=name))
+<br />OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
+
+
+
+### Error 21, [Traceback at line 11302](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11302)<br />11302..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//textcnn.py", line 477, in <module>
+<br />    test( data_path="model_tch/textcnn.json", pars_choice = "test01" )
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//textcnn.py", line 442, in test
+<br />    Xtuple = get_dataset(data_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//textcnn.py", line 334, in get_dataset
+<br />    trainset, validset, vocab = create_tabular_dataset( data_pars['train_path'], data_pars['valid_path'], lang, pretrained_emb)
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//textcnn.py", line 159, in create_tabular_dataset
+<br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)  
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
+<br />    return util.load_model(name, **overrides)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/util.py", line 169, in load_model
+<br />    raise IOError(Errors.E050.format(name=name))
+<br />OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
