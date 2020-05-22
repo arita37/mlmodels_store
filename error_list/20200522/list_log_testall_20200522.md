@@ -138,3 +138,14 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//Autokeras.py", line 12, in <module>
 <br />    import autokeras as ak
 <br />ModuleNotFoundError: No module named 'autokeras'
+
+
+
+### Error 10, [Traceback at line 3583](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L3583)<br />3583..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//namentity_crm_bilstm_dataloader.py", line 306, in <module>
+<br />    test_module(model_uri=MODEL_URI, param_pars=param_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/models.py", line 257, in test_module
+<br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras/namentity_crm_bilstm_dataloader.py", line 197, in get_params
+<br />    cf = json.load(open(data_path, mode="r"))
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader.json'
