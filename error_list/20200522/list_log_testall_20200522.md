@@ -630,3 +630,29 @@
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mdn/__init__.py", line 237, in sample_from_output
 <br />    cov_matrix = np.identity(output_dim) * sig_vector
 <br />ValueError: operands could not be broadcast together with shapes (12,12) (0,) 
+
+
+
+### Error 14, [Traceback at line 8130](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8130)<br />8130..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//01_deepctr.py", line 541, in <module>
+<br />    test(pars_choice=5, **{"model_name": model_name})
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//01_deepctr.py", line 517, in test
+<br />    module, model = module_load_full("model_keras.01_deepctr", model_pars, data_pars, compute_pars, dataset=dataset)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/models.py", line 101, in module_load_full
+<br />    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras/01_deepctr.py", line 155, in __init__
+<br />    self.model = modeli(feature_columns, **MODEL_PARAMS[model_name])
+<br />TypeError: PNN() got an unexpected keyword argument 'embedding_size'
+
+
+
+### Error 15, [Traceback at line 8187](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8187)<br />8187..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//textvae.py", line 356, in <module>
+<br />    test(pars_choice="test01")
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//textvae.py", line 327, in test
+<br />    xtuple = get_dataset(data_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//textvae.py", line 269, in get_dataset
+<br />    with codecs.open(data_pars["train_data_path"], encoding='utf-8') as f:
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/codecs.py", line 897, in open
+<br />    file = builtins.open(filename, mode, buffering)
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/text/quora/train.csv'
