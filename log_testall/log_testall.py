@@ -10470,3 +10470,39 @@ Fast-forward
  ...-10_51b64e342c7b2661e79b8abaa33db92672ae95c7.py | 75 ++++++++++++++++++++++
  4 files changed, 134 insertions(+), 3 deletions(-)
  create mode 100644 log_pullrequest/log_pr_2020-05-22-05-10_51b64e342c7b2661e79b8abaa33db92672ae95c7.py
+[master 54e314f] ml_store
+ 1 file changed, 210 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   a258e9a..54e314f  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//fb_prophet.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
+    test(data_path = "model_fb/fbprophet.json", choice="json" )
+TypeError: test() got an unexpected keyword argument 'choice'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
