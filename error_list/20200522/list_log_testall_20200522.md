@@ -133,3 +133,33 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_keras//keras_gan.py", line 31, in <module>
 <br />    'AAE' : kg.aae.aae,
 <br />AttributeError: module 'mlmodels.model_keras.raw.keras_gan' has no attribute 'aae'
+
+
+
+### Error 10, [Traceback at line 7787](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L7787)<br />7787..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_keras//01_deepctr.py", line 541, in <module>
+<br />    test(pars_choice=5, **{"model_name": model_name})
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_keras//01_deepctr.py", line 517, in test
+<br />    module, model = module_load_full("model_keras.01_deepctr", model_pars, data_pars, compute_pars, dataset=dataset)
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/models.py", line 101, in module_load_full
+<br />    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_keras/01_deepctr.py", line 155, in __init__
+<br />    self.model = modeli(feature_columns, **MODEL_PARAMS[model_name])
+<br />TypeError: PNN() got an unexpected keyword argument 'embedding_size'
+
+
+
+### Error 11, [Traceback at line 7939](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L7939)<br />7939..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_keras//charcnn_zhang.py", line 284, in <module>
+<br />    test(pars_choice="json", data_path= f"{root_path}/model_keras/charcnn_zhang.json")
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_keras//charcnn_zhang.py", line 268, in test
+<br />    model2 = load(out_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_keras//charcnn_zhang.py", line 118, in load
+<br />    model = load_keras(load_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/util.py", line 602, in load_keras
+<br />    model.model = load_model(path_file)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/keras/saving/save.py", line 146, in load_model
+<br />    loader_impl.parse_saved_model(filepath)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/saved_model/loader_impl.py", line 83, in parse_saved_model
+<br />    constants.SAVED_MODEL_FILENAME_PB))
+<br />OSError: SavedModel file does not exist at: ztest/ml_keras/charcnn_zhang//model.h5/{saved_model.pbtxt|saved_model.pb}
