@@ -1,7 +1,7 @@
 ## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py
 
 
-### Error 1, [Traceback at line 2401](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2401)<br />2401..Traceback (most recent call last):
+### Error 1, [Traceback at line 2399](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2399)<br />2399..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataloader.py", line 503, in test_dataloader
 <br />    loader.compute()
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataloader.py", line 324, in compute
@@ -12,7 +12,7 @@
 
 
 
-### Error 2, [Traceback at line 3323](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L3323)<br />3323..Traceback (most recent call last):
+### Error 2, [Traceback at line 3320](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L3320)<br />3320..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataloader.py", line 403, in test_run_model
 <br />    test_module(config['test']['model_pars']['model_uri'], param_pars, fittable = False if x in not_fittable_models else True)
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/models.py", line 266, in test_module
