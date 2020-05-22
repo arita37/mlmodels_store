@@ -11015,3 +11015,7 @@ Fast-forward
  error_list/20200522/list_log_testall_20200522.md   |    7 +
  log_jupyter/log_jupyter.py                         | 2909 ++++++++++----------
  5 files changed, 1838 insertions(+), 1767 deletions(-)
+[master 664b613] ml_store
+ 1 file changed, 509 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   6abcba4..664b613  master -> master
