@@ -1,132 +1,45 @@
-## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py<br />UsageError: Line magic function `%%capture` not found.
+## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py
+
+
+### Error 1, [Traceback at line 91](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L91)<br />91..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/tabular/ml/trainer/abstract_trainer.py", line 360, in train_single_full
+<br />    Y_train=y_train, Y_test=y_test, scheduler_options=(self.scheduler_func, self.scheduler_options), verbosity=self.verbosity)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/tabular/ml/models/lgb/lgb_model.py", line 283, in hyperparameter_tune
+<br />    directory=directory, lgb_model=self, **params_copy)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/decorator.py", line 69, in register_args
+<br />    self.update(**kwvars)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/decorator.py", line 79, in update
+<br />    hp = v.get_hp(name=k)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/space.py", line 451, in get_hp
+<br />    default_value=self._default)
+<br />  File "ConfigSpace/hyperparameters.pyx", line 773, in ConfigSpace.hyperparameters.UniformIntegerHyperparameter.__init__
+<br />  File "ConfigSpace/hyperparameters.pyx", line 843, in ConfigSpace.hyperparameters.UniformIntegerHyperparameter.check_default
+<br />ValueError: Illegal default value 36
 
 
 
-### Error 1, [Traceback at line 899](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L899)<br />899..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//vision_mnist.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vison_fashion_MNIST.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
+### Error 2, [Traceback at line 294](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L294)<br />294..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
+<br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
+<br />  File "https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/models.py", line 526, in main
+<br />    test_cli(arg)
+<br />  File "https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/models.py", line 456, in test_cli
+<br />    test_module(arg.model_uri, param_pars=param_pars)  # '1_lstm'
+<br />  File "https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/models.py", line 257, in test_module
+<br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_gluon/gluon_automl.py", line 109, in get_params
+<br />    return model_pars, data_pars, compute_pars, out_pars
+<br />UnboundLocalError: local variable 'model_pars' referenced before assignment
 
 
 
-### Error 2, [Traceback at line 914](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L914)<br />914..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//vison_fashion_MNIST.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 3, [Traceback at line 929](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L929)<br />929..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     73[0m         [0;31m# module    = import_module("mlmodels.model_tf.1_lstm")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py[0m in [0;36mimport_module[0;34m(name, package)[0m
-<br />[1;32m    125[0m             [0mlevel[0m [0;34m+=[0m [0;36m1[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m--> 126[0;31m     [0;32mreturn[0m [0m_bootstrap[0m[0;34m.[0m[0m_gcd_import[0m[0;34m([0m[0mname[0m[0;34m[[0m[0mlevel[0m[0;34m:[0m[0;34m][0m[0;34m,[0m [0mpackage[0m[0;34m,[0m [0mlevel[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    127[0m [0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_gcd_import[0;34m(name, package, level)[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load[0;34m(name, import_)[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load_unlocked[0;34m(name, import_)[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'mlmodels.model_sklearn.sklearn'
-<br />
-<br />During handling of the above exception, another exception occurred:
-<br />
-
-
-
-### Error 4, [Traceback at line 950](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L950)<br />950..[0;31mIndexError[0m                                Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     85[0m             [0;31m# print(model_name)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mIndexError[0m: tuple index out of range
-<br />
-<br />During handling of the above exception, another exception occurred:
-<br />
-
-
-
-### Error 5, [Traceback at line 960](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L960)<br />960..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      2[0m [0;34m[0m[0m
-<br />[1;32m      3[0m [0mmodel_uri[0m    [0;34m=[0m [0;34m"model_sklearn.sklearn.py"[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m----> 4[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      5[0m [0;34m[0m[0m
-<br />[1;32m      6[0m model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars={
-<br />
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     87[0m [0;34m[0m[0m
-<br />[1;32m     88[0m         [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me2[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 89[0;31m             [0;32mraise[0m [0mNameError[0m[0;34m([0m[0;34mf"Module {model_name} notfound, {e1}, {e2}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     90[0m [0;34m[0m[0m
-<br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//mnist_mlmodels_.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 6, [Traceback at line 985](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L985)<br />985..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//mnist_mlmodels_.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//fashion_MNIST_mlmodels.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 7, [Traceback at line 1000](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1000)<br />1000..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//fashion_MNIST_mlmodels.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
+### Error 3, [Traceback at line 1160](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1160)<br />1160..[0;31mNameError[0m                                 Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      8[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      9[0m [0;34m[0m[0m
+<br />[0;32m---> 10[0;31m [0mprint[0m[0;34m([0m [0mos[0m[0;34m.[0m[0mgetcwd[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m
+<br />[0;31mNameError[0m: name 'os' is not defined
 <br />
 <br />
 <br />
@@ -139,7 +52,7 @@
 
 
 
-### Error 8, [Traceback at line 1015](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1015)<br />1015..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+### Error 4, [Traceback at line 1176](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1176)<br />1176..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
 <br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 <br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
@@ -163,7 +76,7 @@
 
 
 
-### Error 9, [Traceback at line 1036](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1036)<br />1036..[0;31mIndexError[0m                                Traceback (most recent call last)
+### Error 5, [Traceback at line 1197](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1197)<br />1197..[0;31mIndexError[0m                                Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
 <br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
 <br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
@@ -176,7 +89,7 @@
 
 
 
-### Error 10, [Traceback at line 1046](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1046)<br />1046..[0;31mNameError[0m                                 Traceback (most recent call last)
+### Error 6, [Traceback at line 1207](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1207)<br />1207..[0;31mNameError[0m                                 Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn.ipynb[0m in [0;36m<module>[0;34m[0m
 <br />[1;32m      1[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mmodels[0m [0;32mimport[0m [0mmodule_load[0m[0;34m[0m[0;34m[0m[0m
 <br />[1;32m      2[0m [0;34m[0m[0m
@@ -198,13 +111,71 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_home_retail.ipynb 
+<br />
+<br />Deprecaton set to False
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 7, [Traceback at line 1233](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1233)<br />1233..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      1[0m [0mdata_path[0m [0;34m=[0m [0;34m'hyper_lightgbm_home_retail.json'[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      2[0m [0;34m[0m[0m
+<br />[0;32m----> 3[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      4[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      5[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'hyper_lightgbm_home_retail.json'
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vison_fashion_MNIST.ipynb 
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 8, [Traceback at line 1251](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1251)<br />1251..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//vison_fashion_MNIST.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//mnist_mlmodels_.ipynb 
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 9, [Traceback at line 1266](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1266)<br />1266..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//mnist_mlmodels_.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
 <br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//keras_charcnn_reuters.ipynb 
 <br />
 <br />[0;31m---------------------------------------------------------------------------[0m
 
 
 
-### Error 11, [Traceback at line 1071](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1071)<br />1071..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+### Error 10, [Traceback at line 1281](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1281)<br />1281..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.ipynb[0m in [0;36m<module>[0;34m[0m
 <br />[0;32m----> 1[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mconfig_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
 <br />[0m[1;32m      2[0m [0mmodel_pars[0m      [0;34m=[0m [0mpath_norm_dict[0m[0;34m([0m [0mpars[0m[0;34m[[0m[0;34m'model_pars'[0m[0;34m][0m [0;34m)[0m[0;34m[0m[0;34m[0m[0m
@@ -219,92 +190,13 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//gluon_automl.ipynb 
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//tensorflow__lstm_json.ipynb 
 <br />
-<br />/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/optimizer/optimizer.py:167: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
-<br />  Optimizer.opt_registry[name].__name__))
-<br />Loaded data from: https://autogluon.s3.amazonaws.com/datasets/Inc/train.csv | Columns = 15 / 15 | Rows = 39073 -> 39073
-<br />Warning: `hyperparameter_tune=True` is currently experimental and may cause the process to hang. Setting `auto_stack=True` instead is recommended to achieve maximum quality models.
-<br />Beginning AutoGluon training ... Time limit = 120s
-<br />AutoGluon will save models to dataset/
-<br />Train Data Rows:    39073
-<br />Train Data Columns: 15
-<br />Preprocessing data ...
-<br />Here are the first 10 unique label values in your data:  [' Tech-support' ' Transport-moving' ' Other-service' ' ?'
-<br /> ' Handlers-cleaners' ' Sales' ' Craft-repair' ' Adm-clerical'
-<br /> ' Exec-managerial' ' Prof-specialty']
-<br />AutoGluon infers your prediction problem is: multiclass  (because dtype of label-column == object)
-<br />If this is wrong, please specify `problem_type` argument in fit() instead (You may specify problem_type as one of: ['binary', 'multiclass', 'regression'])
-<br />
-<br />Feature Generator processed 39073 data points with 14 features
-<br />Original Features:
-<br />	int features: 6
-<br />	object features: 8
-<br />Generated Features:
-<br />	int features: 0
-<br />All Features:
-<br />	int features: 6
-<br />	object features: 8
-<br />	Data preprocessing and feature engineering runtime = 0.25s ...
-<br />AutoGluon will gauge predictive performance using evaluation metric: accuracy
-<br />To change this, specify the eval_metric argument of fit()
-<br />AutoGluon will early stop models using evaluation metric: accuracy
-<br />Saving dataset/learner.pkl
-<br />Beginning hyperparameter tuning for Gradient Boosting Model...
-<br />Hyperparameter search space for Gradient Boosting Model: 
-<br />num_leaves:   Int: lower=26, upper=30
-<br />learning_rate:   Real: lower=0.005, upper=0.2
-<br />feature_fraction:   Real: lower=0.75, upper=1.0
-<br />min_data_in_leaf:   Int: lower=2, upper=30
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/tabular/ml/trainer/abstract_trainer.py", line 360, in train_single_full
-<br />    Y_train=y_train, Y_test=y_test, scheduler_options=(self.scheduler_func, self.scheduler_options), verbosity=self.verbosity)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/tabular/ml/models/lgb/lgb_model.py", line 283, in hyperparameter_tune
-<br />    directory=directory, lgb_model=self, **params_copy)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/decorator.py", line 69, in register_args
-<br />    self.update(**kwvars)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/decorator.py", line 79, in update
-<br />    hp = v.get_hp(name=k)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/space.py", line 451, in get_hp
-<br />    default_value=self._default)
-<br />  File "ConfigSpace/hyperparameters.pyx", line 773, in ConfigSpace.hyperparameters.UniformIntegerHyperparameter.__init__
-<br />  File "ConfigSpace/hyperparameters.pyx", line 843, in ConfigSpace.hyperparameters.UniformIntegerHyperparameter.check_default
-<br />Warning: Exception caused LightGBMClassifier to fail during hyperparameter tuning... Skipping this model.
+<br />[0;31m---------------------------------------------------------------------------[0m
 
 
 
-### Error 12, [Traceback at line 1136](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1136)<br />1136..Traceback (most recent call last):
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/tabular/ml/trainer/abstract_trainer.py", line 360, in train_single_full
-<br />    Y_train=y_train, Y_test=y_test, scheduler_options=(self.scheduler_func, self.scheduler_options), verbosity=self.verbosity)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/tabular/ml/models/lgb/lgb_model.py", line 283, in hyperparameter_tune
-<br />    directory=directory, lgb_model=self, **params_copy)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/decorator.py", line 69, in register_args
-<br />    self.update(**kwvars)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/decorator.py", line 79, in update
-<br />    hp = v.get_hp(name=k)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/space.py", line 451, in get_hp
-<br />    default_value=self._default)
-<br />  File "ConfigSpace/hyperparameters.pyx", line 773, in ConfigSpace.hyperparameters.UniformIntegerHyperparameter.__init__
-<br />  File "ConfigSpace/hyperparameters.pyx", line 843, in ConfigSpace.hyperparameters.UniformIntegerHyperparameter.check_default
-<br />ValueError: Illegal default value 36
-
-
-
-### Error 13, [Traceback at line 1333](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1333)<br />1333..Traceback (most recent call last):
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
-<br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/models.py", line 526, in main
-<br />    test_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/models.py", line 456, in test_cli
-<br />    test_module(arg.model_uri, param_pars=param_pars)  # '1_lstm'
-<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/models.py", line 257, in test_module
-<br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_gluon/gluon_automl.py", line 109, in get_params
-<br />    return model_pars, data_pars, compute_pars, out_pars
-<br />UnboundLocalError: local variable 'model_pars' referenced before assignment
-
-
-
-### Error 14, [Traceback at line 1354](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1354)<br />1354..[0;31mNameError[0m                                 Traceback (most recent call last)
+### Error 11, [Traceback at line 1299](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1299)<br />1299..[0;31mNameError[0m                                 Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.ipynb[0m in [0;36m<module>[0;34m[0m
 <br />[1;32m      5[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
 <br />[1;32m      6[0m [0;34m[0m[0m
@@ -317,102 +209,15 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb 
-<br />
-<br />Deprecaton set to False
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 15, [Traceback at line 1371](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1371)<br />1371..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      3[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      4[0m [0mdata_path[0m [0;34m=[0m [0;34m'../mlmodels/dataset/json/hyper_titanic_randomForest.json'[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m----> 5[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      6[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      7[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../mlmodels/dataset/json/hyper_titanic_randomForest.json'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_svm.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 16, [Traceback at line 1389](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1389)<br />1389..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     73[0m         [0;31m# module    = import_module("mlmodels.model_tf.1_lstm")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py[0m in [0;36mimport_module[0;34m(name, package)[0m
-<br />[1;32m    125[0m             [0mlevel[0m [0;34m+=[0m [0;36m1[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m--> 126[0;31m     [0;32mreturn[0m [0m_bootstrap[0m[0;34m.[0m[0m_gcd_import[0m[0;34m([0m[0mname[0m[0;34m[[0m[0mlevel[0m[0;34m:[0m[0;34m][0m[0;34m,[0m [0mpackage[0m[0;34m,[0m [0mlevel[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    127[0m [0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_gcd_import[0;34m(name, package, level)[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load[0;34m(name, import_)[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load_unlocked[0;34m(name, import_)[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'mlmodels.model_sklearn.sklearn'
-<br />
-<br />During handling of the above exception, another exception occurred:
-<br />
-
-
-
-### Error 17, [Traceback at line 1410](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1410)<br />1410..[0;31mIndexError[0m                                Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     85[0m             [0;31m# print(model_name)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mIndexError[0m: tuple index out of range
-<br />
-<br />During handling of the above exception, another exception occurred:
-<br />
-
-
-
-### Error 18, [Traceback at line 1420](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1420)<br />1420..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_svm.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      3[0m [0;34m[0m[0m
-<br />[1;32m      4[0m [0mmodel_uri[0m    [0;34m=[0m [0;34m"model_sklearn.sklearn.py"[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m----> 5[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      6[0m [0;34m[0m[0m
-<br />[1;32m      7[0m model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars={
-<br />
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     87[0m [0;34m[0m[0m
-<br />[1;32m     88[0m         [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me2[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 89[0;31m             [0;32mraise[0m [0mNameError[0m[0;34m([0m[0;34mf"Module {model_name} notfound, {e1}, {e2}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     90[0m [0;34m[0m[0m
-<br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
 <br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//tensorflow_1_lstm.ipynb 
 <br />
 <br />/home/runner/work/mlmodels/mlmodels
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 <br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
 <br />Instructions for updating:
 <br />non-resource variables are not supported in the long term
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -427,8 +232,8 @@
 <br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 <br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -455,7 +260,7 @@
 <br />Instructions for updating:
 <br />non-resource variables are not supported in the long term
 <br />
-<br />  <module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tf/1_lstm.py'> 
+<br />  <module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'> 
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
@@ -463,11 +268,11 @@
 <br />
 <br />  #### Model init   ############################################ 
 <br />
-<br />  <mlmodels.model_tf.1_lstm.Model object at 0x7f66a72cc9e8> 
+<br />  <mlmodels.model_tf.1_lstm.Model object at 0x7f127ca819e8> 
 <br />
 <br />  #### Fit   ######################################################## 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -484,8 +289,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   #################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -506,14 +311,14 @@
 <br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />[[ 0.          0.          0.          0.          0.          0.        ]
-<br /> [-0.13408083 -0.02557756  0.09821121  0.11795936 -0.05560005 -0.0625995 ]
-<br /> [ 0.00465081  0.25240967 -0.02621703 -0.08013285 -0.01293131  0.08388489]
-<br /> [-0.0494496  -0.1070202  -0.05495042  0.00425945  0.05897514  0.01534232]
-<br /> [-0.20423962  0.04568138  0.06513351  0.14444354  0.04288515 -0.03366067]
-<br /> [ 0.1232597   0.39674893  0.16660033  0.26451561  0.1875933   0.50376087]
-<br /> [-0.26091969 -0.14398514  0.38541231  0.05462354  0.08433757  0.01869649]
-<br /> [-0.56409812  0.53129971  0.67994136  0.50329256  0.176116   -1.0776031 ]
-<br /> [ 0.07635329 -0.04540466  0.24872993 -0.05615817  0.09914212 -0.18088467]
+<br /> [ 0.15133244  0.05933547 -0.05320736  0.04452814  0.04251817  0.0734596 ]
+<br /> [-0.06147702  0.07839675 -0.04043624 -0.20941538 -0.13038447  0.21403019]
+<br /> [ 0.04386913  0.1800684   0.44488692  0.05423185  0.11182792  0.17470102]
+<br /> [-0.22959796  0.10426589  0.25868329  0.03994475  0.03219848  0.30151519]
+<br /> [-0.07632279  0.24884845  0.1741472  -0.20755182  0.03282016  0.18690975]
+<br /> [-0.56780517  0.28767392  0.90407634  0.22998625 -0.18638329 -0.47090808]
+<br /> [ 0.20653346  0.16490579  0.18010314 -0.07662384 -0.44649598  0.56727856]
+<br /> [ 0.62988609  0.27441457 -0.35819545 -0.17501149  0.22796017  0.57498878]
 <br /> [ 0.          0.          0.          0.          0.          0.        ]]
 <br />
 <br />  #### Get  metrics   ################################################ 
@@ -523,18 +328,18 @@
 <br />  #### Load   ######################################################## 
 <br />model_tf/1_lstm.py
 <br />model_tf.1_lstm.py
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tf/1_lstm.py'>
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tf/1_lstm.py'>
+<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'>
+<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'>
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
 <br />  ############# Data, Params preparation   ################# 
 <br />
-<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/model'} 
+<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/model'} 
 <br />
 <br />  #### Loading dataset   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -547,8 +352,8 @@
 <br />  #### Model init  ############################################# 
 <br />
 <br />  #### Model fit   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -565,8 +370,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   ##################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -588,17 +393,17 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.49832733720541, 'loss_history': []}
+<br />{'loss': 0.4921247884631157, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
 <br />  #### Save   ######################################################## 
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/'}
-<br />Model saved in path: https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/'}
+<br />Model saved in path: https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 <br />
 <br />  #### Load   ######################################################## 
-<br />2020-05-22 05:20:27.272510: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/model'}
+<br />2020-05-22 08:53:52.373372: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 <br />
 <br />Key Variable not found in checkpoint
@@ -646,18 +451,18 @@
 <br />
 <br />model_tf/1_lstm.py
 <br />model_tf.1_lstm.py
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tf/1_lstm.py'>
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tf/1_lstm.py'>
+<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'>
+<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'>
 <br />
 <br />  #### Loading params   ############################################## 
 <br />
 <br />  ############# Data, Params preparation   ################# 
 <br />
-<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/model'} 
+<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/model'} 
 <br />
 <br />  #### Loading dataset   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -670,8 +475,8 @@
 <br />  #### Model init  ############################################# 
 <br />
 <br />  #### Model fit   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -688,8 +493,8 @@
 <br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 <br />
 <br />  #### Predict   ##################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/timeseries/GOOG-year.csv
+<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
 <br />         Date        Open        High  ...       Close   Adj Close   Volume
 <br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
 <br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
@@ -711,17 +516,17 @@
 <br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 <br />
 <br />  #### metrics   ##################################################### 
-<br />{'loss': 0.5524819120764732, 'loss_history': []}
+<br />{'loss': 0.4618277996778488, 'loss_history': []}
 <br />
 <br />  #### Plot   ######################################################## 
 <br />
 <br />  #### Save   ######################################################## 
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/'}
-<br />Model saved in path: https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/'}
+<br />Model saved in path: https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 <br />
 <br />  #### Load   ######################################################## 
-<br />2020-05-22 05:20:28.414839: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/ztest/model_tf/1_lstm/model'}
+<br />2020-05-22 08:53:53.317977: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
+<br />{'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/model'}
 <br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
 <br />
 <br />Key Variable not found in checkpoint
@@ -773,6 +578,89 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//timeseries_m5_deepar.ipynb 
+<br />
+<br />UsageError: Line magic function `%%capture` not found.
+
+
+
+### Error 12, [Traceback at line 1693](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1693)<br />1693..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     73[0m         [0;31m# module    = import_module("mlmodels.model_tf.1_lstm")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py[0m in [0;36mimport_module[0;34m(name, package)[0m
+<br />[1;32m    125[0m             [0mlevel[0m [0;34m+=[0m [0;36m1[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m--> 126[0;31m     [0;32mreturn[0m [0m_bootstrap[0m[0;34m.[0m[0m_gcd_import[0m[0;34m([0m[0mname[0m[0;34m[[0m[0mlevel[0m[0;34m:[0m[0;34m][0m[0;34m,[0m [0mpackage[0m[0;34m,[0m [0mlevel[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m    127[0m [0;34m[0m[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_gcd_import[0;34m(name, package, level)[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load[0;34m(name, import_)[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load_unlocked[0;34m(name, import_)[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'mlmodels.model_sklearn.sklearn'
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 13, [Traceback at line 1714](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1714)<br />1714..[0;31mIndexError[0m                                Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     85[0m             [0;31m# print(model_name)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mIndexError[0m: tuple index out of range
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 14, [Traceback at line 1724](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1724)<br />1724..[0;31mNameError[0m                                 Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_svm.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      3[0m [0;34m[0m[0m
+<br />[1;32m      4[0m [0mmodel_uri[0m    [0;34m=[0m [0;34m"model_sklearn.sklearn.py"[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m----> 5[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      6[0m [0;34m[0m[0m
+<br />[1;32m      7[0m model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars={
+<br />
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     87[0m [0;34m[0m[0m
+<br />[1;32m     88[0m         [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me2[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 89[0;31m             [0;32mraise[0m [0mNameError[0m[0;34m([0m[0;34mf"Module {model_name} notfound, {e1}, {e2}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     90[0m [0;34m[0m[0m
+<br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vision_mnist.ipynb 
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 15, [Traceback at line 1749](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1749)<br />1749..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//vision_mnist.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
 <br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_titanic.ipynb 
 <br />
 <br />Deprecaton set to False
@@ -780,7 +668,7 @@
 
 
 
-### Error 19, [Traceback at line 1815](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1815)<br />1815..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+### Error 16, [Traceback at line 1765](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1765)<br />1765..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.ipynb[0m in [0;36m<module>[0;34m[0m
 <br />[1;32m      1[0m [0mdata_path[0m [0;34m=[0m [0;34m'hyper_lightgbm_titanic.json'[0m[0;34m[0m[0;34m[0m[0m
 <br />[1;32m      2[0m [0;34m[0m[0m
@@ -795,62 +683,105 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm.ipynb 
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//fashion_MNIST_mlmodels.ipynb 
 <br />
 <br />[0;31m---------------------------------------------------------------------------[0m
 
 
 
-### Error 20, [Traceback at line 1833](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1833)<br />1833..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      4[0m [0mdata_path[0m [0;34m=[0m [0;34m'lightgbm_titanic.json'[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      5[0m [0;34m[0m[0m
-<br />[0;32m----> 6[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      7[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      8[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
+### Error 17, [Traceback at line 1783](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1783)<br />1783..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//fashion_MNIST_mlmodels.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 <br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'lightgbm_titanic.json'
+<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 21, [Traceback at line 1851](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1851)<br />1851..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      8[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      9[0m [0;34m[0m[0m
-<br />[0;32m---> 10[0;31m [0mprint[0m[0;34m([0m [0mos[0m[0;34m.[0m[0mgetcwd[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m
-<br />[0;31mNameError[0m: name 'os' is not defined
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_home_retail.ipynb 
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb 
 <br />
 <br />Deprecaton set to False
 <br />[0;31m---------------------------------------------------------------------------[0m
 
 
 
-### Error 22, [Traceback at line 1868](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1868)<br />1868..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      1[0m [0mdata_path[0m [0;34m=[0m [0;34m'hyper_lightgbm_home_retail.json'[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      2[0m [0;34m[0m[0m
-<br />[0;32m----> 3[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      4[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      5[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
+### Error 18, [Traceback at line 1799](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1799)<br />1799..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      3[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      4[0m [0mdata_path[0m [0;34m=[0m [0;34m'../mlmodels/dataset/json/hyper_titanic_randomForest.json'[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m----> 5[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      6[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      7[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
 <br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'hyper_lightgbm_home_retail.json'
+<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../mlmodels/dataset/json/hyper_titanic_randomForest.json'
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest.ipynb 
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 19, [Traceback at line 1817](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1817)<br />1817..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     73[0m         [0;31m# module    = import_module("mlmodels.model_tf.1_lstm")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py[0m in [0;36mimport_module[0;34m(name, package)[0m
+<br />[1;32m    125[0m             [0mlevel[0m [0;34m+=[0m [0;36m1[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m--> 126[0;31m     [0;32mreturn[0m [0m_bootstrap[0m[0;34m.[0m[0m_gcd_import[0m[0;34m([0m[0mname[0m[0;34m[[0m[0mlevel[0m[0;34m:[0m[0;34m][0m[0;34m,[0m [0mpackage[0m[0;34m,[0m [0mlevel[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m    127[0m [0;34m[0m[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_gcd_import[0;34m(name, package, level)[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load[0;34m(name, import_)[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load_unlocked[0;34m(name, import_)[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'mlmodels.model_sklearn.sklearn'
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 20, [Traceback at line 1838](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1838)<br />1838..[0;31mIndexError[0m                                Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     85[0m             [0;31m# print(model_name)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mIndexError[0m: tuple index out of range
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 21, [Traceback at line 1848](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1848)<br />1848..[0;31mNameError[0m                                 Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      2[0m [0;34m[0m[0m
+<br />[1;32m      3[0m [0mmodel_uri[0m    [0;34m=[0m [0;34m"model_sklearn.sklearn.py"[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m----> 4[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      5[0m [0;34m[0m[0m
+<br />[1;32m      6[0m model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars={
+<br />
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     87[0m [0;34m[0m[0m
+<br />[1;32m     88[0m         [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me2[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 89[0;31m             [0;32mraise[0m [0mNameError[0m[0;34m([0m[0;34mf"Module {model_name} notfound, {e1}, {e2}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     90[0m [0;34m[0m[0m
+<br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
 <br />
 <br />
 <br />
@@ -863,7 +794,7 @@
 
 
 
-### Error 23, [Traceback at line 1886](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1886)<br />1886..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+### Error 22, [Traceback at line 1873](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1873)<br />1873..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//gluon_automl_titanic.ipynb[0m in [0;36m<module>[0;34m[0m
 <br />[1;32m      8[0m     [0mchoice[0m[0;34m=[0m[0;34m'json'[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 <br />[1;32m      9[0m     [0mconfig_mode[0m[0;34m=[0m [0;34m'test'[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
@@ -886,30 +817,56 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.py 
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm.ipynb 
 <br />
-<br />Deprecaton set to False
-<br />/home/runner/work/mlmodels/mlmodels
 <br />[0;31m---------------------------------------------------------------------------[0m
 
 
 
-### Error 24, [Traceback at line 1914](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1914)<br />1914..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/lightgbm_glass.py[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m     20[0m [0;34m[0m[0m
-<br />[1;32m     21[0m [0;34m[0m[0m
-<br />[0;32m---> 22[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mconfig_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     23[0m [0mprint[0m[0;34m([0m[0mpars[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m     24[0m [0;34m[0m[0m
+### Error 23, [Traceback at line 1899](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1899)<br />1899..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm.ipynb[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      4[0m [0mdata_path[0m [0;34m=[0m [0;34m'lightgbm_titanic.json'[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      5[0m [0;34m[0m[0m
+<br />[0;32m----> 6[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      7[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      8[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
 <br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'lightgbm_glass.json'
+<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'lightgbm_titanic.json'
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m4.py 
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_model.py 
+<br />
+<br /><module 'mlmodels' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/__init__.py'>
+<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_keras/ardmn.json
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 24, [Traceback at line 1919](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1919)<br />1919..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/arun_model.py[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m     25[0m [0;31m# Model Parameters[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m     26[0m [0;31m# model_pars, data_pars, compute_pars, out_pars[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 27[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m[0mconfig_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     28[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m     29[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpath_norm_dict[0m[0;34m([0m [0mpdict[0m   [0;34m)[0m   [0;31m###Normalize path[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_keras/ardmn.json'
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vision_mnist.py 
+<br />
+<br />[0;36m  File [0;32m"https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/example/vision_mnist.py"[0;36m, line [0;32m15[0m
+<br />[0;31m    !git clone https://github.com/ahmed3bbas/mlmodels.git[0m
+<br />[0m    ^[0m
+<br />[0;31mSyntaxError[0m[0;31m:[0m invalid syntax
 <br />
 <br />
 <br />
@@ -917,13 +874,13 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m5.py 
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeseries_m5.py 
 <br />
 <br />[0;31m---------------------------------------------------------------------------[0m
 
 
 
-### Error 25, [Traceback at line 1940](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1940)<br />1940..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+### Error 25, [Traceback at line 1950](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1950)<br />1950..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/benchmark_timeseries_m5.py[0m in [0;36m<module>[0;34m[0m
 <br />[1;32m     84[0m [0;34m[0m[0m
 <br />[1;32m     85[0m """
@@ -971,6 +928,27 @@
 <br />[0;32mpandas/_libs/parsers.pyx[0m in [0;36mpandas._libs.parsers.TextReader._setup_parser_source[0;34m()[0m
 <br />
 <br />[0;31mFileNotFoundError[0m: [Errno 2] File b'./m5-forecasting-accuracy/calendar.csv' does not exist: b'./m5-forecasting-accuracy/calendar.csv'
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_hyper.py 
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 26, [Traceback at line 2007](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2007)<br />2007..[0;31mNameError[0m                                 Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/arun_hyper.py[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      3[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mmodels[0m [0;32mimport[0m [0mmodule_load[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      4[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mutil[0m [0;32mimport[0m [0mpath_norm_dict[0m[0;34m,[0m [0mpath_norm[0m[0;34m,[0m [0mparams_json_load[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m----> 5[0;31m [0mprint[0m[0;34m([0m[0mmlmodels[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      6[0m [0;34m[0m[0m
+<br />[1;32m      7[0m [0;34m[0m[0m
+<br />
+<br />[0;31mNameError[0m: name 'mlmodels' is not defined
 <br />
 <br />
 <br />
@@ -985,13 +963,36 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeseries_m5.py 
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.py 
+<br />
+<br />Deprecaton set to False
+<br />/home/runner/work/mlmodels/mlmodels
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 27, [Traceback at line 2035](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2035)<br />2035..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/lightgbm_glass.py[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m     20[0m [0;34m[0m[0m
+<br />[1;32m     21[0m [0;34m[0m[0m
+<br />[0;32m---> 22[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mconfig_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     23[0m [0mprint[0m[0;34m([0m[0mpars[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m     24[0m [0;34m[0m[0m
+<br />
+<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'lightgbm_glass.json'
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m5.py 
 <br />
 <br />[0;31m---------------------------------------------------------------------------[0m
 
 
 
-### Error 26, [Traceback at line 2005](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2005)<br />2005..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+### Error 28, [Traceback at line 2053](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2053)<br />2053..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/benchmark_timeseries_m5.py[0m in [0;36m<module>[0;34m[0m
 <br />[1;32m     84[0m [0;34m[0m[0m
 <br />[1;32m     85[0m """
@@ -1045,54 +1046,5 @@
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vision_mnist.py 
+<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m4.py 
 <br />
-<br />[0;36m  File [0;32m"https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/example/vision_mnist.py"[0;36m, line [0;32m15[0m
-<br />[0;31m    !git clone https://github.com/ahmed3bbas/mlmodels.git[0m
-<br />[0m    ^[0m
-<br />[0;31mSyntaxError[0m[0;31m:[0m invalid syntax
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_model.py 
-<br />
-<br /><module 'mlmodels' from 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/__init__.py'>
-<br />https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras/ardmn.json
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 27, [Traceback at line 2077](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2077)<br />2077..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/arun_model.py[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m     25[0m [0;31m# Model Parameters[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m     26[0m [0;31m# model_pars, data_pars, compute_pars, out_pars[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 27[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m[0mconfig_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     28[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m     29[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpath_norm_dict[0m[0;34m([0m [0mpdict[0m   [0;34m)[0m   [0;31m###Normalize path[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras/ardmn.json'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_hyper.py 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 28, [Traceback at line 2095](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2095)<br />2095..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/arun_hyper.py[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      3[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mmodels[0m [0;32mimport[0m [0mmodule_load[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      4[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mutil[0m [0;32mimport[0m [0mpath_norm_dict[0m[0;34m,[0m [0mpath_norm[0m[0;34m,[0m [0mparams_json_load[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m----> 5[0;31m [0mprint[0m[0;34m([0m[0mmlmodels[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      6[0m [0;34m[0m[0m
-<br />[1;32m      7[0m [0;34m[0m[0m
-<br />
-<br />[0;31mNameError[0m: name 'mlmodels' is not defined
