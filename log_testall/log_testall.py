@@ -9796,3 +9796,99 @@ log_testall
 test_jupyter
 Fetching origin
 Already up to date.
+[master bf234a8] ml_store
+ 1 file changed, 36 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   eb46fa7..bf234a8  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:30<247:46:48, 30.30s/it][A
+Iteration:   0%|          | 2/29440 [00:42<204:22:12, 24.99s/it][A
+Iteration:   0%|          | 3/29440 [00:52<166:37:16, 20.38s/it][A
+Iteration:   0%|          | 4/29440 [01:01<139:35:16, 17.07s/it][A
+Iteration:   0%|          | 5/29440 [01:11<122:30:16, 14.98s/it][A
+Iteration:   0%|          | 6/29440 [01:33<138:47:24, 16.98s/it][A
+Iteration:   0%|          | 7/29440 [02:39<259:45:53, 31.77s/it][A
+Iteration:   0%|          | 8/29440 [03:58<375:38:30, 45.95s/it][A
+Iteration:   0%|          | 9/29440 [04:57<405:39:23, 49.62s/it][A
+Iteration:   0%|          | 10/29440 [08:01<735:39:20, 89.99s/it][A
+Iteration:   0%|          | 11/29440 [09:08<679:27:55, 83.12s/it][A
+Iteration:   0%|          | 12/29440 [10:55<739:29:45, 90.46s/it][A
+Iteration:   0%|          | 13/29440 [11:34<610:53:58, 74.74s/it][A
+Iteration:   0%|          | 14/29440 [12:18<536:43:48, 65.66s/it][A
+Iteration:   0%|          | 15/29440 [13:49<598:29:22, 73.22s/it][A
+Iteration:   0%|          | 16/29440 [14:42<548:17:14, 67.08s/it][A
+Iteration:   0%|          | 17/29440 [15:13<461:51:21, 56.51s/it][A
+Iteration:   0%|          | 18/29440 [16:13<469:43:13, 57.47s/it][A
+Iteration:   0%|          | 19/29440 [17:50<565:19:08, 69.17s/it][A
+Iteration:   0%|          | 20/29440 [21:01<863:33:06, 105.67s/it][A
+Iteration:   0%|          | 21/29440 [21:55<737:22:23, 90.23s/it] [A
+Iteration:   0%|          | 22/29440 [23:40<774:24:45, 94.77s/it][A
+Iteration:   0%|          | 23/29440 [24:18<634:00:39, 77.59s/it][A
+Iteration:   0%|          | 24/29440 [25:21<599:28:09, 73.36s/it][A
+Iteration:   0%|          | 25/29440 [27:37<752:22:51, 92.08s/it][A
+Iteration:   0%|          | 26/29440 [28:45<693:00:06, 84.82s/it][A
+Iteration:   0%|          | 27/29440 [29:36<610:21:35, 74.70s/it][A
+Iteration:   0%|          | 28/29440 [29:53<468:10:10, 57.30s/it][A
+Iteration:   0%|          | 29/29440 [30:11<373:43:50, 45.75s/it][A
+Iteration:   0%|          | 30/29440 [36:36<1203:26:25, 147.31s/it][A
+Iteration:   0%|          | 31/29440 [38:36<1137:06:24, 139.19s/it][A
+Iteration:   0%|          | 32/29440 [39:41<956:17:01, 117.06s/it] [A
+Iteration:   0%|          | 33/29440 [40:23<772:37:13, 94.58s/it] [A
+Iteration:   0%|          | 34/29440 [41:09<653:03:43, 79.95s/it][A
+Iteration:   0%|          | 35/29440 [42:17<623:12:16, 76.30s/it][A
+Iteration:   0%|          | 36/29440 [43:03<549:42:22, 67.30s/it][A
+Iteration:   0%|          | 37/29440 [44:24<582:00:15, 71.26s/it][A
+Iteration:   0%|          | 38/29440 [45:04<505:43:10, 61.92s/it][A
+Iteration:   0%|          | 39/29440 [47:16<677:54:03, 83.01s/it][A
+Iteration:   0%|          | 40/29440 [51:55<1157:29:05, 141.73s/it][A
+Iteration:   0%|          | 41/29440 [52:46<935:20:28, 114.54s/it] [A
+Iteration:   0%|          | 42/29440 [53:05<700:28:14, 85.78s/it] [A
+Iteration:   0%|          | 43/29440 [55:55<908:14:46, 111.23s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+From github.com:arita37/mlmodels_store
+   bf234a8..55d620d  master     -> origin/master
+Updating bf234a8..55d620d
+Fast-forward
+ deps.txt                                           |    8 +-
+ error_list/20200522/list_log_jupyter_20200522.md   | 2021 ++++++++-----
+ .../20200522/list_log_pullrequest_20200522.md      |    2 +-
+ error_list/20200522/list_log_testall_20200522.md   |   16 +
+ log_jupyter/log_jupyter.py                         | 3002 ++++++++------------
+ ...-10_09dbb573cf89ddf861ea945ff13f39f474d48070.py |  637 +++++
+ 6 files changed, 3198 insertions(+), 2488 deletions(-)
+ create mode 100644 log_pullrequest/log_pr_2020-05-22-10-10_09dbb573cf89ddf861ea945ff13f39f474d48070.py
