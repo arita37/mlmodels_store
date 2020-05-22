@@ -1615,3 +1615,41 @@ Fast-forward
  .../20200522/list_log_pullrequest_20200522.md      |  2 +-
  error_list/20200522/list_log_testall_20200522.md   | 36 ++++++++++++++++++++--
  2 files changed, 35 insertions(+), 3 deletions(-)
+[master f9c2142] ml_store
+ 1 file changed, 53 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   ae5dfcc..f9c2142  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+    cf = json.load(open(data_path, mode='r'))
+FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
