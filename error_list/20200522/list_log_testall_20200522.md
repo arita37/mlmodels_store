@@ -131,3 +131,10 @@
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mdn/__init__.py", line 237, in sample_from_output
 <br />    cov_matrix = np.identity(output_dim) * sig_vector
 <br />ValueError: operands could not be broadcast together with shapes (12,12) (0,) 
+
+
+
+### Error 9, [Traceback at line 3215](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L3215)<br />3215..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//Autokeras.py", line 12, in <module>
+<br />    import autokeras as ak
+<br />ModuleNotFoundError: No module named 'autokeras'
