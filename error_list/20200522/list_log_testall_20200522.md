@@ -656,3 +656,56 @@
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/codecs.py", line 897, in open
 <br />    file = builtins.open(filename, mode, buffering)
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/text/quora/train.csv'
+
+
+
+### Error 16, [Traceback at line 10378](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10378)<br />10378..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//charcnn_zhang.py", line 284, in <module>
+<br />    test(pars_choice="json", data_path= f"{root_path}/model_keras/charcnn_zhang.json")
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//charcnn_zhang.py", line 268, in test
+<br />    model2 = load(out_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//charcnn_zhang.py", line 118, in load
+<br />    model = load_keras(load_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/util.py", line 602, in load_keras
+<br />    model.model = load_model(path_file)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/keras/saving/save.py", line 146, in load_model
+<br />    loader_impl.parse_saved_model(filepath)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/saved_model/loader_impl.py", line 83, in parse_saved_model
+<br />    constants.SAVED_MODEL_FILENAME_PB))
+<br />OSError: SavedModel file does not exist at: ztest/ml_keras/charcnn_zhang//model.h5/{saved_model.pbtxt|saved_model.pb}
+
+
+
+### Error 17, [Traceback at line 10432](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10432)<br />10432..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//charcnn.py", line 357, in <module>
+<br />    test(pars_choice="test01")
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//charcnn.py", line 320, in test
+<br />    Xtuple = get_dataset(data_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//charcnn.py", line 216, in get_dataset
+<br />    if data_pars['type'] == "npz":
+<br />KeyError: 'type'
+
+
+
+### Error 18, [Traceback at line 10472](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10472)<br />10472..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//Autokeras.py", line 12, in <module>
+<br />    import autokeras as ak
+<br />ModuleNotFoundError: No module named 'autokeras'
+
+
+
+### Error 19, [Traceback at line 10515](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10515)<br />10515..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//namentity_crm_bilstm_dataloader.py", line 306, in <module>
+<br />    test_module(model_uri=MODEL_URI, param_pars=param_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/models.py", line 257, in test_module
+<br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras/namentity_crm_bilstm_dataloader.py", line 197, in get_params
+<br />    cf = json.load(open(data_path, mode="r"))
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader.json'
+
+
+
+### Error 20, [Traceback at line 10555](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L10555)<br />10555..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras//keras_gan.py", line 31, in <module>
+<br />    'AAE' : kg.aae.aae,
+<br />AttributeError: module 'mlmodels.model_keras.raw.keras_gan' has no attribute 'aae'
