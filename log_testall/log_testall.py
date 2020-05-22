@@ -255,3 +255,39 @@ Updating 24432c3..95e09d3
 Fast-forward
  error_list/20200522/list_log_pullrequest_20200522.md | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
+[master 91c8d5e] ml_store
+ 2 files changed, 114 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   95e09d3..91c8d5e  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pytorch_vae.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
+    "beta_vae": md.model.beta_vae,
+AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
