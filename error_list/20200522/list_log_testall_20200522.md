@@ -163,3 +163,26 @@
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/saved_model/loader_impl.py", line 83, in parse_saved_model
 <br />    constants.SAVED_MODEL_FILENAME_PB))
 <br />OSError: SavedModel file does not exist at: ztest/ml_keras/charcnn_zhang//model.h5/{saved_model.pbtxt|saved_model.pb}
+
+
+
+### Error 12, [Traceback at line 8457](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8457)<br />8457..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
+<br />    "beta_vae": md.model.beta_vae,
+<br />AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
+
+
+
+### Error 13, [Traceback at line 8493](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8493)<br />8493..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
+<br />    from dataloader import DataLoader
+<br />ModuleNotFoundError: No module named 'dataloader'
+
+
+
+### Error 14, [Traceback at line 8529](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8529)<br />8529..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+<br />    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/a463a24ea257f46bfcbd4006f805952aace8f2b1/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+<br />    cf = json.load(open(data_path, mode='r'))
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
