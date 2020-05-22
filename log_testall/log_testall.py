@@ -8219,3 +8219,102 @@ Fast-forward
  .../20200522/list_log_pullrequest_20200522.md      |  2 +-
  error_list/20200522/list_log_testall_20200522.md   | 30 ++++++++++++++++++++++
  2 files changed, 31 insertions(+), 1 deletion(-)
+[master 5691bb8] ml_store
+ 1 file changed, 324 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   235d56e..5691bb8  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_tch//transformer_sentence.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/29440 [00:00<?, ?it/s][A
+Iteration:   0%|          | 1/29440 [00:12<99:27:39, 12.16s/it][A
+Iteration:   0%|          | 2/29440 [01:40<286:12:44, 35.00s/it][A
+Iteration:   0%|          | 3/29440 [02:53<379:36:25, 46.42s/it][A
+Iteration:   0%|          | 4/29440 [03:33<364:21:50, 44.56s/it][A
+Iteration:   0%|          | 5/29440 [04:37<411:04:02, 50.27s/it][A
+Iteration:   0%|          | 6/29440 [05:56<482:09:21, 58.97s/it][A
+Iteration:   0%|          | 7/29440 [07:16<533:42:11, 65.28s/it][A
+Iteration:   0%|          | 8/29440 [09:11<655:15:07, 80.15s/it][A
+Iteration:   0%|          | 9/29440 [11:11<752:46:39, 92.08s/it][A
+Iteration:   0%|          | 10/29440 [15:40<1185:13:17, 144.98s/it][A
+Iteration:   0%|          | 11/29440 [16:30<952:36:44, 116.53s/it] [A
+Iteration:   0%|          | 12/29440 [18:38<982:14:15, 120.16s/it][A
+Iteration:   0%|          | 13/29440 [19:29<810:49:05, 99.19s/it] [A
+Iteration:   0%|          | 14/29440 [20:30<718:12:08, 87.87s/it][A
+Iteration:   0%|          | 15/29440 [23:17<910:49:52, 111.44s/it][A
+Iteration:   0%|          | 16/29440 [24:43<849:07:43, 103.89s/it][A
+Iteration:   0%|          | 17/29440 [25:39<731:53:08, 89.55s/it] [A
+Iteration:   0%|          | 18/29440 [28:16<896:35:32, 109.70s/it][A
+Iteration:   0%|          | 19/29440 [29:30<810:42:49, 99.20s/it] [A
+Iteration:   0%|          | 20/29440 [32:34<1017:02:25, 124.45s/it][A
+Iteration:   0%|          | 21/29440 [34:20<971:58:09, 118.94s/it] [A
+Iteration:   0%|          | 22/29440 [35:01<780:31:30, 95.52s/it] [A
+Iteration:   0%|          | 23/29440 [38:20<1036:04:32, 126.79s/it][A
+Iteration:   0%|          | 24/29440 [40:00<970:05:36, 118.72s/it] [A
+Iteration:   0%|          | 25/29440 [41:20<873:22:15, 106.89s/it][A
+Iteration:   0%|          | 26/29440 [42:18<755:27:44, 92.46s/it] [A
+Iteration:   0%|          | 27/29440 [42:47<599:19:22, 73.35s/it][A
+Iteration:   0%|          | 28/29440 [43:28<520:13:29, 63.67s/it][A
+Iteration:   0%|          | 29/29440 [45:39<685:51:07, 83.95s/it][A
+Iteration:   0%|          | 30/29440 [48:14<859:42:50, 105.24s/it][A
+Iteration:   0%|          | 31/29440 [51:03<1015:11:45, 124.27s/it][A
+Iteration:   0%|          | 32/29440 [52:07<866:02:23, 106.02s/it] [A
+Iteration:   0%|          | 33/29440 [52:50<712:39:59, 87.24s/it] [A
+Iteration:   0%|          | 34/29440 [53:40<621:48:49, 76.12s/it][A
+Iteration:   0%|          | 35/29440 [55:19<677:01:00, 82.89s/it][A
+Iteration:   0%|          | 36/29440 [56:07<590:55:57, 72.35s/it][A
+Iteration:   0%|          | 37/29440 [58:27<757:33:18, 92.75s/it][A
+Iteration:   0%|          | 38/29440 [59:12<639:53:50, 78.35s/it][A
+Iteration:   0%|          | 39/29440 [1:01:30<786:49:17, 96.34s/it][A
+Iteration:   0%|          | 40/29440 [1:04:19<965:27:37, 118.22s/it][A
+Iteration:   0%|          | 41/29440 [1:04:43<732:48:39, 89.74s/it] [A
+Iteration:   0%|          | 42/29440 [1:05:07<572:36:34, 70.12s/it][A
+Iteration:   0%|          | 43/29440 [1:06:17<573:49:40, 70.27s/it][A
+Iteration:   0%|          | 44/29440 [1:06:58<501:43:00, 61.44s/it][A
+Iteration:   0%|          | 45/29440 [1:09:33<730:33:13, 89.47s/it][A
+Iteration:   0%|          | 46/29440 [1:10:39<671:48:38, 82.28s/it][A
+Iteration:   0%|          | 47/29440 [1:12:29<739:30:42, 90.57s/it][AKilled
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+From github.com:arita37/mlmodels_store
+   5691bb8..6d747b8  master     -> origin/master
+Updating 5691bb8..6d747b8
+Fast-forward
+ deps.txt                                           |   6 +-
+ .../20200522/list_log_pullrequest_20200522.md      |   2 +-
+ ...-09_a463a24ea257f46bfcbd4006f805952aace8f2b1.py | 626 ++++++++++++++++++++
+ ...-10_a463a24ea257f46bfcbd4006f805952aace8f2b1.py | 658 +++++++++++++++++++++
+ 4 files changed, 1290 insertions(+), 2 deletions(-)
+ create mode 100644 log_pullrequest/log_pr_2020-05-22-13-09_a463a24ea257f46bfcbd4006f805952aace8f2b1.py
+ create mode 100644 log_pullrequest/log_pr_2020-05-22-14-10_a463a24ea257f46bfcbd4006f805952aace8f2b1.py
