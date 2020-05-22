@@ -162,3 +162,19 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_keras/01_deepctr.py", line 155, in __init__
 <br />    self.model = modeli(feature_columns, **MODEL_PARAMS[model_name])
 <br />TypeError: PNN() got an unexpected keyword argument 'embedding_size'
+
+
+
+### Error 12, [Traceback at line 9811](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L9811)<br />9811..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tch//transformer_classifier.py", line 522, in <module>
+<br />    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
+<br />    cf = json.load(open(data_path, mode='r'))
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
+
+
+
+### Error 13, [Traceback at line 9849](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L9849)<br />9849..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/51b64e342c7b2661e79b8abaa33db92672ae95c7/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
+<br />    from dataloader import DataLoader
+<br />ModuleNotFoundError: No module named 'dataloader'
