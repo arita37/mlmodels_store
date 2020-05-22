@@ -1,590 +1,341 @@
 ## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py
 
 
-### Error 1, [Traceback at line 91](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L91)<br />91..Traceback (most recent call last):
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/tabular/ml/trainer/abstract_trainer.py", line 360, in train_single_full
-<br />    Y_train=y_train, Y_test=y_test, scheduler_options=(self.scheduler_func, self.scheduler_options), verbosity=self.verbosity)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/tabular/ml/models/lgb/lgb_model.py", line 283, in hyperparameter_tune
-<br />    directory=directory, lgb_model=self, **params_copy)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/decorator.py", line 69, in register_args
-<br />    self.update(**kwvars)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/decorator.py", line 79, in update
-<br />    hp = v.get_hp(name=k)
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/core/space.py", line 451, in get_hp
-<br />    default_value=self._default)
-<br />  File "ConfigSpace/hyperparameters.pyx", line 773, in ConfigSpace.hyperparameters.UniformIntegerHyperparameter.__init__
-<br />  File "ConfigSpace/hyperparameters.pyx", line 843, in ConfigSpace.hyperparameters.UniformIntegerHyperparameter.check_default
-<br />ValueError: Illegal default value 36
-
-
-
-### Error 2, [Traceback at line 294](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L294)<br />294..Traceback (most recent call last):
-<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
-<br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/models.py", line 526, in main
-<br />    test_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/models.py", line 456, in test_cli
-<br />    test_module(arg.model_uri, param_pars=param_pars)  # '1_lstm'
-<br />  File "https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/models.py", line 257, in test_module
-<br />    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_gluon/gluon_automl.py", line 109, in get_params
-<br />    return model_pars, data_pars, compute_pars, out_pars
-<br />UnboundLocalError: local variable 'model_pars' referenced before assignment
-
-
-
-### Error 3, [Traceback at line 1160](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1160)<br />1160..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      8[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      9[0m [0;34m[0m[0m
-<br />[0;32m---> 10[0;31m [0mprint[0m[0;34m([0m [0mos[0m[0;34m.[0m[0mgetcwd[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m
-<br />[0;31mNameError[0m: name 'os' is not defined
+### Error 1, [Traceback at line 46](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L46)<br />46..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 450, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, reply['content'])
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />#### Install MLMODELS in Colab
+<br />%%capture
+<br />!  bash <(wget -qO- https://cutt.ly/mlmodels)
+<br />!pip install pydantic==1.4 --force
+<br />
+<br />### Restart Runtime AFTER Install
+<br />import os, time
+<br />os.kill(os.getpid(), 9)
+<br />------------------
 <br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 4, [Traceback at line 1176](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1176)<br />1176..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     73[0m         [0;31m# module    = import_module("mlmodels.model_tf.1_lstm")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py[0m in [0;36mimport_module[0;34m(name, package)[0m
-<br />[1;32m    125[0m             [0mlevel[0m [0;34m+=[0m [0;36m1[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m--> 126[0;31m     [0;32mreturn[0m [0m_bootstrap[0m[0;34m.[0m[0m_gcd_import[0m[0;34m([0m[0mname[0m[0;34m[[0m[0mlevel[0m[0;34m:[0m[0;34m][0m[0;34m,[0m [0mpackage[0m[0;34m,[0m [0mlevel[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    127[0m [0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_gcd_import[0;34m(name, package, level)[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load[0;34m(name, import_)[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load_unlocked[0;34m(name, import_)[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'mlmodels.model_sklearn.sklearn'
-<br />
-<br />During handling of the above exception, another exception occurred:
-<br />
-
-
-
-### Error 5, [Traceback at line 1197](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1197)<br />1197..[0;31mIndexError[0m                                Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     85[0m             [0;31m# print(model_name)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mIndexError[0m: tuple index out of range
-<br />
-<br />During handling of the above exception, another exception occurred:
-<br />
-
-
-
-### Error 6, [Traceback at line 1207](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1207)<br />1207..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      1[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mmodels[0m [0;32mimport[0m [0mmodule_load[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      2[0m [0;34m[0m[0m
-<br />[0;32m----> 3[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      4[0m [0mmodel[0m         [0;34m=[0m  [0mmodule[0m[0;34m.[0m[0mModel[0m[0;34m([0m[0mmodel_pars[0m[0;34m=[0m[0mmodel_pars[0m[0;34m,[0m [0mdata_pars[0m[0;34m=[0m[0mdata_pars[0m[0;34m,[0m [0mcompute_pars[0m[0;34m=[0m[0mcompute_pars[0m[0;34m)[0m             [0;31m# Create Model instance[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      5[0m [0mmodel[0m[0;34m,[0m [0msess[0m   [0;34m=[0m  [0mmodule[0m[0;34m.[0m[0mfit[0m[0;34m([0m[0mmodel[0m[0;34m,[0m [0mdata_pars[0m[0;34m=[0m[0mdata_pars[0m[0;34m,[0m [0mcompute_pars[0m[0;34m=[0m[0mcompute_pars[0m[0;34m,[0m [0mout_pars[0m[0;34m=[0m[0mout_pars[0m[0;34m)[0m          [0;31m# fit the model[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     87[0m [0;34m[0m[0m
-<br />[1;32m     88[0m         [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me2[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 89[0;31m             [0;32mraise[0m [0mNameError[0m[0;34m([0m[0;34mf"Module {model_name} notfound, {e1}, {e2}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     90[0m [0;34m[0m[0m
-<br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_home_retail.ipynb 
-<br />
-<br />Deprecaton set to False
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 7, [Traceback at line 1233](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1233)<br />1233..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      1[0m [0mdata_path[0m [0;34m=[0m [0;34m'hyper_lightgbm_home_retail.json'[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      2[0m [0;34m[0m[0m
-<br />[0;32m----> 3[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      4[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      5[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'hyper_lightgbm_home_retail.json'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vison_fashion_MNIST.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 8, [Traceback at line 1251](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1251)<br />1251..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//vison_fashion_MNIST.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//mnist_mlmodels_.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 9, [Traceback at line 1266](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1266)<br />1266..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//mnist_mlmodels_.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//keras_charcnn_reuters.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 10, [Traceback at line 1281](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1281)<br />1281..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mconfig_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mmodel_pars[0m      [0;34m=[0m [0mpath_norm_dict[0m[0;34m([0m [0mpars[0m[0;34m[[0m[0;34m'model_pars'[0m[0;34m][0m [0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      3[0m [0mdata_pars[0m       [0;34m=[0m [0mpath_norm_dict[0m[0;34m([0m [0mpars[0m[0;34m[[0m[0;34m'data_pars'[0m[0;34m][0m [0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      4[0m [0mcompute_pars[0m    [0;34m=[0m [0mpath_norm_dict[0m[0;34m([0m [0mpars[0m[0;34m[[0m[0;34m'compute_pars'[0m[0;34m][0m [0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      5[0m [0mout_pars[0m        [0;34m=[0m [0mpath_norm_dict[0m[0;34m([0m [0mpars[0m[0;34m[[0m[0;34m'out_pars'[0m[0;34m][0m [0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'reuters_charcnn.json'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//tensorflow__lstm_json.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 11, [Traceback at line 1299](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1299)<br />1299..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      5[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      6[0m [0;34m[0m[0m
-<br />[0;32m----> 7[0;31m [0mprint[0m[0;34m([0m [0mos[0m[0;34m.[0m[0mgetcwd[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m
-<br />[0;31mNameError[0m: name 'os' is not defined
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//tensorflow_1_lstm.ipynb 
-<br />
-<br />/home/runner/work/mlmodels/mlmodels
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-<br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
-<br />Instructions for updating:
-<br />non-resource variables are not supported in the long term
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />          0         1         2         3         4         5
-<br />0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-<br />1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-<br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-<br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-<br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />          0         1         2         3         4         5
-<br />0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-<br />1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-<br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-<br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-<br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
-<br />6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
-<br />7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
-<br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
-<br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-<br />test
-<br />
-<br />  #### Module init   ############################################ 
-<br />WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
-<br />Instructions for updating:
-<br />non-resource variables are not supported in the long term
-<br />
-<br />  <module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'> 
-<br />
-<br />  #### Loading params   ############################################## 
-<br />
-<br />  ############# Data, Params preparation   ################# 
-<br />
-<br />  #### Model init   ############################################ 
-<br />
-<br />  <mlmodels.model_tf.1_lstm.Model object at 0x7f127ca819e8> 
-<br />
-<br />  #### Fit   ######################################################## 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />          0         1         2         3         4         5
-<br />0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-<br />1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-<br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-<br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-<br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />
-<br />  #### Predict   #################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />          0         1         2         3         4         5
-<br />0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-<br />1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-<br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-<br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-<br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
-<br />6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
-<br />7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
-<br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
-<br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-<br />[[ 0.          0.          0.          0.          0.          0.        ]
-<br /> [ 0.15133244  0.05933547 -0.05320736  0.04452814  0.04251817  0.0734596 ]
-<br /> [-0.06147702  0.07839675 -0.04043624 -0.20941538 -0.13038447  0.21403019]
-<br /> [ 0.04386913  0.1800684   0.44488692  0.05423185  0.11182792  0.17470102]
-<br /> [-0.22959796  0.10426589  0.25868329  0.03994475  0.03219848  0.30151519]
-<br /> [-0.07632279  0.24884845  0.1741472  -0.20755182  0.03282016  0.18690975]
-<br /> [-0.56780517  0.28767392  0.90407634  0.22998625 -0.18638329 -0.47090808]
-<br /> [ 0.20653346  0.16490579  0.18010314 -0.07662384 -0.44649598  0.56727856]
-<br /> [ 0.62988609  0.27441457 -0.35819545 -0.17501149  0.22796017  0.57498878]
-<br /> [ 0.          0.          0.          0.          0.          0.        ]]
-<br />
-<br />  #### Get  metrics   ################################################ 
-<br />
-<br />  #### Save   ######################################################## 
-<br />
-<br />  #### Load   ######################################################## 
-<br />model_tf/1_lstm.py
-<br />model_tf.1_lstm.py
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'>
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'>
-<br />
-<br />  #### Loading params   ############################################## 
-<br />
-<br />  ############# Data, Params preparation   ################# 
-<br />
-<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/model'} 
-<br />
-<br />  #### Loading dataset   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />
-<br />  #### Model init  ############################################# 
-<br />
-<br />  #### Model fit   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />          0         1         2         3         4         5
-<br />0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-<br />1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-<br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-<br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-<br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />
-<br />  #### Predict   ##################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />          0         1         2         3         4         5
-<br />0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-<br />1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-<br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-<br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-<br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
-<br />6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
-<br />7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
-<br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
-<br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-<br />
-<br />  #### metrics   ##################################################### 
-<br />{'loss': 0.4921247884631157, 'loss_history': []}
-<br />
-<br />  #### Plot   ######################################################## 
-<br />
-<br />  #### Save   ######################################################## 
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/'}
-<br />Model saved in path: https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
-<br />
-<br />  #### Load   ######################################################## 
-<br />2020-05-22 08:53:52.373372: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/model'}
-<br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
-<br />
-<br />Key Variable not found in checkpoint
-<br />	 [[node save_1/RestoreV2 (defined at opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py:1748) ]]
-<br />
-<br />Original stack trace for 'save_1/RestoreV2':
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
-<br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 526, in main
-<br />    test_cli(arg)
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 458, in test_cli
-<br />    test(arg.model_uri)  # '1_lstm'
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 189, in test
-<br />    module.test()
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py", line 320, in test
-<br />    session = load(out_pars)
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py", line 199, in load
-<br />    return load_tf(load_pars)
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 474, in load_tf
-<br />    saver      = tf.compat.v1.train.Saver()
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 828, in __init__
-<br />    self.build()
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 840, in build
-<br />    self._build(self._filename, build_save=True, build_restore=True)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 878, in _build
-<br />    build_restore=build_restore)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 508, in _build_internal
-<br />    restore_sequentially, reshape)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 328, in _AddRestoreOps
-<br />    restore_sequentially)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 575, in bulk_restore
-<br />    return io_ops.restore_v2(filename_tensor, names, slices, dtypes)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_io_ops.py", line 1696, in restore_v2
-<br />    name=name)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
-<br />    op_def=op_def)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
-<br />    return func(*args, **kwargs)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
-<br />    attrs, op_def, compute_device)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
-<br />    op_def=op_def)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1748, in __init__
-<br />    self._traceback = tf_stack.extract_stack()
-<br />
-<br />model_tf/1_lstm.py
-<br />model_tf.1_lstm.py
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'>
-<br /><module 'mlmodels.model_tf.1_lstm' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_tf/1_lstm.py'>
-<br />
-<br />  #### Loading params   ############################################## 
-<br />
-<br />  ############# Data, Params preparation   ################# 
-<br />
-<br />  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/model'} 
-<br />
-<br />  #### Loading dataset   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />
-<br />  #### Model init  ############################################# 
-<br />
-<br />  #### Model fit   ############################################# 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />          0         1         2         3         4         5
-<br />0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-<br />1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-<br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-<br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-<br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />
-<br />  #### Predict   ##################################################### 
-<br />{'data_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/dataset/timeseries/GOOG-year.csv
-<br />         Date        Open        High  ...       Close   Adj Close   Volume
-<br />0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-<br />1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-<br />2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-<br />3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-<br />4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-<br />
-<br />[5 rows x 7 columns]
-<br />          0         1         2         3         4         5
-<br />0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-<br />1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-<br />2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-<br />3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-<br />4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-<br />5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
-<br />6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
-<br />7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
-<br />8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
-<br />9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-<br />
-<br />  #### metrics   ##################################################### 
-<br />{'loss': 0.4618277996778488, 'loss_history': []}
-<br />
-<br />  #### Plot   ######################################################## 
-<br />
-<br />  #### Save   ######################################################## 
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/'}
-<br />Model saved in path: https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
-<br />
-<br />  #### Load   ######################################################## 
-<br />2020-05-22 08:53:53.317977: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at save_restore_v2_ops.cc:184 : Not found: Key Variable not found in checkpoint
-<br />{'path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/', 'model_path': 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/ztest/model_tf/1_lstm/model'}
-<br />Failed Restoring from checkpoint failed. This is most likely due to a Variable name or other graph key that is missing from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
-<br />
-<br />Key Variable not found in checkpoint
-<br />	 [[node save_1/RestoreV2 (defined at opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py:1748) ]]
-<br />
-<br />Original stack trace for 'save_1/RestoreV2':
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
-<br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 526, in main
-<br />    test_cli(arg)
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 460, in test_cli
-<br />    test_global(arg.model_uri)  # '1_lstm'
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 200, in test_global
-<br />    module.test()
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py", line 320, in test
-<br />    session = load(out_pars)
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py", line 199, in load
-<br />    return load_tf(load_pars)
-<br />  File "home/runner/work/mlmodels/mlmodels/mlmodels/util.py", line 474, in load_tf
-<br />    saver      = tf.compat.v1.train.Saver()
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 828, in __init__
-<br />    self.build()
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 840, in build
-<br />    self._build(self._filename, build_save=True, build_restore=True)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 878, in _build
-<br />    build_restore=build_restore)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 508, in _build_internal
-<br />    restore_sequentially, reshape)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 328, in _AddRestoreOps
-<br />    restore_sequentially)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py", line 575, in bulk_restore
-<br />    return io_ops.restore_v2(filename_tensor, names, slices, dtypes)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_io_ops.py", line 1696, in restore_v2
-<br />    name=name)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
-<br />    op_def=op_def)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
-<br />    return func(*args, **kwargs)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
-<br />    attrs, op_def, compute_device)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
-<br />    op_def=op_def)
-<br />  File "opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1748, in __init__
-<br />    self._traceback = tf_stack.extract_stack()
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//timeseries_m5_deepar.ipynb 
 <br />
 <br />UsageError: Line magic function `%%capture` not found.
 
 
 
-### Error 12, [Traceback at line 1693](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1693)<br />1693..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+### Error 2, [Traceback at line 93](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L93)<br />93..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 403, in preprocess
+<br />    with self.setup_preprocessor(nb, resources, km=km):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/contextlib.py", line 81, in __enter__
+<br />    return next(self.gen)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 345, in setup_preprocessor
+<br />    self.km, self.kc = self.start_new_kernel(**kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 291, in start_new_kernel
+<br />    km.start_kernel(extra_arguments=self.extra_arguments, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 301, in start_kernel
+<br />    kernel_cmd, kw = self.pre_start_kernel(**kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 254, in pre_start_kernel
+<br />    kernel_cmd = self.format_kernel_cmd(extra_arguments=extra_arguments)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 178, in format_kernel_cmd
+<br />    cmd = self.kernel_spec.argv + extra_arguments
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 84, in kernel_spec
+<br />    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/kernelspec.py", line 235, in get_kernel_spec
+<br />    raise NoSuchKernel(kernel_name)
+<br />jupyter_client.kernelspec.NoSuchKernel: No such kernel named mlmodels
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vison_fashion_MNIST.ipynb 
+<br />
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//vison_fashion_MNIST.ipynb to html
+<br />[NbConvertApp] Executing notebook with kernel: python3
+<br />[NbConvertApp] ERROR | Error while converting 'https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//vison_fashion_MNIST.ipynb'
+
+
+
+### Error 3, [Traceback at line 152](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L152)<br />152..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from google.colab import drive
+<br />drive.mount('/content/drive')
+<br />------------------
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 4, [Traceback at line 182](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L182)<br />182..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m<ipython-input-1-d5df0069828e>[0m in [0;36m<module>[0;34m[0m
+<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
+<br />ModuleNotFoundError: No module named 'google.colab'
+
+
+
+### Error 5, [Traceback at line 201](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L201)<br />201..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from google.colab import drive
+<br />drive.mount('/content/drive')
+<br />------------------
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 6, [Traceback at line 231](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L231)<br />231..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m<ipython-input-1-d5df0069828e>[0m in [0;36m<module>[0;34m[0m
+<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
+<br />ModuleNotFoundError: No module named 'google.colab'
+
+
+
+### Error 7, [Traceback at line 250](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L250)<br />250..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from google.colab import drive
+<br />drive.mount('/content/drive')
+<br />------------------
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 8, [Traceback at line 280](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L280)<br />280..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m<ipython-input-1-d5df0069828e>[0m in [0;36m<module>[0;34m[0m
+<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
+<br />ModuleNotFoundError: No module named 'google.colab'
+
+
+
+### Error 9, [Traceback at line 297](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L297)<br />297..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 403, in preprocess
+<br />    with self.setup_preprocessor(nb, resources, km=km):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/contextlib.py", line 81, in __enter__
+<br />    return next(self.gen)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 345, in setup_preprocessor
+<br />    self.km, self.kc = self.start_new_kernel(**kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 291, in start_new_kernel
+<br />    km.start_kernel(extra_arguments=self.extra_arguments, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 301, in start_kernel
+<br />    kernel_cmd, kw = self.pre_start_kernel(**kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 254, in pre_start_kernel
+<br />    kernel_cmd = self.format_kernel_cmd(extra_arguments=extra_arguments)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 178, in format_kernel_cmd
+<br />    cmd = self.kernel_spec.argv + extra_arguments
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 84, in kernel_spec
+<br />    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/kernelspec.py", line 235, in get_kernel_spec
+<br />    raise NoSuchKernel(kernel_name)
+<br />jupyter_client.kernelspec.NoSuchKernel: No such kernel named conda-env-mlmodels2-py
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest.ipynb 
+<br />
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//sklearn_titanic_randomForest.ipynb to html
+<br />[NbConvertApp] Executing notebook with kernel: python3
+<br />[NbConvertApp] ERROR | Error while converting 'https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//sklearn_titanic_randomForest.ipynb'
+
+
+
+### Error 10, [Traceback at line 356](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L356)<br />356..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from mlmodels.models import module_load
+<br />
+<br />model_uri    = "model_sklearn.sklearn.py"
+<br />module        =  module_load( model_uri= model_uri )                           # Load file definition
+<br />
+<br />model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars={
+<br />    'choice':'json',
+<br />    'config_mode':'test',
+<br />    'data_path':'../mlmodels/dataset/json/sklearn_titanic_randomForest.json'
+<br />})
+<br />------------------
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 11, [Traceback at line 394](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L394)<br />394..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
 <br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 <br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
@@ -608,7 +359,7 @@
 
 
 
-### Error 13, [Traceback at line 1714](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1714)<br />1714..[0;31mIndexError[0m                                Traceback (most recent call last)
+### Error 12, [Traceback at line 415](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L415)<br />415..[0;31mIndexError[0m                                Traceback (most recent call last)
 <br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
 <br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
 <br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
@@ -621,153 +372,8 @@
 
 
 
-### Error 14, [Traceback at line 1724](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1724)<br />1724..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_svm.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      3[0m [0;34m[0m[0m
-<br />[1;32m      4[0m [0mmodel_uri[0m    [0;34m=[0m [0;34m"model_sklearn.sklearn.py"[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m----> 5[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      6[0m [0;34m[0m[0m
-<br />[1;32m      7[0m model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars={
-<br />
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     87[0m [0;34m[0m[0m
-<br />[1;32m     88[0m         [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me2[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 89[0;31m             [0;32mraise[0m [0mNameError[0m[0;34m([0m[0;34mf"Module {model_name} notfound, {e1}, {e2}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     90[0m [0;34m[0m[0m
-<br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vision_mnist.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 15, [Traceback at line 1749](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1749)<br />1749..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//vision_mnist.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_titanic.ipynb 
-<br />
-<br />Deprecaton set to False
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 16, [Traceback at line 1765](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1765)<br />1765..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      1[0m [0mdata_path[0m [0;34m=[0m [0;34m'hyper_lightgbm_titanic.json'[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      2[0m [0;34m[0m[0m
-<br />[0;32m----> 3[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      4[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      5[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'hyper_lightgbm_titanic.json'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//fashion_MNIST_mlmodels.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 17, [Traceback at line 1783](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1783)<br />1783..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//fashion_MNIST_mlmodels.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb 
-<br />
-<br />Deprecaton set to False
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 18, [Traceback at line 1799](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1799)<br />1799..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      3[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      4[0m [0mdata_path[0m [0;34m=[0m [0;34m'../mlmodels/dataset/json/hyper_titanic_randomForest.json'[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m----> 5[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      6[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      7[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../mlmodels/dataset/json/hyper_titanic_randomForest.json'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest.ipynb 
-<br />
-<br />[0;31m---------------------------------------------------------------------------[0m
-
-
-
-### Error 19, [Traceback at line 1817](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1817)<br />1817..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     73[0m         [0;31m# module    = import_module("mlmodels.model_tf.1_lstm")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py[0m in [0;36mimport_module[0;34m(name, package)[0m
-<br />[1;32m    125[0m             [0mlevel[0m [0;34m+=[0m [0;36m1[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m--> 126[0;31m     [0;32mreturn[0m [0m_bootstrap[0m[0;34m.[0m[0m_gcd_import[0m[0;34m([0m[0mname[0m[0;34m[[0m[0mlevel[0m[0;34m:[0m[0;34m][0m[0;34m,[0m [0mpackage[0m[0;34m,[0m [0mlevel[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    127[0m [0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_gcd_import[0;34m(name, package, level)[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load[0;34m(name, import_)[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load_unlocked[0;34m(name, import_)[0m
-<br />
-<br />[0;31mModuleNotFoundError[0m: No module named 'mlmodels.model_sklearn.sklearn'
-<br />
-<br />During handling of the above exception, another exception occurred:
-<br />
-
-
-
-### Error 20, [Traceback at line 1838](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1838)<br />1838..[0;31mIndexError[0m                                Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
-<br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     85[0m             [0;31m# print(model_name)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;31mIndexError[0m: tuple index out of range
-<br />
-<br />During handling of the above exception, another exception occurred:
-<br />
-
-
-
-### Error 21, [Traceback at line 1848](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1848)<br />1848..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest.ipynb[0m in [0;36m<module>[0;34m[0m
+### Error 13, [Traceback at line 425](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L425)<br />425..[0;31mNameError[0m                                 Traceback (most recent call last)
+<br />[0;32m<ipython-input-2-41f4efe8d631>[0m in [0;36m<module>[0;34m[0m
 <br />[1;32m      2[0m [0;34m[0m[0m
 <br />[1;32m      3[0m [0mmodel_uri[0m    [0;34m=[0m [0;34m"model_sklearn.sklearn.py"[0m[0;34m[0m[0;34m[0m[0m
 <br />[0;32m----> 4[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
@@ -782,20 +388,602 @@
 <br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 <br />
 <br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+<br />NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+
+
+
+### Error 14, [Traceback at line 454](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L454)<br />454..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from mlmodels.models import module_load
+<br />from mlmodels.optim import optim
+<br />import json
+<br />data_path = '../mlmodels/dataset/json/hyper_titanic_randomForest.json'  
+<br />pars = json.load(open( data_path , mode='r'))
+<br />for key, pdict in  pars.items() :
+<br />  globals()[key] = pdict   
+<br />
+<br />hypermodel_pars = test['hypermodel_pars']
+<br />model_pars      = test['model_pars']
+<br />data_pars       = test['data_pars']
+<br />compute_pars    = test['compute_pars']
+<br />out_pars        = test['out_pars']
+<br />
+<br />model_uri    = "model_sklearn.sklearn.py"
+<br />module        =  module_load( model_uri= model_uri )                           # Load file definition
+<br />
+<br />model_pars_update = optim(
+<br />    model_uri       = model_uri,
+<br />    hypermodel_pars = hypermodel_pars,
+<br />    model_pars      = model_pars,
+<br />    data_pars       = data_pars,
+<br />    compute_pars    = compute_pars,
+<br />    out_pars        = out_pars
+<br />)
+<br />------------------
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 15, [Traceback at line 507](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L507)<br />507..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+<br />[0;32m<ipython-input-2-4bbd5c2b0e99>[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      3[0m [0;32mimport[0m [0mjson[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      4[0m [0mdata_path[0m [0;34m=[0m [0;34m'../mlmodels/dataset/json/hyper_titanic_randomForest.json'[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m----> 5[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      6[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      7[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../mlmodels/dataset/json/hyper_titanic_randomForest.json'
+<br />FileNotFoundError: [Errno 2] No such file or directory: '../mlmodels/dataset/json/hyper_titanic_randomForest.json'
+
+
+
+### Error 16, [Traceback at line 527](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L527)<br />527..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 403, in preprocess
+<br />    with self.setup_preprocessor(nb, resources, km=km):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/contextlib.py", line 81, in __enter__
+<br />    return next(self.gen)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 345, in setup_preprocessor
+<br />    self.km, self.kc = self.start_new_kernel(**kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 291, in start_new_kernel
+<br />    km.start_kernel(extra_arguments=self.extra_arguments, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 301, in start_kernel
+<br />    kernel_cmd, kw = self.pre_start_kernel(**kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 254, in pre_start_kernel
+<br />    kernel_cmd = self.format_kernel_cmd(extra_arguments=extra_arguments)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 178, in format_kernel_cmd
+<br />    cmd = self.kernel_spec.argv + extra_arguments
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 84, in kernel_spec
+<br />    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/kernelspec.py", line 235, in get_kernel_spec
+<br />    raise NoSuchKernel(kernel_name)
+<br />jupyter_client.kernelspec.NoSuchKernel: No such kernel named conda-env-mlmodels2-py
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//gluon_automl_titanic.ipynb 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_titanic.ipynb 
+<br />
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//lightgbm_titanic.ipynb to html
+
+
+
+### Error 17, [Traceback at line 584](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L584)<br />584..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 403, in preprocess
+<br />    with self.setup_preprocessor(nb, resources, km=km):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/contextlib.py", line 81, in __enter__
+<br />    return next(self.gen)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 345, in setup_preprocessor
+<br />    self.km, self.kc = self.start_new_kernel(**kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 291, in start_new_kernel
+<br />    km.start_kernel(extra_arguments=self.extra_arguments, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 301, in start_kernel
+<br />    kernel_cmd, kw = self.pre_start_kernel(**kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 254, in pre_start_kernel
+<br />    kernel_cmd = self.format_kernel_cmd(extra_arguments=extra_arguments)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 178, in format_kernel_cmd
+<br />    cmd = self.kernel_spec.argv + extra_arguments
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 84, in kernel_spec
+<br />    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/kernelspec.py", line 235, in get_kernel_spec
+<br />    raise NoSuchKernel(kernel_name)
+<br />jupyter_client.kernelspec.NoSuchKernel: No such kernel named mlmodels
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//mnist_mlmodels_.ipynb 
+<br />
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//mnist_mlmodels_.ipynb to html
+<br />[NbConvertApp] Executing notebook with kernel: python3
+<br />[NbConvertApp] ERROR | Error while converting 'https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//mnist_mlmodels_.ipynb'
+
+
+
+### Error 18, [Traceback at line 643](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L643)<br />643..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from google.colab import drive
+<br />drive.mount('/content/drive')
+<br />------------------
 <br />
 <br />[0;31m---------------------------------------------------------------------------[0m
 
 
 
-### Error 22, [Traceback at line 1873](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1873)<br />1873..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//gluon_automl_titanic.ipynb[0m in [0;36m<module>[0;34m[0m
+### Error 19, [Traceback at line 673](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L673)<br />673..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m<ipython-input-1-d5df0069828e>[0m in [0;36m<module>[0;34m[0m
+<br />[0;32m----> 1[0;31m [0;32mfrom[0m [0mgoogle[0m[0;34m.[0m[0mcolab[0m [0;32mimport[0m [0mdrive[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      2[0m [0mdrive[0m[0;34m.[0m[0mmount[0m[0;34m([0m[0;34m'/content/drive'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'google.colab'
+<br />ModuleNotFoundError: No module named 'google.colab'
+
+
+
+### Error 20, [Traceback at line 692](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L692)<br />692..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from mlmodels.models import module_load
+<br />from mlmodels.util import load_config
+<br />
+<br />model_uri    = "model_sklearn.sklearn.py"
+<br />module        =  module_load( model_uri= model_uri )                           # Load file definition
+<br />
+<br />model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars={
+<br />    'choice':'json',
+<br />    'config_mode':'test',
+<br />    'data_path':'../mlmodels/dataset/json/sklearn_titanic_svm.json'
+<br />})
+<br />------------------
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 21, [Traceback at line 731](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L731)<br />731..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     73[0m         [0;31m# module    = import_module("mlmodels.model_tf.1_lstm")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py[0m in [0;36mimport_module[0;34m(name, package)[0m
+<br />[1;32m    125[0m             [0mlevel[0m [0;34m+=[0m [0;36m1[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m--> 126[0;31m     [0;32mreturn[0m [0m_bootstrap[0m[0;34m.[0m[0m_gcd_import[0m[0;34m([0m[0mname[0m[0;34m[[0m[0mlevel[0m[0;34m:[0m[0;34m][0m[0;34m,[0m [0mpackage[0m[0;34m,[0m [0mlevel[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m    127[0m [0;34m[0m[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_gcd_import[0;34m(name, package, level)[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load[0;34m(name, import_)[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load_unlocked[0;34m(name, import_)[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'mlmodels.model_sklearn.sklearn'
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 22, [Traceback at line 752](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L752)<br />752..[0;31mIndexError[0m                                Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     85[0m             [0;31m# print(model_name)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mIndexError[0m: tuple index out of range
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 23, [Traceback at line 762](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L762)<br />762..[0;31mNameError[0m                                 Traceback (most recent call last)
+<br />[0;32m<ipython-input-2-779dc93e4a41>[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      3[0m [0;34m[0m[0m
+<br />[1;32m      4[0m [0mmodel_uri[0m    [0;34m=[0m [0;34m"model_sklearn.sklearn.py"[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m----> 5[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      6[0m [0;34m[0m[0m
+<br />[1;32m      7[0m model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars={
+<br />
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     87[0m [0;34m[0m[0m
+<br />[1;32m     88[0m         [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me2[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 89[0;31m             [0;32mraise[0m [0mNameError[0m[0;34m([0m[0;34mf"Module {model_name} notfound, {e1}, {e2}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     90[0m [0;34m[0m[0m
+<br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+<br />NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+
+
+
+### Error 24, [Traceback at line 789](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L789)<br />789..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 403, in preprocess
+<br />    with self.setup_preprocessor(nb, resources, km=km):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/contextlib.py", line 81, in __enter__
+<br />    return next(self.gen)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 345, in setup_preprocessor
+<br />    self.km, self.kc = self.start_new_kernel(**kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 291, in start_new_kernel
+<br />    km.start_kernel(extra_arguments=self.extra_arguments, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 301, in start_kernel
+<br />    kernel_cmd, kw = self.pre_start_kernel(**kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 254, in pre_start_kernel
+<br />    kernel_cmd = self.format_kernel_cmd(extra_arguments=extra_arguments)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 178, in format_kernel_cmd
+<br />    cmd = self.kernel_spec.argv + extra_arguments
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 84, in kernel_spec
+<br />    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/kernelspec.py", line 235, in get_kernel_spec
+<br />    raise NoSuchKernel(kernel_name)
+<br />jupyter_client.kernelspec.NoSuchKernel: No such kernel named mlmodels
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.ipynb 
+<br />
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//lightgbm_glass.ipynb to html
+
+
+
+### Error 25, [Traceback at line 846](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L846)<br />846..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 403, in preprocess
+<br />    with self.setup_preprocessor(nb, resources, km=km):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/contextlib.py", line 81, in __enter__
+<br />    return next(self.gen)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 345, in setup_preprocessor
+<br />    self.km, self.kc = self.start_new_kernel(**kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 291, in start_new_kernel
+<br />    km.start_kernel(extra_arguments=self.extra_arguments, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 301, in start_kernel
+<br />    kernel_cmd, kw = self.pre_start_kernel(**kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 254, in pre_start_kernel
+<br />    kernel_cmd = self.format_kernel_cmd(extra_arguments=extra_arguments)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 178, in format_kernel_cmd
+<br />    cmd = self.kernel_spec.argv + extra_arguments
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 84, in kernel_spec
+<br />    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/kernelspec.py", line 235, in get_kernel_spec
+<br />    raise NoSuchKernel(kernel_name)
+<br />jupyter_client.kernelspec.NoSuchKernel: No such kernel named conda-env-mlmodels2-py
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> ************************************************************************************************************************
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn.ipynb 
+<br />
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//sklearn.ipynb to html
+<br />[NbConvertApp] Executing notebook with kernel: python3
+<br />[NbConvertApp] ERROR | Error while converting 'https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//sklearn.ipynb'
+
+
+
+### Error 26, [Traceback at line 905](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L905)<br />905..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from mlmodels.models import module_load
+<br />
+<br />module        =  module_load( model_uri= model_uri )                           # Load file definition
+<br />model         =  module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars)             # Create Model instance
+<br />model, sess   =  module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)          # fit the model
+<br />------------------
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 27, [Traceback at line 938](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L938)<br />938..[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     71[0m         [0mmodel_name[0m [0;34m=[0m [0mmodel_uri[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m".py"[0m[0;34m,[0m [0;34m""[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 72[0;31m         [0mmodule[0m [0;34m=[0m [0mimport_module[0m[0;34m([0m[0;34mf"mlmodels.{model_name}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     73[0m         [0;31m# module    = import_module("mlmodels.model_tf.1_lstm")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py[0m in [0;36mimport_module[0;34m(name, package)[0m
+<br />[1;32m    125[0m             [0mlevel[0m [0;34m+=[0m [0;36m1[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m--> 126[0;31m     [0;32mreturn[0m [0m_bootstrap[0m[0;34m.[0m[0m_gcd_import[0m[0;34m([0m[0mname[0m[0;34m[[0m[0mlevel[0m[0;34m:[0m[0;34m][0m[0;34m,[0m [0mpackage[0m[0;34m,[0m [0mlevel[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m    127[0m [0;34m[0m[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_gcd_import[0;34m(name, package, level)[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load[0;34m(name, import_)[0m
+<br />
+<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/_bootstrap.py[0m in [0;36m_find_and_load_unlocked[0;34m(name, import_)[0m
+<br />
+<br />[0;31mModuleNotFoundError[0m: No module named 'mlmodels.model_sklearn.sklearn'
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 28, [Traceback at line 959](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L959)<br />959..[0;31mIndexError[0m                                Traceback (most recent call last)
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     83[0m             [0mmodel_name[0m [0;34m=[0m [0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mstem[0m  [0;31m# remove .py[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 84[0;31m             [0mmodel_name[0m [0;34m=[0m [0mstr[0m[0;34m([0m[0mPath[0m[0;34m([0m[0mmodel_uri[0m[0;34m)[0m[0;34m.[0m[0mparts[0m[0;34m[[0m[0;34m-[0m[0;36m2[0m[0;34m][0m[0;34m)[0m [0;34m+[0m [0;34m"."[0m [0;34m+[0m [0mstr[0m[0;34m([0m[0mmodel_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     85[0m             [0;31m# print(model_name)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mIndexError[0m: tuple index out of range
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 29, [Traceback at line 969](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L969)<br />969..[0;31mNameError[0m                                 Traceback (most recent call last)
+<br />[0;32m<ipython-input-3-6f4d82b0f29f>[0m in [0;36m<module>[0;34m[0m
+<br />[1;32m      1[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mmodels[0m [0;32mimport[0m [0mmodule_load[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      2[0m [0;34m[0m[0m
+<br />[0;32m----> 3[0;31m [0mmodule[0m        [0;34m=[0m  [0mmodule_load[0m[0;34m([0m [0mmodel_uri[0m[0;34m=[0m [0mmodel_uri[0m [0;34m)[0m                           [0;31m# Load file definition[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m      4[0m [0mmodel[0m         [0;34m=[0m  [0mmodule[0m[0;34m.[0m[0mModel[0m[0;34m([0m[0mmodel_pars[0m[0;34m=[0m[0mmodel_pars[0m[0;34m,[0m [0mdata_pars[0m[0;34m=[0m[0mdata_pars[0m[0;34m,[0m [0mcompute_pars[0m[0;34m=[0m[0mcompute_pars[0m[0;34m)[0m             [0;31m# Create Model instance[0m[0;34m[0m[0;34m[0m[0m
+<br />[1;32m      5[0m [0mmodel[0m[0;34m,[0m [0msess[0m   [0;34m=[0m  [0mmodule[0m[0;34m.[0m[0mfit[0m[0;34m([0m[0mmodel[0m[0;34m,[0m [0mdata_pars[0m[0;34m=[0m[0mdata_pars[0m[0;34m,[0m [0mcompute_pars[0m[0;34m=[0m[0mcompute_pars[0m[0;34m,[0m [0mout_pars[0m[0;34m=[0m[0mout_pars[0m[0;34m)[0m          [0;31m# fit the model[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/models.py[0m in [0;36mmodule_load[0;34m(model_uri, verbose, env_build)[0m
+<br />[1;32m     87[0m [0;34m[0m[0m
+<br />[1;32m     88[0m         [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me2[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+<br />[0;32m---> 89[0;31m             [0;32mraise[0m [0mNameError[0m[0;34m([0m[0;34mf"Module {model_name} notfound, {e1}, {e2}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />[0m[1;32m     90[0m [0;34m[0m[0m
+<br />[1;32m     91[0m     [0;32mif[0m [0mverbose[0m[0;34m:[0m [0mprint[0m[0;34m([0m[0mmodule[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+<br />
+<br />[0;31mNameError[0m: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+<br />NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+
+
+
+### Error 30, [Traceback at line 998](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L998)<br />998..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+<br />    raise CellExecutionError.from_cell_and_msg(cell, out)
+<br />nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+<br />------------------
+<br />from mlmodels.models import module_load
+<br />from mlmodels.util import load_config
+<br />
+<br />model_uri    = "model_gluon.gluon_automl.py"
+<br />module        =  module_load( model_uri= model_uri )                           # Load file definition
+<br />
+<br />model_pars, data_pars, compute_pars, out_pars = module.get_params(
+<br />    choice='json',
+<br />    config_mode= 'test',
+<br />    data_path= '../mlmodels/dataset/json/gluon_automl.json'
+<br />)
+<br />------------------
+<br />
+<br />[0;31m---------------------------------------------------------------------------[0m
+
+
+
+### Error 31, [Traceback at line 1037](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1037)<br />1037..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+<br />[0;32m<ipython-input-2-f529147a19d9>[0m in [0;36m<module>[0;34m[0m
 <br />[1;32m      8[0m     [0mchoice[0m[0;34m=[0m[0;34m'json'[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 <br />[1;32m      9[0m     [0mconfig_mode[0m[0;34m=[0m [0;34m'test'[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 <br />[0;32m---> 10[0;31m     [0mdata_path[0m[0;34m=[0m [0;34m'../mlmodels/dataset/json/gluon_automl.json'[0m[0;34m[0m[0;34m[0m[0m
@@ -809,242 +997,595 @@
 <br />[1;32m     84[0m             [0mconfig[0m [0;34m=[0m [0mconfig[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
 <br />
 <br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../mlmodels/dataset/json/gluon_automl.json'
-<br />/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/optimizer/optimizer.py:167: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
-<br />  Optimizer.opt_registry[name].__name__))
+<br />FileNotFoundError: [Errno 2] No such file or directory: '../mlmodels/dataset/json/gluon_automl.json'
+
+
+
+### Error 32, [Traceback at line 1063](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1063)<br />1063..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 403, in preprocess
+<br />    with self.setup_preprocessor(nb, resources, km=km):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/contextlib.py", line 81, in __enter__
+<br />    return next(self.gen)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 345, in setup_preprocessor
+<br />    self.km, self.kc = self.start_new_kernel(**kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 291, in start_new_kernel
+<br />    km.start_kernel(extra_arguments=self.extra_arguments, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 301, in start_kernel
+<br />    kernel_cmd, kw = self.pre_start_kernel(**kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 254, in pre_start_kernel
+<br />    kernel_cmd = self.format_kernel_cmd(extra_arguments=extra_arguments)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 178, in format_kernel_cmd
+<br />    cmd = self.kernel_spec.argv + extra_arguments
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/manager.py", line 84, in kernel_spec
+<br />    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_client/kernelspec.py", line 235, in get_kernel_spec
+<br />    raise NoSuchKernel(kernel_name)
+<br />jupyter_client.kernelspec.NoSuchKernel: No such kernel named myenv
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm.ipynb 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//keras-textcnn.ipynb 
 <br />
-<br />[0;31m---------------------------------------------------------------------------[0m
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//keras-textcnn.ipynb to html
+<br />[NbConvertApp] Executing notebook with kernel: python3
+<br />2020-05-22 09:10:25.280870: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+<br />2020-05-22 09:10:25.284993: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2397220000 Hz
+<br />2020-05-22 09:10:25.285169: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f88184eb60 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+<br />2020-05-22 09:10:25.285187: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+<br />[NbConvertApp] ERROR | Timeout waiting for execute reply (30s).
 
 
 
-### Error 23, [Traceback at line 1899](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1899)<br />1899..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example//lightgbm.ipynb[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      4[0m [0mdata_path[0m [0;34m=[0m [0;34m'lightgbm_titanic.json'[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      5[0m [0;34m[0m[0m
-<br />[0;32m----> 6[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mdata_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      7[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      8[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpdict[0m[0;34m[0m[0;34m[0m[0m
+### Error 33, [Traceback at line 1126](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1126)<br />1126..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 438, in preprocess_cell
+<br />    reply, outputs = self.run_cell(cell, cell_index, store_history)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 571, in run_cell
+<br />    if self._passed_deadline(deadline):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 541, in _passed_deadline
+<br />    self._handle_timeout()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 504, in _handle_timeout
+<br />    raise TimeoutError("Cell execution timed out")
+<br />TimeoutError: Cell execution timed out
+
+
+
+### Error 34, [Traceback at line 1179](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1179)<br />1179..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 95, in from_notebook_node
+<br />    return super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 307, in from_notebook_node
+<br />    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+<br />    nb_copy, resources = self._preprocess(nb_copy, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+<br />    nbc, resc = preprocessor(nbc, resc)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+<br />    return self.preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+<br />    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+<br />    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 438, in preprocess_cell
+<br />    reply, outputs = self.run_cell(cell, cell_index, store_history)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 571, in run_cell
+<br />    if self._passed_deadline(deadline):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 541, in _passed_deadline
+<br />    self._handle_timeout()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 504, in _handle_timeout
+<br />    raise TimeoutError("Cell execution timed out")
+<br />TimeoutError: Cell execution timed out
+
+
+
+### Error 35, [Traceback at line 1230](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1230)<br />1230..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+<br />    nb_dict = json.loads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/__init__.py", line 354, in loads
+<br />    return _default_decoder.decode(s)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 339, in decode
+<br />    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 357, in raw_decode
+<br />    raise JSONDecodeError("Expecting value", s, err.value) from None
+<br />json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
 <br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'lightgbm_titanic.json'
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 36, [Traceback at line 1243](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1243)<br />1243..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 143, in read
+<br />    return reads(buf, as_version, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 73, in reads
+<br />    nb = reader.reads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+<br />    nb_dict = parse_json(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+<br />    raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+<br />nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '\n# import library\nimport json\nimport...
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_model.py 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vision_mnist.py 
 <br />
-<br /><module 'mlmodels' from 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/__init__.py'>
-<br />https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_keras/ardmn.json
-<br />[0;31m---------------------------------------------------------------------------[0m
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//vision_mnist.py to html
 
 
 
-### Error 24, [Traceback at line 1919](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1919)<br />1919..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/arun_model.py[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m     25[0m [0;31m# Model Parameters[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m     26[0m [0;31m# model_pars, data_pars, compute_pars, out_pars[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m---> 27[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m[0mconfig_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     28[0m [0;32mfor[0m [0mkey[0m[0;34m,[0m [0mpdict[0m [0;32min[0m  [0mpars[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m [0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m     29[0m   [0mglobals[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0mkey[0m[0;34m][0m [0;34m=[0m [0mpath_norm_dict[0m[0;34m([0m [0mpdict[0m   [0;34m)[0m   [0;31m###Normalize path[0m[0;34m[0m[0;34m[0m[0m
+### Error 37, [Traceback at line 1280](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1280)<br />1280..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+<br />    nb_dict = json.loads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/__init__.py", line 354, in loads
+<br />    return _default_decoder.decode(s)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 339, in decode
+<br />    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 357, in raw_decode
+<br />    raise JSONDecodeError("Expecting value", s, err.value) from None
+<br />json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 <br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/model_keras/ardmn.json'
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 38, [Traceback at line 1293](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1293)<br />1293..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 143, in read
+<br />    return reads(buf, as_version, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 73, in reads
+<br />    nb = reader.reads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+<br />    nb_dict = parse_json(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+<br />    raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+<br />nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '# -*- coding: utf-8 -*-\n"""mnist mlmod...
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vision_mnist.py 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeseries_m5.py 
 <br />
-<br />[0;36m  File [0;32m"https://github.com/arita37/mlmodels/tree/6cac74dfa76a4a815c2d5b8c43b2b7cd78357136/mlmodels/example/vision_mnist.py"[0;36m, line [0;32m15[0m
-<br />[0;31m    !git clone https://github.com/ahmed3bbas/mlmodels.git[0m
-<br />[0m    ^[0m
-<br />[0;31mSyntaxError[0m[0;31m:[0m invalid syntax
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//benchmark_timeseries_m5.py to html
+
+
+
+### Error 39, [Traceback at line 1330](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1330)<br />1330..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+<br />    nb_dict = json.loads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/__init__.py", line 354, in loads
+<br />    return _default_decoder.decode(s)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 342, in decode
+<br />    raise JSONDecodeError("Extra data", s, end)
+<br />json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)
 <br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 40, [Traceback at line 1341](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1341)<br />1341..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 143, in read
+<br />    return reads(buf, as_version, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 73, in reads
+<br />    nb = reader.reads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+<br />    nb_dict = parse_json(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+<br />    raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+<br />nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '"""\nM5 Forecasting Competition GluonTS...
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeseries_m5.py 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m5.py 
 <br />
-<br />[0;31m---------------------------------------------------------------------------[0m
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example/benchmark_timeseries_m5.py to html
 
 
 
-### Error 25, [Traceback at line 1950](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1950)<br />1950..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/benchmark_timeseries_m5.py[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m     84[0m [0;34m[0m[0m
-<br />[1;32m     85[0m """
-<br />[0;32m---> 86[0;31m [0mcalendar[0m               [0;34m=[0m [0mpd[0m[0;34m.[0m[0mread_csv[0m[0;34m([0m[0;34mf'{m5_input_path}/calendar.csv'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     87[0m [0msales_train_val[0m        [0;34m=[0m [0mpd[0m[0;34m.[0m[0mread_csv[0m[0;34m([0m[0;34mf'{m5_input_path}/sales_train_val.csv'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m     88[0m [0msample_submission[0m      [0;34m=[0m [0mpd[0m[0;34m.[0m[0mread_csv[0m[0;34m([0m[0;34mf'{m5_input_path}/sample_submission.csv'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+### Error 41, [Traceback at line 1378](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1378)<br />1378..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+<br />    nb_dict = json.loads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/__init__.py", line 354, in loads
+<br />    return _default_decoder.decode(s)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 342, in decode
+<br />    raise JSONDecodeError("Extra data", s, end)
+<br />json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)
 <br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36mparser_f[0;34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, squeeze, prefix, mangle_dupe_cols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, dialect, error_bad_lines, warn_bad_lines, delim_whitespace, low_memory, memory_map, float_precision)[0m
-<br />[1;32m    683[0m         )
-<br />[1;32m    684[0m [0;34m[0m[0m
-<br />[0;32m--> 685[0;31m         [0;32mreturn[0m [0m_read[0m[0;34m([0m[0mfilepath_or_buffer[0m[0;34m,[0m [0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    686[0m [0;34m[0m[0m
-<br />[1;32m    687[0m     [0mparser_f[0m[0;34m.[0m[0m__name__[0m [0;34m=[0m [0mname[0m[0;34m[0m[0;34m[0m[0m
+<br />During handling of the above exception, another exception occurred:
 <br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36m_read[0;34m(filepath_or_buffer, kwds)[0m
-<br />[1;32m    455[0m [0;34m[0m[0m
-<br />[1;32m    456[0m     [0;31m# Create the parser.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m--> 457[0;31m     [0mparser[0m [0;34m=[0m [0mTextFileReader[0m[0;34m([0m[0mfp_or_buf[0m[0;34m,[0m [0;34m**[0m[0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    458[0m [0;34m[0m[0m
-<br />[1;32m    459[0m     [0;32mif[0m [0mchunksize[0m [0;32mor[0m [0miterator[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36m__init__[0;34m(self, f, engine, **kwds)[0m
-<br />[1;32m    893[0m             [0mself[0m[0;34m.[0m[0moptions[0m[0;34m[[0m[0;34m"has_index_names"[0m[0;34m][0m [0;34m=[0m [0mkwds[0m[0;34m[[0m[0;34m"has_index_names"[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m    894[0m [0;34m[0m[0m
-<br />[0;32m--> 895[0;31m         [0mself[0m[0;34m.[0m[0m_make_engine[0m[0;34m([0m[0mself[0m[0;34m.[0m[0mengine[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    896[0m [0;34m[0m[0m
-<br />[1;32m    897[0m     [0;32mdef[0m [0mclose[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36m_make_engine[0;34m(self, engine)[0m
-<br />[1;32m   1133[0m     [0;32mdef[0m [0m_make_engine[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mengine[0m[0;34m=[0m[0;34m"c"[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m   1134[0m         [0;32mif[0m [0mengine[0m [0;34m==[0m [0;34m"c"[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m-> 1135[0;31m             [0mself[0m[0;34m.[0m[0m_engine[0m [0;34m=[0m [0mCParserWrapper[0m[0;34m([0m[0mself[0m[0;34m.[0m[0mf[0m[0;34m,[0m [0;34m**[0m[0mself[0m[0;34m.[0m[0moptions[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m   1136[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m   1137[0m             [0;32mif[0m [0mengine[0m [0;34m==[0m [0;34m"python"[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36m__init__[0;34m(self, src, **kwds)[0m
-<br />[1;32m   1915[0m         [0mkwds[0m[0;34m[[0m[0;34m"usecols"[0m[0;34m][0m [0;34m=[0m [0mself[0m[0;34m.[0m[0musecols[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m   1916[0m [0;34m[0m[0m
-<br />[0;32m-> 1917[0;31m         [0mself[0m[0;34m.[0m[0m_reader[0m [0;34m=[0m [0mparsers[0m[0;34m.[0m[0mTextReader[0m[0;34m([0m[0msrc[0m[0;34m,[0m [0;34m**[0m[0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m   1918[0m         [0mself[0m[0;34m.[0m[0munnamed_cols[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_reader[0m[0;34m.[0m[0munnamed_cols[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m   1919[0m [0;34m[0m[0m
-<br />
-<br />[0;32mpandas/_libs/parsers.pyx[0m in [0;36mpandas._libs.parsers.TextReader.__cinit__[0;34m()[0m
-<br />
-<br />[0;32mpandas/_libs/parsers.pyx[0m in [0;36mpandas._libs.parsers.TextReader._setup_parser_source[0;34m()[0m
-<br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] File b'./m5-forecasting-accuracy/calendar.csv' does not exist: b'./m5-forecasting-accuracy/calendar.csv'
+
+
+
+### Error 42, [Traceback at line 1389](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1389)<br />1389..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 143, in read
+<br />    return reads(buf, as_version, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 73, in reads
+<br />    nb = reader.reads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+<br />    nb_dict = parse_json(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+<br />    raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+<br />nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '"""\nM5 Forecasting Competition GluonTS...
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_hyper.py 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m4.py 
 <br />
-<br />[0;31m---------------------------------------------------------------------------[0m
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example/benchmark_timeseries_m4.py to html
 
 
 
-### Error 26, [Traceback at line 2007](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2007)<br />2007..[0;31mNameError[0m                                 Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/arun_hyper.py[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m      3[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mmodels[0m [0;32mimport[0m [0mmodule_load[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m      4[0m [0;32mfrom[0m [0mmlmodels[0m[0;34m.[0m[0mutil[0m [0;32mimport[0m [0mpath_norm_dict[0m[0;34m,[0m [0mpath_norm[0m[0;34m,[0m [0mparams_json_load[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m----> 5[0;31m [0mprint[0m[0;34m([0m[0mmlmodels[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m      6[0m [0;34m[0m[0m
-<br />[1;32m      7[0m [0;34m[0m[0m
+### Error 43, [Traceback at line 1426](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1426)<br />1426..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+<br />    nb_dict = json.loads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/__init__.py", line 354, in loads
+<br />    return _default_decoder.decode(s)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 339, in decode
+<br />    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 357, in raw_decode
+<br />    raise JSONDecodeError("Expecting value", s, err.value) from None
+<br />json.decoder.JSONDecodeError: Expecting value: line 4 column 1 (char 3)
 <br />
-<br />[0;31mNameError[0m: name 'mlmodels' is not defined
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 44, [Traceback at line 1439](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1439)<br />1439..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 143, in read
+<br />    return reads(buf, as_version, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 73, in reads
+<br />    nb = reader.reads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+<br />    nb_dict = parse_json(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+<br />    raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+<br />nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '\n\n\ndef benchmark_m4() :\n    # This ...
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeseries_m4.py 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_hyper.py 
 <br />
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//arun_hyper.py to html
+
+
+
+### Error 45, [Traceback at line 1476](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1476)<br />1476..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+<br />    nb_dict = json.loads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/__init__.py", line 354, in loads
+<br />    return _default_decoder.decode(s)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 339, in decode
+<br />    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 357, in raw_decode
+<br />    raise JSONDecodeError("Expecting value", s, err.value) from None
+<br />json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+<br />
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 46, [Traceback at line 1489](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1489)<br />1489..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 143, in read
+<br />    return reads(buf, as_version, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 73, in reads
+<br />    nb = reader.reads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+<br />    nb_dict = parse_json(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+<br />    raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+<br />nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '# import library\nimport json, copy\nfr...
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.py 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeseries_m4.py 
 <br />
-<br />Deprecaton set to False
-<br />/home/runner/work/mlmodels/mlmodels
-<br />[0;31m---------------------------------------------------------------------------[0m
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//benchmark_timeseries_m4.py to html
 
 
 
-### Error 27, [Traceback at line 2035](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2035)<br />2035..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/lightgbm_glass.py[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m     20[0m [0;34m[0m[0m
-<br />[1;32m     21[0m [0;34m[0m[0m
-<br />[0;32m---> 22[0;31m [0mpars[0m [0;34m=[0m [0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m [0mconfig_path[0m [0;34m,[0m [0mmode[0m[0;34m=[0m[0;34m'r'[0m[0;34m)[0m[0;34m)[0m[0;34m[[0m[0mconfig_mode[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     23[0m [0mprint[0m[0;34m([0m[0mpars[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m     24[0m [0;34m[0m[0m
+### Error 47, [Traceback at line 1526](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1526)<br />1526..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+<br />    nb_dict = json.loads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/__init__.py", line 354, in loads
+<br />    return _default_decoder.decode(s)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 339, in decode
+<br />    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 357, in raw_decode
+<br />    raise JSONDecodeError("Expecting value", s, err.value) from None
+<br />json.decoder.JSONDecodeError: Expecting value: line 4 column 1 (char 3)
 <br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'lightgbm_glass.json'
+<br />During handling of the above exception, another exception occurred:
+<br />
+
+
+
+### Error 48, [Traceback at line 1539](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1539)<br />1539..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 143, in read
+<br />    return reads(buf, as_version, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 73, in reads
+<br />    nb = reader.reads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+<br />    nb_dict = parse_json(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+<br />    raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+<br />nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '\n\n\ndef benchmark_m4() :\n    # This ...
 <br />
 <br />
 <br />
 <br />
 <br />
 <br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m5.py 
+<br />jupyter nbconvert --execute https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.py 
 <br />
-<br />[0;31m---------------------------------------------------------------------------[0m
+<br />[NbConvertApp] Converting notebook https://github.com/arita37/mlmodels/tree/09dbb573cf89ddf861ea945ff13f39f474d48070/mlmodels/example//lightgbm_glass.py to html
 
 
 
-### Error 28, [Traceback at line 2053](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L2053)<br />2053..[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-<br />[0;32m~/work/mlmodels/mlmodels/mlmodels/example/benchmark_timeseries_m5.py[0m in [0;36m<module>[0;34m[0m
-<br />[1;32m     84[0m [0;34m[0m[0m
-<br />[1;32m     85[0m """
-<br />[0;32m---> 86[0;31m [0mcalendar[0m               [0;34m=[0m [0mpd[0m[0;34m.[0m[0mread_csv[0m[0;34m([0m[0;34mf'{m5_input_path}/calendar.csv'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m     87[0m [0msales_train_val[0m        [0;34m=[0m [0mpd[0m[0;34m.[0m[0mread_csv[0m[0;34m([0m[0;34mf'{m5_input_path}/sales_train_val.csv'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m     88[0m [0msample_submission[0m      [0;34m=[0m [0mpd[0m[0;34m.[0m[0mread_csv[0m[0;34m([0m[0;34mf'{m5_input_path}/sample_submission.csv'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+### Error 49, [Traceback at line 1576](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1576)<br />1576..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+<br />    nb_dict = json.loads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/__init__.py", line 354, in loads
+<br />    return _default_decoder.decode(s)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 339, in decode
+<br />    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/json/decoder.py", line 357, in raw_decode
+<br />    raise JSONDecodeError("Expecting value", s, err.value) from None
+<br />json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 <br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36mparser_f[0;34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, squeeze, prefix, mangle_dupe_cols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, dialect, error_bad_lines, warn_bad_lines, delim_whitespace, low_memory, memory_map, float_precision)[0m
-<br />[1;32m    683[0m         )
-<br />[1;32m    684[0m [0;34m[0m[0m
-<br />[0;32m--> 685[0;31m         [0;32mreturn[0m [0m_read[0m[0;34m([0m[0mfilepath_or_buffer[0m[0;34m,[0m [0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    686[0m [0;34m[0m[0m
-<br />[1;32m    687[0m     [0mparser_f[0m[0;34m.[0m[0m__name__[0m [0;34m=[0m [0mname[0m[0;34m[0m[0;34m[0m[0m
+<br />During handling of the above exception, another exception occurred:
 <br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36m_read[0;34m(filepath_or_buffer, kwds)[0m
-<br />[1;32m    455[0m [0;34m[0m[0m
-<br />[1;32m    456[0m     [0;31m# Create the parser.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m--> 457[0;31m     [0mparser[0m [0;34m=[0m [0mTextFileReader[0m[0;34m([0m[0mfp_or_buf[0m[0;34m,[0m [0;34m**[0m[0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    458[0m [0;34m[0m[0m
-<br />[1;32m    459[0m     [0;32mif[0m [0mchunksize[0m [0;32mor[0m [0miterator[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36m__init__[0;34m(self, f, engine, **kwds)[0m
-<br />[1;32m    893[0m             [0mself[0m[0;34m.[0m[0moptions[0m[0;34m[[0m[0;34m"has_index_names"[0m[0;34m][0m [0;34m=[0m [0mkwds[0m[0;34m[[0m[0;34m"has_index_names"[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m    894[0m [0;34m[0m[0m
-<br />[0;32m--> 895[0;31m         [0mself[0m[0;34m.[0m[0m_make_engine[0m[0;34m([0m[0mself[0m[0;34m.[0m[0mengine[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m    896[0m [0;34m[0m[0m
-<br />[1;32m    897[0m     [0;32mdef[0m [0mclose[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36m_make_engine[0;34m(self, engine)[0m
-<br />[1;32m   1133[0m     [0;32mdef[0m [0m_make_engine[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mengine[0m[0;34m=[0m[0;34m"c"[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m   1134[0m         [0;32mif[0m [0mengine[0m [0;34m==[0m [0;34m"c"[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[0;32m-> 1135[0;31m             [0mself[0m[0;34m.[0m[0m_engine[0m [0;34m=[0m [0mCParserWrapper[0m[0;34m([0m[0mself[0m[0;34m.[0m[0mf[0m[0;34m,[0m [0;34m**[0m[0mself[0m[0;34m.[0m[0moptions[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m   1136[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m   1137[0m             [0;32mif[0m [0mengine[0m [0;34m==[0m [0;34m"python"[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-<br />
-<br />[0;32m/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/pandas/io/parsers.py[0m in [0;36m__init__[0;34m(self, src, **kwds)[0m
-<br />[1;32m   1915[0m         [0mkwds[0m[0;34m[[0m[0;34m"usecols"[0m[0;34m][0m [0;34m=[0m [0mself[0m[0;34m.[0m[0musecols[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m   1916[0m [0;34m[0m[0m
-<br />[0;32m-> 1917[0;31m         [0mself[0m[0;34m.[0m[0m_reader[0m [0;34m=[0m [0mparsers[0m[0;34m.[0m[0mTextReader[0m[0;34m([0m[0msrc[0m[0;34m,[0m [0;34m**[0m[0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-<br />[0m[1;32m   1918[0m         [0mself[0m[0;34m.[0m[0munnamed_cols[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_reader[0m[0;34m.[0m[0munnamed_cols[0m[0;34m[0m[0;34m[0m[0m
-<br />[1;32m   1919[0m [0;34m[0m[0m
-<br />
-<br />[0;32mpandas/_libs/parsers.pyx[0m in [0;36mpandas._libs.parsers.TextReader.__cinit__[0;34m()[0m
-<br />
-<br />[0;32mpandas/_libs/parsers.pyx[0m in [0;36mpandas._libs.parsers.TextReader._setup_parser_source[0;34m()[0m
-<br />
-<br />[0;31mFileNotFoundError[0m: [Errno 2] File b'./m5-forecasting-accuracy/calendar.csv' does not exist: b'./m5-forecasting-accuracy/calendar.csv'
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /> ************************************************************************************************************************
-<br />ipython https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m4.py 
-<br />
+
+
+
+### Error 50, [Traceback at line 1589](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L1589)<br />1589..Traceback (most recent call last):
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/jupyter-nbconvert", line 8, in <module>
+<br />    sys.exit(main())
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+<br />    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+<br />    app.start()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+<br />    self.convert_notebooks()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+<br />    self.convert_single_notebook(notebook_filename)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+<br />    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+<br />    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+<br />    return self.from_file(f, resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+<br />    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 143, in read
+<br />    return reads(buf, as_version, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/__init__.py", line 73, in reads
+<br />    nb = reader.reads(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+<br />    nb_dict = parse_json(s, **kwargs)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+<br />    raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+<br />nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '# import library\nimport os\nimport mlm...
