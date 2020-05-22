@@ -1235,3 +1235,39 @@ Updating f5bdc1c..e4560bb
 Fast-forward
  error_list/20200522/list_log_pullrequest_20200522.md | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
+[master b979d7a] ml_store
+ 1 file changed, 286 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   e4560bb..b979d7a  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//Autokeras.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//Autokeras.py", line 12, in <module>
+    import autokeras as ak
+ModuleNotFoundError: No module named 'autokeras'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git pull --all  &&  git add --all &&  git commit -m "ml_store"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
+Fetching origin
+Already up to date.
