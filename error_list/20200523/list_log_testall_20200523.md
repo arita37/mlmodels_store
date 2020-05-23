@@ -739,3 +739,34 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/model_tch//transformer_classifier.py", line 418, in get_params
 <br />    cf = json.load(open(data_path, mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'model_tch/transformer_classifier.json'
+
+
+
+### Error 18, [Traceback at line 11051](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11051)<br />11051..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/model_tch//03_nbeats_dataloader.py", line 9, in <module>
+<br />    from dataloader import DataLoader
+<br />ModuleNotFoundError: No module named 'dataloader'
+
+
+
+### Error 19, [Traceback at line 11097](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11097)<br />11097..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/model_tch//transformer_sentence.py", line 445, in <module>
+<br />    test(pars_choice="test01")
+<br />  File "https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/model_tch//transformer_sentence.py", line 412, in test
+<br />    model, session = fit(model, data_pars, model_pars, compute_pars, out_pars)
+<br />  File "https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/model_tch//transformer_sentence.py", line 139, in fit
+<br />    train_data       = SentencesDataset(train_reader.get_examples(train_fname),  model=model.model)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/sentence_transformers/readers/NLIDataReader.py", line 21, in get_examples
+<br />    mode="rt", encoding="utf-8").readlines()
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/gzip.py", line 53, in open
+<br />    binary_file = GzipFile(filename, gz_mode, compresslevel)
+<br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/gzip.py", line 163, in __init__
+<br />    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/dataset/text/AllNLI/s1.train.gz'
+
+
+
+### Error 20, [Traceback at line 11143](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L11143)<br />11143..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/model_tch//pytorch_vae.py", line 34, in <module>
+<br />    "beta_vae": md.model.beta_vae,
+<br />AttributeError: module 'mlmodels.model_tch.raw.pytorch_vae' has no attribute 'model'
