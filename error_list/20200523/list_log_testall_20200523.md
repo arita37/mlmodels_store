@@ -723,3 +723,10 @@
 <br />  File "https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/model_tf//temporal_fusion_google.py", line 17, in <module>
 <br />    from mlmodels.mode_tf.raw  import temporal_fusion_google
 <br />ModuleNotFoundError: No module named 'mlmodels.mode_tf'
+
+
+
+### Error 16, [Traceback at line 8369](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L8369)<br />8369..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3aee4395159545a95b0d7c8ed6830ec48eff1164/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
+<br />    test(data_path = "model_fb/fbprophet.json", choice="json" )
+<br />TypeError: test() got an unexpected keyword argument 'choice'
