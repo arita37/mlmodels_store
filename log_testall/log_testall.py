@@ -5275,3 +5275,47 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 423075b] ml_store  && git pull --all
+ 1 file changed, 46 insertions(+)
+Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+To github.com:arita37/mlmodels_store.git
+   be77cff..423075b  master -> master
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py 
+
+  #### Loading params   ############################################## 
+
+  #### Loading dataset   ############################################# 
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py", line 348, in <module>
+    test(pars_choice="json", data_path=f"model_keras/namentity_crm_bilstm.json")
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py", line 311, in test
+    Xtuple = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py", line 193, in get_dataset
+    raise Exception(f"Not support dataset yet")
+Exception: Not support dataset yet
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git add --all &&  git commit -m "ml_store  && git pull --all"  ;            git push --all -f ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
