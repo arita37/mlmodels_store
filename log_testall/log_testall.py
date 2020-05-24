@@ -9,17 +9,17 @@
 
  ************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/e7305653d03d43cd8d7df2199fe3ac5f94ef1c05', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'e7305653d03d43cd8d7df2199fe3ac5f94ef1c05', 'workflow': 'test_all'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'dbbd1e3505a2b3043e7688c1260e13ddacd09d91', 'workflow': 'test_all'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_all
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/e7305653d03d43cd8d7df2199fe3ac5f94ef1c05
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/e7305653d03d43cd8d7df2199fe3ac5f94ef1c05
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/dbbd1e3505a2b3043e7688c1260e13ddacd09d91
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/e7305653d03d43cd8d7df2199fe3ac5f94ef1c05
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91
 
  ************************************************************************************************************************
 
@@ -41,55 +41,7 @@ Traceback (most recent call last):
     'AAE' : kg.aae.aae,
 AttributeError: module 'mlmodels.model_keras.raw.keras_gan' has no attribute 'aae'
 
-   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git add --all &&  git commit -m "ml_store  && git pull --all"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
-Logs
-README.md
-README_actions.md
-create_error_file.py
-create_github_issues.py
-deps.txt
-error_list
-log_benchmark
-log_dataloader
-log_import
-log_json
-log_jupyter
-log_pullrequest
-log_test_cli
-log_testall
-test_jupyter
-[master 5d786a2] ml_store  && git pull --all
- 2 files changed, 75 insertions(+), 11004 deletions(-)
- rewrite log_testall/log_testall.py (99%)
-Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
-To github.com:arita37/mlmodels_store.git
-   1e380c3..5d786a2  master -> master
-
-
-
-
-
- ************************************************************************************************************************
-
-  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py 
-
-  #### Loading params   ############################################## 
-
-  #### Path params   ########################################## 
-
-  #### Loading dataset   ############################################# 
-Using TensorFlow backend.
-Loading data...
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 315, in <module>
-    test(pars_choice="test01")
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 278, in test
-    Xtuple = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//nbeats.py", line 172, in get_dataset
-    train_data = Data(data_source= path_norm( data_pars["train_data_source"]) ,
-NameError: name 'Data' is not defined
-
-   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git add --all &&  git commit -m "ml_store  && git pull --all"  ;            git push --all ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git add --all &&  git commit -m "ml_store  && git pull --all"  ;            git push --all -f ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
 Logs
 README.md
 README_actions.md
