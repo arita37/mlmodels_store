@@ -10710,3 +10710,7 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 5ae5e73] ml_store  && git pull --all
+ 1 file changed, 30 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   9e2d9cf..5ae5e73  master -> master
