@@ -2,7 +2,7 @@
 
 
 ### Error 1, [Traceback at line 95](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L95)<br />95..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/textcnn.py", line 153, in create_tabular_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/textcnn.py", line 153, in create_tabular_dataset
 <br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
 <br />    return util.load_model(name, **overrides)
@@ -15,17 +15,17 @@
 ### Error 2, [Traceback at line 106](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L106)<br />106..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/textcnn.py", line 291, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/textcnn.py", line 291, in fit
 <br />    train_iter, valid_iter, vocab = get_dataset(data_pars, out_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/textcnn.py", line 334, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/textcnn.py", line 334, in get_dataset
 <br />    trainset, validset, vocab = create_tabular_dataset( data_pars['train_path'], data_pars['valid_path'], lang, pretrained_emb)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/textcnn.py", line 159, in create_tabular_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/textcnn.py", line 159, in create_tabular_dataset
 <br />    spacy_en = spacy.load( f'{lang}_core_web_sm', disable= disable)  
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/spacy/__init__.py", line 30, in load
 <br />    return util.load_model(name, **overrides)
@@ -38,35 +38,35 @@
 ### Error 3, [Traceback at line 137](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L137)<br />137..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 297, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 297, in config_get_pars
 <br />    data_p    = path_norm_dict( js.get("data_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 4, [Traceback at line 273](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L273)<br />273..Traceback (most recent call last):
+### Error 4, [Traceback at line 263](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L263)<br />263..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 5, [Traceback at line 303](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L303)<br />303..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 72, in module_load
+### Error 5, [Traceback at line 293](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L293)<br />293..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -76,438 +76,438 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_keras/Autokeras.py", line 12, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_keras/Autokeras.py", line 12, in <module>
 <br />    import autokeras as ak
 <br />ModuleNotFoundError: No module named 'autokeras'
 
 
 
-### Error 6, [Traceback at line 320](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L320)<br />320..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 84, in module_load
+### Error 6, [Traceback at line 310](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L310)<br />310..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 7, [Traceback at line 327](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L327)<br />327..Traceback (most recent call last):
+### Error 7, [Traceback at line 317](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L317)<br />317..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 420, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 420, in fit_cli
 <br />    module = module_load(model_uri)  # '1_lstm.py
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_keras.Autokeras notfound, No module named 'autokeras', tuple index out of range
 
 
 
-### Error 8, [Traceback at line 348](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L348)<br />348..Traceback (most recent call last):
+### Error 8, [Traceback at line 338](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L338)<br />338..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 9, [Traceback at line 376](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L376)<br />376..Traceback (most recent call last):
+### Error 9, [Traceback at line 366](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L366)<br />366..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 415, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 415, in fit_cli
 <br />    path      = out_p['path']
 <br />KeyError: 'path'
 
 
 
-### Error 10, [Traceback at line 395](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L395)<br />395..Traceback (most recent call last):
+### Error 10, [Traceback at line 385](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L385)<br />385..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 11, [Traceback at line 476](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L476)<br />476..Traceback (most recent call last):
+### Error 11, [Traceback at line 466](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L466)<br />466..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 12, [Traceback at line 507](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L507)<br />507..Traceback (most recent call last):
+### Error 12, [Traceback at line 497](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L497)<br />497..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 421, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 421, in fit_cli
 <br />    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 113, in model_create
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 113, in model_create
 <br />    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_keras/textvae.py", line 51, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_keras/textvae.py", line 51, in __init__
 <br />    texts, embeddings_index = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_keras/textvae.py", line 269, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_keras/textvae.py", line 269, in get_dataset
 <br />    with codecs.open(data_pars["train_data_path"], encoding='utf-8') as f:
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/codecs.py", line 897, in open
 <br />    file = builtins.open(filename, mode, buffering)
-<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataset/text/quora/train.csv'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataset/text/quora/train.csv'
 
 
 
-### Error 13, [Traceback at line 534](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L534)<br />534..Traceback (most recent call last):
+### Error 13, [Traceback at line 524](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L524)<br />524..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 14, [Traceback at line 562](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L562)<br />562..Traceback (most recent call last):
+### Error 14, [Traceback at line 552](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L552)<br />552..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 15, [Traceback at line 581](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L581)<br />581..Traceback (most recent call last):
+### Error 15, [Traceback at line 571](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L571)<br />571..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 297, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 297, in config_get_pars
 <br />    data_p    = path_norm_dict( js.get("data_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 16, [Traceback at line 609](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L609)<br />609..Traceback (most recent call last):
+### Error 16, [Traceback at line 599](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L599)<br />599..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 17, [Traceback at line 633](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L633)<br />633..Traceback (most recent call last):
+### Error 17, [Traceback at line 623](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L623)<br />623..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 18, [Traceback at line 652](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L652)<br />652..Traceback (most recent call last):
+### Error 18, [Traceback at line 642](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L642)<br />642..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 19, [Traceback at line 680](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L680)<br />680..Traceback (most recent call last):
+### Error 19, [Traceback at line 670](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L670)<br />670..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 20, [Traceback at line 699](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L699)<br />699..Traceback (most recent call last):
+### Error 20, [Traceback at line 689](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L689)<br />689..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 21, [Traceback at line 727](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L727)<br />727..Traceback (most recent call last):
+### Error 21, [Traceback at line 717](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L717)<br />717..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 22, [Traceback at line 746](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L746)<br />746..Traceback (most recent call last):
+### Error 22, [Traceback at line 736](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L736)<br />736..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 23, [Traceback at line 774](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L774)<br />774..Traceback (most recent call last):
+### Error 23, [Traceback at line 764](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L764)<br />764..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 24, [Traceback at line 798](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L798)<br />798..Traceback (most recent call last):
+### Error 24, [Traceback at line 788](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L788)<br />788..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 415, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 415, in fit_cli
 <br />    path      = out_p['path']
 <br />KeyError: 'path'
 
 
 
-### Error 25, [Traceback at line 822](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L822)<br />822..Traceback (most recent call last):
+### Error 25, [Traceback at line 812](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L812)<br />812..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 26, [Traceback at line 841](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L841)<br />841..Traceback (most recent call last):
+### Error 26, [Traceback at line 831](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L831)<br />831..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 27, [Traceback at line 869](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L869)<br />869..Traceback (most recent call last):
+### Error 27, [Traceback at line 859](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L859)<br />859..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 28, [Traceback at line 893](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L893)<br />893..Traceback (most recent call last):
+### Error 28, [Traceback at line 883](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L883)<br />883..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 29, [Traceback at line 917](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L917)<br />917..Traceback (most recent call last):
+### Error 29, [Traceback at line 907](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L907)<br />907..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 30, [Traceback at line 941](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L941)<br />941..Traceback (most recent call last):
+### Error 30, [Traceback at line 931](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L931)<br />931..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 415, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 415, in fit_cli
 <br />    path      = out_p['path']
 <br />KeyError: 'path'
 
 
 
-### Error 31, [Traceback at line 960](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L960)<br />960..Traceback (most recent call last):
+### Error 31, [Traceback at line 950](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L950)<br />950..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 415, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 415, in fit_cli
 <br />    path      = out_p['path']
 <br />KeyError: 'path'
 
 
 
-### Error 32, [Traceback at line 979](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L979)<br />979..Traceback (most recent call last):
+### Error 32, [Traceback at line 969](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L969)<br />969..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 415, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 415, in fit_cli
 <br />    path      = out_p['path']
 <br />KeyError: 'path'
 
 
 
-### Error 33, [Traceback at line 1033](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1033)<br />1033..Traceback (most recent call last):
+### Error 33, [Traceback at line 1023](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1023)<br />1023..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 34, [Traceback at line 1087](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1087)<br />1087..Traceback (most recent call last):
+### Error 34, [Traceback at line 1077](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1077)<br />1077..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 35, [Traceback at line 1146](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1146)<br />1146..Traceback (most recent call last):
+### Error 35, [Traceback at line 1136](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1136)<br />1136..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 36, [Traceback at line 1200](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1200)<br />1200..Traceback (most recent call last):
+### Error 36, [Traceback at line 1190](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1190)<br />1190..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 37, [Traceback at line 1264](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1264)<br />1264..Traceback (most recent call last):
+### Error 37, [Traceback at line 1254](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1254)<br />1254..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 38, [Traceback at line 1318](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1318)<br />1318..Traceback (most recent call last):
+### Error 38, [Traceback at line 1308](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1308)<br />1308..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 39, [Traceback at line 1371](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1371)<br />1371..Traceback (most recent call last):
+### Error 39, [Traceback at line 1361](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1361)<br />1361..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 40, [Traceback at line 1407](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1407)<br />1407..Traceback (most recent call last):
+### Error 40, [Traceback at line 1397](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1397)<br />1397..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 421, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 421, in fit_cli
 <br />    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 113, in model_create
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 113, in model_create
 <br />    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_gluon/gluonts_model.py", line 81, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_gluon/gluonts_model.py", line 81, in __init__
 <br />    mpars['encoder'] = MLPEncoder()   #bug in seq2seq
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/core/component.py", line 424, in init_wrapper
 <br />    model = PydanticModel(**{**nmargs, **kwargs})
@@ -519,7 +519,7 @@
 <br />  
 <br />
 <br />
-<br /> ************ JSON File https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
+<br /> ************ JSON File https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 <br />
 <br />
 <br />
@@ -527,12 +527,12 @@
 <br />
 <br /> ************************************************************************************************************************
 <br />
-<br />  ml_models --do fit --config_file https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json  --config_mode deepar  
+<br />  ml_models --do fit --config_file https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json  --config_mode deepar  
 <br />fit
 <br />
-<br />  ##### Load JSON https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
+<br />  ##### Load JSON https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 <br />
-<br />  ##### Init model_gluon.gluonts_model {'path': 'https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/ztest/model_gluon/gluonts_deepar/', 'model_uri': 'model_gluon.gluonts_model'} 
+<br />  ##### Init model_gluon.gluonts_model {'path': 'https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/ztest/model_gluon/gluonts_deepar/', 'model_uri': 'model_gluon.gluonts_model'} 
 <br />INFO:root:Using CPU
 <br />INFO:root:Using CPU
 <br />INFO:root:Using CPU
@@ -550,18 +550,18 @@
 <br />INFO:root:Using CPU
 <br />INFO:root:Using CPU
 <br />
-<br />  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f6f32ac3cf8> 
+<br />  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7febbca8add8> 
 <br />INFO:root:Start model training
 <br />INFO:root:Epoch[0] Learning rate is 0.001
 <br />
 <br />  0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 <br />INFO:root:Number of parameters in DeepARTrainingNetwork: 26844
 <br />
-<br />100%|██████████| 10/10 [00:02<00:00,  3.71it/s, avg_epoch_loss=5.23]
-<br />INFO:root:Epoch[0] Elapsed time 2.698 seconds
-<br />INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.232992
+<br />100%|██████████| 10/10 [00:03<00:00,  3.20it/s, avg_epoch_loss=5.23]
+<br />INFO:root:Epoch[0] Elapsed time 3.124 seconds
+<br />INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.229547
 <br />INFO:root:Loading parameters from best epoch (0)
-<br />INFO:root:Final loss: 5.232991886138916 (occurred at epoch 0)
+<br />INFO:root:Final loss: 5.229546594619751 (occurred at epoch 0)
 <br />INFO:root:End model training
 <br />[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 <br />{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -569,93 +569,93 @@
 
 
 
-### Error 41, [Traceback at line 1475](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1475)<br />1475..Traceback (most recent call last):
+### Error 41, [Traceback at line 1465](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1465)<br />1465..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 42, [Traceback at line 1529](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1529)<br />1529..Traceback (most recent call last):
+### Error 42, [Traceback at line 1519](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1519)<br />1519..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 43, [Traceback at line 1588](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1588)<br />1588..Traceback (most recent call last):
+### Error 43, [Traceback at line 1578](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1578)<br />1578..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 44, [Traceback at line 1642](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1642)<br />1642..Traceback (most recent call last):
+### Error 44, [Traceback at line 1632](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1632)<br />1632..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 45, [Traceback at line 1706](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1706)<br />1706..Traceback (most recent call last):
+### Error 45, [Traceback at line 1696](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1696)<br />1696..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 46, [Traceback at line 1760](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1760)<br />1760..Traceback (most recent call last):
+### Error 46, [Traceback at line 1750](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1750)<br />1750..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 47, [Traceback at line 1813](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1813)<br />1813..Traceback (most recent call last):
+### Error 47, [Traceback at line 1803](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1803)<br />1803..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
 <br />TypeError: 'Model' object is not iterable
 
 
 
-### Error 48, [Traceback at line 1849](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1849)<br />1849..Traceback (most recent call last):
+### Error 48, [Traceback at line 1839](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1839)<br />1839..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 421, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 421, in fit_cli
 <br />    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 113, in model_create
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 113, in model_create
 <br />    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_gluon/gluonts_model.py", line 81, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_gluon/gluonts_model.py", line 81, in __init__
 <br />    mpars['encoder'] = MLPEncoder()   #bug in seq2seq
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/core/component.py", line 424, in init_wrapper
 <br />    model = PydanticModel(**{**nmargs, **kwargs})
@@ -667,7 +667,7 @@
 <br />  
 <br />
 <br />
-<br /> ************ JSON File https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataset/json/benchmark_timeseries/test01/armdn.json 
+<br /> ************ JSON File https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataset/json/benchmark_timeseries/test01/armdn.json 
 <br />
 <br />
 <br />
@@ -675,950 +675,950 @@
 <br />
 <br /> ************************************************************************************************************************
 <br />
-<br />  ml_models --do fit --config_file https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataset/json/benchmark_timeseries/test01/armdn.json  --config_mode test  
+<br />  ml_models --do fit --config_file https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataset/json/benchmark_timeseries/test01/armdn.json  --config_mode test  
 <br />fit
 <br />
-<br />  ##### Load JSON https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataset/json/benchmark_timeseries/test01/armdn.json 
+<br />  ##### Load JSON https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataset/json/benchmark_timeseries/test01/armdn.json 
 
 
 
-### Error 49, [Traceback at line 1882](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1882)<br />1882..Traceback (most recent call last):
+### Error 49, [Traceback at line 1872](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1872)<br />1872..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 415, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 415, in fit_cli
 <br />    path      = out_p['path']
 <br />KeyError: 'path'
 
 
 
-### Error 50, [Traceback at line 1906](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1906)<br />1906..Traceback (most recent call last):
+### Error 50, [Traceback at line 1896](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1896)<br />1896..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 415, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 415, in fit_cli
 <br />    path      = out_p['path']
 <br />KeyError: 'path'
 
 
 
-### Error 51, [Traceback at line 1925](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1925)<br />1925..Traceback (most recent call last):
+### Error 51, [Traceback at line 1915](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1915)<br />1915..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 297, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 297, in config_get_pars
 <br />    data_p    = path_norm_dict( js.get("data_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 52, [Traceback at line 1953](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1953)<br />1953..Traceback (most recent call last):
+### Error 52, [Traceback at line 1943](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1943)<br />1943..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 415, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 415, in fit_cli
 <br />    path      = out_p['path']
 <br />KeyError: 'path'
 
 
 
-### Error 53, [Traceback at line 1977](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1977)<br />1977..Traceback (most recent call last):
+### Error 53, [Traceback at line 1967](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1967)<br />1967..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 414, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 414, in fit_cli
 <br />    model_uri = model_p['model_uri']
 <br />KeyError: 'model_uri'
 
 
 
-### Error 54, [Traceback at line 2006](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2006)<br />2006..Traceback (most recent call last):
+### Error 54, [Traceback at line 1996](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1996)<br />1996..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 55, [Traceback at line 2033](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2033)<br />2033..Traceback (most recent call last):
+### Error 55, [Traceback at line 2023](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2023)<br />2023..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 56, [Traceback at line 2066](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2066)<br />2066..Traceback (most recent call last):
+### Error 56, [Traceback at line 2056](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2056)<br />2056..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 57, [Traceback at line 2093](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2093)<br />2093..Traceback (most recent call last):
+### Error 57, [Traceback at line 2083](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2083)<br />2083..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 58, [Traceback at line 2126](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2126)<br />2126..Traceback (most recent call last):
+### Error 58, [Traceback at line 2116](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2116)<br />2116..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 59, [Traceback at line 2153](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2153)<br />2153..Traceback (most recent call last):
+### Error 59, [Traceback at line 2143](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2143)<br />2143..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 60, [Traceback at line 2186](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2186)<br />2186..Traceback (most recent call last):
+### Error 60, [Traceback at line 2176](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2176)<br />2176..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 61, [Traceback at line 2213](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2213)<br />2213..Traceback (most recent call last):
+### Error 61, [Traceback at line 2203](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2203)<br />2203..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 62, [Traceback at line 2246](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2246)<br />2246..Traceback (most recent call last):
+### Error 62, [Traceback at line 2236](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2236)<br />2236..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 63, [Traceback at line 2273](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2273)<br />2273..Traceback (most recent call last):
+### Error 63, [Traceback at line 2263](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2263)<br />2263..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 64, [Traceback at line 2306](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2306)<br />2306..Traceback (most recent call last):
+### Error 64, [Traceback at line 2296](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2296)<br />2296..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 65, [Traceback at line 2333](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2333)<br />2333..Traceback (most recent call last):
+### Error 65, [Traceback at line 2323](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2323)<br />2323..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 66, [Traceback at line 2366](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2366)<br />2366..Traceback (most recent call last):
+### Error 66, [Traceback at line 2356](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2356)<br />2356..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 67, [Traceback at line 2393](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2393)<br />2393..Traceback (most recent call last):
+### Error 67, [Traceback at line 2383](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2383)<br />2383..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 68, [Traceback at line 2426](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2426)<br />2426..Traceback (most recent call last):
+### Error 68, [Traceback at line 2416](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2416)<br />2416..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 69, [Traceback at line 2453](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2453)<br />2453..Traceback (most recent call last):
+### Error 69, [Traceback at line 2443](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2443)<br />2443..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 70, [Traceback at line 2486](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2486)<br />2486..Traceback (most recent call last):
+### Error 70, [Traceback at line 2476](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2476)<br />2476..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 71, [Traceback at line 2513](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2513)<br />2513..Traceback (most recent call last):
+### Error 71, [Traceback at line 2503](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2503)<br />2503..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 72, [Traceback at line 2546](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2546)<br />2546..Traceback (most recent call last):
+### Error 72, [Traceback at line 2536](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2536)<br />2536..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 73, [Traceback at line 2573](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2573)<br />2573..Traceback (most recent call last):
+### Error 73, [Traceback at line 2563](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2563)<br />2563..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 74, [Traceback at line 2606](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2606)<br />2606..Traceback (most recent call last):
+### Error 74, [Traceback at line 2596](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2596)<br />2596..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 75, [Traceback at line 2633](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2633)<br />2633..Traceback (most recent call last):
+### Error 75, [Traceback at line 2623](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2623)<br />2623..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 76, [Traceback at line 2666](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2666)<br />2666..Traceback (most recent call last):
+### Error 76, [Traceback at line 2656](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2656)<br />2656..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 77, [Traceback at line 2693](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2693)<br />2693..Traceback (most recent call last):
+### Error 77, [Traceback at line 2683](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2683)<br />2683..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 78, [Traceback at line 2726](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2726)<br />2726..Traceback (most recent call last):
+### Error 78, [Traceback at line 2716](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2716)<br />2716..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 79, [Traceback at line 2753](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2753)<br />2753..Traceback (most recent call last):
+### Error 79, [Traceback at line 2743](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2743)<br />2743..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 80, [Traceback at line 2786](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2786)<br />2786..Traceback (most recent call last):
+### Error 80, [Traceback at line 2776](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2776)<br />2776..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 81, [Traceback at line 2813](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2813)<br />2813..Traceback (most recent call last):
+### Error 81, [Traceback at line 2803](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2803)<br />2803..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 82, [Traceback at line 2846](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2846)<br />2846..Traceback (most recent call last):
+### Error 82, [Traceback at line 2836](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2836)<br />2836..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 83, [Traceback at line 2873](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2873)<br />2873..Traceback (most recent call last):
+### Error 83, [Traceback at line 2863](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2863)<br />2863..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 84, [Traceback at line 2906](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2906)<br />2906..Traceback (most recent call last):
+### Error 84, [Traceback at line 2896](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2896)<br />2896..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 85, [Traceback at line 2933](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2933)<br />2933..Traceback (most recent call last):
+### Error 85, [Traceback at line 2923](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2923)<br />2923..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 86, [Traceback at line 2966](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2966)<br />2966..Traceback (most recent call last):
+### Error 86, [Traceback at line 2956](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2956)<br />2956..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 87, [Traceback at line 2993](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2993)<br />2993..Traceback (most recent call last):
+### Error 87, [Traceback at line 2983](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2983)<br />2983..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 88, [Traceback at line 3026](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3026)<br />3026..Traceback (most recent call last):
+### Error 88, [Traceback at line 3016](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3016)<br />3016..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 89, [Traceback at line 3053](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3053)<br />3053..Traceback (most recent call last):
+### Error 89, [Traceback at line 3043](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3043)<br />3043..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 90, [Traceback at line 3086](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3086)<br />3086..Traceback (most recent call last):
+### Error 90, [Traceback at line 3076](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3076)<br />3076..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 91, [Traceback at line 3113](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3113)<br />3113..Traceback (most recent call last):
+### Error 91, [Traceback at line 3103](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3103)<br />3103..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 92, [Traceback at line 3146](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3146)<br />3146..Traceback (most recent call last):
+### Error 92, [Traceback at line 3136](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3136)<br />3136..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 93, [Traceback at line 3173](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3173)<br />3173..Traceback (most recent call last):
+### Error 93, [Traceback at line 3163](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3163)<br />3163..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 94, [Traceback at line 3206](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3206)<br />3206..Traceback (most recent call last):
+### Error 94, [Traceback at line 3196](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3196)<br />3196..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 95, [Traceback at line 3233](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3233)<br />3233..Traceback (most recent call last):
+### Error 95, [Traceback at line 3223](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3223)<br />3223..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 96, [Traceback at line 3266](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3266)<br />3266..Traceback (most recent call last):
+### Error 96, [Traceback at line 3256](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3256)<br />3256..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 97, [Traceback at line 3293](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3293)<br />3293..Traceback (most recent call last):
+### Error 97, [Traceback at line 3283](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3283)<br />3283..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 98, [Traceback at line 3326](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3326)<br />3326..Traceback (most recent call last):
+### Error 98, [Traceback at line 3316](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3316)<br />3316..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 99, [Traceback at line 3353](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3353)<br />3353..Traceback (most recent call last):
+### Error 99, [Traceback at line 3343](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3343)<br />3343..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 100, [Traceback at line 3386](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3386)<br />3386..Traceback (most recent call last):
+### Error 100, [Traceback at line 3376](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3376)<br />3376..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 101, [Traceback at line 3413](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3413)<br />3413..Traceback (most recent call last):
+### Error 101, [Traceback at line 3403](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3403)<br />3403..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 102, [Traceback at line 3446](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3446)<br />3446..Traceback (most recent call last):
+### Error 102, [Traceback at line 3436](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3436)<br />3436..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 103, [Traceback at line 3473](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3473)<br />3473..Traceback (most recent call last):
+### Error 103, [Traceback at line 3463](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3463)<br />3463..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
 
 
 
-### Error 104, [Traceback at line 3506](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3506)<br />3506..Traceback (most recent call last):
+### Error 104, [Traceback at line 3496](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3496)<br />3496..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 424, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 424, in fit_cli
 <br />    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 125, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 125, in fit
 <br />    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 222, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 222, in fit
 <br />    train_iter, valid_iter = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/dataloader.py", line 236, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/dataloader.py", line 236, in __init__
 <br />    self.data_info                = data_pars['data_info']
 <br />KeyError: 'data_info'
 
 
 
-### Error 105, [Traceback at line 3533](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3533)<br />3533..Traceback (most recent call last):
+### Error 105, [Traceback at line 3523](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3523)<br />3523..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 530, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
 <br />    fit_cli(arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 413, in fit_cli
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 413, in fit_cli
 <br />    model_p, data_p, compute_p, out_p = config_get_pars(config_file, arg.config_mode)
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/models.py", line 299, in config_get_pars
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 299, in config_get_pars
 <br />    out_p     = path_norm_dict( js.get("out_pars") )
-<br />  File "https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91/mlmodels/util.py", line 201, in path_norm_dict
+<br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/util.py", line 201, in path_norm_dict
 <br />    for k,v in ddict.items():
 <br />AttributeError: 'NoneType' object has no attribute 'items'
