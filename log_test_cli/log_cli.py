@@ -11,17 +11,17 @@
 
  ************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'dbbd1e3505a2b3043e7688c1260e13ddacd09d91', 'workflow': 'test_cli'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '458b0439a169873cbce08726558e091efacd7d2f', 'workflow': 'test_cli'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_cli
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/dbbd1e3505a2b3043e7688c1260e13ddacd09d91
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/458b0439a169873cbce08726558e091efacd7d2f
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/dbbd1e3505a2b3043e7688c1260e13ddacd09d91
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f
 
  ************************************************************************************************************************
 Using : /home/runner/work/mlmodels/mlmodels/mlmodels/../README_usage_CLI.md
@@ -112,7 +112,7 @@ WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/sit
 Instructions for updating:
 non-resource variables are not supported in the long term
 
-  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7fc8ea882cf8> 
+  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7fb64838ce48> 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -130,7 +130,7 @@ non-resource variables are not supported in the long term
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
-  ##### Save <tensorflow.python.client.session.Session object at 0x7fc8b7d91fd0> 
+  ##### Save <tensorflow.python.client.session.Session object at 0x7fb63ecbeb00> 
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/', 'model_uri': 'model_tf.1_lstm'}
 Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm//model//model.ckpt
 
@@ -156,7 +156,7 @@ non-resource variables are not supported in the long term
 Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/model
 Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/model
 
-  ##### Predict: <tensorflow.python.client.session.Session object at 0x7f09851976a0> 
+  ##### Predict: <tensorflow.python.client.session.Session object at 0x7f30f6c43668> 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -200,7 +200,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7fe7b4c9b160> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7f4e179a9198> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -243,14 +243,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [-0.12860131 -0.05081505  0.00883749  0.01363465 -0.02189918 -0.18338561]
- [-0.23603639  0.03653605  0.02657127  0.18496251  0.02358393  0.16293697]
- [-0.00370685  0.06840706 -0.13776301  0.27094099 -0.06576131 -0.04348953]
- [-0.14067619  0.10684681  0.01820574  0.33744302  0.04719005  0.15715533]
- [ 0.31323785  0.16740167 -0.08590227 -0.0829576  -0.18214467 -0.35788524]
- [ 0.39307272 -0.19700579  0.22607911  0.48555118 -0.41028085 -0.12886941]
- [ 0.32905549 -0.1926614  -0.05473661  0.26421613  0.66294247  0.21110836]
- [ 0.19797207 -0.10359257  0.25057775  0.68145102 -0.28204763  0.45024574]
+ [ 0.10666961  0.06417475 -0.03921751  0.17209604  0.15160075  0.00653099]
+ [ 0.0963754   0.11474892 -0.04441099  0.19551687  0.06150322  0.05802933]
+ [ 0.24482651  0.18918642  0.12067629 -0.19377139  0.27559289  0.1064823 ]
+ [ 0.01909346 -0.113545   -0.10271677 -0.01287079  0.172269    0.07103524]
+ [ 0.72691309 -0.30332395  0.32336819 -0.15709046  0.07682803 -0.09555884]
+ [ 0.15777057  0.05276838  0.33630782  0.33190382 -0.27584556 -0.20141605]
+ [ 0.39143571 -0.26813963 -0.03323148 -0.26104191 -0.30498949  0.61275214]
+ [ 0.40425116 -0.62422389  1.12680793  0.43494964  0.42274922  0.02000144]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -325,7 +325,7 @@ model_tf.1_lstm
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.4322054050862789, 'loss_history': []}
+{'loss': 0.49771733582019806, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -406,7 +406,7 @@ model_tf.1_lstm
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.3312234878540039, 'loss_history': []}
+{'loss': 0.43202681839466095, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -442,7 +442,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f930bda6198> 
+  <mlmodels.example.custom_model.1_lstm.Model object at 0x7fb5b42c5160> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -485,14 +485,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [ 0.0101859   0.08031023  0.03708758  0.04294459 -0.06634052  0.01820028]
- [ 0.14012188 -0.04065072 -0.06180897 -0.10262728  0.09237104 -0.07001469]
- [ 0.12576672 -0.01082949 -0.00510307  0.0579341  -0.08804878 -0.08768222]
- [ 0.21565449 -0.13007648 -0.0731608  -0.18240929  0.33387303 -0.16108447]
- [ 0.32663858  0.09670994  0.25469664  0.6414476  -0.2212217  -0.29833877]
- [ 0.03743885  0.06161596  0.03756379  0.30604303  0.17939989 -0.10568619]
- [ 0.13654783 -0.5963757  -0.13653566  0.23963422 -0.16713725  0.2075073 ]
- [ 0.73153484  0.08710942 -0.66431874 -0.11803953  0.72087246 -0.06709679]
+ [ 0.0659958   0.20146899  0.0420571   0.14670478  0.02980658  0.21594401]
+ [ 0.17750305 -0.0657659   0.16884772  0.04672884  0.20101538  0.16333096]
+ [-0.12392319  0.1623331  -0.1262265   0.05327267 -0.08141035  0.37763873]
+ [ 0.25875044  0.44069606  0.27857062 -0.00166134  0.01288654 -0.10457629]
+ [ 0.55698878  0.16378909  0.0945152  -0.28466451 -0.44224927  0.3755722 ]
+ [ 0.28728172  0.19461229  0.09107596  0.46841148  0.36003658  0.09412733]
+ [ 0.57617712  0.17558978  0.5437479   0.71251982 -0.09781696 -0.21559627]
+ [ 0.06790043  0.36717764 -0.63414007 -0.47789881  0.86484265 -0.47001532]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -567,7 +567,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.4795107841491699, 'loss_history': []}
+{'loss': 0.453960083425045, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -643,7 +643,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.39132798835635185, 'loss_history': []}
+{'loss': 0.532595057040453, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -690,7 +690,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-05-25 23:19:26,584][0m Finished trial#0 resulted in value: 2.1581093221902847. Current best value is 2.1581093221902847 with parameters: {'learning_rate': 0.0529432096831136, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-05-26 23:21:08,896][0m Finished trial#0 resulted in value: 4.36997377872467. Current best value is 4.36997377872467 with parameters: {'learning_rate': 0.06078227865181061, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -709,7 +709,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-05-25 23:19:27,896][0m Finished trial#1 resulted in value: 8.8061203956604. Current best value is 2.1581093221902847 with parameters: {'learning_rate': 0.0529432096831136, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-05-26 23:21:10,293][0m Finished trial#1 resulted in value: 0.39521176367998123. Current best value is 0.39521176367998123 with parameters: {'learning_rate': 0.012684838259252958, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -757,7 +757,7 @@ Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1l
 
   #############  OPTIMIZATION End ############### 
 
-  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.0529432096831136, 'num_layers': 3, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 2.1581093221902847, 'model_name': None} 
+  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.012684838259252958, 'num_layers': 2, 'size': 6, 'size_layer': 256, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.39521176367998123, 'model_name': None} 
 
 
 
@@ -774,7 +774,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-05-25 23:19:35,023][0m Finished trial#0 resulted in value: 14.824942111968994. Current best value is 14.824942111968994 with parameters: {'learning_rate': 0.0848817331099201, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-05-26 23:21:18,219][0m Finished trial#0 resulted in value: 0.6294478327035904. Current best value is 0.6294478327035904 with parameters: {'learning_rate': 0.014321411754549176, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -793,7 +793,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-05-25 23:19:36,369][0m Finished trial#1 resulted in value: 0.7862761914730072. Current best value is 0.7862761914730072 with parameters: {'learning_rate': 0.019077804291149435, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-05-26 23:21:20,536][0m Finished trial#1 resulted in value: 4.540675401687622. Current best value is 0.6294478327035904 with parameters: {'learning_rate': 0.014321411754549176, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -954,13 +954,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fa951709eb8> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f82e492d940> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-25 23:19:54.704345
+  date_run                              2020-05-26 23:21:40.311005
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -968,7 +968,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-05-25 23:19:54.708640
+  date_run                              2020-05-26 23:21:40.315843
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -976,7 +976,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-05-25 23:19:54.712262
+  date_run                              2020-05-26 23:21:40.319517
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -984,7 +984,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-05-25 23:19:54.715798
+  date_run                              2020-05-26 23:21:40.323587
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1034,166 +1034,166 @@ Non-trainable params: 0
 _________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.armdn.Model object at 0x7fa940d24080> <class 'mlmodels.model_keras.armdn.Model'>
+>>>model:  <mlmodels.model_keras.armdn.Model object at 0x7f82e492d630> <class 'mlmodels.model_keras.armdn.Model'>
 
   #### Loading dataset   ############################################# 
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Epoch 1/10
 
-1/1 [==============================] - 2s 2s/step - loss: 359582.6875
+1/1 [==============================] - 2s 2s/step - loss: 354204.3438
 Epoch 2/10
 
-1/1 [==============================] - 0s 106ms/step - loss: 277368.4375
+1/1 [==============================] - 0s 113ms/step - loss: 234959.7344
 Epoch 3/10
 
-1/1 [==============================] - 0s 94ms/step - loss: 174684.5938
+1/1 [==============================] - 0s 103ms/step - loss: 114646.9062
 Epoch 4/10
 
-1/1 [==============================] - 0s 94ms/step - loss: 103928.4922
+1/1 [==============================] - 0s 103ms/step - loss: 46415.2266
 Epoch 5/10
 
-1/1 [==============================] - 0s 104ms/step - loss: 61279.0195
+1/1 [==============================] - 0s 101ms/step - loss: 20472.0039
 Epoch 6/10
 
-1/1 [==============================] - 0s 94ms/step - loss: 36893.2422
+1/1 [==============================] - 0s 101ms/step - loss: 10690.5273
 Epoch 7/10
 
-1/1 [==============================] - 0s 92ms/step - loss: 23025.3633
+1/1 [==============================] - 0s 103ms/step - loss: 6490.3989
 Epoch 8/10
 
-1/1 [==============================] - 0s 92ms/step - loss: 15034.8623
+1/1 [==============================] - 0s 101ms/step - loss: 4436.0029
 Epoch 9/10
 
-1/1 [==============================] - 0s 103ms/step - loss: 10642.5527
+1/1 [==============================] - 0s 104ms/step - loss: 3317.6594
 Epoch 10/10
 
-1/1 [==============================] - 0s 104ms/step - loss: 8097.7173
+1/1 [==============================] - 0s 104ms/step - loss: 2665.3645
 
   #### Inference Need return ypred, ytrue ######################### 
-[[-8.39751214e-03  6.71400690e+00  6.33326292e+00  7.85244989e+00
-   7.93026781e+00  5.74289370e+00  6.32038450e+00  5.88292742e+00
-   7.55585194e+00  6.16864872e+00  8.07298470e+00  5.94067907e+00
-   6.31272221e+00  6.06142092e+00  7.04356909e+00  7.02432823e+00
-   8.29759598e+00  7.78452826e+00  8.11949635e+00  7.54326868e+00
-   6.75284147e+00  6.95194340e+00  6.89327383e+00  7.64055490e+00
-   6.67392445e+00  6.01579952e+00  7.46034384e+00  6.67370939e+00
-   6.31731606e+00  5.97897291e+00  8.06626987e+00  6.25019121e+00
-   7.57338715e+00  8.43972588e+00  7.39123058e+00  8.03287697e+00
-   8.10601044e+00  5.94035816e+00  6.10580921e+00  7.04443216e+00
-   8.16332722e+00  7.91944838e+00  8.35736847e+00  9.01438808e+00
-   7.25673103e+00  8.90853119e+00  6.67184830e+00  7.77821207e+00
-   7.01709080e+00  6.94863796e+00  8.51073170e+00  7.74656630e+00
-   7.67579651e+00  8.40626812e+00  7.65319681e+00  6.61596823e+00
-   7.14158964e+00  8.81519890e+00  8.30860615e+00  8.00185680e+00
-  -1.85612559e+00 -1.41707289e+00 -1.97878420e-01  6.94985509e-01
-  -2.28029206e-01 -8.39547634e-01  1.68131042e+00  4.36027527e-01
-   5.04157841e-01 -2.64915645e-01  1.00360560e+00  1.16319954e-01
-   2.01691961e+00 -3.28808308e-01  9.22618270e-01  5.59979856e-01
-   1.82322454e+00  9.86233205e-02 -1.78914464e+00 -6.28711939e-01
-  -6.46996975e-01 -5.62678277e-01 -1.20168495e+00 -1.32831705e+00
-   1.15565801e+00 -1.23307109e+00 -2.37379646e+00  8.05852652e-01
-   2.17015088e-01 -2.96582550e-01  5.63698113e-02  3.41975600e-01
-  -1.25636399e+00  3.38882416e-01  9.40066576e-03 -1.59577087e-01
-  -1.29662967e+00 -5.08468091e-01  9.85889792e-01 -4.78585839e-01
-   9.40113783e-01  1.38861883e+00  2.02460289e-01 -2.07401752e+00
-   7.58869410e-01  5.91513991e-01  1.28919706e-01  1.41381979e-01
-  -6.50947332e-01 -5.89771032e-01 -3.71894151e-01  8.03284496e-02
-  -1.26874316e+00 -1.09257340e-01  4.75354999e-01 -9.52289402e-01
-  -4.49213207e-01  7.79702902e-01  8.99825513e-01  1.37120390e+00
-   6.09281063e-01  7.85250247e-01 -6.14230216e-01 -1.58044994e-01
-  -2.23495364e-01 -4.80601132e-01 -1.01770163e-02 -5.74464321e-01
-   1.16622663e+00  2.97639638e-01  3.85505587e-01  6.44721270e-01
-  -1.34785223e+00 -7.75588751e-02 -9.44777489e-01 -6.47249043e-01
-   1.07706857e+00 -5.27694464e-01 -8.17783117e-01 -4.76593375e-02
-  -1.26756716e+00 -5.07947087e-01 -6.41940057e-01 -1.10050035e+00
-  -7.15758979e-01  2.76301242e-02 -6.30349219e-01 -1.78727400e+00
-  -7.76470423e-01  9.76748884e-01 -8.44174504e-01 -1.23963547e+00
-   9.16157067e-02 -1.25135410e+00 -3.06031704e-02  1.09661415e-01
-  -4.33731735e-01  1.46347189e+00 -6.54673696e-01  9.23779368e-01
-  -7.61676908e-01  5.44989435e-03 -8.16443324e-01 -2.17038083e+00
-   3.81327689e-01 -6.36102796e-01 -1.63769364e+00 -6.83175147e-01
-   1.06979251e+00  7.51540124e-01 -5.38114071e-01  1.10587776e+00
-  -9.51599538e-01  6.52960300e-01 -8.11773121e-01 -1.58506155e-01
-   1.73332006e-01  6.54552221e-01  1.14382339e+00  3.18630815e-01
-   8.35734606e-02  7.91361380e+00  7.87758398e+00  7.29679441e+00
-   7.32568693e+00  7.79486227e+00  7.02848625e+00  7.76348877e+00
-   7.61181784e+00  7.35758829e+00  7.02959776e+00  7.81541729e+00
-   7.37215424e+00  7.23868322e+00  8.31426716e+00  8.83218098e+00
-   8.17538261e+00  7.65656471e+00  7.79573822e+00  7.21049023e+00
-   8.03319073e+00  7.58021927e+00  7.93225145e+00  7.29150915e+00
-   8.34814930e+00  7.64585209e+00  8.13688755e+00  6.72787380e+00
-   7.21358109e+00  8.55158520e+00  7.00456238e+00  7.57180071e+00
-   6.36446571e+00  8.18652534e+00  7.02005100e+00  7.34346676e+00
-   7.59375334e+00  8.13765430e+00  7.22682333e+00  9.13684273e+00
-   6.57863331e+00  6.80546999e+00  6.75992823e+00  7.18072796e+00
-   7.39608383e+00  7.22835398e+00  6.83123398e+00  7.31636381e+00
-   7.06261301e+00  8.85589981e+00  7.80167627e+00  8.28492451e+00
-   6.65079117e+00  7.61526060e+00  7.09176779e+00  6.99132681e+00
-   7.81888723e+00  6.63051796e+00  7.36835146e+00  6.70973969e+00
-   2.73493052e-01  4.37674463e-01  8.29188228e-01  1.49809122e+00
-   8.21185768e-01  9.67409074e-01  3.88608336e-01  2.28331017e+00
-   1.77724874e+00  2.72419930e-01  4.32459474e-01  2.41576076e-01
-   2.63811874e+00  1.97288489e+00  2.07742333e+00  1.67037785e-01
-   1.76699138e+00  5.79720616e-01  1.80662251e+00  1.07140398e+00
-   3.89254808e-01  2.54948258e-01  1.08622837e+00  3.11554813e+00
-   2.33815694e+00  5.54396391e-01  1.56053758e+00  1.67389929e+00
-   1.38990760e-01  7.88160563e-01  2.29844451e-01  2.74827766e+00
-   1.95732558e+00  1.73988974e+00  1.51127243e+00  1.09705389e+00
-   1.04623210e+00  7.35536873e-01  2.92896748e-01  2.23708212e-01
-   5.23867369e-01  9.61841106e-01  1.76301610e+00  1.47582638e+00
-   1.40231812e+00  5.79698324e-01  3.05175424e-01  9.67019141e-01
-   1.07804990e+00  1.20919883e+00  2.12327814e+00  2.60311079e+00
-   6.45673215e-01  9.75404978e-02  1.44631672e+00  4.01217282e-01
-   1.43252814e+00  3.51542950e-01  1.46061599e+00  2.71110392e+00
-   1.52022350e+00  5.69080114e-01  5.70945740e-01  3.82653713e-01
-   5.20447969e-01  1.44529605e+00  1.42951846e-01  2.25002146e+00
-   2.10991669e+00  9.25111115e-01  1.75443053e+00  1.82409120e+00
-   1.96548343e+00  2.80569005e+00  1.91576397e+00  1.04599810e+00
-   5.17388701e-01  6.12564981e-01  1.39354920e+00  2.68992603e-01
-   3.37715745e-01  4.58869219e-01  8.04844379e-01  1.36493230e+00
-   5.09543478e-01  1.90008056e+00  1.48655486e+00  2.14838433e+00
-   3.74002814e-01  7.75568902e-01  1.59724963e+00  5.66096008e-01
-   5.96780300e-01  3.28255355e-01  2.20429242e-01  1.99125612e+00
-   1.44230235e+00  8.35174084e-01  9.11253989e-01  1.25197840e+00
-   1.89989161e+00  2.05707169e+00  6.36408687e-01  2.07876253e+00
-   5.33790588e-01  1.43009424e+00  1.10647357e+00  1.75541282e+00
-   1.78935230e-01  6.74939811e-01  1.74507642e+00  5.28559804e-01
-   7.13969469e-01  7.53190756e-01  1.85093403e-01  8.37936938e-01
-   2.73394465e-01  5.28148711e-01  6.13312840e-01  6.24529362e-01
-   7.46668816e+00 -6.32825804e+00 -7.21417713e+00]]
+[[-2.58456349e+00 -1.62267590e+00 -3.81453186e-01 -1.07001281e+00
+   2.70773029e+00  3.62124741e-01 -2.74208307e-01  9.99620914e-01
+   1.34728789e-01 -5.90101004e-01 -5.08494496e-01  8.14332187e-01
+  -5.16850948e-01  9.75692272e-01 -2.94917059e+00 -5.07724762e-01
+  -8.69665146e-01 -5.94339609e-01  1.19221807e+00  8.82493675e-01
+   9.35669988e-02  1.44172454e+00  4.85861063e-01 -1.74924564e+00
+  -8.87645483e-01  8.09742093e-01 -2.89900124e-01 -1.39927173e+00
+  -3.40472400e-01 -2.85558200e+00 -2.27633548e+00  1.95175993e+00
+   1.16619408e+00  1.60801220e+00 -1.47191477e+00 -1.37883282e+00
+   3.70837092e+00  8.77129912e-01 -7.51071155e-01 -1.74630165e-01
+   3.78048629e-01  6.03405833e-01  8.22353840e-01 -5.31788170e-01
+   3.50667119e-01 -1.41344535e+00 -3.14153939e-01 -3.01736236e+00
+  -3.54634225e-03 -1.41417038e+00  1.56003928e+00 -1.12105942e+00
+   1.85044837e+00  1.95745265e+00 -7.53584206e-01 -1.32464790e+00
+   5.58676362e-01  1.44040000e+00 -1.56920516e+00  6.10112906e-01
+  -7.87370026e-01  5.01310110e-01  2.15074730e+00 -2.44031295e-01
+   1.08883238e+00  7.64408290e-01 -1.92631066e-01 -1.66649282e+00
+   2.76031315e-01 -1.90368697e-01 -4.84479845e-01  1.97059131e+00
+   3.56508672e-01  1.57829607e+00 -3.18008423e+00  6.33059740e-01
+   2.23153973e+00  4.28496897e-01  3.76111031e-01 -1.07584095e+00
+   9.23641622e-02  2.47521591e+00  2.65699953e-01 -1.35680258e-01
+  -1.59044445e-01 -4.09961373e-01 -1.27532125e+00  5.23768842e-01
+   1.11380363e+00  2.06266499e+00  2.67343664e+00 -4.28845584e-01
+   1.18297529e+00  1.90427136e+00  1.99480903e+00  1.62615454e+00
+  -7.18761325e-01  1.58856666e+00  5.66784292e-02  1.38859022e+00
+   1.96025300e+00 -2.40733290e+00 -3.51389349e-01 -1.41342199e+00
+  -9.87343907e-01  2.32978866e-01 -4.74918246e-01  1.93042660e+00
+  -7.56980628e-02  9.25927520e-01  1.20161796e+00 -1.89621663e+00
+  -2.01754475e+00 -7.20065236e-01 -2.78987676e-01  8.68532062e-02
+   6.35237575e-01 -3.38116527e+00  1.12505841e+00 -2.92704415e+00
+   1.39501464e+00  1.43828773e+01  1.46827021e+01  1.47037611e+01
+   1.65235348e+01  1.48241787e+01  1.36459122e+01  1.43320322e+01
+   1.45394936e+01  1.46029530e+01  1.47985849e+01  1.45679169e+01
+   1.54392929e+01  1.33081226e+01  1.67211075e+01  1.34992380e+01
+   1.51717606e+01  1.59909134e+01  1.35308743e+01  1.50148191e+01
+   1.35269794e+01  1.55744829e+01  1.72488518e+01  1.60294056e+01
+   1.65489826e+01  1.38541470e+01  1.59641829e+01  1.46239786e+01
+   1.53227711e+01  1.36023254e+01  1.37873192e+01  1.31747074e+01
+   1.57245359e+01  1.46771593e+01  1.58224268e+01  1.42824354e+01
+   1.27320108e+01  1.53143206e+01  1.65066605e+01  1.53212585e+01
+   1.42478952e+01  1.42304077e+01  1.49857187e+01  1.60179787e+01
+   1.44740953e+01  1.35232887e+01  1.46021643e+01  1.44461651e+01
+   1.48994398e+01  1.72441540e+01  1.61676559e+01  1.41290112e+01
+   1.72136784e+01  1.52073708e+01  1.64668255e+01  1.61797028e+01
+   1.49655600e+01  1.47229366e+01  1.42301760e+01  1.73615532e+01
+   2.61782002e+00  1.08286965e+00  7.92994738e-01  8.19840014e-01
+   2.51327229e+00  1.07273245e+00  7.36555040e-01  1.71003628e+00
+   2.58967233e+00  7.12732017e-01  2.72372723e-01  6.45817161e-01
+   9.37963963e-01  3.07858276e+00  2.86568499e+00  1.69104719e+00
+   1.73000538e+00  1.54850054e+00  1.66441607e+00  2.20785737e-01
+   1.02325988e+00  4.01915967e-01  2.45512581e+00  2.99177361e+00
+   1.64670300e+00  2.79770947e+00  1.01510811e+00  4.10616517e-01
+   1.35861576e-01  9.06736255e-01  5.64801097e-02  2.20318508e+00
+   9.79361534e-02  3.32157946e+00  3.76977777e+00  2.36390066e+00
+   8.47023606e-01  3.76875758e-01  1.29100549e+00  8.75054598e-02
+   1.57437396e+00  3.02850485e-01  1.29770088e+00  1.01227605e+00
+   4.21396613e-01  3.90304565e-01  1.79815078e+00  1.85206342e+00
+   1.10442340e-01  8.96161258e-01  2.55886889e+00  2.05677176e+00
+   9.57663417e-01  7.97395647e-01  1.07798564e+00  8.96272063e-01
+   2.81354237e+00  8.53637755e-01  1.77158725e+00  1.99151003e+00
+   4.48955894e-01  1.40915704e+00  3.08706188e+00  1.38911963e-01
+   1.98233914e+00  2.22676694e-01  9.57167864e-01  6.98615313e-02
+   3.32378054e+00  6.26623631e-02  6.75782144e-01  1.38232350e+00
+   1.56349123e+00  3.25969458e-01  3.02135038e+00  4.41165566e-02
+   1.24577796e+00  2.28849792e+00  8.28836560e-01  3.23742390e+00
+   3.34930778e-01  2.47515774e+00  2.94235063e+00  2.52105999e+00
+   1.98227179e+00  2.52421021e-01  1.11349070e+00  3.69531536e+00
+   5.32835722e-01  3.29149067e-01  1.63922405e+00  1.03274786e+00
+   6.82625830e-01  1.03701615e+00  2.51416826e+00  1.84745073e-01
+   8.50934625e-01  2.67551565e+00  2.75997496e+00  7.07829654e-01
+   2.45902658e-01  6.53542399e-01  2.54088640e-01  4.89853263e-01
+   1.77365530e+00  7.16709733e-01  3.36773813e-01  6.42801285e-01
+   9.25357580e-01  1.81417918e+00  1.92296600e+00  6.47645473e-01
+   7.56549776e-01  1.75744820e+00  2.86555409e-01  2.00156093e-01
+   1.50416183e+00  3.73508215e-01  1.38411999e+00  5.90879560e-01
+   2.33413720e+00  1.45460377e+01  1.57014542e+01  1.46453733e+01
+   1.33284779e+01  1.24530687e+01  1.14408283e+01  1.41374025e+01
+   1.36069899e+01  1.45587807e+01  1.38666439e+01  1.53556833e+01
+   1.45524187e+01  1.27073603e+01  1.59096346e+01  1.39071493e+01
+   1.39893618e+01  1.55367403e+01  1.41330242e+01  1.47056990e+01
+   1.46821613e+01  1.38717327e+01  1.37047806e+01  1.21109495e+01
+   1.51707268e+01  1.67923908e+01  1.36573915e+01  1.05916471e+01
+   1.45347099e+01  1.12261934e+01  1.21351585e+01  1.47950077e+01
+   1.35427866e+01  1.34238901e+01  1.42021027e+01  1.57935524e+01
+   1.14704809e+01  1.30158138e+01  1.11733541e+01  1.39122581e+01
+   1.32813587e+01  1.51730537e+01  1.50120430e+01  1.47584562e+01
+   1.38060884e+01  1.50386715e+01  1.39405756e+01  1.22703295e+01
+   1.35825176e+01  1.28523664e+01  1.33346949e+01  1.37793293e+01
+   1.19004860e+01  1.50735731e+01  1.41205654e+01  1.44151144e+01
+   1.38885851e+01  1.43448563e+01  1.37701349e+01  1.53791533e+01
+  -3.16177440e+00 -2.13438568e+01  8.76631451e+00]]
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-25 23:20:04.015167
+  date_run                              2020-05-26 23:21:49.739107
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   94.3113
+metric                                                   87.3835
 metric_name                                  mean_absolute_error
 Name: 4, dtype: object 
 
-  date_run                              2020-05-25 23:20:04.019470
+  date_run                              2020-05-26 23:21:49.744527
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   8918.56
+metric                                                    7668.8
 metric_name                                   mean_squared_error
 Name: 5, dtype: object 
 
-  date_run                              2020-05-25 23:20:04.023311
+  date_run                              2020-05-26 23:21:49.748786
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   94.6751
+metric                                                   87.0127
 metric_name                                median_absolute_error
 Name: 6, dtype: object 
 
-  date_run                              2020-05-25 23:20:04.027194
+  date_run                              2020-05-26 23:21:49.752886
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   -797.72
+metric                                                  -685.795
 metric_name                                             r2_score
 Name: 7, dtype: object 
 
@@ -1209,16 +1209,16 @@ Name: 7, dtype: object
   #### Setup Model   ############################################## 
 | N-Beats
 | --  Stack Nbeatsnet.Generic_Block (#0) (share_weights_in_stack=0)
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140364576202088
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140363348917384
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140363348917888
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140199540930096
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140197010932400
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140197010932904
 | --  Stack Nbeatsnet.Generic_Block (#1) (share_weights_in_stack=0)
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140363349029048
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140363349029552
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140363349030056
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140197010933408
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140197010933912
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140197010934416
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.nbeats.Model object at 0x7fa93efbfc50> <class 'mlmodels.model_tch.nbeats.Model'>
+>>>model:  <mlmodels.model_tch.nbeats.Model object at 0x7f82e4b53ef0> <class 'mlmodels.model_tch.nbeats.Model'>
 [[0.40504701]
  [0.40695405]
  [0.39710839]
@@ -1227,520 +1227,520 @@ Name: 7, dtype: object
  [0.95086039]
  [0.95547277]]
 --- fiting ---
-grad_step = 000000, loss = 0.556704
+grad_step = 000000, loss = 0.527685
 plot()
 Saved image to .//n_beats_0.png.
-grad_step = 000001, loss = 0.520299
-grad_step = 000002, loss = 0.495034
-grad_step = 000003, loss = 0.470407
-grad_step = 000004, loss = 0.442535
-grad_step = 000005, loss = 0.412162
-grad_step = 000006, loss = 0.378584
-grad_step = 000007, loss = 0.346698
-grad_step = 000008, loss = 0.321713
-grad_step = 000009, loss = 0.307962
-grad_step = 000010, loss = 0.288755
-grad_step = 000011, loss = 0.267977
-grad_step = 000012, loss = 0.252829
-grad_step = 000013, loss = 0.240563
-grad_step = 000014, loss = 0.230949
-grad_step = 000015, loss = 0.221894
-grad_step = 000016, loss = 0.211906
-grad_step = 000017, loss = 0.201518
-grad_step = 000018, loss = 0.190788
-grad_step = 000019, loss = 0.179439
-grad_step = 000020, loss = 0.168627
-grad_step = 000021, loss = 0.159609
-grad_step = 000022, loss = 0.151780
-grad_step = 000023, loss = 0.143777
-grad_step = 000024, loss = 0.135456
-grad_step = 000025, loss = 0.127138
-grad_step = 000026, loss = 0.118981
-grad_step = 000027, loss = 0.111360
-grad_step = 000028, loss = 0.104559
-grad_step = 000029, loss = 0.098128
-grad_step = 000030, loss = 0.091661
-grad_step = 000031, loss = 0.085455
-grad_step = 000032, loss = 0.079987
-grad_step = 000033, loss = 0.075022
-grad_step = 000034, loss = 0.069981
-grad_step = 000035, loss = 0.064954
-grad_step = 000036, loss = 0.060233
-grad_step = 000037, loss = 0.055873
-grad_step = 000038, loss = 0.051926
-grad_step = 000039, loss = 0.048323
-grad_step = 000040, loss = 0.044815
-grad_step = 000041, loss = 0.041364
-grad_step = 000042, loss = 0.038189
-grad_step = 000043, loss = 0.035327
-grad_step = 000044, loss = 0.032626
-grad_step = 000045, loss = 0.030053
-grad_step = 000046, loss = 0.027681
-grad_step = 000047, loss = 0.025508
-grad_step = 000048, loss = 0.023468
-grad_step = 000049, loss = 0.021507
-grad_step = 000050, loss = 0.019648
-grad_step = 000051, loss = 0.017982
-grad_step = 000052, loss = 0.016522
-grad_step = 000053, loss = 0.015164
-grad_step = 000054, loss = 0.013866
-grad_step = 000055, loss = 0.012673
-grad_step = 000056, loss = 0.011603
-grad_step = 000057, loss = 0.010628
-grad_step = 000058, loss = 0.009708
-grad_step = 000059, loss = 0.008853
-grad_step = 000060, loss = 0.008107
-grad_step = 000061, loss = 0.007465
-grad_step = 000062, loss = 0.006873
-grad_step = 000063, loss = 0.006309
-grad_step = 000064, loss = 0.005796
-grad_step = 000065, loss = 0.005360
-grad_step = 000066, loss = 0.004980
-grad_step = 000067, loss = 0.004629
-grad_step = 000068, loss = 0.004318
-grad_step = 000069, loss = 0.004054
-grad_step = 000070, loss = 0.003818
-grad_step = 000071, loss = 0.003604
-grad_step = 000072, loss = 0.003414
-grad_step = 000073, loss = 0.003252
-grad_step = 000074, loss = 0.003122
-grad_step = 000075, loss = 0.003003
-grad_step = 000076, loss = 0.002897
-grad_step = 000077, loss = 0.002815
-grad_step = 000078, loss = 0.002743
-grad_step = 000079, loss = 0.002680
-grad_step = 000080, loss = 0.002626
-grad_step = 000081, loss = 0.002579
-grad_step = 000082, loss = 0.002543
-grad_step = 000083, loss = 0.002509
-grad_step = 000084, loss = 0.002481
-grad_step = 000085, loss = 0.002462
-grad_step = 000086, loss = 0.002444
-grad_step = 000087, loss = 0.002425
-grad_step = 000088, loss = 0.002408
-grad_step = 000089, loss = 0.002395
-grad_step = 000090, loss = 0.002385
-grad_step = 000091, loss = 0.002373
-grad_step = 000092, loss = 0.002363
-grad_step = 000093, loss = 0.002354
-grad_step = 000094, loss = 0.002344
-grad_step = 000095, loss = 0.002335
-grad_step = 000096, loss = 0.002327
-grad_step = 000097, loss = 0.002320
-grad_step = 000098, loss = 0.002313
-grad_step = 000099, loss = 0.002305
-grad_step = 000100, loss = 0.002297
+grad_step = 000001, loss = 0.493710
+grad_step = 000002, loss = 0.468083
+grad_step = 000003, loss = 0.441606
+grad_step = 000004, loss = 0.415383
+grad_step = 000005, loss = 0.393735
+grad_step = 000006, loss = 0.377919
+grad_step = 000007, loss = 0.370040
+grad_step = 000008, loss = 0.358882
+grad_step = 000009, loss = 0.343355
+grad_step = 000010, loss = 0.330670
+grad_step = 000011, loss = 0.321930
+grad_step = 000012, loss = 0.313712
+grad_step = 000013, loss = 0.301600
+grad_step = 000014, loss = 0.286927
+grad_step = 000015, loss = 0.271395
+grad_step = 000016, loss = 0.256475
+grad_step = 000017, loss = 0.242222
+grad_step = 000018, loss = 0.227629
+grad_step = 000019, loss = 0.213694
+grad_step = 000020, loss = 0.202461
+grad_step = 000021, loss = 0.192810
+grad_step = 000022, loss = 0.183220
+grad_step = 000023, loss = 0.174683
+grad_step = 000024, loss = 0.167615
+grad_step = 000025, loss = 0.160574
+grad_step = 000026, loss = 0.152384
+grad_step = 000027, loss = 0.143733
+grad_step = 000028, loss = 0.135703
+grad_step = 000029, loss = 0.128744
+grad_step = 000030, loss = 0.122347
+grad_step = 000031, loss = 0.115708
+grad_step = 000032, loss = 0.109156
+grad_step = 000033, loss = 0.103076
+grad_step = 000034, loss = 0.096956
+grad_step = 000035, loss = 0.090547
+grad_step = 000036, loss = 0.084456
+grad_step = 000037, loss = 0.079195
+grad_step = 000038, loss = 0.074502
+grad_step = 000039, loss = 0.069878
+grad_step = 000040, loss = 0.065193
+grad_step = 000041, loss = 0.060707
+grad_step = 000042, loss = 0.056603
+grad_step = 000043, loss = 0.052545
+grad_step = 000044, loss = 0.048565
+grad_step = 000045, loss = 0.044958
+grad_step = 000046, loss = 0.041704
+grad_step = 000047, loss = 0.038672
+grad_step = 000048, loss = 0.035673
+grad_step = 000049, loss = 0.032894
+grad_step = 000050, loss = 0.030282
+grad_step = 000051, loss = 0.027753
+grad_step = 000052, loss = 0.025448
+grad_step = 000053, loss = 0.023408
+grad_step = 000054, loss = 0.021471
+grad_step = 000055, loss = 0.019596
+grad_step = 000056, loss = 0.017977
+grad_step = 000057, loss = 0.016461
+grad_step = 000058, loss = 0.014980
+grad_step = 000059, loss = 0.013645
+grad_step = 000060, loss = 0.012507
+grad_step = 000061, loss = 0.011405
+grad_step = 000062, loss = 0.010388
+grad_step = 000063, loss = 0.009513
+grad_step = 000064, loss = 0.008716
+grad_step = 000065, loss = 0.007967
+grad_step = 000066, loss = 0.007317
+grad_step = 000067, loss = 0.006746
+grad_step = 000068, loss = 0.006212
+grad_step = 000069, loss = 0.005766
+grad_step = 000070, loss = 0.005374
+grad_step = 000071, loss = 0.005006
+grad_step = 000072, loss = 0.004691
+grad_step = 000073, loss = 0.004411
+grad_step = 000074, loss = 0.004150
+grad_step = 000075, loss = 0.003935
+grad_step = 000076, loss = 0.003753
+grad_step = 000077, loss = 0.003581
+grad_step = 000078, loss = 0.003435
+grad_step = 000079, loss = 0.003305
+grad_step = 000080, loss = 0.003187
+grad_step = 000081, loss = 0.003093
+grad_step = 000082, loss = 0.003006
+grad_step = 000083, loss = 0.002927
+grad_step = 000084, loss = 0.002861
+grad_step = 000085, loss = 0.002795
+grad_step = 000086, loss = 0.002738
+grad_step = 000087, loss = 0.002692
+grad_step = 000088, loss = 0.002645
+grad_step = 000089, loss = 0.002605
+grad_step = 000090, loss = 0.002571
+grad_step = 000091, loss = 0.002538
+grad_step = 000092, loss = 0.002510
+grad_step = 000093, loss = 0.002484
+grad_step = 000094, loss = 0.002462
+grad_step = 000095, loss = 0.002442
+grad_step = 000096, loss = 0.002422
+grad_step = 000097, loss = 0.002407
+grad_step = 000098, loss = 0.002392
+grad_step = 000099, loss = 0.002378
+grad_step = 000100, loss = 0.002367
 plot()
 Saved image to .//n_beats_100.png.
-grad_step = 000101, loss = 0.002290
-grad_step = 000102, loss = 0.002284
-grad_step = 000103, loss = 0.002277
-grad_step = 000104, loss = 0.002271
-grad_step = 000105, loss = 0.002265
-grad_step = 000106, loss = 0.002259
-grad_step = 000107, loss = 0.002253
-grad_step = 000108, loss = 0.002248
-grad_step = 000109, loss = 0.002243
-grad_step = 000110, loss = 0.002238
-grad_step = 000111, loss = 0.002233
-grad_step = 000112, loss = 0.002228
-grad_step = 000113, loss = 0.002224
-grad_step = 000114, loss = 0.002220
-grad_step = 000115, loss = 0.002216
-grad_step = 000116, loss = 0.002212
-grad_step = 000117, loss = 0.002209
-grad_step = 000118, loss = 0.002205
-grad_step = 000119, loss = 0.002202
-grad_step = 000120, loss = 0.002199
-grad_step = 000121, loss = 0.002196
-grad_step = 000122, loss = 0.002193
-grad_step = 000123, loss = 0.002190
-grad_step = 000124, loss = 0.002187
-grad_step = 000125, loss = 0.002184
-grad_step = 000126, loss = 0.002181
-grad_step = 000127, loss = 0.002178
-grad_step = 000128, loss = 0.002176
-grad_step = 000129, loss = 0.002173
-grad_step = 000130, loss = 0.002170
-grad_step = 000131, loss = 0.002168
-grad_step = 000132, loss = 0.002165
-grad_step = 000133, loss = 0.002162
-grad_step = 000134, loss = 0.002160
-grad_step = 000135, loss = 0.002157
-grad_step = 000136, loss = 0.002154
-grad_step = 000137, loss = 0.002152
-grad_step = 000138, loss = 0.002149
-grad_step = 000139, loss = 0.002146
-grad_step = 000140, loss = 0.002144
-grad_step = 000141, loss = 0.002141
-grad_step = 000142, loss = 0.002138
-grad_step = 000143, loss = 0.002135
-grad_step = 000144, loss = 0.002132
-grad_step = 000145, loss = 0.002130
-grad_step = 000146, loss = 0.002127
-grad_step = 000147, loss = 0.002124
-grad_step = 000148, loss = 0.002121
-grad_step = 000149, loss = 0.002118
-grad_step = 000150, loss = 0.002115
-grad_step = 000151, loss = 0.002112
-grad_step = 000152, loss = 0.002109
-grad_step = 000153, loss = 0.002106
-grad_step = 000154, loss = 0.002103
-grad_step = 000155, loss = 0.002099
-grad_step = 000156, loss = 0.002096
-grad_step = 000157, loss = 0.002093
-grad_step = 000158, loss = 0.002089
-grad_step = 000159, loss = 0.002086
-grad_step = 000160, loss = 0.002082
-grad_step = 000161, loss = 0.002079
-grad_step = 000162, loss = 0.002075
-grad_step = 000163, loss = 0.002071
-grad_step = 000164, loss = 0.002067
-grad_step = 000165, loss = 0.002063
-grad_step = 000166, loss = 0.002059
-grad_step = 000167, loss = 0.002055
-grad_step = 000168, loss = 0.002051
-grad_step = 000169, loss = 0.002048
-grad_step = 000170, loss = 0.002043
-grad_step = 000171, loss = 0.002038
-grad_step = 000172, loss = 0.002034
-grad_step = 000173, loss = 0.002030
-grad_step = 000174, loss = 0.002025
-grad_step = 000175, loss = 0.002021
-grad_step = 000176, loss = 0.002017
-grad_step = 000177, loss = 0.002013
-grad_step = 000178, loss = 0.002008
-grad_step = 000179, loss = 0.002003
-grad_step = 000180, loss = 0.001998
-grad_step = 000181, loss = 0.001993
-grad_step = 000182, loss = 0.001989
-grad_step = 000183, loss = 0.001984
-grad_step = 000184, loss = 0.001979
-grad_step = 000185, loss = 0.001974
-grad_step = 000186, loss = 0.001969
-grad_step = 000187, loss = 0.001964
-grad_step = 000188, loss = 0.001959
-grad_step = 000189, loss = 0.001955
-grad_step = 000190, loss = 0.001952
-grad_step = 000191, loss = 0.001949
-grad_step = 000192, loss = 0.001943
-grad_step = 000193, loss = 0.001936
-grad_step = 000194, loss = 0.001929
-grad_step = 000195, loss = 0.001922
-grad_step = 000196, loss = 0.001918
-grad_step = 000197, loss = 0.001914
-grad_step = 000198, loss = 0.001910
-grad_step = 000199, loss = 0.001906
-grad_step = 000200, loss = 0.001902
+grad_step = 000101, loss = 0.002355
+grad_step = 000102, loss = 0.002346
+grad_step = 000103, loss = 0.002337
+grad_step = 000104, loss = 0.002328
+grad_step = 000105, loss = 0.002321
+grad_step = 000106, loss = 0.002314
+grad_step = 000107, loss = 0.002307
+grad_step = 000108, loss = 0.002301
+grad_step = 000109, loss = 0.002295
+grad_step = 000110, loss = 0.002290
+grad_step = 000111, loss = 0.002285
+grad_step = 000112, loss = 0.002280
+grad_step = 000113, loss = 0.002275
+grad_step = 000114, loss = 0.002271
+grad_step = 000115, loss = 0.002267
+grad_step = 000116, loss = 0.002263
+grad_step = 000117, loss = 0.002259
+grad_step = 000118, loss = 0.002255
+grad_step = 000119, loss = 0.002252
+grad_step = 000120, loss = 0.002248
+grad_step = 000121, loss = 0.002245
+grad_step = 000122, loss = 0.002241
+grad_step = 000123, loss = 0.002238
+grad_step = 000124, loss = 0.002234
+grad_step = 000125, loss = 0.002231
+grad_step = 000126, loss = 0.002227
+grad_step = 000127, loss = 0.002224
+grad_step = 000128, loss = 0.002221
+grad_step = 000129, loss = 0.002218
+grad_step = 000130, loss = 0.002215
+grad_step = 000131, loss = 0.002213
+grad_step = 000132, loss = 0.002211
+grad_step = 000133, loss = 0.002210
+grad_step = 000134, loss = 0.002207
+grad_step = 000135, loss = 0.002204
+grad_step = 000136, loss = 0.002199
+grad_step = 000137, loss = 0.002194
+grad_step = 000138, loss = 0.002187
+grad_step = 000139, loss = 0.002182
+grad_step = 000140, loss = 0.002177
+grad_step = 000141, loss = 0.002174
+grad_step = 000142, loss = 0.002171
+grad_step = 000143, loss = 0.002168
+grad_step = 000144, loss = 0.002166
+grad_step = 000145, loss = 0.002164
+grad_step = 000146, loss = 0.002164
+grad_step = 000147, loss = 0.002165
+grad_step = 000148, loss = 0.002167
+grad_step = 000149, loss = 0.002168
+grad_step = 000150, loss = 0.002168
+grad_step = 000151, loss = 0.002161
+grad_step = 000152, loss = 0.002150
+grad_step = 000153, loss = 0.002137
+grad_step = 000154, loss = 0.002127
+grad_step = 000155, loss = 0.002123
+grad_step = 000156, loss = 0.002123
+grad_step = 000157, loss = 0.002125
+grad_step = 000158, loss = 0.002126
+grad_step = 000159, loss = 0.002124
+grad_step = 000160, loss = 0.002120
+grad_step = 000161, loss = 0.002114
+grad_step = 000162, loss = 0.002107
+grad_step = 000163, loss = 0.002098
+grad_step = 000164, loss = 0.002092
+grad_step = 000165, loss = 0.002089
+grad_step = 000166, loss = 0.002089
+grad_step = 000167, loss = 0.002091
+grad_step = 000168, loss = 0.002095
+grad_step = 000169, loss = 0.002097
+grad_step = 000170, loss = 0.002095
+grad_step = 000171, loss = 0.002086
+grad_step = 000172, loss = 0.002078
+grad_step = 000173, loss = 0.002073
+grad_step = 000174, loss = 0.002070
+grad_step = 000175, loss = 0.002066
+grad_step = 000176, loss = 0.002063
+grad_step = 000177, loss = 0.002060
+grad_step = 000178, loss = 0.002061
+grad_step = 000179, loss = 0.002063
+grad_step = 000180, loss = 0.002064
+grad_step = 000181, loss = 0.002064
+grad_step = 000182, loss = 0.002064
+grad_step = 000183, loss = 0.002070
+grad_step = 000184, loss = 0.002070
+grad_step = 000185, loss = 0.002072
+grad_step = 000186, loss = 0.002059
+grad_step = 000187, loss = 0.002048
+grad_step = 000188, loss = 0.002040
+grad_step = 000189, loss = 0.002038
+grad_step = 000190, loss = 0.002037
+grad_step = 000191, loss = 0.002035
+grad_step = 000192, loss = 0.002037
+grad_step = 000193, loss = 0.002037
+grad_step = 000194, loss = 0.002040
+grad_step = 000195, loss = 0.002041
+grad_step = 000196, loss = 0.002039
+grad_step = 000197, loss = 0.002034
+grad_step = 000198, loss = 0.002029
+grad_step = 000199, loss = 0.002022
+grad_step = 000200, loss = 0.002019
 plot()
 Saved image to .//n_beats_200.png.
-grad_step = 000201, loss = 0.001898
-grad_step = 000202, loss = 0.001892
-grad_step = 000203, loss = 0.001885
-grad_step = 000204, loss = 0.001878
-grad_step = 000205, loss = 0.001871
-grad_step = 000206, loss = 0.001865
-grad_step = 000207, loss = 0.001858
-grad_step = 000208, loss = 0.001853
-grad_step = 000209, loss = 0.001848
-grad_step = 000210, loss = 0.001843
-grad_step = 000211, loss = 0.001841
-grad_step = 000212, loss = 0.001846
-grad_step = 000213, loss = 0.001876
-grad_step = 000214, loss = 0.001926
-grad_step = 000215, loss = 0.001960
-grad_step = 000216, loss = 0.001860
-grad_step = 000217, loss = 0.001806
-grad_step = 000218, loss = 0.001858
-grad_step = 000219, loss = 0.001878
-grad_step = 000220, loss = 0.001837
-grad_step = 000221, loss = 0.001793
-grad_step = 000222, loss = 0.001862
-grad_step = 000223, loss = 0.001923
-grad_step = 000224, loss = 0.001799
-grad_step = 000225, loss = 0.001834
-grad_step = 000226, loss = 0.001939
-grad_step = 000227, loss = 0.001871
-grad_step = 000228, loss = 0.001787
-grad_step = 000229, loss = 0.001932
-grad_step = 000230, loss = 0.001895
-grad_step = 000231, loss = 0.001751
-grad_step = 000232, loss = 0.001873
-grad_step = 000233, loss = 0.001864
-grad_step = 000234, loss = 0.001855
-grad_step = 000235, loss = 0.001751
-grad_step = 000236, loss = 0.001934
-grad_step = 000237, loss = 0.001910
-grad_step = 000238, loss = 0.001791
-grad_step = 000239, loss = 0.001876
-grad_step = 000240, loss = 0.001822
-grad_step = 000241, loss = 0.001810
-grad_step = 000242, loss = 0.001751
-grad_step = 000243, loss = 0.001828
-grad_step = 000244, loss = 0.001698
-grad_step = 000245, loss = 0.001781
-grad_step = 000246, loss = 0.001724
-grad_step = 000247, loss = 0.001724
-grad_step = 000248, loss = 0.001741
-grad_step = 000249, loss = 0.001682
-grad_step = 000250, loss = 0.001742
-grad_step = 000251, loss = 0.001675
-grad_step = 000252, loss = 0.001706
-grad_step = 000253, loss = 0.001684
-grad_step = 000254, loss = 0.001673
-grad_step = 000255, loss = 0.001693
-grad_step = 000256, loss = 0.001655
-grad_step = 000257, loss = 0.001676
-grad_step = 000258, loss = 0.001658
-grad_step = 000259, loss = 0.001653
-grad_step = 000260, loss = 0.001664
-grad_step = 000261, loss = 0.001639
-grad_step = 000262, loss = 0.001649
-grad_step = 000263, loss = 0.001640
-grad_step = 000264, loss = 0.001632
-grad_step = 000265, loss = 0.001640
-grad_step = 000266, loss = 0.001625
-grad_step = 000267, loss = 0.001628
-grad_step = 000268, loss = 0.001626
-grad_step = 000269, loss = 0.001615
-grad_step = 000270, loss = 0.001621
-grad_step = 000271, loss = 0.001613
-grad_step = 000272, loss = 0.001609
-grad_step = 000273, loss = 0.001612
-grad_step = 000274, loss = 0.001604
-grad_step = 000275, loss = 0.001603
-grad_step = 000276, loss = 0.001603
-grad_step = 000277, loss = 0.001596
-grad_step = 000278, loss = 0.001596
-grad_step = 000279, loss = 0.001594
-grad_step = 000280, loss = 0.001590
-grad_step = 000281, loss = 0.001591
-grad_step = 000282, loss = 0.001592
-grad_step = 000283, loss = 0.001593
-grad_step = 000284, loss = 0.001600
-grad_step = 000285, loss = 0.001612
-grad_step = 000286, loss = 0.001625
-grad_step = 000287, loss = 0.001648
-grad_step = 000288, loss = 0.001659
-grad_step = 000289, loss = 0.001659
-grad_step = 000290, loss = 0.001638
-grad_step = 000291, loss = 0.001598
-grad_step = 000292, loss = 0.001565
-grad_step = 000293, loss = 0.001553
-grad_step = 000294, loss = 0.001564
-grad_step = 000295, loss = 0.001584
-grad_step = 000296, loss = 0.001591
-grad_step = 000297, loss = 0.001580
-grad_step = 000298, loss = 0.001556
-grad_step = 000299, loss = 0.001538
-grad_step = 000300, loss = 0.001535
+grad_step = 000201, loss = 0.002016
+grad_step = 000202, loss = 0.002015
+grad_step = 000203, loss = 0.002012
+grad_step = 000204, loss = 0.002010
+grad_step = 000205, loss = 0.002007
+grad_step = 000206, loss = 0.002005
+grad_step = 000207, loss = 0.002006
+grad_step = 000208, loss = 0.002008
+grad_step = 000209, loss = 0.002013
+grad_step = 000210, loss = 0.002012
+grad_step = 000211, loss = 0.002014
+grad_step = 000212, loss = 0.002009
+grad_step = 000213, loss = 0.002006
+grad_step = 000214, loss = 0.002004
+grad_step = 000215, loss = 0.002005
+grad_step = 000216, loss = 0.002006
+grad_step = 000217, loss = 0.002005
+grad_step = 000218, loss = 0.002000
+grad_step = 000219, loss = 0.001992
+grad_step = 000220, loss = 0.001986
+grad_step = 000221, loss = 0.001985
+grad_step = 000222, loss = 0.001986
+grad_step = 000223, loss = 0.001986
+grad_step = 000224, loss = 0.001980
+grad_step = 000225, loss = 0.001976
+grad_step = 000226, loss = 0.001975
+grad_step = 000227, loss = 0.001976
+grad_step = 000228, loss = 0.001977
+grad_step = 000229, loss = 0.001974
+grad_step = 000230, loss = 0.001969
+grad_step = 000231, loss = 0.001966
+grad_step = 000232, loss = 0.001966
+grad_step = 000233, loss = 0.001967
+grad_step = 000234, loss = 0.001967
+grad_step = 000235, loss = 0.001964
+grad_step = 000236, loss = 0.001960
+grad_step = 000237, loss = 0.001958
+grad_step = 000238, loss = 0.001959
+grad_step = 000239, loss = 0.001962
+grad_step = 000240, loss = 0.001966
+grad_step = 000241, loss = 0.001976
+grad_step = 000242, loss = 0.001992
+grad_step = 000243, loss = 0.002027
+grad_step = 000244, loss = 0.002065
+grad_step = 000245, loss = 0.002116
+grad_step = 000246, loss = 0.002084
+grad_step = 000247, loss = 0.002019
+grad_step = 000248, loss = 0.001949
+grad_step = 000249, loss = 0.001950
+grad_step = 000250, loss = 0.001998
+grad_step = 000251, loss = 0.002009
+grad_step = 000252, loss = 0.001979
+grad_step = 000253, loss = 0.001944
+grad_step = 000254, loss = 0.001947
+grad_step = 000255, loss = 0.001969
+grad_step = 000256, loss = 0.001961
+grad_step = 000257, loss = 0.001941
+grad_step = 000258, loss = 0.001936
+grad_step = 000259, loss = 0.001941
+grad_step = 000260, loss = 0.001943
+grad_step = 000261, loss = 0.001929
+grad_step = 000262, loss = 0.001923
+grad_step = 000263, loss = 0.001932
+grad_step = 000264, loss = 0.001929
+grad_step = 000265, loss = 0.001918
+grad_step = 000266, loss = 0.001909
+grad_step = 000267, loss = 0.001912
+grad_step = 000268, loss = 0.001917
+grad_step = 000269, loss = 0.001907
+grad_step = 000270, loss = 0.001899
+grad_step = 000271, loss = 0.001900
+grad_step = 000272, loss = 0.001903
+grad_step = 000273, loss = 0.001899
+grad_step = 000274, loss = 0.001890
+grad_step = 000275, loss = 0.001885
+grad_step = 000276, loss = 0.001887
+grad_step = 000277, loss = 0.001886
+grad_step = 000278, loss = 0.001882
+grad_step = 000279, loss = 0.001875
+grad_step = 000280, loss = 0.001874
+grad_step = 000281, loss = 0.001874
+grad_step = 000282, loss = 0.001873
+grad_step = 000283, loss = 0.001870
+grad_step = 000284, loss = 0.001867
+grad_step = 000285, loss = 0.001866
+grad_step = 000286, loss = 0.001865
+grad_step = 000287, loss = 0.001865
+grad_step = 000288, loss = 0.001865
+grad_step = 000289, loss = 0.001868
+grad_step = 000290, loss = 0.001873
+grad_step = 000291, loss = 0.001881
+grad_step = 000292, loss = 0.001877
+grad_step = 000293, loss = 0.001869
+grad_step = 000294, loss = 0.001854
+grad_step = 000295, loss = 0.001848
+grad_step = 000296, loss = 0.001849
+grad_step = 000297, loss = 0.001853
+grad_step = 000298, loss = 0.001845
+grad_step = 000299, loss = 0.001834
+grad_step = 000300, loss = 0.001825
 plot()
 Saved image to .//n_beats_300.png.
-grad_step = 000301, loss = 0.001543
-grad_step = 000302, loss = 0.001552
-grad_step = 000303, loss = 0.001551
-grad_step = 000304, loss = 0.001541
-grad_step = 000305, loss = 0.001527
-grad_step = 000306, loss = 0.001517
-grad_step = 000307, loss = 0.001513
-grad_step = 000308, loss = 0.001516
-grad_step = 000309, loss = 0.001520
-grad_step = 000310, loss = 0.001521
-grad_step = 000311, loss = 0.001519
-grad_step = 000312, loss = 0.001511
-grad_step = 000313, loss = 0.001502
-grad_step = 000314, loss = 0.001495
-grad_step = 000315, loss = 0.001492
-grad_step = 000316, loss = 0.001491
-grad_step = 000317, loss = 0.001492
-grad_step = 000318, loss = 0.001494
-grad_step = 000319, loss = 0.001497
-grad_step = 000320, loss = 0.001498
-grad_step = 000321, loss = 0.001504
-grad_step = 000322, loss = 0.001511
-grad_step = 000323, loss = 0.001539
-grad_step = 000324, loss = 0.001543
-grad_step = 000325, loss = 0.001561
-grad_step = 000326, loss = 0.001511
-grad_step = 000327, loss = 0.001474
-grad_step = 000328, loss = 0.001467
-grad_step = 000329, loss = 0.001488
-grad_step = 000330, loss = 0.001513
-grad_step = 000331, loss = 0.001494
-grad_step = 000332, loss = 0.001469
-grad_step = 000333, loss = 0.001446
-grad_step = 000334, loss = 0.001444
-grad_step = 000335, loss = 0.001459
-grad_step = 000336, loss = 0.001466
-grad_step = 000337, loss = 0.001465
-grad_step = 000338, loss = 0.001448
-grad_step = 000339, loss = 0.001444
-grad_step = 000340, loss = 0.001473
-grad_step = 000341, loss = 0.001538
-grad_step = 000342, loss = 0.001619
-grad_step = 000343, loss = 0.001658
-grad_step = 000344, loss = 0.001596
-grad_step = 000345, loss = 0.001486
-grad_step = 000346, loss = 0.001431
-grad_step = 000347, loss = 0.001481
-grad_step = 000348, loss = 0.001532
-grad_step = 000349, loss = 0.001507
-grad_step = 000350, loss = 0.001431
-grad_step = 000351, loss = 0.001425
-grad_step = 000352, loss = 0.001475
-grad_step = 000353, loss = 0.001475
-grad_step = 000354, loss = 0.001431
-grad_step = 000355, loss = 0.001413
-grad_step = 000356, loss = 0.001435
-grad_step = 000357, loss = 0.001448
-grad_step = 000358, loss = 0.001428
-grad_step = 000359, loss = 0.001411
-grad_step = 000360, loss = 0.001412
-grad_step = 000361, loss = 0.001421
-grad_step = 000362, loss = 0.001420
-grad_step = 000363, loss = 0.001406
-grad_step = 000364, loss = 0.001397
-grad_step = 000365, loss = 0.001404
-grad_step = 000366, loss = 0.001409
-grad_step = 000367, loss = 0.001402
-grad_step = 000368, loss = 0.001392
-grad_step = 000369, loss = 0.001391
-grad_step = 000370, loss = 0.001395
-grad_step = 000371, loss = 0.001395
-grad_step = 000372, loss = 0.001389
-grad_step = 000373, loss = 0.001384
-grad_step = 000374, loss = 0.001383
-grad_step = 000375, loss = 0.001385
-grad_step = 000376, loss = 0.001385
-grad_step = 000377, loss = 0.001382
-grad_step = 000378, loss = 0.001378
-grad_step = 000379, loss = 0.001376
-grad_step = 000380, loss = 0.001378
-grad_step = 000381, loss = 0.001382
-grad_step = 000382, loss = 0.001385
-grad_step = 000383, loss = 0.001395
-grad_step = 000384, loss = 0.001410
-grad_step = 000385, loss = 0.001451
-grad_step = 000386, loss = 0.001473
-grad_step = 000387, loss = 0.001504
-grad_step = 000388, loss = 0.001437
-grad_step = 000389, loss = 0.001384
-grad_step = 000390, loss = 0.001367
-grad_step = 000391, loss = 0.001391
-grad_step = 000392, loss = 0.001415
-grad_step = 000393, loss = 0.001389
-grad_step = 000394, loss = 0.001364
-grad_step = 000395, loss = 0.001363
-grad_step = 000396, loss = 0.001381
-grad_step = 000397, loss = 0.001393
-grad_step = 000398, loss = 0.001372
-grad_step = 000399, loss = 0.001355
-grad_step = 000400, loss = 0.001354
+grad_step = 000301, loss = 0.001825
+grad_step = 000302, loss = 0.001832
+grad_step = 000303, loss = 0.001838
+grad_step = 000304, loss = 0.001846
+grad_step = 000305, loss = 0.001841
+grad_step = 000306, loss = 0.001839
+grad_step = 000307, loss = 0.001827
+grad_step = 000308, loss = 0.001825
+grad_step = 000309, loss = 0.001830
+grad_step = 000310, loss = 0.001846
+grad_step = 000311, loss = 0.001856
+grad_step = 000312, loss = 0.001856
+grad_step = 000313, loss = 0.001839
+grad_step = 000314, loss = 0.001817
+grad_step = 000315, loss = 0.001801
+grad_step = 000316, loss = 0.001796
+grad_step = 000317, loss = 0.001801
+grad_step = 000318, loss = 0.001808
+grad_step = 000319, loss = 0.001809
+grad_step = 000320, loss = 0.001807
+grad_step = 000321, loss = 0.001799
+grad_step = 000322, loss = 0.001793
+grad_step = 000323, loss = 0.001786
+grad_step = 000324, loss = 0.001782
+grad_step = 000325, loss = 0.001781
+grad_step = 000326, loss = 0.001783
+grad_step = 000327, loss = 0.001787
+grad_step = 000328, loss = 0.001789
+grad_step = 000329, loss = 0.001790
+grad_step = 000330, loss = 0.001787
+grad_step = 000331, loss = 0.001785
+grad_step = 000332, loss = 0.001783
+grad_step = 000333, loss = 0.001791
+grad_step = 000334, loss = 0.001797
+grad_step = 000335, loss = 0.001816
+grad_step = 000336, loss = 0.001818
+grad_step = 000337, loss = 0.001824
+grad_step = 000338, loss = 0.001823
+grad_step = 000339, loss = 0.001829
+grad_step = 000340, loss = 0.001823
+grad_step = 000341, loss = 0.001803
+grad_step = 000342, loss = 0.001777
+grad_step = 000343, loss = 0.001762
+grad_step = 000344, loss = 0.001767
+grad_step = 000345, loss = 0.001780
+grad_step = 000346, loss = 0.001790
+grad_step = 000347, loss = 0.001784
+grad_step = 000348, loss = 0.001769
+grad_step = 000349, loss = 0.001756
+grad_step = 000350, loss = 0.001752
+grad_step = 000351, loss = 0.001757
+grad_step = 000352, loss = 0.001763
+grad_step = 000353, loss = 0.001765
+grad_step = 000354, loss = 0.001760
+grad_step = 000355, loss = 0.001754
+grad_step = 000356, loss = 0.001748
+grad_step = 000357, loss = 0.001747
+grad_step = 000358, loss = 0.001747
+grad_step = 000359, loss = 0.001747
+grad_step = 000360, loss = 0.001746
+grad_step = 000361, loss = 0.001742
+grad_step = 000362, loss = 0.001739
+grad_step = 000363, loss = 0.001738
+grad_step = 000364, loss = 0.001738
+grad_step = 000365, loss = 0.001738
+grad_step = 000366, loss = 0.001738
+grad_step = 000367, loss = 0.001736
+grad_step = 000368, loss = 0.001733
+grad_step = 000369, loss = 0.001730
+grad_step = 000370, loss = 0.001727
+grad_step = 000371, loss = 0.001725
+grad_step = 000372, loss = 0.001723
+grad_step = 000373, loss = 0.001723
+grad_step = 000374, loss = 0.001723
+grad_step = 000375, loss = 0.001723
+grad_step = 000376, loss = 0.001724
+grad_step = 000377, loss = 0.001725
+grad_step = 000378, loss = 0.001728
+grad_step = 000379, loss = 0.001736
+grad_step = 000380, loss = 0.001748
+grad_step = 000381, loss = 0.001777
+grad_step = 000382, loss = 0.001809
+grad_step = 000383, loss = 0.001885
+grad_step = 000384, loss = 0.001934
+grad_step = 000385, loss = 0.002004
+grad_step = 000386, loss = 0.001956
+grad_step = 000387, loss = 0.001860
+grad_step = 000388, loss = 0.001807
+grad_step = 000389, loss = 0.001811
+grad_step = 000390, loss = 0.001858
+grad_step = 000391, loss = 0.001812
+grad_step = 000392, loss = 0.001769
+grad_step = 000393, loss = 0.001785
+grad_step = 000394, loss = 0.001798
+grad_step = 000395, loss = 0.001779
+grad_step = 000396, loss = 0.001733
+grad_step = 000397, loss = 0.001748
+grad_step = 000398, loss = 0.001794
+grad_step = 000399, loss = 0.001755
+grad_step = 000400, loss = 0.001705
 plot()
 Saved image to .//n_beats_400.png.
-grad_step = 000401, loss = 0.001363
-grad_step = 000402, loss = 0.001370
-grad_step = 000403, loss = 0.001362
-grad_step = 000404, loss = 0.001350
-grad_step = 000405, loss = 0.001344
-grad_step = 000406, loss = 0.001348
-grad_step = 000407, loss = 0.001354
-grad_step = 000408, loss = 0.001351
-grad_step = 000409, loss = 0.001343
-grad_step = 000410, loss = 0.001337
-grad_step = 000411, loss = 0.001336
-grad_step = 000412, loss = 0.001338
-grad_step = 000413, loss = 0.001340
-grad_step = 000414, loss = 0.001339
-grad_step = 000415, loss = 0.001336
-grad_step = 000416, loss = 0.001335
-grad_step = 000417, loss = 0.001337
-grad_step = 000418, loss = 0.001345
-grad_step = 000419, loss = 0.001359
-grad_step = 000420, loss = 0.001389
-grad_step = 000421, loss = 0.001397
-grad_step = 000422, loss = 0.001422
-grad_step = 000423, loss = 0.001399
-grad_step = 000424, loss = 0.001392
-grad_step = 000425, loss = 0.001359
-grad_step = 000426, loss = 0.001341
-grad_step = 000427, loss = 0.001328
-grad_step = 000428, loss = 0.001327
-grad_step = 000429, loss = 0.001341
-grad_step = 000430, loss = 0.001348
-grad_step = 000431, loss = 0.001345
-grad_step = 000432, loss = 0.001322
-grad_step = 000433, loss = 0.001309
-grad_step = 000434, loss = 0.001312
-grad_step = 000435, loss = 0.001324
-grad_step = 000436, loss = 0.001333
-grad_step = 000437, loss = 0.001326
-grad_step = 000438, loss = 0.001315
-grad_step = 000439, loss = 0.001307
-grad_step = 000440, loss = 0.001309
-grad_step = 000441, loss = 0.001312
-grad_step = 000442, loss = 0.001315
-grad_step = 000443, loss = 0.001306
-grad_step = 000444, loss = 0.001296
-grad_step = 000445, loss = 0.001293
-grad_step = 000446, loss = 0.001298
-grad_step = 000447, loss = 0.001300
-grad_step = 000448, loss = 0.001295
-grad_step = 000449, loss = 0.001289
-grad_step = 000450, loss = 0.001287
-grad_step = 000451, loss = 0.001289
-grad_step = 000452, loss = 0.001291
-grad_step = 000453, loss = 0.001288
-grad_step = 000454, loss = 0.001284
-grad_step = 000455, loss = 0.001281
-grad_step = 000456, loss = 0.001279
-grad_step = 000457, loss = 0.001280
-grad_step = 000458, loss = 0.001281
-grad_step = 000459, loss = 0.001282
-grad_step = 000460, loss = 0.001283
-grad_step = 000461, loss = 0.001291
-grad_step = 000462, loss = 0.001311
-grad_step = 000463, loss = 0.001372
-grad_step = 000464, loss = 0.001443
-grad_step = 000465, loss = 0.001580
-grad_step = 000466, loss = 0.001490
-grad_step = 000467, loss = 0.001404
-grad_step = 000468, loss = 0.001312
-grad_step = 000469, loss = 0.001341
-grad_step = 000470, loss = 0.001376
-grad_step = 000471, loss = 0.001323
-grad_step = 000472, loss = 0.001301
-grad_step = 000473, loss = 0.001326
-grad_step = 000474, loss = 0.001325
-grad_step = 000475, loss = 0.001305
-grad_step = 000476, loss = 0.001284
-grad_step = 000477, loss = 0.001300
-grad_step = 000478, loss = 0.001313
-grad_step = 000479, loss = 0.001296
-grad_step = 000480, loss = 0.001263
-grad_step = 000481, loss = 0.001265
-grad_step = 000482, loss = 0.001288
-grad_step = 000483, loss = 0.001285
-grad_step = 000484, loss = 0.001260
-grad_step = 000485, loss = 0.001252
-grad_step = 000486, loss = 0.001261
-grad_step = 000487, loss = 0.001267
-grad_step = 000488, loss = 0.001259
-grad_step = 000489, loss = 0.001247
-grad_step = 000490, loss = 0.001246
-grad_step = 000491, loss = 0.001252
-grad_step = 000492, loss = 0.001254
-grad_step = 000493, loss = 0.001246
-grad_step = 000494, loss = 0.001241
-grad_step = 000495, loss = 0.001241
-grad_step = 000496, loss = 0.001243
-grad_step = 000497, loss = 0.001242
-grad_step = 000498, loss = 0.001240
-grad_step = 000499, loss = 0.001235
-grad_step = 000500, loss = 0.001235
+grad_step = 000401, loss = 0.001718
+grad_step = 000402, loss = 0.001750
+grad_step = 000403, loss = 0.001741
+grad_step = 000404, loss = 0.001696
+grad_step = 000405, loss = 0.001702
+grad_step = 000406, loss = 0.001732
+grad_step = 000407, loss = 0.001717
+grad_step = 000408, loss = 0.001692
+grad_step = 000409, loss = 0.001695
+grad_step = 000410, loss = 0.001707
+grad_step = 000411, loss = 0.001704
+grad_step = 000412, loss = 0.001691
+grad_step = 000413, loss = 0.001693
+grad_step = 000414, loss = 0.001697
+grad_step = 000415, loss = 0.001689
+grad_step = 000416, loss = 0.001681
+grad_step = 000417, loss = 0.001685
+grad_step = 000418, loss = 0.001692
+grad_step = 000419, loss = 0.001686
+grad_step = 000420, loss = 0.001675
+grad_step = 000421, loss = 0.001674
+grad_step = 000422, loss = 0.001678
+grad_step = 000423, loss = 0.001679
+grad_step = 000424, loss = 0.001674
+grad_step = 000425, loss = 0.001671
+grad_step = 000426, loss = 0.001672
+grad_step = 000427, loss = 0.001672
+grad_step = 000428, loss = 0.001667
+grad_step = 000429, loss = 0.001664
+grad_step = 000430, loss = 0.001664
+grad_step = 000431, loss = 0.001667
+grad_step = 000432, loss = 0.001668
+grad_step = 000433, loss = 0.001669
+grad_step = 000434, loss = 0.001678
+grad_step = 000435, loss = 0.001693
+grad_step = 000436, loss = 0.001730
+grad_step = 000437, loss = 0.001777
+grad_step = 000438, loss = 0.001875
+grad_step = 000439, loss = 0.001938
+grad_step = 000440, loss = 0.001979
+grad_step = 000441, loss = 0.001921
+grad_step = 000442, loss = 0.001776
+grad_step = 000443, loss = 0.001686
+grad_step = 000444, loss = 0.001707
+grad_step = 000445, loss = 0.001804
+grad_step = 000446, loss = 0.001823
+grad_step = 000447, loss = 0.001727
+grad_step = 000448, loss = 0.001675
+grad_step = 000449, loss = 0.001700
+grad_step = 000450, loss = 0.001716
+grad_step = 000451, loss = 0.001698
+grad_step = 000452, loss = 0.001690
+grad_step = 000453, loss = 0.001703
+grad_step = 000454, loss = 0.001690
+grad_step = 000455, loss = 0.001652
+grad_step = 000456, loss = 0.001648
+grad_step = 000457, loss = 0.001678
+grad_step = 000458, loss = 0.001687
+grad_step = 000459, loss = 0.001662
+grad_step = 000460, loss = 0.001643
+grad_step = 000461, loss = 0.001651
+grad_step = 000462, loss = 0.001654
+grad_step = 000463, loss = 0.001643
+grad_step = 000464, loss = 0.001636
+grad_step = 000465, loss = 0.001644
+grad_step = 000466, loss = 0.001646
+grad_step = 000467, loss = 0.001633
+grad_step = 000468, loss = 0.001623
+grad_step = 000469, loss = 0.001628
+grad_step = 000470, loss = 0.001636
+grad_step = 000471, loss = 0.001633
+grad_step = 000472, loss = 0.001624
+grad_step = 000473, loss = 0.001620
+grad_step = 000474, loss = 0.001621
+grad_step = 000475, loss = 0.001621
+grad_step = 000476, loss = 0.001616
+grad_step = 000477, loss = 0.001613
+grad_step = 000478, loss = 0.001615
+grad_step = 000479, loss = 0.001616
+grad_step = 000480, loss = 0.001613
+grad_step = 000481, loss = 0.001608
+grad_step = 000482, loss = 0.001604
+grad_step = 000483, loss = 0.001605
+grad_step = 000484, loss = 0.001605
+grad_step = 000485, loss = 0.001605
+grad_step = 000486, loss = 0.001602
+grad_step = 000487, loss = 0.001600
+grad_step = 000488, loss = 0.001599
+grad_step = 000489, loss = 0.001598
+grad_step = 000490, loss = 0.001597
+grad_step = 000491, loss = 0.001595
+grad_step = 000492, loss = 0.001592
+grad_step = 000493, loss = 0.001590
+grad_step = 000494, loss = 0.001589
+grad_step = 000495, loss = 0.001589
+grad_step = 000496, loss = 0.001589
+grad_step = 000497, loss = 0.001588
+grad_step = 000498, loss = 0.001587
+grad_step = 000499, loss = 0.001586
+grad_step = 000500, loss = 0.001585
 plot()
 Saved image to .//n_beats_500.png.
-grad_step = 000501, loss = 0.001238
+grad_step = 000501, loss = 0.001584
 Finished.
 
   #### Inference Need return ypred, ytrue ######################### 
@@ -1754,35 +1754,35 @@ Finished.
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-25 23:20:26.505296
+  date_run                              2020-05-26 23:22:14.035101
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  0.246132
+metric                                                  0.228173
 metric_name                                  mean_absolute_error
 Name: 8, dtype: object 
 
-  date_run                              2020-05-25 23:20:26.511847
+  date_run                              2020-05-26 23:22:14.041586
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  0.192236
+metric                                                  0.127485
 metric_name                                   mean_squared_error
 Name: 9, dtype: object 
 
-  date_run                              2020-05-25 23:20:26.519207
+  date_run                              2020-05-26 23:22:14.049583
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  0.129832
+metric                                                  0.133168
 metric_name                                median_absolute_error
 Name: 10, dtype: object 
 
-  date_run                              2020-05-25 23:20:26.524814
+  date_run                              2020-05-26 23:22:14.056252
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  -1.92109
+metric                                                 -0.937178
 metric_name                                             r2_score
 Name: 11, dtype: object 
 
@@ -1817,13 +1817,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in DeepARTrainingNetwork: 26844
-100%|██████████| 10/10 [00:02<00:00,  3.53it/s, avg_epoch_loss=5.24]
-INFO:root:Epoch[0] Elapsed time 2.837 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.240294
+100%|██████████| 10/10 [00:02<00:00,  3.46it/s, avg_epoch_loss=5.21]
+INFO:root:Epoch[0] Elapsed time 2.894 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.212327
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.240293645858765 (occurred at epoch 0)
+INFO:root:Final loss: 5.212327289581299 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8e1bc8c50> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f82bfd41630> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1850,13 +1850,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in DeepFactorTrainingNetwork: 12466
-100%|██████████| 10/10 [00:01<00:00,  7.20it/s, avg_epoch_loss=3.59e+3]
-INFO:root:Epoch[0] Elapsed time 1.390 seconds
+100%|██████████| 10/10 [00:01<00:00,  6.56it/s, avg_epoch_loss=3.59e+3]
+INFO:root:Epoch[0] Elapsed time 1.526 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=3590.403646
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 3590.4036458333335 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8e1f2e198> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f822737d5c0> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1885,13 +1885,13 @@ INFO:root:using training windows of length = 12
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in WaveNet: 97636
- 30%|███       | 3/10 [00:12<00:29,  4.15s/it, avg_epoch_loss=6.94] 60%|██████    | 6/10 [00:23<00:15,  3.97s/it, avg_epoch_loss=6.91] 90%|█████████ | 9/10 [00:33<00:03,  3.85s/it, avg_epoch_loss=6.87]100%|██████████| 10/10 [00:37<00:00,  3.74s/it, avg_epoch_loss=6.86]
-INFO:root:Epoch[0] Elapsed time 37.365 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.861563
+ 30%|███       | 3/10 [00:13<00:31,  4.56s/it, avg_epoch_loss=6.94] 60%|██████    | 6/10 [00:25<00:17,  4.40s/it, avg_epoch_loss=6.9]  90%|█████████ | 9/10 [00:37<00:04,  4.27s/it, avg_epoch_loss=6.87]100%|██████████| 10/10 [00:41<00:00,  4.16s/it, avg_epoch_loss=6.86]
+INFO:root:Epoch[0] Elapsed time 41.630 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.859001
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 6.861563205718994 (occurred at epoch 0)
+INFO:root:Final loss: 6.8590006828308105 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8e1fb83c8> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f82273ef7b8> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1918,13 +1918,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in TransformerTrainingNetwork: 33911
-100%|██████████| 10/10 [00:01<00:00,  5.56it/s, avg_epoch_loss=5.83]
-INFO:root:Epoch[0] Elapsed time 1.800 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.834928
+100%|██████████| 10/10 [00:02<00:00,  4.46it/s, avg_epoch_loss=5.82]
+INFO:root:Epoch[0] Elapsed time 2.244 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.820800
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.834927701950074 (occurred at epoch 0)
+INFO:root:Final loss: 5.82079963684082 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8e1edc358> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f8227644390> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1951,13 +1951,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in DeepStateTrainingNetwork: 28054
- 10%|█         | 1/10 [02:04<18:41, 124.59s/it, avg_epoch_loss=0.412] 20%|██        | 2/10 [04:45<18:04, 135.56s/it, avg_epoch_loss=0.399] 30%|███       | 3/10 [07:37<17:04, 146.34s/it, avg_epoch_loss=0.39]  40%|████      | 4/10 [10:36<15:36, 156.09s/it, avg_epoch_loss=0.385] 50%|█████     | 5/10 [13:29<13:26, 161.27s/it, avg_epoch_loss=0.384] 60%|██████    | 6/10 [16:30<11:09, 167.29s/it, avg_epoch_loss=0.383] 70%|███████   | 7/10 [19:28<08:31, 170.35s/it, avg_epoch_loss=0.381] 80%|████████  | 8/10 [22:25<05:44, 172.43s/it, avg_epoch_loss=0.378] 90%|█████████ | 9/10 [25:23<02:54, 174.03s/it, avg_epoch_loss=0.376]100%|██████████| 10/10 [28:17<00:00, 174.21s/it, avg_epoch_loss=0.375]100%|██████████| 10/10 [28:18<00:00, 169.80s/it, avg_epoch_loss=0.375]
-INFO:root:Epoch[0] Elapsed time 1698.022 seconds
+ 10%|█         | 1/10 [02:01<18:09, 121.04s/it, avg_epoch_loss=0.412] 20%|██        | 2/10 [04:50<18:05, 135.65s/it, avg_epoch_loss=0.399] 30%|███       | 3/10 [08:24<18:33, 159.02s/it, avg_epoch_loss=0.39]  40%|████      | 4/10 [11:56<17:29, 174.91s/it, avg_epoch_loss=0.385] 50%|█████     | 5/10 [15:16<15:12, 182.56s/it, avg_epoch_loss=0.384] 60%|██████    | 6/10 [18:46<12:43, 190.84s/it, avg_epoch_loss=0.383] 70%|███████   | 7/10 [22:27<09:59, 199.92s/it, avg_epoch_loss=0.381] 80%|████████  | 8/10 [26:04<06:49, 204.95s/it, avg_epoch_loss=0.378] 90%|█████████ | 9/10 [29:49<03:31, 211.00s/it, avg_epoch_loss=0.376]100%|██████████| 10/10 [33:47<00:00, 219.11s/it, avg_epoch_loss=0.375]100%|██████████| 10/10 [33:48<00:00, 202.81s/it, avg_epoch_loss=0.375]
+INFO:root:Epoch[0] Elapsed time 2028.129 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=0.374571
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 0.3745713621377945 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8e1c65320> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f82275916d8> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -1984,13 +1984,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in GaussianProcessTrainingNetwork: 14
-100%|██████████| 10/10 [00:01<00:00,  7.57it/s, avg_epoch_loss=415]
-INFO:root:Epoch[0] Elapsed time 1.341 seconds
+100%|██████████| 10/10 [00:02<00:00,  3.88it/s, avg_epoch_loss=415]
+INFO:root:Epoch[0] Elapsed time 2.600 seconds
 INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=414.652022
 INFO:root:Loading parameters from best epoch (0)
 INFO:root:Final loss: 414.65202175008733 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8e1bb0d30> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f82274d7080> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -2017,13 +2017,13 @@ INFO:root:Using CPU
 INFO:root:Start model training
 INFO:root:Epoch[0] Learning rate is 0.001
   0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in SimpleFeedForwardTrainingNetwork: 20323
-100%|██████████| 10/10 [00:00<00:00, 38.88it/s, avg_epoch_loss=5.16]
-INFO:root:Epoch[0] Elapsed time 0.258 seconds
-INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.159531
+100%|██████████| 10/10 [00:00<00:00, 37.14it/s, avg_epoch_loss=5.17]
+INFO:root:Epoch[0] Elapsed time 0.270 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.173983
 INFO:root:Loading parameters from best epoch (0)
-INFO:root:Final loss: 5.159530782699585 (occurred at epoch 0)
+INFO:root:Final loss: 5.173982906341553 (occurred at epoch 0)
 INFO:root:End model training
->>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8e1c1af60> <class 'mlmodels.model_gluon.gluonts_model.Model'>
+>>>model:  <mlmodels.model_gluon.gluonts_model.Model object at 0x7f822768ea90> <class 'mlmodels.model_gluon.gluonts_model.Model'>
 [array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 {'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
 learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
@@ -2048,18 +2048,18 @@ layer_sizes
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                         date_run  ...            metric_name
-0   2020-05-25 23:19:54.704345  ...    mean_absolute_error
-1   2020-05-25 23:19:54.708640  ...     mean_squared_error
-2   2020-05-25 23:19:54.712262  ...  median_absolute_error
-3   2020-05-25 23:19:54.715798  ...               r2_score
-4   2020-05-25 23:20:04.015167  ...    mean_absolute_error
-5   2020-05-25 23:20:04.019470  ...     mean_squared_error
-6   2020-05-25 23:20:04.023311  ...  median_absolute_error
-7   2020-05-25 23:20:04.027194  ...               r2_score
-8   2020-05-25 23:20:26.505296  ...    mean_absolute_error
-9   2020-05-25 23:20:26.511847  ...     mean_squared_error
-10  2020-05-25 23:20:26.519207  ...  median_absolute_error
-11  2020-05-25 23:20:26.524814  ...               r2_score
+0   2020-05-26 23:21:40.311005  ...    mean_absolute_error
+1   2020-05-26 23:21:40.315843  ...     mean_squared_error
+2   2020-05-26 23:21:40.319517  ...  median_absolute_error
+3   2020-05-26 23:21:40.323587  ...               r2_score
+4   2020-05-26 23:21:49.739107  ...    mean_absolute_error
+5   2020-05-26 23:21:49.744527  ...     mean_squared_error
+6   2020-05-26 23:21:49.748786  ...  median_absolute_error
+7   2020-05-26 23:21:49.752886  ...               r2_score
+8   2020-05-26 23:22:14.035101  ...    mean_absolute_error
+9   2020-05-26 23:22:14.041586  ...     mean_squared_error
+10  2020-05-26 23:22:14.049583  ...  median_absolute_error
+11  2020-05-26 23:22:14.056252  ...               r2_score
 
 [12 rows x 6 columns] 
 Traceback (most recent call last):
@@ -2137,136 +2137,136 @@ Non-trainable params: 0
 _________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.armdn.Model object at 0x7fae30ffe9e8> <class 'mlmodels.model_keras.armdn.Model'>
+>>>model:  <mlmodels.model_keras.armdn.Model object at 0x7f1f4e693a20> <class 'mlmodels.model_keras.armdn.Model'>
 
   #### Loading dataset   ############################################# 
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Epoch 1/10
 
-1/1 [==============================] - 2s 2s/step - loss: 355447.3125
+1/1 [==============================] - 2s 2s/step - loss: 351837.7812
 Epoch 2/10
 
-1/1 [==============================] - 0s 92ms/step - loss: 266818.9375
+1/1 [==============================] - 0s 112ms/step - loss: 243866.7031
 Epoch 3/10
 
-1/1 [==============================] - 0s 91ms/step - loss: 180637.7969
+1/1 [==============================] - 0s 110ms/step - loss: 125703.8594
 Epoch 4/10
 
-1/1 [==============================] - 0s 99ms/step - loss: 109401.1094
+1/1 [==============================] - 0s 115ms/step - loss: 56830.5000
 Epoch 5/10
 
-1/1 [==============================] - 0s 101ms/step - loss: 63649.0938
+1/1 [==============================] - 0s 102ms/step - loss: 26820.0156
 Epoch 6/10
 
-1/1 [==============================] - 0s 94ms/step - loss: 37824.9805
+1/1 [==============================] - 0s 113ms/step - loss: 14468.3750
 Epoch 7/10
 
-1/1 [==============================] - 0s 90ms/step - loss: 23591.8594
+1/1 [==============================] - 0s 111ms/step - loss: 8931.7959
 Epoch 8/10
 
-1/1 [==============================] - 0s 92ms/step - loss: 15474.5645
+1/1 [==============================] - 0s 119ms/step - loss: 6108.8774
 Epoch 9/10
 
-1/1 [==============================] - 0s 100ms/step - loss: 10680.0889
+1/1 [==============================] - 0s 112ms/step - loss: 4533.9302
 Epoch 10/10
 
-1/1 [==============================] - 0s 101ms/step - loss: 7727.3120
+1/1 [==============================] - 0s 112ms/step - loss: 3590.5972
 
   #### Inference Need return ypred, ytrue ######################### 
-[[ 1.2001508   1.9570178   3.1424572   2.5986903   1.6159432   2.68553
-   3.3453643   2.2362967   2.4067588   1.7536963   1.8791883   2.4968903
-   2.669754    0.6287121   1.811993    2.9511607   1.9249382   2.8003242
-   3.8964942   0.66398895  1.4416856   0.41706544  2.6520786   0.87216556
-   2.7417605   1.9624082   2.6524339   0.40504515  2.3294857   3.755403
-   3.316142    2.6293015   2.5672095   1.6015325   1.475251    2.4262698
-   3.5810592   0.5984271   3.7369344   2.6437511   3.874663    3.1105027
-   3.937055    2.3189957   2.6964734   1.7878656   3.3599794   1.0563822
-   1.8536047   3.5373876   2.6851904   1.7601848   1.9015437   2.2805371
-   1.3899517   1.489444    2.993182    2.9796154   2.6310008   2.324724
-  -0.26178715  9.353587    6.145688    7.594642    5.477923    8.318471
-   7.625364    6.7360973   7.6910152   5.859969    6.9867263   7.6549664
-   9.280575    7.1124043   7.4018216   8.286108    7.633419    8.404147
-   9.055973    8.486421    7.6629405   6.9065347   7.1163497   5.8349233
-   7.4340343   6.9219346   9.182837    7.6494446   7.704532    8.286095
-   7.8132873   8.176736    7.263225    7.8223166   8.291272    7.672552
-   7.435613    7.57343     6.320163    6.634929    5.898044    7.669543
-   7.201299    6.114375    7.0487757   6.786587    5.961644    6.411976
-   7.306807    7.8591423   8.75911     7.461471    8.452717    7.351503
-   8.637522    7.687986    7.521033    8.305629    6.8767023   6.3902698
-  -1.1147547  -2.0296235  -0.10875505 -1.0143806   0.85653424 -0.18652256
-  -0.33689934  0.07505056  0.52773905  0.3664744   0.7406107   1.1142719
-  -1.4248316  -0.68355745  1.068458   -0.5321584   0.3920786   0.5841378
-  -0.7014593  -0.4582693  -1.0956855   1.2560394  -0.97039425 -1.4382169
-  -0.02717167  1.0374264   0.5726442   0.46295166 -0.07508849  0.5048327
-  -0.47985053 -0.12979925 -1.2729466   0.916075    1.2443259  -1.4542484
-   0.44269854 -0.6589302   1.589575    0.12050873 -0.49263903 -0.50002193
-  -1.5839291  -1.4052241   0.7701299   0.05962527  0.54165107 -0.48187473
-  -0.2887855  -0.28461084  0.51496613  0.44436866  0.3612229  -0.589221
-  -0.19846493 -1.2904626   0.20188269  1.2430016  -1.1728914  -0.01709584
-   0.10280621  3.6726446   3.0146022   1.9461497   1.8972142   2.8710887
-   3.2886038   2.5129356   3.9344769   3.3684344   4.1382723   3.7252498
-   3.153006    2.036856    3.3283882   3.4740252   2.0112119   4.0696564
-   5.1492624   4.0461864   4.7374487   2.7295551   2.1955466   3.0441647
-   4.040676    2.9392242   3.0276523   5.4198174   5.630363    3.100513
-   2.9278598   3.6479964   3.7524037   2.1313117   2.6965966   3.8072958
-   3.013205    3.2724056   2.5689635   3.4467182   3.3670478   3.215991
-   4.0645804   4.5805187   4.853898    3.837882    3.7104173   4.2147865
-   2.8156428   4.9721026   2.786896    3.982768    3.1397605   4.551263
-   2.981956    5.2645845   4.0205526   3.8505082   3.9646688   1.9407012
-   0.1031031   9.6031475   7.000309    7.4965205   8.676715    7.793342
-   7.855792    7.0314894   7.931428    6.7771783   7.744169    7.881583
-   7.2302456   7.5119967   6.8160133   8.388518    9.909299    7.6721396
-   7.855301    6.4545455   8.447994    8.277454    9.676249    8.696967
-   8.179631    8.868815    9.410223    8.351894    9.318228    6.9407964
-   8.346635    8.113241    7.695943    6.868685    7.7335835   9.744912
-   9.060788    7.675575    7.478553    8.874549    6.5423207   7.8982654
-   8.475375    7.3878894   6.8388586   8.362974    7.542526    6.922314
-   7.597962    7.137532    8.126786    8.309462    8.291766    7.5334806
-   8.212679    8.664123    7.1571193   7.7852387   7.516442    8.208283
-   0.51322454  0.60076994  0.6932176   2.1560779   1.2490177   1.0135584
-   1.1162095   0.6981201   1.6327565   0.22805685  2.1911092   0.709756
-   2.3670921   2.3995357   0.27678144  1.1934751   0.92609406  1.0377098
-   1.3297029   1.9561298   0.49409074  1.028308    1.2339382   0.4294963
-   0.09455681  0.28079128  0.21146822  0.7429472   0.7319597   0.9087072
-   0.2267003   0.6228261   0.621002    0.38537467  0.51912796  0.84021926
-   1.7754552   0.4462334   2.044631    2.1873782   0.6116891   1.0708696
-   1.3888975   0.34969997  1.4737198   0.1200074   0.94617164  0.30286252
-   0.70923257  1.4276774   1.5249233   1.2855811   0.5811416   2.4192736
-   2.4087963   2.843135    0.51301104  0.20040119  0.59753484  0.47754514
-  -8.142208    8.091419   -6.1119413 ]]
+[[ 0.9402076  11.364317   11.1987     10.6459675  11.16087    13.180277
+  12.496542   12.762818   12.696332   12.644145   10.014399   13.33057
+  11.379092   14.10261    13.602318   12.444684   11.411893   12.728938
+  10.691897   11.623378   10.836381   11.958544   11.032677   15.568011
+  12.389126   13.840481    8.670763   11.315521   11.467555   12.180652
+  13.099701   12.875865   12.513611   12.127208   11.366718   12.795475
+  12.177515   13.585345   12.079737   13.354988   12.176366   14.401572
+  12.628235   13.757295   12.600054   11.513715   12.494611    9.977074
+  12.64993    11.271819   10.386806   12.077227    9.851064   12.089888
+  12.183039   11.403437   11.676581    8.629911   13.205508   12.824393
+   0.05464089 -0.4011411   0.27497554  0.4653784  -0.03300336  1.3449221
+  -0.69141984  1.6139327  -1.4326293  -0.7061124  -0.413397    1.0986676
+   0.19012782 -0.3729353   0.9111439  -1.9476631  -0.11212027  0.73379385
+   0.5492965  -0.97594684  0.29346126  0.42518243  0.725695   -0.41716123
+  -0.11342096  0.0180338   0.3789252  -2.1063888   1.5156311   0.8346741
+   0.81507117 -2.5647006   0.9315667  -0.13636413 -1.6197813   0.0859251
+   0.6110602   1.7330158  -1.8953689   0.2083194   0.03667194  0.30991513
+  -1.3690679   0.5470052  -0.68559265  1.1489235   0.07566464 -0.7426022
+  -1.309137   -0.6242819  -0.9750496   1.4055986   1.395261    0.8931333
+   0.29769295 -0.55322     2.018494    2.8773925  -1.5877116   2.34028
+   0.16035128  0.78026307 -0.51542586  0.29830515 -0.03585251  0.06955826
+   1.3616935  -0.59023124  1.466565    0.32088137  0.34916145  1.0216672
+  -0.2769941  -0.58793163 -0.09363353 -0.98131055 -0.89187133  0.8263006
+   1.863868   -0.05723858 -0.23842183  0.6916253  -0.2982387   2.1172633
+  -0.07185566  0.43379992 -0.9283353  -0.21514773  0.3241016   0.8094094
+  -1.7564788  -1.4199502   1.7094935  -1.5330927   1.2310821  -0.22579575
+   0.10351712  2.0236838  -0.19643037  1.6596265   1.7128298   1.1650527
+   0.7173665   1.2050571  -1.765499    0.55680025  0.5053262   0.05584989
+   0.22331208  0.65918165 -0.353078    0.63295084  0.51825917 -0.62670887
+   1.5309649   1.0286694   1.1164732  -1.0751774   0.6778823  -1.8793364
+   0.77101713 10.645291   10.281864   10.117427   13.405476   12.478419
+  13.472109   10.860724   13.300526   12.142553   12.502805   12.773365
+  11.94539    11.945209   14.903318    9.3841715  11.610393   11.386513
+  11.166038   10.76138    11.788466   13.301577   12.55526     9.907596
+  11.916902   12.368995   10.45019    10.129285   12.005425    8.894257
+  12.953056   13.049019   12.393717   11.34584    11.204836   10.809234
+  11.967758   11.905863   10.607189   10.713747   10.568208   12.708354
+  11.595296   12.135948   11.634887    9.804965   12.914345   11.766924
+  12.041777   13.437128   12.077129   11.017586   12.308876   10.88357
+  10.684696   13.053781   11.953948   11.234972   12.30826    11.621726
+   2.2738795   0.49702495  0.73969394  0.24809593  2.1453187   0.9559495
+   1.1998537   2.0067692   0.9725055   0.02439839  1.976815    0.22056538
+   0.13594323  1.2543637   0.81876254  0.7886519   1.6902626   1.2341866
+   1.8378258   2.3972597   0.7033515   0.34802568  3.136157    1.1988055
+   0.63778734  2.2882307   1.4997472   0.15013254  1.9660578   1.472682
+   2.1780043   1.3591049   1.6260297   1.4338082   1.7350852   0.5051892
+   1.2497014   2.6620288   0.10892963  0.91671824  1.1685748   1.0254155
+   0.0990569   1.6660585   0.5240454   0.86250514  0.5276132   0.7045972
+   0.13761193  0.89357525  0.26749712  0.1598537   0.8720962   0.18681502
+   1.9116867   0.18562144  0.41283178  0.59457964  1.1338948   1.2520875
+   1.1116236   2.5682373   1.8975787   3.0770273   1.9695115   1.5224731
+   1.4332272   0.9200427   0.23207533  0.417049    0.9877678   0.3848489
+   3.5340219   0.34857535  0.52038586  2.9255626   0.71989954  0.64407873
+   0.73010874  0.66725063  1.3690689   0.6231352   0.5262172   1.1573606
+   2.4295516   1.3498938   2.1069224   0.2100991   0.41557753  0.89301777
+   1.3862282   2.1571069   1.1372676   3.0596905   0.5399623   0.3367744
+   0.72948647  0.38773185  1.5519613   2.5120687   0.69330883  0.29940248
+   0.27809215  2.1460428   1.5470383   1.0475013   0.1613692   1.4260583
+   1.0779011   1.5260218   0.7280821   1.0544176   3.0075302   1.4714316
+   1.0964603   0.12271261  1.5872588   0.34134293  3.0438023   0.84644985
+  10.08839    -8.658146   -6.582844  ]]
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-25 23:50:00.767821
+  date_run                              2020-05-26 23:57:26.454791
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   94.6235
+metric                                                   90.7434
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-05-25 23:50:00.772687
+  date_run                              2020-05-26 23:57:26.459509
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   8974.13
+metric                                                    8264.3
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-05-25 23:50:00.776421
+  date_run                              2020-05-26 23:57:26.463913
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   93.9993
+metric                                                   90.3342
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-05-25 23:50:00.779872
+  date_run                              2020-05-26 23:57:26.467813
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  -802.696
+metric                                                  -739.127
 metric_name                                             r2_score
 Name: 3, dtype: object 
 
@@ -2282,16 +2282,16 @@ Name: 3, dtype: object
   #### Setup Model   ############################################## 
 | N-Beats
 | --  Stack Nbeatsnet.Generic_Block (#0) (share_weights_in_stack=0)
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140385609829288
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140383328685192
-     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @140383328685696
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @139771855782072
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @139769641569472
+     | -- GenericBlock(units=256, thetas_dim=7, backcast_length=100, forecast_length=60, share_thetas=False) at @139769641569976
 | --  Stack Nbeatsnet.Generic_Block (#1) (share_weights_in_stack=0)
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140383328288952
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140383328289456
-     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @140383328289960
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @139769641165040
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @139769641165544
+     | -- GenericBlock(units=256, thetas_dim=8, backcast_length=100, forecast_length=60, share_thetas=False) at @139769641166048
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.nbeats.Model object at 0x7fae45343438> <class 'mlmodels.model_tch.nbeats.Model'>
+>>>model:  <mlmodels.model_tch.nbeats.Model object at 0x7f1f629db438> <class 'mlmodels.model_tch.nbeats.Model'>
 [[0.40504701]
  [0.40695405]
  [0.39710839]
@@ -2300,520 +2300,520 @@ Name: 3, dtype: object
  [0.95086039]
  [0.95547277]]
 --- fiting ---
-grad_step = 000000, loss = 0.587050
+grad_step = 000000, loss = 0.639943
 plot()
 Saved image to .//n_beats_0.png.
-grad_step = 000001, loss = 0.561916
-grad_step = 000002, loss = 0.541793
-grad_step = 000003, loss = 0.520126
-grad_step = 000004, loss = 0.498513
-grad_step = 000005, loss = 0.480177
-grad_step = 000006, loss = 0.461525
-grad_step = 000007, loss = 0.449246
-grad_step = 000008, loss = 0.437747
-grad_step = 000009, loss = 0.420483
-grad_step = 000010, loss = 0.405302
-grad_step = 000011, loss = 0.394317
-grad_step = 000012, loss = 0.385426
-grad_step = 000013, loss = 0.375614
-grad_step = 000014, loss = 0.364080
-grad_step = 000015, loss = 0.351789
-grad_step = 000016, loss = 0.339817
-grad_step = 000017, loss = 0.328966
-grad_step = 000018, loss = 0.318169
-grad_step = 000019, loss = 0.306596
-grad_step = 000020, loss = 0.294172
-grad_step = 000021, loss = 0.282086
-grad_step = 000022, loss = 0.271267
-grad_step = 000023, loss = 0.261464
-grad_step = 000024, loss = 0.251714
-grad_step = 000025, loss = 0.241488
-grad_step = 000026, loss = 0.231311
-grad_step = 000027, loss = 0.221924
-grad_step = 000028, loss = 0.213180
-grad_step = 000029, loss = 0.204352
-grad_step = 000030, loss = 0.195210
-grad_step = 000031, loss = 0.186251
-grad_step = 000032, loss = 0.177978
-grad_step = 000033, loss = 0.169987
-grad_step = 000034, loss = 0.161910
-grad_step = 000035, loss = 0.153957
-grad_step = 000036, loss = 0.146228
-grad_step = 000037, loss = 0.139027
-grad_step = 000038, loss = 0.132073
-grad_step = 000039, loss = 0.125203
-grad_step = 000040, loss = 0.118656
-grad_step = 000041, loss = 0.112483
-grad_step = 000042, loss = 0.106463
-grad_step = 000043, loss = 0.100513
-grad_step = 000044, loss = 0.094787
-grad_step = 000045, loss = 0.089434
-grad_step = 000046, loss = 0.084300
-grad_step = 000047, loss = 0.077838
-grad_step = 000048, loss = 0.071586
-grad_step = 000049, loss = 0.066198
-grad_step = 000050, loss = 0.061874
-grad_step = 000051, loss = 0.058092
-grad_step = 000052, loss = 0.054448
-grad_step = 000053, loss = 0.050751
-grad_step = 000054, loss = 0.047056
-grad_step = 000055, loss = 0.043377
-grad_step = 000056, loss = 0.039942
-grad_step = 000057, loss = 0.036720
-grad_step = 000058, loss = 0.033768
-grad_step = 000059, loss = 0.031137
-grad_step = 000060, loss = 0.028758
-grad_step = 000061, loss = 0.026568
-grad_step = 000062, loss = 0.024454
-grad_step = 000063, loss = 0.022416
-grad_step = 000064, loss = 0.020453
-grad_step = 000065, loss = 0.018620
-grad_step = 000066, loss = 0.016574
-grad_step = 000067, loss = 0.014980
-grad_step = 000068, loss = 0.013861
-grad_step = 000069, loss = 0.012813
-grad_step = 000070, loss = 0.011740
-grad_step = 000071, loss = 0.010700
-grad_step = 000072, loss = 0.009776
-grad_step = 000073, loss = 0.009012
-grad_step = 000074, loss = 0.008275
-grad_step = 000075, loss = 0.007559
-grad_step = 000076, loss = 0.006949
-grad_step = 000077, loss = 0.006420
-grad_step = 000078, loss = 0.005987
-grad_step = 000079, loss = 0.005591
-grad_step = 000080, loss = 0.005203
-grad_step = 000081, loss = 0.004854
-grad_step = 000082, loss = 0.004519
-grad_step = 000083, loss = 0.004210
-grad_step = 000084, loss = 0.003958
-grad_step = 000085, loss = 0.003743
-grad_step = 000086, loss = 0.003555
-grad_step = 000087, loss = 0.003365
-grad_step = 000088, loss = 0.003190
-grad_step = 000089, loss = 0.003056
-grad_step = 000090, loss = 0.002941
-grad_step = 000091, loss = 0.002832
-grad_step = 000092, loss = 0.002727
-grad_step = 000093, loss = 0.002632
-grad_step = 000094, loss = 0.002565
-grad_step = 000095, loss = 0.002507
-grad_step = 000096, loss = 0.002447
-grad_step = 000097, loss = 0.002388
-grad_step = 000098, loss = 0.002335
-grad_step = 000099, loss = 0.002298
-grad_step = 000100, loss = 0.002268
+grad_step = 000001, loss = 0.600618
+grad_step = 000002, loss = 0.571953
+grad_step = 000003, loss = 0.541606
+grad_step = 000004, loss = 0.508621
+grad_step = 000005, loss = 0.474461
+grad_step = 000006, loss = 0.449516
+grad_step = 000007, loss = 0.442397
+grad_step = 000008, loss = 0.425279
+grad_step = 000009, loss = 0.403349
+grad_step = 000010, loss = 0.385713
+grad_step = 000011, loss = 0.370097
+grad_step = 000012, loss = 0.357842
+grad_step = 000013, loss = 0.347541
+grad_step = 000014, loss = 0.335305
+grad_step = 000015, loss = 0.320491
+grad_step = 000016, loss = 0.305254
+grad_step = 000017, loss = 0.291742
+grad_step = 000018, loss = 0.280452
+grad_step = 000019, loss = 0.269655
+grad_step = 000020, loss = 0.257701
+grad_step = 000021, loss = 0.245202
+grad_step = 000022, loss = 0.233414
+grad_step = 000023, loss = 0.222713
+grad_step = 000024, loss = 0.212571
+grad_step = 000025, loss = 0.202204
+grad_step = 000026, loss = 0.191450
+grad_step = 000027, loss = 0.180992
+grad_step = 000028, loss = 0.171323
+grad_step = 000029, loss = 0.162330
+grad_step = 000030, loss = 0.153724
+grad_step = 000031, loss = 0.145247
+grad_step = 000032, loss = 0.136886
+grad_step = 000033, loss = 0.128779
+grad_step = 000034, loss = 0.120892
+grad_step = 000035, loss = 0.113179
+grad_step = 000036, loss = 0.105787
+grad_step = 000037, loss = 0.098964
+grad_step = 000038, loss = 0.092661
+grad_step = 000039, loss = 0.086408
+grad_step = 000040, loss = 0.080113
+grad_step = 000041, loss = 0.074253
+grad_step = 000042, loss = 0.068966
+grad_step = 000043, loss = 0.063920
+grad_step = 000044, loss = 0.058982
+grad_step = 000045, loss = 0.054254
+grad_step = 000046, loss = 0.049855
+grad_step = 000047, loss = 0.045848
+grad_step = 000048, loss = 0.042050
+grad_step = 000049, loss = 0.038460
+grad_step = 000050, loss = 0.035124
+grad_step = 000051, loss = 0.031973
+grad_step = 000052, loss = 0.029123
+grad_step = 000053, loss = 0.026578
+grad_step = 000054, loss = 0.024202
+grad_step = 000055, loss = 0.021989
+grad_step = 000056, loss = 0.019973
+grad_step = 000057, loss = 0.018184
+grad_step = 000058, loss = 0.016534
+grad_step = 000059, loss = 0.015044
+grad_step = 000060, loss = 0.013704
+grad_step = 000061, loss = 0.012490
+grad_step = 000062, loss = 0.011407
+grad_step = 000063, loss = 0.010422
+grad_step = 000064, loss = 0.009565
+grad_step = 000065, loss = 0.008779
+grad_step = 000066, loss = 0.008053
+grad_step = 000067, loss = 0.007418
+grad_step = 000068, loss = 0.006866
+grad_step = 000069, loss = 0.006336
+grad_step = 000070, loss = 0.005861
+grad_step = 000071, loss = 0.005443
+grad_step = 000072, loss = 0.005069
+grad_step = 000073, loss = 0.004728
+grad_step = 000074, loss = 0.004421
+grad_step = 000075, loss = 0.004144
+grad_step = 000076, loss = 0.003897
+grad_step = 000077, loss = 0.003677
+grad_step = 000078, loss = 0.003479
+grad_step = 000079, loss = 0.003301
+grad_step = 000080, loss = 0.003152
+grad_step = 000081, loss = 0.003017
+grad_step = 000082, loss = 0.002899
+grad_step = 000083, loss = 0.002800
+grad_step = 000084, loss = 0.002711
+grad_step = 000085, loss = 0.002635
+grad_step = 000086, loss = 0.002574
+grad_step = 000087, loss = 0.002521
+grad_step = 000088, loss = 0.002472
+grad_step = 000089, loss = 0.002433
+grad_step = 000090, loss = 0.002401
+grad_step = 000091, loss = 0.002373
+grad_step = 000092, loss = 0.002349
+grad_step = 000093, loss = 0.002325
+grad_step = 000094, loss = 0.002306
+grad_step = 000095, loss = 0.002289
+grad_step = 000096, loss = 0.002272
+grad_step = 000097, loss = 0.002256
+grad_step = 000098, loss = 0.002242
+grad_step = 000099, loss = 0.002228
+grad_step = 000100, loss = 0.002214
 plot()
 Saved image to .//n_beats_100.png.
-grad_step = 000101, loss = 0.002236
-grad_step = 000102, loss = 0.002208
-grad_step = 000103, loss = 0.002186
-grad_step = 000104, loss = 0.002175
-grad_step = 000105, loss = 0.002169
-grad_step = 000106, loss = 0.002165
-grad_step = 000107, loss = 0.002155
-grad_step = 000108, loss = 0.002140
-grad_step = 000109, loss = 0.002118
-grad_step = 000110, loss = 0.002097
-grad_step = 000111, loss = 0.002084
-grad_step = 000112, loss = 0.002081
-grad_step = 000113, loss = 0.002083
-grad_step = 000114, loss = 0.002087
-grad_step = 000115, loss = 0.002091
-grad_step = 000116, loss = 0.002091
-grad_step = 000117, loss = 0.002089
-grad_step = 000118, loss = 0.002079
-grad_step = 000119, loss = 0.002066
-grad_step = 000120, loss = 0.002049
-grad_step = 000121, loss = 0.002035
-grad_step = 000122, loss = 0.002024
-grad_step = 000123, loss = 0.002016
-grad_step = 000124, loss = 0.002010
-grad_step = 000125, loss = 0.002007
-grad_step = 000126, loss = 0.002007
-grad_step = 000127, loss = 0.002015
-grad_step = 000128, loss = 0.002049
-grad_step = 000129, loss = 0.002121
-grad_step = 000130, loss = 0.002252
-grad_step = 000131, loss = 0.002224
-grad_step = 000132, loss = 0.002124
-grad_step = 000133, loss = 0.002013
+grad_step = 000101, loss = 0.002201
+grad_step = 000102, loss = 0.002188
+grad_step = 000103, loss = 0.002176
+grad_step = 000104, loss = 0.002165
+grad_step = 000105, loss = 0.002154
+grad_step = 000106, loss = 0.002144
+grad_step = 000107, loss = 0.002134
+grad_step = 000108, loss = 0.002125
+grad_step = 000109, loss = 0.002117
+grad_step = 000110, loss = 0.002109
+grad_step = 000111, loss = 0.002103
+grad_step = 000112, loss = 0.002096
+grad_step = 000113, loss = 0.002091
+grad_step = 000114, loss = 0.002086
+grad_step = 000115, loss = 0.002081
+grad_step = 000116, loss = 0.002076
+grad_step = 000117, loss = 0.002072
+grad_step = 000118, loss = 0.002069
+grad_step = 000119, loss = 0.002065
+grad_step = 000120, loss = 0.002062
+grad_step = 000121, loss = 0.002059
+grad_step = 000122, loss = 0.002056
+grad_step = 000123, loss = 0.002052
+grad_step = 000124, loss = 0.002050
+grad_step = 000125, loss = 0.002047
+grad_step = 000126, loss = 0.002044
+grad_step = 000127, loss = 0.002041
+grad_step = 000128, loss = 0.002038
+grad_step = 000129, loss = 0.002035
+grad_step = 000130, loss = 0.002032
+grad_step = 000131, loss = 0.002030
+grad_step = 000132, loss = 0.002029
+grad_step = 000133, loss = 0.002027
 grad_step = 000134, loss = 0.002023
-grad_step = 000135, loss = 0.002111
-grad_step = 000136, loss = 0.002068
-grad_step = 000137, loss = 0.001957
-grad_step = 000138, loss = 0.002020
-grad_step = 000139, loss = 0.002066
-grad_step = 000140, loss = 0.001973
-grad_step = 000141, loss = 0.001954
-grad_step = 000142, loss = 0.002011
-grad_step = 000143, loss = 0.001988
-grad_step = 000144, loss = 0.001964
-grad_step = 000145, loss = 0.001974
-grad_step = 000146, loss = 0.001933
-grad_step = 000147, loss = 0.001960
-grad_step = 000148, loss = 0.001978
-grad_step = 000149, loss = 0.001921
-grad_step = 000150, loss = 0.001923
-grad_step = 000151, loss = 0.001954
-grad_step = 000152, loss = 0.001927
-grad_step = 000153, loss = 0.001907
-grad_step = 000154, loss = 0.001923
-grad_step = 000155, loss = 0.001906
-grad_step = 000156, loss = 0.001910
-grad_step = 000157, loss = 0.001913
-grad_step = 000158, loss = 0.001888
-grad_step = 000159, loss = 0.001887
-grad_step = 000160, loss = 0.001900
-grad_step = 000161, loss = 0.001896
-grad_step = 000162, loss = 0.001880
-grad_step = 000163, loss = 0.001884
-grad_step = 000164, loss = 0.001877
-grad_step = 000165, loss = 0.001865
-grad_step = 000166, loss = 0.001868
-grad_step = 000167, loss = 0.001871
-grad_step = 000168, loss = 0.001869
-grad_step = 000169, loss = 0.001863
-grad_step = 000170, loss = 0.001866
-grad_step = 000171, loss = 0.001864
-grad_step = 000172, loss = 0.001853
-grad_step = 000173, loss = 0.001848
-grad_step = 000174, loss = 0.001845
-grad_step = 000175, loss = 0.001842
-grad_step = 000176, loss = 0.001837
-grad_step = 000177, loss = 0.001834
-grad_step = 000178, loss = 0.001835
-grad_step = 000179, loss = 0.001835
-grad_step = 000180, loss = 0.001836
-grad_step = 000181, loss = 0.001844
-grad_step = 000182, loss = 0.001862
-grad_step = 000183, loss = 0.001909
-grad_step = 000184, loss = 0.001953
-grad_step = 000185, loss = 0.002003
-grad_step = 000186, loss = 0.001931
-grad_step = 000187, loss = 0.001842
-grad_step = 000188, loss = 0.001818
-grad_step = 000189, loss = 0.001866
-grad_step = 000190, loss = 0.001887
-grad_step = 000191, loss = 0.001837
-grad_step = 000192, loss = 0.001807
-grad_step = 000193, loss = 0.001828
-grad_step = 000194, loss = 0.001847
-grad_step = 000195, loss = 0.001837
-grad_step = 000196, loss = 0.001800
-grad_step = 000197, loss = 0.001786
-grad_step = 000198, loss = 0.001808
-grad_step = 000199, loss = 0.001820
-grad_step = 000200, loss = 0.001802
+grad_step = 000135, loss = 0.002018
+grad_step = 000136, loss = 0.002016
+grad_step = 000137, loss = 0.002015
+grad_step = 000138, loss = 0.002012
+grad_step = 000139, loss = 0.002008
+grad_step = 000140, loss = 0.002005
+grad_step = 000141, loss = 0.002004
+grad_step = 000142, loss = 0.002002
+grad_step = 000143, loss = 0.001999
+grad_step = 000144, loss = 0.001995
+grad_step = 000145, loss = 0.001993
+grad_step = 000146, loss = 0.001991
+grad_step = 000147, loss = 0.001989
+grad_step = 000148, loss = 0.001987
+grad_step = 000149, loss = 0.001985
+grad_step = 000150, loss = 0.001982
+grad_step = 000151, loss = 0.001979
+grad_step = 000152, loss = 0.001976
+grad_step = 000153, loss = 0.001974
+grad_step = 000154, loss = 0.001971
+grad_step = 000155, loss = 0.001969
+grad_step = 000156, loss = 0.001967
+grad_step = 000157, loss = 0.001965
+grad_step = 000158, loss = 0.001965
+grad_step = 000159, loss = 0.001967
+grad_step = 000160, loss = 0.001976
+grad_step = 000161, loss = 0.001992
+grad_step = 000162, loss = 0.001998
+grad_step = 000163, loss = 0.001986
+grad_step = 000164, loss = 0.001961
+grad_step = 000165, loss = 0.001949
+grad_step = 000166, loss = 0.001958
+grad_step = 000167, loss = 0.001970
+grad_step = 000168, loss = 0.001971
+grad_step = 000169, loss = 0.001956
+grad_step = 000170, loss = 0.001942
+grad_step = 000171, loss = 0.001940
+grad_step = 000172, loss = 0.001947
+grad_step = 000173, loss = 0.001953
+grad_step = 000174, loss = 0.001950
+grad_step = 000175, loss = 0.001940
+grad_step = 000176, loss = 0.001931
+grad_step = 000177, loss = 0.001928
+grad_step = 000178, loss = 0.001930
+grad_step = 000179, loss = 0.001934
+grad_step = 000180, loss = 0.001936
+grad_step = 000181, loss = 0.001933
+grad_step = 000182, loss = 0.001927
+grad_step = 000183, loss = 0.001921
+grad_step = 000184, loss = 0.001916
+grad_step = 000185, loss = 0.001914
+grad_step = 000186, loss = 0.001914
+grad_step = 000187, loss = 0.001915
+grad_step = 000188, loss = 0.001916
+grad_step = 000189, loss = 0.001918
+grad_step = 000190, loss = 0.001919
+grad_step = 000191, loss = 0.001921
+grad_step = 000192, loss = 0.001921
+grad_step = 000193, loss = 0.001923
+grad_step = 000194, loss = 0.001923
+grad_step = 000195, loss = 0.001924
+grad_step = 000196, loss = 0.001921
+grad_step = 000197, loss = 0.001918
+grad_step = 000198, loss = 0.001912
+grad_step = 000199, loss = 0.001907
+grad_step = 000200, loss = 0.001901
 plot()
 Saved image to .//n_beats_200.png.
-grad_step = 000201, loss = 0.001780
-grad_step = 000202, loss = 0.001782
-grad_step = 000203, loss = 0.001792
-grad_step = 000204, loss = 0.001790
-grad_step = 000205, loss = 0.001780
-grad_step = 000206, loss = 0.001768
-grad_step = 000207, loss = 0.001768
-grad_step = 000208, loss = 0.001777
-grad_step = 000209, loss = 0.001778
-grad_step = 000210, loss = 0.001772
-grad_step = 000211, loss = 0.001764
-grad_step = 000212, loss = 0.001758
-grad_step = 000213, loss = 0.001756
-grad_step = 000214, loss = 0.001759
-grad_step = 000215, loss = 0.001764
-grad_step = 000216, loss = 0.001763
-grad_step = 000217, loss = 0.001763
-grad_step = 000218, loss = 0.001761
-grad_step = 000219, loss = 0.001764
-grad_step = 000220, loss = 0.001767
-grad_step = 000221, loss = 0.001783
-grad_step = 000222, loss = 0.001787
-grad_step = 000223, loss = 0.001785
-grad_step = 000224, loss = 0.001755
-grad_step = 000225, loss = 0.001732
-grad_step = 000226, loss = 0.001730
-grad_step = 000227, loss = 0.001745
-grad_step = 000228, loss = 0.001768
-grad_step = 000229, loss = 0.001773
-grad_step = 000230, loss = 0.001772
-grad_step = 000231, loss = 0.001753
-grad_step = 000232, loss = 0.001747
-grad_step = 000233, loss = 0.001761
-grad_step = 000234, loss = 0.001810
-grad_step = 000235, loss = 0.001862
-grad_step = 000236, loss = 0.001931
-grad_step = 000237, loss = 0.001897
-grad_step = 000238, loss = 0.001833
-grad_step = 000239, loss = 0.001737
-grad_step = 000240, loss = 0.001728
-grad_step = 000241, loss = 0.001790
-grad_step = 000242, loss = 0.001824
-grad_step = 000243, loss = 0.001786
-grad_step = 000244, loss = 0.001716
-grad_step = 000245, loss = 0.001703
-grad_step = 000246, loss = 0.001742
-grad_step = 000247, loss = 0.001755
-grad_step = 000248, loss = 0.001728
-grad_step = 000249, loss = 0.001696
-grad_step = 000250, loss = 0.001705
-grad_step = 000251, loss = 0.001731
-grad_step = 000252, loss = 0.001721
-grad_step = 000253, loss = 0.001693
-grad_step = 000254, loss = 0.001681
-grad_step = 000255, loss = 0.001693
-grad_step = 000256, loss = 0.001701
-grad_step = 000257, loss = 0.001689
-grad_step = 000258, loss = 0.001672
-grad_step = 000259, loss = 0.001669
-grad_step = 000260, loss = 0.001677
-grad_step = 000261, loss = 0.001681
-grad_step = 000262, loss = 0.001672
-grad_step = 000263, loss = 0.001662
-grad_step = 000264, loss = 0.001659
-grad_step = 000265, loss = 0.001665
-grad_step = 000266, loss = 0.001671
-grad_step = 000267, loss = 0.001678
-grad_step = 000268, loss = 0.001691
-grad_step = 000269, loss = 0.001740
-grad_step = 000270, loss = 0.001778
-grad_step = 000271, loss = 0.001851
-grad_step = 000272, loss = 0.001780
-grad_step = 000273, loss = 0.001718
-grad_step = 000274, loss = 0.001686
-grad_step = 000275, loss = 0.001686
-grad_step = 000276, loss = 0.001698
-grad_step = 000277, loss = 0.001700
-grad_step = 000278, loss = 0.001701
-grad_step = 000279, loss = 0.001672
-grad_step = 000280, loss = 0.001642
-grad_step = 000281, loss = 0.001641
-grad_step = 000282, loss = 0.001674
-grad_step = 000283, loss = 0.001705
-grad_step = 000284, loss = 0.001691
-grad_step = 000285, loss = 0.001678
-grad_step = 000286, loss = 0.001674
-grad_step = 000287, loss = 0.001682
-grad_step = 000288, loss = 0.001662
-grad_step = 000289, loss = 0.001629
-grad_step = 000290, loss = 0.001614
-grad_step = 000291, loss = 0.001629
-grad_step = 000292, loss = 0.001647
-grad_step = 000293, loss = 0.001631
-grad_step = 000294, loss = 0.001609
-grad_step = 000295, loss = 0.001606
-grad_step = 000296, loss = 0.001617
-grad_step = 000297, loss = 0.001619
-grad_step = 000298, loss = 0.001609
-grad_step = 000299, loss = 0.001597
-grad_step = 000300, loss = 0.001597
+grad_step = 000201, loss = 0.001897
+grad_step = 000202, loss = 0.001892
+grad_step = 000203, loss = 0.001888
+grad_step = 000204, loss = 0.001886
+grad_step = 000205, loss = 0.001883
+grad_step = 000206, loss = 0.001881
+grad_step = 000207, loss = 0.001879
+grad_step = 000208, loss = 0.001878
+grad_step = 000209, loss = 0.001876
+grad_step = 000210, loss = 0.001875
+grad_step = 000211, loss = 0.001873
+grad_step = 000212, loss = 0.001872
+grad_step = 000213, loss = 0.001870
+grad_step = 000214, loss = 0.001869
+grad_step = 000215, loss = 0.001868
+grad_step = 000216, loss = 0.001867
+grad_step = 000217, loss = 0.001868
+grad_step = 000218, loss = 0.001875
+grad_step = 000219, loss = 0.001893
+grad_step = 000220, loss = 0.001949
+grad_step = 000221, loss = 0.002047
+grad_step = 000222, loss = 0.002241
+grad_step = 000223, loss = 0.002245
+grad_step = 000224, loss = 0.002116
+grad_step = 000225, loss = 0.001892
+grad_step = 000226, loss = 0.001924
+grad_step = 000227, loss = 0.002087
+grad_step = 000228, loss = 0.002030
+grad_step = 000229, loss = 0.001875
+grad_step = 000230, loss = 0.001885
+grad_step = 000231, loss = 0.001997
+grad_step = 000232, loss = 0.002039
+grad_step = 000233, loss = 0.001909
+grad_step = 000234, loss = 0.001844
+grad_step = 000235, loss = 0.001910
+grad_step = 000236, loss = 0.001967
+grad_step = 000237, loss = 0.001925
+grad_step = 000238, loss = 0.001846
+grad_step = 000239, loss = 0.001853
+grad_step = 000240, loss = 0.001905
+grad_step = 000241, loss = 0.001900
+grad_step = 000242, loss = 0.001847
+grad_step = 000243, loss = 0.001834
+grad_step = 000244, loss = 0.001864
+grad_step = 000245, loss = 0.001879
+grad_step = 000246, loss = 0.001845
+grad_step = 000247, loss = 0.001825
+grad_step = 000248, loss = 0.001838
+grad_step = 000249, loss = 0.001855
+grad_step = 000250, loss = 0.001842
+grad_step = 000251, loss = 0.001821
+grad_step = 000252, loss = 0.001820
+grad_step = 000253, loss = 0.001834
+grad_step = 000254, loss = 0.001834
+grad_step = 000255, loss = 0.001820
+grad_step = 000256, loss = 0.001811
+grad_step = 000257, loss = 0.001815
+grad_step = 000258, loss = 0.001821
+grad_step = 000259, loss = 0.001818
+grad_step = 000260, loss = 0.001808
+grad_step = 000261, loss = 0.001803
+grad_step = 000262, loss = 0.001805
+grad_step = 000263, loss = 0.001808
+grad_step = 000264, loss = 0.001806
+grad_step = 000265, loss = 0.001800
+grad_step = 000266, loss = 0.001795
+grad_step = 000267, loss = 0.001795
+grad_step = 000268, loss = 0.001797
+grad_step = 000269, loss = 0.001796
+grad_step = 000270, loss = 0.001793
+grad_step = 000271, loss = 0.001789
+grad_step = 000272, loss = 0.001786
+grad_step = 000273, loss = 0.001785
+grad_step = 000274, loss = 0.001785
+grad_step = 000275, loss = 0.001785
+grad_step = 000276, loss = 0.001783
+grad_step = 000277, loss = 0.001781
+grad_step = 000278, loss = 0.001778
+grad_step = 000279, loss = 0.001775
+grad_step = 000280, loss = 0.001774
+grad_step = 000281, loss = 0.001772
+grad_step = 000282, loss = 0.001772
+grad_step = 000283, loss = 0.001771
+grad_step = 000284, loss = 0.001769
+grad_step = 000285, loss = 0.001767
+grad_step = 000286, loss = 0.001765
+grad_step = 000287, loss = 0.001763
+grad_step = 000288, loss = 0.001761
+grad_step = 000289, loss = 0.001759
+grad_step = 000290, loss = 0.001758
+grad_step = 000291, loss = 0.001756
+grad_step = 000292, loss = 0.001754
+grad_step = 000293, loss = 0.001753
+grad_step = 000294, loss = 0.001751
+grad_step = 000295, loss = 0.001750
+grad_step = 000296, loss = 0.001748
+grad_step = 000297, loss = 0.001747
+grad_step = 000298, loss = 0.001746
+grad_step = 000299, loss = 0.001745
+grad_step = 000300, loss = 0.001745
 plot()
 Saved image to .//n_beats_300.png.
-grad_step = 000301, loss = 0.001604
-grad_step = 000302, loss = 0.001603
-grad_step = 000303, loss = 0.001595
-grad_step = 000304, loss = 0.001587
-grad_step = 000305, loss = 0.001585
-grad_step = 000306, loss = 0.001588
-grad_step = 000307, loss = 0.001589
-grad_step = 000308, loss = 0.001588
-grad_step = 000309, loss = 0.001583
-grad_step = 000310, loss = 0.001579
-grad_step = 000311, loss = 0.001581
-grad_step = 000312, loss = 0.001590
-grad_step = 000313, loss = 0.001605
-grad_step = 000314, loss = 0.001640
-grad_step = 000315, loss = 0.001674
-grad_step = 000316, loss = 0.001758
-grad_step = 000317, loss = 0.001768
-grad_step = 000318, loss = 0.001809
-grad_step = 000319, loss = 0.001703
-grad_step = 000320, loss = 0.001615
-grad_step = 000321, loss = 0.001583
-grad_step = 000322, loss = 0.001622
-grad_step = 000323, loss = 0.001680
-grad_step = 000324, loss = 0.001654
-grad_step = 000325, loss = 0.001603
-grad_step = 000326, loss = 0.001558
-grad_step = 000327, loss = 0.001576
-grad_step = 000328, loss = 0.001622
-grad_step = 000329, loss = 0.001614
-grad_step = 000330, loss = 0.001582
-grad_step = 000331, loss = 0.001553
-grad_step = 000332, loss = 0.001558
-grad_step = 000333, loss = 0.001572
-grad_step = 000334, loss = 0.001566
-grad_step = 000335, loss = 0.001560
-grad_step = 000336, loss = 0.001564
-grad_step = 000337, loss = 0.001575
-grad_step = 000338, loss = 0.001566
-grad_step = 000339, loss = 0.001549
-grad_step = 000340, loss = 0.001535
-grad_step = 000341, loss = 0.001534
-grad_step = 000342, loss = 0.001538
-grad_step = 000343, loss = 0.001538
-grad_step = 000344, loss = 0.001533
-grad_step = 000345, loss = 0.001531
-grad_step = 000346, loss = 0.001535
-grad_step = 000347, loss = 0.001539
-grad_step = 000348, loss = 0.001540
-grad_step = 000349, loss = 0.001536
-grad_step = 000350, loss = 0.001533
-grad_step = 000351, loss = 0.001532
-grad_step = 000352, loss = 0.001534
-grad_step = 000353, loss = 0.001530
-grad_step = 000354, loss = 0.001527
-grad_step = 000355, loss = 0.001521
-grad_step = 000356, loss = 0.001520
-grad_step = 000357, loss = 0.001519
-grad_step = 000358, loss = 0.001520
-grad_step = 000359, loss = 0.001517
-grad_step = 000360, loss = 0.001515
-grad_step = 000361, loss = 0.001514
-grad_step = 000362, loss = 0.001516
-grad_step = 000363, loss = 0.001518
-grad_step = 000364, loss = 0.001525
-grad_step = 000365, loss = 0.001530
-grad_step = 000366, loss = 0.001544
-grad_step = 000367, loss = 0.001554
-grad_step = 000368, loss = 0.001579
-grad_step = 000369, loss = 0.001584
-grad_step = 000370, loss = 0.001596
-grad_step = 000371, loss = 0.001568
-grad_step = 000372, loss = 0.001539
-grad_step = 000373, loss = 0.001502
-grad_step = 000374, loss = 0.001485
-grad_step = 000375, loss = 0.001488
-grad_step = 000376, loss = 0.001505
-grad_step = 000377, loss = 0.001527
-grad_step = 000378, loss = 0.001540
-grad_step = 000379, loss = 0.001555
-grad_step = 000380, loss = 0.001542
-grad_step = 000381, loss = 0.001527
-grad_step = 000382, loss = 0.001497
-grad_step = 000383, loss = 0.001476
-grad_step = 000384, loss = 0.001469
-grad_step = 000385, loss = 0.001474
-grad_step = 000386, loss = 0.001487
-grad_step = 000387, loss = 0.001498
-grad_step = 000388, loss = 0.001514
-grad_step = 000389, loss = 0.001521
-grad_step = 000390, loss = 0.001536
-grad_step = 000391, loss = 0.001531
-grad_step = 000392, loss = 0.001520
-grad_step = 000393, loss = 0.001490
-grad_step = 000394, loss = 0.001465
-grad_step = 000395, loss = 0.001453
-grad_step = 000396, loss = 0.001458
-grad_step = 000397, loss = 0.001471
-grad_step = 000398, loss = 0.001483
-grad_step = 000399, loss = 0.001496
-grad_step = 000400, loss = 0.001497
+grad_step = 000301, loss = 0.001747
+grad_step = 000302, loss = 0.001752
+grad_step = 000303, loss = 0.001764
+grad_step = 000304, loss = 0.001791
+grad_step = 000305, loss = 0.001849
+grad_step = 000306, loss = 0.001956
+grad_step = 000307, loss = 0.002154
+grad_step = 000308, loss = 0.002358
+grad_step = 000309, loss = 0.002487
+grad_step = 000310, loss = 0.002221
+grad_step = 000311, loss = 0.001844
+grad_step = 000312, loss = 0.001739
+grad_step = 000313, loss = 0.001954
+grad_step = 000314, loss = 0.002112
+grad_step = 000315, loss = 0.001936
+grad_step = 000316, loss = 0.001731
+grad_step = 000317, loss = 0.001803
+grad_step = 000318, loss = 0.001954
+grad_step = 000319, loss = 0.001896
+grad_step = 000320, loss = 0.001736
+grad_step = 000321, loss = 0.001755
+grad_step = 000322, loss = 0.001869
+grad_step = 000323, loss = 0.001839
+grad_step = 000324, loss = 0.001726
+grad_step = 000325, loss = 0.001733
+grad_step = 000326, loss = 0.001806
+grad_step = 000327, loss = 0.001793
+grad_step = 000328, loss = 0.001717
+grad_step = 000329, loss = 0.001717
+grad_step = 000330, loss = 0.001766
+grad_step = 000331, loss = 0.001758
+grad_step = 000332, loss = 0.001708
+grad_step = 000333, loss = 0.001705
+grad_step = 000334, loss = 0.001737
+grad_step = 000335, loss = 0.001736
+grad_step = 000336, loss = 0.001702
+grad_step = 000337, loss = 0.001694
+grad_step = 000338, loss = 0.001715
+grad_step = 000339, loss = 0.001718
+grad_step = 000340, loss = 0.001697
+grad_step = 000341, loss = 0.001685
+grad_step = 000342, loss = 0.001695
+grad_step = 000343, loss = 0.001703
+grad_step = 000344, loss = 0.001693
+grad_step = 000345, loss = 0.001680
+grad_step = 000346, loss = 0.001680
+grad_step = 000347, loss = 0.001687
+grad_step = 000348, loss = 0.001687
+grad_step = 000349, loss = 0.001677
+grad_step = 000350, loss = 0.001671
+grad_step = 000351, loss = 0.001672
+grad_step = 000352, loss = 0.001676
+grad_step = 000353, loss = 0.001674
+grad_step = 000354, loss = 0.001667
+grad_step = 000355, loss = 0.001662
+grad_step = 000356, loss = 0.001662
+grad_step = 000357, loss = 0.001664
+grad_step = 000358, loss = 0.001663
+grad_step = 000359, loss = 0.001659
+grad_step = 000360, loss = 0.001655
+grad_step = 000361, loss = 0.001653
+grad_step = 000362, loss = 0.001653
+grad_step = 000363, loss = 0.001653
+grad_step = 000364, loss = 0.001651
+grad_step = 000365, loss = 0.001648
+grad_step = 000366, loss = 0.001645
+grad_step = 000367, loss = 0.001643
+grad_step = 000368, loss = 0.001641
+grad_step = 000369, loss = 0.001640
+grad_step = 000370, loss = 0.001640
+grad_step = 000371, loss = 0.001638
+grad_step = 000372, loss = 0.001636
+grad_step = 000373, loss = 0.001634
+grad_step = 000374, loss = 0.001632
+grad_step = 000375, loss = 0.001629
+grad_step = 000376, loss = 0.001627
+grad_step = 000377, loss = 0.001626
+grad_step = 000378, loss = 0.001624
+grad_step = 000379, loss = 0.001623
+grad_step = 000380, loss = 0.001621
+grad_step = 000381, loss = 0.001620
+grad_step = 000382, loss = 0.001619
+grad_step = 000383, loss = 0.001618
+grad_step = 000384, loss = 0.001618
+grad_step = 000385, loss = 0.001618
+grad_step = 000386, loss = 0.001620
+grad_step = 000387, loss = 0.001625
+grad_step = 000388, loss = 0.001635
+grad_step = 000389, loss = 0.001655
+grad_step = 000390, loss = 0.001695
+grad_step = 000391, loss = 0.001770
+grad_step = 000392, loss = 0.001899
+grad_step = 000393, loss = 0.002070
+grad_step = 000394, loss = 0.002202
+grad_step = 000395, loss = 0.002182
+grad_step = 000396, loss = 0.001926
+grad_step = 000397, loss = 0.001659
+grad_step = 000398, loss = 0.001619
+grad_step = 000399, loss = 0.001781
+grad_step = 000400, loss = 0.001900
 plot()
 Saved image to .//n_beats_400.png.
-grad_step = 000401, loss = 0.001500
-grad_step = 000402, loss = 0.001489
-grad_step = 000403, loss = 0.001477
-grad_step = 000404, loss = 0.001460
-grad_step = 000405, loss = 0.001448
-grad_step = 000406, loss = 0.001441
-grad_step = 000407, loss = 0.001441
-grad_step = 000408, loss = 0.001448
-grad_step = 000409, loss = 0.001457
-grad_step = 000410, loss = 0.001470
-grad_step = 000411, loss = 0.001479
-grad_step = 000412, loss = 0.001497
-grad_step = 000413, loss = 0.001502
-grad_step = 000414, loss = 0.001511
-grad_step = 000415, loss = 0.001498
-grad_step = 000416, loss = 0.001485
-grad_step = 000417, loss = 0.001457
-grad_step = 000418, loss = 0.001435
-grad_step = 000419, loss = 0.001421
-grad_step = 000420, loss = 0.001421
-grad_step = 000421, loss = 0.001431
-grad_step = 000422, loss = 0.001444
-grad_step = 000423, loss = 0.001463
-grad_step = 000424, loss = 0.001469
-grad_step = 000425, loss = 0.001476
-grad_step = 000426, loss = 0.001462
-grad_step = 000427, loss = 0.001448
-grad_step = 000428, loss = 0.001429
-grad_step = 000429, loss = 0.001420
-grad_step = 000430, loss = 0.001416
-grad_step = 000431, loss = 0.001414
-grad_step = 000432, loss = 0.001413
-grad_step = 000433, loss = 0.001414
-grad_step = 000434, loss = 0.001423
-grad_step = 000435, loss = 0.001433
-grad_step = 000436, loss = 0.001455
-grad_step = 000437, loss = 0.001469
-grad_step = 000438, loss = 0.001486
-grad_step = 000439, loss = 0.001471
-grad_step = 000440, loss = 0.001452
-grad_step = 000441, loss = 0.001420
-grad_step = 000442, loss = 0.001400
-grad_step = 000443, loss = 0.001393
-grad_step = 000444, loss = 0.001397
-grad_step = 000445, loss = 0.001404
-grad_step = 000446, loss = 0.001408
-grad_step = 000447, loss = 0.001412
-grad_step = 000448, loss = 0.001413
-grad_step = 000449, loss = 0.001420
-grad_step = 000450, loss = 0.001421
-grad_step = 000451, loss = 0.001421
-grad_step = 000452, loss = 0.001405
-grad_step = 000453, loss = 0.001389
-grad_step = 000454, loss = 0.001373
-grad_step = 000455, loss = 0.001367
-grad_step = 000456, loss = 0.001368
-grad_step = 000457, loss = 0.001374
-grad_step = 000458, loss = 0.001386
-grad_step = 000459, loss = 0.001397
-grad_step = 000460, loss = 0.001417
-grad_step = 000461, loss = 0.001428
-grad_step = 000462, loss = 0.001449
-grad_step = 000463, loss = 0.001452
-grad_step = 000464, loss = 0.001470
-grad_step = 000465, loss = 0.001461
-grad_step = 000466, loss = 0.001456
-grad_step = 000467, loss = 0.001415
-grad_step = 000468, loss = 0.001379
-grad_step = 000469, loss = 0.001361
-grad_step = 000470, loss = 0.001364
-grad_step = 000471, loss = 0.001381
-grad_step = 000472, loss = 0.001393
-grad_step = 000473, loss = 0.001403
-grad_step = 000474, loss = 0.001383
-grad_step = 000475, loss = 0.001357
-grad_step = 000476, loss = 0.001337
-grad_step = 000477, loss = 0.001341
-grad_step = 000478, loss = 0.001355
-grad_step = 000479, loss = 0.001356
-grad_step = 000480, loss = 0.001347
-grad_step = 000481, loss = 0.001340
-grad_step = 000482, loss = 0.001343
-grad_step = 000483, loss = 0.001344
-grad_step = 000484, loss = 0.001345
-grad_step = 000485, loss = 0.001349
-grad_step = 000486, loss = 0.001365
-grad_step = 000487, loss = 0.001377
-grad_step = 000488, loss = 0.001391
-grad_step = 000489, loss = 0.001390
-grad_step = 000490, loss = 0.001398
-grad_step = 000491, loss = 0.001388
-grad_step = 000492, loss = 0.001387
-grad_step = 000493, loss = 0.001367
-grad_step = 000494, loss = 0.001358
-grad_step = 000495, loss = 0.001346
-grad_step = 000496, loss = 0.001343
-grad_step = 000497, loss = 0.001335
-grad_step = 000498, loss = 0.001325
-grad_step = 000499, loss = 0.001316
-grad_step = 000500, loss = 0.001310
+grad_step = 000401, loss = 0.001818
+grad_step = 000402, loss = 0.001641
+grad_step = 000403, loss = 0.001599
+grad_step = 000404, loss = 0.001699
+grad_step = 000405, loss = 0.001781
+grad_step = 000406, loss = 0.001727
+grad_step = 000407, loss = 0.001617
+grad_step = 000408, loss = 0.001585
+grad_step = 000409, loss = 0.001639
+grad_step = 000410, loss = 0.001696
+grad_step = 000411, loss = 0.001673
+grad_step = 000412, loss = 0.001606
+grad_step = 000413, loss = 0.001574
+grad_step = 000414, loss = 0.001600
+grad_step = 000415, loss = 0.001637
+grad_step = 000416, loss = 0.001632
+grad_step = 000417, loss = 0.001596
+grad_step = 000418, loss = 0.001568
+grad_step = 000419, loss = 0.001573
+grad_step = 000420, loss = 0.001595
+grad_step = 000421, loss = 0.001603
+grad_step = 000422, loss = 0.001588
+grad_step = 000423, loss = 0.001566
+grad_step = 000424, loss = 0.001557
+grad_step = 000425, loss = 0.001564
+grad_step = 000426, loss = 0.001575
+grad_step = 000427, loss = 0.001576
+grad_step = 000428, loss = 0.001566
+grad_step = 000429, loss = 0.001554
+grad_step = 000430, loss = 0.001547
+grad_step = 000431, loss = 0.001549
+grad_step = 000432, loss = 0.001554
+grad_step = 000433, loss = 0.001557
+grad_step = 000434, loss = 0.001554
+grad_step = 000435, loss = 0.001547
+grad_step = 000436, loss = 0.001540
+grad_step = 000437, loss = 0.001535
+grad_step = 000438, loss = 0.001534
+grad_step = 000439, loss = 0.001535
+grad_step = 000440, loss = 0.001537
+grad_step = 000441, loss = 0.001537
+grad_step = 000442, loss = 0.001535
+grad_step = 000443, loss = 0.001531
+grad_step = 000444, loss = 0.001528
+grad_step = 000445, loss = 0.001524
+grad_step = 000446, loss = 0.001520
+grad_step = 000447, loss = 0.001518
+grad_step = 000448, loss = 0.001516
+grad_step = 000449, loss = 0.001514
+grad_step = 000450, loss = 0.001513
+grad_step = 000451, loss = 0.001512
+grad_step = 000452, loss = 0.001512
+grad_step = 000453, loss = 0.001512
+grad_step = 000454, loss = 0.001512
+grad_step = 000455, loss = 0.001514
+grad_step = 000456, loss = 0.001517
+grad_step = 000457, loss = 0.001525
+grad_step = 000458, loss = 0.001539
+grad_step = 000459, loss = 0.001567
+grad_step = 000460, loss = 0.001619
+grad_step = 000461, loss = 0.001714
+grad_step = 000462, loss = 0.001855
+grad_step = 000463, loss = 0.002050
+grad_step = 000464, loss = 0.002150
+grad_step = 000465, loss = 0.002103
+grad_step = 000466, loss = 0.001800
+grad_step = 000467, loss = 0.001534
+grad_step = 000468, loss = 0.001522
+grad_step = 000469, loss = 0.001697
+grad_step = 000470, loss = 0.001808
+grad_step = 000471, loss = 0.001694
+grad_step = 000472, loss = 0.001524
+grad_step = 000473, loss = 0.001495
+grad_step = 000474, loss = 0.001590
+grad_step = 000475, loss = 0.001655
+grad_step = 000476, loss = 0.001607
+grad_step = 000477, loss = 0.001528
+grad_step = 000478, loss = 0.001517
+grad_step = 000479, loss = 0.001546
+grad_step = 000480, loss = 0.001551
+grad_step = 000481, loss = 0.001510
+grad_step = 000482, loss = 0.001489
+grad_step = 000483, loss = 0.001513
+grad_step = 000484, loss = 0.001530
+grad_step = 000485, loss = 0.001509
+grad_step = 000486, loss = 0.001465
+grad_step = 000487, loss = 0.001459
+grad_step = 000488, loss = 0.001488
+grad_step = 000489, loss = 0.001496
+grad_step = 000490, loss = 0.001475
+grad_step = 000491, loss = 0.001452
+grad_step = 000492, loss = 0.001456
+grad_step = 000493, loss = 0.001468
+grad_step = 000494, loss = 0.001462
+grad_step = 000495, loss = 0.001446
+grad_step = 000496, loss = 0.001440
+grad_step = 000497, loss = 0.001448
+grad_step = 000498, loss = 0.001453
+grad_step = 000499, loss = 0.001446
+grad_step = 000500, loss = 0.001433
 plot()
 Saved image to .//n_beats_500.png.
-grad_step = 000501, loss = 0.001310
+grad_step = 000501, loss = 0.001427
 Finished.
 
   #### Inference Need return ypred, ytrue ######################### 
@@ -2827,35 +2827,35 @@ Finished.
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-25 23:50:21.820379
+  date_run                              2020-05-26 23:57:52.249973
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  0.215634
+metric                                                  0.217781
 metric_name                                  mean_absolute_error
 Name: 4, dtype: object 
 
-  date_run                              2020-05-25 23:50:21.826121
+  date_run                              2020-05-26 23:57:52.257122
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  0.106755
+metric                                                  0.120736
 metric_name                                   mean_squared_error
 Name: 5, dtype: object 
 
-  date_run                              2020-05-25 23:50:21.832685
+  date_run                              2020-05-26 23:57:52.264934
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  0.137337
+metric                                                  0.124305
 metric_name                                median_absolute_error
 Name: 6, dtype: object 
 
-  date_run                              2020-05-25 23:50:21.838868
+  date_run                              2020-05-26 23:57:52.270463
 model_uri                                    model_tch.nbeats.py
 json           [{'forecast_length': 60, 'backcast_length': 10...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                 -0.622173
+metric                                                 -0.834633
 metric_name                                             r2_score
 Name: 7, dtype: object 
 
@@ -2956,13 +2956,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fae1267c860> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f1ea60304e0> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-05-25 23:50:38.315994
+  date_run                              2020-05-26 23:58:10.738815
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -2970,7 +2970,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 8, dtype: object 
 
-  date_run                              2020-05-25 23:50:38.319588
+  date_run                              2020-05-26 23:58:10.743279
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -2978,7 +2978,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 9, dtype: object 
 
-  date_run                              2020-05-25 23:50:38.323475
+  date_run                              2020-05-26 23:58:10.747467
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -2986,7 +2986,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 10, dtype: object 
 
-  date_run                              2020-05-25 23:50:38.327122
+  date_run                              2020-05-26 23:58:10.751305
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -3010,18 +3010,18 @@ Name: 11, dtype: object
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                         date_run  ...            metric_name
-0   2020-05-25 23:50:00.767821  ...    mean_absolute_error
-1   2020-05-25 23:50:00.772687  ...     mean_squared_error
-2   2020-05-25 23:50:00.776421  ...  median_absolute_error
-3   2020-05-25 23:50:00.779872  ...               r2_score
-4   2020-05-25 23:50:21.820379  ...    mean_absolute_error
-5   2020-05-25 23:50:21.826121  ...     mean_squared_error
-6   2020-05-25 23:50:21.832685  ...  median_absolute_error
-7   2020-05-25 23:50:21.838868  ...               r2_score
-8   2020-05-25 23:50:38.315994  ...    mean_absolute_error
-9   2020-05-25 23:50:38.319588  ...     mean_squared_error
-10  2020-05-25 23:50:38.323475  ...  median_absolute_error
-11  2020-05-25 23:50:38.327122  ...               r2_score
+0   2020-05-26 23:57:26.454791  ...    mean_absolute_error
+1   2020-05-26 23:57:26.459509  ...     mean_squared_error
+2   2020-05-26 23:57:26.463913  ...  median_absolute_error
+3   2020-05-26 23:57:26.467813  ...               r2_score
+4   2020-05-26 23:57:52.249973  ...    mean_absolute_error
+5   2020-05-26 23:57:52.257122  ...     mean_squared_error
+6   2020-05-26 23:57:52.264934  ...  median_absolute_error
+7   2020-05-26 23:57:52.270463  ...               r2_score
+8   2020-05-26 23:58:10.738815  ...    mean_absolute_error
+9   2020-05-26 23:58:10.743279  ...     mean_squared_error
+10  2020-05-26 23:58:10.747467  ...  median_absolute_error
+11  2020-05-26 23:58:10.751305  ...               r2_score
 
 [12 rows x 6 columns] 
 Traceback (most recent call last):
