@@ -50,7 +50,7 @@
 
 
 
-### Error 4, [Traceback at line 263](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L263)<br />263..Traceback (most recent call last):
+### Error 4, [Traceback at line 265](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L265)<br />265..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -65,7 +65,7 @@
 
 
 
-### Error 5, [Traceback at line 293](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L293)<br />293..Traceback (most recent call last):
+### Error 5, [Traceback at line 295](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L295)<br />295..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -82,14 +82,14 @@
 
 
 
-### Error 6, [Traceback at line 310](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L310)<br />310..Traceback (most recent call last):
+### Error 6, [Traceback at line 312](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L312)<br />312..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 7, [Traceback at line 317](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L317)<br />317..Traceback (most recent call last):
+### Error 7, [Traceback at line 319](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L319)<br />319..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -102,7 +102,7 @@
 
 
 
-### Error 8, [Traceback at line 338](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L338)<br />338..Traceback (most recent call last):
+### Error 8, [Traceback at line 340](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L340)<br />340..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -117,7 +117,7 @@
 
 
 
-### Error 9, [Traceback at line 366](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L366)<br />366..Traceback (most recent call last):
+### Error 9, [Traceback at line 368](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L368)<br />368..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -128,7 +128,7 @@
 
 
 
-### Error 10, [Traceback at line 385](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L385)<br />385..Traceback (most recent call last):
+### Error 10, [Traceback at line 387](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L387)<br />387..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -143,7 +143,7 @@
 
 
 
-### Error 11, [Traceback at line 466](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L466)<br />466..Traceback (most recent call last):
+### Error 11, [Traceback at line 468](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L468)<br />468..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -158,7 +158,7 @@
 
 
 
-### Error 12, [Traceback at line 497](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L497)<br />497..Traceback (most recent call last):
+### Error 12, [Traceback at line 499](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L499)<br />499..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -177,7 +177,7 @@
 
 
 
-### Error 13, [Traceback at line 524](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L524)<br />524..Traceback (most recent call last):
+### Error 13, [Traceback at line 526](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L526)<br />526..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -192,7 +192,7 @@
 
 
 
-### Error 14, [Traceback at line 552](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L552)<br />552..Traceback (most recent call last):
+### Error 14, [Traceback at line 554](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L554)<br />554..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -203,7 +203,7 @@
 
 
 
-### Error 15, [Traceback at line 571](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L571)<br />571..Traceback (most recent call last):
+### Error 15, [Traceback at line 573](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L573)<br />573..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -218,7 +218,7 @@
 
 
 
-### Error 16, [Traceback at line 599](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L599)<br />599..Traceback (most recent call last):
+### Error 16, [Traceback at line 601](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L601)<br />601..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -229,7 +229,7 @@
 
 
 
-### Error 17, [Traceback at line 623](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L623)<br />623..Traceback (most recent call last):
+### Error 17, [Traceback at line 625](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L625)<br />625..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -240,7 +240,7 @@
 
 
 
-### Error 18, [Traceback at line 642](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L642)<br />642..Traceback (most recent call last):
+### Error 18, [Traceback at line 644](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L644)<br />644..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -255,7 +255,7 @@
 
 
 
-### Error 19, [Traceback at line 670](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L670)<br />670..Traceback (most recent call last):
+### Error 19, [Traceback at line 672](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L672)<br />672..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -266,7 +266,7 @@
 
 
 
-### Error 20, [Traceback at line 689](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L689)<br />689..Traceback (most recent call last):
+### Error 20, [Traceback at line 691](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L691)<br />691..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -281,7 +281,7 @@
 
 
 
-### Error 21, [Traceback at line 717](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L717)<br />717..Traceback (most recent call last):
+### Error 21, [Traceback at line 719](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L719)<br />719..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -292,7 +292,7 @@
 
 
 
-### Error 22, [Traceback at line 736](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L736)<br />736..Traceback (most recent call last):
+### Error 22, [Traceback at line 738](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L738)<br />738..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -307,7 +307,7 @@
 
 
 
-### Error 23, [Traceback at line 764](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L764)<br />764..Traceback (most recent call last):
+### Error 23, [Traceback at line 766](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L766)<br />766..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -318,7 +318,7 @@
 
 
 
-### Error 24, [Traceback at line 788](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L788)<br />788..Traceback (most recent call last):
+### Error 24, [Traceback at line 790](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L790)<br />790..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -329,7 +329,7 @@
 
 
 
-### Error 25, [Traceback at line 812](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L812)<br />812..Traceback (most recent call last):
+### Error 25, [Traceback at line 814](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L814)<br />814..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -340,7 +340,7 @@
 
 
 
-### Error 26, [Traceback at line 831](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L831)<br />831..Traceback (most recent call last):
+### Error 26, [Traceback at line 833](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L833)<br />833..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -355,7 +355,7 @@
 
 
 
-### Error 27, [Traceback at line 859](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L859)<br />859..Traceback (most recent call last):
+### Error 27, [Traceback at line 861](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L861)<br />861..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -366,7 +366,7 @@
 
 
 
-### Error 28, [Traceback at line 883](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L883)<br />883..Traceback (most recent call last):
+### Error 28, [Traceback at line 885](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L885)<br />885..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -377,7 +377,7 @@
 
 
 
-### Error 29, [Traceback at line 907](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L907)<br />907..Traceback (most recent call last):
+### Error 29, [Traceback at line 909](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L909)<br />909..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -388,7 +388,7 @@
 
 
 
-### Error 30, [Traceback at line 931](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L931)<br />931..Traceback (most recent call last):
+### Error 30, [Traceback at line 933](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L933)<br />933..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -399,7 +399,7 @@
 
 
 
-### Error 31, [Traceback at line 950](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L950)<br />950..Traceback (most recent call last):
+### Error 31, [Traceback at line 952](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L952)<br />952..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -410,7 +410,7 @@
 
 
 
-### Error 32, [Traceback at line 969](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L969)<br />969..Traceback (most recent call last):
+### Error 32, [Traceback at line 971](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L971)<br />971..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -421,7 +421,7 @@
 
 
 
-### Error 33, [Traceback at line 1023](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1023)<br />1023..Traceback (most recent call last):
+### Error 33, [Traceback at line 1025](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1025)<br />1025..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -432,7 +432,7 @@
 
 
 
-### Error 34, [Traceback at line 1077](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1077)<br />1077..Traceback (most recent call last):
+### Error 34, [Traceback at line 1079](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1079)<br />1079..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -443,7 +443,7 @@
 
 
 
-### Error 35, [Traceback at line 1136](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1136)<br />1136..Traceback (most recent call last):
+### Error 35, [Traceback at line 1138](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1138)<br />1138..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -454,7 +454,7 @@
 
 
 
-### Error 36, [Traceback at line 1190](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1190)<br />1190..Traceback (most recent call last):
+### Error 36, [Traceback at line 1192](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1192)<br />1192..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -465,7 +465,7 @@
 
 
 
-### Error 37, [Traceback at line 1254](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1254)<br />1254..Traceback (most recent call last):
+### Error 37, [Traceback at line 1256](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1256)<br />1256..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -476,7 +476,7 @@
 
 
 
-### Error 38, [Traceback at line 1308](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1308)<br />1308..Traceback (most recent call last):
+### Error 38, [Traceback at line 1310](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1310)<br />1310..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -487,7 +487,7 @@
 
 
 
-### Error 39, [Traceback at line 1361](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1361)<br />1361..Traceback (most recent call last):
+### Error 39, [Traceback at line 1363](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1363)<br />1363..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -498,7 +498,7 @@
 
 
 
-### Error 40, [Traceback at line 1397](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1397)<br />1397..Traceback (most recent call last):
+### Error 40, [Traceback at line 1399](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1399)<br />1399..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -550,18 +550,18 @@
 <br />INFO:root:Using CPU
 <br />INFO:root:Using CPU
 <br />
-<br />  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7febbca8add8> 
+<br />  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f337eae7dd8> 
 <br />INFO:root:Start model training
 <br />INFO:root:Epoch[0] Learning rate is 0.001
 <br />
 <br />  0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 <br />INFO:root:Number of parameters in DeepARTrainingNetwork: 26844
 <br />
-<br />100%|██████████| 10/10 [00:03<00:00,  3.20it/s, avg_epoch_loss=5.23]
-<br />INFO:root:Epoch[0] Elapsed time 3.124 seconds
-<br />INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.229547
+<br />100%|██████████| 10/10 [00:02<00:00,  3.87it/s, avg_epoch_loss=5.2]
+<br />INFO:root:Epoch[0] Elapsed time 2.589 seconds
+<br />INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.201493
 <br />INFO:root:Loading parameters from best epoch (0)
-<br />INFO:root:Final loss: 5.229546594619751 (occurred at epoch 0)
+<br />INFO:root:Final loss: 5.201493167877198 (occurred at epoch 0)
 <br />INFO:root:End model training
 <br />[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
 <br />{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
@@ -569,7 +569,7 @@
 
 
 
-### Error 41, [Traceback at line 1465](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1465)<br />1465..Traceback (most recent call last):
+### Error 41, [Traceback at line 1467](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1467)<br />1467..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -580,7 +580,7 @@
 
 
 
-### Error 42, [Traceback at line 1519](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1519)<br />1519..Traceback (most recent call last):
+### Error 42, [Traceback at line 1521](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1521)<br />1521..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -591,7 +591,7 @@
 
 
 
-### Error 43, [Traceback at line 1578](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1578)<br />1578..Traceback (most recent call last):
+### Error 43, [Traceback at line 1580](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1580)<br />1580..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -602,7 +602,7 @@
 
 
 
-### Error 44, [Traceback at line 1632](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1632)<br />1632..Traceback (most recent call last):
+### Error 44, [Traceback at line 1634](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1634)<br />1634..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -613,7 +613,7 @@
 
 
 
-### Error 45, [Traceback at line 1696](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1696)<br />1696..Traceback (most recent call last):
+### Error 45, [Traceback at line 1698](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1698)<br />1698..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -624,7 +624,7 @@
 
 
 
-### Error 46, [Traceback at line 1750](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1750)<br />1750..Traceback (most recent call last):
+### Error 46, [Traceback at line 1752](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1752)<br />1752..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -635,7 +635,7 @@
 
 
 
-### Error 47, [Traceback at line 1803](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1803)<br />1803..Traceback (most recent call last):
+### Error 47, [Traceback at line 1805](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1805)<br />1805..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -646,7 +646,7 @@
 
 
 
-### Error 48, [Traceback at line 1839](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1839)<br />1839..Traceback (most recent call last):
+### Error 48, [Traceback at line 1841](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1841)<br />1841..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -682,7 +682,7 @@
 
 
 
-### Error 49, [Traceback at line 1872](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1872)<br />1872..Traceback (most recent call last):
+### Error 49, [Traceback at line 1874](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1874)<br />1874..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -693,7 +693,7 @@
 
 
 
-### Error 50, [Traceback at line 1896](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1896)<br />1896..Traceback (most recent call last):
+### Error 50, [Traceback at line 1898](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1898)<br />1898..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -704,7 +704,7 @@
 
 
 
-### Error 51, [Traceback at line 1915](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1915)<br />1915..Traceback (most recent call last):
+### Error 51, [Traceback at line 1917](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1917)<br />1917..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -719,7 +719,7 @@
 
 
 
-### Error 52, [Traceback at line 1943](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1943)<br />1943..Traceback (most recent call last):
+### Error 52, [Traceback at line 1945](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1945)<br />1945..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -730,7 +730,7 @@
 
 
 
-### Error 53, [Traceback at line 1967](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1967)<br />1967..Traceback (most recent call last):
+### Error 53, [Traceback at line 1969](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1969)<br />1969..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -741,7 +741,7 @@
 
 
 
-### Error 54, [Traceback at line 1996](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1996)<br />1996..Traceback (most recent call last):
+### Error 54, [Traceback at line 1998](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L1998)<br />1998..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -760,7 +760,7 @@
 
 
 
-### Error 55, [Traceback at line 2023](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2023)<br />2023..Traceback (most recent call last):
+### Error 55, [Traceback at line 2025](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2025)<br />2025..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -775,7 +775,7 @@
 
 
 
-### Error 56, [Traceback at line 2056](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2056)<br />2056..Traceback (most recent call last):
+### Error 56, [Traceback at line 2058](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2058)<br />2058..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -794,7 +794,7 @@
 
 
 
-### Error 57, [Traceback at line 2083](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2083)<br />2083..Traceback (most recent call last):
+### Error 57, [Traceback at line 2085](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2085)<br />2085..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -809,7 +809,7 @@
 
 
 
-### Error 58, [Traceback at line 2116](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2116)<br />2116..Traceback (most recent call last):
+### Error 58, [Traceback at line 2118](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2118)<br />2118..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -828,7 +828,7 @@
 
 
 
-### Error 59, [Traceback at line 2143](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2143)<br />2143..Traceback (most recent call last):
+### Error 59, [Traceback at line 2145](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2145)<br />2145..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -843,7 +843,7 @@
 
 
 
-### Error 60, [Traceback at line 2176](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2176)<br />2176..Traceback (most recent call last):
+### Error 60, [Traceback at line 2178](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2178)<br />2178..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -862,7 +862,7 @@
 
 
 
-### Error 61, [Traceback at line 2203](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2203)<br />2203..Traceback (most recent call last):
+### Error 61, [Traceback at line 2205](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2205)<br />2205..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -877,7 +877,7 @@
 
 
 
-### Error 62, [Traceback at line 2236](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2236)<br />2236..Traceback (most recent call last):
+### Error 62, [Traceback at line 2238](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2238)<br />2238..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -896,7 +896,7 @@
 
 
 
-### Error 63, [Traceback at line 2263](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2263)<br />2263..Traceback (most recent call last):
+### Error 63, [Traceback at line 2265](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2265)<br />2265..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -911,7 +911,7 @@
 
 
 
-### Error 64, [Traceback at line 2296](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2296)<br />2296..Traceback (most recent call last):
+### Error 64, [Traceback at line 2298](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2298)<br />2298..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -930,7 +930,7 @@
 
 
 
-### Error 65, [Traceback at line 2323](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2323)<br />2323..Traceback (most recent call last):
+### Error 65, [Traceback at line 2325](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2325)<br />2325..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -945,7 +945,7 @@
 
 
 
-### Error 66, [Traceback at line 2356](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2356)<br />2356..Traceback (most recent call last):
+### Error 66, [Traceback at line 2358](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2358)<br />2358..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -964,7 +964,7 @@
 
 
 
-### Error 67, [Traceback at line 2383](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2383)<br />2383..Traceback (most recent call last):
+### Error 67, [Traceback at line 2385](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2385)<br />2385..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -979,7 +979,7 @@
 
 
 
-### Error 68, [Traceback at line 2416](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2416)<br />2416..Traceback (most recent call last):
+### Error 68, [Traceback at line 2418](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2418)<br />2418..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -998,7 +998,7 @@
 
 
 
-### Error 69, [Traceback at line 2443](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2443)<br />2443..Traceback (most recent call last):
+### Error 69, [Traceback at line 2445](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2445)<br />2445..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1013,7 +1013,7 @@
 
 
 
-### Error 70, [Traceback at line 2476](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2476)<br />2476..Traceback (most recent call last):
+### Error 70, [Traceback at line 2478](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2478)<br />2478..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1032,7 +1032,7 @@
 
 
 
-### Error 71, [Traceback at line 2503](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2503)<br />2503..Traceback (most recent call last):
+### Error 71, [Traceback at line 2505](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2505)<br />2505..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1047,7 +1047,7 @@
 
 
 
-### Error 72, [Traceback at line 2536](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2536)<br />2536..Traceback (most recent call last):
+### Error 72, [Traceback at line 2538](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2538)<br />2538..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1066,7 +1066,7 @@
 
 
 
-### Error 73, [Traceback at line 2563](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2563)<br />2563..Traceback (most recent call last):
+### Error 73, [Traceback at line 2565](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2565)<br />2565..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1081,7 +1081,7 @@
 
 
 
-### Error 74, [Traceback at line 2596](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2596)<br />2596..Traceback (most recent call last):
+### Error 74, [Traceback at line 2598](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2598)<br />2598..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1100,7 +1100,7 @@
 
 
 
-### Error 75, [Traceback at line 2623](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2623)<br />2623..Traceback (most recent call last):
+### Error 75, [Traceback at line 2625](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2625)<br />2625..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1115,7 +1115,7 @@
 
 
 
-### Error 76, [Traceback at line 2656](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2656)<br />2656..Traceback (most recent call last):
+### Error 76, [Traceback at line 2658](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2658)<br />2658..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1134,7 +1134,7 @@
 
 
 
-### Error 77, [Traceback at line 2683](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2683)<br />2683..Traceback (most recent call last):
+### Error 77, [Traceback at line 2685](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2685)<br />2685..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1149,7 +1149,7 @@
 
 
 
-### Error 78, [Traceback at line 2716](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2716)<br />2716..Traceback (most recent call last):
+### Error 78, [Traceback at line 2718](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2718)<br />2718..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1168,7 +1168,7 @@
 
 
 
-### Error 79, [Traceback at line 2743](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2743)<br />2743..Traceback (most recent call last):
+### Error 79, [Traceback at line 2745](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2745)<br />2745..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1183,7 +1183,7 @@
 
 
 
-### Error 80, [Traceback at line 2776](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2776)<br />2776..Traceback (most recent call last):
+### Error 80, [Traceback at line 2778](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2778)<br />2778..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1202,7 +1202,7 @@
 
 
 
-### Error 81, [Traceback at line 2803](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2803)<br />2803..Traceback (most recent call last):
+### Error 81, [Traceback at line 2805](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2805)<br />2805..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1217,7 +1217,7 @@
 
 
 
-### Error 82, [Traceback at line 2836](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2836)<br />2836..Traceback (most recent call last):
+### Error 82, [Traceback at line 2838](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2838)<br />2838..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1236,7 +1236,7 @@
 
 
 
-### Error 83, [Traceback at line 2863](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2863)<br />2863..Traceback (most recent call last):
+### Error 83, [Traceback at line 2865](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2865)<br />2865..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1251,7 +1251,7 @@
 
 
 
-### Error 84, [Traceback at line 2896](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2896)<br />2896..Traceback (most recent call last):
+### Error 84, [Traceback at line 2898](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2898)<br />2898..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1270,7 +1270,7 @@
 
 
 
-### Error 85, [Traceback at line 2923](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2923)<br />2923..Traceback (most recent call last):
+### Error 85, [Traceback at line 2925](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2925)<br />2925..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1285,7 +1285,7 @@
 
 
 
-### Error 86, [Traceback at line 2956](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2956)<br />2956..Traceback (most recent call last):
+### Error 86, [Traceback at line 2958](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2958)<br />2958..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1304,7 +1304,7 @@
 
 
 
-### Error 87, [Traceback at line 2983](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2983)<br />2983..Traceback (most recent call last):
+### Error 87, [Traceback at line 2985](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L2985)<br />2985..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1319,7 +1319,7 @@
 
 
 
-### Error 88, [Traceback at line 3016](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3016)<br />3016..Traceback (most recent call last):
+### Error 88, [Traceback at line 3018](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3018)<br />3018..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1338,7 +1338,7 @@
 
 
 
-### Error 89, [Traceback at line 3043](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3043)<br />3043..Traceback (most recent call last):
+### Error 89, [Traceback at line 3045](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3045)<br />3045..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1353,7 +1353,7 @@
 
 
 
-### Error 90, [Traceback at line 3076](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3076)<br />3076..Traceback (most recent call last):
+### Error 90, [Traceback at line 3078](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3078)<br />3078..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1372,7 +1372,7 @@
 
 
 
-### Error 91, [Traceback at line 3103](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3103)<br />3103..Traceback (most recent call last):
+### Error 91, [Traceback at line 3105](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3105)<br />3105..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1387,7 +1387,7 @@
 
 
 
-### Error 92, [Traceback at line 3136](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3136)<br />3136..Traceback (most recent call last):
+### Error 92, [Traceback at line 3138](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3138)<br />3138..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1406,7 +1406,7 @@
 
 
 
-### Error 93, [Traceback at line 3163](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3163)<br />3163..Traceback (most recent call last):
+### Error 93, [Traceback at line 3165](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3165)<br />3165..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1421,7 +1421,7 @@
 
 
 
-### Error 94, [Traceback at line 3196](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3196)<br />3196..Traceback (most recent call last):
+### Error 94, [Traceback at line 3198](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3198)<br />3198..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1440,7 +1440,7 @@
 
 
 
-### Error 95, [Traceback at line 3223](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3223)<br />3223..Traceback (most recent call last):
+### Error 95, [Traceback at line 3225](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3225)<br />3225..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1455,7 +1455,7 @@
 
 
 
-### Error 96, [Traceback at line 3256](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3256)<br />3256..Traceback (most recent call last):
+### Error 96, [Traceback at line 3258](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3258)<br />3258..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1474,7 +1474,7 @@
 
 
 
-### Error 97, [Traceback at line 3283](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3283)<br />3283..Traceback (most recent call last):
+### Error 97, [Traceback at line 3285](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3285)<br />3285..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1489,7 +1489,7 @@
 
 
 
-### Error 98, [Traceback at line 3316](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3316)<br />3316..Traceback (most recent call last):
+### Error 98, [Traceback at line 3318](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3318)<br />3318..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1508,7 +1508,7 @@
 
 
 
-### Error 99, [Traceback at line 3343](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3343)<br />3343..Traceback (most recent call last):
+### Error 99, [Traceback at line 3345](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3345)<br />3345..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1523,7 +1523,7 @@
 
 
 
-### Error 100, [Traceback at line 3376](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3376)<br />3376..Traceback (most recent call last):
+### Error 100, [Traceback at line 3378](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3378)<br />3378..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1542,7 +1542,7 @@
 
 
 
-### Error 101, [Traceback at line 3403](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3403)<br />3403..Traceback (most recent call last):
+### Error 101, [Traceback at line 3405](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3405)<br />3405..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1557,7 +1557,7 @@
 
 
 
-### Error 102, [Traceback at line 3436](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3436)<br />3436..Traceback (most recent call last):
+### Error 102, [Traceback at line 3438](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3438)<br />3438..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1576,7 +1576,7 @@
 
 
 
-### Error 103, [Traceback at line 3463](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3463)<br />3463..Traceback (most recent call last):
+### Error 103, [Traceback at line 3465](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3465)<br />3465..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1591,7 +1591,7 @@
 
 
 
-### Error 104, [Traceback at line 3496](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3496)<br />3496..Traceback (most recent call last):
+### Error 104, [Traceback at line 3498](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3498)<br />3498..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
@@ -1610,7 +1610,7 @@
 
 
 
-### Error 105, [Traceback at line 3523](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3523)<br />3523..Traceback (most recent call last):
+### Error 105, [Traceback at line 3525](https://github.com/arita37/mlmodels_store/blob/master/log_json/log_json.py#L3525)<br />3525..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
 <br />  File "https://github.com/arita37/mlmodels/tree/458b0439a169873cbce08726558e091efacd7d2f/mlmodels/models.py", line 530, in main
