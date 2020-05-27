@@ -7313,3 +7313,37 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 64582b1] ml_store  && git pull --all
+ 1 file changed, 299 insertions(+)
+To github.com:arita37/mlmodels_store.git
+ + cf4cd43...64582b1 master -> master (forced update)
+
+
+
+
+
+ ************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//fb_prophet.py 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//fb_prophet.py", line 160, in <module>
+    test(data_path = "model_fb/fbprophet.json", choice="json" )
+TypeError: test() got an unexpected keyword argument 'choice'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git add --all &&  git commit -m "ml_store  && git pull --all"  ;            git push --all -f ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
