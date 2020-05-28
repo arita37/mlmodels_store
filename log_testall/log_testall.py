@@ -109,3 +109,49 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master aa918a4] ml_store
+ 1 file changed, 43 insertions(+)
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+To github.com:arita37/mlmodels_store.git
+   270e28b..aa918a4  master -> master
+
+
+
+
+
+ ********************************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py 
+
+  #### Module init   ############################################ 
+
+  <module 'mlmodels.model_keras.namentity_crm_bilstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/namentity_crm_bilstm.py'> 
+
+  #### Loading params   ############################################## 
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py", line 306, in <module>
+    test_module(model_uri=MODEL_URI, param_pars=param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 257, in test_module
+    model_pars, data_pars, compute_pars, out_pars = module.get_params(param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/namentity_crm_bilstm.py", line 197, in get_params
+    cf = json.load(open(data_path, mode="r"))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/namentity_crm_bilstm_dataloader.json'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git add --all &&  git commit -m "ml_store"    ;            git push --all -f ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
