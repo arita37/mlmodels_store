@@ -36,7 +36,6 @@ dill==0.3.1.1
 distributed==2.6.0
 docker==4.2.0
 docutils==0.15.2
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
 entrypoints==0.3
 ephem==3.7.7.1
 fbprophet==0.6
@@ -65,6 +64,8 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 jmespath==0.10.0
 joblib==0.15.1
+json-spec==0.10.1
+jsoncomment==0.4.2
 Keras==2.3.1
 Keras-Applications==1.0.8
 keras-contrib @ git+https://www.github.com/keras-team/keras-contrib.git@3fc5ef709e061416f4bc8a92ca3750c824b5d2b0
@@ -80,20 +81,20 @@ MarkupSafe==1.1.1
 matchzoo-py==1.1.1
 matplotlib==3.2.1
 mlflow==1.7.1
--e git+https://github.com/arita37/mlmodels@82ca0cabe4779c98bad687c53f6357fc6efdf783#egg=mlmodels
+-e git+https://github.com/arita37/mlmodels@e9df857626232560e353f5ca1cb2bed825e75c47#egg=mlmodels
 msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
 networkx==2.4
 nltk==3.5
 numexpr==2.7.1
-numpy==1.18.4
+numpy==1.18.2
 opt-einsum==3.2.1
 optuna==1.1.0
 pandas==0.25.3
 paramiko==2.7.1
 pbr==5.4.5
-Pillow==6.2.2
+Pillow==6.2.1
 plac==1.1.3
 plotly==4.8.0
 portalocker==1.7.0
