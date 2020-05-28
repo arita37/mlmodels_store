@@ -66,3 +66,46 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master 270e28b] ml_store
+ 2 files changed, 79 insertions(+), 10827 deletions(-)
+ rewrite log_testall/log_testall.py (99%)
+Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
+To github.com:arita37/mlmodels_store.git
+ + e200f0e...270e28b master -> master (forced update)
+
+
+
+
+
+ ********************************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py 
+
+  #### Loading params   ############################################## 
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 373, in <module>
+    test(pars_choice="json", data_path= f"dataset/json/refactor/charcnn.json")
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 330, in test
+    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn.py", line 266, in get_params
+    cf = json.load(open(data_path, mode='r'))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/charcnn.json'
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git add --all &&  git commit -m "ml_store"    ;            git push --all -f ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
