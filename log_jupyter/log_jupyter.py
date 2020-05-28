@@ -1,5 +1,5 @@
 
-  test_jupyter /home/runner/work/mlmodels/mlmodels/mlmodels/config/test_config.json Namespace(config_file='/home/runner/work/mlmodels/mlmodels/mlmodels/config/test_config.json', config_mode='test', do='test_jupyter', folder=None, log_file=None, save_folder='ztest/') 
+  test_jupyter /home/runner/work/mlmodels/mlmodels/mlmodels/config/test_config.json Namespace(config_file='/home/runner/work/mlmodels/mlmodels/mlmodels/config/test_config.json', config_mode='test', do='test_jupyter', folder=None, log_file=None, name='ml_store', save_folder='ztest/') 
 
   ml_test --do test_jupyter 
 
@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/79424dba8abb9ba0b6899a10ab094e66f61d4dcf', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '79424dba8abb9ba0b6899a10ab094e66f61d4dcf', 'workflow': 'test_jupyter'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '097d79840b302a3e2f9efdf341ce6b4d32d7a46c', 'workflow': 'test_jupyter'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_jupyter
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/79424dba8abb9ba0b6899a10ab094e66f61d4dcf
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/79424dba8abb9ba0b6899a10ab094e66f61d4dcf
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/097d79840b302a3e2f9efdf341ce6b4d32d7a46c
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/79424dba8abb9ba0b6899a10ab094e66f61d4dcf
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c
 
  ************************************************************************************************************************
 /home/runner/work/mlmodels/mlmodels/mlmodels/example/
@@ -76,7 +76,7 @@ NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.mode
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm.ipynb to script
-[NbConvertApp] Writing 1191 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm.py
+[NbConvertApp] Writing 1238 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
@@ -165,7 +165,7 @@ No replacement
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//fashion_MNIST_mlmodels.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//fashion_MNIST_mlmodels.ipynb to script
-[NbConvertApp] Writing 1882 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/fashion_MNIST_mlmodels.txt
+[NbConvertApp] Writing 1929 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/fashion_MNIST_mlmodels.txt
 python: can't open file '/home/runner/work/mlmodels/mlmodels/mlmodels/example//fashion_MNIST_mlmodels.py': [Errno 2] No such file or directory
 No replacement
 
@@ -177,7 +177,7 @@ No replacement
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_home_retail.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.ipynb to script
-[NbConvertApp] Writing 1357 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_home_retail.py
+[NbConvertApp] Writing 1404 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_home_retail.py
 Deprecaton set to False
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.py", line 21, in <module>
@@ -192,7 +192,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'hyper_lightgbm_home_ret
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//keras_charcnn_reuters.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.ipynb to script
-[NbConvertApp] Writing 1067 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/keras_charcnn_reuters.py
+[NbConvertApp] Writing 1114 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/keras_charcnn_reuters.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.py", line 28, in <module>
     pars = json.load(open( config_path , mode='r'))[config_mode]
@@ -231,7 +231,7 @@ Generated Features:
 All Features:
 	int features: 6
 	object features: 8
-	Data preprocessing and feature engineering runtime = 0.24s ...
+	Data preprocessing and feature engineering runtime = 0.25s ...
 AutoGluon will gauge predictive performance using evaluation metric: accuracy
 To change this, specify the eval_metric argument of fit()
 AutoGluon will early stop models using evaluation metric: accuracy
@@ -338,44 +338,19 @@ Num of Finished Tasks is 0
 Num of Pending Tasks is 5
   0%|          | 0/5 [00:00<?, ?it/s]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
 Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 Saving dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06} and reward: 0.3862
 Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3862
 Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3862
- 40%|████      | 2/5 [00:55<01:23, 27.88s/it] 40%|████      | 2/5 [00:55<01:23, 27.88s/it]
+ 40%|████      | 2/5 [00:53<01:19, 26.62s/it]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
+Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
+Saving dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
+Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.41847242620408376, 'embedding_size_factor': 1.3411268266611267, 'layers.choice': 0, 'learning_rate': 0.00981531216799229, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 5.436689718478115e-10} and reward: 0.3818
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xda\xc8@\x924\xc1\x8cX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf5uAgD\xc3\xcaX\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?\x84\x1a\x0c\xe6\x17\xab\x96X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\x02\xae)\xb0\x83\xf2ru.' and reward: 0.3818
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xda\xc8@\x924\xc1\x8cX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf5uAgD\xc3\xcaX\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?\x84\x1a\x0c\xe6\x17\xab\x96X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\x02\xae)\xb0\x83\xf2ru.' and reward: 0.3818
+ 60%|██████    | 3/5 [01:47<01:10, 35.01s/it] 60%|██████    | 3/5 [01:47<01:11, 35.94s/it]
 Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
 Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
@@ -403,35 +378,38 @@ distributed.utils_perf - WARNING - full garbage collections took 10% CPU time re
 distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-Saving dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.16725612701358175, 'embedding_size_factor': 1.2980144393347095, 'layers.choice': 3, 'learning_rate': 0.00313457753441713, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1.5861227786249428e-07} and reward: 0.3888
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xc5h\xa6\x15\xca\x1b9X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf4\xc4\xaa\xc9\xea\xda\x89X\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?i\xad\xaf\x7f\xe89\xd4X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\x85I\xe0Y\xbd,Pu.' and reward: 0.3888
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xc5h\xa6\x15\xca\x1b9X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf4\xc4\xaa\xc9\xea\xda\x89X\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?i\xad\xaf\x7f\xe89\xd4X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\x85I\xe0Y\xbd,Pu.' and reward: 0.3888
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+Saving dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
+Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.05736420865359117, 'embedding_size_factor': 1.3645174815883454, 'layers.choice': 1, 'learning_rate': 0.00430179091691675, 'network_type.choice': 1, 'use_batchnorm.choice': 1, 'weight_decay': 1.731846993068771e-12} and reward: 0.391
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xad^\xd7pA\x95\x92X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf5\xd5\x10Hc\xe0(X\r\x00\x00\x00layers.choiceq\x04K\x01X\r\x00\x00\x00learning_rateq\x05G?q\x9e\xc14\xd6\x94\x0fX\x13\x00\x00\x00network_type.choiceq\x06K\x01X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G=~w\x8b\xa4\x18l\xb8u.' and reward: 0.391
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xad^\xd7pA\x95\x92X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf5\xd5\x10Hc\xe0(X\r\x00\x00\x00layers.choiceq\x04K\x01X\r\x00\x00\x00learning_rateq\x05G?q\x9e\xc14\xd6\x94\x0fX\x13\x00\x00\x00network_type.choiceq\x06K\x01X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G=~w\x8b\xa4\x18l\xb8u.' and reward: 0.391
 Please either provide filename or allow plot in get_training_curves
-Time for Neural Network hyperparameter optimization: 113.2583475112915
+Time for Neural Network hyperparameter optimization: 179.1683795452118
 Best hyperparameter configuration for Tabular Neural Network: 
-{'activation.choice': 0, 'dropout_prob': 0.16725612701358175, 'embedding_size_factor': 1.2980144393347095, 'layers.choice': 3, 'learning_rate': 0.00313457753441713, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1.5861227786249428e-07}
+{'activation.choice': 0, 'dropout_prob': 0.05736420865359117, 'embedding_size_factor': 1.3645174815883454, 'layers.choice': 1, 'learning_rate': 0.00430179091691675, 'network_type.choice': 1, 'use_batchnorm.choice': 1, 'weight_decay': 1.731846993068771e-12}
 Saving dataset/models/trainer.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.76s of the 4.87s of remaining time.
-Ensemble size: 19
+Loading: dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
+Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.75s of the -61.86s of remaining time.
+Ensemble size: 10
 Ensemble weights: 
-[0.36842105 0.63157895]
-	0.392	 = Validation accuracy score
-	0.93s	 = Training runtime
+[0.9 0.  0.1]
+	0.3912	 = Validation accuracy score
+	1.1s	 = Training runtime
 	0.0s	 = Validation runtime
 Saving dataset/models/weighted_ensemble_k0_l1/model.pkl
 Saving dataset/models/trainer.pkl
 Saving dataset/models/trainer.pkl
 Saving dataset/models/trainer.pkl
-AutoGluon training complete, total runtime = 116.1s ...
+AutoGluon training complete, total runtime = 183.0s ...
 Loading: dataset/models/trainer.pkl
 Loaded data from: https://autogluon.s3.amazonaws.com/datasets/Inc/test.csv | Columns = 15 / 15 | Rows = 9769 -> 9769
 Loading: dataset/models/trainer.pkl
 Loading: dataset/models/weighted_ensemble_k0_l1/model.pkl
+Loading: dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 
 
 
@@ -441,7 +419,7 @@ Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vison_fashion_MNIST.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//vison_fashion_MNIST.ipynb to script
-[NbConvertApp] Writing 1882 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/vison_fashion_MNIST.txt
+[NbConvertApp] Writing 1929 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/vison_fashion_MNIST.txt
 python: can't open file '/home/runner/work/mlmodels/mlmodels/mlmodels/example//vison_fashion_MNIST.py': [Errno 2] No such file or directory
 No replacement
 
@@ -505,7 +483,7 @@ non-resource variables are not supported in the long term
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vision_mnist.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//vision_mnist.ipynb to script
-[NbConvertApp] Writing 7241 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/vision_mnist.txt
+[NbConvertApp] Writing 7429 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/vision_mnist.txt
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//vision_mnist.py", line 15
     !git clone https://github.com/ahmed3bbas/mlmodels.git
     ^
@@ -519,7 +497,7 @@ SyntaxError: invalid syntax
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.ipynb to script
-[NbConvertApp] Writing 1566 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_glass.py
+[NbConvertApp] Writing 1613 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_glass.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.py", line 16, in <module>
     print( os.getcwd())
@@ -586,7 +564,7 @@ KeyError: 'data_info'
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb to script
-[NbConvertApp] Writing 1800 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn_titanic_randomForest_example2.py
+[NbConvertApp] Writing 1847 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn_titanic_randomForest_example2.py
 Deprecaton set to False
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest_example2.py", line 22, in <module>
@@ -601,7 +579,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '../mlmodels/dataset/jso
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//mnist_mlmodels_.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//mnist_mlmodels_.ipynb to script
-[NbConvertApp] Writing 7241 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/mnist_mlmodels_.txt
+[NbConvertApp] Writing 7429 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/mnist_mlmodels_.txt
 python: can't open file '/home/runner/work/mlmodels/mlmodels/mlmodels/example//mnist_mlmodels_.py': [Errno 2] No such file or directory
 No replacement
 
@@ -631,7 +609,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '../mlmodels/dataset/jso
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//tensorflow__lstm_json.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.ipynb to script
-[NbConvertApp] Writing 1379 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/tensorflow__lstm_json.py
+[NbConvertApp] Writing 1426 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/tensorflow__lstm_json.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.py", line 13, in <module>
     print( os.getcwd())
@@ -680,7 +658,7 @@ NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.mode
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_titanic.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.ipynb to script
-[NbConvertApp] Writing 1355 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_titanic.py
+[NbConvertApp] Writing 1402 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_titanic.py
 Deprecaton set to False
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.py", line 21, in <module>
@@ -715,9 +693,9 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeser
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_hyper.py 
 
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//arun_hyper.py", line 5, in <module>
-    print(mlmodels)
-NameError: name 'mlmodels' is not defined
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//arun_hyper.py", line 2, in <module>
+    from jsoncomment import JsonComment ; json = JsonComment(), copy
+NameError: name 'copy' is not defined
 
 
 
