@@ -583,3 +583,501 @@ log_pullrequest
 log_test_cli
 log_testall
 test_jupyter
+[master e432985] ml_store
+ 1 file changed, 34 insertions(+)
+To github.com:arita37/mlmodels_store.git
+   d23c824..e432985  master -> master
+
+
+
+
+
+ ********************************************************************************************************************************************
+
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon//gluonts_model_old.py 
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:root:Using CPU
+
+  #### Loading params   ############################################## 
+
+  model_gluon.gluonts_model_old 
+{'model_name': 'deepar', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'num_layers': 2, 'num_cells': 40, 'cell_type': 'lstm', 'dropout_rate': 0.1, 'use_feat_dynamic_real': False, 'use_feat_static_cat': False, 'use_feat_static_real': False, 'scaling': True, 'num_parallel_samples': 100}} {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}} {'path': 'ztest/model_gluon/gluonts_deepar/', 'plot_prob': True, 'quantiles': [0.5]}
+
+  #### Loading dataset   ############################################# 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### Model init, fit   ############################################# 
+INFO:root:Using CPU
+INFO:root:Start model training
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]INFO:numexpr.utils:NumExpr defaulting to 2 threads.
+INFO:root:Number of parameters in DeepARTrainingNetwork: 26844
+100%|██████████| 10/10 [00:02<00:00,  3.99it/s, avg_epoch_loss=5.24]
+INFO:root:Epoch[0] Elapsed time 2.512 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.238314
+INFO:root:Loading parameters from best epoch (0)
+INFO:root:Final loss: 5.238313961029053 (occurred at epoch 0)
+INFO:root:End model training
+<module 'mlmodels.model_gluon.gluonts_model_old' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py'> <mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa915d7d3c8>
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
+<mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa915d7d3c8>
+
+  #### Save the trained model  ###################################### 
+WARNING:root:Serializing RepresentableBlockPredictor instances does not save the prediction network structure in a backwards-compatible manner. Be careful not to use this method in production.
+
+  ['version.json', 'glutonts_model_pars.pkl', 'prediction_net-network.json', 'prediction_net-0000.params', 'parameters.json', 'type.txt', 'input_transform.json'] 
+
+  #### Load the trained model  ###################################### 
+INFO:root:Using CPU
+INFO:root:Using CPU
+
+  #### Predict   #################################################### 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### metrics   #################################################### 
+Running evaluation:   0%|          | 0/1 [00:00<?, ?it/s]WARNING:root:multiple 5 does not divide base seasonality 1.Falling back to seasonality 1
+Running evaluation: 100%|██████████| 1/1 [00:00<00:00, 118.99it/s][array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+{
+    "MSE": 1038.6539713541667,
+    "abs_error": 365.51055908203125,
+    "abs_target_sum": 570.0,
+    "abs_target_mean": 47.5,
+    "seasonal_error": 12.576813222830921,
+    "MASE": 2.4218546238360896,
+    "sMAPE": 0.5080789476648787,
+    "MSIS": 96.87417524746239,
+    "QuantileLoss[0.5]": 365.51051330566406,
+    "Coverage[0.5]": 1.0,
+    "RMSE": 32.22815494802901,
+    "NRMSE": 0.6784874725900844,
+    "ND": 0.6412465948807565,
+    "wQuantileLoss[0.5]": 0.6412465145713404,
+    "mean_wQuantileLoss": 0.6412465145713404,
+    "MAE_Coverage": 0.5
+}
+
+  #### Plot   ####################################################### 
+
+  #### Loading params   ############################################## 
+
+  model_gluon.gluonts_model_old 
+{'model_name': 'deepfactor', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'num_hidden_global': 50, 'num_layers_global': 1, 'num_factors': 10, 'num_hidden_local': 5, 'num_layers_local': 1, 'cell_type': 'lstm', 'num_parallel_samples': 100, 'embedding_dimension': 10}, '_comment': {'distr_output': 'StudentTOutput()', 'cardinality': 'List[int] = list([1])', 'context_length': 'None'}} {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}} {'path': 'ztest/model_gluon/gluonts_deepfactor/', 'plot_prob': True, 'quantiles': [0.5]}
+
+  #### Loading dataset   ############################################# 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### Model init, fit   ############################################# 
+
+INFO:root:Using CPU
+INFO:root:Start model training
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in DeepFactorTrainingNetwork: 12466
+100%|██████████| 10/10 [00:01<00:00,  8.01it/s, avg_epoch_loss=2.71e+3]
+INFO:root:Epoch[0] Elapsed time 1.249 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=2713.411247
+INFO:root:Loading parameters from best epoch (0)
+INFO:root:Final loss: 2713.4112467447917 (occurred at epoch 0)
+INFO:root:End model training
+<module 'mlmodels.model_gluon.gluonts_model_old' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py'> <mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa9194c3208>
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
+<mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa9194c3208>
+
+  #### Save the trained model  ###################################### 
+WARNING:root:Serializing RepresentableBlockPredictor instances does not save the prediction network structure in a backwards-compatible manner. Be careful not to use this method in production.
+
+  ['version.json', 'glutonts_model_pars.pkl', 'prediction_net-network.json', 'prediction_net-0000.params', 'parameters.json', 'type.txt', 'input_transform.json'] 
+
+  #### Load the trained model  ###################################### 
+INFO:root:Using CPU
+INFO:root:Using CPU
+
+  #### Predict   #################################################### 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### metrics   #################################################### 
+Running evaluation:   0%|          | 0/1 [00:00<?, ?it/s]Running evaluation: 100%|██████████| 1/1 [00:00<00:00, 112.37it/s][array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+{
+    "MSE": 2262.8567708333335,
+    "abs_error": 552.1011962890625,
+    "abs_target_sum": 570.0,
+    "abs_target_mean": 47.5,
+    "seasonal_error": 12.576813222830921,
+    "MASE": 3.6581948231980244,
+    "sMAPE": 1.8700508550675963,
+    "MSIS": 146.3277993985751,
+    "QuantileLoss[0.5]": 552.1012096405029,
+    "Coverage[0.5]": 0.0,
+    "RMSE": 47.5694941200065,
+    "NRMSE": 1.0014630341054,
+    "ND": 0.9685985899808114,
+    "wQuantileLoss[0.5]": 0.9685986134043911,
+    "mean_wQuantileLoss": 0.9685986134043911,
+    "MAE_Coverage": 0.5
+}
+
+  #### Plot   ####################################################### 
+
+  #### Loading params   ############################################## 
+
+  model_gluon.gluonts_model_old 
+{'model_name': 'transformer', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'embedding_dimension': 20, 'dropout_rate': 0.1, 'model_dim': 32, 'inner_ff_dim_scale': 4, 'pre_seq': 'dn', 'post_seq': 'drn', 'act_type': 'softrelu', 'num_heads': 8, 'scaling': True, 'use_feat_dynamic_real': False, 'use_feat_static_cat': False}, '_comment': {'cardinality': 'List[int] = list([1])', 'context_length': 'None', 'distr_output': 'DistributionOutput = StudentTOutput()', 'lags_seq': 'Optional[List[int]] = None', 'time_features': 'Optional[List[TimeFeature]] = None'}} {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}} {'path': 'ztest/model_gluon/gluonts_transformer/', 'plot_prob': True, 'quantiles': [0.5]}
+
+  #### Loading dataset   ############################################# 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### Model init, fit   ############################################# 
+
+INFO:root:Using CPU
+INFO:root:Start model training
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in TransformerTrainingNetwork: 33911
+100%|██████████| 10/10 [00:01<00:00,  5.57it/s, avg_epoch_loss=5.23]
+INFO:root:Epoch[0] Elapsed time 1.796 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.231945
+INFO:root:Loading parameters from best epoch (0)
+INFO:root:Final loss: 5.23194522857666 (occurred at epoch 0)
+INFO:root:End model training
+<module 'mlmodels.model_gluon.gluonts_model_old' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py'> <mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8e9787b38>
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
+<mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8e9787b38>
+
+  #### Save the trained model  ###################################### 
+WARNING:root:Serializing RepresentableBlockPredictor instances does not save the prediction network structure in a backwards-compatible manner. Be careful not to use this method in production.
+
+  ['version.json', 'glutonts_model_pars.pkl', 'prediction_net-network.json', 'prediction_net-0000.params', 'parameters.json', 'type.txt', 'input_transform.json'] 
+
+  #### Load the trained model  ###################################### 
+INFO:root:Using CPU
+INFO:root:Using CPU
+
+  #### Predict   #################################################### 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### metrics   #################################################### 
+Running evaluation:   0%|          | 0/1 [00:00<?, ?it/s]Running evaluation: 100%|██████████| 1/1 [00:00<00:00, 165.17it/s][array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+{
+    "MSE": 258.6870524088542,
+    "abs_error": 176.21302795410156,
+    "abs_target_sum": 570.0,
+    "abs_target_mean": 47.5,
+    "seasonal_error": 12.576813222830921,
+    "MASE": 1.1675786811811941,
+    "sMAPE": 0.2917166684774411,
+    "MSIS": 46.70314967374306,
+    "QuantileLoss[0.5]": 176.21304321289062,
+    "Coverage[0.5]": 0.75,
+    "RMSE": 16.08375119208371,
+    "NRMSE": 0.3386052882543939,
+    "ND": 0.3091456630773712,
+    "wQuantileLoss[0.5]": 0.30914568984717655,
+    "mean_wQuantileLoss": 0.30914568984717655,
+    "MAE_Coverage": 0.25
+}
+
+  #### Plot   ####################################################### 
+
+  #### Loading params   ############################################## 
+
+  model_gluon.gluonts_model_old 
+{'model_name': 'wavenet', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'embedding_dimension': 20, 'num_parallel_samples': 100, 'num_bins': 1024, 'hybridize_prediction_net': False, 'n_residue': 24, 'n_skip': 32, 'n_stacks': 1, 'temperature': 1.0, 'act_type': 'elu'}, '_comment': {'cardinality': 'List[int] = [1]', 'context_length': 'None', 'seasonality': 'Optional[int] = None', 'dilation_depth': 'Optional[int] = None', 'train_window_length': 'Optional[int] = None'}} {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}} {'path': 'ztest/model_gluon/gluonts_wavenet/', 'plot_prob': True, 'quantiles': [0.5]}
+
+  #### Loading dataset   ############################################# 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### Model init, fit   ############################################# 
+
+INFO:root:Using CPU
+INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
+INFO:root:using training windows of length = 12
+INFO:root:Start model training
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in WaveNet: 97636
+ 30%|███       | 3/10 [00:12<00:28,  4.09s/it, avg_epoch_loss=6.93] 60%|██████    | 6/10 [00:24<00:16,  4.04s/it, avg_epoch_loss=6.9]  90%|█████████ | 9/10 [00:34<00:03,  3.89s/it, avg_epoch_loss=6.87]100%|██████████| 10/10 [00:38<00:00,  3.81s/it, avg_epoch_loss=6.86]
+INFO:root:Epoch[0] Elapsed time 38.127 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.859157
+INFO:root:Loading parameters from best epoch (0)
+INFO:root:Final loss: 6.859156894683838 (occurred at epoch 0)
+INFO:root:End model training
+<module 'mlmodels.model_gluon.gluonts_model_old' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py'> <mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8e982af28>
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
+<mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8e982af28>
+
+  #### Save the trained model  ###################################### 
+WARNING:root:Serializing RepresentableBlockPredictor instances does not save the prediction network structure in a backwards-compatible manner. Be careful not to use this method in production.
+
+  ['version.json', 'glutonts_model_pars.pkl', 'prediction_net-network.json', 'prediction_net-0000.params', 'parameters.json', 'type.txt', 'input_transform.json'] 
+
+  #### Load the trained model  ###################################### 
+INFO:root:Using CPU
+INFO:root:Using CPU
+INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
+
+  #### Predict   #################################################### 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### metrics   #################################################### 
+Running evaluation:   0%|          | 0/1 [00:00<?, ?it/s]Running evaluation: 100%|██████████| 1/1 [00:00<00:00, 176.40it/s][array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+{
+    "MSE": 52950.885416666664,
+    "abs_error": 2706.546875,
+    "abs_target_sum": 570.0,
+    "abs_target_mean": 47.5,
+    "seasonal_error": 12.576813222830921,
+    "MASE": 17.933443784251292,
+    "sMAPE": 1.410310722906468,
+    "MSIS": 717.3376478395859,
+    "QuantileLoss[0.5]": 2706.5467987060547,
+    "Coverage[0.5]": 1.0,
+    "RMSE": 230.11059388186948,
+    "NRMSE": 4.844433555407779,
+    "ND": 4.748327850877193,
+    "wQuantileLoss[0.5]": 4.748327717028166,
+    "mean_wQuantileLoss": 4.748327717028166,
+    "MAE_Coverage": 0.5
+}
+
+  #### Plot   ####################################################### 
+
+  #### Loading params   ############################################## 
+
+  model_gluon.gluonts_model_old 
+{'model_name': 'feedforward', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'batch_normalization': False, 'mean_scaling': True, 'num_parallel_samples': 100}, '_comment': {'num_hidden_dimensions': 'Optional[List[int]] = None', 'context_length': 'Optional[int] = None', 'distr_output': 'DistributionOutput = StudentTOutput()'}} {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}} {'path': 'ztest/model_gluon/gluonts_feedforward/', 'plot_prob': True, 'quantiles': [0.5]}
+
+  #### Loading dataset   ############################################# 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### Model init, fit   ############################################# 
+
+INFO:root:Using CPU
+INFO:root:Start model training
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in SimpleFeedForwardTrainingNetwork: 20323
+100%|██████████| 10/10 [00:00<00:00, 59.14it/s, avg_epoch_loss=5.16]
+INFO:root:Epoch[0] Elapsed time 0.170 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=5.162183
+INFO:root:Loading parameters from best epoch (0)
+INFO:root:Final loss: 5.1621825218200685 (occurred at epoch 0)
+INFO:root:End model training
+<module 'mlmodels.model_gluon.gluonts_model_old' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py'> <mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8d66ac358>
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
+<mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8d66ac358>
+
+  #### Save the trained model  ###################################### 
+WARNING:root:Serializing RepresentableBlockPredictor instances does not save the prediction network structure in a backwards-compatible manner. Be careful not to use this method in production.
+
+  ['version.json', 'glutonts_model_pars.pkl', 'prediction_net-network.json', 'prediction_net-0000.params', 'parameters.json', 'type.txt', 'input_transform.json'] 
+
+  #### Load the trained model  ###################################### 
+INFO:root:Using CPU
+INFO:root:Using CPU
+
+  #### Predict   #################################################### 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### metrics   #################################################### 
+Running evaluation:   0%|          | 0/1 [00:00<?, ?it/s]Running evaluation: 100%|██████████| 1/1 [00:00<00:00, 184.21it/s][array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+{
+    "MSE": 504.6337076822917,
+    "abs_error": 188.70338439941406,
+    "abs_target_sum": 570.0,
+    "abs_target_mean": 47.5,
+    "seasonal_error": 12.576813222830921,
+    "MASE": 1.250339156244931,
+    "sMAPE": 0.3177862235444781,
+    "MSIS": 50.0135719116196,
+    "QuantileLoss[0.5]": 188.70339965820312,
+    "Coverage[0.5]": 0.6666666666666666,
+    "RMSE": 22.464053678761804,
+    "NRMSE": 0.4729274458686696,
+    "ND": 0.33105856912177906,
+    "wQuantileLoss[0.5]": 0.33105859589158443,
+    "mean_wQuantileLoss": 0.33105859589158443,
+    "MAE_Coverage": 0.16666666666666663
+}
+
+  #### Plot   ####################################################### 
+
+  #### Loading params   ############################################## 
+
+  model_gluon.gluonts_model_old 
+{'model_name': 'gp_forecaster', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'cardinality': 2, 'max_iter_jitter': 10, 'jitter_method': 'iter', 'sample_noise': True, 'num_parallel_samples': 100}, '_comment': {'context_length': 'Optional[int] = None', 'kernel_output': 'KernelOutput = RBFKernelOutput()', 'dtype': 'DType = np.float64', 'time_features': 'Optional[List[TimeFeature]] = None'}} {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}} {'path': 'ztest/model_gluon/gluonts_gpforecaster/', 'plot_prob': True, 'quantiles': [0.5]}
+
+  #### Loading dataset   ############################################# 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### Model init, fit   ############################################# 
+
+INFO:root:Using CPU
+INFO:root:Start model training
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in GaussianProcessTrainingNetwork: 14
+100%|██████████| 10/10 [00:01<00:00,  9.47it/s, avg_epoch_loss=160]
+INFO:root:Epoch[0] Elapsed time 1.057 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=160.137221
+INFO:root:Loading parameters from best epoch (0)
+INFO:root:Final loss: 160.13722096982082 (occurred at epoch 0)
+INFO:root:End model training
+<module 'mlmodels.model_gluon.gluonts_model_old' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py'> <mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8d6782320>
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
+<mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8d6782320>
+
+  #### Save the trained model  ###################################### 
+WARNING:root:Serializing RepresentableBlockPredictor instances does not save the prediction network structure in a backwards-compatible manner. Be careful not to use this method in production.
+
+  ['version.json', 'glutonts_model_pars.pkl', 'prediction_net-network.json', 'prediction_net-0000.params', 'parameters.json', 'type.txt', 'input_transform.json'] 
+
+  #### Load the trained model  ###################################### 
+INFO:root:Using CPU
+INFO:root:Using CPU
+
+  #### Predict   #################################################### 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### metrics   #################################################### 
+Running evaluation:   0%|          | 0/1 [00:00<?, ?it/s]Running evaluation: 100%|██████████| 1/1 [00:00<00:00, 175.05it/s][array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+{
+    "MSE": 721.6386473701223,
+    "abs_error": 263.04314901123786,
+    "abs_target_sum": 570.0,
+    "abs_target_mean": 47.5,
+    "seasonal_error": 12.576813222830921,
+    "MASE": 1.7429107063314655,
+    "sMAPE": 0.5744170818242088,
+    "MSIS": 69.71642825325863,
+    "QuantileLoss[0.5]": 263.04314901123786,
+    "Coverage[0.5]": 0.08333333333333333,
+    "RMSE": 26.86333276736381,
+    "NRMSE": 0.5655438477339749,
+    "ND": 0.4614792087916454,
+    "wQuantileLoss[0.5]": 0.4614792087916454,
+    "mean_wQuantileLoss": 0.4614792087916454,
+    "MAE_Coverage": 0.4166666666666667
+}
+
+  #### Plot   ####################################################### 
+
+  #### Loading params   ############################################## 
+
+  model_gluon.gluonts_model_old 
+{'model_name': 'deepstate', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'cardinality': [1], 'add_trend': False, 'num_periods_to_train': 4, 'num_layers': 2, 'num_cells': 40, 'cell_type': 'lstm', 'num_parallel_samples': 100, 'dropout_rate': 0.1, 'use_feat_dynamic_real': False, 'use_feat_static_cat': False, 'scaling': True}, '_comment': {'past_length': 'Optional[int] = None', 'time_features': 'Optional[List[TimeFeature]] = None', 'noise_std_bounds': 'ParameterBounds = ParameterBounds(1e-6, 1.0)', 'prior_cov_bounds': 'ParameterBounds = ParameterBounds(1e-6, 1.0)', 'innovation_bounds': 'ParameterBounds = ParameterBounds(1e-6, 0.01)', 'embedding_dimension': 'Optional[List[int]] = None', 'issm: Optional[ISSM]': 'None', 'cardinality': 'List[int]'}} {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}} {'path': 'ztest/model_gluon/gluonts_deepstate/', 'plot_prob': True, 'quantiles': [0.5]}
+
+  #### Loading dataset   ############################################# 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### Model init, fit   ############################################# 
+
+INFO:root:Using CPU
+INFO:root:Start model training
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]INFO:root:Number of parameters in DeepStateTrainingNetwork: 28054
+ 10%|█         | 1/10 [02:12<19:51, 132.36s/it, avg_epoch_loss=0.653] 20%|██        | 2/10 [05:21<19:55, 149.46s/it, avg_epoch_loss=0.635] 30%|███       | 3/10 [08:30<18:48, 161.28s/it, avg_epoch_loss=0.618] 40%|████      | 4/10 [11:49<17:15, 172.60s/it, avg_epoch_loss=0.6]   50%|█████     | 5/10 [15:08<15:02, 180.41s/it, avg_epoch_loss=0.582] 60%|██████    | 6/10 [18:24<12:20, 185.12s/it, avg_epoch_loss=0.565] 70%|███████   | 7/10 [22:31<10:11, 203.76s/it, avg_epoch_loss=0.548] 80%|████████  | 8/10 [26:10<06:56, 208.17s/it, avg_epoch_loss=0.531] 90%|█████████ | 9/10 [29:54<03:33, 213.20s/it, avg_epoch_loss=0.516]100%|██████████| 10/10 [33:43<00:00, 217.75s/it, avg_epoch_loss=0.502]100%|██████████| 10/10 [33:43<00:00, 202.34s/it, avg_epoch_loss=0.502]
+INFO:root:Epoch[0] Elapsed time 2023.422 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=0.501657
+INFO:root:Loading parameters from best epoch (0)
+INFO:root:Final loss: 0.5016570329666138 (occurred at epoch 0)
+INFO:root:End model training
+<module 'mlmodels.model_gluon.gluonts_model_old' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py'> <mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8eb2e1908>
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+learning rate from ``lr_scheduler`` has been overwritten by ``learning_rate`` in optimizer.
+<mlmodels.model_gluon.gluonts_model_old.Model object at 0x7fa8eb2e1908>
+
+  #### Save the trained model  ###################################### 
+WARNING:root:Serializing RepresentableBlockPredictor instances does not save the prediction network structure in a backwards-compatible manner. Be careful not to use this method in production.
+
+  ['version.json', 'glutonts_model_pars.pkl', 'prediction_net-network.json', 'prediction_net-0000.params', 'parameters.json', 'type.txt', 'input_transform.json'] 
+
+  #### Load the trained model  ###################################### 
+INFO:root:Using CPU
+INFO:root:Using CPU
+
+  #### Predict   #################################################### 
+[array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+
+  #### metrics   #################################################### 
+Running evaluation:   0%|          | 0/1 [00:00<?, ?it/s]Running evaluation: 100%|██████████| 1/1 [00:00<00:00, 12.19it/s][array([57., 43., 55., ..., 44., 61., 59.])] [Timestamp('2015-02-26 21:42:53', freq='5T')] [] []
+{'target': array([57., 43., 55., ..., 44., 61., 59.]), 'start': Timestamp('2015-02-26 21:42:53', freq='5T')}
+{
+    "MSE": 143.64437866210938,
+    "abs_error": 113.09156799316406,
+    "abs_target_sum": 570.0,
+    "abs_target_mean": 47.5,
+    "seasonal_error": 12.576813222830921,
+    "MASE": 0.7493390547977266,
+    "sMAPE": 0.20097564209453803,
+    "MSIS": 29.97356785373142,
+    "QuantileLoss[0.5]": 113.0915756225586,
+    "Coverage[0.5]": 0.4166666666666667,
+    "RMSE": 11.985173284609171,
+    "NRMSE": 0.2523194375707194,
+    "ND": 0.19840625963712993,
+    "wQuantileLoss[0.5]": 0.19840627302203262,
+    "mean_wQuantileLoss": 0.19840627302203262,
+    "MAE_Coverage": 0.08333333333333331
+}
+
+  #### Plot   ####################################################### 
+
+
+   cd /home/runner/work/mlmodels/mlmodels_store/ ;            pip3 freeze > deps.txt ;            ls ;            git config --local user.email "noelkev0@gmail.com" && git config --local user.name "arita37"         ;            git add --all &&  git commit -m "ml_store"    ;            git push --all -f ;            cd /home/runner/work/mlmodels/mlmodels/ ;         
+Logs
+README.md
+README_actions.md
+create_error_file.py
+create_github_issues.py
+deps.txt
+error_list
+log_benchmark
+log_dataloader
+log_import
+log_json
+log_jupyter
+log_pullrequest
+log_test_cli
+log_testall
+test_jupyter
