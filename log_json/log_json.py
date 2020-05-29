@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/f99d563c757626e8c9e87b4375b62b1f0138fa5f', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'f99d563c757626e8c9e87b4375b62b1f0138fa5f', 'workflow': 'test_json'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/64484851bea8f94cdaa6013748aa63d15238f3b7', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '64484851bea8f94cdaa6013748aa63d15238f3b7', 'workflow': 'test_json'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_json
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/f99d563c757626e8c9e87b4375b62b1f0138fa5f
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/64484851bea8f94cdaa6013748aa63d15238f3b7
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/f99d563c757626e8c9e87b4375b62b1f0138fa5f
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/64484851bea8f94cdaa6013748aa63d15238f3b7
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/f99d563c757626e8c9e87b4375b62b1f0138fa5f
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/64484851bea8f94cdaa6013748aa63d15238f3b7
 
  ************************************************************************************************************************
 
@@ -49,7 +49,7 @@ fit
   ##### Init model_tch.textcnn.py {'path': './output/text_cnn_tch/model.h5', 'model_uri': 'model_tch.textcnn.py'} 
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
-  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7f6981f0bdd8> 
+  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7fddc3a57f98> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -140,7 +140,7 @@ Trainable params: 77,819
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7f0236502e48> 
+  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7f418e0d79e8> 
 Loading data...
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -935,7 +935,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fd37af0f940> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fcaed4eee10> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -984,7 +984,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f8334c3ee48> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f8cf54d8e48> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1032,7 +1032,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa1f85679b0> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fdbe17d1518> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1080,7 +1080,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f3db3a7ee10> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f8a9f0e0e48> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1128,7 +1128,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fbbc3fe39e8> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f01775eae10> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1176,7 +1176,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f6eef559e10> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa122d6ada0> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1314,7 +1314,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f28be85be10> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f6788ecedd8> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1363,7 +1363,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f293fd60940> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f985a5b8e48> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1411,7 +1411,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f32c58109b0> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fad8f07c518> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1459,7 +1459,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fcc2d15be10> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f3686536dd8> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1507,7 +1507,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f8467300e10> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f6017c45da0> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1555,7 +1555,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f635dca6da0> 
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f371f63f940> 
 {'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1756,7 +1756,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4cecdb6dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f60c3596dd8> 
 Downloading: "https://github.com/pytorch/vision/archive/master.zip" to /home/runner/.cache/torch/hub/master.zip
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1816,7 +1816,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f748e574dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f143e489278> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1876,7 +1876,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f83be117dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f165373c8d0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1936,7 +1936,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1cfda9f908> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4b2d6bee10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1996,7 +1996,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe12be1cdd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2f9b954e10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2056,7 +2056,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb36cc1ddd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f92db0bedd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2116,7 +2116,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f51cec31dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbe7c5a4e10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2176,7 +2176,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f933caede10> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7398465dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2236,7 +2236,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ffb84d17dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f3540b33dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2296,7 +2296,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb7b7453dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f83d62b0dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2356,7 +2356,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ffab30bfdd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fa81ad76dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2416,7 +2416,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2f027864a8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f105b3c1dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2476,7 +2476,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb61478add8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f65f0e1bdd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2536,7 +2536,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7eff8019edd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f36b1c41e10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2596,7 +2596,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7efc7c2149e8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f813c135828> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2656,7 +2656,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb020bc5e10> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f10e8412438> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2716,7 +2716,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6a5d40b0b8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f256f257dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2776,7 +2776,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fcf76701e10> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fadccb8ae10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2836,7 +2836,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fda168a59b0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4c2c88b748> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2896,7 +2896,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f20d13a7dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc2320c9ac8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2956,7 +2956,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f72b3297d68> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2453662dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3016,7 +3016,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd5d9763e48> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb3b6353dd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3076,7 +3076,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fef652d5da0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7febb9e8c358> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3136,7 +3136,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f301d275dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f58186c9128> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3196,7 +3196,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb616f90dd8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f835413cdd8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3256,7 +3256,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f935cd9ce48> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7a4e404e10> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
