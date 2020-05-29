@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/f99d563c757626e8c9e87b4375b62b1f0138fa5f', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'f99d563c757626e8c9e87b4375b62b1f0138fa5f', 'workflow': 'test_all'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/cd0e1dbcf68c34dccf0d76405c260752e880d933', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'cd0e1dbcf68c34dccf0d76405c260752e880d933', 'workflow': 'test_all'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_all
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/f99d563c757626e8c9e87b4375b62b1f0138fa5f
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/cd0e1dbcf68c34dccf0d76405c260752e880d933
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/f99d563c757626e8c9e87b4375b62b1f0138fa5f
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/cd0e1dbcf68c34dccf0d76405c260752e880d933
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/f99d563c757626e8c9e87b4375b62b1f0138fa5f
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/cd0e1dbcf68c34dccf0d76405c260752e880d933
 
  ************************************************************************************************************************
 
@@ -51,10 +51,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmod
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_test", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 631, in main
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 640, in main
     globals()[arg.do](arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 498, in test_all
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 507, in test_all
     log_remote_push()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 154, in log_remote_push
-    tag = arg.name
+    tag = "m_" + str(arg.name)
 AttributeError: 'NoneType' object has no attribute 'name'
