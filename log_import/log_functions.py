@@ -12,7 +12,7 @@
 
   
 
- ***** <function log at 0x7fe87d1c9400> 
+ ***** <function log at 0x7f64dfca0400> 
 
   list indices must be integers or slices, not str {'uri': 'mlmodels.util:log', 'args': {'x': 'passed'}} 
 
@@ -25,6 +25,6 @@
 
   
 
- ***** <function load_function_uri at 0x7fe87d156d08> 
+ ***** <function load_function_uri at 0x7f64dfc2ed08> 
 
   list indices must be integers or slices, not str {'uri': 'mlmodels.util:load_function_uri', 'args': {'uri': 'mlmodels.util.log'}} 
