@@ -2,7 +2,7 @@
 
 
 ### Error 1, [Traceback at line 45](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L45)<br />45..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 72, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -14,23 +14,23 @@
 
 
 ### Error 2, [Traceback at line 57](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L57)<br />57..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 84, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
 ### Error 3, [Traceback at line 64](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L64)<br />64..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//sklearn_titanic_svm.py", line 20, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//sklearn_titanic_svm.py", line 20, in <module>
 <br />    module        =  module_load( model_uri= model_uri )                           # Load file definition
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
 
 
 
 ### Error 4, [Traceback at line 80](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L80)<br />80..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 72, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -40,32 +40,32 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/model_sklearn/model_lightgbm.py", line 68, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/model_sklearn/model_lightgbm.py", line 68, in <module>
 <br />    from lightgbm import LGBMModel
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example/lightgbm.py", line 27, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example/lightgbm.py", line 27, in <module>
 <br />    pars = json.load(open( data_path , mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'lightgbm_titanic.json'
 
 
 
 ### Error 5, [Traceback at line 99](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L99)<br />99..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 84, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
 ### Error 6, [Traceback at line 106](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L106)<br />106..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//lightgbm.py", line 23, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//lightgbm.py", line 23, in <module>
 <br />    module        =  module_load( model_uri= model_uri)
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_sklearn.model_lightgbm notfound, [Errno 2] No such file or directory: 'lightgbm_titanic.json', tuple index out of range
 
 
 
 ### Error 7, [Traceback at line 122](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L122)<br />122..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 72, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -77,37 +77,37 @@
 
 
 ### Error 8, [Traceback at line 134](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L134)<br />134..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 84, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
 ### Error 9, [Traceback at line 141](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L141)<br />141..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//sklearn_titanic_randomForest.py", line 21, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//sklearn_titanic_randomForest.py", line 21, in <module>
 <br />    module        =  module_load( model_uri= model_uri )                           # Load file definition
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
 
 
 
 ### Error 10, [Traceback at line 182](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L182)<br />182..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//lightgbm_home_retail.py", line 21, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//lightgbm_home_retail.py", line 21, in <module>
 <br />    pars = json.load(open( data_path , mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'hyper_lightgbm_home_retail.json'
 
 
 
 ### Error 11, [Traceback at line 196](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L196)<br />196..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//keras_charcnn_reuters.py", line 28, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//keras_charcnn_reuters.py", line 28, in <module>
 <br />    pars = json.load(open( config_path , mode='r'))[config_mode]
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'reuters_charcnn.json'
 
 
 
 ### Error 12, [Traceback at line 255](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L255)<br />255..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 72, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -117,14 +117,14 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/model_sklearn/model_lightgbm.py", line 68, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/model_sklearn/model_lightgbm.py", line 68, in <module>
 <br />    from lightgbm import LGBMModel
 <br />ImportError: cannot import name 'LGBMModel'
 
 
 
 ### Error 13, [Traceback at line 272](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L272)<br />272..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 84, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
@@ -141,9 +141,9 @@
 <br />    try_import_lightgbm()
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/autogluon/utils/try_import.py", line 13, in try_import_lightgbm
 <br />    import lightgbm
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example/lightgbm.py", line 23, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example/lightgbm.py", line 23, in <module>
 <br />    module        =  module_load( model_uri= model_uri)
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_sklearn.model_lightgbm notfound, cannot import name 'LGBMModel', tuple index out of range
 <br />SyntaxError: invalid syntax
@@ -151,48 +151,48 @@
 
 
 ### Error 15, [Traceback at line 564](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L564)<br />564..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//lightgbm_glass.py", line 16, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//lightgbm_glass.py", line 16, in <module>
 <br />    print( os.getcwd())
 <br />NameError: name 'os' is not defined
 
 
 
 ### Error 16, [Traceback at line 613](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L613)<br />613..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//keras-textcnn.py", line 37, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//keras-textcnn.py", line 37, in <module>
 <br />    _, _   =  module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)          # fit the model
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/model_keras/textcnn.py", line 69, in fit
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/model_keras/textcnn.py", line 69, in fit
 <br />    Xtrain, Xtest, ytrain, ytest = get_dataset(data_pars)
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/model_keras/textcnn.py", line 143, in get_dataset
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/model_keras/textcnn.py", line 143, in get_dataset
 <br />    maxlen       = data_pars['data_info']['maxlen']
 <br />KeyError: 'data_info'
 
 
 
 ### Error 17, [Traceback at line 632](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L632)<br />632..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//sklearn_titanic_randomForest_example2.py", line 22, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//sklearn_titanic_randomForest_example2.py", line 22, in <module>
 <br />    pars = json.load(open( data_path , mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: '../mlmodels/dataset/json/hyper_titanic_randomForest.json'
 
 
 
 ### Error 18, [Traceback at line 660](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L660)<br />660..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//gluon_automl_titanic.py", line 27, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//gluon_automl_titanic.py", line 27, in <module>
 <br />    data_path= '../mlmodels/dataset/json/gluon_automl.json'
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/model_gluon/gluon_automl.py", line 82, in get_params
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/model_gluon/gluon_automl.py", line 82, in get_params
 <br />    with open(data_path, encoding='utf-8') as config_f:
 <br />FileNotFoundError: [Errno 2] No such file or directory: '../mlmodels/dataset/json/gluon_automl.json'
 
 
 
 ### Error 19, [Traceback at line 676](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L676)<br />676..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//tensorflow__lstm_json.py", line 13, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//tensorflow__lstm_json.py", line 13, in <module>
 <br />    print( os.getcwd())
 <br />NameError: name 'os' is not defined
 
 
 
 ### Error 20, [Traceback at line 690](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L690)<br />690..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 72, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -204,23 +204,23 @@
 
 
 ### Error 21, [Traceback at line 702](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L702)<br />702..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 84, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
 ### Error 22, [Traceback at line 709](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L709)<br />709..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//sklearn.py", line 34, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//sklearn.py", line 34, in <module>
 <br />    module        =  module_load( model_uri= model_uri )                           # Load file definition
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
 
 
 
 ### Error 23, [Traceback at line 726](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L726)<br />726..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//lightgbm_titanic.py", line 21, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//lightgbm_titanic.py", line 21, in <module>
 <br />    pars = json.load(open( data_path , mode='r'))
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'hyper_lightgbm_titanic.json'
 <br />SyntaxError: invalid syntax
@@ -228,21 +228,21 @@
 
 
 ### Error 24, [Traceback at line 758](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L758)<br />758..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//arun_hyper.py", line 2, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//arun_hyper.py", line 2, in <module>
 <br />    from jsoncomment import JsonComment ; json = JsonComment(), copy
 <br />NameError: name 'copy' is not defined
 
 
 
 ### Error 25, [Traceback at line 770](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L770)<br />770..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//lightgbm_glass.py", line 16, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//lightgbm_glass.py", line 16, in <module>
 <br />    print( os.getcwd())
 <br />NameError: name 'os' is not defined
 
 
 
 ### Error 26, [Traceback at line 782](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L782)<br />782..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 72, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -254,14 +254,14 @@
 
 
 ### Error 27, [Traceback at line 794](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L794)<br />794..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 84, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
 ### Error 28, [Traceback at line 801](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L801)<br />801..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//benchmark_timeseries_m5.py", line 27, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//benchmark_timeseries_m5.py", line 27, in <module>
 <br />    import mxnet as mx
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/__init__.py", line 31, in <module>
 <br />    from . import contrib
@@ -287,23 +287,23 @@
 <br />    from ..model import BatchEndParam
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/model.py", line 46, in <module>
 <br />    from sklearn.base import BaseEstimator
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example/sklearn.py", line 34, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example/sklearn.py", line 34, in <module>
 <br />    module        =  module_load( model_uri= model_uri )                           # Load file definition
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
 
 
 
 ### Error 29, [Traceback at line 843](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L843)<br />843..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example//arun_model.py", line 27, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example//arun_model.py", line 27, in <module>
 <br />    pars = json.load(open(config_path , mode='r'))[config_mode]
-<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/model_keras/ardmn.json'
+<br />FileNotFoundError: [Errno 2] No such file or directory: 'https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/model_keras/ardmn.json'
 
 
 
 ### Error 30, [Traceback at line 863](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L863)<br />863..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 72, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -315,14 +315,14 @@
 
 
 ### Error 31, [Traceback at line 875](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L875)<br />875..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 84, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
 ### Error 32, [Traceback at line 882](https://github.com/arita37/mlmodels_store/blob/master/log_jupyter/log_jupyter.py#L882)<br />882..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example/benchmark_timeseries_m5.py", line 27, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example/benchmark_timeseries_m5.py", line 27, in <module>
 <br />    import mxnet as mx
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/__init__.py", line 31, in <module>
 <br />    from . import contrib
@@ -348,8 +348,8 @@
 <br />    from ..model import BatchEndParam
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/model.py", line 46, in <module>
 <br />    from sklearn.base import BaseEstimator
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/example/sklearn.py", line 34, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/example/sklearn.py", line 34, in <module>
 <br />    module        =  module_load( model_uri= model_uri )                           # Load file definition
-<br />  File "https://github.com/arita37/mlmodels/tree/097d79840b302a3e2f9efdf341ce6b4d32d7a46c/mlmodels/models.py", line 89, in module_load
+<br />  File "https://github.com/arita37/mlmodels/tree/2881f9a75a930232293d6b1c4c20c838cae54928/mlmodels/models.py", line 89, in module_load
 <br />    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
 <br />NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
