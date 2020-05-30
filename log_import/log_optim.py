@@ -7,7 +7,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-05-30 14:25:38,771][0m Finished trial#0 resulted in value: 0.5212617963552475. Current best value is 0.5212617963552475 with parameters: {'learning_rate': 0.00776586689481008, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-05-30 14:45:54,878][0m Finished trial#0 resulted in value: 0.7849656939506531. Current best value is 0.7849656939506531 with parameters: {'learning_rate': 0.012080251044685946, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -26,7 +26,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-05-30 14:25:39,979][0m Finished trial#1 resulted in value: 4.235921740531921. Current best value is 0.5212617963552475 with parameters: {'learning_rate': 0.00776586689481008, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-05-30 14:45:56,448][0m Finished trial#1 resulted in value: 1.3192922472953796. Current best value is 0.7849656939506531 with parameters: {'learning_rate': 0.012080251044685946, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
