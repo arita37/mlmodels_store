@@ -5,15 +5,15 @@
 
   
 
- #################### {'uri': 'mlmodels.util.log', 'args': ['x1', 'passed']} 
+ #################### {'uri': 'mlmodels.util.log', 'args': ['x1', 'passed'], 'kw_args': {}} 
 
-    Missing :   in  uri_name module_name:function_or_class  {'uri': 'mlmodels.util.log', 'args': ['x1', 'passed']} 
+    Missing :   in  uri_name module_name:function_or_class  {'uri': 'mlmodels.util.log', 'args': ['x1', 'passed'], 'kw_args': {}} 
 
   
 
- #################### {'uri': 'mlmodels.util:log', 'args': ['x1', 'passed']} 
+ #################### {'uri': 'mlmodels.util:log', 'args': ['x1', 'passed'], 'kw_args': {}} 
 
-  <function log at 0x7fb555d6c400> 
+  <function log at 0x7f38b4991620> 
 
   x1 passed 
 
@@ -21,16 +21,16 @@
 
   
 
- #################### {'uri': 'mlmodels.util:load_function_uri', 'kw_args': {'uri_name': 'mlmodels.util:log'}} 
+ #################### {'uri': 'mlmodels.util:load_function_uri', 'args': [], 'kw_args': {'uri_name': 'mlmodels.util:log'}} 
 
-  <function load_function_uri at 0x7fb555d78d08> 
+  <function load_function_uri at 0x7f38b499bf28> 
 
-  <function log at 0x7fb555d6c400> 
+  <function log at 0x7f38b4991620> 
 
   
 
- #################### {'uri': 'mlmodels.util:os_package_root_path', 'args': []} 
+ #################### {'uri': 'mlmodels.util:os_package_root_path', 'args': [], 'kw_args': {}} 
 
-  <function os_package_root_path at 0x7fb555d6c598> 
+  <function os_package_root_path at 0x7f38b49917b8> 
 
   /home/runner/work/mlmodels/mlmodels/mlmodels/ 
