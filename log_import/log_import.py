@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/ae1073b3cb6179007ac86565f813c3dfd28f2b3d', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'ae1073b3cb6179007ac86565f813c3dfd28f2b3d', 'workflow': 'test_fast_linux'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/36dfa44712f046754651aaf03cc1793c027a5194', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '36dfa44712f046754651aaf03cc1793c027a5194', 'workflow': 'test_fast_linux'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_fast_linux
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/ae1073b3cb6179007ac86565f813c3dfd28f2b3d
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/36dfa44712f046754651aaf03cc1793c027a5194
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/ae1073b3cb6179007ac86565f813c3dfd28f2b3d
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/36dfa44712f046754651aaf03cc1793c027a5194
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/ae1073b3cb6179007ac86565f813c3dfd28f2b3d
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/36dfa44712f046754651aaf03cc1793c027a5194
 
  ************************************************************************************************************************
 
@@ -79,7 +79,7 @@ mlmodels.model_gluon.gluonts_model_old
 mlmodels.model_gluon.gluonts_model
 mlmodels.model_sklearn.model_sklearn
 
-  Error mlmodels.model_sklearn.model_lightgbm can't assign to keyword (model_lightgbm.py, line 179) 
+  Error mlmodels.model_sklearn.model_lightgbm invalid syntax (model_lightgbm.py, line 316) 
 mlmodels.model_sklearn.__init__
 
   Error mlmodels.example.vision_mnist invalid syntax (vision_mnist.py, line 15) 

@@ -5,26 +5,32 @@
 
   
 
+ #################### {'uri': 'mlmodels.util.log', 'args': ['x1', 'passed']} 
 
- ################################################## 
-
-  {'uri': 'mlmodels.util:log', 'args': ['x', 'passed']} 
-
-  
-
- ***** <function log at 0x7f6c383fc620> 
-
-  list indices must be integers or slices, not str {'uri': 'mlmodels.util:log', 'args': ['x', 'passed']} 
+    Missing :   in  uri_name module_name:function_or_class  {'uri': 'mlmodels.util.log', 'args': ['x1', 'passed']} 
 
   
 
+ #################### {'uri': 'mlmodels.util:log', 'args': ['x1', 'passed']} 
 
- ################################################## 
+  <function log at 0x7fb555d6c400> 
 
-  {'uri': 'mlmodels.util:load_function_uri', 'args': {'uri': 'mlmodels.util.log'}} 
+  x1 passed 
+
+  None 
 
   
 
- ***** <function load_function_uri at 0x7f6c38407f28> 
+ #################### {'uri': 'mlmodels.util:load_function_uri', 'kw_args': {'uri_name': 'mlmodels.util:log'}} 
 
-  list indices must be integers or slices, not str {'uri': 'mlmodels.util:load_function_uri', 'args': {'uri': 'mlmodels.util.log'}} 
+  <function load_function_uri at 0x7fb555d78d08> 
+
+  <function log at 0x7fb555d6c400> 
+
+  
+
+ #################### {'uri': 'mlmodels.util:os_package_root_path', 'args': []} 
+
+  <function os_package_root_path at 0x7fb555d6c598> 
+
+  /home/runner/work/mlmodels/mlmodels/mlmodels/ 
