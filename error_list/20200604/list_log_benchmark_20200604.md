@@ -181,7 +181,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdfbaba3550> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09a504de48> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet18', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet18/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/resnet18/'}} 'data_info' 
 <br />
@@ -197,7 +197,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdf691e2128> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09545530f0> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet34', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet34/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/resnet34/'}} 'data_info' 
 <br />
@@ -213,7 +213,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdfb9a76908> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09a4de7978> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x0_5', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x0_5/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/'}} 'data_info' 
 <br />
@@ -229,7 +229,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdf6c8ce4e0> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f0957c3f4a8> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x1_0', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x1_0/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/'}} 'data_info' 
 <br />
@@ -245,7 +245,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdfbaba3550> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09a504de48> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet101', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet101/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/resnet101/'}} 'data_info' 
 <br />
@@ -261,7 +261,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdf691e2128> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09545530f0> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet101_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet101_2/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/'}} 'data_info' 
 <br />
@@ -277,7 +277,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdfb9a76908> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09a4de7978> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext101_32x8d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext101_32x8d/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/'}} 'data_info' 
 <br />
@@ -293,7 +293,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdf6b8e5048> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f0957c3f4a8> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext50_32x4d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext50_32x4d/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/'}} 'data_info' 
 <br />
@@ -309,7 +309,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdfbaba3550> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09a504de48> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet50', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet50/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/resnet50/'}} 'data_info' 
 <br />
@@ -325,7 +325,7 @@
 <br />  #### Setup Model   ############################################## 
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdf5d378860> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09486ea828> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet152', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet152/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/resnet152/'}} 'data_info' 
 <br />
@@ -482,7 +482,7 @@
 <br />    train_iter, valid_iter = get_dataset(data_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fdfb9a76908> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f09a4de7978> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet50_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet50_2/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/'}} 'data_info' 
 <br />
@@ -530,7 +530,7 @@
 <br />{'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f1bc45be4a8> <class 'mlmodels.model_tch.textcnn.Model'>
+<br />>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7fa0a5de94e0> <class 'mlmodels.model_tch.textcnn.Model'>
 <br />
 <br />  {'hypermodel_pars': {}, 'data_pars': {'data_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': 'https://github.com/arita37/mlmodels/tree/d67c613373df800885b9f1e6941d6f5879aa2c04/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': True}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} 'data_info' 
 <br />
