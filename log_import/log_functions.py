@@ -13,7 +13,7 @@
 
  #################### {'uri': 'mlmodels.util:log', 'args': ['x1', 'passed'], 'kw_args': {}} 
 
-  <function log at 0x7f38b4991620> 
+  <function log at 0x7f23329e46a8> 
 
   x1 passed 
 
@@ -23,14 +23,14 @@
 
  #################### {'uri': 'mlmodels.util:load_function_uri', 'args': [], 'kw_args': {'uri_name': 'mlmodels.util:log'}} 
 
-  <function load_function_uri at 0x7f38b499bf28> 
+  <function load_function_uri at 0x7f23329f0048> 
 
-  <function log at 0x7f38b4991620> 
+  <function log at 0x7f23329e46a8> 
 
   
 
  #################### {'uri': 'mlmodels.util:os_package_root_path', 'args': [], 'kw_args': {}} 
 
-  <function os_package_root_path at 0x7f38b49917b8> 
+  <function os_package_root_path at 0x7f23329e4840> 
 
   /home/runner/work/mlmodels/mlmodels/mlmodels/ 
