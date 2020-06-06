@@ -58,7 +58,7 @@ HeapDict==1.0.1
 holidays==0.9.12
 hyperopt==0.1.2
 idna==2.9
-importlib-metadata==1.6.1
+importlib-metadata==1.6.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 jmespath==0.10.0
@@ -79,7 +79,7 @@ MarkupSafe==1.1.1
 matchzoo-py==1.1.1
 matplotlib==3.2.1
 mlflow==1.7.1
--e git+https://github.com/arita37/mlmodels@21d1b6dd356ca57a695b113d5df2de1628b16e43#egg=mlmodels
+-e git+https://github.com/arita37/mlmodels@4a18164f8553bbc4bd603a34468c56c36c57154f#egg=mlmodels
 msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
@@ -139,7 +139,7 @@ spacy==2.2.4
 SQLAlchemy==1.3.13
 sqlparse==0.3.1
 srsly==1.0.2
-stevedore==2.0.0
+stevedore==1.32.0
 tabulate==0.8.7
 tblib==1.6.0
 tensorboard==1.15.0
@@ -147,7 +147,7 @@ tensorboardX==2.0
 tensorflow==1.15.2
 tensorflow-datasets==3.0.0
 tensorflow-estimator==1.15.1
-tensorflow-metadata==0.22.2
+tensorflow-metadata==0.22.1
 tensorflow-probability==0.7.0
 termcolor==1.1.0
 thinc==7.4.0
