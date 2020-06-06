@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/21d1b6dd356ca57a695b113d5df2de1628b16e43', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '21d1b6dd356ca57a695b113d5df2de1628b16e43', 'workflow': 'test_json'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'a4f6eb9a7161522868de1f62953382979dca62d3', 'workflow': 'test_json'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_json
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/21d1b6dd356ca57a695b113d5df2de1628b16e43
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/21d1b6dd356ca57a695b113d5df2de1628b16e43
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/a4f6eb9a7161522868de1f62953382979dca62d3
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/21d1b6dd356ca57a695b113d5df2de1628b16e43
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3
 
  ************************************************************************************************************************
 
@@ -49,7 +49,7 @@ fit
   ##### Init model_tch.textcnn.py {'path': './output/text_cnn_tch/model.h5', 'model_uri': 'model_tch.textcnn.py'} 
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
-  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7f43545f8eb8> 
+  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7f7321364b38> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -140,7 +140,7 @@ Trainable params: 77,819
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7f2a94d222e8> 
+  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7f9d7ace6908> 
 Loading data...
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -328,7 +328,7 @@ Traceback (most recent call last):
     data_set, internal_states = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/namentity_crm_bilstm.py", line 182, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -902,7 +902,7 @@ Traceback (most recent call last):
     model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
     model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 92, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 97, in __init__
     if "NegativeBinomialOutput" in  mpars['distr_output'] :  
 KeyError: 'distr_output'
 
@@ -935,8 +935,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f940cf5df98> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f710f2c4f98> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -946,12 +945,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -984,8 +983,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fde17cc35c0> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f10487895f8> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -995,12 +993,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1032,8 +1030,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f6403b475f8> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f831167a550> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1043,12 +1040,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1080,8 +1077,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f90f8ddd748> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f7198b6bf98> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1091,12 +1087,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1128,8 +1124,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f60854d6748> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f7a0eca95f8> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1139,12 +1134,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1176,8 +1171,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fdf786e95f8> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8b6318f98> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1187,12 +1181,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1231,7 +1225,7 @@ Traceback (most recent call last):
     model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
     model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 86, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 90, in __init__
     mpars['encoder'] = MLPEncoder()   #bug in seq2seq
   File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/core/component.py", line 424, in init_wrapper
     model = PydanticModel(**{**nmargs, **kwargs})
@@ -1281,7 +1275,7 @@ Traceback (most recent call last):
     model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
     model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 92, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 97, in __init__
     if "NegativeBinomialOutput" in  mpars['distr_output'] :  
 KeyError: 'distr_output'
 
@@ -1314,8 +1308,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f7ce6eaa208> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7ff7becfa978> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1325,12 +1318,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1363,8 +1356,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f587a9409b0> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fd4cdcbc9b0> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1374,12 +1366,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1411,8 +1403,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fd6aa31fb70> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f140e983f98> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1422,12 +1413,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1459,8 +1450,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fd475317978> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f9fb7ee9e10> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1470,12 +1460,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1507,8 +1497,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fd5fa59eb70> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f51beed9eb8> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1518,12 +1507,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1555,8 +1544,7 @@ INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fda7bc0c630> 
-{'train': 1, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}
+  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f3c482225c0> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -1566,12 +1554,12 @@ Traceback (most recent call last):
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
     return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 256, in fit
-    train_ds, test_ds, cardinalities = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 134, in get_dataset
-    return get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 210, in get_dataset_single
-    data_path=data_pars['data_path']
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
+    train_ds, test_ds  = get_dataset(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
+    train, test = get_dataset_single(data_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
+    data_path = data_pars['data_path']
 KeyError: 'data_path'
 
 
@@ -1610,7 +1598,7 @@ Traceback (most recent call last):
     model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
     model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 86, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 90, in __init__
     mpars['encoder'] = MLPEncoder()   #bug in seq2seq
   File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/core/component.py", line 424, in init_wrapper
     model = PydanticModel(**{**nmargs, **kwargs})
@@ -1756,7 +1744,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f93f1ee3eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f92e5fb8438> 
 Downloading: "https://github.com/pytorch/vision/archive/master.zip" to /home/runner/.cache/torch/hub/master.zip
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1771,7 +1759,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -1816,7 +1804,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f23b9f18898> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f005cecb588> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1831,7 +1819,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -1876,7 +1864,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ff3972d7eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f69a61d3e80> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1891,7 +1879,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -1936,7 +1924,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f33a814bef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc4003a2ba8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1951,7 +1939,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -1996,7 +1984,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7e32c00e80> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f5cba5ceeb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2011,7 +1999,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2056,7 +2044,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f162b576240> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbc3cd36c88> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2071,7 +2059,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2116,7 +2104,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f10589d0eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe0eb01a828> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2131,7 +2119,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2176,7 +2164,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f0c866aaba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb8bf71cef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2191,7 +2179,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2236,7 +2224,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1c5594d6a0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f934bf79d68> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2251,7 +2239,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2296,7 +2284,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f75f0928438> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fa50154eb38> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2311,7 +2299,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2356,7 +2344,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ffa44207eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f75faced438> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2371,7 +2359,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2416,7 +2404,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fcab5bc2ba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fdc55a72ba8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2431,7 +2419,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2476,7 +2464,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9b9a9f6eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe12cb00eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2491,7 +2479,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2536,7 +2524,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4dd329aeb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ff54d6a65c0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2551,7 +2539,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2596,7 +2584,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7dfb93fef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc70653def0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2611,7 +2599,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2656,7 +2644,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f972d2deef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f3d22457eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2671,7 +2659,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2716,7 +2704,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8d1c1ea550> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f104182eef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2731,7 +2719,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2776,7 +2764,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f47ba6d3ba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fdb2b992eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2791,7 +2779,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2836,7 +2824,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f5997009ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8268099b70> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2851,7 +2839,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2896,7 +2884,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fde21487ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd961c96ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2911,7 +2899,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -2956,7 +2944,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9deb1a5ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fcc058c6ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2971,7 +2959,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3016,7 +3004,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fdeb001aeb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe6328f85f8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3031,7 +3019,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3076,7 +3064,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fa1cfd22278> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4c2f566ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3091,7 +3079,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3136,7 +3124,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fdfff1ceb38> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f0596c4deb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3151,7 +3139,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3196,7 +3184,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8ec728deb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4566a43eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3211,7 +3199,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
@@ -3256,7 +3244,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7feb6e7faef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9542f16eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3271,7 +3259,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 208, in __init__
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 
