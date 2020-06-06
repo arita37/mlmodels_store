@@ -5,7 +5,7 @@
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_test", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 638, in main
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 642, in main
     globals()[arg.do](arg)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 177, in test_functions
     dd   = json.load(open( path ))['test']
