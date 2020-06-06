@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/31d2b88611b4231ac14a6179e72e5d4a4ee459ac', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '31d2b88611b4231ac14a6179e72e5d4a4ee459ac', 'workflow': 'test_all'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'a4f6eb9a7161522868de1f62953382979dca62d3', 'workflow': 'test_all'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_all
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/31d2b88611b4231ac14a6179e72e5d4a4ee459ac
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/31d2b88611b4231ac14a6179e72e5d4a4ee459ac
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/a4f6eb9a7161522868de1f62953382979dca62d3
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/31d2b88611b4231ac14a6179e72e5d4a4ee459ac
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3
 
  ************************************************************************************************************************
 
@@ -51,9 +51,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmod
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_test", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 638, in main
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 642, in main
     globals()[arg.do](arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 505, in test_all
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 509, in test_all
     log_remote_push()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 154, in log_remote_push
     tag = "m_" + str(arg.name)
