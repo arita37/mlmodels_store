@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/3351645c97b9d6d9cb5bd0fae6734129deb628ce', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '3351645c97b9d6d9cb5bd0fae6734129deb628ce', 'workflow': 'test_fast_linux'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '2675f1e090030e6958e45c46c6313291532e6ed8', 'workflow': 'test_fast_linux'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_fast_linux
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/3351645c97b9d6d9cb5bd0fae6734129deb628ce
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/3351645c97b9d6d9cb5bd0fae6734129deb628ce
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/2675f1e090030e6958e45c46c6313291532e6ed8
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/3351645c97b9d6d9cb5bd0fae6734129deb628ce
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8
 
  ************************************************************************************************************************
 
@@ -76,7 +76,8 @@ mlmodels.model_gluon.util_autogluon
 mlmodels.model_gluon.fb_prophet
 mlmodels.model_gluon.__init__
 mlmodels.model_gluon.gluonts_model_old
-mlmodels.model_gluon.gluonts_model
+
+  Error mlmodels.model_gluon.gluonts_model invalid syntax (gluonts_model.py, line 152) 
 mlmodels.model_sklearn.model_sklearn
 
   Error mlmodels.model_sklearn.model_lightgbm invalid syntax (model_lightgbm.py, line 316) 
