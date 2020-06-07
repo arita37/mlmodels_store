@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/561e81504931f72fe00de6bf5a2e274589f15d68', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '561e81504931f72fe00de6bf5a2e274589f15d68', 'workflow': 'test_json'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '2675f1e090030e6958e45c46c6313291532e6ed8', 'workflow': 'test_json'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_json
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/561e81504931f72fe00de6bf5a2e274589f15d68
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/561e81504931f72fe00de6bf5a2e274589f15d68
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/2675f1e090030e6958e45c46c6313291532e6ed8
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/561e81504931f72fe00de6bf5a2e274589f15d68
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8
 
  ************************************************************************************************************************
 
@@ -49,7 +49,7 @@ fit
   ##### Init model_tch.textcnn.py {'path': './output/text_cnn_tch/model.h5', 'model_uri': 'model_tch.textcnn.py'} 
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
-  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7fe1e3e07eb8> 
+  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7f4c97273f28> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -140,7 +140,7 @@ Trainable params: 77,819
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7fb8f7b845f8> 
+  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7efdda675710> 
 Loading data...
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -878,33 +878,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_deepar/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
-    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
-    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 97, in __init__
-    if "NegativeBinomialOutput" in  mpars['distr_output'] :  
-KeyError: 'distr_output'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -918,40 +928,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_deepfactor/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f30955d35f8> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -965,41 +978,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_wavenet/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fd2f1c25630> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1013,40 +1028,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_transformer/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f084697dbe0> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1060,40 +1078,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_deepstate/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f5ac39c2d30> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1107,40 +1128,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_gpforecaster/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f9a4f6f65f8> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1154,40 +1178,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_feedforward/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fa8b6bd6b70> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1201,38 +1228,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_seq2seq/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
-    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
-    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 90, in __init__
-    mpars['encoder'] = MLPEncoder()   #bug in seq2seq
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/core/component.py", line 424, in init_wrapper
-    model = PydanticModel(**{**nmargs, **kwargs})
-  File "pydantic/main.py", line 283, in pydantic.main.BaseModel.__init__
-pydantic.error_wrappers.ValidationError: 1 validation error for MLPEncoderModel
-layer_sizes
-  field required (type=value_error.missing)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
   
 
@@ -1251,33 +1283,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_deepar/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
-    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
-    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 97, in __init__
-    if "NegativeBinomialOutput" in  mpars['distr_output'] :  
-KeyError: 'distr_output'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1291,40 +1333,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_deepfactor/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f938943cfd0> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1338,41 +1383,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_wavenet/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:gluonts.model.wavenet._estimator:Using dilation depth 10 and receptive field length 1024
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7fb11d55dd68> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1386,40 +1433,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_transformer/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f1d682c2a20> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1433,40 +1483,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_deepstate/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7ff5a110fb70> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1480,40 +1533,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_gpforecaster/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f61412d37f0> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1527,40 +1583,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_feedforward/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
 
-  ##### Fit <mlmodels.model_gluon.gluonts_model.Model object at 0x7f76094cab70> 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
-    train_ds, test_ds  = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 143, in get_dataset
-    train, test = get_dataset_single(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 221, in get_dataset_single
-    data_path = data_pars['data_path']
-KeyError: 'data_path'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
 
 
@@ -1574,38 +1633,43 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_timeseries/test02/model_list_gluon_only.json 
 
   ##### Init model_gluon.gluonts_model {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_seq2seq/', 'model_uri': 'model_gluon.gluonts_model'} 
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
-INFO:root:Using CPU
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
-    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
-    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 90, in __init__
-    mpars['encoder'] = MLPEncoder()   #bug in seq2seq
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/gluonts/core/component.py", line 424, in init_wrapper
-    model = PydanticModel(**{**nmargs, **kwargs})
-  File "pydantic/main.py", line 283, in pydantic.main.BaseModel.__init__
-pydantic.error_wrappers.ValidationError: 1 validation error for MLPEncoderModel
-layer_sizes
-  field required (type=value_error.missing)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 420, in fit_cli
+    module = module_load(model_uri)  # '1_lstm.py
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
 
   
 
@@ -1744,7 +1808,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f45d4f8feb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fda91aed9e8> 
 Downloading: "https://github.com/pytorch/vision/archive/master.zip" to /home/runner/.cache/torch/hub/master.zip
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1804,7 +1868,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6065075ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f20611c6160> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1864,7 +1928,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7b0f67cc88> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4671b33f98> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1924,7 +1988,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1477a78eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f29b8c97eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1984,7 +2048,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7cc40c9ba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc70e52aeb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2044,7 +2108,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb283993ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f376e1fceb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2104,7 +2168,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9aeace0ba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f713bd99ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2164,7 +2228,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe1c6711ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc8516e7eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2224,7 +2288,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f58f9f65eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd2c542dba8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2284,7 +2348,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f49f95b3198> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4d77379eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2344,7 +2408,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2c42973eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f65bb6d1748> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2404,7 +2468,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f3cd532eba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1ab1253ba8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2464,7 +2528,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd5f7768eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f740f019a90> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2524,7 +2588,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6a0abe3438> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f88be4d4a90> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2584,7 +2648,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6b9db95eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f85f4c42978> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2644,7 +2708,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f33a807aef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f39fb8b9e80> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2704,7 +2768,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f442b733eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7faf4fcf4eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2764,7 +2828,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fa231b77ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f45c0a5beb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2824,7 +2888,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f054c7740b8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fec02d98ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2884,7 +2948,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f632a198588> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fef842d7eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2944,7 +3008,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb08ee76eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f241b641780> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3004,7 +3068,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1f1ae61ba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f679cb972e8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3064,7 +3128,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fae0aacaba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8299804ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3124,7 +3188,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f83af744ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fec3e158eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3184,7 +3248,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f39b6253eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7b1ea9fef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -3244,7 +3308,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ffb6742eef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2a0b1e6eb8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
