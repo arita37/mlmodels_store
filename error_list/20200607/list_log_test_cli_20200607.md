@@ -1,7 +1,7 @@
 ## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py
 
 
-### Error 1, [Traceback at line 1150](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1150)<br />1150..Traceback (most recent call last):
+### Error 1, [Traceback at line 1140](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1140)<br />1140..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -13,14 +13,14 @@
 
 
 
-### Error 2, [Traceback at line 1162](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1162)<br />1162..Traceback (most recent call last):
+### Error 2, [Traceback at line 1152](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1152)<br />1152..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 3, [Traceback at line 1169](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1169)<br />1169..Traceback (most recent call last):
+### Error 3, [Traceback at line 1159](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1159)<br />1159..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 89, in module_load
@@ -29,7 +29,7 @@
 
 
 
-### Error 4, [Traceback at line 1175](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1175)<br />1175..Traceback (most recent call last):
+### Error 4, [Traceback at line 1165](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1165)<br />1165..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -41,14 +41,14 @@
 
 
 
-### Error 5, [Traceback at line 1187](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1187)<br />1187..Traceback (most recent call last):
+### Error 5, [Traceback at line 1177](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1177)<br />1177..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 6, [Traceback at line 1194](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1194)<br />1194..Traceback (most recent call last):
+### Error 6, [Traceback at line 1184](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1184)<br />1184..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 89, in module_load
@@ -57,7 +57,7 @@
 
 
 
-### Error 7, [Traceback at line 1228](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1228)<br />1228..Traceback (most recent call last):
+### Error 7, [Traceback at line 1218](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1218)<br />1218..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 120, in benchmark_run
 <br />    model     = module.Model(model_pars, data_pars, compute_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/model_gluon/gluonts_model.py", line 97, in __init__
@@ -66,7 +66,7 @@
 
 
 
-### Error 8, [Traceback at line 1251](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1251)<br />1251..Traceback (most recent call last):
+### Error 8, [Traceback at line 1241](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1241)<br />1241..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
@@ -79,7 +79,7 @@
 
 
 
-### Error 9, [Traceback at line 1279](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1279)<br />1279..Traceback (most recent call last):
+### Error 9, [Traceback at line 1269](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1269)<br />1269..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
@@ -92,7 +92,7 @@
 
 
 
-### Error 10, [Traceback at line 1306](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1306)<br />1306..Traceback (most recent call last):
+### Error 10, [Traceback at line 1296](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1296)<br />1296..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
@@ -105,7 +105,7 @@
 
 
 
-### Error 11, [Traceback at line 1333](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1333)<br />1333..Traceback (most recent call last):
+### Error 11, [Traceback at line 1323](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1323)<br />1323..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
@@ -118,7 +118,7 @@
 
 
 
-### Error 12, [Traceback at line 1360](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1360)<br />1360..Traceback (most recent call last):
+### Error 12, [Traceback at line 1350](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1350)<br />1350..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
@@ -131,7 +131,7 @@
 
 
 
-### Error 13, [Traceback at line 1401](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1401)<br />1401..Traceback (most recent call last):
+### Error 13, [Traceback at line 1391](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1391)<br />1391..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 126, in benchmark_run
 <br />    model, session = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/model_gluon/gluonts_model.py", line 278, in fit
@@ -144,7 +144,7 @@
 
 
 
-### Error 14, [Traceback at line 1411](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1411)<br />1411..Traceback (most recent call last):
+### Error 14, [Traceback at line 1401](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1401)<br />1401..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 120, in benchmark_run
 <br />    model     = module.Model(model_pars, data_pars, compute_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/model_gluon/gluonts_model.py", line 90, in __init__
@@ -214,7 +214,7 @@
 
 
 
-### Error 15, [Traceback at line 1478](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1478)<br />1478..Traceback (most recent call last):
+### Error 15, [Traceback at line 1468](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1468)<br />1468..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -226,14 +226,14 @@
 
 
 
-### Error 16, [Traceback at line 1490](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1490)<br />1490..Traceback (most recent call last):
+### Error 16, [Traceback at line 1480](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1480)<br />1480..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 17, [Traceback at line 1497](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1497)<br />1497..Traceback (most recent call last):
+### Error 17, [Traceback at line 1487](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1487)<br />1487..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 89, in module_load
@@ -242,7 +242,7 @@
 
 
 
-### Error 18, [Traceback at line 1503](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1503)<br />1503..Traceback (most recent call last):
+### Error 18, [Traceback at line 1493](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1493)<br />1493..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 72, in module_load
 <br />    module = import_module(f"mlmodels.{model_name}")
 <br />  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -254,14 +254,14 @@
 
 
 
-### Error 19, [Traceback at line 1515](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1515)<br />1515..Traceback (most recent call last):
+### Error 19, [Traceback at line 1505](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1505)<br />1505..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 84, in module_load
 <br />    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 20, [Traceback at line 1522](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1522)<br />1522..Traceback (most recent call last):
+### Error 20, [Traceback at line 1512](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1512)<br />1512..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 119, in benchmark_run
 <br />    module    = module_load(model_uri)   # "model_tch.torchhub.py"
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/models.py", line 89, in module_load
@@ -270,7 +270,7 @@
 
 
 
-### Error 21, [Traceback at line 1674](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1674)<br />1674..Traceback (most recent call last):
+### Error 21, [Traceback at line 1664](https://github.com/arita37/mlmodels_store/blob/master/log_test_cli/log_cli.py#L1664)<br />1664..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/a4f6eb9a7161522868de1f62953382979dca62d3/mlmodels/benchmark.py", line 118, in benchmark_run
 <br />    model_uri =  model_pars['model_uri']
 <br />KeyError: 'model_uri'
