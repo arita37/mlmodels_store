@@ -35,6 +35,7 @@ dill==0.3.1.1
 distributed==2.6.0
 docker==4.2.1
 docutils==0.15.2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
 entrypoints==0.3
 ephem==3.7.7.1
 fbprophet==0.6
@@ -128,7 +129,7 @@ scikit-learn==0.21.2
 scikit-optimize==0.7.4
 scipy==1.4.1
 sentence-transformers==0.2.4
-sentencepiece==0.1.91
+sentencepiece==0.1.92
 setuptools-git==1.2
 simplejson==3.17.0
 six==1.15.0
