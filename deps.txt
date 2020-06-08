@@ -35,7 +35,6 @@ dill==0.3.1.1
 distributed==2.6.0
 docker==4.2.1
 docutils==0.15.2
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
 entrypoints==0.3
 ephem==3.7.7.1
 fbprophet==0.6
@@ -165,7 +164,7 @@ ujson==1.35
 urllib3==1.25.9
 versioneer==0.18
 wasabi==0.6.0
-wcwidth==0.2.3
+wcwidth==0.2.4
 websocket-client==0.57.0
 Werkzeug==1.0.1
 wrapt==1.12.1
