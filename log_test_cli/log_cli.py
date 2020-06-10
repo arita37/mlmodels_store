@@ -98,7 +98,7 @@ WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/sit
 Instructions for updating:
 non-resource variables are not supported in the long term
 
-  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7f03cf1eca58> 
+  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7f64ab4bec50> 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -116,7 +116,7 @@ non-resource variables are not supported in the long term
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
-  ##### Save <tensorflow.python.client.session.Session object at 0x7f03cf8ec6d8> 
+  ##### Save <tensorflow.python.client.session.Session object at 0x7f6478be3e80> 
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/', 'model_uri': 'model_tf.1_lstm'}
 Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm//model//model.ckpt
 
@@ -142,7 +142,7 @@ non-resource variables are not supported in the long term
 Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/model
 Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/model
 
-  ##### Predict: <tensorflow.python.client.session.Session object at 0x7fdee0f96d68> 
+  ##### Predict: <tensorflow.python.client.session.Session object at 0x7fb90aa2ad68> 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -186,7 +186,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7f415c364ef0> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7f3f789eef28> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -229,14 +229,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [-0.00469151 -0.03610978  0.02398872  0.02126636 -0.08772396 -0.02694856]
- [ 0.27168313  0.16910619  0.11431451  0.19788569  0.0462292  -0.06200431]
- [-0.03996746  0.00117814  0.23512927 -0.0462897   0.05153976 -0.01712085]
- [ 0.29226449  0.04950438  0.60257906 -0.10887081  0.05181839 -0.27008447]
- [ 0.66014773  0.18825333  0.25474212  0.122655    0.1670828   0.29372936]
- [ 0.11079023  0.00559459  0.32183564  0.66543329  0.6090275   1.0562619 ]
- [-0.1851414  -0.50735927  0.57311928  0.47586477  0.39065641 -0.37868488]
- [ 0.30240518 -0.20358682  0.44677046 -0.07438396  0.12108135  0.31528854]
+ [-0.00734551 -0.01544735  0.19687332 -0.0469011  -0.06100234  0.05295166]
+ [-0.06704511  0.05120226 -0.09412798 -0.02905025  0.01766283  0.05343021]
+ [-0.06887818  0.09762351  0.17235254 -0.04110263  0.08540253 -0.06754664]
+ [ 0.30585486 -0.20674099  0.24380213  0.26615256 -0.19069438  0.13659681]
+ [ 0.11508743 -0.1856122  -0.05684742 -0.0405706  -0.18179649 -0.02754384]
+ [ 0.05509223 -0.05377506  0.11121323 -0.019008   -0.16806009  0.33896634]
+ [ 0.19085453  0.52316552  0.2060615   0.27130488  0.49973658  0.60942066]
+ [ 0.22496785  0.08743357  0.16384666  0.05639201 -0.07726274  0.45772851]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -311,7 +311,7 @@ model_tf.1_lstm
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.44791964814066887, 'loss_history': []}
+{'loss': 0.5024748146533966, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -392,7 +392,7 @@ model_tf.1_lstm
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.4325075428932905, 'loss_history': []}
+{'loss': 0.4351286441087723, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -526,7 +526,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f8a2ee5bef0> 
+  <mlmodels.example.custom_model.1_lstm.Model object at 0x7fcca5054ef0> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -570,22 +570,22 @@ non-resource variables are not supported in the long term
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
    0.00000000e+00  0.00000000e+00]
- [ 1.01240221e-02  7.89684430e-03  6.21643402e-02  2.47996300e-04
-   6.62313104e-02  1.25358682e-02]
- [-1.51615798e-01  1.15158014e-01  1.37904823e-01  1.40743777e-01
-   4.13158610e-02 -6.04392663e-02]
- [ 3.56371015e-01  1.10934377e-01  6.30050227e-02  2.41569117e-01
-  -5.17228991e-02 -1.58797383e-01]
- [ 2.23760828e-01  6.84569255e-02  2.39897370e-01 -2.68499792e-01
-   1.11177444e-01  2.11148802e-02]
- [-3.75995696e-01  7.35990167e-01  2.89590448e-01 -1.51059568e-01
-   6.52165711e-01 -1.23672560e-02]
- [ 8.70580822e-02 -7.99356773e-02  3.53353113e-01 -2.18635023e-01
-  -1.88042104e-01  4.24605876e-01]
- [-2.69991517e-01 -2.89278388e-01  5.09337187e-01 -5.20398729e-02
-   5.03943443e-01  2.66522467e-01]
- [ 2.11136565e-01 -6.07329726e-01 -2.03325316e-01  4.75932062e-01
-  -4.88190055e-02  1.84391841e-01]
+ [ 3.62894498e-04  2.62218155e-02  5.29301874e-02  7.97686875e-02
+   2.72466093e-02 -5.28303236e-02]
+ [-2.02800751e-01 -1.56965196e-01  8.78779069e-02  1.63712263e-01
+   1.93624124e-01 -1.97495759e-01]
+ [-1.15845710e-01 -7.10423812e-02 -2.92113088e-02  2.70686984e-01
+  -9.35767293e-02  7.07199499e-02]
+ [-1.90864757e-01  1.25366062e-01  3.49944025e-01  1.00753091e-01
+   2.15962589e-01  1.83418274e-01]
+ [ 1.54980451e-01  1.80340901e-01 -3.98373306e-01  1.41439587e-01
+   2.70844772e-02 -1.78007603e-01]
+ [-1.40568972e-01 -3.40926081e-01  1.47820950e-01  3.64191353e-01
+   1.84545234e-01 -3.40617001e-01]
+ [ 2.23478273e-01  3.10342550e-01 -3.59623253e-01 -1.07231013e-01
+  -2.70543158e-01  2.92421937e-01]
+ [ 3.74967337e-01  1.53953969e-01  1.69186637e-01  5.87596953e-01
+   1.80116102e-01 -1.45159423e-01]
  [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
    0.00000000e+00  0.00000000e+00]]
 
@@ -661,7 +661,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.48930495977401733, 'loss_history': []}
+{'loss': 0.5021810308098793, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -737,7 +737,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.4863497409969568, 'loss_history': []}
+{'loss': 0.49561070650815964, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -764,7 +764,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:16:57,430][0m Finished trial#0 resulted in value: 5.483956217765808. Current best value is 5.483956217765808 with parameters: {'learning_rate': 0.05634597348584417, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:32:42,502][0m Finished trial#0 resulted in value: 0.3007148504257202. Current best value is 0.3007148504257202 with parameters: {'learning_rate': 0.0016784685737773633, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -783,7 +783,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:16:58,780][0m Finished trial#1 resulted in value: 0.29303497821092606. Current best value is 0.29303497821092606 with parameters: {'learning_rate': 0.001076912070699971, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:32:44,318][0m Finished trial#1 resulted in value: 2.9916370511054993. Current best value is 0.3007148504257202 with parameters: {'learning_rate': 0.0016784685737773633, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -802,7 +802,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:17:00,632][0m Finished trial#2 resulted in value: 0.43831242620944977. Current best value is 0.29303497821092606 with parameters: {'learning_rate': 0.001076912070699971, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:32:46,128][0m Finished trial#2 resulted in value: 0.31358131766319275. Current best value is 0.3007148504257202 with parameters: {'learning_rate': 0.0016784685737773633, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -821,7 +821,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:17:02,520][0m Finished trial#3 resulted in value: 0.30845289677381516. Current best value is 0.29303497821092606 with parameters: {'learning_rate': 0.001076912070699971, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:32:47,299][0m Finished trial#3 resulted in value: 0.31345992535352707. Current best value is 0.3007148504257202 with parameters: {'learning_rate': 0.0016784685737773633, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -840,7 +840,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:17:04,677][0m Finished trial#4 resulted in value: 1.507424846291542. Current best value is 0.29303497821092606 with parameters: {'learning_rate': 0.001076912070699971, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:32:49,103][0m Finished trial#4 resulted in value: 3.10489159822464. Current best value is 0.3007148504257202 with parameters: {'learning_rate': 0.0016784685737773633, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -888,7 +888,7 @@ Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1l
 
   #############  OPTIMIZATION End ############### 
 
-  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.001076912070699971, 'num_layers': 2, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.29303497821092606, 'model_name': None} 
+  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.0016784685737773633, 'num_layers': 3, 'size': 6, 'size_layer': 256, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.3007148504257202, 'model_name': None} 
 
 
 
@@ -907,7 +907,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:17:11,318][0m Finished trial#0 resulted in value: 1.3275124281644821. Current best value is 1.3275124281644821 with parameters: {'learning_rate': 0.033948521231617367, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:32:55,979][0m Finished trial#0 resulted in value: 0.28300540894269943. Current best value is 0.28300540894269943 with parameters: {'learning_rate': 0.002652183400010015, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -926,7 +926,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:17:13,930][0m Finished trial#1 resulted in value: 12.628900527954102. Current best value is 1.3275124281644821 with parameters: {'learning_rate': 0.033948521231617367, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:32:57,797][0m Finished trial#1 resulted in value: 2.23892605304718. Current best value is 0.28300540894269943 with parameters: {'learning_rate': 0.002652183400010015, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -974,7 +974,7 @@ Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1l
 
   #############  OPTIMIZATION End ############### 
 
-  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.033948521231617367, 'num_layers': 3, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 1.3275124281644821, 'model_name': None} 
+  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.002652183400010015, 'num_layers': 4, 'size': 6, 'size_layer': 256, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.28300540894269943, 'model_name': None} 
 
 
 
@@ -991,7 +991,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:17:20,963][0m Finished trial#0 resulted in value: 0.44367168843746185. Current best value is 0.44367168843746185 with parameters: {'learning_rate': 0.011537085661000177, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:33:04,561][0m Finished trial#0 resulted in value: 0.30846651643514633. Current best value is 0.30846651643514633 with parameters: {'learning_rate': 0.0024874737436266703, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -1010,7 +1010,7 @@ Deprecaton set to False
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[32m[I 2020-06-09 23:17:22,458][0m Finished trial#1 resulted in value: 5.007048845291138. Current best value is 0.44367168843746185 with parameters: {'learning_rate': 0.011537085661000177, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.[0m
+[32m[I 2020-06-10 00:33:06,033][0m Finished trial#1 resulted in value: 2.9787522554397583. Current best value is 0.30846651643514633 with parameters: {'learning_rate': 0.0024874737436266703, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.[0m
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -1171,13 +1171,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fb13eb03ef0> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f301b5c1048> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-09 23:17:39.737894
+  date_run                              2020-06-10 00:33:22.450541
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1185,7 +1185,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-06-09 23:17:39.742389
+  date_run                              2020-06-10 00:33:22.454220
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1193,7 +1193,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-06-09 23:17:39.746289
+  date_run                              2020-06-10 00:33:22.457367
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1201,7 +1201,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-06-09 23:17:39.750120
+  date_run                              2020-06-10 00:33:22.460875
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1622,10 +1622,10 @@ Traceback (most recent call last):
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-06-09 23:17:39.737894  ...    mean_absolute_error
-1  2020-06-09 23:17:39.742389  ...     mean_squared_error
-2  2020-06-09 23:17:39.746289  ...  median_absolute_error
-3  2020-06-09 23:17:39.750120  ...               r2_score
+0  2020-06-10 00:33:22.450541  ...    mean_absolute_error
+1  2020-06-10 00:33:22.454220  ...     mean_squared_error
+2  2020-06-10 00:33:22.457367  ...  median_absolute_error
+3  2020-06-10 00:33:22.460875  ...               r2_score
 
 [4 rows x 6 columns] 
 NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
@@ -1854,13 +1854,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fa9ed12e0f0> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f3fcdd0e4a8> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-09 23:17:57.260555
+  date_run                              2020-06-10 00:33:36.760013
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1868,7 +1868,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-06-09 23:17:57.265144
+  date_run                              2020-06-10 00:33:36.763948
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1876,7 +1876,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-06-09 23:17:57.269655
+  date_run                              2020-06-10 00:33:36.767374
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1884,7 +1884,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-06-09 23:17:57.274115
+  date_run                              2020-06-10 00:33:36.770703
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1908,10 +1908,10 @@ Name: 3, dtype: object
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-06-09 23:17:57.260555  ...    mean_absolute_error
-1  2020-06-09 23:17:57.265144  ...     mean_squared_error
-2  2020-06-09 23:17:57.269655  ...  median_absolute_error
-3  2020-06-09 23:17:57.274115  ...               r2_score
+0  2020-06-10 00:33:36.760013  ...    mean_absolute_error
+1  2020-06-10 00:33:36.763948  ...     mean_squared_error
+2  2020-06-10 00:33:36.767374  ...  median_absolute_error
+3  2020-06-10 00:33:36.770703  ...               r2_score
 
 [4 rows x 6 columns] 
 Traceback (most recent call last):
