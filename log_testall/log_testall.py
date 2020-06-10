@@ -25,9 +25,9 @@
 
   ############Check model ################################ 
 
-  ['model_keras.charcnn_zhang', 'model_keras.charcnn', 'model_keras.namentity_crm_bilstm', 'model_keras.textcnn', 'model_dev.temporal_fusion_google', 'model_tf.1_lstm', 'model_gluon.gluon_automl', 'model_gluon.fb_prophet', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tch.torchhub', 'model_tch.transformer_sentence', 'model_tch.textcnn'] 
+  ['model_dev.temporal_fusion_google', 'model_gluon.gluonts_model_old', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model', 'model_gluon.fb_prophet', 'model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tf.1_lstm', 'model_tch.textcnn', 'model_tch.torchhub', 'model_tch.transformer_sentence', 'model_keras.charcnn', 'model_keras.textcnn', 'model_keras.charcnn_zhang', 'model_keras.namentity_crm_bilstm'] 
 
-  Used ['model_keras.charcnn_zhang', 'model_keras.charcnn', 'model_keras.namentity_crm_bilstm', 'model_keras.textcnn', 'model_dev.temporal_fusion_google', 'model_tf.1_lstm', 'model_gluon.gluon_automl', 'model_gluon.fb_prophet', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tch.torchhub', 'model_tch.transformer_sentence', 'model_tch.textcnn'] 
+  Used ['model_dev.temporal_fusion_google', 'model_gluon.gluonts_model_old', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model', 'model_gluon.fb_prophet', 'model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tf.1_lstm', 'model_tch.textcnn', 'model_tch.torchhub', 'model_tch.transformer_sentence', 'model_keras.charcnn', 'model_keras.textcnn', 'model_keras.charcnn_zhang', 'model_keras.namentity_crm_bilstm'] 
 
 
 
@@ -35,19 +35,11 @@
 
  ********************************************************************************************************************************************
 
-  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py 
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset
-
-  #### Loading params   ############################################## 
-Using TensorFlow backend.
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_dev//temporal_fusion_google.py 
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 261, in <module>
-    test(pars_choice="json", data_path=f"dataset/json/refactor/charcnn_zhang.json")
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 222, in test
-    model_pars, data_pars, compute_pars, out_pars = get_params(param_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//charcnn_zhang.py", line 151, in get_params
-    cf = json.load(open(data_path, mode='r'))
-FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/refactor/charcnn_zhang.json'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_dev//temporal_fusion_google.py", line 17, in <module>
+    from mlmodels.mode_tf.raw  import temporal_fusion_google
+ModuleNotFoundError: No module named 'mlmodels.mode_tf'
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_test", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
