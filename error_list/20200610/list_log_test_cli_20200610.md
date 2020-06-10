@@ -456,10 +456,10 @@
 <br />  benchmark file saved at https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8/mlmodels/example/benchmark/ 
 <br />
 <br />                       date_run  ...            metric_name
-<br />0  2020-06-09 23:17:39.737894  ...    mean_absolute_error
-<br />1  2020-06-09 23:17:39.742389  ...     mean_squared_error
-<br />2  2020-06-09 23:17:39.746289  ...  median_absolute_error
-<br />3  2020-06-09 23:17:39.750120  ...               r2_score
+<br />0  2020-06-10 00:33:22.450541  ...    mean_absolute_error
+<br />1  2020-06-10 00:33:22.454220  ...     mean_squared_error
+<br />2  2020-06-10 00:33:22.457367  ...  median_absolute_error
+<br />3  2020-06-10 00:33:22.460875  ...               r2_score
 <br />
 <br />[4 rows x 6 columns] 
 <br />NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
