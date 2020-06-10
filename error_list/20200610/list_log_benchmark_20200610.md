@@ -376,10 +376,10 @@
 <br />  benchmark file saved at https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8/mlmodels/example/benchmark/timeseries/test02/model_list.json 
 <br />
 <br />                       date_run  ...            metric_name
-<br />0  2020-06-09 16:16:24.124096  ...    mean_absolute_error
-<br />1  2020-06-09 16:16:24.127965  ...     mean_squared_error
-<br />2  2020-06-09 16:16:24.131025  ...  median_absolute_error
-<br />3  2020-06-09 16:16:24.133920  ...               r2_score
+<br />0  2020-06-10 04:16:23.397267  ...    mean_absolute_error
+<br />1  2020-06-10 04:16:23.402404  ...     mean_squared_error
+<br />2  2020-06-10 04:16:23.409191  ...  median_absolute_error
+<br />3  2020-06-10 04:16:23.412750  ...               r2_score
 <br />
 <br />[4 rows x 6 columns] 
 <br />NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
@@ -559,7 +559,7 @@
 <br />    train_iter, valid_iter = get_dataset(data_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7fa59343e0b8> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f962d2346a0> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet50_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet50_2/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/'}} 'data_info' 
 <br />
@@ -607,7 +607,7 @@
 <br />{'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 <br />
 <br />  #### Fit  ####################################################### 
-<br />>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7fa2ebbf44a8> <class 'mlmodels.model_tch.textcnn.Model'>
+<br />>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f0ee10c74e0> <class 'mlmodels.model_tch.textcnn.Model'>
 <br />
 <br />  {'hypermodel_pars': {}, 'data_pars': {'data_path': 'https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': 'https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': 'https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': True}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} 'data_info' 
 <br />
