@@ -135,7 +135,7 @@ Generated Features:
 All Features:
 	int features: 6
 	object features: 8
-	Data preprocessing and feature engineering runtime = 0.24s ...
+	Data preprocessing and feature engineering runtime = 0.27s ...
 AutoGluon will gauge predictive performance using evaluation metric: accuracy
 To change this, specify the eval_metric argument of fit()
 AutoGluon will early stop models using evaluation metric: accuracy
@@ -250,70 +250,35 @@ distributed.utils_perf - WARNING - full garbage collections took 11% CPU time re
 distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
+distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 Saving dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06} and reward: 0.3862
 Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3862
 Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3862
- 40%|████      | 2/5 [00:49<01:14, 24.73s/it]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
-Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-Saving dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Finished Task with config: {'activation.choice': 2, 'dropout_prob': 0.4949955648591323, 'embedding_size_factor': 0.8318326383134909, 'layers.choice': 2, 'learning_rate': 0.0003476569385861313, 'network_type.choice': 0, 'use_batchnorm.choice': 1, 'weight_decay': 2.8668100921819398e-11} and reward: 0.3622
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xdf\xae\x01\xe0\xaf\n\x92X\x15\x00\x00\x00embedding_size_factorq\x03G?\xea\x9e_{)\xa8\xacX\r\x00\x00\x00layers.choiceq\x04K\x02X\r\x00\x00\x00learning_rateq\x05G?6\xc8\xb7.s\xd4KX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G=\xbf\x85Z`\xc8\xb9lu.' and reward: 0.3622
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xdf\xae\x01\xe0\xaf\n\x92X\x15\x00\x00\x00embedding_size_factorq\x03G?\xea\x9e_{)\xa8\xacX\r\x00\x00\x00layers.choiceq\x04K\x02X\r\x00\x00\x00learning_rateq\x05G?6\xc8\xb7.s\xd4KX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G=\xbf\x85Z`\xc8\xb9lu.' and reward: 0.3622
- 60%|██████    | 3/5 [01:38<01:03, 31.91s/it] 60%|██████    | 3/5 [01:38<01:05, 32.71s/it]
+ 40%|████      | 2/5 [00:55<01:22, 27.54s/it] 40%|████      | 2/5 [00:55<01:22, 27.54s/it]
 Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
 Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
 distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
@@ -345,37 +310,35 @@ distributed.utils_perf - WARNING - full garbage collections took 11% CPU time re
 distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
 distributed.utils_perf - WARNING - full garbage collections took 11% CPU time recently (threshold: 10%)
-Saving dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
-Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.26042504955725676, 'embedding_size_factor': 1.1458146636497344, 'layers.choice': 2, 'learning_rate': 0.007707344471025208, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 0.03142652411261196} and reward: 0.3538
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xd0\xaa\xcd\xd3\xba\x16\x12X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf2UA\xc1\xbar\x12X\r\x00\x00\x00layers.choiceq\x04K\x02X\r\x00\x00\x00learning_rateq\x05G?\x7f\x91\xbc\x87\x12\xad.X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\xa0\x17#*\x94\xcc\xa4u.' and reward: 0.3538
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xd0\xaa\xcd\xd3\xba\x16\x12X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf2UA\xc1\xbar\x12X\r\x00\x00\x00layers.choiceq\x04K\x02X\r\x00\x00\x00learning_rateq\x05G?\x7f\x91\xbc\x87\x12\xad.X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\xa0\x17#*\x94\xcc\xa4u.' and reward: 0.3538
+Saving dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
+Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.049543580166962156, 'embedding_size_factor': 0.7964472639101674, 'layers.choice': 1, 'learning_rate': 0.0007277691838000061, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 0.012648419654972938} and reward: 0.3762
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xa9]\xc6\xb1\x16tbX\x15\x00\x00\x00embedding_size_factorq\x03G?\xe9|~\xf8\xefs\x82X\r\x00\x00\x00layers.choiceq\x04K\x01X\r\x00\x00\x00learning_rateq\x05G?G\xd8\xf8k\xf6k\x80X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\x89\xe7j&\x1d\x10\xe4u.' and reward: 0.3762
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xa9]\xc6\xb1\x16tbX\x15\x00\x00\x00embedding_size_factorq\x03G?\xe9|~\xf8\xefs\x82X\r\x00\x00\x00layers.choiceq\x04K\x01X\r\x00\x00\x00learning_rateq\x05G?G\xd8\xf8k\xf6k\x80X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\x89\xe7j&\x1d\x10\xe4u.' and reward: 0.3762
 Please either provide filename or allow plot in get_training_curves
-Time for Neural Network hyperparameter optimization: 148.2747881412506
+Time for Neural Network hyperparameter optimization: 141.40441823005676
 Best hyperparameter configuration for Tabular Neural Network: 
 {'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06}
 Saving dataset/models/trainer.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Loading: dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
-Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.76s of the -30.91s of remaining time.
-Ensemble size: 41
+Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.73s of the -23.42s of remaining time.
+Ensemble size: 10
 Ensemble weights: 
-[0.6097561  0.24390244 0.14634146]
-	0.3904	 = Validation accuracy score
-	0.99s	 = Training runtime
+[0.9 0.1]
+	0.3864	 = Validation accuracy score
+	0.9s	 = Training runtime
 	0.0s	 = Validation runtime
 Saving dataset/models/weighted_ensemble_k0_l1/model.pkl
 Saving dataset/models/trainer.pkl
 Saving dataset/models/trainer.pkl
 Saving dataset/models/trainer.pkl
-AutoGluon training complete, total runtime = 151.94s ...
+AutoGluon training complete, total runtime = 144.35s ...
 Loading: dataset/models/trainer.pkl
 Loaded data from: https://autogluon.s3.amazonaws.com/datasets/Inc/test.csv | Columns = 15 / 15 | Rows = 9769 -> 9769
 Loading: dataset/models/trainer.pkl
 Loading: dataset/models/weighted_ensemble_k0_l1/model.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Loading: dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
 
 
 
