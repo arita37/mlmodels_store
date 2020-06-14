@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/77c2c9f427106a88e922f586a543b21e10cfaf22', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '77c2c9f427106a88e922f586a543b21e10cfaf22', 'workflow': 'test_json'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/525b5a33511bef1b32994ba341cc4ff09d4ffc92', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '525b5a33511bef1b32994ba341cc4ff09d4ffc92', 'workflow': 'test_json'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_json
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/77c2c9f427106a88e922f586a543b21e10cfaf22
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/525b5a33511bef1b32994ba341cc4ff09d4ffc92
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/77c2c9f427106a88e922f586a543b21e10cfaf22
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/525b5a33511bef1b32994ba341cc4ff09d4ffc92
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/77c2c9f427106a88e922f586a543b21e10cfaf22
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/525b5a33511bef1b32994ba341cc4ff09d4ffc92
 
  ************************************************************************************************************************
 
@@ -496,7 +496,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -519,7 +519,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -546,7 +546,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -569,7 +569,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -596,7 +596,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -619,7 +619,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -646,7 +646,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -669,7 +669,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -696,7 +696,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -719,7 +719,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -746,7 +746,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -769,7 +769,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -796,7 +796,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -819,7 +819,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -846,7 +846,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -869,7 +869,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
   
 
@@ -901,7 +901,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -924,7 +924,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -951,7 +951,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -974,7 +974,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -1001,7 +1001,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -1024,7 +1024,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -1051,7 +1051,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -1074,7 +1074,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -1101,7 +1101,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -1124,7 +1124,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -1151,7 +1151,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -1174,7 +1174,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -1201,7 +1201,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -1224,7 +1224,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
 
 
@@ -1251,7 +1251,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 781, in get_code
   File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 152
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
     if d ==  "single_dataframe" :
                                 ^
 SyntaxError: invalid syntax
@@ -1274,7 +1274,7 @@ Traceback (most recent call last):
     module = module_load(model_uri)  # '1_lstm.py
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
     raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 152), tuple index out of range
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
 
   
 
@@ -1413,7 +1413,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2f1263cf28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f898449db00> 
 Downloading: "https://github.com/pytorch/vision/archive/master.zip" to /home/runner/.cache/torch/hub/master.zip
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1473,7 +1473,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f0e9d48b080> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8ab29ceef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1533,7 +1533,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9b7966cef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f10ecd7eef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1593,7 +1593,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f70c8813ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1597c5aa90> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1653,7 +1653,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f15211c3470> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f73924b6ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1713,7 +1713,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fae7b9a1470> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f479499eef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1773,7 +1773,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f98044a4470> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2b04011828> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1833,7 +1833,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f741710bb38> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ff307b65ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1893,7 +1893,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f27d957cef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd88bc22a58> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -1953,7 +1953,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb8e3a022e8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8f45ca3f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2013,7 +2013,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f3e7641bba8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f066d24f7f0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2073,7 +2073,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f79de9c7320> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f40cacf5d68> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2133,7 +2133,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb2006ec470> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f04e377aef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2193,7 +2193,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb97674be10> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f42af008ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2253,7 +2253,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f483f288c18> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7efe6abd6ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2313,7 +2313,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc6aee95278> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f601c6b9ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2373,7 +2373,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f809b041ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe6f612ff28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2433,7 +2433,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7eff5378eef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f06abb31f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2493,7 +2493,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fdd1cf58f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f56aed82128> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2553,7 +2553,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f3097048978> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f5a18cde400> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2613,7 +2613,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fab36ca0ef0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f2c11676ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2673,7 +2673,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fa80e792f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f79c3a97ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2733,7 +2733,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd74888a8d0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4ae7d94ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2793,7 +2793,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f43c3feff28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f47b8b90ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2853,7 +2853,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7effffcaa278> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f41960a4ef0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2913,7 +2913,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7faf49e16f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f26dfa971d0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
@@ -2974,7 +2974,7 @@ fit
   ##### Init model_tch.textcnn.py {'path': './output/text_cnn_tch/model.h5', 'model_uri': 'model_tch.textcnn.py'} 
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
-  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7fb29ddbff98> 
+  ##### Fit <mlmodels.model_tch.textcnn.Model object at 0x7fef5a92c5f8> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -3310,7 +3310,7 @@ Trainable params: 77,819
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7fddf5378cc0> 
+  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7f4fdd44bac8> 
 Loading data...
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_models", line 11, in <module>
