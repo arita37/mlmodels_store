@@ -11,17 +11,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84', 'workflow': 'test_cli'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/f1ce23e9cb794872eefb19caa4993f2afcec109d', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'f1ce23e9cb794872eefb19caa4993f2afcec109d', 'workflow': 'test_cli'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_cli
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/f1ce23e9cb794872eefb19caa4993f2afcec109d
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/f1ce23e9cb794872eefb19caa4993f2afcec109d
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/f1ce23e9cb794872eefb19caa4993f2afcec109d
 
  ************************************************************************************************************************
 Using : /home/runner/work/mlmodels/mlmodels/mlmodels/../README_usage_CLI.md
@@ -101,7 +101,7 @@ WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/sit
 Instructions for updating:
 non-resource variables are not supported in the long term
 
-  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7ff1653a8908> 
+  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7f3d84702940> 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -119,7 +119,7 @@ non-resource variables are not supported in the long term
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
 
-  ##### Save <tensorflow.python.client.session.Session object at 0x7ff165aa45c0> 
+  ##### Save <tensorflow.python.client.session.Session object at 0x7f3d84e015c0> 
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/', 'model_uri': 'model_tf.1_lstm'}
 Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm//model//model.ckpt
 
@@ -145,7 +145,7 @@ non-resource variables are not supported in the long term
 Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/model
 Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/model
 
-  ##### Predict: <tensorflow.python.client.session.Session object at 0x7f32c4385eb8> 
+  ##### Predict: <tensorflow.python.client.session.Session object at 0x7f854e6fdfd0> 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
          Date        Open        High  ...       Close   Adj Close   Volume
@@ -189,7 +189,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7f90a1564cc0> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7f273d55abe0> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -232,14 +232,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [-0.08360069 -0.15484717 -0.01310611  0.08994325  0.11519444 -0.05996345]
- [-0.13567041  0.22820874 -0.13067941 -0.08330404 -0.13859148 -0.01298169]
- [ 0.09811956 -0.00506456 -0.07276316  0.13450424  0.22082877  0.00698027]
- [ 0.48200205  0.0768597  -0.18364975 -0.08560184 -0.00592089 -0.15523389]
- [ 0.53505725  0.04206545  0.13406469  0.23850852 -0.30903924  0.14391585]
- [ 0.37160403  0.67546433 -0.28669018 -0.55192262  0.25878844  0.11186297]
- [-0.59267199  0.21678215 -0.76946563 -0.52961487 -0.13831285 -0.87472028]
- [-0.06856806  0.48978621 -0.02435311 -0.07472163  0.25067586 -0.03136311]
+ [ 0.00521198 -0.02258504 -0.02589246  0.05207204 -0.00428322  0.06865393]
+ [ 0.09640625  0.00979952 -0.05494266  0.00872205  0.32262725  0.15047361]
+ [ 0.09002192  0.22816491  0.01476413 -0.04370128  0.04175862  0.09373407]
+ [ 0.21277514 -0.23261884  0.50838095  0.10280162  0.05029485  0.47698671]
+ [ 0.06093496 -0.35846388 -0.29724047  0.18277425  0.17626803 -0.15847765]
+ [ 0.22337167  0.24144477 -0.04867275 -0.14831212 -0.15310854 -0.0327559 ]
+ [ 0.09804711 -0.48014703 -0.17500484 -0.60137796  0.14063442  0.26535079]
+ [-0.04321723  0.06213854  0.01205584 -0.00488726  0.05059952  0.18132871]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -314,7 +314,7 @@ model_tf.1_lstm
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.39253848418593407, 'loss_history': []}
+{'loss': 0.3984237313270569, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -395,7 +395,7 @@ model_tf.1_lstm
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.42972778528928757, 'loss_history': []}
+{'loss': 0.5237950161099434, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -529,7 +529,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.example.custom_model.1_lstm.Model object at 0x7fc2489faf98> 
+  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f8fa496bf98> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -571,16 +571,26 @@ non-resource variables are not supported in the long term
 7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-[[ 0.          0.          0.          0.          0.          0.        ]
- [-0.09815741 -0.14836782  0.01244393 -0.13117567  0.07907093  0.0858603 ]
- [-0.16792299 -0.05864275 -0.09491693  0.05795239  0.04247384 -0.01222302]
- [ 0.07521702  0.08360679  0.02309544  0.06967226  0.03995552  0.10444615]
- [-0.14273657  0.03662703  0.14975624  0.15985328  0.29581121  0.10213996]
- [-0.20662169  0.0818176  -0.43378621  0.133966   -0.4506467  -0.03034313]
- [ 0.36233038  0.36407408  1.04816389  0.31483459  0.61666393  0.35604888]
- [ 0.48571587  0.317891    0.29607174 -0.22449379  0.09635457  0.01583625]
- [ 0.44643298  0.05340534  0.26229897  0.25497586 -0.00440882 -0.05427878]
- [ 0.          0.          0.          0.          0.          0.        ]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [-5.16817346e-02  2.08929703e-02 -5.23925014e-02 -2.62385786e-01
+   8.33100528e-02  8.73347670e-02]
+ [-9.67212021e-02  4.34234105e-02 -5.06955013e-03 -2.53235757e-01
+  -2.31597666e-02  2.82322336e-02]
+ [-8.33956823e-02  9.71861556e-03  1.62758484e-01 -7.35791400e-02
+   2.46826097e-01 -4.84776348e-02]
+ [ 1.46753071e-02  2.71122064e-03 -2.20414251e-04 -3.39705467e-01
+   4.26825732e-01  8.28686580e-02]
+ [-5.22342682e-01  1.39837354e-01  3.78998458e-01 -4.99907315e-01
+   1.02407493e-01 -1.69291079e-01]
+ [ 3.12557630e-02 -2.54472345e-01  5.32261670e-01 -2.41978243e-01
+   1.18930303e-02  2.08653450e-01]
+ [ 9.88885641e-01 -3.21953505e-01 -1.49954231e-02 -1.93216816e-01
+  -5.57266533e-01  7.57958531e-01]
+ [-8.71100366e-01  1.25829637e-01 -4.98640865e-01  1.25985876e-01
+  -1.26097091e-02  3.36327106e-02]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]]
 
   #### Get  metrics   ################################################ 
 
@@ -654,7 +664,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.5398301519453526, 'loss_history': []}
+{'loss': 0.5285178944468498, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -730,7 +740,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.5725307017564774, 'loss_history': []}
+{'loss': 0.46234678477048874, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -773,7 +783,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:23,109] Finished trial#0 resulted in value: 0.30386239290237427. Current best value is 0.30386239290237427 with parameters: {'learning_rate': 0.0028980701641336923, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:06,763] Finished trial#0 resulted in value: 9.677626132965088. Current best value is 9.677626132965088 with parameters: {'learning_rate': 0.0799006833883946, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
@@ -792,7 +802,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:24,917] Finished trial#1 resulted in value: 2.63774810731411. Current best value is 0.30386239290237427 with parameters: {'learning_rate': 0.0028980701641336923, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:08,444] Finished trial#1 resulted in value: 0.4824393540620804. Current best value is 0.4824393540620804 with parameters: {'learning_rate': 0.01040259293635931, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
@@ -811,7 +821,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:26,418] Finished trial#2 resulted in value: 0.3142273351550102. Current best value is 0.30386239290237427 with parameters: {'learning_rate': 0.0028980701641336923, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:10,128] Finished trial#2 resulted in value: 0.6100840270519257. Current best value is 0.4824393540620804 with parameters: {'learning_rate': 0.01040259293635931, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
@@ -830,7 +840,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:28,486] Finished trial#3 resulted in value: 0.535301610827446. Current best value is 0.30386239290237427 with parameters: {'learning_rate': 0.0028980701641336923, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:11,818] Finished trial#3 resulted in value: 0.3052340969443321. Current best value is 0.3052340969443321 with parameters: {'learning_rate': 0.001135445955136046, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
@@ -849,7 +859,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:30,495] Finished trial#4 resulted in value: 16.1017165184021. Current best value is 0.30386239290237427 with parameters: {'learning_rate': 0.0028980701641336923, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:13,825] Finished trial#4 resulted in value: 0.3411998152732849. Current best value is 0.3052340969443321 with parameters: {'learning_rate': 0.001135445955136046, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
 
  ################################### Optim, finished ###################################
 
@@ -881,7 +891,7 @@ Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1l
 
   #############  OPTIMIZATION End ############### 
 
-  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.0028980701641336923, 'num_layers': 3, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.30386239290237427, 'model_name': None} 
+  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.001135445955136046, 'num_layers': 3, 'size': 6, 'size_layer': 256, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.3052340969443321, 'model_name': None} 
 
 
 
@@ -916,7 +926,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:37,720] Finished trial#0 resulted in value: 0.30923617631196976. Current best value is 0.30923617631196976 with parameters: {'learning_rate': 0.0010558938233937898, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:21,600] Finished trial#0 resulted in value: 0.36565668880939484. Current best value is 0.36565668880939484 with parameters: {'learning_rate': 0.00462141598650255, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
@@ -935,7 +945,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:39,600] Finished trial#1 resulted in value: 1.3357461988925934. Current best value is 0.30923617631196976 with parameters: {'learning_rate': 0.0010558938233937898, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:22,861] Finished trial#1 resulted in value: 1.9901122450828552. Current best value is 0.36565668880939484 with parameters: {'learning_rate': 0.00462141598650255, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
 
  ################################### Optim, finished ###################################
 
@@ -967,7 +977,7 @@ Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1l
 
   #############  OPTIMIZATION End ############### 
 
-  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.0010558938233937898, 'num_layers': 4, 'size': 6, 'size_layer': 256, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.30923617631196976, 'model_name': None} 
+  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.00462141598650255, 'num_layers': 4, 'size': 6, 'size_layer': 256, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.36565668880939484, 'model_name': None} 
 
 
 
@@ -1000,7 +1010,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:47,220] Finished trial#0 resulted in value: 0.5972348898649216. Current best value is 0.5972348898649216 with parameters: {'learning_rate': 0.027443466726552946, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:30,803] Finished trial#0 resulted in value: 11.622367143630981. Current best value is 11.622367143630981 with parameters: {'learning_rate': 0.07090465968674707, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
@@ -1019,7 +1029,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-06-16 23:17:49,254] Finished trial#1 resulted in value: 0.3121636062860489. Current best value is 0.3121636062860489 with parameters: {'learning_rate': 0.0012409689713934336, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
+[I 2020-06-17 14:40:32,407] Finished trial#1 resulted in value: 1.4661691784858704. Current best value is 1.4661691784858704 with parameters: {'learning_rate': 0.030727206643726208, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
 
  ################################### Optim, finished ###################################
 
@@ -1164,13 +1174,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f59506d62e8> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f8efc1c3f98> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-16 23:18:05.627417
+  date_run                              2020-06-17 14:40:48.831857
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1178,7 +1188,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-06-16 23:18:05.631171
+  date_run                              2020-06-17 14:40:48.835295
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1186,7 +1196,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-06-16 23:18:05.634600
+  date_run                              2020-06-17 14:40:48.838334
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1194,7 +1204,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-06-16 23:18:05.638146
+  date_run                              2020-06-17 14:40:48.841318
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1244,148 +1254,166 @@ Non-trainable params: 0
 _________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.armdn.Model object at 0x7f594b05c9e8> <class 'mlmodels.model_keras.armdn.Model'>
+>>>model:  <mlmodels.model_keras.armdn.Model object at 0x7f8ef34b35f8> <class 'mlmodels.model_keras.armdn.Model'>
 
   #### Loading dataset   ############################################# 
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Epoch 1/10
 
-1/1 [==============================] - 2s 2s/step - loss: 352171.7188
+1/1 [==============================] - 2s 2s/step - loss: 355725.3438
 Epoch 2/10
 
-1/1 [==============================] - 0s 96ms/step - loss: 262025.4375
+1/1 [==============================] - 0s 96ms/step - loss: 233542.7969
 Epoch 3/10
 
-1/1 [==============================] - 0s 92ms/step - loss: 180473.6094
+1/1 [==============================] - 0s 89ms/step - loss: 122831.7969
 Epoch 4/10
 
-1/1 [==============================] - 0s 89ms/step - loss: 113081.9219
+1/1 [==============================] - 0s 89ms/step - loss: 55815.2891
 Epoch 5/10
 
-1/1 [==============================] - 0s 90ms/step - loss: 65158.8672
+1/1 [==============================] - 0s 91ms/step - loss: 25697.6582
 Epoch 6/10
 
-1/1 [==============================] - 0s 88ms/step - loss: 36909.3398
+1/1 [==============================] - 0s 90ms/step - loss: 13567.2129
 Epoch 7/10
 
-1/1 [==============================] - 0s 90ms/step - loss: 21839.9766
+1/1 [==============================] - 0s 89ms/step - loss: 8202.5879
 Epoch 8/10
 
-1/1 [==============================] - 0s 90ms/step - loss: 13913.3906
+1/1 [==============================] - 0s 93ms/step - loss: 5603.2695
 Epoch 9/10
 
-1/1 [==============================] - 0s 88ms/step - loss: 9592.2695
+1/1 [==============================] - 0s 90ms/step - loss: 4152.4312
 Epoch 10/10
 
-1/1 [==============================] - 0s 93ms/step - loss: 7088.6450
+1/1 [==============================] - 0s 89ms/step - loss: 3289.7561
 
   #### Inference Need return ypred, ytrue ######################### 
-[[  0.6486902   -0.17961514  -1.345377    -2.2871737   -0.6430194
-    1.2550188   -0.55131567  -0.9915526   -0.8269017    1.0485384
-   -0.15876603   0.5228001   -2.5461223   -0.18395156   0.5792437
-    1.5361767    0.638331     1.0109522   -0.1482847    0.11246631
-   -0.05462742  -0.40915      0.68153495   0.10222745  -1.2887332
-   -1.2013881   -0.18919265  -0.04853821   0.6977643   -0.8985176
-   -2.1608944   -1.1789482   -0.17716235  -0.43178314  -0.18681908
-    0.12332344  -0.96268094  -1.0871404    0.13628268  -0.7786283
-    0.12118024   1.0342199    0.06625655  -0.07128322  -0.7892015
-    1.518953     0.17569315   0.42305702   0.66274464   0.08569272
-    1.045739    -1.8873988    0.83057535   0.2487781   -0.40649456
-    1.4671767    0.7807416    0.41549414   1.2865268    0.0618313
-   -0.01804335   6.005548     8.254074     7.842276     7.392768
-    7.907895    10.122587     9.134693     8.204574     6.9383664
-    7.2906713    9.342687     8.198704     8.12756      6.3157086
-    8.245816     7.1208053    6.005742     8.866042     8.211977
-    8.40361     10.400459     9.337425     8.492796    10.3013115
-    8.282441     6.562765     9.35834      9.019197     8.402482
-    6.8180614    9.19212      6.891649     7.1986566    7.5692635
-    7.8242874    7.6053944    6.9562445    9.32003      8.08647
-    8.63427      8.78512      8.304974    10.097395     7.785316
-    8.500445     8.643987     8.455802     6.824654     7.7715116
-    6.1380925    8.639217     6.9444027    6.815485     7.2592983
-    9.075589     8.806239     7.574344     8.798367     6.6030173
-    1.0656955   -0.9870547   -0.2895503   -0.5538223    0.04296367
-    1.4479089   -2.0719974   -0.6094003   -0.6185856   -0.53270125
-    0.28748462   0.15339395  -0.71968853   1.4818836   -0.02173209
-    0.3837739    0.52882206  -1.3938961    0.24807256  -1.2026731
-    0.64780366  -1.1510676    0.6351387   -1.3714297   -0.30371463
-    0.15067586  -1.259948    -1.2793105    0.9507104    0.04822451
-   -0.7440053   -1.3301802   -0.16688727  -0.8694255    0.05277884
-    1.2521474   -0.06430647   1.4390888   -0.5437544    1.3729696
-    1.7721913   -0.6948292    2.2217634   -0.13318807  -0.29064542
-    0.50831074   0.05989943  -0.8910022    1.1443521    1.4403958
-   -1.4994106    0.11174212  -1.0742286    0.06391955  -1.0994321
-   -0.82804465   1.7093309   -1.834026    -0.9091841   -2.0022838
-    2.0170457    0.8143412    0.78316176   0.3317337    0.46689934
-    1.271712     1.3362987    0.28411812   1.9907665    1.6007682
-    1.5007229    2.2541761    0.58587515   2.3017101    1.8920537
-    0.9425511    0.50968313   1.4805162    1.1571429    0.23256731
-    2.9697547    1.7219267    1.8002955    2.009482     1.7512257
-    1.2074363    0.3426382    2.4441786    1.5649096    0.74118173
-    1.7719225    1.979406     1.7268771    1.0184535    0.6706797
-    0.6932208    2.234499     0.52453685   1.6112683    1.0698903
-    0.38645756   0.34532642   1.3770516    0.49879205   0.28905642
-    0.2909397    0.78154707   0.74987024   0.5527407    0.38210082
-    1.4738507    0.19418973   0.55747217   0.50920784   0.8534609
-    1.2482799    0.4944107    0.18000591   0.18800163   0.41579014
-    0.09680265   5.900442     7.116419    10.320893     7.042869
-    8.93488      8.738915     7.651213     6.795668     9.355751
-    8.572159     9.271256     8.569361     8.497037     7.5523734
-    8.700629     8.272892     8.581124     7.403738    10.428116
-   10.21909      9.142781     9.237294     8.787796    10.0609865
-    7.845864     8.084291     8.701797     7.5501633    7.561467
-    9.265033     9.53346      8.165388     8.622845     8.370084
-    8.732225     8.044828     7.2886167    9.570925     6.0442185
-    8.881849     8.13819      9.061701     6.68034      6.9590516
-    7.60811      7.2916303    6.469012     8.593605     7.4141617
-    6.8342633    9.617122     9.034528     9.852108     8.559258
-    8.783452     8.111894     8.200632     9.228812     8.166197
-    0.7679874    1.0972462    1.8768272    0.6518541    1.587786
-    1.012972     2.1295853    0.5867658    0.34293723   1.3563025
-    0.39880306   0.8006706    0.70862496   0.20246547   0.36195773
-    0.7248136    0.8977778    0.40836024   0.24417311   1.7534784
-    0.31648088   0.58423615   1.4044137    2.7114518    1.3876047
-    0.44202912   0.76604223   0.13047409   1.0154569    0.14176261
-    1.5566721    1.1368368    1.2545888    0.12066281   0.9822806
-    1.1157627    1.1198565    1.2273711    0.65887016   1.163256
-    0.11104947   0.609869     1.1014967    1.5460793    0.646037
-    0.21881104   1.4536393    0.15854537   0.38041073   1.2035184
-    1.4314585    1.5947503    0.6607872    0.378057     0.26697898
-    0.49316144   0.4257977    0.62632686   1.9477651    2.8935795
-  -14.619696    11.193277    -4.917389  ]]
+[[-7.54356861e-01  1.29324913e+01  1.31931210e+01  1.25303688e+01
+   1.38308372e+01  1.20055475e+01  1.19101381e+01  1.27207260e+01
+   1.37431669e+01  1.31945887e+01  1.04000387e+01  1.35795231e+01
+   1.10464630e+01  1.25210171e+01  1.11212072e+01  1.33332968e+01
+   1.22227592e+01  1.37028780e+01  1.33613300e+01  1.35343971e+01
+   1.25309753e+01  1.25546246e+01  1.27110786e+01  1.10526609e+01
+   1.12823973e+01  1.37381058e+01  1.09459658e+01  1.36205845e+01
+   1.38302565e+01  1.37413673e+01  1.28763056e+01  1.29214621e+01
+   1.32902336e+01  1.09359131e+01  1.29844074e+01  1.13212051e+01
+   1.30380030e+01  1.24113483e+01  1.44916697e+01  1.39646320e+01
+   1.26143217e+01  1.51490793e+01  1.26914244e+01  1.40400095e+01
+   1.38706360e+01  1.34443178e+01  1.27409954e+01  1.41120939e+01
+   1.32563505e+01  1.15630360e+01  1.25085230e+01  1.41963339e+01
+   1.49878683e+01  1.28233118e+01  1.20303984e+01  1.55098724e+01
+   1.38007088e+01  1.19705839e+01  1.31854877e+01  1.23502178e+01
+  -7.25026548e-01  2.12208438e+00 -1.00472581e+00 -1.88520506e-01
+  -2.10219502e+00 -4.49241042e-01 -4.66103196e-01  2.07081699e+00
+  -8.79514694e-01 -9.44898278e-02  1.29311240e+00 -3.25443411e+00
+   1.89533544e+00  1.66316259e+00  1.48226678e-01 -1.80173910e+00
+  -5.83724082e-01 -6.54971838e-01  1.20267189e+00 -7.94192076e-01
+  -3.02775837e-02 -1.03981245e+00  6.53475583e-01 -1.54844487e+00
+   1.51018143e-01  3.31880188e+00 -7.00178146e-01 -5.24781823e-01
+   3.36038053e-01  2.88633287e-01  8.94190729e-01 -1.73452049e-01
+  -1.01470244e+00  4.90618646e-01  3.17364287e+00 -6.30140066e-01
+  -1.35078847e+00  8.57224107e-01  1.41207504e+00  6.07765853e-01
+  -1.59441543e+00 -1.46920943e+00 -2.81537080e+00  2.58104384e-01
+  -7.00634897e-01  1.63811386e-01 -1.43425584e-01 -1.09329975e+00
+  -6.19389296e-01  4.80645895e-03  1.91534460e+00  1.03865981e-01
+   1.04821420e+00  4.75817800e-01 -2.39557326e-02 -6.29535377e-01
+   1.34476328e+00 -2.22299957e+00 -7.58455470e-02 -3.11820418e-01
+   1.27361333e+00  1.12891781e+00 -1.40829349e+00 -2.01744452e-01
+  -6.04257703e-01  7.21394360e-01  5.57517409e-01  2.93216705e-02
+   2.41995287e+00  5.98216236e-01  4.53236699e-02  1.07844949e-01
+  -1.17965794e+00 -6.72893167e-01  6.89842999e-02  2.14281845e+00
+   6.82803035e-01  1.55266511e+00 -5.53151786e-01  2.20420074e+00
+   1.91611552e+00 -1.12367094e+00 -1.43282509e+00 -1.66138339e+00
+  -8.76304150e-01  2.12233973e+00  1.34706438e-01 -2.03881964e-01
+  -6.11929059e-01 -2.68629789e-01  4.30332363e-01  2.61578417e+00
+   2.41946220e+00 -1.36932325e+00 -4.89424944e-01 -4.71147478e-01
+  -9.71121788e-01 -2.10944355e-01  1.40517914e+00  4.42626983e-01
+   9.16404724e-01 -5.46466112e-02  5.56320310e-01  9.13259864e-01
+  -1.52119792e+00  1.09463722e-01  1.04718494e+00 -4.69596714e-01
+  -2.05310249e+00 -7.86461830e-01  5.20932436e-01 -6.54348612e-01
+  -1.20966136e+00 -2.27532649e+00  1.93700576e+00  1.89454782e+00
+  -2.99529696e+00  1.06621730e+00 -4.32891130e-01  6.25846267e-01
+   7.85866380e-01  1.16569138e+01  1.37617645e+01  1.16814051e+01
+   1.28121796e+01  1.20494299e+01  1.25274134e+01  1.20573816e+01
+   1.20091734e+01  1.33692751e+01  1.19289808e+01  1.23634043e+01
+   1.17035313e+01  1.31859779e+01  1.34277830e+01  1.34865379e+01
+   1.07775078e+01  1.11499882e+01  1.42340307e+01  1.43778419e+01
+   1.17710876e+01  1.27134619e+01  1.05359526e+01  1.38985233e+01
+   1.19517736e+01  1.34381781e+01  1.07749081e+01  1.24217205e+01
+   1.37496328e+01  1.11425734e+01  1.13044109e+01  1.26502914e+01
+   1.14263906e+01  1.12041302e+01  1.31644888e+01  1.20137043e+01
+   1.27331753e+01  1.24211311e+01  1.33406763e+01  1.22991323e+01
+   1.27655649e+01  1.10673742e+01  1.24475183e+01  1.27076302e+01
+   1.26876507e+01  1.12127209e+01  1.31296835e+01  1.30762281e+01
+   1.23547649e+01  1.19274111e+01  1.09950142e+01  1.11897659e+01
+   1.10359592e+01  1.45106354e+01  1.13215675e+01  1.23152523e+01
+   1.16265030e+01  1.36471338e+01  1.19078617e+01  1.39219713e+01
+   9.50871766e-01  1.73245978e+00  2.17562819e+00  6.10776544e-01
+   1.04986060e+00  1.07746339e+00  3.14214945e-01  9.94168401e-01
+   8.18561673e-01  2.80370712e+00  2.39626741e+00  4.76391196e-01
+   1.04922771e-01  1.31394184e+00  7.94403553e-01  1.56925178e+00
+   3.42759967e-01  2.57738876e+00  6.22376561e-01  8.04140091e-01
+   3.22241449e+00  9.20276344e-01  1.82930493e+00  3.38603854e-01
+   1.56001616e+00  1.72061920e+00  1.11197591e+00  2.22748399e-01
+   3.56957388e+00  5.90947270e-01  1.29155755e-01  2.80634642e-01
+   3.04799378e-01  2.60533595e+00  2.25736237e+00  2.70526171e+00
+   8.15168142e-01  1.73800278e+00  7.30714560e-01  1.15383279e+00
+   1.25376439e+00  1.83813334e+00  3.48397493e+00  2.65585780e-01
+   1.63321495e-01  2.13320780e+00  1.46030903e-01  7.05260634e-02
+   2.44632912e+00  1.54471779e+00  4.02984619e-01  2.23569393e+00
+   3.37254524e+00  5.85357964e-01  2.13089132e+00  1.35334277e+00
+   4.98083591e-01  4.25977111e-01  4.25179243e-01  1.03319526e-01
+   2.31417274e+00  3.21458817e-01  9.42678094e-01  7.56066263e-01
+   3.41098785e-01  1.58919215e-01  3.17048728e-01  1.10013902e+00
+   2.54757118e+00  1.65351403e+00  2.28056002e+00  8.86365116e-01
+   9.54358101e-01  1.89407587e-01  2.98880577e-01  2.99449742e-01
+   1.70139742e+00  1.29899120e+00  2.98108006e+00  1.04031003e+00
+   2.49762583e+00  1.28105545e+00  4.79176879e-01  1.13667488e+00
+   2.73466158e+00  5.35230458e-01  1.21210599e+00  1.94699848e+00
+   1.74345613e-01  4.43792760e-01  1.91901052e+00  2.35502100e+00
+   1.05951667e-01  2.66046000e+00  7.58229136e-01  9.85663354e-01
+   1.63690090e-01  2.78476501e+00  2.25509787e+00  2.12907135e-01
+   2.80250490e-01  2.68241358e+00  1.74135947e+00  2.95459270e-01
+   2.20847893e+00  1.80169821e-01  2.03260541e-01  1.36786091e+00
+   6.60278440e-01  3.29944611e-01  2.62680888e-01  1.88338137e+00
+   2.75242233e+00  1.85744762e-01  1.95365310e+00  2.88756847e-01
+   3.14490676e-01  3.37848246e-01  9.79633868e-01  1.07883799e+00
+   1.04072821e+00 -1.26699600e+01 -1.37523270e+01]]
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-16 23:18:13.782670
+  date_run                              2020-06-17 14:40:57.109721
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   93.7635
+metric                                                   89.7499
 metric_name                                  mean_absolute_error
 Name: 4, dtype: object 
 
-  date_run                              2020-06-16 23:18:13.786223
+  date_run                              2020-06-17 14:40:57.113339
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   8823.21
+metric                                                   8086.89
 metric_name                                   mean_squared_error
 Name: 5, dtype: object 
 
-  date_run                              2020-06-16 23:18:13.789176
+  date_run                              2020-06-17 14:40:57.116477
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   94.4355
+metric                                                   89.3637
 metric_name                                median_absolute_error
 Name: 6, dtype: object 
 
-  date_run                              2020-06-16 23:18:13.792196
+  date_run                              2020-06-17 14:40:57.119501
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  -789.181
+metric                                                  -723.238
 metric_name                                             r2_score
 Name: 7, dtype: object 
 
@@ -1788,14 +1816,14 @@ Traceback (most recent call last):
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-06-16 23:18:05.627417  ...    mean_absolute_error
-1  2020-06-16 23:18:05.631171  ...     mean_squared_error
-2  2020-06-16 23:18:05.634600  ...  median_absolute_error
-3  2020-06-16 23:18:05.638146  ...               r2_score
-4  2020-06-16 23:18:13.782670  ...    mean_absolute_error
-5  2020-06-16 23:18:13.786223  ...     mean_squared_error
-6  2020-06-16 23:18:13.789176  ...  median_absolute_error
-7  2020-06-16 23:18:13.792196  ...               r2_score
+0  2020-06-17 14:40:48.831857  ...    mean_absolute_error
+1  2020-06-17 14:40:48.835295  ...     mean_squared_error
+2  2020-06-17 14:40:48.838334  ...  median_absolute_error
+3  2020-06-17 14:40:48.841318  ...               r2_score
+4  2020-06-17 14:40:57.109721  ...    mean_absolute_error
+5  2020-06-17 14:40:57.113339  ...     mean_squared_error
+6  2020-06-17 14:40:57.116477  ...  median_absolute_error
+7  2020-06-17 14:40:57.119501  ...               r2_score
 
 [8 rows x 6 columns] 
 IndexError: tuple index out of range
@@ -1868,148 +1896,166 @@ Non-trainable params: 0
 _________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.armdn.Model object at 0x7ff99e16eeb8> <class 'mlmodels.model_keras.armdn.Model'>
+>>>model:  <mlmodels.model_keras.armdn.Model object at 0x7f23e7c39748> <class 'mlmodels.model_keras.armdn.Model'>
 
   #### Loading dataset   ############################################# 
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Epoch 1/10
 
-1/1 [==============================] - 2s 2s/step - loss: 351382.9375
+1/1 [==============================] - 2s 2s/step - loss: 351291.2812
 Epoch 2/10
 
-1/1 [==============================] - 0s 103ms/step - loss: 219023.5938
+1/1 [==============================] - 0s 94ms/step - loss: 247329.1250
 Epoch 3/10
 
-1/1 [==============================] - 0s 100ms/step - loss: 115812.2109
+1/1 [==============================] - 0s 91ms/step - loss: 127544.7422
 Epoch 4/10
 
-1/1 [==============================] - 0s 95ms/step - loss: 53629.4375
+1/1 [==============================] - 0s 90ms/step - loss: 61208.8945
 Epoch 5/10
 
-1/1 [==============================] - 0s 92ms/step - loss: 25307.3613
+1/1 [==============================] - 0s 90ms/step - loss: 29993.0918
 Epoch 6/10
 
-1/1 [==============================] - 0s 89ms/step - loss: 13653.6709
+1/1 [==============================] - 0s 89ms/step - loss: 16487.1621
 Epoch 7/10
 
-1/1 [==============================] - 0s 90ms/step - loss: 8578.0156
+1/1 [==============================] - 0s 94ms/step - loss: 10196.2568
 Epoch 8/10
 
-1/1 [==============================] - 0s 91ms/step - loss: 5972.8032
+1/1 [==============================] - 0s 110ms/step - loss: 6979.9575
 Epoch 9/10
 
-1/1 [==============================] - 0s 99ms/step - loss: 4500.3203
+1/1 [==============================] - 0s 89ms/step - loss: 5120.2007
 Epoch 10/10
 
-1/1 [==============================] - 0s 90ms/step - loss: 3614.1741
+1/1 [==============================] - 0s 89ms/step - loss: 4000.8518
 
   #### Inference Need return ypred, ytrue ######################### 
-[[  0.48457307  -2.8195493   -0.16600245   3.1887555   -1.6050271
-   -0.03856853  -0.7338077    0.06101549   0.1283881    0.5870998
-    2.9165936   -0.22018465   1.0061051    2.0520308    1.8029752
-    0.5680285   -1.545452     0.5444774    2.072216     0.6760417
-   -2.0977116   -1.1097448   -1.5139308    0.84509313   0.35294747
-   -0.56793565   1.1002305    0.05790943  -2.0241828   -1.181148
-    0.6338647   -1.221729     1.2001774   -0.8731087    1.2463801
-   -0.5792661    0.21778071  -0.02443141  -0.5311015   -1.0800911
-    1.3528285    0.1459205   -1.3695562   -0.552792     1.8765239
-   -0.5889666    0.33374113   0.99273014   0.4594729   -0.31791076
-    0.5575944    0.4077156   -1.1570183   -2.1266403   -0.18150067
-   -1.8208494    0.83374774   0.8894054    1.0405074    1.2933215
-    0.26722434  11.121378    11.924185    14.283198    12.220809
-   11.733467    12.602242    11.363704    12.334137    12.960237
-   13.153249    11.003311    11.467533    12.264188    11.220325
-    9.415075    12.270019    11.40718     11.270392    12.362767
-   13.619156    10.462102    13.377162    10.869588    10.974371
-   14.136276    12.589893    10.223292    11.425018    10.576775
-   10.724035    13.094886    12.429869    12.027002    13.07624
-   14.066036    10.288112     9.946929    12.185148    12.040329
-   10.414645    11.472732    12.219439     9.974137    10.806466
-    8.998801    13.382824    10.603779     9.096513    11.290623
-   12.687942    10.9600935   10.734795    15.4273405   10.496006
-   11.511706    13.738932    11.408295    12.51921     11.240286
-    0.51720405  -1.1043166   -0.3396282   -0.23431948  -0.18941441
-   -0.41806155   0.23912305  -0.99298716  -0.38849795   2.8005395
-   -1.5311432    0.66479206  -1.1497588    1.4791219   -2.2265375
-    1.7840738    1.371407    -0.7093615   -0.16690347   0.9839586
-   -1.7606902   -1.4425442   -1.5661199   -2.1027305    0.75730765
-   -0.741422     1.1475171    2.1392574    0.25108564   1.891296
-    0.39381343   3.2939913    0.39970788   1.3350357   -0.37127823
-   -1.5244755    0.36861357   0.20831403   0.04392087   1.4508462
-    0.30900487  -0.92617095  -1.5452389    0.53348386  -0.44048405
-   -1.5375676    0.31542245   0.9784257    0.08943692  -1.350604
-   -0.9193965   -0.35994336   1.7706273    1.3390698    2.3359015
-    1.7288672    0.8122054    1.08183     -0.24403115  -0.72500414
-    0.9409939    0.15729642   0.05905974   1.4415777    0.6790737
-    2.4875083    1.1513861    3.917162     0.77784425   0.7466301
-    1.5939292    1.4078443    2.2358866    0.20249552   1.4287525
-    0.78959286   0.61488986   1.0475061    2.2869692    2.508072
-    1.4127355    0.63679594   0.44129503   0.6867141    1.3493245
-    2.5159721    2.7750711    0.108881     2.2888355    0.4021486
-    0.6225314    2.103829     1.0009835    2.4014428    0.29238892
-    0.11738747   0.54333746   3.6186981    0.14836538   0.9592511
-    3.7316895    1.912965     1.5996565    0.09733319   0.28762257
-    0.4468996    0.52658606   0.16442204   0.07105708   0.36109507
-    0.65399075   1.4054052    0.3767258    1.3268945    1.9911643
-    0.37859184   0.43634605   3.0280895    0.2508117    0.86017585
-    0.7990597    8.982814    11.433464     9.941374     9.66026
-   12.805508    12.106674    12.291116    13.678696    11.120991
-   12.324122    12.185977    13.486813    12.838851    11.27873
-   12.532372    10.31708     11.253816    12.58984     12.339399
-   11.175833    12.129774    12.280727     9.966799    12.578026
-   11.370435    10.928694    12.679516    12.92912     12.378318
-   13.227448    11.238587    10.993225    11.10655      9.641205
-   14.470532    13.0064945   11.581393    12.1430235   12.292308
-   13.0396      11.071137    11.958112    10.533488    13.561736
-   10.755637    10.378203    11.8226595   12.187801    12.247999
-   11.330498    10.022616    12.07519     12.77545      9.994307
-   10.484679    13.394334    11.276465    12.3209505   11.48665
-    0.53677136   0.68150306   1.775578     0.60246253   0.80890834
-    2.2637491    0.13035077   0.76583034   0.21520579   2.9879212
-    0.834032     0.36948538   2.5152512    1.9184339    1.0796119
-    2.8490753    0.6271766    0.64544505   0.1067673    0.1386429
-    1.0594614    1.2443212    0.17806923   0.23766315   2.0237517
-    4.406793     0.17499995   0.83108413   0.26372063   0.39814413
-    2.2142525    0.89897966   1.856339     0.1404053    2.9173608
-    1.2812415    0.63043815   1.3533789    2.4273725    2.3978949
-    2.0012045    0.5154432    1.3081568    0.31818676   2.137343
-    0.22912765   0.96959585   2.9168847    1.1854209    0.14040065
-    3.3911695    1.2291783    0.3003161    2.1744032    0.2952935
-    0.5183204    0.5155976    0.10746133   2.3217874    3.1489935
-  -16.729256    12.967677    -9.9676695 ]]
+[[ 3.80323306e-02  1.08285284e+01  1.17831907e+01  1.08462439e+01
+   9.03874493e+00  1.26259975e+01  1.20032263e+01  9.20415497e+00
+   9.56366253e+00  1.07552662e+01  1.16344643e+01  8.72485161e+00
+   1.03262072e+01  1.15279360e+01  1.42392826e+01  1.15040855e+01
+   1.15496073e+01  1.07958775e+01  1.10466280e+01  1.06311874e+01
+   1.05368032e+01  1.00614672e+01  9.55998707e+00  1.03307667e+01
+   1.17637520e+01  1.14479122e+01  8.45702553e+00  1.04756498e+01
+   1.14302206e+01  1.12386770e+01  1.11002941e+01  1.26315975e+01
+   1.03869791e+01  1.02030487e+01  1.04914131e+01  1.16785088e+01
+   1.34251661e+01  1.07737455e+01  1.08181725e+01  1.09543762e+01
+   1.03014269e+01  1.06695032e+01  8.04917145e+00  1.20835485e+01
+   1.15513210e+01  1.05882349e+01  1.37623081e+01  1.15110416e+01
+   1.19855232e+01  1.20378256e+01  1.24388628e+01  9.45102406e+00
+   1.05269775e+01  1.31986685e+01  1.17679663e+01  1.08196554e+01
+   8.75530529e+00  1.03059368e+01  9.80376530e+00  9.08411217e+00
+   5.63489556e-01 -8.67438912e-01  6.21776700e-01 -1.06171811e+00
+   2.00315309e+00  1.33452892e+00 -1.74968421e-01  9.02962327e-01
+   1.17691183e+00 -1.72724271e+00  2.01337862e+00  1.97105959e-01
+   1.26848340e+00  1.01816964e+00 -8.27085972e-03 -4.98634458e-01
+  -4.89852667e-01 -1.13317251e+00  1.01202309e+00 -2.21955132e+00
+  -1.67617726e+00  4.38634306e-03  1.77344429e+00  5.48615515e-01
+   1.59719741e+00 -2.83877045e-01 -1.14960194e-01 -5.24443746e-01
+   1.37594306e+00 -6.26977906e-02  2.36850333e+00 -1.55308628e+00
+   1.76641178e+00  2.16568661e+00 -1.24861813e+00 -1.97133708e+00
+   4.22290176e-01 -1.70772374e+00 -6.52386010e-01  6.63056374e-02
+   8.54508400e-01 -7.24438131e-01 -7.35929370e-01 -1.90056825e+00
+  -1.48855686e+00 -1.22961998e+00  1.00149250e+00 -1.48830223e+00
+  -1.55987310e+00 -1.00737131e+00 -5.32734454e-01 -1.11369634e+00
+  -1.89217007e+00  1.99446499e+00 -9.10572290e-01  4.64989185e-01
+  -1.13662231e+00 -4.04513389e-01 -2.32203770e+00  2.22688437e+00
+   6.63831532e-01 -1.06869960e+00 -2.72493482e-01  2.61322498e-01
+  -6.16759658e-01 -2.02994394e+00  1.85168195e+00  5.48234105e-01
+  -1.88496590e+00 -4.67921615e-01  3.23317736e-01 -2.87708879e+00
+  -5.92416048e-01 -2.47745574e-01  2.20872402e+00  7.97917664e-01
+  -1.17874384e+00 -4.92741913e-01 -1.17397308e+00  3.60678226e-01
+   5.88247895e-01  1.09655142e+00  5.84919333e-01  1.12115395e+00
+   1.07358426e-01 -8.02079737e-01 -4.70191389e-01 -4.85608160e-01
+  -3.81072283e-01  9.72047329e-01 -7.22740293e-01 -2.01819181e-01
+  -1.04047215e+00 -1.60550743e-01 -1.59901226e+00 -7.03254163e-01
+   1.16223180e+00  1.96942270e+00  1.72757125e+00  1.84966707e+00
+  -1.03070557e+00  5.00510573e-01  8.98765326e-02  1.17276824e+00
+  -2.39988852e+00  3.40161920e-01  2.79615223e-01 -8.11699152e-01
+  -4.69992399e-01  3.97735804e-01 -1.93823600e+00  3.45903128e-01
+   1.49771309e+00  2.11343145e+00 -3.11254621e-01  1.12544048e+00
+  -6.91839337e-01 -2.61521459e-01 -2.26814485e+00  1.09055114e+00
+   3.20359349e-01  1.20833769e+01  1.16018038e+01  9.63897800e+00
+   1.06858692e+01  1.25120716e+01  1.04209309e+01  1.21401377e+01
+   9.51488209e+00  1.09563370e+01  1.10518522e+01  1.09852533e+01
+   1.04730902e+01  1.10649223e+01  1.09276972e+01  1.04873781e+01
+   1.16199026e+01  1.24285822e+01  1.22426529e+01  1.17976627e+01
+   1.14895191e+01  9.60422802e+00  1.17764559e+01  1.02871141e+01
+   1.08376560e+01  1.07351580e+01  1.19261608e+01  1.16832333e+01
+   9.58372116e+00  8.56359768e+00  1.17924690e+01  1.14537935e+01
+   9.50683117e+00  1.33685932e+01  1.21638622e+01  1.03699474e+01
+   1.04776602e+01  9.17587566e+00  1.11053944e+01  1.20108089e+01
+   1.04311810e+01  1.11945810e+01  9.60956097e+00  1.13706350e+01
+   1.08830423e+01  1.16267500e+01  1.10712528e+01  1.13858852e+01
+   1.01443672e+01  1.03811407e+01  1.06447821e+01  1.13773127e+01
+   1.06715536e+01  1.07710228e+01  1.03074999e+01  1.10541162e+01
+   1.09490604e+01  1.16724787e+01  8.55540657e+00  1.22177458e+01
+   1.24086690e+00  5.09835243e-01  2.41218150e-01  8.94475520e-01
+   1.11938524e+00  2.38154125e+00  1.50223947e+00  2.98950720e+00
+   1.06663060e+00  2.15101421e-01  1.76407838e+00  1.96633637e+00
+   1.56472492e+00  2.31848383e+00  1.23567164e-01  1.55174053e+00
+   7.05325782e-01  2.07715154e+00  1.67026544e+00  1.32902503e+00
+   2.13351345e+00  1.14528298e-01  5.62807441e-01  1.67180657e-01
+   4.79075432e-01  2.13156080e+00  1.15229249e-01  2.12139297e+00
+   9.72611308e-02  5.96909761e-01  2.87627459e-01  3.03216577e-01
+   4.09185648e-01  2.33851719e+00  7.97423482e-01  1.03626490e-01
+   1.01259530e+00  2.52819109e+00  4.18180466e-01  1.81975937e+00
+   1.28102899e-01  1.54574931e-01  2.21685934e+00  2.15900326e+00
+   3.10021877e+00  2.57915020e+00  1.03655815e+00  1.17188060e+00
+   1.81714642e+00  2.09929132e+00  4.24440503e-01  1.58556461e+00
+   1.00169110e+00  9.18963790e-01  1.30449164e+00  2.16692305e+00
+   1.49717152e+00  1.10957432e+00  2.93544102e+00  2.79754114e+00
+   7.86063373e-01  2.36731410e-01  6.61915779e-01  1.50353527e+00
+   1.28959203e+00  1.23703265e+00  2.28462315e+00  6.07424557e-01
+   1.25126982e+00  6.06064618e-01  5.55756867e-01  1.57256067e+00
+   1.72088528e+00  1.40205812e+00  4.79641020e-01  1.43606937e+00
+   4.58949268e-01  4.38671887e-01  6.42305255e-01  6.97717071e-01
+   1.33568037e+00  5.73993802e-01  8.31080973e-01  1.11244738e-01
+   1.15463865e+00  1.03827798e+00  7.79374003e-01  1.04348719e-01
+   2.09450817e+00  1.85988879e+00  2.54930437e-01  8.69076848e-02
+   2.71580160e-01  2.38034439e+00  1.61987591e+00  3.65662241e+00
+   3.29529166e-01  8.62989545e-01  6.35340154e-01  1.39797056e+00
+   4.48910177e-01  6.12640440e-01  3.20098019e+00  1.48529649e-01
+   3.72576356e-01  1.38495743e+00  8.00271571e-01  1.80552304e-01
+   2.25687909e+00  1.01856577e+00  7.61481225e-01  8.57785285e-01
+   1.23007107e+00  8.04628968e-01  2.40258336e-01  3.31325948e-01
+   2.10698605e+00  2.12886333e+00  1.06812823e+00  2.07688284e+00
+   1.38835621e+01 -1.23853350e+01 -7.75234032e+00]]
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-16 23:18:23.845672
+  date_run                              2020-06-17 14:41:07.225813
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   90.5938
+metric                                                    90.849
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-06-16 23:18:23.849674
+  date_run                              2020-06-17 14:41:07.229909
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   8236.11
+metric                                                   8281.14
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-06-16 23:18:23.852825
+  date_run                              2020-06-17 14:41:07.232955
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                   90.1894
+metric                                                   90.5419
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-06-16 23:18:23.856017
+  date_run                              2020-06-17 14:41:07.235883
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
-metric                                                  -736.602
+metric                                                  -740.634
 metric_name                                             r2_score
 Name: 3, dtype: object 
 
@@ -2110,13 +2156,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7ff92f6a5b70> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f238210aba8> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-16 23:18:38.119056
+  date_run                              2020-06-17 14:41:21.501515
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -2124,7 +2170,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 4, dtype: object 
 
-  date_run                              2020-06-16 23:18:38.122217
+  date_run                              2020-06-17 14:41:21.504624
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -2132,7 +2178,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 5, dtype: object 
 
-  date_run                              2020-06-16 23:18:38.125181
+  date_run                              2020-06-17 14:41:21.507529
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -2140,7 +2186,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 6, dtype: object 
 
-  date_run                              2020-06-16 23:18:38.128064
+  date_run                              2020-06-17 14:41:21.510461
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -2177,14 +2223,14 @@ Name: 7, dtype: object
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-06-16 23:18:23.845672  ...    mean_absolute_error
-1  2020-06-16 23:18:23.849674  ...     mean_squared_error
-2  2020-06-16 23:18:23.852825  ...  median_absolute_error
-3  2020-06-16 23:18:23.856017  ...               r2_score
-4  2020-06-16 23:18:38.119056  ...    mean_absolute_error
-5  2020-06-16 23:18:38.122217  ...     mean_squared_error
-6  2020-06-16 23:18:38.125181  ...  median_absolute_error
-7  2020-06-16 23:18:38.128064  ...               r2_score
+0  2020-06-17 14:41:07.225813  ...    mean_absolute_error
+1  2020-06-17 14:41:07.229909  ...     mean_squared_error
+2  2020-06-17 14:41:07.232955  ...  median_absolute_error
+3  2020-06-17 14:41:07.235883  ...               r2_score
+4  2020-06-17 14:41:21.501515  ...    mean_absolute_error
+5  2020-06-17 14:41:21.504624  ...     mean_squared_error
+6  2020-06-17 14:41:21.507529  ...  median_absolute_error
+7  2020-06-17 14:41:21.510461  ...               r2_score
 
 [8 rows x 6 columns] 
 Traceback (most recent call last):
