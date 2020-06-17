@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84', 'workflow': 'test_benchmark'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/bd7dfc233939710e05244f8e6a394a7ce12a3485', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'bd7dfc233939710e05244f8e6a394a7ce12a3485', 'workflow': 'test_benchmark'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_benchmark
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/bd7dfc233939710e05244f8e6a394a7ce12a3485
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/bd7dfc233939710e05244f8e6a394a7ce12a3485
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/70f1a18a5306e0e1f742c0397a3d2aeed0ee5b84
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/bd7dfc233939710e05244f8e6a394a7ce12a3485
 
  ************************************************************************************************************************
 
@@ -135,13 +135,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fbb5a4e5470> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fb4e229b4a8> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-17 08:17:19.082420
+  date_run                              2020-06-17 16:16:57.471941
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -149,7 +149,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-06-17 08:17:19.086165
+  date_run                              2020-06-17 16:16:57.477061
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -157,7 +157,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-06-17 08:17:19.089284
+  date_run                              2020-06-17 16:16:57.480872
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -165,7 +165,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-06-17 08:17:19.092360
+  date_run                              2020-06-17 16:16:57.484749
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -183,170 +183,8 @@ Name: 3, dtype: object
   data_pars out_pars {'train': True, 'col_Xinput': ['Close'], 'col_ytarget': 'Close', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/stock/qqq_us_train.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/stock/qqq_us_test.csv', 'prediction_length': 60} {'outpath': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/armdn/'} 
 
   #### Setup Model   ############################################## 
-Using TensorFlow backend.
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
-Instructions for updating:
-If using Keras pass *_constraint arguments to layers.
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_probability/python/distributions/mixture.py:154: Categorical.event_size (from tensorflow_probability.python.distributions.categorical) is deprecated and will be removed after 2019-05-19.
-Instructions for updating:
-The `event_size` property is deprecated.  Use `num_categories` instead.  They have the same value, but `event_size` is misnamed.
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/math_ops.py:2509: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use tf.where in 2.0, which has the same broadcast rule as np.where
-Model: "sequential_1"
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-LSTM_1 (LSTM)                (None, 60, 300)           362400    
-_________________________________________________________________
-LSTM_2 (LSTM)                (None, 60, 200)           400800    
-_________________________________________________________________
-LSTM_3 (LSTM)                (None, 60, 24)            21600     
-_________________________________________________________________
-LSTM_4 (LSTM)                (None, 12)                1776      
-_________________________________________________________________
-dense_1 (Dense)              (None, 10)                130       
-_________________________________________________________________
-mdn_1 (MDN)                  (None, 363)               3993      
-=================================================================
-Total params: 790,699
-Trainable params: 790,699
-Non-trainable params: 0
-_________________________________________________________________
 
-  #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.armdn.Model object at 0x7fbb6e5bddd8> <class 'mlmodels.model_keras.armdn.Model'>
-
-  #### Loading dataset   ############################################# 
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
-
-Epoch 1/10
-
-1/1 [==============================] - 2s 2s/step - loss: 354888.6562
-Epoch 2/10
-
-1/1 [==============================] - 0s 116ms/step - loss: 301241.5938
-Epoch 3/10
-
-1/1 [==============================] - 0s 104ms/step - loss: 235164.8750
-Epoch 4/10
-
-1/1 [==============================] - 0s 95ms/step - loss: 169100.8594
-Epoch 5/10
-
-1/1 [==============================] - 0s 98ms/step - loss: 110679.6406
-Epoch 6/10
-
-1/1 [==============================] - 0s 102ms/step - loss: 69031.0469
-Epoch 7/10
-
-1/1 [==============================] - 0s 100ms/step - loss: 43183.8945
-Epoch 8/10
-
-1/1 [==============================] - 0s 98ms/step - loss: 28202.8262
-Epoch 9/10
-
-1/1 [==============================] - 0s 100ms/step - loss: 19370.9258
-Epoch 10/10
-
-1/1 [==============================] - 0s 108ms/step - loss: 13867.5508
-
-  #### Inference Need return ypred, ytrue ######################### 
-[[-0.3159003   1.000575    0.45977864 -0.99350035 -0.4672702   0.8392955
-   0.7479128  -1.7298856  -0.39574182  0.121494    0.41334063 -1.0016263
-   0.77017415 -0.3360371   0.2826916  -1.293608   -1.0186713  -0.7254563
-   1.5440624  -0.2589811  -1.3305929  -0.15010816  1.0785581  -0.00826347
-   0.8738439   0.43635422 -0.11642724 -0.7048212  -0.36623842 -0.07515335
-   1.2113917  -0.2418783  -0.12912622  0.15959987 -0.2146703   0.58545005
-   0.4678665   0.5462715  -0.452407    0.23936695  1.2003294   0.9079603
-   0.96264    -1.0174111  -0.94072145  0.09862159 -0.29750636  0.1686601
-  -0.78610516 -0.632923   -0.63276535 -0.7951636   0.109101   -0.130885
-   0.32099593  0.8705658  -0.3777753  -0.7851759   0.02684779 -1.0722002
-   0.28743145  0.70447266  0.09325582  0.25272554  0.5729978  -0.15157303
-  -0.262673   -1.0544455  -1.0642899   1.0427029   0.02343357  1.4286425
-   0.11297071  0.07281938 -0.34157634  0.49822262 -0.30564865  0.39109296
-  -0.00797534 -0.11880833  0.08103782  0.83070767 -1.1118062  -0.40877604
-  -1.505926    1.0836815  -0.92251086  0.32012776 -0.79099214  0.9111697
-   1.3012257   0.81790936  0.0378679  -0.42969632  0.8017125   0.67818356
-   0.469921   -0.41442955  0.41575456 -1.0583739  -1.23063    -1.0588155
-   0.06544535 -1.5027508  -0.37527084  1.1350834  -1.4429388   0.606258
-  -1.0848428  -0.18369615  0.9767835  -0.5412365  -0.14053017 -0.14733645
-  -0.06215003  0.38562065  0.26190698  1.5801672   1.4954153   0.90608567
-   0.10338879  4.2109914   4.581333    5.003722    4.72402     5.9731407
-   5.135175    5.482104    4.937342    5.095663    4.3124347   6.2372603
-   4.9959354   5.385708    5.8951287   3.7328117   3.9407377   4.532638
-   5.035271    4.6578226   4.206911    4.684574    4.7885427   4.44715
-   4.8522644   4.7587914   4.244468    4.744103    4.5894704   5.0240464
-   5.0031133   6.3105674   5.119571    5.1377993   4.882358    6.421894
-   4.676962    5.238149    4.812674    4.3685694   4.449819    3.329858
-   4.1566677   6.300975    5.916206    5.223754    5.5736313   5.7617574
-   5.7127113   5.728995    6.8784075   6.700711    4.7347293   5.177169
-   6.1819596   6.518001    6.6210513   6.921403    4.150903    5.3467827
-   1.7629454   0.3818252   1.0492959   0.3049761   1.5227056   1.6919211
-   2.3064938   0.3126232   0.7092702   0.5963725   1.3560237   2.022776
-   1.7240779   1.1549448   0.25822878  1.4868145   0.50604844  0.9111105
-   0.6933623   1.1951629   1.7484617   2.068862    0.7244008   0.42489082
-   0.44690436  0.2900132   1.7228839   1.81286     2.7189565   1.3149111
-   1.7183502   0.84929025  1.0322275   0.5216984   1.6871502   1.9584097
-   0.8550065   0.27848393  1.8277324   2.2148266   1.5588777   0.43479568
-   0.46421754  0.86001307  1.9332228   1.6562696   2.6636574   0.33856344
-   0.2755661   1.241533    0.9230974   0.21046084  0.30239528  1.0767677
-   0.55480325  0.46529865  0.91756475  1.7410805   1.0464976   1.6177999
-   1.437971    0.7038787   0.8004695   0.85134524  2.435222    0.43217838
-   0.52148116  0.5871037   0.6748956   1.2910892   1.3510106   0.53956264
-   1.8815858   0.21659923  0.7985343   0.97407097  1.3936386   1.6478341
-   1.8169774   1.7023834   1.0212651   0.9564999   0.7383927   0.4476714
-   2.1126118   1.4943249   2.455933    0.34295797  1.0570693   0.49636555
-   2.2892509   0.48945057  0.9608716   0.3271128   0.3209998   1.3960733
-   0.26411176  0.54379374  0.76376367  0.8873446   1.4875345   1.0649742
-   0.53680927  0.44287288  0.31462026  1.8152294   1.4975438   1.49342
-   1.0141492   1.7571061   0.5486014   0.7509093   0.4692161   0.96319795
-   0.41442317  0.25271666  1.1001375   1.1547859   0.81245124  0.94536024
-   0.01786071  6.5694113   5.880195    6.1907077   5.1631665   6.6870036
-   5.6130366   6.3260283   5.875774    5.267103    6.2270536   5.6726613
-   5.3179846   5.1345124   6.6647305   6.8896804   6.4124584   5.939629
-   7.263471    5.992696    5.9083576   6.1472545   5.068568    6.7093973
-   7.1471086   6.500998    6.190155    5.803893    5.0655155   6.33521
-   6.016944    4.570879    5.5009456   5.9522386   6.094624    6.252661
-   6.7633476   6.1317883   6.4680004   6.7264714   4.633082    5.770509
-   6.3435574   5.1370196   5.2352242   5.403102    4.3204203   5.414754
-   7.060365    5.6320887   5.257648    6.4145184   6.1710777   6.2411914
-   6.704233    6.473246    5.120465    6.7782917   6.049254    5.753983
-  -3.323058   -1.5900623   5.9704895 ]]
-
-  ### Calculate Metrics    ######################################## 
-
-  date_run                              2020-06-17 08:17:28.371996
-model_uri                                   model_keras.armdn.py
-json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
-dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   97.3584
-metric_name                                  mean_absolute_error
-Name: 4, dtype: object 
-
-  date_run                              2020-06-17 08:17:28.375728
-model_uri                                   model_keras.armdn.py
-json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
-dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   9493.76
-metric_name                                   mean_squared_error
-Name: 5, dtype: object 
-
-  date_run                              2020-06-17 08:17:28.378834
-model_uri                                   model_keras.armdn.py
-json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
-dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   98.0793
-metric_name                                median_absolute_error
-Name: 6, dtype: object 
-
-  date_run                              2020-06-17 08:17:28.382045
-model_uri                                   model_keras.armdn.py
-json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
-dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                  -849.234
-metric_name                                             r2_score
-Name: 7, dtype: object 
+  {'model_pars': {'model_uri': 'model_keras.armdn.py', 'lstm_h_list': [300, 200, 24], 'last_lstm_neuron': 12, 'timesteps': 60, 'dropout_rate': 0.1, 'n_mixes': 3, 'dense_neuron': 10}, 'data_pars': {'train': True, 'col_Xinput': ['Close'], 'col_ytarget': 'Close', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/stock/qqq_us_train.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/stock/qqq_us_test.csv', 'prediction_length': 60}, 'compute_pars': {'batch_size': 32, 'epochs': 10, 'learning_rate': 0.05, 'patience': 50}, 'out_pars': {'outpath': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_keras/armdn/'}} Module model_keras.armdn notfound, invalid syntax (data.py, line 207), tuple index out of range 
 
   
 
@@ -397,19 +235,50 @@ Name: 7, dtype: object
   data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_wavenet/', 'plot_prob': True, 'quantiles': [0.5]} 
 
   #### Setup Model   ############################################## 
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/armdn.py", line 35, in <module>
+    from mlmodels.data import (download_data, import_data)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/data.py", line 207
+    """   
+      if not target:
+         tmp = os.path.join(gettempdir(), '.{}'.format(hash(os.times())))
+         os.makedirs(tmp)
+         target = tmp
+      """
+          
+                    
+                                                                         
+                         
+                     
+        ^
+SyntaxError: invalid syntax
 
-  {'model_pars': {'model_name': 'wavenet', 'model_uri': 'model_gluon.gluonts_model', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'embedding_dimension': 20, 'num_parallel_samples': 100, 'num_bins': 1024, 'hybridize_prediction_net': False, 'n_residue': 24, 'n_skip': 32, 'n_stacks': 1, 'temperature': 1.0, 'act_type': 'elu'}, '_comment': {'cardinality': 'List[int] = [1]', 'context_length': 'None', 'seasonality': 'Optional[int] = None', 'dilation_depth': 'Optional[int] = None', 'train_window_length': 'Optional[int] = None'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_wavenet/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range 
+During handling of the above exception, another exception occurred:
 
-  
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
 
+During handling of the above exception, another exception occurred:
 
-### Running {'model_pars': {'model_name': 'transformer', 'model_uri': 'model_gluon.gluonts_model', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'embedding_dimension': 20, 'dropout_rate': 0.1, 'model_dim': 32, 'inner_ff_dim_scale': 4, 'pre_seq': 'dn', 'post_seq': 'drn', 'act_type': 'softrelu', 'num_heads': 8, 'scaling': True, 'use_feat_dynamic_real': False, 'use_feat_static_cat': False}, '_comment': {'cardinality': 'List[int] = list([1])', 'context_length': 'None', 'distr_output': 'DistributionOutput = StudentTOutput()', 'lags_seq': 'Optional[List[int]] = None', 'time_features': 'Optional[List[TimeFeature]] = None'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': 'ztest/model_gluon/gluonts_transformer/', 'plot_prob': True, 'quantiles': [0.5]}} ############################################ 
-
-  #### Model URI and Config JSON 
-
-  data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_transformer/', 'plot_prob': True, 'quantiles': [0.5]} 
-
-  #### Setup Model   ############################################## 
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+    module    = module_load(model_uri)   # "model_tch.torchhub.py"
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_keras.armdn notfound, invalid syntax (data.py, line 207), tuple index out of range
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
@@ -510,43 +379,19 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 781, in get_code
-  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
-    if d ==  "single_dataframe" :
-                                ^
-SyntaxError: invalid syntax
 
-During handling of the above exception, another exception occurred:
+  {'model_pars': {'model_name': 'wavenet', 'model_uri': 'model_gluon.gluonts_model', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'embedding_dimension': 20, 'num_parallel_samples': 100, 'num_bins': 1024, 'hybridize_prediction_net': False, 'n_residue': 24, 'n_skip': 32, 'n_stacks': 1, 'temperature': 1.0, 'act_type': 'elu'}, '_comment': {'cardinality': 'List[int] = [1]', 'context_length': 'None', 'seasonality': 'Optional[int] = None', 'dilation_depth': 'Optional[int] = None', 'train_window_length': 'Optional[int] = None'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_wavenet/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range 
 
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
+  
 
-During handling of the above exception, another exception occurred:
 
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
-    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 781, in get_code
-  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+### Running {'model_pars': {'model_name': 'transformer', 'model_uri': 'model_gluon.gluonts_model', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'embedding_dimension': 20, 'dropout_rate': 0.1, 'model_dim': 32, 'inner_ff_dim_scale': 4, 'pre_seq': 'dn', 'post_seq': 'drn', 'act_type': 'softrelu', 'num_heads': 8, 'scaling': True, 'use_feat_dynamic_real': False, 'use_feat_static_cat': False}, '_comment': {'cardinality': 'List[int] = list([1])', 'context_length': 'None', 'distr_output': 'DistributionOutput = StudentTOutput()', 'lags_seq': 'Optional[List[int]] = None', 'time_features': 'Optional[List[TimeFeature]] = None'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': 'dataset/timeseries/train_deepar.csv', 'test_data_path': 'dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': 'ztest/model_gluon/gluonts_transformer/', 'plot_prob': True, 'quantiles': [0.5]}} ############################################ 
+
+  #### Model URI and Config JSON 
+
+  data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_transformer/', 'plot_prob': True, 'quantiles': [0.5]} 
+
+  #### Setup Model   ############################################## 
 
   {'model_pars': {'model_name': 'transformer', 'model_uri': 'model_gluon.gluonts_model', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'embedding_dimension': 20, 'dropout_rate': 0.1, 'model_dim': 32, 'inner_ff_dim_scale': 4, 'pre_seq': 'dn', 'post_seq': 'drn', 'act_type': 'softrelu', 'num_heads': 8, 'scaling': True, 'use_feat_dynamic_real': False, 'use_feat_static_cat': False}, '_comment': {'cardinality': 'List[int] = list([1])', 'context_length': 'None', 'distr_output': 'DistributionOutput = StudentTOutput()', 'lags_seq': 'Optional[List[int]] = None', 'time_features': 'Optional[List[TimeFeature]] = None'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_transformer/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range 
 
@@ -586,6 +431,143 @@ Traceback (most recent call last):
   data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_feedforward/', 'plot_prob': True, 'quantiles': [0.5]} 
 
   #### Setup Model   ############################################## 
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+    module    = module_load(model_uri)   # "model_tch.torchhub.py"
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+    module    = module_load(model_uri)   # "model_tch.torchhub.py"
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+    module    = module_load(model_uri)   # "model_tch.torchhub.py"
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+    module    = module_load(model_uri)   # "model_tch.torchhub.py"
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
 
   {'model_pars': {'model_uri': 'model_gluon.gluonts_model', 'model_name': 'feedforward', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'batch_normalization': False, 'mean_scaling': True, 'num_parallel_samples': 100}, '_comment': {'num_hidden_dimensions': 'Optional[List[int]] = None', 'context_length': 'Optional[int] = None', 'distr_output': 'DistributionOutput = StudentTOutput()'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_feedforward/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range 
 
@@ -599,164 +581,60 @@ Traceback (most recent call last):
   data_pars out_pars {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []} {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_seq2seq/', 'plot_prob': True, 'quantiles': [0.5]} 
 
   #### Setup Model   ############################################## 
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
-    if d ==  "single_dataframe" :
-                                ^
-SyntaxError: invalid syntax
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
-    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 781, in get_code
-  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
-    if d ==  "single_dataframe" :
-                                ^
-SyntaxError: invalid syntax
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
-    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 781, in get_code
-  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
-    if d ==  "single_dataframe" :
-                                ^
-SyntaxError: invalid syntax
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
-    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 781, in get_code
-  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
-    if d ==  "single_dataframe" :
-                                ^
-SyntaxError: invalid syntax
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
-    module    = module_load(model_uri)   # "model_tch.torchhub.py"
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 781, in get_code
-  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
-    if d ==  "single_dataframe" :
-                                ^
-SyntaxError: invalid syntax
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 
   {'model_pars': {'model_uri': 'model_gluon.gluonts_model', 'model_name': 'seq2seq', 'model_pars': {'freq': '5min', 'prediction_length': 12, 'num_parallel_samples': 100, 'cardinality': [2], 'embedding_dimension': 10, 'decoder_mlp_layer': [5, 10, 5], 'decoder_mlp_static_dim': 10, 'quantiles': [0.1, 0.5, 0.9]}, '_comment': {'encoder': 'Seq2SeqEncoder', 'context_length': 'Optional[int] = None', 'scaler': 'Scaler = NOPScaler()'}}, 'data_pars': {'train': True, 'dt_source': 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_AMZN.csv', 'train_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'test_data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/train_deepar.csv', 'prediction_length': 12, 'freq': '5min', 'start': '2015-02-26 21:42:53', 'col_date': 'timestamp', 'col_ytarget': ['value'], 'num_series': 1, 'cols_cat': [], 'cols_num': []}, 'compute_pars': {'num_samples': 100, 'compute_pars': {'batch_size': 32, 'clip_gradient': 100, 'epochs': 1, 'init': 'xavier', 'learning_rate': 0.001, 'learning_rate_decay_factor': 0.5, 'hybridize': False, 'num_batches_per_epoch': 10, 'minimum_learning_rate': 5e-05, 'patience': 10, 'weight_decay': 1e-08}}, 'out_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_gluon/gluonts_seq2seq/', 'plot_prob': True, 'quantiles': [0.5]}} Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range 
 
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/timeseries/test02/model_list.json 
 
                        date_run  ...            metric_name
-0  2020-06-17 08:17:19.082420  ...    mean_absolute_error
-1  2020-06-17 08:17:19.086165  ...     mean_squared_error
-2  2020-06-17 08:17:19.089284  ...  median_absolute_error
-3  2020-06-17 08:17:19.092360  ...               r2_score
-4  2020-06-17 08:17:28.371996  ...    mean_absolute_error
-5  2020-06-17 08:17:28.375728  ...     mean_squared_error
-6  2020-06-17 08:17:28.378834  ...  median_absolute_error
-7  2020-06-17 08:17:28.382045  ...               r2_score
+0  2020-06-17 16:16:57.471941  ...    mean_absolute_error
+1  2020-06-17 16:16:57.477061  ...     mean_squared_error
+2  2020-06-17 16:16:57.480872  ...  median_absolute_error
+3  2020-06-17 16:16:57.484749  ...               r2_score
 
-[8 rows x 6 columns] 
+[4 rows x 6 columns] 
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py", line 119, in benchmark_run
+    module    = module_load(model_uri)   # "model_tch.torchhub.py"
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
+    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
+NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 203), tuple index out of range
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
+    module = import_module(f"mlmodels.{model_name}")
+  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model.py", line 203
+    if d ==  "single_dataframe" :
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
+    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
 IndexError: tuple index out of range
 
 During handling of the above exception, another exception occurred:
@@ -793,7 +671,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b9273e48> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ffa40782e48> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext50_32x4d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext50_32x4d/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/'}} 'data_info' 
 
@@ -809,7 +687,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f8669e8a588> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ff9f1198550> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet50_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet50_2/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/'}} 'data_info' 
 
@@ -825,7 +703,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b900b940> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ffa4051a978> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet34', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet34/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/'}} 'data_info' 
 
@@ -841,7 +719,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f866be64518> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ff9f33734e0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet152', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet152/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/'}} 'data_info' 
 
@@ -857,7 +735,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b9273e48> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ffa40782e48> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet101_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet101_2/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/'}} 'data_info' 
 
@@ -873,7 +751,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f8669e8a588> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ff9f1198550> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet50', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet50/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/'}} 'data_info' 
 
@@ -889,7 +767,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b900b940> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ffa4051a978> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet18', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet18/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/'}} 'data_info' 
 
@@ -905,7 +783,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f8663256f60> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ff9ea765ac8> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext101_32x8d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext101_32x8d/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/'}} 'data_info' 
 
@@ -921,7 +799,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b9273e48> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ffa40782e48> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x0_5', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x0_5/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/'}} 'data_info' 
 
@@ -937,7 +815,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f866be64518> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ff9f1198550> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet101', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet101/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/'}} 'data_info' 
 
@@ -1071,7 +949,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b900b940> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7ffa4051a978> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x1_0', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x1_0/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/'}} 'data_info' 
 
@@ -1125,7 +1003,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do fashion_vi
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f2fcbe01be0> <class 'mlmodels.model_tch.textcnn.Model'>
+>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f5910cac550> <class 'mlmodels.model_tch.textcnn.Model'>
 
   {'hypermodel_pars': {}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': True}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} 'data_info' 
 
@@ -1183,7 +1061,7 @@ Non-trainable params: 0
 __________________________________________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f2f64252438> <class 'mlmodels.model_keras.textcnn.Model'>
+>>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f58a8bdc438> <class 'mlmodels.model_keras.textcnn.Model'>
 Loading data...
 
   {'model_pars': {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, 'data_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/imdb.csv', 'train': True, 'maxlen': 40, 'max_features': 5}, 'compute_pars': {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}, 'out_pars': {'path': './output/textcnn_keras//model.h5', 'model_path': './output/textcnn_keras/model.h5'}} 'data_info' 
@@ -1228,7 +1106,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do text_class
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f81b9edd208> <class 'mlmodels.model_tch.textcnn.Model'>
+>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f1ce7ece518> <class 'mlmodels.model_tch.textcnn.Model'>
 
   {'hypermodel_pars': {}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': True}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} 'data_info' 
 
@@ -1270,7 +1148,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do text_class
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.transformer_sentence.Model object at 0x7f8165845d68> <class 'mlmodels.model_tch.transformer_sentence.Model'>
+>>>model:  <mlmodels.model_tch.transformer_sentence.Model object at 0x7f1c879a5e10> <class 'mlmodels.model_tch.transformer_sentence.Model'>
 
   ############ Dataloader setup  ############################# 
 
@@ -1492,7 +1370,7 @@ Non-trainable params: 0
 __________________________________________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f81b9edd208> <class 'mlmodels.model_keras.textcnn.Model'>
+>>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f1c879fbc18> <class 'mlmodels.model_keras.textcnn.Model'>
 Loading data...
 
   {'model_pars': {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, 'data_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/imdb.csv', 'train': True, 'maxlen': 40, 'max_features': 5}, 'compute_pars': {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}, 'out_pars': {'path': './output/textcnn_keras//model.h5', 'model_path': './output/textcnn_keras/model.h5'}} 'data_info' 
