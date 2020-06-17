@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '2675f1e090030e6958e45c46c6313291532e6ed8', 'workflow': 'test_fast_linux'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/491f609cb2914f8e2ea69c8e51f20d6a4a8092f0', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': '491f609cb2914f8e2ea69c8e51f20d6a4a8092f0', 'workflow': 'test_fast_linux'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_fast_linux
 
- ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
+ ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/adata2/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/491f609cb2914f8e2ea69c8e51f20d6a4a8092f0
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/2675f1e090030e6958e45c46c6313291532e6ed8
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/491f609cb2914f8e2ea69c8e51f20d6a4a8092f0
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/2675f1e090030e6958e45c46c6313291532e6ed8
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/491f609cb2914f8e2ea69c8e51f20d6a4a8092f0
 
  ************************************************************************************************************************
 
@@ -30,28 +30,17 @@
  ********************************************************************************************************************************************
 
   test_import 
-['model_keras.preprocess', 'model_keras.util', 'model_keras.charcnn_zhang', 'model_keras.charcnn', 'model_keras.__init__', 'model_keras.namentity_crm_bilstm', 'model_keras.textcnn', 'model_dev.__init__', 'model_dev.temporal_fusion_google', 'model_tf.1_lstm', 'model_tf.util', 'model_tf.__init__', 'model_gluon.util', 'model_gluon.gluon_automl', 'model_gluon.util_autogluon', 'model_gluon.fb_prophet', 'model_gluon.__init__', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_sklearn.__init__', 'example.vision_mnist', 'example.benchmark_timeseries_m4', 'example.arun_hyper', 'example.lightgbm_glass', 'example.benchmark_timeseries_m5', 'example.arun_model', 'utils.ztest_structure', 'utils.test_dataloader', 'utils.parse', 'model_tch.util_transformer', 'model_tch.util_data', 'model_tch.torchhub', 'model_tch.__init__', 'model_tch.transformer_sentence', 'model_tch.textcnn', 'template.model_xxx', 'template.00_template_keras', 'preprocess.tabular_keras', 'preprocess.image', 'preprocess.timeseries', 'preprocess.ztemp', 'preprocess.text_torch', 'preprocess.text_keras', 'preprocess.text', 'preprocess.tabular', 'preprocess.generic_old', 'preprocess.__init__', 'preprocess.generic', 'model_rank.__init__']
-mlmodels.model_keras.preprocess
-mlmodels.model_keras.util
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset
-mlmodels.model_keras.charcnn_zhang
-mlmodels.model_keras.charcnn
-mlmodels.model_keras.__init__
-mlmodels.model_keras.namentity_crm_bilstm
-mlmodels.model_keras.textcnn
+['model_dev.__init__', 'model_dev.temporal_fusion_google', 'preprocess.ztemp', 'preprocess.__init__', 'preprocess.timeseries', 'preprocess.generic_old', 'preprocess.text_torch', 'preprocess.image', 'preprocess.text', 'preprocess.generic', 'preprocess.text_keras', 'preprocess.tabular', 'preprocess.tabular_keras', 'model_gluon.util_autogluon', 'model_gluon.__init__', 'model_gluon.gluonts_model_old', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model', 'model_gluon.util', 'model_gluon.fb_prophet', 'example.arun_model', 'example.benchmark_timeseries_m5', 'example.vision_mnist', 'example.lightgbm_glass', 'example.benchmark_timeseries_m4', 'example.arun_hyper', 'model_rank.__init__', 'template.00_template_keras', 'template.model_xxx', 'utils.test_dataloader', 'utils.parse', 'utils.ztest_structure', 'model_sklearn.__init__', 'model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tf.__init__', 'model_tf.1_lstm', 'model_tf.util', 'model_tch.textcnn', 'model_tch.__init__', 'model_tch.torchhub', 'model_tch.transformer_sentence', 'model_tch.matchZoo', 'model_tch.util_transformer', 'model_tch.util_data', 'model_keras.charcnn', 'model_keras.textcnn', 'model_keras.charcnn_zhang', 'model_keras.__init__', 'model_keras.preprocess', 'model_keras.deepctr', 'model_keras.namentity_crm_bilstm', 'model_keras.armdn', 'model_keras.util']
 mlmodels.model_dev.__init__
 
   Error mlmodels.model_dev.temporal_fusion_google No module named 'mlmodels.mode_tf' 
+
+  Error mlmodels.preprocess.ztemp invalid character in identifier (ztemp.py, line 6) 
 Using TensorFlow backend.
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
-Instructions for updating:
-non-resource variables are not supported in the long term
 /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/optimizer/optimizer.py:167: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
   Optimizer.opt_registry[name].__name__))
-/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py:569: DeprecationWarning:
-
-invalid escape sequence \s
-
+/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluonts_model_old.py:569: DeprecationWarning: invalid escape sequence \s
+  """
 Using CPU
 Using CPU
 Using CPU
@@ -67,65 +56,72 @@ Using CPU
 Using CPU
 Using CPU
 Using CPU
-mlmodels.model_tf.1_lstm
-mlmodels.model_tf.util
-mlmodels.model_tf.__init__
-mlmodels.model_gluon.util
-mlmodels.model_gluon.gluon_automl
+mlmodels.preprocess.__init__
+mlmodels.preprocess.timeseries
+mlmodels.preprocess.generic_old
+mlmodels.preprocess.text_torch
+mlmodels.preprocess.image
+mlmodels.preprocess.text
+mlmodels.preprocess.generic
+mlmodels.preprocess.text_keras
+mlmodels.preprocess.tabular
+mlmodels.preprocess.tabular_keras
 mlmodels.model_gluon.util_autogluon
-mlmodels.model_gluon.fb_prophet
 mlmodels.model_gluon.__init__
 mlmodels.model_gluon.gluonts_model_old
+mlmodels.model_gluon.gluon_automl
 
-  Error mlmodels.model_gluon.gluonts_model invalid syntax (gluonts_model.py, line 152) 
-mlmodels.model_sklearn.model_sklearn
-
-  Error mlmodels.model_sklearn.model_lightgbm invalid syntax (model_lightgbm.py, line 316) 
-mlmodels.model_sklearn.__init__
-
-  Error mlmodels.example.vision_mnist invalid syntax (vision_mnist.py, line 15) 
-mlmodels.example.benchmark_timeseries_m4
-
-  Error mlmodels.example.arun_hyper name 'copy' is not defined 
-Deprecaton set to False
-/home/runner/work/mlmodels/mlmodels
-
-  Error mlmodels.example.lightgbm_glass [Errno 2] No such file or directory: 'lightgbm_glass.json' 
-
-  Error mlmodels.example.benchmark_timeseries_m5 [Errno 2] File b'./m5-forecasting-accuracy/calendar.csv' does not exist: b'./m5-forecasting-accuracy/calendar.csv' 
+  Error mlmodels.model_gluon.gluonts_model invalid syntax (gluonts_model.py, line 203) 
+mlmodels.model_gluon.util
+mlmodels.model_gluon.fb_prophet
 <module 'mlmodels' from '/home/runner/work/mlmodels/mlmodels/mlmodels/__init__.py'>
 /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/ardmn.json
 
   Error mlmodels.example.arun_model [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/ardmn.json' 
-mlmodels.utils.ztest_structure
+
+  Error mlmodels.example.benchmark_timeseries_m5 [Errno 2] File b'./m5-forecasting-accuracy/calendar.csv' does not exist: b'./m5-forecasting-accuracy/calendar.csv' 
+
+  Error mlmodels.example.vision_mnist invalid syntax (vision_mnist.py, line 15) 
+Deprecaton set to False
+/home/runner/work/mlmodels/mlmodels
+
+  Error mlmodels.example.lightgbm_glass [Errno 2] No such file or directory: 'lightgbm_glass.json' 
+mlmodels.example.benchmark_timeseries_m4
+
+  Error mlmodels.example.arun_hyper name 'copy' is not defined 
+mlmodels.model_rank.__init__
+
+  Error mlmodels.template.00_template_keras expected an indented block (00_template_keras.py, line 68) 
+
+  Error mlmodels.template.model_xxx name '__file___' is not defined 
 mlmodels.utils.test_dataloader
 mlmodels.utils.parse
+mlmodels.utils.ztest_structure
+mlmodels.model_sklearn.__init__
+mlmodels.model_sklearn.model_sklearn
+
+  Error mlmodels.model_sklearn.model_lightgbm invalid syntax (model_lightgbm.py, line 316) 
+PyTorch version 1.2.0 available.
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+mlmodels.model_tf.__init__
+mlmodels.model_tf.1_lstm
+mlmodels.model_tf.util
+mlmodels.model_tch.textcnn
+mlmodels.model_tch.__init__
+mlmodels.model_tch.torchhub
+mlmodels.model_tch.transformer_sentence
+mlmodels.model_tch.matchZoo
 mlmodels.model_tch.util_transformer
 
   Error mlmodels.model_tch.util_data [Errno 2] File b'./data/train.csv' does not exist: b'./data/train.csv' 
-/home/runner/work/mlmodels/mlmodels/mlmodels/model_sklearn/model_sklearn.py:1187: DeprecationWarning:
-
-invalid escape sequence \*
-
-PyTorch version 1.2.0 available.
-mlmodels.model_tch.torchhub
-mlmodels.model_tch.__init__
-mlmodels.model_tch.transformer_sentence
-mlmodels.model_tch.textcnn
-
-  Error mlmodels.template.model_xxx name '__file___' is not defined 
-
-  Error mlmodels.template.00_template_keras expected an indented block (00_template_keras.py, line 68) 
-mlmodels.preprocess.tabular_keras
-mlmodels.preprocess.image
-mlmodels.preprocess.timeseries
-
-  Error mlmodels.preprocess.ztemp invalid character in identifier (ztemp.py, line 6) 
-mlmodels.preprocess.text_torch
-mlmodels.preprocess.text_keras
-mlmodels.preprocess.text
-mlmodels.preprocess.tabular
-mlmodels.preprocess.generic_old
-mlmodels.preprocess.__init__
-mlmodels.preprocess.generic
-mlmodels.model_rank.__init__
+mlmodels.model_keras.charcnn
+mlmodels.model_keras.textcnn
+/home/runner/work/mlmodels/mlmodels/mlmodels/dataset
+mlmodels.model_keras.charcnn_zhang
+mlmodels.model_keras.__init__
+mlmodels.model_keras.preprocess
+mlmodels.model_keras.deepctr
+mlmodels.model_keras.namentity_crm_bilstm
+mlmodels.model_keras.armdn
+mlmodels.model_keras.util
