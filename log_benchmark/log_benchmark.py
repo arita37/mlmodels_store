@@ -135,13 +135,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f14d0735470> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fbb5a4e5470> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-17 04:17:33.997679
+  date_run                              2020-06-17 08:17:19.082420
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -149,7 +149,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-06-17 04:17:34.001457
+  date_run                              2020-06-17 08:17:19.086165
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -157,7 +157,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-06-17 04:17:34.004548
+  date_run                              2020-06-17 08:17:19.089284
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -165,7 +165,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-06-17 04:17:34.007513
+  date_run                              2020-06-17 08:17:19.092360
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -215,166 +215,136 @@ Non-trainable params: 0
 _________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.armdn.Model object at 0x7f14e480edd8> <class 'mlmodels.model_keras.armdn.Model'>
+>>>model:  <mlmodels.model_keras.armdn.Model object at 0x7fbb6e5bddd8> <class 'mlmodels.model_keras.armdn.Model'>
 
   #### Loading dataset   ############################################# 
 WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
 
 Epoch 1/10
 
-1/1 [==============================] - 2s 2s/step - loss: 354405.8125
+1/1 [==============================] - 2s 2s/step - loss: 354888.6562
 Epoch 2/10
 
-1/1 [==============================] - 0s 97ms/step - loss: 232286.7031
+1/1 [==============================] - 0s 116ms/step - loss: 301241.5938
 Epoch 3/10
 
-1/1 [==============================] - 0s 94ms/step - loss: 126189.7578
+1/1 [==============================] - 0s 104ms/step - loss: 235164.8750
 Epoch 4/10
 
-1/1 [==============================] - 0s 96ms/step - loss: 63761.4727
+1/1 [==============================] - 0s 95ms/step - loss: 169100.8594
 Epoch 5/10
 
-1/1 [==============================] - 0s 92ms/step - loss: 34003.1133
+1/1 [==============================] - 0s 98ms/step - loss: 110679.6406
 Epoch 6/10
 
-1/1 [==============================] - 0s 97ms/step - loss: 19518.3203
+1/1 [==============================] - 0s 102ms/step - loss: 69031.0469
 Epoch 7/10
 
-1/1 [==============================] - 0s 108ms/step - loss: 11873.0029
+1/1 [==============================] - 0s 100ms/step - loss: 43183.8945
 Epoch 8/10
 
-1/1 [==============================] - 0s 96ms/step - loss: 7774.4341
+1/1 [==============================] - 0s 98ms/step - loss: 28202.8262
 Epoch 9/10
 
-1/1 [==============================] - 0s 93ms/step - loss: 5536.9961
+1/1 [==============================] - 0s 100ms/step - loss: 19370.9258
 Epoch 10/10
 
-1/1 [==============================] - 0s 93ms/step - loss: 4224.1826
+1/1 [==============================] - 0s 108ms/step - loss: 13867.5508
 
   #### Inference Need return ypred, ytrue ######################### 
-[[ 2.62807667e-01  1.06022081e+01  1.13379021e+01  1.29726009e+01
-   1.11527452e+01  1.16648321e+01  9.95530128e+00  1.15231686e+01
-   1.10514183e+01  1.00792379e+01  1.06712914e+01  1.07432966e+01
-   8.47924709e+00  1.20844564e+01  8.12279987e+00  1.05386133e+01
-   1.14465065e+01  1.19610348e+01  1.02286425e+01  1.01859856e+01
-   1.10904417e+01  9.60831261e+00  9.25307846e+00  1.13289957e+01
-   1.23563614e+01  1.02404509e+01  1.12691536e+01  1.18570890e+01
-   1.08838387e+01  8.81741905e+00  1.15971375e+01  1.22421932e+01
-   1.05485382e+01  1.00470219e+01  1.06553516e+01  1.22298040e+01
-   1.25552511e+01  1.19015932e+01  1.03745584e+01  1.11527815e+01
-   1.20710096e+01  1.13807039e+01  9.74316692e+00  1.14520502e+01
-   9.73287392e+00  1.07033472e+01  1.18285780e+01  1.11693249e+01
-   9.66073227e+00  1.12801580e+01  9.99097919e+00  1.22467718e+01
-   9.95249748e+00  1.05660362e+01  1.02049618e+01  1.13009224e+01
-   1.01599464e+01  9.63308716e+00  1.20551319e+01  1.03116856e+01
-   9.11221027e-01 -4.55986679e-01 -1.43894303e+00  1.01626706e+00
-  -2.17958546e+00 -2.16580081e+00  1.21047211e+00 -1.35576224e+00
-   2.42454648e+00  8.80122304e-01  1.80309057e+00  1.63575470e-01
-   7.98857212e-02 -9.52467322e-01 -1.67405915e+00  1.11195767e+00
-  -1.18807936e+00 -3.28463584e-01 -5.86845040e-01  2.85152316e-01
-  -1.61647618e-01  4.51284736e-01 -2.07936168e+00  2.17818081e-01
-   1.94579673e+00 -7.88777590e-01 -2.04017973e+00 -1.80405974e-02
-  -1.07233667e+00  3.86913210e-01 -9.86688972e-01  2.23032188e+00
-  -4.11911726e-01 -9.41307068e-01 -6.29394054e-01  2.87833095e-01
-   2.04250050e+00  1.02886832e+00  1.19878864e+00 -5.13260722e-01
-  -1.61982584e+00  6.25373781e-01 -6.12102747e-02  3.06310296e-01
-   4.82943147e-01 -5.18854558e-01 -1.08360815e+00 -1.43682981e+00
-   3.53350818e-01  1.26816857e+00 -4.50406790e-01  1.62465107e+00
-  -1.24775982e+00 -8.87823641e-01 -3.75377536e-02 -1.22274268e+00
-   1.54678404e-01  1.27929851e-01 -2.19494176e+00  1.52079248e+00
-  -5.51369190e-01  1.32373798e+00  9.61215794e-01  1.20040774e-01
-  -7.96048045e-01 -9.13546622e-01  8.11333239e-01 -3.89986068e-01
-  -4.47408497e-01  1.01925933e+00  1.00407910e+00 -1.26822746e+00
-   2.42852911e-01  9.64844704e-01  4.05020937e-02  6.74515724e-01
-  -1.07834768e+00 -1.50078154e+00 -7.15911508e-01 -1.33654654e+00
-   1.73143291e+00 -4.12018001e-01 -7.43942499e-01  1.81099272e+00
-   2.10149813e+00 -4.03281927e-01  1.44894552e+00  7.15168178e-01
-   9.95842218e-01  3.01022172e-01 -1.25762105e+00  2.16633081e-03
-  -2.45857358e-01 -8.67279172e-01  7.13797927e-01 -2.58440673e-01
-   1.61778498e+00 -1.34923840e+00  4.31112170e-01  2.11007357e-01
-   3.35508555e-01 -4.01338935e-02  1.15972602e+00  5.93608618e-01
-   3.17843825e-01 -7.02199399e-01  6.85904622e-01  2.96375751e-02
-  -7.12579727e-01  1.48454651e-01  1.29397035e+00  3.84464860e-02
-  -1.76533437e+00 -2.28385973e+00 -1.47610232e-01 -1.38655639e+00
-   7.39199579e-01 -1.05930865e-02  7.75310397e-02  1.41990948e+00
-   3.94069374e-01  1.09932432e+01  1.22455750e+01  1.10797863e+01
-   1.10262938e+01  1.11778469e+01  1.07074327e+01  9.45268440e+00
-   1.10927744e+01  1.10355082e+01  1.22014780e+01  1.02939701e+01
-   9.30860710e+00  9.27834511e+00  1.18400536e+01  9.88212204e+00
-   1.00069122e+01  9.92514038e+00  9.63876343e+00  1.01875296e+01
-   1.05316381e+01  9.45674896e+00  1.11641121e+01  9.91659355e+00
-   1.00350332e+01  1.15910244e+01  1.03430166e+01  1.20167961e+01
-   1.03220587e+01  9.68302536e+00  1.02764959e+01  9.94074917e+00
-   1.24130821e+01  1.09642344e+01  1.19399672e+01  1.00193710e+01
-   1.08765583e+01  1.23981390e+01  1.13115025e+01  1.04334249e+01
-   1.07301035e+01  1.10700645e+01  1.09320211e+01  1.11643209e+01
-   9.22047138e+00  1.14359198e+01  1.25208483e+01  1.23866863e+01
-   8.89346218e+00  1.06115952e+01  1.10100880e+01  9.62166405e+00
-   1.01667480e+01  1.21917543e+01  1.12894344e+01  1.00158482e+01
-   1.23474312e+01  1.25019388e+01  1.03895969e+01  1.06084185e+01
-   9.33743000e-01  2.24223423e+00  8.32707465e-01  6.46721363e-01
-   1.79679179e+00  3.82769942e-01  2.41458941e+00  1.07553840e+00
-   2.44464040e-01  5.41950285e-01  1.71702278e+00  3.53812456e-01
-   4.10627842e-01  2.07264662e+00  2.69680119e+00  4.86819148e-01
-   1.57088006e+00  7.31146216e-01  9.77292836e-01  2.93063116e+00
-   3.24778020e-01  1.57694769e+00  1.83988047e+00  9.76086080e-01
-   9.75939691e-01  1.08964217e+00  1.86701107e+00  2.14706230e+00
-   3.97943258e-01  1.97513390e+00  2.76557446e-01  1.44539952e+00
-   1.17230761e+00  1.30319405e+00  1.12348759e+00  1.43921757e+00
-   1.45008469e+00  1.61452532e+00  1.98672533e-01  3.97615373e-01
-   2.44993925e-01  1.28558612e+00  6.55974388e-01  3.34109831e+00
-   2.43712723e-01  2.75341630e-01  1.23947251e+00  6.33342505e-01
-   8.47928524e-02  1.24613941e-01  6.99423432e-01  1.00937271e+00
-   1.53647292e+00  2.57854342e-01  2.22593427e-01  6.96428418e-01
-   2.26265717e+00  1.07125592e+00  2.82955694e+00  1.48664236e-01
-   1.94023311e-01  3.55775058e-01  1.77656150e+00  3.73104191e+00
-   2.46016359e+00  1.13457787e+00  2.05173755e+00  2.22776747e+00
-   4.04667377e-01  1.74909711e+00  4.81298029e-01  1.08364820e-01
-   2.25909662e+00  5.64726114e-01  1.05561793e+00  5.99628806e-01
-   6.66147530e-01  1.90954685e-01  2.49928617e+00  2.71446466e-01
-   9.81430173e-01  3.21523249e-01  1.12009549e+00  9.43867624e-01
-   1.76491404e+00  4.23087478e-01  1.88816822e+00  4.26711917e-01
-   5.05659103e-01  1.77577281e+00  1.94632816e+00  1.09710455e+00
-   2.10546923e+00  2.35331297e-01  3.01517630e+00  1.62056124e+00
-   2.59630203e-01  2.29385853e-01  6.12923026e-01  1.26541018e-01
-   9.73367870e-01  4.03827250e-01  2.67854571e-01  7.77245998e-01
-   9.01164293e-01  3.57150316e-01  1.76264179e+00  3.31022644e+00
-   5.43523014e-01  1.14587414e+00  2.38138795e-01  1.46345472e+00
-   8.20432603e-01  1.06246448e+00  1.54229951e+00  1.02512097e+00
-   6.77618563e-01  3.58481705e-01  3.02403212e-01  3.72247279e-01
-   1.75012283e+01 -1.16496763e+01 -7.96994066e+00]]
+[[-0.3159003   1.000575    0.45977864 -0.99350035 -0.4672702   0.8392955
+   0.7479128  -1.7298856  -0.39574182  0.121494    0.41334063 -1.0016263
+   0.77017415 -0.3360371   0.2826916  -1.293608   -1.0186713  -0.7254563
+   1.5440624  -0.2589811  -1.3305929  -0.15010816  1.0785581  -0.00826347
+   0.8738439   0.43635422 -0.11642724 -0.7048212  -0.36623842 -0.07515335
+   1.2113917  -0.2418783  -0.12912622  0.15959987 -0.2146703   0.58545005
+   0.4678665   0.5462715  -0.452407    0.23936695  1.2003294   0.9079603
+   0.96264    -1.0174111  -0.94072145  0.09862159 -0.29750636  0.1686601
+  -0.78610516 -0.632923   -0.63276535 -0.7951636   0.109101   -0.130885
+   0.32099593  0.8705658  -0.3777753  -0.7851759   0.02684779 -1.0722002
+   0.28743145  0.70447266  0.09325582  0.25272554  0.5729978  -0.15157303
+  -0.262673   -1.0544455  -1.0642899   1.0427029   0.02343357  1.4286425
+   0.11297071  0.07281938 -0.34157634  0.49822262 -0.30564865  0.39109296
+  -0.00797534 -0.11880833  0.08103782  0.83070767 -1.1118062  -0.40877604
+  -1.505926    1.0836815  -0.92251086  0.32012776 -0.79099214  0.9111697
+   1.3012257   0.81790936  0.0378679  -0.42969632  0.8017125   0.67818356
+   0.469921   -0.41442955  0.41575456 -1.0583739  -1.23063    -1.0588155
+   0.06544535 -1.5027508  -0.37527084  1.1350834  -1.4429388   0.606258
+  -1.0848428  -0.18369615  0.9767835  -0.5412365  -0.14053017 -0.14733645
+  -0.06215003  0.38562065  0.26190698  1.5801672   1.4954153   0.90608567
+   0.10338879  4.2109914   4.581333    5.003722    4.72402     5.9731407
+   5.135175    5.482104    4.937342    5.095663    4.3124347   6.2372603
+   4.9959354   5.385708    5.8951287   3.7328117   3.9407377   4.532638
+   5.035271    4.6578226   4.206911    4.684574    4.7885427   4.44715
+   4.8522644   4.7587914   4.244468    4.744103    4.5894704   5.0240464
+   5.0031133   6.3105674   5.119571    5.1377993   4.882358    6.421894
+   4.676962    5.238149    4.812674    4.3685694   4.449819    3.329858
+   4.1566677   6.300975    5.916206    5.223754    5.5736313   5.7617574
+   5.7127113   5.728995    6.8784075   6.700711    4.7347293   5.177169
+   6.1819596   6.518001    6.6210513   6.921403    4.150903    5.3467827
+   1.7629454   0.3818252   1.0492959   0.3049761   1.5227056   1.6919211
+   2.3064938   0.3126232   0.7092702   0.5963725   1.3560237   2.022776
+   1.7240779   1.1549448   0.25822878  1.4868145   0.50604844  0.9111105
+   0.6933623   1.1951629   1.7484617   2.068862    0.7244008   0.42489082
+   0.44690436  0.2900132   1.7228839   1.81286     2.7189565   1.3149111
+   1.7183502   0.84929025  1.0322275   0.5216984   1.6871502   1.9584097
+   0.8550065   0.27848393  1.8277324   2.2148266   1.5588777   0.43479568
+   0.46421754  0.86001307  1.9332228   1.6562696   2.6636574   0.33856344
+   0.2755661   1.241533    0.9230974   0.21046084  0.30239528  1.0767677
+   0.55480325  0.46529865  0.91756475  1.7410805   1.0464976   1.6177999
+   1.437971    0.7038787   0.8004695   0.85134524  2.435222    0.43217838
+   0.52148116  0.5871037   0.6748956   1.2910892   1.3510106   0.53956264
+   1.8815858   0.21659923  0.7985343   0.97407097  1.3936386   1.6478341
+   1.8169774   1.7023834   1.0212651   0.9564999   0.7383927   0.4476714
+   2.1126118   1.4943249   2.455933    0.34295797  1.0570693   0.49636555
+   2.2892509   0.48945057  0.9608716   0.3271128   0.3209998   1.3960733
+   0.26411176  0.54379374  0.76376367  0.8873446   1.4875345   1.0649742
+   0.53680927  0.44287288  0.31462026  1.8152294   1.4975438   1.49342
+   1.0141492   1.7571061   0.5486014   0.7509093   0.4692161   0.96319795
+   0.41442317  0.25271666  1.1001375   1.1547859   0.81245124  0.94536024
+   0.01786071  6.5694113   5.880195    6.1907077   5.1631665   6.6870036
+   5.6130366   6.3260283   5.875774    5.267103    6.2270536   5.6726613
+   5.3179846   5.1345124   6.6647305   6.8896804   6.4124584   5.939629
+   7.263471    5.992696    5.9083576   6.1472545   5.068568    6.7093973
+   7.1471086   6.500998    6.190155    5.803893    5.0655155   6.33521
+   6.016944    4.570879    5.5009456   5.9522386   6.094624    6.252661
+   6.7633476   6.1317883   6.4680004   6.7264714   4.633082    5.770509
+   6.3435574   5.1370196   5.2352242   5.403102    4.3204203   5.414754
+   7.060365    5.6320887   5.257648    6.4145184   6.1710777   6.2411914
+   6.704233    6.473246    5.120465    6.7782917   6.049254    5.753983
+  -3.323058   -1.5900623   5.9704895 ]]
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-06-17 04:17:42.857237
+  date_run                              2020-06-17 08:17:28.371996
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   90.3452
+metric                                                   97.3584
 metric_name                                  mean_absolute_error
 Name: 4, dtype: object 
 
-  date_run                              2020-06-17 04:17:42.860942
+  date_run                              2020-06-17 08:17:28.375728
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   8187.89
+metric                                                   9493.76
 metric_name                                   mean_squared_error
 Name: 5, dtype: object 
 
-  date_run                              2020-06-17 04:17:42.863896
+  date_run                              2020-06-17 08:17:28.378834
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                   90.1868
+metric                                                   98.0793
 metric_name                                median_absolute_error
 Name: 6, dtype: object 
 
-  date_run                              2020-06-17 04:17:42.866657
+  date_run                              2020-06-17 08:17:28.382045
 model_uri                                   model_keras.armdn.py
 json           [{'model_uri': 'model_keras.armdn.py', 'lstm_h...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
-metric                                                  -732.284
+metric                                                  -849.234
 metric_name                                             r2_score
 Name: 7, dtype: object 
 
@@ -777,14 +747,14 @@ Traceback (most recent call last):
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/timeseries/test02/model_list.json 
 
                        date_run  ...            metric_name
-0  2020-06-17 04:17:33.997679  ...    mean_absolute_error
-1  2020-06-17 04:17:34.001457  ...     mean_squared_error
-2  2020-06-17 04:17:34.004548  ...  median_absolute_error
-3  2020-06-17 04:17:34.007513  ...               r2_score
-4  2020-06-17 04:17:42.857237  ...    mean_absolute_error
-5  2020-06-17 04:17:42.860942  ...     mean_squared_error
-6  2020-06-17 04:17:42.863896  ...  median_absolute_error
-7  2020-06-17 04:17:42.866657  ...               r2_score
+0  2020-06-17 08:17:19.082420  ...    mean_absolute_error
+1  2020-06-17 08:17:19.086165  ...     mean_squared_error
+2  2020-06-17 08:17:19.089284  ...  median_absolute_error
+3  2020-06-17 08:17:19.092360  ...               r2_score
+4  2020-06-17 08:17:28.371996  ...    mean_absolute_error
+5  2020-06-17 08:17:28.375728  ...     mean_squared_error
+6  2020-06-17 08:17:28.378834  ...  median_absolute_error
+7  2020-06-17 08:17:28.382045  ...               r2_score
 
 [8 rows x 6 columns] 
 IndexError: tuple index out of range
@@ -823,7 +793,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605d1124e0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b9273e48> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext50_32x4d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext50_32x4d/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/'}} 'data_info' 
 
@@ -839,7 +809,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605bf154a8> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f8669e8a588> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet50_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet50_2/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/'}} 'data_info' 
 
@@ -855,7 +825,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605bfe48d0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b900b940> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet34', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet34/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/'}} 'data_info' 
 
@@ -871,7 +841,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f600ee3d470> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f866be64518> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet152', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet152/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/'}} 'data_info' 
 
@@ -887,7 +857,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605d1124e0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b9273e48> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet101_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet101_2/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/'}} 'data_info' 
 
@@ -903,7 +873,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f600ee3d470> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f8669e8a588> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet50', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet50/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/'}} 'data_info' 
 
@@ -919,7 +889,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605bfe48d0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b900b940> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet18', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet18/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/'}} 'data_info' 
 
@@ -935,7 +905,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f600622feb8> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f8663256f60> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext101_32x8d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext101_32x8d/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/'}} 'data_info' 
 
@@ -951,7 +921,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605d1124e0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b9273e48> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x0_5', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x0_5/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/'}} 'data_info' 
 
@@ -967,7 +937,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f600ee3d470> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f866be64518> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet101', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet101/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/'}} 'data_info' 
 
@@ -1101,7 +1071,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605bfe48d0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f86b900b940> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x1_0', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x1_0/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/'}} 'data_info' 
 
@@ -1155,7 +1125,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do fashion_vi
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f65419995c0> <class 'mlmodels.model_tch.textcnn.Model'>
+>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f2fcbe01be0> <class 'mlmodels.model_tch.textcnn.Model'>
 
   {'hypermodel_pars': {}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': True}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} 'data_info' 
 
@@ -1213,7 +1183,7 @@ Non-trainable params: 0
 __________________________________________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f64ec6a6470> <class 'mlmodels.model_keras.textcnn.Model'>
+>>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f2f64252438> <class 'mlmodels.model_keras.textcnn.Model'>
 Loading data...
 
   {'model_pars': {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, 'data_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/imdb.csv', 'train': True, 'maxlen': 40, 'max_features': 5}, 'compute_pars': {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}, 'out_pars': {'path': './output/textcnn_keras//model.h5', 'model_path': './output/textcnn_keras/model.h5'}} 'data_info' 
@@ -1258,7 +1228,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do text_class
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f80ca83f208> <class 'mlmodels.model_tch.textcnn.Model'>
+>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f81b9edd208> <class 'mlmodels.model_tch.textcnn.Model'>
 
   {'hypermodel_pars': {}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': True}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} 'data_info' 
 
@@ -1300,7 +1270,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do text_class
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.transformer_sentence.Model object at 0x7f80761a7d30> <class 'mlmodels.model_tch.transformer_sentence.Model'>
+>>>model:  <mlmodels.model_tch.transformer_sentence.Model object at 0x7f8165845d68> <class 'mlmodels.model_tch.transformer_sentence.Model'>
 
   ############ Dataloader setup  ############################# 
 
@@ -1522,7 +1492,7 @@ Non-trainable params: 0
 __________________________________________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f80ca83f208> <class 'mlmodels.model_keras.textcnn.Model'>
+>>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f81b9edd208> <class 'mlmodels.model_keras.textcnn.Model'>
 Loading data...
 
   {'model_pars': {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, 'data_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/imdb.csv', 'train': True, 'maxlen': 40, 'max_features': 5}, 'compute_pars': {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}, 'out_pars': {'path': './output/textcnn_keras//model.h5', 'model_path': './output/textcnn_keras/model.h5'}} 'data_info' 
