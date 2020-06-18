@@ -25,9 +25,9 @@
 
   ############Check model ################################ 
 
-  ['model_dev.temporal_fusion_google', 'model_gluon.gluonts_model_old', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model', 'model_gluon.fb_prophet', 'model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tf.1_lstm', 'model_tch.textcnn', 'model_tch.torchhub', 'model_tch.transformer_sentence', 'model_tch.matchZoo', 'model_keras.charcnn', 'model_keras.textcnn', 'model_keras.charcnn_zhang', 'model_keras.deepctr', 'model_keras.namentity_crm_bilstm', 'model_keras.armdn'] 
+  ['model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tch.transformer_sentence', 'model_tch.textcnn', 'model_tch.matchZoo', 'model_tch.torchhub', 'model_tf.1_lstm', 'model_gluon.fb_prophet', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_dev.temporal_fusion_google', 'model_keras.charcnn_zhang', 'model_keras.namentity_crm_bilstm', 'model_keras.textcnn', 'model_keras.armdn', 'model_keras.deepctr', 'model_keras.charcnn'] 
 
-  Used ['model_dev.temporal_fusion_google', 'model_gluon.gluonts_model_old', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model', 'model_gluon.fb_prophet', 'model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tf.1_lstm', 'model_tch.textcnn', 'model_tch.torchhub', 'model_tch.transformer_sentence', 'model_tch.matchZoo', 'model_keras.charcnn', 'model_keras.textcnn', 'model_keras.charcnn_zhang', 'model_keras.deepctr', 'model_keras.namentity_crm_bilstm', 'model_keras.armdn'] 
+  Used ['model_sklearn.model_sklearn', 'model_sklearn.model_lightgbm', 'model_tch.transformer_sentence', 'model_tch.textcnn', 'model_tch.matchZoo', 'model_tch.torchhub', 'model_tf.1_lstm', 'model_gluon.fb_prophet', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_dev.temporal_fusion_google', 'model_keras.charcnn_zhang', 'model_keras.namentity_crm_bilstm', 'model_keras.textcnn', 'model_keras.armdn', 'model_keras.deepctr', 'model_keras.charcnn'] 
 
 
 
@@ -35,11 +35,84 @@
 
  ********************************************************************************************************************************************
 
-  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_dev//temporal_fusion_google.py 
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_dev//temporal_fusion_google.py", line 17, in <module>
-    from mlmodels.mode_tf.raw  import temporal_fusion_google
-ModuleNotFoundError: No module named 'mlmodels.mode_tf'
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_sklearn//model_sklearn.py 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Loading dataset   ############################################# 
+
+  #### Model init, fit   ############################################# 
+
+  #### save the trained model  ####################################### 
+
+  #### Predict   ##################################################### 
+
+  #### metrics   ##################################################### 
+{'mode': 'test', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/tabular/titanic_train_preprocessed.csv', 'data_type': 'pandas', 'train': True}
+{'roc_auc_score': 1.0}
+
+  #### Plot   ######################################################## 
+
+  #### Save/Load   ################################################### 
+{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_sklearn/model_sklearn/model.pkl'}
+{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_sklearn/model_sklearn/model.pkl'}
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=4, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=10,
+                       n_jobs=None, oob_score=False, random_state=0, verbose=0,
+                       warm_start=False)
+{'mode': 'test', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/tabular/titanic_train_preprocessed.csv', 'data_type': 'pandas', 'train': True}
+{'roc_auc_score': 1.0}
+
+  #### Module init   ############################################ 
+
+  <module 'mlmodels.model_sklearn.model_sklearn' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_sklearn/model_sklearn.py'> 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Model init   ############################################ 
+
+  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7fdba41f1518> 
+
+  #### Fit   ######################################################## 
+
+  #### Predict   #################################################### 
+None
+
+  #### Get  metrics   ################################################ 
+{'mode': 'test', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/tabular/titanic_train_preprocessed.csv', 'data_type': 'pandas', 'train': True}
+
+  #### Save   ######################################################## 
+
+  #### Load   ######################################################## 
+
+  ############ Model preparation   ################################## 
+
+  #### Module init   ############################################ 
+
+  <module 'mlmodels.model_sklearn.model_sklearn' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_sklearn/model_sklearn.py'> 
+
+  #### Loading params   ############################################## 
+
+  #### Path params   ########################################## 
+
+  #### Model init   ############################################ 
+
+  ############ Model fit   ########################################## 
+fit success None
+
+  ############ Prediction############################################ 
+None
+
+  ############ Save/ Load ############################################ 
+/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/sklearn/ensemble/forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_test", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
