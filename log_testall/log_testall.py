@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/bd7dfc233939710e05244f8e6a394a7ce12a3485', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'bd7dfc233939710e05244f8e6a394a7ce12a3485', 'workflow': 'test_all'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/077ac9573b3255f0836baba55f19fb6dbaa40c9d', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '077ac9573b3255f0836baba55f19fb6dbaa40c9d', 'workflow': 'test_all'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_all
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/bd7dfc233939710e05244f8e6a394a7ce12a3485
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/077ac9573b3255f0836baba55f19fb6dbaa40c9d
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/bd7dfc233939710e05244f8e6a394a7ce12a3485
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/077ac9573b3255f0836baba55f19fb6dbaa40c9d
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/bd7dfc233939710e05244f8e6a394a7ce12a3485
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/077ac9573b3255f0836baba55f19fb6dbaa40c9d
 
  ************************************************************************************************************************
 
@@ -66,7 +66,7 @@ RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
                        n_jobs=None, oob_score=False, random_state=0, verbose=0,
                        warm_start=False)
 {'mode': 'test', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/tabular/titanic_train_preprocessed.csv', 'data_type': 'pandas', 'train': True}
-{'roc_auc_score': 0.95}
+{'roc_auc_score': 1.0}
 
   #### Module init   ############################################ 
 
@@ -78,7 +78,7 @@ RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f120bef4518> 
+  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f023146d7f0> 
 
   #### Fit   ######################################################## 
 
