@@ -36,6 +36,7 @@ dill==0.3.2
 distributed==2.6.0
 docker==4.2.1
 docutils==0.15.2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz
 entrypoints==0.3
 ephem==3.7.7.1
 fbprophet==0.6
@@ -54,7 +55,7 @@ google-pasta==0.2.0
 googleapis-common-protos==1.52.0
 gorilla==0.3.0
 graphviz==0.8.4
-grpcio==1.29.0
+grpcio==1.30.0
 gunicorn==20.0.4
 h5py==2.10.0
 HeapDict==1.0.1
@@ -168,7 +169,7 @@ ujson==1.35
 urllib3==1.25.9
 versioneer==0.18
 wasabi==0.7.0
-wcwidth==0.2.4
+wcwidth==0.2.5
 websocket-client==0.57.0
 Werkzeug==1.0.1
 wrapt==1.12.1
