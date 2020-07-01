@@ -82,7 +82,7 @@ MarkupSafe==1.1.1
 matchzoo-py==1.1.1
 matplotlib==3.2.2
 mlflow==1.7.1
--e git+https://github.com/arita37/mlmodels@d9f03257ce466ca51d4bf7fbc0c2942af535aefa#egg=mlmodels
+-e git+https://github.com/arita37/mlmodels@4eb1f9b9d4d68e7db555190ca5254c5fe537ba39#egg=mlmodels
 msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
