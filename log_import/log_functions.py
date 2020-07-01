@@ -13,7 +13,7 @@
 
  #################### {'uri': 'mlmodels.util:log', 'args': ['x1', 'passed'], 'kw_args': {}} 
 
-  <function log at 0x7f1c47942730> 
+  <function log at 0x7faef01fe7b8> 
 
   x1 passed 
 
@@ -23,15 +23,15 @@
 
  #################### {'uri': 'mlmodels.util:load_function_uri', 'args': [], 'kw_args': {'uri_name': 'mlmodels.util:log'}} 
 
-  <function load_function_uri at 0x7f1c4794f0d0> 
+  <function load_function_uri at 0x7faef020c158> 
 
-  <function log at 0x7f1c47942730> 
+  <function log at 0x7faef01fe7b8> 
 
   
 
  #################### {'uri': 'mlmodels.util:os_package_root_path', 'args': [], 'kw_args': {}} 
 
-  <function os_package_root_path at 0x7f1c479428c8> 
+  <function os_package_root_path at 0x7faef01fe950> 
 
   /home/runner/work/mlmodels/mlmodels/mlmodels/ 
 
@@ -45,16 +45,31 @@
 
   
 
- #################### {'uri': 'mlmodels.data:download_googledrive', 'args': [[{'fileid': '1-K72L8aQPsl2qt_uBF-kzbai3TYG6Qg4', 'path_target': 'ztest/covid19/test.json'}, {'fileid': '1-8Ij1ZXL9YmQRylwRloABdqnxEC1mhP_', 'path_target': 'ztest/covid19/train.json'}]], 'kw_args': {}} 
+ #################### {'uri': 'mlmodels.data:download_googledrive', 'args': [], 'kw_args': {'file_list': [{'fileid': '1-K72L8aQPsl2qt_uBF-kzbai3TYG6Qg4', 'path_target': 'ztest/covid19/test.json'}, {'fileid': '1-8Ij1ZXL9YmQRylwRloABdqnxEC1mhP_', 'path_target': 'ztest/covid19/train.json'}]}} 
 
-  <function download_googledrive at 0x7f1c1027c2f0> 
-Downloading...
-From: https://drive.google.com/uc?id=1-K72L8aQPsl2qt_uBF-kzbai3TYG6Qg4
-To: /home/runner/work/mlmodels/mlmodels/ztest/covid19/test.json
-0.00B [00:00, ?B/s]2.95MB [00:00, 45.6MB/s]
-Downloading...
-From: https://drive.google.com/uc?id=1-8Ij1ZXL9YmQRylwRloABdqnxEC1mhP_
-To: /home/runner/work/mlmodels/mlmodels/ztest/covid19/train.json
-0.00B [00:00, ?B/s]2.52MB [00:00, 42.7MB/s]
-  ztest/covid19/train.json 
+  Module ['mlmodels.data', 'download_googledrive'] notfound, invalid syntax (data.py, line 207), tuple index out of range {'uri': 'mlmodels.data:download_googledrive', 'args': [], 'kw_args': {'file_list': [{'fileid': '1-K72L8aQPsl2qt_uBF-kzbai3TYG6Qg4', 'path_target': 'ztest/covid19/test.json'}, {'fileid': '1-8Ij1ZXL9YmQRylwRloABdqnxEC1mhP_', 'path_target': 'ztest/covid19/train.json'}]}} 
 
+  
+
+ #################### {'uri': 'mlmodels.model_tch.textcnn:analyze_datainfo_paths', 'args': [{'data_path': 'dataset/recommender/', 'dataset': 'IMDB_sample.txt', 'data_type': 'csv_dataset', 'batch_size': 64, 'train': True}], 'kw_args': {}} 
+
+  <function analyze_datainfo_paths at 0x7fae60cdc510> 
+
+  ('/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/train/IMDB_sample.csv', '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/test/IMDB_sample.csv') 
+
+  
+
+ #################### {'uri': 'mlmodels.models:module_load', 'args': ['model_tch.torchhub.py'], 'kw_args': {}} 
+
+  <function module_load at 0x7fae60cce598> 
+
+  <module 'mlmodels.model_tch.torchhub' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py'> 
+
+  
+
+ #################### {'uri': 'mlmodels.models:module_load_full', 'args': ['model_tch.textcnn.py', {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, {'data_info': {'dataset': 'mlmodels/dataset/text/imdb', 'pass_data_pars': False, 'train': True, 'maxlen': 40, 'max_features': 5}, 'preprocessors': [{'name': 'loader', 'uri': 'mlmodels.preprocess.generic:NumpyDataset', 'args': {'numpy_loader_args': {'allow_pickle': True}, 'encoding': "'ISO-8859-1'"}}, {'name': 'imdb_process', 'uri': 'mlmodels.preprocess.text_keras:IMDBDataset', 'args': {'num_words': 5}}]}, {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}], 'kw_args': {}} 
+
+  <function module_load_full at 0x7fae60cce620> 
+{'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}
+
+  'kernel_height' {'uri': 'mlmodels.models:module_load_full', 'args': ['model_tch.textcnn.py', {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, {'data_info': {'dataset': 'mlmodels/dataset/text/imdb', 'pass_data_pars': False, 'train': True, 'maxlen': 40, 'max_features': 5}, 'preprocessors': [{'name': 'loader', 'uri': 'mlmodels.preprocess.generic:NumpyDataset', 'args': {'numpy_loader_args': {'allow_pickle': True}, 'encoding': "'ISO-8859-1'"}}, {'name': 'imdb_process', 'uri': 'mlmodels.preprocess.text_keras:IMDBDataset', 'args': {'num_words': 5}}]}, {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}], 'kw_args': {}} 
