@@ -36,7 +36,6 @@ dill==0.3.2
 distributed==2.6.0
 docker==4.2.2
 docutils==0.15.2
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz
 entrypoints==0.3
 ephem==3.7.7.1
 fbprophet==0.6
@@ -83,7 +82,7 @@ MarkupSafe==1.1.1
 matchzoo-py==1.1.1
 matplotlib==3.2.2
 mlflow==1.7.1
--e git+https://github.com/arita37/mlmodels@4eb1f9b9d4d68e7db555190ca5254c5fe537ba39#egg=mlmodels
+-e git+https://github.com/arita37/mlmodels@077ac9573b3255f0836baba55f19fb6dbaa40c9d#egg=mlmodels
 msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
