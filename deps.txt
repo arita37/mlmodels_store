@@ -36,6 +36,7 @@ dill==0.3.2
 distributed==2.6.0
 docker==4.2.2
 docutils==0.15.2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz
 entrypoints==0.3
 ephem==3.7.7.1
 fbprophet==0.6
@@ -147,7 +148,7 @@ stevedore==2.0.1
 tabulate==0.8.7
 tblib==1.6.0
 tensorboard==1.15.0
-tensorboardX==2.0
+tensorboardX==2.1
 tensorflow==1.15.2
 tensorflow-datasets==3.0.0
 tensorflow-estimator==1.15.1
