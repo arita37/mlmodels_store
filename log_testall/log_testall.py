@@ -51,7 +51,7 @@
 
   #### metrics   ##################################################### 
 {'mode': 'test', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/tabular/titanic_train_preprocessed.csv', 'data_type': 'pandas', 'train': True}
-{'roc_auc_score': 1.0}
+{'roc_auc_score': 0.95}
 
   #### Plot   ######################################################## 
 
@@ -78,7 +78,7 @@ RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f740597a080> 
+  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f93cdcdce48> 
 
   #### Fit   ######################################################## 
 
