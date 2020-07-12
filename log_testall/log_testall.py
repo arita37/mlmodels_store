@@ -78,7 +78,7 @@ RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7febac2a7080> 
+  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f659ed74e48> 
 
   #### Fit   ######################################################## 
 
