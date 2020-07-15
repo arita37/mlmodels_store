@@ -135,13 +135,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f8c15cf6dd8> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fc437124898> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-07-15 08:18:03.400799
+  date_run                              2020-07-15 16:19:30.607710
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -149,7 +149,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-07-15 08:18:03.404038
+  date_run                              2020-07-15 16:19:30.613248
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -157,7 +157,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-07-15 08:18:03.406675
+  date_run                              2020-07-15 16:19:30.617234
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -165,7 +165,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-07-15 08:18:03.409232
+  date_run                              2020-07-15 16:19:30.621262
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri                   /HOBBIES_1_001_CA_1_validation.csv
@@ -239,7 +239,7 @@ Using TensorFlow backend.
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -282,7 +282,7 @@ NameError: Module model_keras.armdn notfound, invalid syntax (data.py, line 126)
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -307,7 +307,7 @@ NameError: Module model_tch.nbeats notfound, No module named 'mlmodels.model_tch
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -340,7 +340,7 @@ NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 2
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -373,7 +373,7 @@ NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 2
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -458,7 +458,7 @@ NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 2
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -491,7 +491,7 @@ NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 2
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -524,7 +524,7 @@ NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 2
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -557,7 +557,7 @@ NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 2
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -587,10 +587,10 @@ Traceback (most recent call last):
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/timeseries/test02/model_list.json 
 
                        date_run  ...            metric_name
-0  2020-07-15 08:18:03.400799  ...    mean_absolute_error
-1  2020-07-15 08:18:03.404038  ...     mean_squared_error
-2  2020-07-15 08:18:03.406675  ...  median_absolute_error
-3  2020-07-15 08:18:03.409232  ...               r2_score
+0  2020-07-15 16:19:30.607710  ...    mean_absolute_error
+1  2020-07-15 16:19:30.613248  ...     mean_squared_error
+2  2020-07-15 16:19:30.617234  ...  median_absolute_error
+3  2020-07-15 16:19:30.621262  ...               r2_score
 
 [4 rows x 6 columns] 
     if d ==  "single_dataframe" :
@@ -615,7 +615,7 @@ NameError: Module model_gluon notfound, invalid syntax (gluonts_model.py, line 2
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -671,7 +671,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f20f7c74a90> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f606c6c2a90> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x1_0', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x1_0/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/'}} 'data_info' 
 
@@ -687,7 +687,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f209c0624e0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f6010ab24e0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet101', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet101/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/'}} 'data_info' 
 
@@ -703,7 +703,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f20ea39a9b0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605ede89b0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet152', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet152/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/'}} 'data_info' 
 
@@ -719,7 +719,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f209cf8cbe0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f60119dbbe0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext50_32x4d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext50_32x4d/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/'}} 'data_info' 
 
@@ -735,7 +735,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f20ea39a9b0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605ede89b0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet50_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet50_2/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/'}} 'data_info' 
 
@@ -751,7 +751,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f209cf9bd68> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f60119ebd68> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet34', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet34/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/'}} 'data_info' 
 
@@ -767,7 +767,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f20ea39a9b0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605ede89b0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet101_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet101_2/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/'}} 'data_info' 
 
@@ -783,7 +783,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f209cf8cbe0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f6010ab24e0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet50', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet50/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/'}} 'data_info' 
 
@@ -799,7 +799,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f209c0624e0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f600dc42e80> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnext101_32x8d', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnext101_32x8d/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/'}} 'data_info' 
 
@@ -815,7 +815,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do timeseries
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f209cf9bd68> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f60119ebd68> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'resnet18', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/resnet18/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/'}} 'data_info' 
 
@@ -949,7 +949,7 @@ Traceback (most recent call last):
     train_iter, valid_iter = get_dataset(data_pars)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
     loader = DataLoader(data_pars)
->>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f20ea39a9b0> <class 'mlmodels.model_tch.torchhub.Model'>
+>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f605ede89b0> <class 'mlmodels.model_tch.torchhub.Model'>
 
   {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'shufflenet_v2_x0_5', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/shufflenet_v2_x0_5/checkpoints/', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/'}} 'data_info' 
 
@@ -1003,7 +1003,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do fashion_vi
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f660ef15b70> <class 'mlmodels.model_tch.textcnn.Model'>
+>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7efdf84c0be0> <class 'mlmodels.model_tch.textcnn.Model'>
 
   {'hypermodel_pars': {}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': True}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} 'data_info' 
 
@@ -1026,7 +1026,7 @@ Traceback (most recent call last):
     dataset        = data_pars['data_info'].get('dataset', None)
 KeyError: 'data_info'
 Using TensorFlow backend.
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
 Instructions for updating:
 If using Keras pass *_constraint arguments to layers.
 Model: "model_1"
@@ -1061,7 +1061,7 @@ Non-trainable params: 0
 __________________________________________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f65a6ac3470> <class 'mlmodels.model_keras.textcnn.Model'>
+>>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7efd90074470> <class 'mlmodels.model_keras.textcnn.Model'>
 Loading data...
 
   {'model_pars': {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, 'data_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/imdb.csv', 'train': True, 'maxlen': 40, 'max_features': 5}, 'compute_pars': {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}, 'out_pars': {'path': './output/textcnn_keras//model.h5', 'model_path': './output/textcnn_keras/model.h5'}} 'data_info' 
@@ -1105,7 +1105,7 @@ python /home/runner/work/mlmodels/mlmodels/mlmodels/benchmark.py --do text_class
   #### Setup Model   ############################################## 
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.transformer_sentence.Model object at 0x7fa9c8137828> <class 'mlmodels.model_tch.transformer_sentence.Model'>
+>>>model:  <mlmodels.model_tch.transformer_sentence.Model object at 0x7f2b469d9860> <class 'mlmodels.model_tch.transformer_sentence.Model'>
 
   ############ Dataloader setup  ############################# 
 
@@ -1132,10 +1132,10 @@ Traceback (most recent call last):
     self.data_info                = data_pars['data_info']
 KeyError: 'data_info'
 Using TensorFlow backend.
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
 Instructions for updating:
 If using Keras pass *_constraint arguments to layers.
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
 Instructions for updating:
 If using Keras pass *_constraint arguments to layers.
 Model: "model_1"
@@ -1170,7 +1170,7 @@ Non-trainable params: 0
 __________________________________________________________________________________________________
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7fa9540df550> <class 'mlmodels.model_keras.textcnn.Model'>
+>>>model:  <mlmodels.model_keras.textcnn.Model object at 0x7f2ac4724f98> <class 'mlmodels.model_keras.textcnn.Model'>
 Loading data...
 
   {'model_pars': {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, 'data_pars': {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/text/imdb.csv', 'train': True, 'maxlen': 40, 'max_features': 5}, 'compute_pars': {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}, 'out_pars': {'path': './output/textcnn_keras//model.h5', 'model_path': './output/textcnn_keras/model.h5'}} 'data_info' 
@@ -1227,7 +1227,7 @@ Loading data...
 {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}
 
   #### Fit  ####################################################### 
->>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7fa9c8137828> <class 'mlmodels.model_tch.textcnn.Model'>
+>>>model:  <mlmodels.model_tch.textcnn.Model object at 0x7f2a9933e400> <class 'mlmodels.model_tch.textcnn.Model'>
 
   {'hypermodel_pars': {}, 'data_pars': {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_sample.txt', 'train_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_train.csv', 'valid_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/recommender/IMDB_valid.csv', 'split_if_exists': True, 'frac': 0.99, 'lang': 'en', 'pretrained_emb': 'glove.6B.300d', 'batch_size': 64, 'val_batch_size': 64, 'train': True}, 'model_pars': {'model_uri': 'model_tch.textcnn.py', 'dim_channel': 100, 'kernel_height': [3, 4, 5], 'dropout_rate': 0.5, 'num_class': 2}, 'compute_pars': {'learning_rate': 0.001, 'epochs': 1, 'checkpointdir': './output/text_cnn_tch/checkpoint/'}, 'out_pars': {'path': './output/text_cnn_tch/model.h5', 'checkpointdir': './output/text_cnn_tch/checkpoint/'}} 'data_info' 
 
@@ -1273,7 +1273,7 @@ KeyError: 'data_info'
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -1298,7 +1298,7 @@ NameError: Module model_tch.transformer_classifier notfound, No module named 'ml
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -1341,7 +1341,7 @@ KeyError: 'data_info'
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
@@ -1366,7 +1366,7 @@ NameError: Module model_keras.Autokeras notfound, No module named 'mlmodels.mode
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
     module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
