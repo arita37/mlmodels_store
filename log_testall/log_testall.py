@@ -51,7 +51,7 @@
 
   #### metrics   ##################################################### 
 {'mode': 'test', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/tabular/titanic_train_preprocessed.csv', 'data_type': 'pandas', 'train': True}
-{'roc_auc_score': 0.96875}
+{'roc_auc_score': 0.9705882352941176}
 
   #### Plot   ######################################################## 
 
@@ -66,7 +66,7 @@ RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
                        n_jobs=None, oob_score=False, random_state=0, verbose=0,
                        warm_start=False)
 {'mode': 'test', 'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/tabular/titanic_train_preprocessed.csv', 'data_type': 'pandas', 'train': True}
-{'roc_auc_score': 0.9285714285714286}
+{'roc_auc_score': 1.0}
 
   #### Module init   ############################################ 
 
@@ -78,7 +78,7 @@ RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f8679246828> 
+  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f140dc8d278> 
 
   #### Fit   ######################################################## 
 
@@ -111,10 +111,10 @@ fit success None
 None
 
   ############ Save/ Load ############################################ 
-/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/sklearn/ensemble/forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/sklearn/ensemble/forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
   "10 in version 0.20 to 100 in 0.22.", FutureWarning)
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.6.10/x64/bin/ml_test", line 11, in <module>
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_test", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 642, in main
     globals()[arg.do](arg)
