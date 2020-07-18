@@ -1,7 +1,7 @@
 test
 
   #### Module init   ############################################ 
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
 Instructions for updating:
 non-resource variables are not supported in the long term
 
@@ -13,7 +13,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7ff929cf8ef0> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7f3308c0be80> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -56,14 +56,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [-0.01094057 -0.00523737  0.04472003 -0.01672324 -0.02161457  0.04720915]
- [ 0.10879018 -0.03399887 -0.02330356  0.05002518 -0.18707328 -0.02897353]
- [ 0.18688712  0.1666193  -0.27997145 -0.00390998  0.27190709  0.04781487]
- [ 0.0284882  -0.21514201  0.31026286  0.25082624 -0.25730342  0.27201498]
- [-0.3555429   0.33360648  0.08087239 -0.17316917  0.21275769  0.77277285]
- [ 0.18905482  0.56286955  0.33635569  0.16879833 -0.10888453  0.21633384]
- [-0.00131959  0.34144974 -0.07694754  0.17059502  0.64683515 -0.09115694]
- [ 0.0201104  -0.60490775 -0.24000384 -0.26798937 -0.54998946  0.34364694]
+ [ 0.06545335  0.16073944  0.0492669  -0.13748778  0.04548643  0.01597552]
+ [ 0.31141204 -0.22155662  0.0126301   0.16509479  0.00579376  0.0033178 ]
+ [ 0.04478204  0.10292795  0.02293571  0.00132893  0.11235244  0.13688944]
+ [ 0.01398534  0.51629901 -0.06486107  0.08110547  0.34031761 -0.12387759]
+ [ 0.01756746 -0.50263518  0.4786852  -0.02170661 -0.07534164 -0.21557681]
+ [-0.33618391  0.2867808  -0.16358234  0.12314969 -0.01727448 -0.43730611]
+ [-0.01392279  0.87494409 -0.2012656   0.5421232  -0.19795331  0.02783894]
+ [ 0.03615962 -0.12958296 -0.04506617  0.22456072  0.11156346 -0.09672341]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -138,7 +138,7 @@ model_tf.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.42189648002386093, 'loss_history': []}
+{'loss': 0.43700170889496803, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -219,7 +219,7 @@ model_tf.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.697407066822052, 'loss_history': []}
+{'loss': 0.33321134373545647, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
