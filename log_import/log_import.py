@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/4eb1f9b9d4d68e7db555190ca5254c5fe537ba39', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': '4eb1f9b9d4d68e7db555190ca5254c5fe537ba39', 'workflow': 'test_fast_linux'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/c6fa6f43d1647e24f9360f90bb6efd98b22c7435', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': 'c6fa6f43d1647e24f9360f90bb6efd98b22c7435', 'workflow': 'test_fast_linux'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_fast_linux
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/adata2/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/4eb1f9b9d4d68e7db555190ca5254c5fe537ba39
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/c6fa6f43d1647e24f9360f90bb6efd98b22c7435
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/4eb1f9b9d4d68e7db555190ca5254c5fe537ba39
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/c6fa6f43d1647e24f9360f90bb6efd98b22c7435
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/4eb1f9b9d4d68e7db555190ca5254c5fe537ba39
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/c6fa6f43d1647e24f9360f90bb6efd98b22c7435
 
  ************************************************************************************************************************
 
@@ -83,7 +83,7 @@ mlmodels.preprocess.generic_old
 
   Error mlmodels.preprocess.tabular_keras cannot import name 'create_embedding_matrix' 
 Using TensorFlow backend.
-/opt/hostedtoolcache/Python/3.6.10/x64/lib/python3.6/site-packages/mxnet/optimizer/optimizer.py:167: UserWarning:
+/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/mxnet/optimizer/optimizer.py:167: UserWarning:
 
 WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
 
