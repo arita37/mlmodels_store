@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/c6fa6f43d1647e24f9360f90bb6efd98b22c7435', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/adata2/', 'repo': 'arita37/mlmodels', 'branch': 'adata2', 'sha': 'c6fa6f43d1647e24f9360f90bb6efd98b22c7435', 'workflow': 'test_fast_linux'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/061c074e0ea8d028c7c86b76298dc9fc3ebb6845', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '061c074e0ea8d028c7c86b76298dc9fc3ebb6845', 'workflow': 'test_fast_linux'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_fast_linux
 
- ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/adata2/
+ ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/c6fa6f43d1647e24f9360f90bb6efd98b22c7435
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/061c074e0ea8d028c7c86b76298dc9fc3ebb6845
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/c6fa6f43d1647e24f9360f90bb6efd98b22c7435
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/061c074e0ea8d028c7c86b76298dc9fc3ebb6845
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/c6fa6f43d1647e24f9360f90bb6efd98b22c7435
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/061c074e0ea8d028c7c86b76298dc9fc3ebb6845
 
  ************************************************************************************************************************
 
@@ -68,7 +68,7 @@ mlmodels.model_rank.__init__
 
   Error mlmodels.template.00_template_keras expected an indented block (00_template_keras.py, line 68) 
 
-  Error mlmodels.template.model_xxx invalid syntax (data.py, line 207) 
+  Error mlmodels.template.model_xxx invalid syntax (data.py, line 126) 
 mlmodels.preprocess.text_torch
 mlmodels.preprocess.text_keras
 mlmodels.preprocess.timeseries
@@ -125,7 +125,7 @@ mlmodels.model_keras.namentity_crm_bilstm
 mlmodels.model_keras.__init__
 mlmodels.model_keras.textcnn
 
-  Error mlmodels.model_keras.armdn invalid syntax (data.py, line 207) 
+  Error mlmodels.model_keras.armdn invalid syntax (data.py, line 126) 
 
   Error mlmodels.model_keras.deepctr cannot import name 'create_embedding_matrix' 
 /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/raw/char_cnn/data_utils.py:46: DeprecationWarning:
