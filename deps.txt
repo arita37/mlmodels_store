@@ -23,7 +23,7 @@ colorama==0.4.3
 colorlog==4.1.0
 ConfigSpace==0.4.10
 convertdate==2.2.1
-cryptography==2.9.2
+cryptography==3.0
 cycler==0.10.0
 cymem==2.0.3
 Cython==0.29.21
