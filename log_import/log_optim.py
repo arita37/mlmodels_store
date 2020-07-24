@@ -23,7 +23,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-07-19 05:28:00,856] Finished trial#0 resulted in value: 5.234572172164917. Current best value is 5.234572172164917 with parameters: {'learning_rate': 0.05255311836686447, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
+[I 2020-07-24 17:05:29,553] Finished trial#0 resulted in value: 5.079114854335785. Current best value is 5.079114854335785 with parameters: {'learning_rate': 0.09087148876825132, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
@@ -42,7 +42,7 @@ Deprecaton set to False
 2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
 3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
 4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-07-19 05:28:02,749] Finished trial#1 resulted in value: 3.779138296842575. Current best value is 3.779138296842575 with parameters: {'learning_rate': 0.01631404686179093, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
+[I 2020-07-24 17:05:31,241] Finished trial#1 resulted in value: 0.31019458919763565. Current best value is 0.31019458919763565 with parameters: {'learning_rate': 0.0028959511855309004, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
 
  ################################### Optim, finished ###################################
 
@@ -70,4 +70,4 @@ Deprecaton set to False
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1lstm/', 'model_type': 'model_tf', 'model_uri': 'model_tf-1_lstm'}
 Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1lstm//model//model.ckpt
 
-  ['checkpoint', 'model_pars.pkl', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'model.ckpt.meta'] 
+  ['model.ckpt.meta', 'checkpoint', 'model_pars.pkl', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001'] 
