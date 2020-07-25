@@ -9,25 +9,25 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/061c074e0ea8d028c7c86b76298dc9fc3ebb6845', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '061c074e0ea8d028c7c86b76298dc9fc3ebb6845', 'workflow': 'test_all'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/6fe8a3b73a576c75c565441d8ffa2353b386e363', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '6fe8a3b73a576c75c565441d8ffa2353b386e363', 'workflow': 'test_all'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_all
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/061c074e0ea8d028c7c86b76298dc9fc3ebb6845
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/6fe8a3b73a576c75c565441d8ffa2353b386e363
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/061c074e0ea8d028c7c86b76298dc9fc3ebb6845
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/6fe8a3b73a576c75c565441d8ffa2353b386e363
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/061c074e0ea8d028c7c86b76298dc9fc3ebb6845
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/6fe8a3b73a576c75c565441d8ffa2353b386e363
 
  ************************************************************************************************************************
 
   ############Check model ################################ 
 
-  ['model_keras.charcnn', 'model_keras.charcnn_zhang', 'model_keras.armdn', 'model_keras.deepctr', 'model_keras.textcnn', 'model_keras.namentity_crm_bilstm', 'model_sklearn.model_lightgbm', 'model_sklearn.model_sklearn', 'model_gluon.fb_prophet', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_tch.matchZoo', 'model_tch.torchhub', 'model_tch.textcnn', 'model_tch.transformer_sentence', 'model_tf.1_lstm', 'model_dev.temporal_fusion_google'] 
+  ['model_keras.charcnn', 'model_keras.charcnn_zhang', 'model_keras.Autokeras', 'model_keras.armdn', 'model_keras.deepctr', 'model_keras.textcnn', 'model_keras.namentity_crm_bilstm', 'model_sklearn.model_lightgbm', 'model_sklearn.model_sklearn', 'model_gluon.fb_prophet', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_tch.matchZoo', 'model_tch.torchhub', 'model_tch.textcnn', 'model_tch.transformer_sentence', 'model_tf.1_lstm', 'model_dev.temporal_fusion_google'] 
 
-  Used ['model_keras.charcnn', 'model_keras.charcnn_zhang', 'model_keras.armdn', 'model_keras.deepctr', 'model_keras.textcnn', 'model_keras.namentity_crm_bilstm', 'model_sklearn.model_lightgbm', 'model_sklearn.model_sklearn', 'model_gluon.fb_prophet', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_tch.matchZoo', 'model_tch.torchhub', 'model_tch.textcnn', 'model_tch.transformer_sentence', 'model_tf.1_lstm', 'model_dev.temporal_fusion_google'] 
+  Used ['model_keras.charcnn', 'model_keras.charcnn_zhang', 'model_keras.Autokeras', 'model_keras.armdn', 'model_keras.deepctr', 'model_keras.textcnn', 'model_keras.namentity_crm_bilstm', 'model_sklearn.model_lightgbm', 'model_sklearn.model_sklearn', 'model_gluon.fb_prophet', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_tch.matchZoo', 'model_tch.torchhub', 'model_tch.textcnn', 'model_tch.transformer_sentence', 'model_tf.1_lstm', 'model_dev.temporal_fusion_google'] 
 
 
 
