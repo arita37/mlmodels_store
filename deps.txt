@@ -104,7 +104,7 @@ prettytable==0.7.2
 prometheus-client==0.8.0
 prometheus-flask-exporter==0.15.4
 promise==2.3
-protobuf==3.12.2
+protobuf==3.12.4
 psutil==5.7.2
 pyaml==20.4.0
 pycparser==2.20
