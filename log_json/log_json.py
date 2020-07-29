@@ -235,7 +235,7 @@ Trainable params: 77,819
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7fc315579908> 
+  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7f271182fe80> 
 Loading data...
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -473,7 +473,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fad547f4f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f330d5416d8> 
 Downloading: "https://github.com/pytorch/vision/archive/master.zip" to /home/runner/.cache/torch/hub/master.zip
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -533,7 +533,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb5fb503f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f42d1ff2f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -593,7 +593,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ff298b2ff28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fae35a24470> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -653,7 +653,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbe82308f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f5fb7ce0f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -713,7 +713,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f35d7db9eb8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8ffd4717b8> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -773,7 +773,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4df6431f60> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fa8b7eac438> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -833,7 +833,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1e0a204f60> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8b53561588> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -893,7 +893,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f30a2b08a20> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7efcbede0f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -953,7 +953,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe3ce36f160> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f97abab1f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1013,7 +1013,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6fccac26a0> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8a8d320f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1073,7 +1073,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f0380785f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc032af0cc0> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1133,7 +1133,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f618677ef28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f686a479f60> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1193,7 +1193,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f597a2aaf60> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd7391b0f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1253,7 +1253,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f17a749ae80> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fef4f556358> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1313,7 +1313,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f5d17b44f60> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f1dfdf98f60> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1373,7 +1373,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f8f7a3b19e8> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc7da1fef28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1433,7 +1433,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fdaff6f2f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f29e7b5bf28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1493,7 +1493,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fef47f8d438> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f637dae7f60> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1553,7 +1553,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f30ad378f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6a26658f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1613,7 +1613,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ffacaaf6f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6e8f75d588> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1673,7 +1673,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f243703df60> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f01f02fdf28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1733,7 +1733,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb6fb54ef28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6440c99f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1793,7 +1793,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe330169f28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f51b0263f60> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1853,7 +1853,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7ff5e37fef28> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f76ed3c3f60> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1913,7 +1913,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet34/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7faec24bbf60> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fd0dd846f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
@@ -1973,7 +1973,7 @@ fit
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
 
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fbcf4838f60> 
+  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f4e00350f28> 
 Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
