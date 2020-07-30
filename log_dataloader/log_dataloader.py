@@ -345,35 +345,35 @@ cls_name : Preprocess_namentity
   URL:  mlmodels.dataloader:split_xy_from_dict {'col_Xinput': ['X'], 'col_yinput': ['y']} 
 
   
-###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7f18f2d82ae8> 
+###### load_callable_from_uri LOADED <function split_xy_from_dict at 0x7f80589aaae8> 
 
   
  ######### postional parameters :  ['out'] 
 
   
- ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7f18f2d82ae8> 
+ ######### Execute : preprocessor_func <function split_xy_from_dict at 0x7f80589aaae8> 
 
   URL:  sklearn.model_selection:train_test_split {'test_size': 0.5} 
 
   
-###### load_callable_from_uri LOADED <function train_test_split at 0x7f195d9f2510> 
+###### load_callable_from_uri LOADED <function train_test_split at 0x7f80c361a510> 
 
   
  ######### postional parameters :  [] 
 
   
- ######### Execute : preprocessor_func <function train_test_split at 0x7f195d9f2510> 
+ ######### Execute : preprocessor_func <function train_test_split at 0x7f80c361a510> 
 
   URL:  mlmodels.dataloader:pickle_dump {'path': 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'} 
 
   
-###### load_callable_from_uri LOADED <function pickle_dump at 0x7f197cc1fea0> 
+###### load_callable_from_uri LOADED <function pickle_dump at 0x7f80e2847ea0> 
 
   
  ######### postional parameters :  ['t'] 
 
   
- ######### Execute : preprocessor_func <function pickle_dump at 0x7f197cc1fea0> 
+ ######### Execute : preprocessor_func <function pickle_dump at 0x7f80e2847ea0> 
 Error /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/namentity_crm_bilstm.json [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
 
   
@@ -427,15 +427,15 @@ Error /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/namentity_crm_bil
   URL:  mlmodels.preprocess.generic:get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}}, 'shuffle': True, 'download': True} 
 
   
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f190ad22a60> 
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f80709c2a60> 
 
   
  ######### postional parameters :  ['data_info'] 
 
   
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f190ad22a60> 
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f80709c2a60> 
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7f190ad22a60> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7f80709c2a60> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {'fixed_size': 256, 'path': 'dataset/vision/MNIST/'}} 
 
@@ -501,10 +501,10 @@ Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 93, in pickle_dump
     with open(kwargs["path"], "wb") as fi:
 FileNotFoundError: [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
-0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 34%|███▎      | 3325952/9912422 [00:00<00:00, 33043453.22it/s]9920512it [00:00, 32314580.33it/s]                             
-0it [00:00, ?it/s]32768it [00:00, 554652.28it/s]
-0it [00:00, ?it/s]  6%|▋         | 106496/1648877 [00:00<00:01, 1007346.55it/s]1654784it [00:00, 12017971.81it/s]                           
-0it [00:00, ?it/s]8192it [00:00, 213510.01it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  0%|          | 16384/9912422 [00:00<01:01, 162028.38it/s] 51%|█████     | 5062656/9912422 [00:00<00:20, 231140.39it/s]9920512it [00:00, 34868747.21it/s]                           
+0it [00:00, ?it/s]32768it [00:00, 709014.69it/s]
+0it [00:00, ?it/s]  6%|▋         | 106496/1648877 [00:00<00:01, 1023368.01it/s]1654784it [00:00, 11582082.46it/s]                           
+0it [00:00, ?it/s]8192it [00:00, 225005.82it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting dataset/vision/MNIST/MNIST/raw/train-images-idx3-ubyte.gz to dataset/vision/MNIST/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting dataset/vision/MNIST/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/vision/MNIST/MNIST/raw
@@ -518,7 +518,7 @@ Done!
   
  #####  get_Data DataLoader  
 
-  ((<mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f18e97bd6d8>, <mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f18e97cd978>), {}) 
+  ((<mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f807094d4a8>, <mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f8058875978>), {}) 
 
   
 
@@ -579,15 +579,15 @@ Done!
   URL:  mlmodels.preprocess.generic:tf_dataset_download {} 
 
   
-###### load_callable_from_uri LOADED <function tf_dataset_download at 0x7f190ad226a8> 
+###### load_callable_from_uri LOADED <function tf_dataset_download at 0x7f80709c26a8> 
 
   
  ######### postional parameters :  ['data_info'] 
 
   
- ######### Execute : preprocessor_func <function tf_dataset_download at 0x7f190ad226a8> 
+ ######### Execute : preprocessor_func <function tf_dataset_download at 0x7f80709c26a8> 
 
-  function with postional parmater data_info <function tf_dataset_download at 0x7f190ad226a8> , (data_info, **args) 
+  function with postional parmater data_info <function tf_dataset_download at 0x7f80709c26a8> , (data_info, **args) 
 
   CIFAR10 
 
@@ -605,532 +605,532 @@ Done!
 Dl Size...:   0%|          | 0/162 [00:00<?, ? MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[A
-Dl Size...:   1%|          | 1/162 [00:00<00:55,  2.89 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   1%|          | 1/162 [00:00<00:55,  2.89 MiB/s][A
+Dl Size...:   1%|          | 1/162 [00:00<01:55,  1.40 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
+Dl Size...:   1%|          | 1/162 [00:00<01:55,  1.40 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   1%|          | 2/162 [00:00<00:55,  2.89 MiB/s][A
+Dl Size...:   1%|          | 2/162 [00:00<01:54,  1.40 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   2%|▏         | 3/162 [00:00<00:55,  2.89 MiB/s][A
+Dl Size...:   2%|▏         | 3/162 [00:00<01:53,  1.40 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   2%|▏         | 4/162 [00:00<00:54,  2.89 MiB/s][A
+Dl Size...:   2%|▏         | 4/162 [00:00<01:53,  1.40 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   3%|▎         | 5/162 [00:00<00:54,  2.89 MiB/s][A
+Dl Size...:   3%|▎         | 5/162 [00:00<01:52,  1.40 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   4%|▎         | 6/162 [00:00<00:54,  2.89 MiB/s][A
+Dl Size...:   4%|▎         | 6/162 [00:00<01:51,  1.40 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   4%|▍         | 7/162 [00:00<00:53,  2.89 MiB/s][A
+Dl Size...:   4%|▍         | 7/162 [00:00<01:50,  1.40 MiB/s][A
+
+Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
+Dl Size...:   5%|▍         | 8/162 [00:00<01:50,  1.40 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[A
-Dl Size...:   5%|▍         | 8/162 [00:00<00:38,  4.05 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   5%|▍         | 8/162 [00:00<00:38,  4.05 MiB/s][A
+Dl Size...:   6%|▌         | 9/162 [00:00<01:17,  1.98 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
+Dl Size...:   6%|▌         | 9/162 [00:00<01:17,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   6%|▌         | 9/162 [00:00<00:37,  4.05 MiB/s][A
+Dl Size...:   6%|▌         | 10/162 [00:00<01:16,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   6%|▌         | 10/162 [00:00<00:37,  4.05 MiB/s][A
+Dl Size...:   7%|▋         | 11/162 [00:00<01:16,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   7%|▋         | 11/162 [00:00<00:37,  4.05 MiB/s][A
+Dl Size...:   7%|▋         | 12/162 [00:00<01:15,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   7%|▋         | 12/162 [00:00<00:37,  4.05 MiB/s][A
+Dl Size...:   8%|▊         | 13/162 [00:00<01:15,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   8%|▊         | 13/162 [00:00<00:36,  4.05 MiB/s][A
+Dl Size...:   9%|▊         | 14/162 [00:00<01:14,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   9%|▊         | 14/162 [00:00<00:36,  4.05 MiB/s][A
+Dl Size...:   9%|▉         | 15/162 [00:00<01:14,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:   9%|▉         | 15/162 [00:00<00:36,  4.05 MiB/s][A
+Dl Size...:  10%|▉         | 16/162 [00:00<01:13,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  10%|▉         | 16/162 [00:00<00:36,  4.05 MiB/s][A
+Dl Size...:  10%|█         | 17/162 [00:00<01:13,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  10%|█         | 17/162 [00:00<00:35,  4.05 MiB/s][A
+Dl Size...:  11%|█         | 18/162 [00:00<01:12,  1.98 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[A
-Dl Size...:  11%|█         | 18/162 [00:00<00:25,  5.67 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  11%|█         | 18/162 [00:00<00:25,  5.67 MiB/s][A
+Dl Size...:  12%|█▏        | 19/162 [00:00<00:50,  2.81 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
+Dl Size...:  12%|█▏        | 19/162 [00:00<00:50,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  12%|█▏        | 19/162 [00:00<00:25,  5.67 MiB/s][A
+Dl Size...:  12%|█▏        | 20/162 [00:00<00:50,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  12%|█▏        | 20/162 [00:00<00:25,  5.67 MiB/s][A
+Dl Size...:  13%|█▎        | 21/162 [00:00<00:50,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  13%|█▎        | 21/162 [00:00<00:24,  5.67 MiB/s][A
+Dl Size...:  14%|█▎        | 22/162 [00:00<00:49,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  14%|█▎        | 22/162 [00:00<00:24,  5.67 MiB/s][A
+Dl Size...:  14%|█▍        | 23/162 [00:00<00:49,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  14%|█▍        | 23/162 [00:00<00:24,  5.67 MiB/s][A
+Dl Size...:  15%|█▍        | 24/162 [00:00<00:49,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  15%|█▍        | 24/162 [00:00<00:24,  5.67 MiB/s][A
+Dl Size...:  15%|█▌        | 25/162 [00:00<00:48,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  15%|█▌        | 25/162 [00:00<00:24,  5.67 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  16%|█▌        | 26/162 [00:00<00:23,  5.67 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[A
-Dl Size...:  17%|█▋        | 27/162 [00:00<00:17,  7.89 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  17%|█▋        | 27/162 [00:00<00:17,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  17%|█▋        | 28/162 [00:00<00:16,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  18%|█▊        | 29/162 [00:00<00:16,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  19%|█▊        | 30/162 [00:00<00:16,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  19%|█▉        | 31/162 [00:00<00:16,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  20%|█▉        | 32/162 [00:00<00:16,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  20%|██        | 33/162 [00:00<00:16,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  21%|██        | 34/162 [00:00<00:16,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  22%|██▏       | 35/162 [00:00<00:16,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  22%|██▏       | 36/162 [00:00<00:15,  7.89 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[A
-Dl Size...:  23%|██▎       | 37/162 [00:00<00:11, 10.87 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  23%|██▎       | 37/162 [00:00<00:11, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  23%|██▎       | 38/162 [00:00<00:11, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  24%|██▍       | 39/162 [00:00<00:11, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  25%|██▍       | 40/162 [00:00<00:11, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  25%|██▌       | 41/162 [00:00<00:11, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  26%|██▌       | 42/162 [00:00<00:11, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  27%|██▋       | 43/162 [00:00<00:10, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  27%|██▋       | 44/162 [00:00<00:10, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  28%|██▊       | 45/162 [00:00<00:10, 10.87 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[A
-Dl Size...:  28%|██▊       | 46/162 [00:00<00:07, 14.75 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  28%|██▊       | 46/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  29%|██▉       | 47/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  30%|██▉       | 48/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  30%|███       | 49/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  31%|███       | 50/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  31%|███▏      | 51/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  32%|███▏      | 52/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  33%|███▎      | 53/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  33%|███▎      | 54/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  34%|███▍      | 55/162 [00:00<00:07, 14.75 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[A
-Dl Size...:  35%|███▍      | 56/162 [00:00<00:05, 19.73 MiB/s][ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  35%|███▍      | 56/162 [00:00<00:05, 19.73 MiB/s][A
-
-Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:00<?, ? url/s]
-Dl Size...:  35%|███▌      | 57/162 [00:00<00:05, 19.73 MiB/s][A
+Dl Size...:  16%|█▌        | 26/162 [00:00<00:48,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:00, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  36%|███▌      | 58/162 [00:01<00:05, 19.73 MiB/s][A
+Dl Size...:  17%|█▋        | 27/162 [00:01<00:48,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  36%|███▋      | 59/162 [00:01<00:05, 19.73 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  37%|███▋      | 60/162 [00:01<00:05, 19.73 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  38%|███▊      | 61/162 [00:01<00:05, 19.73 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  38%|███▊      | 62/162 [00:01<00:05, 19.73 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  39%|███▉      | 63/162 [00:01<00:05, 19.73 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  40%|███▉      | 64/162 [00:01<00:04, 19.73 MiB/s][A
+Dl Size...:  17%|█▋        | 28/162 [00:01<00:47,  2.81 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  40%|████      | 65/162 [00:01<00:03, 25.71 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  40%|████      | 65/162 [00:01<00:03, 25.71 MiB/s][A
+Dl Size...:  18%|█▊        | 29/162 [00:01<00:33,  3.96 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  18%|█▊        | 29/162 [00:01<00:33,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  41%|████      | 66/162 [00:01<00:03, 25.71 MiB/s][A
+Dl Size...:  19%|█▊        | 30/162 [00:01<00:33,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  41%|████▏     | 67/162 [00:01<00:03, 25.71 MiB/s][A
+Dl Size...:  19%|█▉        | 31/162 [00:01<00:33,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  42%|████▏     | 68/162 [00:01<00:03, 25.71 MiB/s][A
+Dl Size...:  20%|█▉        | 32/162 [00:01<00:32,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  43%|████▎     | 69/162 [00:01<00:03, 25.71 MiB/s][A
+Dl Size...:  20%|██        | 33/162 [00:01<00:32,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  43%|████▎     | 70/162 [00:01<00:03, 25.71 MiB/s][A
+Dl Size...:  21%|██        | 34/162 [00:01<00:32,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  44%|████▍     | 71/162 [00:01<00:03, 25.71 MiB/s][A
+Dl Size...:  22%|██▏       | 35/162 [00:01<00:32,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  44%|████▍     | 72/162 [00:01<00:03, 25.71 MiB/s][A
+Dl Size...:  22%|██▏       | 36/162 [00:01<00:31,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  45%|████▌     | 73/162 [00:01<00:03, 25.71 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  46%|████▌     | 74/162 [00:01<00:02, 32.72 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  46%|████▌     | 74/162 [00:01<00:02, 32.72 MiB/s][A
+Dl Size...:  23%|██▎       | 37/162 [00:01<00:31,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  46%|████▋     | 75/162 [00:01<00:02, 32.72 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  47%|████▋     | 76/162 [00:01<00:02, 32.72 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  48%|████▊     | 77/162 [00:01<00:02, 32.72 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  48%|████▊     | 78/162 [00:01<00:02, 32.72 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  49%|████▉     | 79/162 [00:01<00:02, 32.72 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  49%|████▉     | 80/162 [00:01<00:02, 32.72 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  50%|█████     | 81/162 [00:01<00:02, 32.72 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  51%|█████     | 82/162 [00:01<00:02, 32.72 MiB/s][A
+Dl Size...:  23%|██▎       | 38/162 [00:01<00:31,  3.96 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  51%|█████     | 83/162 [00:01<00:01, 40.43 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  51%|█████     | 83/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  24%|██▍       | 39/162 [00:01<00:22,  5.56 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  24%|██▍       | 39/162 [00:01<00:22,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  52%|█████▏    | 84/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  25%|██▍       | 40/162 [00:01<00:21,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  52%|█████▏    | 85/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  25%|██▌       | 41/162 [00:01<00:21,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  53%|█████▎    | 86/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  26%|██▌       | 42/162 [00:01<00:21,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  54%|█████▎    | 87/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  27%|██▋       | 43/162 [00:01<00:21,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  54%|█████▍    | 88/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  27%|██▋       | 44/162 [00:01<00:21,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  55%|█████▍    | 89/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  28%|██▊       | 45/162 [00:01<00:21,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  56%|█████▌    | 90/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  28%|██▊       | 46/162 [00:01<00:20,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  56%|█████▌    | 91/162 [00:01<00:01, 40.43 MiB/s][A
+Dl Size...:  29%|██▉       | 47/162 [00:01<00:20,  5.56 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  30%|██▉       | 48/162 [00:01<00:20,  5.56 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  30%|███       | 49/162 [00:01<00:20,  5.56 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  57%|█████▋    | 92/162 [00:01<00:01, 48.36 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  57%|█████▋    | 92/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  31%|███       | 50/162 [00:01<00:14,  7.77 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  31%|███       | 50/162 [00:01<00:14,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  57%|█████▋    | 93/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  31%|███▏      | 51/162 [00:01<00:14,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  58%|█████▊    | 94/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  32%|███▏      | 52/162 [00:01<00:14,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  59%|█████▊    | 95/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  33%|███▎      | 53/162 [00:01<00:14,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  59%|█████▉    | 96/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  33%|███▎      | 54/162 [00:01<00:13,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  60%|█████▉    | 97/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  34%|███▍      | 55/162 [00:01<00:13,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  60%|██████    | 98/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  35%|███▍      | 56/162 [00:01<00:13,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  61%|██████    | 99/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  35%|███▌      | 57/162 [00:01<00:13,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  62%|██████▏   | 100/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  36%|███▌      | 58/162 [00:01<00:13,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  62%|██████▏   | 101/162 [00:01<00:01, 48.36 MiB/s][A
+Dl Size...:  36%|███▋      | 59/162 [00:01<00:13,  7.77 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  37%|███▋      | 60/162 [00:01<00:13,  7.77 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  63%|██████▎   | 102/162 [00:01<00:01, 56.22 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  63%|██████▎   | 102/162 [00:01<00:01, 56.22 MiB/s][A
+Dl Size...:  38%|███▊      | 61/162 [00:01<00:09, 10.76 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  38%|███▊      | 61/162 [00:01<00:09, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  64%|██████▎   | 103/162 [00:01<00:01, 56.22 MiB/s][A
+Dl Size...:  38%|███▊      | 62/162 [00:01<00:09, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  64%|██████▍   | 104/162 [00:01<00:01, 56.22 MiB/s][A
+Dl Size...:  39%|███▉      | 63/162 [00:01<00:09, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  65%|██████▍   | 105/162 [00:01<00:01, 56.22 MiB/s][A
+Dl Size...:  40%|███▉      | 64/162 [00:01<00:09, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  65%|██████▌   | 106/162 [00:01<00:00, 56.22 MiB/s][A
+Dl Size...:  40%|████      | 65/162 [00:01<00:09, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  66%|██████▌   | 107/162 [00:01<00:00, 56.22 MiB/s][A
+Dl Size...:  41%|████      | 66/162 [00:01<00:08, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  67%|██████▋   | 108/162 [00:01<00:00, 56.22 MiB/s][A
+Dl Size...:  41%|████▏     | 67/162 [00:01<00:08, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  67%|██████▋   | 109/162 [00:01<00:00, 56.22 MiB/s][A
+Dl Size...:  42%|████▏     | 68/162 [00:01<00:08, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  68%|██████▊   | 110/162 [00:01<00:00, 56.22 MiB/s][A
+Dl Size...:  43%|████▎     | 69/162 [00:01<00:08, 10.76 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  43%|████▎     | 70/162 [00:01<00:08, 10.76 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  69%|██████▊   | 111/162 [00:01<00:00, 62.94 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  69%|██████▊   | 111/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  44%|████▍     | 71/162 [00:01<00:06, 14.63 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  44%|████▍     | 71/162 [00:01<00:06, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  69%|██████▉   | 112/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  44%|████▍     | 72/162 [00:01<00:06, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  70%|██████▉   | 113/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  45%|████▌     | 73/162 [00:01<00:06, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  70%|███████   | 114/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  46%|████▌     | 74/162 [00:01<00:06, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  71%|███████   | 115/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  46%|████▋     | 75/162 [00:01<00:05, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  72%|███████▏  | 116/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  47%|████▋     | 76/162 [00:01<00:05, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  72%|███████▏  | 117/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  48%|████▊     | 77/162 [00:01<00:05, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  73%|███████▎  | 118/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  48%|████▊     | 78/162 [00:01<00:05, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  73%|███████▎  | 119/162 [00:01<00:00, 62.94 MiB/s][A
+Dl Size...:  49%|████▉     | 79/162 [00:01<00:05, 14.63 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  49%|████▉     | 80/162 [00:01<00:05, 14.63 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  74%|███████▍  | 120/162 [00:01<00:00, 68.97 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  74%|███████▍  | 120/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  50%|█████     | 81/162 [00:01<00:04, 19.58 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  50%|█████     | 81/162 [00:01<00:04, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  75%|███████▍  | 121/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  51%|█████     | 82/162 [00:01<00:04, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  75%|███████▌  | 122/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  51%|█████     | 83/162 [00:01<00:04, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  76%|███████▌  | 123/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  52%|█████▏    | 84/162 [00:01<00:03, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  77%|███████▋  | 124/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  52%|█████▏    | 85/162 [00:01<00:03, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  77%|███████▋  | 125/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  53%|█████▎    | 86/162 [00:01<00:03, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  78%|███████▊  | 126/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  54%|█████▎    | 87/162 [00:01<00:03, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  78%|███████▊  | 127/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  54%|█████▍    | 88/162 [00:01<00:03, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  79%|███████▉  | 128/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  55%|█████▍    | 89/162 [00:01<00:03, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  80%|███████▉  | 129/162 [00:01<00:00, 68.97 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  80%|████████  | 130/162 [00:01<00:00, 68.97 MiB/s][A
+Dl Size...:  56%|█████▌    | 90/162 [00:01<00:03, 19.58 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  81%|████████  | 131/162 [00:01<00:00, 76.95 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  81%|████████  | 131/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  56%|█████▌    | 91/162 [00:01<00:02, 25.37 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  56%|█████▌    | 91/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  81%|████████▏ | 132/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  57%|█████▋    | 92/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  82%|████████▏ | 133/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  57%|█████▋    | 93/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  83%|████████▎ | 134/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  58%|█████▊    | 94/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  83%|████████▎ | 135/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  59%|█████▊    | 95/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  84%|████████▍ | 136/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  59%|█████▉    | 96/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  85%|████████▍ | 137/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  60%|█████▉    | 97/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  85%|████████▌ | 138/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  60%|██████    | 98/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  86%|████████▌ | 139/162 [00:01<00:00, 76.95 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  86%|████████▋ | 140/162 [00:01<00:00, 76.95 MiB/s][A
-
-Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  87%|████████▋ | 141/162 [00:01<00:00, 76.95 MiB/s][A
+Dl Size...:  61%|██████    | 99/162 [00:01<00:02, 25.37 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[A
-Dl Size...:  88%|████████▊ | 142/162 [00:01<00:00, 83.49 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  88%|████████▊ | 142/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  62%|██████▏   | 100/162 [00:01<00:01, 32.22 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  62%|██████▏   | 100/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  88%|████████▊ | 143/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  62%|██████▏   | 101/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  89%|████████▉ | 144/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  63%|██████▎   | 102/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  90%|████████▉ | 145/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  64%|██████▎   | 103/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  90%|█████████ | 146/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  64%|██████▍   | 104/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  91%|█████████ | 147/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  65%|██████▍   | 105/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  91%|█████████▏| 148/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  65%|██████▌   | 106/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  92%|█████████▏| 149/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  66%|██████▌   | 107/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  93%|█████████▎| 150/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  67%|██████▋   | 108/162 [00:01<00:01, 32.22 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
-Dl Size...:  93%|█████████▎| 151/162 [00:01<00:00, 83.49 MiB/s][A
+Dl Size...:  67%|██████▋   | 109/162 [00:01<00:01, 32.22 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[A
+Dl Size...:  68%|██████▊   | 110/162 [00:01<00:01, 40.06 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  68%|██████▊   | 110/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  69%|██████▊   | 111/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  69%|██████▉   | 112/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  70%|██████▉   | 113/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  70%|███████   | 114/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  71%|███████   | 115/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  72%|███████▏  | 116/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  72%|███████▏  | 117/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  73%|███████▎  | 118/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  73%|███████▎  | 119/162 [00:01<00:01, 40.06 MiB/s][A
+
+Extraction completed...: 0 file [00:01, ? file/s][A[A
+Dl Size...:  74%|███████▍  | 120/162 [00:01<00:00, 48.27 MiB/s][ADl Completed...:   0%|          | 0/1 [00:01<?, ? url/s]
+Dl Size...:  74%|███████▍  | 120/162 [00:01<00:00, 48.27 MiB/s][A
 
 Extraction completed...: 0 file [00:01, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  94%|█████████▍| 152/162 [00:02<00:00, 83.49 MiB/s][A
+Dl Size...:  75%|███████▍  | 121/162 [00:02<00:00, 48.27 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  75%|███████▌  | 122/162 [00:02<00:00, 48.27 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  76%|███████▌  | 123/162 [00:02<00:00, 48.27 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  77%|███████▋  | 124/162 [00:02<00:00, 48.27 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  77%|███████▋  | 125/162 [00:02<00:00, 48.27 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  78%|███████▊  | 126/162 [00:02<00:00, 48.27 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  78%|███████▊  | 127/162 [00:02<00:00, 48.27 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  79%|███████▉  | 128/162 [00:02<00:00, 48.27 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  80%|███████▉  | 129/162 [00:02<00:00, 48.27 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[A
-Dl Size...:  94%|█████████▍| 153/162 [00:02<00:00, 89.13 MiB/s][ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  94%|█████████▍| 153/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  80%|████████  | 130/162 [00:02<00:00, 56.35 MiB/s][ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  80%|████████  | 130/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  95%|█████████▌| 154/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  81%|████████  | 131/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  96%|█████████▌| 155/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  81%|████████▏ | 132/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  96%|█████████▋| 156/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  82%|████████▏ | 133/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  97%|█████████▋| 157/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  83%|████████▎ | 134/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  98%|█████████▊| 158/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  83%|████████▎ | 135/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  98%|█████████▊| 159/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  84%|████████▍ | 136/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  99%|█████████▉| 160/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  85%|████████▍ | 137/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...:  99%|█████████▉| 161/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  85%|████████▌ | 138/162 [00:02<00:00, 56.35 MiB/s][A
 
 Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
-Dl Size...: 100%|██████████| 162/162 [00:02<00:00, 89.13 MiB/s][A
+Dl Size...:  86%|████████▌ | 139/162 [00:02<00:00, 56.35 MiB/s][A
 
-Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...: 100%|██████████| 1/1 [00:02<00:00,  2.10s/ url]Dl Completed...: 100%|██████████| 1/1 [00:02<00:00,  2.10s/ url]
-Dl Size...: 100%|██████████| 162/162 [00:02<00:00, 89.13 MiB/s][A
+Extraction completed...: 0 file [00:02, ? file/s][A[A
+Dl Size...:  86%|████████▋ | 140/162 [00:02<00:00, 63.46 MiB/s][ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  86%|████████▋ | 140/162 [00:02<00:00, 63.46 MiB/s][A
 
-Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...: 100%|██████████| 1/1 [00:02<00:00,  2.10s/ url]
-Dl Size...: 100%|██████████| 162/162 [00:02<00:00, 89.13 MiB/s][A
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  87%|████████▋ | 141/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  88%|████████▊ | 142/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  88%|████████▊ | 143/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  89%|████████▉ | 144/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  90%|████████▉ | 145/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  90%|█████████ | 146/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  91%|█████████ | 147/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  91%|█████████▏| 148/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  92%|█████████▏| 149/162 [00:02<00:00, 63.46 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[A
+Dl Size...:  93%|█████████▎| 150/162 [00:02<00:00, 69.74 MiB/s][ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  93%|█████████▎| 150/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  93%|█████████▎| 151/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  94%|█████████▍| 152/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  94%|█████████▍| 153/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  95%|█████████▌| 154/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  96%|█████████▌| 155/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  96%|█████████▋| 156/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  97%|█████████▋| 157/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  98%|█████████▊| 158/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  98%|█████████▊| 159/162 [00:02<00:00, 69.74 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[A
+Dl Size...:  99%|█████████▉| 160/162 [00:02<00:00, 74.43 MiB/s][ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  99%|█████████▉| 160/162 [00:02<00:00, 74.43 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...:  99%|█████████▉| 161/162 [00:02<00:00, 74.43 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...:   0%|          | 0/1 [00:02<?, ? url/s]
+Dl Size...: 100%|██████████| 162/162 [00:02<00:00, 74.43 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...: 100%|██████████| 1/1 [00:02<00:00,  2.46s/ url]Dl Completed...: 100%|██████████| 1/1 [00:02<00:00,  2.46s/ url]
+Dl Size...: 100%|██████████| 162/162 [00:02<00:00, 74.43 MiB/s][A
+
+Extraction completed...: 0 file [00:02, ? file/s][A[ADl Completed...: 100%|██████████| 1/1 [00:02<00:00,  2.46s/ url]
+Dl Size...: 100%|██████████| 162/162 [00:02<00:00, 74.43 MiB/s][A
 
 Extraction completed...:   0%|          | 0/1 [00:02<?, ? file/s][A[A
 
-Extraction completed...: 100%|██████████| 1/1 [00:04<00:00,  4.29s/ file][A[ADl Completed...: 100%|██████████| 1/1 [00:04<00:00,  2.10s/ url]
-Dl Size...: 100%|██████████| 162/162 [00:04<00:00, 89.13 MiB/s][A
+Extraction completed...: 100%|██████████| 1/1 [00:04<00:00,  4.48s/ file][A[ADl Completed...: 100%|██████████| 1/1 [00:04<00:00,  2.46s/ url]
+Dl Size...: 100%|██████████| 162/162 [00:04<00:00, 74.43 MiB/s][A
 
-Extraction completed...: 100%|██████████| 1/1 [00:04<00:00,  4.29s/ file][A[AExtraction completed...: 100%|██████████| 1/1 [00:04<00:00,  4.29s/ file]
-Dl Size...: 100%|██████████| 162/162 [00:04<00:00, 37.78 MiB/s]
-Dl Completed...: 100%|██████████| 1/1 [00:04<00:00,  4.29s/ url]
-0 examples [00:00, ? examples/s]2020-07-30 00:09:02.407308: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
-2020-07-30 00:09:02.474983: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095074999 Hz
-2020-07-30 00:09:02.475590: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56202d9ba240 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-07-30 00:09:02.475613: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
-1 examples [00:00,  2.72 examples/s]99 examples [00:00,  3.88 examples/s]203 examples [00:00,  5.53 examples/s]281 examples [00:00,  7.88 examples/s]368 examples [00:00, 11.21 examples/s]466 examples [00:00, 15.93 examples/s]570 examples [00:00, 22.61 examples/s]680 examples [00:01, 32.02 examples/s]789 examples [00:01, 45.16 examples/s]898 examples [00:01, 63.39 examples/s]1006 examples [00:01, 88.33 examples/s]1114 examples [00:01, 121.90 examples/s]1219 examples [00:01, 165.88 examples/s]1329 examples [00:01, 222.49 examples/s]1439 examples [00:01, 292.30 examples/s]1547 examples [00:01, 374.10 examples/s]1655 examples [00:01, 464.59 examples/s]1762 examples [00:02, 558.72 examples/s]1871 examples [00:02, 654.32 examples/s]1981 examples [00:02, 744.65 examples/s]2091 examples [00:02, 823.39 examples/s]2200 examples [00:02, 885.95 examples/s]2309 examples [00:02, 935.93 examples/s]2419 examples [00:02, 979.32 examples/s]2530 examples [00:02, 1013.99 examples/s]2640 examples [00:02, 1030.05 examples/s]2749 examples [00:02, 1029.89 examples/s]2858 examples [00:03, 1047.09 examples/s]2966 examples [00:03, 1056.51 examples/s]3075 examples [00:03, 1064.65 examples/s]3184 examples [00:03, 1070.78 examples/s]3293 examples [00:03, 1065.13 examples/s]3401 examples [00:03, 1060.35 examples/s]3510 examples [00:03, 1066.60 examples/s]3619 examples [00:03, 1072.22 examples/s]3727 examples [00:03, 1071.95 examples/s]3835 examples [00:04, 1070.00 examples/s]3945 examples [00:04, 1076.20 examples/s]4055 examples [00:04, 1080.90 examples/s]4165 examples [00:04, 1086.22 examples/s]4274 examples [00:04, 1083.98 examples/s]4383 examples [00:04, 1079.03 examples/s]4491 examples [00:04, 1063.76 examples/s]4600 examples [00:04, 1069.67 examples/s]4709 examples [00:04, 1074.17 examples/s]4817 examples [00:04, 1062.06 examples/s]4927 examples [00:05, 1070.83 examples/s]5035 examples [00:05, 1072.36 examples/s]5143 examples [00:05, 1073.50 examples/s]5253 examples [00:05, 1080.76 examples/s]5364 examples [00:05, 1087.76 examples/s]5473 examples [00:05, 1085.49 examples/s]5582 examples [00:05, 1082.89 examples/s]5691 examples [00:05, 1084.55 examples/s]5801 examples [00:05, 1086.63 examples/s]5910 examples [00:05, 1080.17 examples/s]6019 examples [00:06, 1073.94 examples/s]6128 examples [00:06, 1076.27 examples/s]6237 examples [00:06, 1078.47 examples/s]6347 examples [00:06, 1082.21 examples/s]6456 examples [00:06, 1077.39 examples/s]6564 examples [00:06, 1076.41 examples/s]6672 examples [00:06, 1040.16 examples/s]6781 examples [00:06, 1054.31 examples/s]6890 examples [00:06, 1064.46 examples/s]6997 examples [00:06, 1055.72 examples/s]7108 examples [00:07, 1068.74 examples/s]7218 examples [00:07, 1076.65 examples/s]7328 examples [00:07, 1082.80 examples/s]7440 examples [00:07, 1092.29 examples/s]7550 examples [00:07, 1086.18 examples/s]7659 examples [00:07, 1080.24 examples/s]7768 examples [00:07, 1082.07 examples/s]7877 examples [00:07, 1083.89 examples/s]7987 examples [00:07, 1087.70 examples/s]8096 examples [00:07, 1074.83 examples/s]8206 examples [00:08, 1080.28 examples/s]8315 examples [00:08, 1081.66 examples/s]8424 examples [00:08, 1067.22 examples/s]8534 examples [00:08, 1075.81 examples/s]8644 examples [00:08, 1080.38 examples/s]8753 examples [00:08, 1067.34 examples/s]8862 examples [00:08, 1073.81 examples/s]8973 examples [00:08, 1082.52 examples/s]9082 examples [00:08, 1075.38 examples/s]9190 examples [00:08, 1065.47 examples/s]9297 examples [00:09, 1053.24 examples/s]9404 examples [00:09, 1056.95 examples/s]9511 examples [00:09, 1058.98 examples/s]9619 examples [00:09, 1063.97 examples/s]9727 examples [00:09, 1068.42 examples/s]9835 examples [00:09, 1071.73 examples/s]9943 examples [00:09, 1071.71 examples/s]10051 examples [00:09, 1018.91 examples/s]10159 examples [00:09, 1035.28 examples/s]10266 examples [00:10, 1044.94 examples/s]10375 examples [00:10, 1055.81 examples/s]10484 examples [00:10, 1064.79 examples/s]10594 examples [00:10, 1073.21 examples/s]10703 examples [00:10, 1078.13 examples/s]10811 examples [00:10, 1053.46 examples/s]10917 examples [00:10, 1047.04 examples/s]11023 examples [00:10, 1050.80 examples/s]11130 examples [00:10, 1055.87 examples/s]11239 examples [00:10, 1064.15 examples/s]11347 examples [00:11, 1067.68 examples/s]11454 examples [00:11, 1066.74 examples/s]11561 examples [00:11, 1067.59 examples/s]11669 examples [00:11, 1070.70 examples/s]11779 examples [00:11, 1078.57 examples/s]11890 examples [00:11, 1086.68 examples/s]11999 examples [00:11, 1083.68 examples/s]12108 examples [00:11, 1082.83 examples/s]12218 examples [00:11, 1085.43 examples/s]12327 examples [00:11, 1080.93 examples/s]12437 examples [00:12, 1085.23 examples/s]12546 examples [00:12, 1083.28 examples/s]12655 examples [00:12, 1067.20 examples/s]12764 examples [00:12, 1072.94 examples/s]12874 examples [00:12, 1079.37 examples/s]12982 examples [00:12, 1077.69 examples/s]13090 examples [00:12, 1050.58 examples/s]13196 examples [00:12, 1048.20 examples/s]13305 examples [00:12, 1058.26 examples/s]13412 examples [00:12, 1060.91 examples/s]13519 examples [00:13, 1060.85 examples/s]13626 examples [00:13, 1063.00 examples/s]13733 examples [00:13, 1062.96 examples/s]13841 examples [00:13, 1067.81 examples/s]13949 examples [00:13, 1069.99 examples/s]14057 examples [00:13, 1064.87 examples/s]14164 examples [00:13, 1058.92 examples/s]14272 examples [00:13, 1063.03 examples/s]14380 examples [00:13, 1068.00 examples/s]14487 examples [00:13, 1068.35 examples/s]14597 examples [00:14, 1075.39 examples/s]14705 examples [00:14, 1076.63 examples/s]14813 examples [00:14, 1077.44 examples/s]14921 examples [00:14, 1048.88 examples/s]15030 examples [00:14, 1059.20 examples/s]15138 examples [00:14, 1062.57 examples/s]15245 examples [00:14, 1047.09 examples/s]15355 examples [00:14, 1060.74 examples/s]15463 examples [00:14, 1064.97 examples/s]15570 examples [00:14, 1055.99 examples/s]15678 examples [00:15, 1060.41 examples/s]15786 examples [00:15, 1064.95 examples/s]15895 examples [00:15, 1071.66 examples/s]16003 examples [00:15, 1071.53 examples/s]16111 examples [00:15, 1070.79 examples/s]16219 examples [00:15, 1067.02 examples/s]16326 examples [00:15, 1066.61 examples/s]16436 examples [00:15, 1075.45 examples/s]16544 examples [00:15, 1070.74 examples/s]16652 examples [00:15, 1073.27 examples/s]16761 examples [00:16, 1075.98 examples/s]16869 examples [00:16, 1074.82 examples/s]16977 examples [00:16, 1071.89 examples/s]17085 examples [00:16, 1067.00 examples/s]17192 examples [00:16, 1067.57 examples/s]17300 examples [00:16, 1070.61 examples/s]17408 examples [00:16, 1065.08 examples/s]17517 examples [00:16, 1071.51 examples/s]17625 examples [00:16, 1073.17 examples/s]17733 examples [00:16, 1047.49 examples/s]17841 examples [00:17, 1055.03 examples/s]17948 examples [00:17, 1056.25 examples/s]18057 examples [00:17, 1065.66 examples/s]18164 examples [00:17, 1054.69 examples/s]18272 examples [00:17, 1059.72 examples/s]18381 examples [00:17, 1066.41 examples/s]18488 examples [00:17, 1066.99 examples/s]18597 examples [00:17, 1071.83 examples/s]18705 examples [00:17, 1073.07 examples/s]18813 examples [00:18, 1072.44 examples/s]18921 examples [00:18, 1072.23 examples/s]19029 examples [00:18, 1069.37 examples/s]19136 examples [00:18, 1064.23 examples/s]19246 examples [00:18, 1072.39 examples/s]19355 examples [00:18, 1067.46 examples/s]19463 examples [00:18, 1070.91 examples/s]19571 examples [00:18, 1051.82 examples/s]19678 examples [00:18, 1055.04 examples/s]19785 examples [00:18, 1058.80 examples/s]19893 examples [00:19, 1062.61 examples/s]20000 examples [00:19, 1063.89 examples/s]20107 examples [00:19, 1014.34 examples/s]20217 examples [00:19, 1037.15 examples/s]20322 examples [00:19, 1035.29 examples/s]20431 examples [00:19, 1050.53 examples/s]20539 examples [00:19, 1058.83 examples/s]20648 examples [00:19, 1067.03 examples/s]20756 examples [00:19, 1068.39 examples/s]20864 examples [00:19, 1070.24 examples/s]20972 examples [00:20, 1071.50 examples/s]21080 examples [00:20, 1073.76 examples/s]21188 examples [00:20, 1066.97 examples/s]21295 examples [00:20, 1067.17 examples/s]21404 examples [00:20, 1068.69 examples/s]21511 examples [00:20, 1063.96 examples/s]21618 examples [00:20, 1054.53 examples/s]21725 examples [00:20, 1057.56 examples/s]21832 examples [00:20, 1059.47 examples/s]21942 examples [00:20, 1070.36 examples/s]22052 examples [00:21, 1076.94 examples/s]22162 examples [00:21, 1081.03 examples/s]22271 examples [00:21, 1079.48 examples/s]22379 examples [00:21, 1039.33 examples/s]22490 examples [00:21, 1058.50 examples/s]22601 examples [00:21, 1072.04 examples/s]22709 examples [00:21, 1073.38 examples/s]22817 examples [00:21, 1074.30 examples/s]22925 examples [00:21, 1074.20 examples/s]23033 examples [00:21, 1064.82 examples/s]23142 examples [00:22, 1068.95 examples/s]23251 examples [00:22, 1073.95 examples/s]23360 examples [00:22, 1076.61 examples/s]23469 examples [00:22, 1080.43 examples/s]23578 examples [00:22, 1079.38 examples/s]23687 examples [00:22, 1081.40 examples/s]23796 examples [00:22, 1065.38 examples/s]23904 examples [00:22, 1067.52 examples/s]24011 examples [00:22, 1059.08 examples/s]24119 examples [00:22, 1062.87 examples/s]24228 examples [00:23, 1070.66 examples/s]24336 examples [00:23, 1072.87 examples/s]24444 examples [00:23, 1051.66 examples/s]24550 examples [00:23, 1036.49 examples/s]24657 examples [00:23, 1044.61 examples/s]24762 examples [00:23, 1041.32 examples/s]24870 examples [00:23, 1050.29 examples/s]24978 examples [00:23, 1057.68 examples/s]25085 examples [00:23, 1061.20 examples/s]25192 examples [00:24, 1063.66 examples/s]25301 examples [00:24, 1069.00 examples/s]25411 examples [00:24, 1076.02 examples/s]25521 examples [00:24, 1080.33 examples/s]25630 examples [00:24, 1079.14 examples/s]25738 examples [00:24, 1073.96 examples/s]25846 examples [00:24, 1074.25 examples/s]25954 examples [00:24, 1049.74 examples/s]26060 examples [00:24, 1033.61 examples/s]26169 examples [00:24, 1047.39 examples/s]26274 examples [00:25, 1036.81 examples/s]26383 examples [00:25, 1050.96 examples/s]26492 examples [00:25, 1062.29 examples/s]26599 examples [00:25, 1063.38 examples/s]26709 examples [00:25, 1073.16 examples/s]26817 examples [00:25, 1072.34 examples/s]26927 examples [00:25, 1077.58 examples/s]27035 examples [00:25, 1064.41 examples/s]27142 examples [00:25, 1061.19 examples/s]27249 examples [00:25, 1062.32 examples/s]27356 examples [00:26, 1051.28 examples/s]27462 examples [00:26, 1031.63 examples/s]27566 examples [00:26, 1016.12 examples/s]27670 examples [00:26, 1020.76 examples/s]27777 examples [00:26, 1033.38 examples/s]27883 examples [00:26, 1039.90 examples/s]27988 examples [00:26, 1039.93 examples/s]28095 examples [00:26, 1048.03 examples/s]28204 examples [00:26, 1059.43 examples/s]28311 examples [00:26, 1060.51 examples/s]28418 examples [00:27, 1059.52 examples/s]28525 examples [00:27, 1060.95 examples/s]28634 examples [00:27, 1067.45 examples/s]28742 examples [00:27, 1069.33 examples/s]28849 examples [00:27, 1062.97 examples/s]28956 examples [00:27, 1059.21 examples/s]29062 examples [00:27, 1058.97 examples/s]29173 examples [00:27, 1072.43 examples/s]29282 examples [00:27, 1075.17 examples/s]29390 examples [00:27, 1061.77 examples/s]29498 examples [00:28, 1065.39 examples/s]29605 examples [00:28, 1060.44 examples/s]29714 examples [00:28, 1066.73 examples/s]29821 examples [00:28, 1057.48 examples/s]29929 examples [00:28, 1061.39 examples/s]30036 examples [00:28, 1008.60 examples/s]30138 examples [00:28, 1008.20 examples/s]30245 examples [00:28, 1024.22 examples/s]30351 examples [00:28, 1032.29 examples/s]30455 examples [00:29, 1031.60 examples/s]30564 examples [00:29, 1045.60 examples/s]30669 examples [00:29, 1045.63 examples/s]30780 examples [00:29, 1059.19 examples/s]30888 examples [00:29, 1064.82 examples/s]30996 examples [00:29, 1068.21 examples/s]31103 examples [00:29, 1065.91 examples/s]31211 examples [00:29, 1069.14 examples/s]31318 examples [00:29, 1069.11 examples/s]31425 examples [00:29, 1067.77 examples/s]31532 examples [00:30, 1064.51 examples/s]31639 examples [00:30, 1051.75 examples/s]31749 examples [00:30, 1064.01 examples/s]31858 examples [00:30, 1069.39 examples/s]31965 examples [00:30, 1061.76 examples/s]32072 examples [00:30, 1059.02 examples/s]32181 examples [00:30, 1066.62 examples/s]32288 examples [00:30, 1066.85 examples/s]32395 examples [00:30, 1061.11 examples/s]32502 examples [00:30, 1060.86 examples/s]32612 examples [00:31, 1071.79 examples/s]32721 examples [00:31, 1076.30 examples/s]32831 examples [00:31, 1080.69 examples/s]32941 examples [00:31, 1083.90 examples/s]33050 examples [00:31, 1067.45 examples/s]33157 examples [00:31, 1063.07 examples/s]33265 examples [00:31, 1067.91 examples/s]33374 examples [00:31, 1073.05 examples/s]33482 examples [00:31, 1074.14 examples/s]33590 examples [00:31, 1073.07 examples/s]33698 examples [00:32, 1071.53 examples/s]33806 examples [00:32, 1052.56 examples/s]33913 examples [00:32, 1054.38 examples/s]34022 examples [00:32, 1062.93 examples/s]34129 examples [00:32, 1062.07 examples/s]34236 examples [00:32, 1063.92 examples/s]34344 examples [00:32, 1067.57 examples/s]34451 examples [00:32, 1060.65 examples/s]34558 examples [00:32, 1057.47 examples/s]34666 examples [00:32, 1062.19 examples/s]34774 examples [00:33, 1064.95 examples/s]34881 examples [00:33, 1045.95 examples/s]34989 examples [00:33, 1053.02 examples/s]35099 examples [00:33, 1064.35 examples/s]35206 examples [00:33, 1064.31 examples/s]35316 examples [00:33, 1073.10 examples/s]35425 examples [00:33, 1075.83 examples/s]35536 examples [00:33, 1084.78 examples/s]35649 examples [00:33, 1097.74 examples/s]35759 examples [00:33, 1087.84 examples/s]35870 examples [00:34, 1092.02 examples/s]35980 examples [00:34, 1089.14 examples/s]36090 examples [00:34, 1090.67 examples/s]36200 examples [00:34, 1056.28 examples/s]36306 examples [00:34, 1054.36 examples/s]36413 examples [00:34, 1058.63 examples/s]36519 examples [00:34, 1039.51 examples/s]36629 examples [00:34, 1054.95 examples/s]36739 examples [00:34, 1066.32 examples/s]36846 examples [00:34, 1050.02 examples/s]36952 examples [00:35, 1036.93 examples/s]37059 examples [00:35, 1045.94 examples/s]37167 examples [00:35, 1054.53 examples/s]37275 examples [00:35, 1061.70 examples/s]37382 examples [00:35, 1059.86 examples/s]37489 examples [00:35, 1052.90 examples/s]37595 examples [00:35, 1050.87 examples/s]37704 examples [00:35, 1061.97 examples/s]37812 examples [00:35, 1065.80 examples/s]37920 examples [00:36, 1067.99 examples/s]38027 examples [00:36, 1067.11 examples/s]38134 examples [00:36, 1060.55 examples/s]38242 examples [00:36, 1064.38 examples/s]38350 examples [00:36, 1068.79 examples/s]38459 examples [00:36, 1073.33 examples/s]38568 examples [00:36, 1075.99 examples/s]38676 examples [00:36, 1068.17 examples/s]38784 examples [00:36, 1070.90 examples/s]38894 examples [00:36, 1078.66 examples/s]39003 examples [00:37, 1079.36 examples/s]39111 examples [00:37, 1070.55 examples/s]39220 examples [00:37, 1073.59 examples/s]39328 examples [00:37, 1074.30 examples/s]39437 examples [00:37, 1077.64 examples/s]39546 examples [00:37, 1081.30 examples/s]39655 examples [00:37, 1073.68 examples/s]39763 examples [00:37, 1069.97 examples/s]39871 examples [00:37, 1068.19 examples/s]39980 examples [00:37, 1072.33 examples/s]40088 examples [00:38, 1025.39 examples/s]40197 examples [00:38, 1041.32 examples/s]40302 examples [00:38, 1016.73 examples/s]40405 examples [00:38, 1018.93 examples/s]40514 examples [00:38, 1036.72 examples/s]40621 examples [00:38, 1044.40 examples/s]40728 examples [00:38, 1050.94 examples/s]40834 examples [00:38, 1053.31 examples/s]40942 examples [00:38, 1060.14 examples/s]41052 examples [00:38, 1071.12 examples/s]41160 examples [00:39, 1072.26 examples/s]41268 examples [00:39, 1062.16 examples/s]41378 examples [00:39, 1072.38 examples/s]41486 examples [00:39, 1072.77 examples/s]41595 examples [00:39, 1077.58 examples/s]41705 examples [00:39, 1082.95 examples/s]41814 examples [00:39, 1070.41 examples/s]41922 examples [00:39, 1065.19 examples/s]42031 examples [00:39, 1072.19 examples/s]42141 examples [00:39, 1078.08 examples/s]42250 examples [00:40, 1078.45 examples/s]42358 examples [00:40, 1074.67 examples/s]42466 examples [00:40, 1046.65 examples/s]42574 examples [00:40, 1054.97 examples/s]42684 examples [00:40, 1066.72 examples/s]42794 examples [00:40, 1073.81 examples/s]42902 examples [00:40, 1075.49 examples/s]43010 examples [00:40, 1073.45 examples/s]43119 examples [00:40, 1077.08 examples/s]43231 examples [00:40, 1088.05 examples/s]43340 examples [00:41, 1082.26 examples/s]43449 examples [00:41, 1074.49 examples/s]43557 examples [00:41, 1068.80 examples/s]43664 examples [00:41, 1067.75 examples/s]43771 examples [00:41, 1065.22 examples/s]43880 examples [00:41, 1071.15 examples/s]43988 examples [00:41, 1055.89 examples/s]44097 examples [00:41, 1065.06 examples/s]44204 examples [00:41, 1058.94 examples/s]44314 examples [00:42, 1068.19 examples/s]44425 examples [00:42, 1077.81 examples/s]44533 examples [00:42, 1077.94 examples/s]44642 examples [00:42, 1080.09 examples/s]44751 examples [00:42, 1071.82 examples/s]44859 examples [00:42, 1070.74 examples/s]44967 examples [00:42, 1066.15 examples/s]45074 examples [00:42, 1051.28 examples/s]45183 examples [00:42, 1061.13 examples/s]45292 examples [00:42, 1067.42 examples/s]45401 examples [00:43, 1073.21 examples/s]45509 examples [00:43, 1044.52 examples/s]45617 examples [00:43, 1052.63 examples/s]45724 examples [00:43, 1056.31 examples/s]45830 examples [00:43, 1052.81 examples/s]45939 examples [00:43, 1061.44 examples/s]46046 examples [00:43, 1054.78 examples/s]46152 examples [00:43, 1037.35 examples/s]46261 examples [00:43, 1050.35 examples/s]46367 examples [00:43, 1051.20 examples/s]46476 examples [00:44, 1061.99 examples/s]46585 examples [00:44, 1067.74 examples/s]46692 examples [00:44, 1063.77 examples/s]46799 examples [00:44, 1051.91 examples/s]46906 examples [00:44, 1055.05 examples/s]47014 examples [00:44, 1060.58 examples/s]47121 examples [00:44, 1048.50 examples/s]47228 examples [00:44, 1052.15 examples/s]47336 examples [00:44, 1058.35 examples/s]47443 examples [00:44, 1061.19 examples/s]47550 examples [00:45, 1054.02 examples/s]47656 examples [00:45, 1052.19 examples/s]47763 examples [00:45, 1057.27 examples/s]47869 examples [00:45, 1053.54 examples/s]47975 examples [00:45, 1055.38 examples/s]48081 examples [00:45, 1045.42 examples/s]48190 examples [00:45, 1056.22 examples/s]48297 examples [00:45, 1060.20 examples/s]48405 examples [00:45, 1062.98 examples/s]48513 examples [00:45, 1065.67 examples/s]48623 examples [00:46, 1074.29 examples/s]48732 examples [00:46, 1078.37 examples/s]48840 examples [00:46, 1067.24 examples/s]48947 examples [00:46, 1054.65 examples/s]49056 examples [00:46, 1062.65 examples/s]49164 examples [00:46, 1067.39 examples/s]49272 examples [00:46, 1068.89 examples/s]49379 examples [00:46, 1066.29 examples/s]49487 examples [00:46, 1069.41 examples/s]49594 examples [00:46, 1062.17 examples/s]49702 examples [00:47, 1064.55 examples/s]49811 examples [00:47, 1070.60 examples/s]49919 examples [00:47, 1069.06 examples/s]                                            0%|          | 0/50000 [00:00<?, ? examples/s] 14%|█▍        | 7049/50000 [00:00<00:00, 70489.73 examples/s] 41%|████▏     | 20656/50000 [00:00<00:00, 82402.90 examples/s] 69%|██████▉   | 34451/50000 [00:00<00:00, 93724.47 examples/s] 96%|█████████▌| 47888/50000 [00:00<00:00, 103076.97 examples/s]                                                                0 examples [00:00, ? examples/s]90 examples [00:00, 898.57 examples/s]197 examples [00:00, 942.43 examples/s]307 examples [00:00, 984.63 examples/s]419 examples [00:00, 1019.91 examples/s]529 examples [00:00, 1041.49 examples/s]640 examples [00:00, 1060.57 examples/s]751 examples [00:00, 1073.15 examples/s]859 examples [00:00, 1072.59 examples/s]971 examples [00:00, 1086.30 examples/s]1077 examples [00:01, 1070.00 examples/s]1188 examples [00:01, 1079.63 examples/s]1299 examples [00:01, 1086.11 examples/s]1407 examples [00:01, 1082.97 examples/s]1517 examples [00:01, 1085.41 examples/s]1628 examples [00:01, 1092.25 examples/s]1738 examples [00:01, 1092.04 examples/s]1847 examples [00:01, 1052.99 examples/s]1957 examples [00:01, 1065.20 examples/s]2068 examples [00:01, 1076.23 examples/s]2177 examples [00:02, 1080.11 examples/s]2286 examples [00:02, 1067.88 examples/s]2397 examples [00:02, 1077.45 examples/s]2506 examples [00:02, 1078.91 examples/s]2616 examples [00:02, 1082.80 examples/s]2725 examples [00:02, 1083.89 examples/s]2834 examples [00:02, 1069.96 examples/s]2943 examples [00:02, 1075.60 examples/s]3051 examples [00:02, 1043.65 examples/s]3156 examples [00:02, 1007.54 examples/s]3259 examples [00:03, 1012.65 examples/s]3371 examples [00:03, 1041.54 examples/s]3484 examples [00:03, 1065.16 examples/s]3594 examples [00:03, 1073.73 examples/s]3704 examples [00:03, 1080.42 examples/s]3813 examples [00:03, 1081.82 examples/s]3924 examples [00:03, 1087.73 examples/s]4036 examples [00:03, 1094.96 examples/s]4147 examples [00:03, 1098.01 examples/s]4258 examples [00:03, 1098.70 examples/s]4368 examples [00:04, 1091.31 examples/s]4478 examples [00:04, 1091.42 examples/s]4588 examples [00:04, 1091.46 examples/s]4698 examples [00:04, 1089.05 examples/s]4807 examples [00:04, 1088.77 examples/s]4916 examples [00:04, 1080.42 examples/s]5025 examples [00:04, 1071.94 examples/s]5133 examples [00:04, 1061.59 examples/s]5241 examples [00:04, 1064.57 examples/s]5348 examples [00:04, 1055.51 examples/s]5458 examples [00:05, 1067.43 examples/s]5568 examples [00:05, 1076.28 examples/s]5679 examples [00:05, 1084.05 examples/s]5788 examples [00:05, 1076.64 examples/s]5898 examples [00:05, 1083.50 examples/s]6007 examples [00:05, 1080.59 examples/s]6116 examples [00:05, 1082.33 examples/s]6225 examples [00:05, 1080.47 examples/s]6334 examples [00:05, 1082.24 examples/s]6444 examples [00:05, 1085.11 examples/s]6553 examples [00:06, 1085.66 examples/s]6662 examples [00:06, 1082.20 examples/s]6773 examples [00:06, 1088.25 examples/s]6883 examples [00:06, 1090.44 examples/s]6993 examples [00:06, 1091.07 examples/s]7103 examples [00:06, 1089.88 examples/s]7212 examples [00:06, 1089.85 examples/s]7322 examples [00:06, 1092.41 examples/s]7432 examples [00:06, 1090.30 examples/s]7542 examples [00:07, 1086.49 examples/s]7651 examples [00:07, 1087.06 examples/s]7760 examples [00:07, 1087.38 examples/s]7870 examples [00:07, 1090.82 examples/s]7980 examples [00:07, 1079.92 examples/s]8090 examples [00:07, 1084.91 examples/s]8199 examples [00:07, 1083.58 examples/s]8308 examples [00:07, 1083.97 examples/s]8419 examples [00:07, 1089.80 examples/s]8531 examples [00:07, 1096.23 examples/s]8641 examples [00:08, 1096.31 examples/s]8751 examples [00:08, 1094.30 examples/s]8861 examples [00:08, 1091.63 examples/s]8971 examples [00:08, 1090.70 examples/s]9082 examples [00:08, 1093.94 examples/s]9192 examples [00:08, 1095.33 examples/s]9302 examples [00:08, 1083.72 examples/s]9414 examples [00:08, 1093.99 examples/s]9526 examples [00:08, 1100.75 examples/s]9639 examples [00:08, 1108.06 examples/s]9750 examples [00:09, 1090.94 examples/s]9860 examples [00:09, 1076.41 examples/s]9970 examples [00:09, 1082.33 examples/s]                                           0%|          | 0/10000 [00:00<?, ? examples/s]                                                [1mDownloading and preparing dataset cifar10/3.0.2 (download: 162.17 MiB, generated: 132.40 MiB, total: 294.58 MiB) to /home/runner/tensorflow_datasets/cifar10/3.0.2...[0m
+Extraction completed...: 100%|██████████| 1/1 [00:04<00:00,  4.48s/ file][A[AExtraction completed...: 100%|██████████| 1/1 [00:04<00:00,  4.48s/ file]
+Dl Size...: 100%|██████████| 162/162 [00:04<00:00, 36.17 MiB/s]
+Dl Completed...: 100%|██████████| 1/1 [00:04<00:00,  4.48s/ url]
+0 examples [00:00, ? examples/s]2020-07-30 06:08:43.461312: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-07-30 06:08:43.475874: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095190000 Hz
+2020-07-30 06:08:43.476202: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b031f48a70 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-07-30 06:08:43.476240: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+21 examples [00:00, 208.21 examples/s]127 examples [00:00, 274.21 examples/s]238 examples [00:00, 353.96 examples/s]349 examples [00:00, 444.46 examples/s]459 examples [00:00, 541.12 examples/s]570 examples [00:00, 638.58 examples/s]682 examples [00:00, 732.68 examples/s]794 examples [00:00, 816.83 examples/s]903 examples [00:00, 882.17 examples/s]1014 examples [00:01, 939.15 examples/s]1125 examples [00:01, 983.72 examples/s]1234 examples [00:01, 1012.28 examples/s]1342 examples [00:01, 1031.56 examples/s]1454 examples [00:01, 1054.32 examples/s]1563 examples [00:01, 1049.53 examples/s]1671 examples [00:01, 1019.01 examples/s]1779 examples [00:01, 1033.74 examples/s]1884 examples [00:01, 1029.12 examples/s]1996 examples [00:01, 1052.79 examples/s]2106 examples [00:02, 1065.16 examples/s]2219 examples [00:02, 1082.61 examples/s]2331 examples [00:02, 1092.74 examples/s]2441 examples [00:02, 1093.99 examples/s]2552 examples [00:02, 1096.34 examples/s]2664 examples [00:02, 1101.39 examples/s]2776 examples [00:02, 1105.27 examples/s]2887 examples [00:02, 1095.66 examples/s]2998 examples [00:02, 1098.96 examples/s]3108 examples [00:02, 1098.54 examples/s]3218 examples [00:03, 1068.44 examples/s]3330 examples [00:03, 1081.52 examples/s]3443 examples [00:03, 1093.70 examples/s]3553 examples [00:03, 1086.90 examples/s]3666 examples [00:03, 1098.29 examples/s]3777 examples [00:03, 1100.68 examples/s]3888 examples [00:03, 1103.39 examples/s]3999 examples [00:03, 1090.82 examples/s]4109 examples [00:03, 1076.48 examples/s]4217 examples [00:03, 1068.98 examples/s]4326 examples [00:04, 1072.71 examples/s]4434 examples [00:04, 1044.74 examples/s]4544 examples [00:04, 1059.77 examples/s]4653 examples [00:04, 1066.32 examples/s]4767 examples [00:04, 1085.29 examples/s]4878 examples [00:04, 1090.08 examples/s]4991 examples [00:04, 1100.14 examples/s]5102 examples [00:04, 1100.54 examples/s]5214 examples [00:04, 1105.96 examples/s]5325 examples [00:04, 1098.65 examples/s]5439 examples [00:05, 1108.91 examples/s]5552 examples [00:05, 1113.75 examples/s]5664 examples [00:05, 1098.92 examples/s]5777 examples [00:05, 1107.40 examples/s]5891 examples [00:05, 1114.82 examples/s]6003 examples [00:05, 1110.61 examples/s]6115 examples [00:05, 1112.84 examples/s]6227 examples [00:05, 1108.32 examples/s]6342 examples [00:05, 1118.17 examples/s]6454 examples [00:05, 1109.23 examples/s]6568 examples [00:06, 1116.58 examples/s]6680 examples [00:06, 1117.22 examples/s]6792 examples [00:06, 1109.04 examples/s]6905 examples [00:06, 1113.53 examples/s]7018 examples [00:06, 1117.86 examples/s]7132 examples [00:06, 1122.52 examples/s]7245 examples [00:06, 1111.59 examples/s]7357 examples [00:06, 1101.83 examples/s]7468 examples [00:06, 1102.02 examples/s]7579 examples [00:07, 1098.13 examples/s]7689 examples [00:07, 1091.02 examples/s]7799 examples [00:07, 1086.16 examples/s]7908 examples [00:07, 1081.10 examples/s]8017 examples [00:07, 1073.00 examples/s]8125 examples [00:07, 1074.50 examples/s]8233 examples [00:07, 1074.03 examples/s]8341 examples [00:07, 1071.10 examples/s]8449 examples [00:07, 1066.05 examples/s]8556 examples [00:07, 1062.63 examples/s]8666 examples [00:08, 1073.16 examples/s]8774 examples [00:08, 1055.69 examples/s]8880 examples [00:08, 1055.79 examples/s]8986 examples [00:08, 1049.86 examples/s]9094 examples [00:08, 1056.06 examples/s]9202 examples [00:08, 1060.45 examples/s]9309 examples [00:08, 1062.90 examples/s]9416 examples [00:08, 1043.03 examples/s]9521 examples [00:08, 1026.98 examples/s]9624 examples [00:08, 1022.85 examples/s]9733 examples [00:09, 1041.77 examples/s]9845 examples [00:09, 1062.19 examples/s]9959 examples [00:09, 1082.76 examples/s]10068 examples [00:09, 1026.36 examples/s]10177 examples [00:09, 1044.35 examples/s]10290 examples [00:09, 1066.45 examples/s]10403 examples [00:09, 1083.09 examples/s]10515 examples [00:09, 1092.51 examples/s]10625 examples [00:09, 1084.81 examples/s]10734 examples [00:09, 1085.52 examples/s]10844 examples [00:10, 1089.39 examples/s]10954 examples [00:10, 1091.90 examples/s]11064 examples [00:10, 1080.05 examples/s]11174 examples [00:10, 1083.30 examples/s]11285 examples [00:10, 1089.86 examples/s]11395 examples [00:10, 1089.45 examples/s]11506 examples [00:10, 1095.00 examples/s]11618 examples [00:10, 1101.36 examples/s]11729 examples [00:10, 1096.40 examples/s]11840 examples [00:10, 1099.62 examples/s]11950 examples [00:11, 1091.20 examples/s]12063 examples [00:11, 1099.54 examples/s]12173 examples [00:11, 1067.44 examples/s]12280 examples [00:11, 1066.81 examples/s]12393 examples [00:11, 1083.75 examples/s]12505 examples [00:11, 1092.59 examples/s]12617 examples [00:11, 1099.74 examples/s]12731 examples [00:11, 1110.78 examples/s]12843 examples [00:11, 1099.99 examples/s]12956 examples [00:12, 1108.64 examples/s]13068 examples [00:12, 1109.41 examples/s]13179 examples [00:12, 1106.86 examples/s]13290 examples [00:12, 1094.26 examples/s]13400 examples [00:12, 1094.78 examples/s]13510 examples [00:12, 1091.05 examples/s]13620 examples [00:12, 1072.21 examples/s]13728 examples [00:12, 1064.08 examples/s]13836 examples [00:12, 1068.73 examples/s]13944 examples [00:12, 1071.10 examples/s]14055 examples [00:13, 1080.66 examples/s]14166 examples [00:13, 1086.92 examples/s]14276 examples [00:13, 1090.37 examples/s]14386 examples [00:13, 1086.48 examples/s]14495 examples [00:13, 1078.63 examples/s]14606 examples [00:13, 1086.03 examples/s]14715 examples [00:13, 1073.89 examples/s]14823 examples [00:13, 1068.55 examples/s]14933 examples [00:13, 1076.60 examples/s]15042 examples [00:13, 1077.89 examples/s]15151 examples [00:14, 1078.75 examples/s]15261 examples [00:14, 1082.24 examples/s]15374 examples [00:14, 1094.02 examples/s]15487 examples [00:14, 1102.18 examples/s]15598 examples [00:14, 1098.27 examples/s]15710 examples [00:14, 1101.66 examples/s]15821 examples [00:14, 1102.31 examples/s]15934 examples [00:14, 1108.06 examples/s]16045 examples [00:14, 1107.63 examples/s]16156 examples [00:14, 1099.48 examples/s]16269 examples [00:15, 1106.21 examples/s]16380 examples [00:15, 1088.72 examples/s]16491 examples [00:15, 1092.64 examples/s]16601 examples [00:15, 1094.19 examples/s]16711 examples [00:15, 1093.41 examples/s]16824 examples [00:15, 1103.45 examples/s]16936 examples [00:15, 1107.28 examples/s]17049 examples [00:15, 1112.90 examples/s]17161 examples [00:15, 1114.67 examples/s]17273 examples [00:15, 1107.25 examples/s]17385 examples [00:16, 1110.69 examples/s]17499 examples [00:16, 1116.84 examples/s]17611 examples [00:16, 1103.09 examples/s]17722 examples [00:16, 1104.54 examples/s]17833 examples [00:16, 1086.27 examples/s]17942 examples [00:16, 1085.97 examples/s]18054 examples [00:16, 1093.27 examples/s]18164 examples [00:16, 1065.30 examples/s]18274 examples [00:16, 1072.58 examples/s]18382 examples [00:16, 1071.61 examples/s]18490 examples [00:17, 1068.13 examples/s]18597 examples [00:17, 1063.38 examples/s]18705 examples [00:17, 1068.05 examples/s]18815 examples [00:17, 1074.54 examples/s]18923 examples [00:17, 1064.78 examples/s]19030 examples [00:17, 1050.09 examples/s]19137 examples [00:17, 1055.39 examples/s]19247 examples [00:17, 1066.71 examples/s]19357 examples [00:17, 1074.78 examples/s]19465 examples [00:18, 1065.97 examples/s]19574 examples [00:18, 1071.50 examples/s]19683 examples [00:18, 1074.80 examples/s]19793 examples [00:18, 1080.78 examples/s]19902 examples [00:18, 1074.45 examples/s]20010 examples [00:18, 1014.23 examples/s]20120 examples [00:18, 1037.08 examples/s]20230 examples [00:18, 1054.37 examples/s]20340 examples [00:18, 1065.49 examples/s]20448 examples [00:18, 1066.82 examples/s]20555 examples [00:19, 1062.94 examples/s]20664 examples [00:19, 1070.23 examples/s]20775 examples [00:19, 1079.54 examples/s]20885 examples [00:19, 1084.03 examples/s]20995 examples [00:19, 1085.96 examples/s]21104 examples [00:19, 1081.94 examples/s]21213 examples [00:19, 1071.75 examples/s]21323 examples [00:19, 1078.40 examples/s]21432 examples [00:19, 1080.51 examples/s]21543 examples [00:19, 1086.40 examples/s]21652 examples [00:20, 1079.97 examples/s]21761 examples [00:20, 1074.72 examples/s]21869 examples [00:20, 1066.73 examples/s]21976 examples [00:20, 1065.81 examples/s]22087 examples [00:20, 1078.62 examples/s]22196 examples [00:20, 1079.37 examples/s]22307 examples [00:20, 1087.93 examples/s]22418 examples [00:20, 1093.49 examples/s]22531 examples [00:20, 1102.52 examples/s]22644 examples [00:20, 1108.69 examples/s]22755 examples [00:21, 1097.45 examples/s]22865 examples [00:21, 1028.44 examples/s]22969 examples [00:21, 993.15 examples/s] 23070 examples [00:21, 990.99 examples/s]23170 examples [00:21, 927.50 examples/s]23265 examples [00:21, 912.87 examples/s]23362 examples [00:21, 928.13 examples/s]23456 examples [00:21, 908.23 examples/s]23548 examples [00:21, 911.54 examples/s]23640 examples [00:22, 897.22 examples/s]23731 examples [00:22, 896.56 examples/s]23834 examples [00:22, 928.31 examples/s]23932 examples [00:22, 941.55 examples/s]24039 examples [00:22, 974.31 examples/s]24146 examples [00:22, 1000.55 examples/s]24248 examples [00:22, 1004.77 examples/s]24354 examples [00:22, 1019.61 examples/s]24460 examples [00:22, 1030.78 examples/s]24567 examples [00:22, 1042.05 examples/s]24675 examples [00:23, 1050.89 examples/s]24782 examples [00:23, 1054.49 examples/s]24889 examples [00:23, 1058.23 examples/s]24995 examples [00:23, 1058.33 examples/s]25101 examples [00:23, 1052.44 examples/s]25209 examples [00:23, 1059.86 examples/s]25316 examples [00:23, 1041.18 examples/s]25424 examples [00:23, 1049.80 examples/s]25536 examples [00:23, 1067.34 examples/s]25646 examples [00:23, 1076.57 examples/s]25754 examples [00:24, 1075.85 examples/s]25863 examples [00:24, 1078.29 examples/s]25973 examples [00:24, 1082.18 examples/s]26082 examples [00:24, 1082.84 examples/s]26191 examples [00:24, 1082.52 examples/s]26300 examples [00:24, 1074.29 examples/s]26408 examples [00:24, 1069.10 examples/s]26517 examples [00:24, 1074.41 examples/s]26625 examples [00:24, 1069.57 examples/s]26736 examples [00:24, 1079.10 examples/s]26844 examples [00:25, 1074.18 examples/s]26953 examples [00:25, 1078.05 examples/s]27062 examples [00:25, 1078.65 examples/s]27170 examples [00:25, 1046.21 examples/s]27281 examples [00:25, 1061.63 examples/s]27389 examples [00:25, 1066.37 examples/s]27499 examples [00:25, 1075.55 examples/s]27611 examples [00:25, 1088.45 examples/s]27721 examples [00:25, 1091.18 examples/s]27831 examples [00:25, 1090.61 examples/s]27941 examples [00:26, 1076.66 examples/s]28049 examples [00:26, 1046.96 examples/s]28158 examples [00:26, 1058.64 examples/s]28266 examples [00:26, 1063.34 examples/s]28373 examples [00:26, 1053.86 examples/s]28483 examples [00:26, 1066.31 examples/s]28592 examples [00:26, 1070.62 examples/s]28705 examples [00:26, 1085.44 examples/s]28816 examples [00:26, 1090.71 examples/s]28926 examples [00:27, 1085.74 examples/s]29038 examples [00:27, 1093.33 examples/s]29148 examples [00:27, 1093.97 examples/s]29261 examples [00:27, 1101.80 examples/s]29372 examples [00:27, 1101.76 examples/s]29483 examples [00:27, 1103.13 examples/s]29595 examples [00:27, 1105.48 examples/s]29706 examples [00:27, 1093.86 examples/s]29816 examples [00:27, 1068.77 examples/s]29929 examples [00:27, 1084.82 examples/s]30038 examples [00:28, 1036.24 examples/s]30145 examples [00:28, 1043.93 examples/s]30253 examples [00:28, 1052.33 examples/s]30363 examples [00:28, 1065.27 examples/s]30470 examples [00:28, 1059.01 examples/s]30578 examples [00:28, 1063.39 examples/s]30685 examples [00:28, 1063.96 examples/s]30792 examples [00:28, 1058.31 examples/s]30898 examples [00:28, 1040.76 examples/s]31003 examples [00:28, 1042.46 examples/s]31108 examples [00:29, 1044.31 examples/s]31218 examples [00:29, 1060.12 examples/s]31327 examples [00:29, 1067.28 examples/s]31437 examples [00:29, 1075.56 examples/s]31548 examples [00:29, 1085.61 examples/s]31657 examples [00:29, 1080.53 examples/s]31768 examples [00:29, 1086.46 examples/s]31877 examples [00:29, 1083.95 examples/s]31986 examples [00:29, 1081.92 examples/s]32095 examples [00:29, 1079.49 examples/s]32206 examples [00:30, 1086.57 examples/s]32315 examples [00:30, 1083.04 examples/s]32424 examples [00:30, 1072.09 examples/s]32532 examples [00:30, 1055.17 examples/s]32638 examples [00:30, 1054.33 examples/s]32744 examples [00:30, 1034.97 examples/s]32852 examples [00:30, 1045.27 examples/s]32958 examples [00:30, 1048.38 examples/s]33067 examples [00:30, 1058.69 examples/s]33175 examples [00:30, 1064.46 examples/s]33283 examples [00:31, 1067.32 examples/s]33391 examples [00:31, 1069.20 examples/s]33498 examples [00:31, 1064.78 examples/s]33606 examples [00:31, 1067.05 examples/s]33717 examples [00:31, 1077.15 examples/s]33827 examples [00:31, 1080.92 examples/s]33938 examples [00:31, 1087.17 examples/s]34047 examples [00:31, 1084.01 examples/s]34156 examples [00:31, 1080.42 examples/s]34265 examples [00:31, 1077.56 examples/s]34373 examples [00:32, 1065.74 examples/s]34480 examples [00:32, 1064.18 examples/s]34587 examples [00:32, 1061.75 examples/s]34694 examples [00:32, 1047.86 examples/s]34801 examples [00:32, 1054.14 examples/s]34907 examples [00:32, 1055.72 examples/s]35013 examples [00:32, 1026.06 examples/s]35119 examples [00:32, 1033.97 examples/s]35226 examples [00:32, 1043.61 examples/s]35334 examples [00:33, 1053.89 examples/s]35440 examples [00:33, 1054.69 examples/s]35550 examples [00:33, 1067.04 examples/s]35657 examples [00:33, 1064.43 examples/s]35764 examples [00:33, 1061.69 examples/s]35871 examples [00:33, 1036.41 examples/s]35982 examples [00:33, 1056.73 examples/s]36094 examples [00:33, 1073.16 examples/s]36202 examples [00:33, 1068.73 examples/s]36313 examples [00:33, 1078.69 examples/s]36421 examples [00:34, 1069.39 examples/s]36529 examples [00:34, 1062.38 examples/s]36637 examples [00:34, 1066.76 examples/s]36744 examples [00:34, 1052.16 examples/s]36850 examples [00:34, 1035.99 examples/s]36955 examples [00:34, 1038.73 examples/s]37064 examples [00:34, 1052.92 examples/s]37173 examples [00:34, 1062.78 examples/s]37282 examples [00:34, 1069.16 examples/s]37392 examples [00:34, 1077.03 examples/s]37504 examples [00:35, 1087.48 examples/s]37615 examples [00:35, 1091.52 examples/s]37725 examples [00:35, 1082.77 examples/s]37834 examples [00:35, 1084.00 examples/s]37945 examples [00:35, 1090.99 examples/s]38055 examples [00:35, 1091.93 examples/s]38165 examples [00:35, 1093.88 examples/s]38275 examples [00:35, 1095.66 examples/s]38385 examples [00:35, 1093.97 examples/s]38496 examples [00:35, 1097.65 examples/s]38606 examples [00:36, 1094.21 examples/s]38716 examples [00:36, 1092.03 examples/s]38828 examples [00:36, 1097.93 examples/s]38938 examples [00:36, 1097.47 examples/s]39048 examples [00:36, 1094.50 examples/s]39160 examples [00:36, 1099.58 examples/s]39270 examples [00:36, 1098.08 examples/s]39380 examples [00:36, 1088.98 examples/s]39489 examples [00:36, 1083.47 examples/s]39599 examples [00:36, 1088.34 examples/s]39708 examples [00:37, 1082.80 examples/s]39817 examples [00:37, 1081.51 examples/s]39926 examples [00:37, 1076.74 examples/s]40034 examples [00:37, 1017.93 examples/s]40142 examples [00:37, 1034.23 examples/s]40251 examples [00:37, 1047.83 examples/s]40357 examples [00:37, 1051.31 examples/s]40465 examples [00:37, 1059.01 examples/s]40572 examples [00:37, 1058.88 examples/s]40681 examples [00:38, 1067.84 examples/s]40789 examples [00:38, 1068.50 examples/s]40896 examples [00:38, 1058.27 examples/s]41002 examples [00:38, 1037.42 examples/s]41110 examples [00:38, 1048.21 examples/s]41218 examples [00:38, 1057.09 examples/s]41326 examples [00:38, 1063.14 examples/s]41433 examples [00:38, 1060.75 examples/s]41540 examples [00:38, 1049.32 examples/s]41647 examples [00:38, 1054.41 examples/s]41753 examples [00:39, 1046.27 examples/s]41865 examples [00:39, 1064.73 examples/s]41972 examples [00:39, 1044.30 examples/s]42081 examples [00:39, 1056.16 examples/s]42189 examples [00:39, 1061.01 examples/s]42298 examples [00:39, 1067.86 examples/s]42405 examples [00:39, 1064.87 examples/s]42514 examples [00:39, 1069.41 examples/s]42622 examples [00:39, 1070.54 examples/s]42730 examples [00:39, 1065.89 examples/s]42838 examples [00:40, 1068.06 examples/s]42952 examples [00:40, 1086.47 examples/s]43063 examples [00:40, 1090.96 examples/s]43173 examples [00:40, 1074.29 examples/s]43281 examples [00:40, 1070.35 examples/s]43389 examples [00:40, 1070.40 examples/s]43500 examples [00:40, 1081.49 examples/s]43612 examples [00:40, 1091.11 examples/s]43722 examples [00:40, 1090.53 examples/s]43832 examples [00:40, 1059.77 examples/s]43944 examples [00:41, 1075.99 examples/s]44052 examples [00:41, 1075.21 examples/s]44160 examples [00:41, 1074.88 examples/s]44272 examples [00:41, 1085.54 examples/s]44381 examples [00:41, 1078.83 examples/s]44494 examples [00:41, 1091.65 examples/s]44604 examples [00:41, 1093.33 examples/s]44716 examples [00:41, 1098.56 examples/s]44828 examples [00:41, 1104.28 examples/s]44939 examples [00:41, 1101.15 examples/s]45050 examples [00:42, 1097.68 examples/s]45161 examples [00:42, 1100.56 examples/s]45275 examples [00:42, 1110.62 examples/s]45387 examples [00:42, 1109.32 examples/s]45498 examples [00:42, 1099.47 examples/s]45611 examples [00:42, 1107.40 examples/s]45722 examples [00:42, 1105.81 examples/s]45833 examples [00:42, 1105.85 examples/s]45944 examples [00:42, 1095.61 examples/s]46054 examples [00:42, 1090.93 examples/s]46164 examples [00:43, 1090.13 examples/s]46277 examples [00:43, 1100.88 examples/s]46390 examples [00:43, 1107.20 examples/s]46501 examples [00:43, 1103.16 examples/s]46612 examples [00:43, 1097.05 examples/s]46723 examples [00:43, 1099.73 examples/s]46833 examples [00:43, 1089.12 examples/s]46944 examples [00:43, 1093.15 examples/s]47054 examples [00:43, 1091.53 examples/s]47164 examples [00:43, 1090.01 examples/s]47276 examples [00:44, 1097.28 examples/s]47388 examples [00:44, 1102.20 examples/s]47499 examples [00:44, 1086.91 examples/s]47608 examples [00:44, 1077.24 examples/s]47716 examples [00:44, 1070.79 examples/s]47826 examples [00:44, 1077.73 examples/s]47939 examples [00:44, 1091.12 examples/s]48050 examples [00:44, 1096.01 examples/s]48160 examples [00:44, 1090.32 examples/s]48270 examples [00:45, 1083.57 examples/s]48379 examples [00:45, 1077.50 examples/s]48490 examples [00:45, 1087.04 examples/s]48601 examples [00:45, 1092.60 examples/s]48711 examples [00:45, 1083.22 examples/s]48821 examples [00:45, 1086.37 examples/s]48931 examples [00:45, 1088.08 examples/s]49042 examples [00:45, 1091.96 examples/s]49155 examples [00:45, 1100.39 examples/s]49266 examples [00:45, 1097.78 examples/s]49376 examples [00:46, 1086.90 examples/s]49488 examples [00:46, 1094.97 examples/s]49598 examples [00:46, 1096.39 examples/s]49709 examples [00:46, 1099.40 examples/s]49819 examples [00:46, 1098.69 examples/s]49929 examples [00:46, 1090.88 examples/s]                                            0%|          | 0/50000 [00:00<?, ? examples/s] 13%|█▎        | 6592/50000 [00:00<00:00, 65918.49 examples/s] 39%|███▉      | 19512/50000 [00:00<00:00, 77272.53 examples/s] 65%|██████▌   | 32565/50000 [00:00<00:00, 88049.15 examples/s] 92%|█████████▏| 45833/50000 [00:00<00:00, 97931.75 examples/s]                                                               0 examples [00:00, ? examples/s]89 examples [00:00, 885.79 examples/s]199 examples [00:00, 940.45 examples/s]305 examples [00:00, 973.03 examples/s]411 examples [00:00, 997.04 examples/s]525 examples [00:00, 1034.29 examples/s]636 examples [00:00, 1053.39 examples/s]749 examples [00:00, 1072.69 examples/s]857 examples [00:00, 1074.06 examples/s]970 examples [00:00, 1090.23 examples/s]1081 examples [00:01, 1094.53 examples/s]1189 examples [00:01, 1088.56 examples/s]1302 examples [00:01, 1099.70 examples/s]1417 examples [00:01, 1111.53 examples/s]1531 examples [00:01, 1118.42 examples/s]1643 examples [00:01, 1118.49 examples/s]1755 examples [00:01, 1114.18 examples/s]1867 examples [00:01, 1115.39 examples/s]1980 examples [00:01, 1118.57 examples/s]2094 examples [00:01, 1122.52 examples/s]2207 examples [00:02, 1123.38 examples/s]2320 examples [00:02, 1118.88 examples/s]2434 examples [00:02, 1124.95 examples/s]2548 examples [00:02, 1127.17 examples/s]2663 examples [00:02, 1131.57 examples/s]2777 examples [00:02, 1116.37 examples/s]2889 examples [00:02, 1080.35 examples/s]2998 examples [00:02, 1051.89 examples/s]3110 examples [00:02, 1070.32 examples/s]3226 examples [00:02, 1093.40 examples/s]3338 examples [00:03, 1100.49 examples/s]3449 examples [00:03, 1060.54 examples/s]3563 examples [00:03, 1082.11 examples/s]3676 examples [00:03, 1094.50 examples/s]3790 examples [00:03, 1106.92 examples/s]3902 examples [00:03, 1108.96 examples/s]4014 examples [00:03, 1098.23 examples/s]4128 examples [00:03, 1108.97 examples/s]4240 examples [00:03, 1109.62 examples/s]4353 examples [00:03, 1115.33 examples/s]4465 examples [00:04, 1096.98 examples/s]4575 examples [00:04, 1097.19 examples/s]4689 examples [00:04, 1107.72 examples/s]4800 examples [00:04, 1102.97 examples/s]4911 examples [00:04, 1104.83 examples/s]5024 examples [00:04, 1111.45 examples/s]5136 examples [00:04, 1107.60 examples/s]5249 examples [00:04, 1112.91 examples/s]5364 examples [00:04, 1121.33 examples/s]5477 examples [00:04, 1111.03 examples/s]5589 examples [00:05, 1082.56 examples/s]5698 examples [00:05, 1057.84 examples/s]5806 examples [00:05, 1062.99 examples/s]5913 examples [00:05, 1048.67 examples/s]6019 examples [00:05, 1033.43 examples/s]6123 examples [00:05, 1024.04 examples/s]6226 examples [00:05, 1021.87 examples/s]6329 examples [00:05, 1015.10 examples/s]6437 examples [00:05, 1031.48 examples/s]6549 examples [00:06, 1055.55 examples/s]6655 examples [00:06, 1041.99 examples/s]6763 examples [00:06, 1051.85 examples/s]6871 examples [00:06, 1059.30 examples/s]6980 examples [00:06, 1066.57 examples/s]7090 examples [00:06, 1074.70 examples/s]7198 examples [00:06, 1070.42 examples/s]7307 examples [00:06, 1075.19 examples/s]7421 examples [00:06, 1092.56 examples/s]7531 examples [00:06, 1077.06 examples/s]7645 examples [00:07, 1094.09 examples/s]7755 examples [00:07, 1085.85 examples/s]7867 examples [00:07, 1094.13 examples/s]7980 examples [00:07, 1103.04 examples/s]8094 examples [00:07, 1110.97 examples/s]8206 examples [00:07, 1111.25 examples/s]8318 examples [00:07, 1096.74 examples/s]8428 examples [00:07, 1050.53 examples/s]8534 examples [00:07, 1050.26 examples/s]8645 examples [00:07, 1064.73 examples/s]8759 examples [00:08, 1084.07 examples/s]8868 examples [00:08, 1083.05 examples/s]8980 examples [00:08, 1093.82 examples/s]9094 examples [00:08, 1105.45 examples/s]9208 examples [00:08, 1115.26 examples/s]9324 examples [00:08, 1126.45 examples/s]9437 examples [00:08, 1125.22 examples/s]9550 examples [00:08, 1108.78 examples/s]9663 examples [00:08, 1114.66 examples/s]9777 examples [00:08, 1120.15 examples/s]9892 examples [00:09, 1128.71 examples/s]                                           0%|          | 0/10000 [00:00<?, ? examples/s]                                                [1mDownloading and preparing dataset cifar10/3.0.2 (download: 162.17 MiB, generated: 132.40 MiB, total: 294.58 MiB) to /home/runner/tensorflow_datasets/cifar10/3.0.2...[0m
 
 
 
-Shuffling and writing examples to /home/runner/tensorflow_datasets/cifar10/3.0.2.incomplete5OJI99/cifar10-train.tfrecord
-Shuffling and writing examples to /home/runner/tensorflow_datasets/cifar10/3.0.2.incomplete5OJI99/cifar10-test.tfrecord
+Shuffling and writing examples to /home/runner/tensorflow_datasets/cifar10/3.0.2.incomplete4DGNWF/cifar10-train.tfrecord
+Shuffling and writing examples to /home/runner/tensorflow_datasets/cifar10/3.0.2.incomplete4DGNWF/cifar10-test.tfrecord
 [1mDataset cifar10 downloaded and prepared to /home/runner/tensorflow_datasets/cifar10/3.0.2. Subsequent calls will reuse this data.[0m
 
   ############## Saving train dataset ############################### 
@@ -1142,15 +1142,15 @@ Shuffling and writing examples to /home/runner/tensorflow_datasets/cifar10/3.0.2
   URL:  mlmodels.preprocess.generic:get_dataset_torch {'dataloader': 'mlmodels.preprocess.generic:NumpyDataset', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_generic', 'pass_data_pars': False, 'arg': {'fixed_size': 256}}, 'shuffle': True, 'download': True} 
 
   
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f190ad22a60> 
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f80709c2a60> 
 
   
  ######### postional parameters :  ['data_info'] 
 
   
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f190ad22a60> 
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f80709c2a60> 
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7f190ad22a60> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7f80709c2a60> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_generic', 'pass_data_pars': False, 'arg': {'fixed_size': 256}} 
 
@@ -1163,7 +1163,7 @@ Dataset File path :  /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision
   
  #####  get_Data DataLoader  
 
-  ((<mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f1956706048>, <mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f189504e2b0>), {}) 
+  ((<mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f80bc32f0f0>, <mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f7ffac9d3c8>), {}) 
 
   
 
@@ -1215,15 +1215,15 @@ Dataset File path :  /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision
   URL:  mlmodels.preprocess.generic:get_dataset_torch {'dataloader': 'torchvision.datasets:MNIST', 'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}}, 'shuffle': True, 'download': True} 
 
   
-###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f190ad22a60> 
+###### load_callable_from_uri LOADED <function get_dataset_torch at 0x7f80709c2a60> 
 
   
  ######### postional parameters :  ['data_info'] 
 
   
- ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f190ad22a60> 
+ ######### Execute : preprocessor_func <function get_dataset_torch at 0x7f80709c2a60> 
 
-  function with postional parmater data_info <function get_dataset_torch at 0x7f190ad22a60> , (data_info, **args) 
+  function with postional parmater data_info <function get_dataset_torch at 0x7f80709c2a60> , (data_info, **args) 
 
   #### If transformer URI is Provided {'uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'pass_data_pars': False, 'arg': {}} 
 
@@ -1234,7 +1234,7 @@ Dataset File path :  /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision
   
  #####  get_Data DataLoader  
 
-  ((<mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f18e97cd2b0>, <mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f18e97cd048>), {}) 
+  ((<mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f7ffbd7fd30>, <mlmodels.preprocess.generic.Custom_DataLoader object at 0x7f80588750b8>), {}) 
 
   
 
@@ -1424,10 +1424,10 @@ local data directory. If you'd instead prefer to read directly from our public
 GCS bucket (recommended if you're running on GCP), you can instead set
 data_dir=gs://tfds-data/datasets.
 
-Dl Completed...:   0%|          | 0/4 [00:00<?, ? file/s]Dl Completed...:  25%|██▌       | 1/4 [00:00<00:00, 11.49 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 21.80 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00,  8.41 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00,  8.41 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.81 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.81 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.11 file/s]2020-07-30 00:10:06.988463: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
-2020-07-30 00:10:06.993850: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095074999 Hz
-2020-07-30 00:10:06.994656: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5587334b1a20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-07-30 00:10:06.994674: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Dl Completed...:   0%|          | 0/4 [00:00<?, ? file/s]Dl Completed...:  25%|██▌       | 1/4 [00:00<00:00, 12.85 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 16.14 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 16.14 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00, 10.79 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00, 10.79 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.74 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.74 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  7.04 file/s]2020-07-30 06:09:47.077303: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-07-30 06:09:47.081398: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095190000 Hz
+2020-07-30 06:09:47.082182: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5613df5c6910 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-07-30 06:09:47.082199: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 [1mDownloading and preparing dataset mnist/3.0.1 (download: 11.06 MiB, generated: 21.00 MiB, total: 32.06 MiB) to /home/runner/tensorflow_datasets/mnist/3.0.1...[0m
 
 [1mDataset mnist downloaded and prepared to /home/runner/tensorflow_datasets/mnist/3.0.1. Subsequent calls will reuse this data.[0m
@@ -1451,10 +1451,10 @@ data_dir=gs://tfds-data/datasets.
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
-0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s]  8%|▊         | 827392/9912422 [00:00<00:01, 8245324.91it/s] 21%|██▏       | 2113536/9912422 [00:00<00:00, 9240170.60it/s]9920512it [00:00, 14814761.61it/s]                            
-0it [00:00, ?it/s]  0%|          | 0/28881 [00:00<?, ?it/s]32768it [00:00, 281409.42it/s]           
-0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 474504.47it/s]1654784it [00:00, 11967348.40it/s]                         
-0it [00:00, ?it/s]8192it [00:00, 186360.94it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  1%|          | 98304/9912422 [00:00<00:10, 978733.33it/s] 78%|███████▊  | 7692288/9912422 [00:00<00:01, 1390399.96it/s]9920512it [00:00, 44656991.61it/s]                            
+0it [00:00, ?it/s]32768it [00:00, 535905.86it/s]
+0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 489439.86it/s]1654784it [00:00, 12109581.44it/s]                         
+0it [00:00, ?it/s]8192it [00:00, 231005.37it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to dataset/vision/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting dataset/vision/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/vision/MNIST/raw
