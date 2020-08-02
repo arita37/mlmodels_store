@@ -202,7 +202,7 @@ Generated Features:
 All Features:
 	int features: 6
 	object features: 8
-	Data preprocessing and feature engineering runtime = 0.26s ...
+	Data preprocessing and feature engineering runtime = 0.25s ...
 AutoGluon will gauge predictive performance using evaluation metric: accuracy
 To change this, specify the eval_metric argument of fit()
 AutoGluon will early stop models using evaluation metric: accuracy
@@ -290,49 +290,45 @@ Saving dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06} and reward: 0.3862
 Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3862
 Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xb9\x99\x99\x99\x99\x99\x9aX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0\x00\x00\x00\x00\x00\x00X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?@bM\xd2\xf1\xa9\xfcX\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>\xb0\xc6\xf7\xa0\xb5\xed\x8du.' and reward: 0.3862
- 40%|████      | 2/5 [00:52<01:19, 26.40s/it]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
+ 40%|████      | 2/5 [00:50<01:15, 25.17s/it]Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
 Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 Saving dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
-Finished Task with config: {'activation.choice': 2, 'dropout_prob': 0.4724112989796961, 'embedding_size_factor': 1.2543847267281214, 'layers.choice': 3, 'learning_rate': 0.0006435711446486555, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 0.012614571686463053} and reward: 0.3652
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xde;\xfc\x99\xd8<-X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf4\x11\xf5\xb8\x1ec\tX\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?E\x16\xaa\x82k\xd0\xb5X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\x89\xd5\xab&\xc5p\xb5u.' and reward: 0.3652
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\xde;\xfc\x99\xd8<-X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf4\x11\xf5\xb8\x1ec\tX\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?E\x16\xaa\x82k\xd0\xb5X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G?\x89\xd5\xab&\xc5p\xb5u.' and reward: 0.3652
- 60%|██████    | 3/5 [01:50<01:11, 35.70s/it] 60%|██████    | 3/5 [01:50<01:13, 36.73s/it]
+Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.24465813916253137, 'embedding_size_factor': 1.1770086166837745, 'layers.choice': 3, 'learning_rate': 0.0029521556660344755, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 2.742206223285824e-10} and reward: 0.3856
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xcfP\xf593\x9e\xfaX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf2\xd5\x06\xfc\xbcE\xaeX\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?h/\x1e\x819\xe9 X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G=\xf2\xd8#\xe4}Bsu.' and reward: 0.3856
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xcfP\xf593\x9e\xfaX\x15\x00\x00\x00embedding_size_factorq\x03G?\xf2\xd5\x06\xfc\xbcE\xaeX\r\x00\x00\x00layers.choiceq\x04K\x03X\r\x00\x00\x00learning_rateq\x05G?h/\x1e\x819\xe9 X\x13\x00\x00\x00network_type.choiceq\x06K\x00X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G=\xf2\xd8#\xe4}Bsu.' and reward: 0.3856
+ 60%|██████    | 3/5 [01:44<01:07, 33.73s/it] 60%|██████    | 3/5 [01:44<01:09, 34.68s/it]
 Loading: dataset/models/NeuralNetClassifier/train_tabNNdataset.pkl
 Loading: dataset/models/NeuralNetClassifier/validation_tabNNdataset.pkl
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
-distributed.utils_perf - WARNING - full garbage collections took 10% CPU time recently (threshold: 10%)
 Saving dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
-Finished Task with config: {'activation.choice': 0, 'dropout_prob': 0.403372876997361, 'embedding_size_factor': 1.017003943751089, 'layers.choice': 0, 'learning_rate': 0.0038429294980633945, 'network_type.choice': 1, 'use_batchnorm.choice': 0, 'weight_decay': 1.8642763020814846e-08} and reward: 0.3842
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xd9\xd0\xdcx\xb3\x03\xa0X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0E\xa5\xede\x05\xf1X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?o{5\x10{\x02\xc8X\x13\x00\x00\x00network_type.choiceq\x06K\x01X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>T\x04{\xd2_\xf2lu.' and reward: 0.3842
-Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x00X\x0c\x00\x00\x00dropout_probq\x02G?\xd9\xd0\xdcx\xb3\x03\xa0X\x15\x00\x00\x00embedding_size_factorq\x03G?\xf0E\xa5\xede\x05\xf1X\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?o{5\x10{\x02\xc8X\x13\x00\x00\x00network_type.choiceq\x06K\x01X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x00X\x0c\x00\x00\x00weight_decayq\x08G>T\x04{\xd2_\xf2lu.' and reward: 0.3842
+Finished Task with config: {'activation.choice': 2, 'dropout_prob': 0.015697543273153317, 'embedding_size_factor': 0.9907968675348273, 'layers.choice': 0, 'learning_rate': 0.00023210348471204952, 'network_type.choice': 1, 'use_batchnorm.choice': 1, 'weight_decay': 2.4918502533445286e-10} and reward: 0.3522
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\x90\x13\x04K\xf1eaX\x15\x00\x00\x00embedding_size_factorq\x03G?\xef\xb4\x9b\xa1\xe1R\x8eX\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?.l\x19\xc0\x93\x92\x8eX\x13\x00\x00\x00network_type.choiceq\x06K\x01X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G=\xf1\x1f\xb5\x96U\x87\x19u.' and reward: 0.3522
+Finished Task with config: b'\x80\x03}q\x00(X\x11\x00\x00\x00activation.choiceq\x01K\x02X\x0c\x00\x00\x00dropout_probq\x02G?\x90\x13\x04K\xf1eaX\x15\x00\x00\x00embedding_size_factorq\x03G?\xef\xb4\x9b\xa1\xe1R\x8eX\r\x00\x00\x00layers.choiceq\x04K\x00X\r\x00\x00\x00learning_rateq\x05G?.l\x19\xc0\x93\x92\x8eX\x13\x00\x00\x00network_type.choiceq\x06K\x01X\x14\x00\x00\x00use_batchnorm.choiceq\x07K\x01X\x0c\x00\x00\x00weight_decayq\x08G=\xf1\x1f\xb5\x96U\x87\x19u.' and reward: 0.3522
 Please either provide filename or allow plot in get_training_curves
-Time for Neural Network hyperparameter optimization: 164.58201241493225
+Time for Neural Network hyperparameter optimization: 155.71845269203186
 Best hyperparameter configuration for Tabular Neural Network: 
 {'activation.choice': 0, 'dropout_prob': 0.1, 'embedding_size_factor': 1.0, 'layers.choice': 0, 'learning_rate': 0.0005, 'network_type.choice': 0, 'use_batchnorm.choice': 0, 'weight_decay': 1e-06}
 Saving dataset/models/trainer.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
-Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.74s of the -47.28s of remaining time.
-Ensemble size: 4
+Fitting model: weighted_ensemble_k0_l1 ... Training model for up to 119.75s of the -38.07s of remaining time.
+Ensemble size: 6
 Ensemble weights: 
-[0.25 0.75 0.  ]
-	0.3908	 = Validation accuracy score
-	1.07s	 = Training runtime
+[0.66666667 0.16666667 0.16666667]
+	0.3916	 = Validation accuracy score
+	1.03s	 = Training runtime
 	0.0s	 = Validation runtime
 Saving dataset/models/weighted_ensemble_k0_l1/model.pkl
 Saving dataset/models/trainer.pkl
 Saving dataset/models/trainer.pkl
 Saving dataset/models/trainer.pkl
-AutoGluon training complete, total runtime = 168.39s ...
+AutoGluon training complete, total runtime = 159.14s ...
 Loading: dataset/models/trainer.pkl
 Loaded data from: https://autogluon.s3.amazonaws.com/datasets/Inc/test.csv | Columns = 15 / 15 | Rows = 9769 -> 9769
 Loading: dataset/models/trainer.pkl
 Loading: dataset/models/weighted_ensemble_k0_l1/model.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_0_tabularNN.pkl
+Loading: dataset/models/NeuralNetClassifier/trial_1_tabularNN.pkl
 Loading: dataset/models/NeuralNetClassifier/trial_2_tabularNN.pkl
 
 
