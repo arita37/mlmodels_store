@@ -376,10 +376,10 @@
 <br />  benchmark file saved at https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/example/benchmark/timeseries/test02/model_list.json 
 <br />
 <br />                       date_run  ...            metric_name
-<br />0  2020-08-02 20:19:55.886563  ...    mean_absolute_error
-<br />1  2020-08-02 20:19:55.890971  ...     mean_squared_error
-<br />2  2020-08-02 20:19:55.894559  ...  median_absolute_error
-<br />3  2020-08-02 20:19:55.898019  ...               r2_score
+<br />0  2020-08-03 04:19:11.900448  ...    mean_absolute_error
+<br />1  2020-08-03 04:19:11.904977  ...     mean_squared_error
+<br />2  2020-08-03 04:19:11.907933  ...  median_absolute_error
+<br />3  2020-08-03 04:19:11.910871  ...               r2_score
 <br />
 <br />[4 rows x 6 columns] 
 <br />    if d ==  "single_dataframe" :
@@ -577,7 +577,7 @@
 <br />    train_iter, valid_iter = get_dataset(data_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
 <br />    loader = DataLoader(data_pars)
-<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f7b16ee4fd0> <class 'mlmodels.model_tch.torchhub.Model'>
+<br />>>>model:  <mlmodels.model_tch.torchhub.Model object at 0x7f55ae8228d0> <class 'mlmodels.model_tch.torchhub.Model'>
 <br />
 <br />  {'hypermodel_pars': {'learning_rate': {'type': 'log_uniform', 'init': 0.01, 'range': [0.001, 0.1]}}, 'model_pars': {'model_uri': 'model_tch.torchhub.py', 'repo_uri': 'pytorch/vision', 'model': 'wide_resnet101_2', 'num_classes': 10, 'pretrained': 0, '_comment': '0: False, 1: True', 'num_layers': 5, 'size': 6, 'size_layer': 128, 'output_size': 6, 'timestep': 4, 'epoch': 2}, 'data_pars': {'dataset': 'torchvision.datasets:MNIST', 'data_path': 'https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/dataset/vision/', 'train_batch_size': 100, 'test_batch_size': 10, 'transform_uri': 'mlmodels.preprocess.image:torch_transform_mnist', 'train': True}, 'compute_pars': {'distributed': 'mpi', 'max_batch_sample': 10, 'epochs': 5, 'learning_rate': 0.001}, 'out_pars': {'checkpointdir': 'ztest/model_tch/torchhub/wide_resnet101_2/checkpoints/', 'path': 'https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/'}} 'data_info' 
 <br />
