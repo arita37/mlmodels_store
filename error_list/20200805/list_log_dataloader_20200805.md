@@ -71,7 +71,7 @@
 
 
 
-### Error 5, [Traceback at line 2352](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2352)<br />2352..Traceback (most recent call last):
+### Error 5, [Traceback at line 2591](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2591)<br />2591..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/util.py", line 672, in load_function_uri
 <br />    return  getattr(importlib.import_module(package), name)
 <br />  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
@@ -96,14 +96,14 @@
 
 
 
-### Error 6, [Traceback at line 2377](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2377)<br />2377..Traceback (most recent call last):
+### Error 6, [Traceback at line 2616](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2616)<br />2616..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/util.py", line 683, in load_function_uri
 <br />    package_name = str(Path(package).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 7, [Traceback at line 2384](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2384)<br />2384..Traceback (most recent call last):
+### Error 7, [Traceback at line 2623](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2623)<br />2623..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/dataloader.py", line 452, in test_json_list
 <br />    loader.compute()
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/dataloader.py", line 248, in compute
@@ -114,21 +114,21 @@
 
 
 
-### Error 8, [Traceback at line 2392](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2392)<br />2392..Traceback (most recent call last):
+### Error 8, [Traceback at line 2631](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2631)<br />2631..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/util.py", line 672, in load_function_uri
 <br />    return  getattr(importlib.import_module(package), name)
 <br />AttributeError: module 'sentence_transformers.readers' has no attribute 'STSBenchmarkDataReader'
 
 
 
-### Error 9, [Traceback at line 2399](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2399)<br />2399..Traceback (most recent call last):
+### Error 9, [Traceback at line 2638](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2638)<br />2638..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/util.py", line 683, in load_function_uri
 <br />    package_name = str(Path(package).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 10, [Traceback at line 2406](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2406)<br />2406..Traceback (most recent call last):
+### Error 10, [Traceback at line 2645](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2645)<br />2645..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/dataloader.py", line 452, in test_json_list
 <br />    loader.compute()
 <br />  File "https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/dataloader.py", line 275, in compute
