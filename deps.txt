@@ -34,7 +34,7 @@ decorator==4.4.2
 deepctr==0.8.0
 dill==0.3.2
 distributed==2.6.0
-docker==4.2.2
+docker==4.3.0
 docutils==0.15.2
 entrypoints==0.3
 ephem==3.7.7.1
@@ -151,7 +151,7 @@ tensorboardX==2.1
 tensorflow==1.15.2
 tensorflow-datasets==3.0.0
 tensorflow-estimator==1.15.1
-tensorflow-metadata==0.22.2
+tensorflow-metadata==0.23.0
 tensorflow-probability==0.7.0
 termcolor==1.1.0
 thinc==7.4.1
