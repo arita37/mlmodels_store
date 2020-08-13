@@ -92,6 +92,7 @@ numexpr==2.7.1
 numpy==1.18.2
 opt-einsum==3.3.0
 optuna==1.1.0
+packaging==20.4
 pandas==0.25.3
 paramiko==2.7.1
 pbr==5.4.5
