@@ -89,13 +89,13 @@ mxnet==1.6.0
 networkx==2.4
 nltk==3.5
 numexpr==2.7.1
-numpy==1.18.2
+numpy==1.19.1
 opt-einsum==3.3.0
 optuna==1.1.0
 pandas==0.25.3
 paramiko==2.7.1
 pbr==5.4.5
-Pillow==6.2.1
+Pillow==6.2.2
 plac==1.1.3
 plotly==4.9.0
 portalocker==2.0.0
@@ -104,7 +104,7 @@ prettytable==0.7.2
 prometheus-client==0.8.0
 prometheus-flask-exporter==0.15.4
 promise==2.3
-protobuf==3.12.4
+protobuf==3.13.0
 psutil==5.7.2
 pyaml==20.4.0
 pycparser==2.20
