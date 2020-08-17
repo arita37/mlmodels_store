@@ -456,10 +456,10 @@
 <br />  benchmark file saved at https://github.com/arita37/mlmodels/tree/6ca6da91408244e26c157e9e6467cc18ede43e71/mlmodels/example/benchmark/ 
 <br />
 <br />                       date_run  ...            metric_name
-<br />0  2020-08-16 23:21:52.201830  ...    mean_absolute_error
-<br />1  2020-08-16 23:21:52.205556  ...     mean_squared_error
-<br />2  2020-08-16 23:21:52.208702  ...  median_absolute_error
-<br />3  2020-08-16 23:21:52.211811  ...               r2_score
+<br />0  2020-08-17 00:49:10.773884  ...    mean_absolute_error
+<br />1  2020-08-17 00:49:10.778962  ...     mean_squared_error
+<br />2  2020-08-17 00:49:10.782816  ...  median_absolute_error
+<br />3  2020-08-17 00:49:10.786005  ...               r2_score
 <br />
 <br />[4 rows x 6 columns] 
 <br />    if d ==  "single_dataframe" :
