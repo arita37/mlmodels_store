@@ -13,7 +13,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7f5124630358> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7fd4b8622eb8> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -56,14 +56,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [-0.06139803  0.04070387 -0.05766064 -0.0538881   0.04668966 -0.05222739]
- [ 0.06633695  0.05191167 -0.0191165  -0.0020714   0.3156265  -0.0782172 ]
- [-0.07733722  0.07747525  0.19348642 -0.20495217 -0.10763267 -0.00641465]
- [ 0.29570097  0.44537842 -0.018605   -0.13347881  0.02802045 -0.1721565 ]
- [ 0.20721014  0.25177816  0.11873677 -0.02438429  0.03120501 -0.25243196]
- [-0.57212937 -0.19865215  0.19514772 -0.19854298  0.13017587 -0.2005495 ]
- [-0.54326725 -0.25507152  0.58849347  0.16536628  0.44499862  0.1706236 ]
- [ 0.49190339  0.45220357  0.09207966  0.16122121  0.30174494  0.16313335]
+ [ 0.07026654  0.07245922 -0.0009496   0.0106816   0.00873263 -0.00946589]
+ [ 0.02434315  0.07262146  0.04297446  0.05833581  0.11857272  0.12991847]
+ [ 0.22367629  0.23153865  0.34179935 -0.01140949  0.20640053  0.21443787]
+ [ 0.19035487  0.22781838 -0.01594583  0.18614885  0.14229509  0.09436408]
+ [ 0.14397092 -0.48610738  0.11040451 -0.18365459 -0.02971308 -0.16679908]
+ [-0.28653035  0.17882137 -0.33429772  0.39984092  0.15098488 -0.35360479]
+ [ 0.12464662 -0.07122676 -0.0614032   0.38329324 -0.0937317  -0.1706772 ]
+ [-0.17008799 -0.05351263 -0.03090492  0.16042377 -0.20742394  0.00303184]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -138,7 +138,7 @@ model_tf.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.44377121329307556, 'loss_history': []}
+{'loss': 0.45519738271832466, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -146,7 +146,7 @@ model_tf.1_lstm.py
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/'}
 Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 
-  ['model.ckpt.meta', 'checkpoint', 'model_pars.pkl', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001'] 
+  ['model_pars.pkl', 'model.ckpt.meta', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'checkpoint'] 
 
   #### Load   ######################################################## 
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
@@ -219,7 +219,7 @@ model_tf.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.4204723984003067, 'loss_history': []}
+{'loss': 0.4552330821752548, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -227,7 +227,7 @@ model_tf.1_lstm.py
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/'}
 Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
 
-  ['model.ckpt.meta', 'checkpoint', 'model_pars.pkl', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001'] 
+  ['model_pars.pkl', 'model.ckpt.meta', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'checkpoint'] 
 
   #### Load   ######################################################## 
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
