@@ -34,7 +34,7 @@ decorator==4.4.2
 deepctr==0.8.0
 dill==0.3.2
 distributed==2.6.0
-docker==4.3.0
+docker==4.3.1
 docutils==0.15.2
 entrypoints==0.3
 ephem==3.7.7.1
