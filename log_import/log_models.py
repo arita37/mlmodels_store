@@ -13,7 +13,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7fdd3d776e48> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7feb3d4ede48> 
 
   #### Fit   ######################################################## 
 Traceback (most recent call last):
