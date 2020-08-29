@@ -11,17 +11,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/b808d8574181c60c6c0012d83bfaca2328972526', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'b808d8574181c60c6c0012d83bfaca2328972526', 'workflow': 'test_cli'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '76c59fd9a4bb974b18235d07ef6a03bf2361dc5c', 'workflow': 'test_cli'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_cli
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/b808d8574181c60c6c0012d83bfaca2328972526
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/b808d8574181c60c6c0012d83bfaca2328972526
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/b808d8574181c60c6c0012d83bfaca2328972526
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
  ************************************************************************************************************************
 Using : /home/runner/work/mlmodels/mlmodels/mlmodels/../README_usage_CLI.md
@@ -163,7 +163,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7f2af5067fd0> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7f78ded53f98> 
 
   #### Fit   ######################################################## 
 Traceback (most recent call last):
@@ -296,7 +296,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f0a55bb7f98> 
+  <mlmodels.example.custom_model.1_lstm.Model object at 0x7fe03e8c5f98> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -339,14 +339,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [-0.09138907  0.0575511  -0.07397906  0.1445049   0.16482021 -0.06267373]
- [ 0.1953689  -0.03237813  0.13301693 -0.05680156 -0.05560791  0.05524845]
- [-0.09826734 -0.09199078 -0.12878199 -0.02466398 -0.04987693 -0.04740651]
- [ 0.04790879 -0.11594942  0.05731197 -0.0401196   0.33198112  0.02570747]
- [ 0.07419695  0.46066731  0.00253872  0.15047151  0.18207505  0.00116038]
- [-0.38766769  0.22237171  0.3274844   0.29745129 -0.10121754  0.1270321 ]
- [ 0.40222681  0.30758196 -0.03568871  0.26336128  0.42949787 -0.01703223]
- [-0.05232731 -0.19730131  0.12434082 -0.0778577  -0.27522394  0.32406774]
+ [-0.07609811  0.14515382  0.02473035 -0.03301245  0.05080018  0.00784683]
+ [ 0.13174738 -0.00077644  0.14979097 -0.11429991  0.26874062  0.19600235]
+ [-0.13276942 -0.00381123  0.10459458  0.13213564  0.03363794 -0.07233879]
+ [ 0.49192709 -0.15585302 -0.07371626 -0.21622619  0.45239764  0.23292193]
+ [ 0.63492763  0.17459348  0.05165681 -0.62418199  0.17473572  0.39260641]
+ [ 0.6166603  -0.11400949  0.08975128 -0.16061863  0.12856904 -0.01769014]
+ [-0.01635939 -0.68533039  0.60665882  0.10358632 -0.07715824 -0.17629287]
+ [-0.62287349  0.11909436  0.57509184  0.23576091  0.43411177  0.63315827]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -421,7 +421,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.520569235086441, 'loss_history': []}
+{'loss': 0.46302324905991554, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -497,7 +497,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.4836522005498409, 'loss_history': []}
+{'loss': 0.44454067945480347, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -522,25 +522,23 @@ Deprecaton set to False
   <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> 
 
   ###### Hyper-optimization through study   ################################## 
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[W 2020-08-29 14:10:10,344] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+[W 2020-08-29 14:21:33,424] Setting status of trial#0 as TrialState.FAIL because of the following error: UnboundLocalError("local variable 'module' referenced before assignment",)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
-    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
-TypeError: fit() got multiple values for argument 'data_pars'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 143, in objective
+    module = model_create(module, model_pars, data_pars, compute_pars)  # module.Model(**param_dict)
+UnboundLocalError: local variable 'module' referenced before assignment
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_optim", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 390, in main
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 388, in main
     optim_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 261, in optim_cli
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 259, in optim_cli
     out_pars        = out_pars )
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 57, in optim
     out_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 172, in optim_optuna
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 170, in optim_optuna
     study.optimize(objective, n_trials=ntrials)  # Invoke optimization of the objective function.
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 302, in optimize
     gc_after_trial, None)
@@ -550,9 +548,9 @@ Traceback (most recent call last):
     trial = self._run_trial(func, catch, gc_after_trial)
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
-    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
-TypeError: fit() got multiple values for argument 'data_pars'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 143, in objective
+    module = model_create(module, model_pars, data_pars, compute_pars)  # module.Model(**param_dict)
+UnboundLocalError: local variable 'module' referenced before assignment
 
 
 
@@ -569,25 +567,23 @@ Deprecaton set to False
   <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> 
 
   ###### Hyper-optimization through study   ################################## 
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[W 2020-08-29 14:10:15,202] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+[W 2020-08-29 14:21:36,903] Setting status of trial#0 as TrialState.FAIL because of the following error: UnboundLocalError("local variable 'module' referenced before assignment",)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
-    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
-TypeError: fit() got multiple values for argument 'data_pars'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 143, in objective
+    module = model_create(module, model_pars, data_pars, compute_pars)  # module.Model(**param_dict)
+UnboundLocalError: local variable 'module' referenced before assignment
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_optim", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 390, in main
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 388, in main
     optim_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 261, in optim_cli
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 259, in optim_cli
     out_pars        = out_pars )
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 57, in optim
     out_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 172, in optim_optuna
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 170, in optim_optuna
     study.optimize(objective, n_trials=ntrials)  # Invoke optimization of the objective function.
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 302, in optimize
     gc_after_trial, None)
@@ -597,9 +593,9 @@ Traceback (most recent call last):
     trial = self._run_trial(func, catch, gc_after_trial)
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
-    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
-TypeError: fit() got multiple values for argument 'data_pars'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 143, in objective
+    module = model_create(module, model_pars, data_pars, compute_pars)  # module.Model(**param_dict)
+UnboundLocalError: local variable 'module' referenced before assignment
 
 
 
@@ -614,25 +610,23 @@ Deprecaton set to False
   <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> 
 
   ###### Hyper-optimization through study   ################################## 
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[W 2020-08-29 14:10:20,050] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+[W 2020-08-29 14:21:40,440] Setting status of trial#0 as TrialState.FAIL because of the following error: UnboundLocalError("local variable 'module' referenced before assignment",)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
-    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
-TypeError: fit() got multiple values for argument 'data_pars'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 143, in objective
+    module = model_create(module, model_pars, data_pars, compute_pars)  # module.Model(**param_dict)
+UnboundLocalError: local variable 'module' referenced before assignment
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_optim", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 384, in main
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 382, in main
     test_json( path_json="template/optim_config_prune.json", config_mode= arg.config_mode )
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 232, in test_json
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 230, in test_json
     out_pars        = out_pars
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 57, in optim
     out_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 172, in optim_optuna
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 170, in optim_optuna
     study.optimize(objective, n_trials=ntrials)  # Invoke optimization of the objective function.
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 302, in optimize
     gc_after_trial, None)
@@ -642,9 +636,9 @@ Traceback (most recent call last):
     trial = self._run_trial(func, catch, gc_after_trial)
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
-    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
-TypeError: fit() got multiple values for argument 'data_pars'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 143, in objective
+    module = model_create(module, model_pars, data_pars, compute_pars)  # module.Model(**param_dict)
+UnboundLocalError: local variable 'module' referenced before assignment
 
 
 
@@ -761,13 +755,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f8eef927080> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7faeb20ab710> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-08-29 14:10:37.262775
+  date_run                              2020-08-29 14:21:54.832091
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -775,7 +769,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-08-29 14:10:37.267271
+  date_run                              2020-08-29 14:21:54.835592
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -783,7 +777,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-08-29 14:10:37.271866
+  date_run                              2020-08-29 14:21:54.838636
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -791,7 +785,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-08-29 14:10:37.275943
+  date_run                              2020-08-29 14:21:54.841618
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1213,10 +1207,10 @@ Traceback (most recent call last):
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-08-29 14:10:37.262775  ...    mean_absolute_error
-1  2020-08-29 14:10:37.267271  ...     mean_squared_error
-2  2020-08-29 14:10:37.271866  ...  median_absolute_error
-3  2020-08-29 14:10:37.275943  ...               r2_score
+0  2020-08-29 14:21:54.832091  ...    mean_absolute_error
+1  2020-08-29 14:21:54.835592  ...     mean_squared_error
+2  2020-08-29 14:21:54.838636  ...  median_absolute_error
+3  2020-08-29 14:21:54.841618  ...               r2_score
 
 [4 rows x 6 columns] 
     if d ==  "single_dataframe" :
@@ -1498,13 +1492,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fa716a16f28> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f7f36fa2d30> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-08-29 14:10:59.816340
+  date_run                              2020-08-29 14:22:14.157826
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1512,7 +1506,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-08-29 14:10:59.820096
+  date_run                              2020-08-29 14:22:14.161584
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1520,7 +1514,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-08-29 14:10:59.824092
+  date_run                              2020-08-29 14:22:14.164642
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1528,7 +1522,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-08-29 14:10:59.828096
+  date_run                              2020-08-29 14:22:14.167699
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1539,9 +1533,9 @@ Name: 3, dtype: object
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-08-29 14:10:59.816340  ...    mean_absolute_error
-1  2020-08-29 14:10:59.820096  ...     mean_squared_error
-2  2020-08-29 14:10:59.824092  ...  median_absolute_error
-3  2020-08-29 14:10:59.828096  ...               r2_score
+0  2020-08-29 14:22:14.157826  ...    mean_absolute_error
+1  2020-08-29 14:22:14.161584  ...     mean_squared_error
+2  2020-08-29 14:22:14.164642  ...  median_absolute_error
+3  2020-08-29 14:22:14.167699  ...               r2_score
 
 [4 rows x 6 columns] 
