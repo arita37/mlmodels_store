@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '13f78dac13e826a41e3a7922ab3568a9b02adef6', 'workflow': 'test_all'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '76c59fd9a4bb974b18235d07ef6a03bf2361dc5c', 'workflow': 'test_all'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_all
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/13f78dac13e826a41e3a7922ab3568a9b02adef6
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
  ************************************************************************************************************************
 
@@ -78,7 +78,7 @@ RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f68e573cba8> 
+  <mlmodels.model_sklearn.model_sklearn.Model object at 0x7f1fbb313828> 
 
   #### Fit   ######################################################## 
 
@@ -103,20 +103,20 @@ None
   #### Path params   ########################################## 
 
   #### Model init   ############################################ 
-
-  ############ Model fit   ########################################## 
-fit success None
-
-  ############ Prediction############################################ 
-None
-
-  ############ Save/ Load ############################################ 
 /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/sklearn/ensemble/forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
   "10 in version 0.20 to 100 in 0.22.", FutureWarning)
 Traceback (most recent call last):
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_sklearn//model_sklearn.py", line 259, in <module>
+    test_api(model_uri=MODEL_URI, param_pars=param_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 230, in test_api
+    module, model = module_load_full(model_uri, model_pars, data_pars, compute_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 101, in module_load_full
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_sklearn.model_sklearn' has no attribute 'init'
+Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_test", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 642, in main
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 655, in main
     globals()[arg.do](arg)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/ztest.py", line 509, in test_all
     log_remote_push()
