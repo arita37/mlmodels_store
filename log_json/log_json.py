@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/1ebe75fe46d6f90345ad06a6fa8b7eef2a299973', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '1ebe75fe46d6f90345ad06a6fa8b7eef2a299973', 'workflow': 'test_json'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '76c59fd9a4bb974b18235d07ef6a03bf2361dc5c', 'workflow': 'test_json'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_json
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/1ebe75fe46d6f90345ad06a6fa8b7eef2a299973
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/1ebe75fe46d6f90345ad06a6fa8b7eef2a299973
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/1ebe75fe46d6f90345ad06a6fa8b7eef2a299973
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/76c59fd9a4bb974b18235d07ef6a03bf2361dc5c
 
  ************************************************************************************************************************
 
@@ -201,56 +201,16 @@ fit
 
   ##### Init model_keras.textcnn.py {'path': './output/textcnn_keras//model.h5', 'model_uri': 'model_keras.textcnn.py'} 
 Using TensorFlow backend.
-WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
-Instructions for updating:
-If using Keras pass *_constraint arguments to layers.
-Model: "model_1"
-__________________________________________________________________________________________________
-Layer (type)                    Output Shape         Param #     Connected to                     
-==================================================================================================
-input_1 (InputLayer)            (None, 40)           0                                            
-__________________________________________________________________________________________________
-embedding_1 (Embedding)         (None, 40, 50)       250         input_1[0][0]                    
-__________________________________________________________________________________________________
-conv1d_1 (Conv1D)               (None, 38, 128)      19328       embedding_1[0][0]                
-__________________________________________________________________________________________________
-conv1d_2 (Conv1D)               (None, 37, 128)      25728       embedding_1[0][0]                
-__________________________________________________________________________________________________
-conv1d_3 (Conv1D)               (None, 36, 128)      32128       embedding_1[0][0]                
-__________________________________________________________________________________________________
-global_max_pooling1d_1 (GlobalM (None, 128)          0           conv1d_1[0][0]                   
-__________________________________________________________________________________________________
-global_max_pooling1d_2 (GlobalM (None, 128)          0           conv1d_2[0][0]                   
-__________________________________________________________________________________________________
-global_max_pooling1d_3 (GlobalM (None, 128)          0           conv1d_3[0][0]                   
-__________________________________________________________________________________________________
-concatenate_1 (Concatenate)     (None, 384)          0           global_max_pooling1d_1[0][0]     
-                                                                 global_max_pooling1d_2[0][0]     
-                                                                 global_max_pooling1d_3[0][0]     
-__________________________________________________________________________________________________
-dense_1 (Dense)                 (None, 1)            385         concatenate_1[0][0]              
-==================================================================================================
-Total params: 77,819
-Trainable params: 77,819
-Non-trainable params: 0
-__________________________________________________________________________________________________
-
-  ##### Fit <mlmodels.model_keras.textcnn.Model object at 0x7fb24f78e748> 
-Loading data...
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn.py", line 69, in fit
-    Xtrain, Xtest, ytrain, ytest = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn.py", line 143, in get_dataset
-    maxlen       = data_pars['data_info']['maxlen']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_keras.textcnn' has no attribute 'init'
 
 
 
@@ -348,14 +308,8 @@ Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
     model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
-    model = module.Model(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/namentity_crm_bilstm.py", line 66, in __init__
-    data_set, internal_states = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/namentity_crm_bilstm.py", line 182, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_keras.namentity_crm_bilstm' has no attribute 'init'
 
 
 
@@ -472,25 +426,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/zold/resnet34_benchmark_mnist.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet34/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb153fa4f60> 
-Downloading: "https://github.com/pytorch/vision/archive/master.zip" to /home/runner/.cache/torch/hub/master.zip
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -532,25 +477,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/zold/resnet18_fashion_mnist.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9532f96f60> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -592,25 +528,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/zold/resnet50_benchmark_mnist.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f9f67dbef98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -652,25 +579,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/zold/resnet18_benchmark_mnist.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/restnet18/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f62d26a5f98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -712,25 +630,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/wide_resnet50_2_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7faec7d98f60> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -772,25 +681,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/resnet18_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe53ca5dd68> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -832,25 +732,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/resnext101_32x8d_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fda97659080> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -892,25 +783,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/resnet101_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f76e8622f98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -952,25 +834,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/shufflenet_v2_x0_5_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f6fd5b34e10> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1012,25 +885,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/wide_resnet101_2_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f876ffcff98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1072,25 +936,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/resnet152_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fe944091f98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1132,25 +987,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/shufflenet_v2_x1_0_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f7f4c87df98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1192,25 +1038,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/resnet50_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f3a95ddff60> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1252,25 +1089,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/resnext50_32x4d_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f5c7b179ba8> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1312,25 +1140,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/mnist/resnet34_benchmark_MNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f243d20af98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1372,25 +1191,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/shufflenet_v2_x0_5_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x0_5/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fcea0ca9f60> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1432,25 +1242,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/resnet101_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet101/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fb615904f60> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1492,25 +1293,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/resnet50_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet50/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f0900fad828> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1552,25 +1344,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/resnext101_32x8d_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext101_32x8d/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f44e21ef5f8> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1612,25 +1395,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/resnet152_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet152/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f123d840f98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1672,25 +1446,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/resnet18_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet18/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fa8d99a5f98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1732,25 +1497,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/resnet34_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnet34/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fefd8165f60> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1792,25 +1548,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/shufflenet_v2_x1_0_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/shufflenet_v2_x1_0/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f35862c5f60> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1852,25 +1599,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/resnext50_32x4d_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/resnext50_32x4d/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f11a16acf60> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1912,25 +1650,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/wide_resnet50_2_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet50_2/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7f61e312ef98> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
@@ -1972,25 +1701,16 @@ fit
   ##### Load JSON /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/json/benchmark_cnn/fashion_mnist/wide_resnet101_2_benchmark_FashionMNIST.json 
 
   ##### Init model_tch.torchhub.py {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tch/torchhub/wide_resnet101_2/', 'model_uri': 'model_tch.torchhub.py'} 
-
-  ##### Fit <mlmodels.model_tch.torchhub.Model object at 0x7fc691b5c160> 
-Using cache found in /home/runner/.cache/torch/hub/pytorch_vision_master
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
     fit_cli(arg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
-    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 222, in fit
-    train_iter, valid_iter = get_dataset(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py", line 190, in get_dataset
-    loader = DataLoader(data_pars)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 209, in __init__
-    self.data_info                = data_pars['data_info']
-KeyError: 'data_info'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 421, in fit_cli
+    model = model_create(module, model_p, data_p, compute_p)  # Exact map JSON and paramters
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 113, in model_create
+    module.init(model_pars=model_pars, data_pars=data_pars, compute_pars=compute_pars, **kwarg)
+AttributeError: module 'mlmodels.model_tch.torchhub' has no attribute 'init'
 
 
 
