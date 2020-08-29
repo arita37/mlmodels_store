@@ -11,17 +11,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/1ebe75fe46d6f90345ad06a6fa8b7eef2a299973', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '1ebe75fe46d6f90345ad06a6fa8b7eef2a299973', 'workflow': 'test_cli'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/b808d8574181c60c6c0012d83bfaca2328972526', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'b808d8574181c60c6c0012d83bfaca2328972526', 'workflow': 'test_cli'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_cli
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/1ebe75fe46d6f90345ad06a6fa8b7eef2a299973
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/b808d8574181c60c6c0012d83bfaca2328972526
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/1ebe75fe46d6f90345ad06a6fa8b7eef2a299973
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/b808d8574181c60c6c0012d83bfaca2328972526
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/1ebe75fe46d6f90345ad06a6fa8b7eef2a299973
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/b808d8574181c60c6c0012d83bfaca2328972526
 
  ************************************************************************************************************************
 Using : /home/runner/work/mlmodels/mlmodels/mlmodels/../README_usage_CLI.md
@@ -102,7 +102,7 @@ WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/sit
 Instructions for updating:
 non-resource variables are not supported in the long term
 
-  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7fb2c1e0ca20> 
+  ##### Fit <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
@@ -110,8 +110,6 @@ Traceback (most recent call last):
     fit_cli(arg)
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
     model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
-    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
 TypeError: fit() got multiple values for argument 'data_pars'
 
 
@@ -165,7 +163,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7f0cd4a38f98> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7f2af5067fd0> 
 
   #### Fit   ######################################################## 
 Traceback (most recent call last):
@@ -298,7 +296,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.example.custom_model.1_lstm.Model object at 0x7fdd6b1ebfd0> 
+  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f0a55bb7f98> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -340,26 +338,16 @@ non-resource variables are not supported in the long term
 7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
-   0.00000000e+00  0.00000000e+00]
- [-9.87964123e-03  3.37549821e-02 -5.59263378e-02  2.16900241e-02
-  -1.21100925e-01  2.47103237e-02]
- [ 1.85050160e-01  2.09964782e-01  1.14972919e-01  1.61389839e-02
-   5.52316457e-02 -9.34397578e-02]
- [ 1.64425567e-01  1.41154062e-02 -5.97295910e-02 -2.64597032e-02
-   3.47073108e-01 -2.84475200e-02]
- [ 4.68929484e-02 -1.82271004e-04 -1.83793962e-01 -4.70232755e-01
-  -3.78423840e-01  1.79484725e-01]
- [ 8.92720670e-02  2.33200625e-01  1.40233070e-01  1.74522743e-01
-  -9.56177115e-02 -1.77540392e-01]
- [ 2.16129467e-01  9.30192947e-01  6.83437526e-01 -3.30615908e-01
-   3.98683161e-01 -9.17051584e-02]
- [ 3.72871682e-02  2.76978374e-01 -5.44768944e-02  5.16772747e-01
-  -1.06808829e+00  2.54392862e-01]
- [ 5.05541980e-01  5.60499549e-01  4.84511077e-01  6.93379641e-02
-  -1.95451900e-01  4.48819906e-01]
- [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
-   0.00000000e+00  0.00000000e+00]]
+[[ 0.          0.          0.          0.          0.          0.        ]
+ [-0.09138907  0.0575511  -0.07397906  0.1445049   0.16482021 -0.06267373]
+ [ 0.1953689  -0.03237813  0.13301693 -0.05680156 -0.05560791  0.05524845]
+ [-0.09826734 -0.09199078 -0.12878199 -0.02466398 -0.04987693 -0.04740651]
+ [ 0.04790879 -0.11594942  0.05731197 -0.0401196   0.33198112  0.02570747]
+ [ 0.07419695  0.46066731  0.00253872  0.15047151  0.18207505  0.00116038]
+ [-0.38766769  0.22237171  0.3274844   0.29745129 -0.10121754  0.1270321 ]
+ [ 0.40222681  0.30758196 -0.03568871  0.26336128  0.42949787 -0.01703223]
+ [-0.05232731 -0.19730131  0.12434082 -0.0778577  -0.27522394  0.32406774]
+ [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
 
@@ -433,7 +421,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.5754669085144997, 'loss_history': []}
+{'loss': 0.520569235086441, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -509,7 +497,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.5552626773715019, 'loss_history': []}
+{'loss': 0.4836522005498409, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -536,7 +524,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[W 2020-08-29 14:05:32,470] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+[W 2020-08-29 14:10:10,344] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
@@ -583,7 +571,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[W 2020-08-29 14:05:37,499] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+[W 2020-08-29 14:10:15,202] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
@@ -628,7 +616,7 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-[W 2020-08-29 14:05:42,998] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+[W 2020-08-29 14:10:20,050] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
     result = func(trial)
@@ -773,13 +761,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f966bcf0da0> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f8eef927080> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-08-29 14:06:00.707097
+  date_run                              2020-08-29 14:10:37.262775
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -787,7 +775,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-08-29 14:06:00.711060
+  date_run                              2020-08-29 14:10:37.267271
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -795,7 +783,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-08-29 14:06:00.714765
+  date_run                              2020-08-29 14:10:37.271866
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -803,7 +791,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-08-29 14:06:00.718981
+  date_run                              2020-08-29 14:10:37.275943
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1225,10 +1213,10 @@ Traceback (most recent call last):
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-08-29 14:06:00.707097  ...    mean_absolute_error
-1  2020-08-29 14:06:00.711060  ...     mean_squared_error
-2  2020-08-29 14:06:00.714765  ...  median_absolute_error
-3  2020-08-29 14:06:00.718981  ...               r2_score
+0  2020-08-29 14:10:37.262775  ...    mean_absolute_error
+1  2020-08-29 14:10:37.267271  ...     mean_squared_error
+2  2020-08-29 14:10:37.271866  ...  median_absolute_error
+3  2020-08-29 14:10:37.275943  ...               r2_score
 
 [4 rows x 6 columns] 
     if d ==  "single_dataframe" :
@@ -1510,13 +1498,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fb643a52320> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7fa716a16f28> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-08-29 14:06:22.763288
+  date_run                              2020-08-29 14:10:59.816340
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1524,7 +1512,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-08-29 14:06:22.767433
+  date_run                              2020-08-29 14:10:59.820096
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1532,7 +1520,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-08-29 14:06:22.771492
+  date_run                              2020-08-29 14:10:59.824092
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1540,7 +1528,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-08-29 14:06:22.774947
+  date_run                              2020-08-29 14:10:59.828096
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1551,9 +1539,9 @@ Name: 3, dtype: object
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-08-29 14:06:22.763288  ...    mean_absolute_error
-1  2020-08-29 14:06:22.767433  ...     mean_squared_error
-2  2020-08-29 14:06:22.771492  ...  median_absolute_error
-3  2020-08-29 14:06:22.774947  ...               r2_score
+0  2020-08-29 14:10:59.816340  ...    mean_absolute_error
+1  2020-08-29 14:10:59.820096  ...     mean_squared_error
+2  2020-08-29 14:10:59.824092  ...  median_absolute_error
+3  2020-08-29 14:10:59.828096  ...               r2_score
 
 [4 rows x 6 columns] 
