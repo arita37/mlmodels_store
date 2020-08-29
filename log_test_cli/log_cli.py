@@ -11,17 +11,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '13f78dac13e826a41e3a7922ab3568a9b02adef6', 'workflow': 'test_cli'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/c04d35d51ffd72412312e51a30ec316cf10a1806', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'c04d35d51ffd72412312e51a30ec316cf10a1806', 'workflow': 'test_cli'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_cli
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/c04d35d51ffd72412312e51a30ec316cf10a1806
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/13f78dac13e826a41e3a7922ab3568a9b02adef6
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/c04d35d51ffd72412312e51a30ec316cf10a1806
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/c04d35d51ffd72412312e51a30ec316cf10a1806
 
  ************************************************************************************************************************
 Using : /home/runner/work/mlmodels/mlmodels/mlmodels/../README_usage_CLI.md
@@ -102,29 +102,17 @@ WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/sit
 Instructions for updating:
 non-resource variables are not supported in the long term
 
-  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7fb0d9fb9cc0> 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-
-  ##### Save <tensorflow.python.client.session.Session object at 0x7fb0d14a3588> 
-{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/', 'model_uri': 'model_tf.1_lstm'}
-Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm//model//model.ckpt
-
-  ['model_pars.pkl', 'model.ckpt.meta', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'checkpoint'] 
+  ##### Fit <mlmodels.model_tf.1_lstm.Model object at 0x7f4588ba16a0> 
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
+    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 530, in main
+    fit_cli(arg)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 424, in fit_cli
+    model, sess = fit(module, model, data_pars=data_p, compute_pars=compute_p, out_pars=out_p)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 125, in fit
+    return module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars, **kwarg)
+TypeError: fit() got multiple values for argument 'data_pars'
 
 
 
@@ -143,31 +131,18 @@ non-resource variables are not supported in the long term
 
   ##### Load from disk: {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/', 'model_uri': 'model_tf.1_lstm'} 
 {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/', 'model_uri': 'model_tf.1_lstm'}
-Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/model
-Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm/model
-
-  ##### Predict: <tensorflow.python.client.session.Session object at 0x7f9f82d25d30> 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
-6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
-7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
-8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
-9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
+    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 534, in main
+    predict_cli(arg)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 445, in predict_cli
+    model, session = load(module, load_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 156, in load
+    return module.load(load_pars, **kwarg)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py", line 223, in load
+    d = pickle.load( open(path, mode="rb")  )
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest_1lstm//model/model_pars.pkl'
 
 
 
@@ -190,226 +165,19 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.model_tf.1_lstm.Model object at 0x7fb5d0d61dd8> 
+  <mlmodels.model_tf.1_lstm.Model object at 0x7f2828469668> 
 
   #### Fit   ######################################################## 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-
-  #### Predict   #################################################### 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
-6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
-7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
-8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
-9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-[[ 0.          0.          0.          0.          0.          0.        ]
- [ 0.00451152  0.12709555  0.08256622  0.18562691 -0.03817182 -0.06952268]
- [ 0.00288197  0.17132719  0.15430826 -0.01449114  0.0810007   0.04656887]
- [-0.12285123  0.16687037  0.01990113 -0.10755353  0.07142835 -0.04627252]
- [ 0.00398493  0.39912474  0.39011532 -0.04261955  0.19078158  0.12369922]
- [-0.42449993  0.39820886 -0.19720216  0.41883409 -0.05087959 -0.0572027 ]
- [ 0.06718433 -0.35184145  0.11389507 -0.12913913  0.62050301  0.56780475]
- [-0.46230638  0.61176127 -0.16645466 -0.13443503  0.47292921  0.46105275]
- [ 0.05600968 -0.12301875  0.20890473  0.15646338  0.50251126 -0.56258714]
- [ 0.          0.          0.          0.          0.          0.        ]]
-
-  #### Get  metrics   ################################################ 
-
-  #### Save   ######################################################## 
-
-  #### Load   ######################################################## 
-model_tf.1_lstm
-model_tf.1_lstm
-<module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'>
-<module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'>
-
-  #### Loading params   ############################################## 
-
-  ############# Data, Params preparation   ################# 
-
-  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'} 
-
-  #### Loading dataset   ############################################# 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-
-  #### Model init  ############################################# 
-
-  #### Model fit   ############################################# 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-
-  #### Predict   ##################################################### 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
-6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
-7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
-8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
-9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-
-  #### metrics   ##################################################### 
-{'loss': 0.5659815073013306, 'loss_history': []}
-
-  #### Plot   ######################################################## 
-
-  #### Save   ######################################################## 
-{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/'}
-Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
-
-  ['model_pars.pkl', 'model.ckpt.meta', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'checkpoint'] 
-
-  #### Load   ######################################################## 
-{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
-Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model
-Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model
-model_tf.1_lstm
-model_tf.1_lstm
-<module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'>
-<module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'>
-
-  #### Loading params   ############################################## 
-
-  ############# Data, Params preparation   ################# 
-
-  {'learning_rate': 0.001, 'num_layers': 1, 'size': 6, 'size_layer': 128, 'timestep': 4, 'epoch': 2, 'output_size': 6} {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'} {} {'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'} 
-
-  #### Loading dataset   ############################################# 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-
-  #### Model init  ############################################# 
-
-  #### Model fit   ############################################# 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-
-  #### Predict   ##################################################### 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'train': 0}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-5  0.745928  0.883387  0.838176  0.904464  0.904464  0.370110
-6  1.000000  0.881878  0.467996  0.486496  0.486496  1.000000
-7  0.216516  0.077549  0.433808  0.329598  0.329598  0.318466
-8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
-9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
-
-  #### metrics   ##################################################### 
-{'loss': 0.41685426980257034, 'loss_history': []}
-
-  #### Plot   ######################################################## 
-
-  #### Save   ######################################################## 
-{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/'}
-Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm//model//model.ckpt
-
-  ['model_pars.pkl', 'model.ckpt.meta', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'checkpoint'] 
-
-  #### Load   ######################################################## 
-{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/', 'model_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model'}
-Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model
-Loaded saved model from /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/model_tf/1_lstm/model
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_models", line 11, in <module>
+    load_entry_point('mlmodels', 'console_scripts', 'ml_models')()
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 526, in main
+    test_cli(arg)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 456, in test_cli
+    test_module(arg.model_uri, param_pars=param_pars)  # '1_lstm'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 266, in test_module
+    model, sess = module.fit(model, data_pars = data_pars, compute_pars = compute_pars, out_pars = out_pars)
+TypeError: fit() got multiple values for argument 'data_pars'
 
 
 
@@ -530,7 +298,7 @@ non-resource variables are not supported in the long term
 
   #### Model init   ############################################ 
 
-  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f3ef0b82fd0> 
+  <mlmodels.example.custom_model.1_lstm.Model object at 0x7f07b9358320> 
 
   #### Fit   ######################################################## 
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas'}
@@ -573,14 +341,14 @@ non-resource variables are not supported in the long term
 8  0.195249  0.000000  0.000000  0.000000  0.000000  0.671960
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 [[ 0.          0.          0.          0.          0.          0.        ]
- [-0.00156347 -0.1631695   0.13082869  0.08222439  0.16566372  0.08117153]
- [ 0.13154104 -0.0853708   0.02977885 -0.06547235 -0.02434791  0.10178527]
- [-0.10726602  0.04941513  0.01758301  0.02888389  0.16262959 -0.01265548]
- [ 0.20662397  0.34869379  0.47506303  0.21465811  0.18247817 -0.40729839]
- [-0.0912393  -0.13011524 -0.32806495 -0.66953176 -0.14315365  0.03304063]
- [-0.33327794  0.25352979 -0.21452123  0.09678397  0.13848078  0.57200003]
- [ 0.27150527 -0.01095645 -0.36438701  0.34639609 -0.04755516 -0.19796841]
- [ 0.18432288  0.43127501  0.25312677  0.27606261  0.2043063   0.34795749]
+ [ 0.01760579  0.11655291  0.11534452  0.03962146 -0.11779048 -0.07022601]
+ [-0.10714079 -0.07259497  0.0887107   0.06364495 -0.12313615  0.11708088]
+ [-0.07039277  0.19600572  0.44664943  0.0011002  -0.08031902  0.25579166]
+ [ 0.04914153 -0.08913907  0.04036164  0.2160511   0.08503854  0.20606504]
+ [ 0.53674275  0.08454011 -0.08158225  0.02382881 -0.14031622  0.44795215]
+ [ 0.60081208 -0.0102193   0.56234503  0.35221839 -0.09396741  0.29659662]
+ [ 0.06034529  0.03194785 -0.04273149  0.21819864  0.10285683 -0.04972347]
+ [ 0.47710255  0.26292294  0.47881699  0.08982832  0.00284036  0.11992251]
  [ 0.          0.          0.          0.          0.          0.        ]]
 
   #### Get  metrics   ################################################ 
@@ -655,7 +423,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.3967168238013983, 'loss_history': []}
+{'loss': 0.3283787490800023, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -731,7 +499,7 @@ example.custom_model.1_lstm.py
 9  0.000000  0.173783  0.369041  0.411721  0.411721  0.304384
 
   #### metrics   ##################################################### 
-{'loss': 0.3904024660587311, 'loss_history': []}
+{'loss': 0.49680110067129135, 'loss_history': []}
 
   #### Plot   ######################################################## 
 
@@ -758,131 +526,35 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:49:39,237] Finished trial#0 resulted in value: 1.1876586228609085. Current best value is 1.1876586228609085 with parameters: {'learning_rate': 0.007214306569993893, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:49:40,546] Finished trial#1 resulted in value: 0.3002859801054001. Current best value is 0.3002859801054001 with parameters: {'learning_rate': 0.0014044990750372505, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:49:42,351] Finished trial#2 resulted in value: 3.167378306388855. Current best value is 0.3002859801054001 with parameters: {'learning_rate': 0.0014044990750372505, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:49:44,063] Finished trial#3 resulted in value: 0.4208637923002243. Current best value is 0.3002859801054001 with parameters: {'learning_rate': 0.0014044990750372505, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:49:45,831] Finished trial#4 resulted in value: 2.131498008966446. Current best value is 0.3002859801054001 with parameters: {'learning_rate': 0.0014044990750372505, 'num_layers': 2, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
-
- ################################### Optim, finished ###################################
-
-  ### Save Stats   ########################################################## 
-
-  ### Run Model with best   ################################################# 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-
-  #### Saving     ########################################################### 
-{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1lstm/', 'model_type': 'model_tf', 'model_uri': 'model_tf-1_lstm'}
-Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1lstm//model//model.ckpt
-
-  ['model_pars.pkl', 'model.ckpt.meta', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'checkpoint'] 
-
-  #############  OPTIMIZATION End ############### 
-
-  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.0014044990750372505, 'num_layers': 2, 'size': 6, 'size_layer': 256, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.3002859801054001, 'model_name': None} 
+[W 2020-08-29 13:43:38,038] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
+    result = func(trial)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
+    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
+TypeError: fit() got multiple values for argument 'data_pars'
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_optim", line 11, in <module>
+    load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 390, in main
+    optim_cli(arg)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 261, in optim_cli
+    out_pars        = out_pars )
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 57, in optim
+    out_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 172, in optim_optuna
+    study.optimize(objective, n_trials=ntrials)  # Invoke optimization of the objective function.
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 302, in optimize
+    gc_after_trial, None)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 538, in _optimize_sequential
+    self._run_trial_and_callbacks(func, catch, callbacks, gc_after_trial)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 550, in _run_trial_and_callbacks
+    trial = self._run_trial(func, catch, gc_after_trial)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
+    result = func(trial)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
+    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
+TypeError: fit() got multiple values for argument 'data_pars'
 
 
 
@@ -901,74 +573,35 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:49:53,036] Finished trial#0 resulted in value: 0.28783200681209564. Current best value is 0.28783200681209564 with parameters: {'learning_rate': 0.004160322116618345, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:49:54,347] Finished trial#1 resulted in value: 14.37240743637085. Current best value is 0.28783200681209564 with parameters: {'learning_rate': 0.004160322116618345, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 256, 'timestep': 5, 'epoch': 2}.
-
- ################################### Optim, finished ###################################
-
-  ### Save Stats   ########################################################## 
-
-  ### Run Model with best   ################################################# 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-
-  #### Saving     ########################################################### 
-{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1lstm/', 'model_type': 'model_tf', 'model_uri': 'model_tf-1_lstm'}
-Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1lstm//model//model.ckpt
-
-  ['model_pars.pkl', 'model.ckpt.meta', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'checkpoint'] 
-
-  #############  OPTIMIZATION End ############### 
-
-  {'model_uri': 'model_tf.1_lstm', 'learning_rate': 0.004160322116618345, 'num_layers': 3, 'size': 6, 'size_layer': 256, 'output_size': 6, 'timestep': 5, 'epoch': 2, 'best_value': 0.28783200681209564, 'model_name': None} 
+[W 2020-08-29 13:43:42,540] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
+    result = func(trial)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
+    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
+TypeError: fit() got multiple values for argument 'data_pars'
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_optim", line 11, in <module>
+    load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 390, in main
+    optim_cli(arg)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 261, in optim_cli
+    out_pars        = out_pars )
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 57, in optim
+    out_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 172, in optim_optuna
+    study.optimize(objective, n_trials=ntrials)  # Invoke optimization of the objective function.
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 302, in optimize
+    gc_after_trial, None)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 538, in _optimize_sequential
+    self._run_trial_and_callbacks(func, catch, callbacks, gc_after_trial)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 550, in _run_trial_and_callbacks
+    trial = self._run_trial(func, catch, gc_after_trial)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
+    result = func(trial)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
+    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
+TypeError: fit() got multiple values for argument 'data_pars'
 
 
 
@@ -985,70 +618,35 @@ Deprecaton set to False
   ###### Hyper-optimization through study   ################################## 
 
   check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:50:02,356] Finished trial#0 resulted in value: 1.0627450942993164. Current best value is 1.0627450942993164 with parameters: {'learning_rate': 0.01301625217585444, 'num_layers': 4, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
-
-  check <module 'mlmodels.model_tf.1_lstm' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py'> {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]} 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-[I 2020-08-24 00:50:04,025] Finished trial#1 resulted in value: 0.32276666164398193. Current best value is 0.32276666164398193 with parameters: {'learning_rate': 0.00285764528609011, 'num_layers': 3, 'size': 6, 'output_size': 6, 'size_layer': 128, 'timestep': 5, 'epoch': 2}.
-
- ################################### Optim, finished ###################################
-
-  ### Save Stats   ########################################################## 
-
-  ### Run Model with best   ################################################# 
-{'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
-/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year_small.csv
-         Date        Open        High  ...       Close   Adj Close   Volume
-0  2016-11-02  778.200012  781.650024  ...  768.700012  768.700012  1872400
-1  2016-11-03  767.250000  769.950012  ...  762.130005  762.130005  1943200
-2  2016-11-04  750.659973  770.359985  ...  762.020020  762.020020  2134800
-3  2016-11-07  774.500000  785.190002  ...  782.520020  782.520020  1585100
-4  2016-11-08  783.400024  795.632996  ...  790.510010  790.510010  1350800
-
-[5 rows x 7 columns]
-          0         1         2         3         4         5
-0  0.706562  0.629914  0.682052  0.599302  0.599302  0.153665
-1  0.458824  0.320251  0.598101  0.478596  0.478596  0.174523
-2  0.083484  0.331101  0.437246  0.476576  0.476576  0.230969
-3  0.622851  0.723606  0.854891  0.853206  0.853206  0.069025
-4  0.824209  1.000000  1.000000  1.000000  1.000000  0.000000
-
-  #### Saving     ########################################################### 
-{'path': '/home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1lstm/', 'model_type': 'model_tf', 'model_uri': 'model_tf-1_lstm'}
-Model saved in path: /home/runner/work/mlmodels/mlmodels/mlmodels/ztest/optim_1lstm//model//model.ckpt
-
-  ['model_pars.pkl', 'model.ckpt.meta', 'model.ckpt.index', 'model.ckpt.data-00000-of-00001', 'checkpoint'] 
+[W 2020-08-29 13:43:46,799] Setting status of trial#0 as TrialState.FAIL because of the following error: TypeError("fit() got multiple values for argument 'data_pars'",)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
+    result = func(trial)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
+    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
+TypeError: fit() got multiple values for argument 'data_pars'
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_optim", line 11, in <module>
+    load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 384, in main
+    test_json( path_json="template/optim_config_prune.json", config_mode= arg.config_mode )
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 232, in test_json
+    out_pars        = out_pars
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 57, in optim
+    out_pars)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 172, in optim_optuna
+    study.optimize(objective, n_trials=ntrials)  # Invoke optimization of the objective function.
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 302, in optimize
+    gc_after_trial, None)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 538, in _optimize_sequential
+    self._run_trial_and_callbacks(func, catch, callbacks, gc_after_trial)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 550, in _run_trial_and_callbacks
+    trial = self._run_trial(func, catch, gc_after_trial)
+  File "/opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/optuna/study.py", line 569, in _run_trial
+    result = func(trial)
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/optim.py", line 146, in objective
+    model, sess = module.fit(model, data_pars=data_pars, compute_pars=compute_pars, out_pars=out_pars)
+TypeError: fit() got multiple values for argument 'data_pars'
 
 
 
@@ -1165,13 +763,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f5079828f98> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f1ca6f5fc50> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-08-24 00:50:22.423054
+  date_run                              2020-08-29 13:44:02.832304
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1179,7 +777,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-08-24 00:50:22.428570
+  date_run                              2020-08-29 13:44:02.835850
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1187,7 +785,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-08-24 00:50:22.433756
+  date_run                              2020-08-29 13:44:02.838982
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1195,7 +793,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-08-24 00:50:22.439611
+  date_run                              2020-08-29 13:44:02.842945
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1617,10 +1215,10 @@ Traceback (most recent call last):
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-08-24 00:50:22.423054  ...    mean_absolute_error
-1  2020-08-24 00:50:22.428570  ...     mean_squared_error
-2  2020-08-24 00:50:22.433756  ...  median_absolute_error
-3  2020-08-24 00:50:22.439611  ...               r2_score
+0  2020-08-29 13:44:02.832304  ...    mean_absolute_error
+1  2020-08-29 13:44:02.835850  ...     mean_squared_error
+2  2020-08-29 13:44:02.838982  ...  median_absolute_error
+3  2020-08-29 13:44:02.842945  ...               r2_score
 
 [4 rows x 6 columns] 
     if d ==  "single_dataframe" :
@@ -1902,13 +1500,13 @@ Initial log joint probability = -192.039
     3584       11832.1   8.65844e-07       55.9367      0.4252      0.4252     4658   
 Optimization terminated normally: 
   Convergence detected: relative gradient magnitude is below tolerance
->>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f5953dfb390> <class 'mlmodels.model_gluon.fb_prophet.Model'>
+>>>model:  <mlmodels.model_gluon.fb_prophet.Model object at 0x7f8b65578d30> <class 'mlmodels.model_gluon.fb_prophet.Model'>
 
   #### Inference Need return ypred, ytrue ######################### 
 
   ### Calculate Metrics    ######################################## 
 
-  date_run                              2020-08-24 00:50:44.401366
+  date_run                              2020-08-29 13:44:22.668365
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1916,7 +1514,7 @@ metric                                                   14.3339
 metric_name                                  mean_absolute_error
 Name: 0, dtype: object 
 
-  date_run                              2020-08-24 00:50:44.404945
+  date_run                              2020-08-29 13:44:22.672247
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1924,7 +1522,7 @@ metric                                                   215.367
 metric_name                                   mean_squared_error
 Name: 1, dtype: object 
 
-  date_run                              2020-08-24 00:50:44.408466
+  date_run                              2020-08-29 13:44:22.675480
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1932,7 +1530,7 @@ metric                                                   14.4309
 metric_name                                median_absolute_error
 Name: 2, dtype: object 
 
-  date_run                              2020-08-24 00:50:44.411891
+  date_run                              2020-08-29 13:44:22.678680
 model_uri                              model_gluon/fb_prophet.py
 json           [{'model_uri': 'model_gluon/fb_prophet.py'}, {...
 dataset_uri    dataset/timeseries//HOBBIES_1_001_CA_1_validat...
@@ -1943,9 +1541,9 @@ Name: 3, dtype: object
   benchmark file saved at /home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark/ 
 
                        date_run  ...            metric_name
-0  2020-08-24 00:50:44.401366  ...    mean_absolute_error
-1  2020-08-24 00:50:44.404945  ...     mean_squared_error
-2  2020-08-24 00:50:44.408466  ...  median_absolute_error
-3  2020-08-24 00:50:44.411891  ...               r2_score
+0  2020-08-29 13:44:22.668365  ...    mean_absolute_error
+1  2020-08-29 13:44:22.672247  ...     mean_squared_error
+2  2020-08-29 13:44:22.675480  ...  median_absolute_error
+3  2020-08-29 13:44:22.678680  ...               r2_score
 
 [4 rows x 6 columns] 
