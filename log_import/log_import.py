@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/a91a5ce7b6d8554ddf66500b1f112abf7b9719c0', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'a91a5ce7b6d8554ddf66500b1f112abf7b9719c0', 'workflow': 'test_fast_linux'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/61fd2375e9dc072b41dd484ab88feeec8ad2ee40', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '61fd2375e9dc072b41dd484ab88feeec8ad2ee40', 'workflow': 'test_fast_linux'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_fast_linux
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/a91a5ce7b6d8554ddf66500b1f112abf7b9719c0
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/61fd2375e9dc072b41dd484ab88feeec8ad2ee40
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/a91a5ce7b6d8554ddf66500b1f112abf7b9719c0
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/61fd2375e9dc072b41dd484ab88feeec8ad2ee40
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/a91a5ce7b6d8554ddf66500b1f112abf7b9719c0
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/61fd2375e9dc072b41dd484ab88feeec8ad2ee40
 
  ************************************************************************************************************************
 
@@ -38,11 +38,14 @@ mlmodels.utils.parse
 mlmodels.model_sklearn.model_sklearn
 
   Error mlmodels.model_sklearn.model_lightgbm invalid syntax (model_lightgbm.py, line 316) 
+Using TensorFlow backend.
+WARNING:tensorflow:From /opt/hostedtoolcache/Python/3.6.11/x64/lib/python3.6/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
 mlmodels.model_sklearn.__init__
 mlmodels.model_tf.util
 mlmodels.model_tf.__init__
-
-  Error mlmodels.model_tf.1_lstm invalid syntax (1_lstm.py, line 38) 
+mlmodels.model_tf.1_lstm
 
   Error mlmodels.model_keras.deepctr cannot import name 'create_embedding_matrix' 
 mlmodels.model_keras.textcnn
@@ -93,7 +96,6 @@ mlmodels.example.benchmark_timeseries_m4
   Error mlmodels.example.arun_hyper name 'copy' is not defined 
 
   Error mlmodels.model_dev.temporal_fusion_google No module named 'mlmodels.mode_tf' 
-Using TensorFlow backend.
 INFO:root:Using CPU
 INFO:root:Using CPU
 INFO:root:Using CPU
