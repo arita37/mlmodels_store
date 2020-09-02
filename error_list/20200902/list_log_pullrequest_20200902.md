@@ -1,7 +1,7 @@
-## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-08-22-12-22_13f78dac13e826a41e3a7922ab3568a9b02adef6.py
+## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-08-21-06-21_13f78dac13e826a41e3a7922ab3568a9b02adef6.py
 
 
-### Error 1, [Traceback at line 355](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-08-22-12-22_13f78dac13e826a41e3a7922ab3568a9b02adef6.py#L355)<br />355..Traceback (most recent call last):
+### Error 1, [Traceback at line 355](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-08-21-06-21_13f78dac13e826a41e3a7922ab3568a9b02adef6.py#L355)<br />355..Traceback (most recent call last):
 <br />  File "https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6/mlmodels/model_keras/textcnn.py", line 258, in <module>
 <br />    test_module(model_uri = MODEL_URI, param_pars= param_pars)
 <br />  File "https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6/mlmodels/models.py", line 257, in test_module
@@ -12,7 +12,7 @@
 
 
 
-### Error 2, [Traceback at line 363](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-08-22-12-22_13f78dac13e826a41e3a7922ab3568a9b02adef6.py#L363)<br />363..Traceback (most recent call last):
+### Error 2, [Traceback at line 363](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-08-21-06-21_13f78dac13e826a41e3a7922ab3568a9b02adef6.py#L363)<br />363..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.11/x64/bin/ml_test", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
 <br />  File "https://github.com/arita37/mlmodels/tree/13f78dac13e826a41e3a7922ab3568a9b02adef6/mlmodels/ztest.py", line 642, in main
