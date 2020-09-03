@@ -2,11 +2,11 @@
 
 
 ### Error 1, [Traceback at line 445](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L445)<br />445..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 452, in test_json_list
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 452, in test_json_list
 <br />    loader.compute()
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 258, in compute
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 258, in compute
 <br />    obj_preprocessor = preprocessor_func(**args, data_info=self.data_info)
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/preprocess/generic.py", line 502, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/preprocess/generic.py", line 502, in __init__
 <br />    df = pd.read_csv(file_path, **args.get("read_csv_parm",{}))
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/pandas/io/parsers.py", line 685, in parser_f
 <br />    return _read(filepath_or_buffer, kwds)
@@ -25,11 +25,11 @@
 
 
 ### Error 2, [Traceback at line 465](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L465)<br />465..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 452, in test_json_list
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 452, in test_json_list
 <br />    loader.compute()
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 258, in compute
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 258, in compute
 <br />    obj_preprocessor = preprocessor_func(**args, data_info=self.data_info)
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/preprocess/generic.py", line 502, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/preprocess/generic.py", line 502, in __init__
 <br />    df = pd.read_csv(file_path, **args.get("read_csv_parm",{}))
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/pandas/io/parsers.py", line 685, in parser_f
 <br />    return _read(filepath_or_buffer, kwds)
@@ -48,11 +48,11 @@
 
 
 ### Error 3, [Traceback at line 485](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L485)<br />485..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 452, in test_json_list
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 452, in test_json_list
 <br />    loader.compute()
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 258, in compute
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 258, in compute
 <br />    obj_preprocessor = preprocessor_func(**args, data_info=self.data_info)
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/preprocess/generic.py", line 607, in __init__
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/preprocess/generic.py", line 607, in __init__
 <br />    data            = np.load( file_path,**args.get("numpy_loader_args", {}))
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/numpy/lib/npyio.py", line 416, in load
 <br />    fid = stack.enter_context(open(os_fspath(file), "rb"))
@@ -61,18 +61,18 @@
 
 
 ### Error 4, [Traceback at line 496](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L496)<br />496..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 452, in test_json_list
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 452, in test_json_list
 <br />    loader.compute()
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 301, in compute
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 301, in compute
 <br />    out_tmp = preprocessor_func(input_tmp, **args)
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 93, in pickle_dump
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 93, in pickle_dump
 <br />    with open(kwargs["path"], "wb") as fi:
 <br />FileNotFoundError: [Errno 2] No such file or directory: 'mlmodels/ztest/ml_keras/namentity_crm_bilstm/data.pkl'
 
 
 
-### Error 5, [Traceback at line 2469](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2469)<br />2469..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/util.py", line 672, in load_function_uri
+### Error 5, [Traceback at line 2470](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2470)<br />2470..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/util.py", line 672, in load_function_uri
 <br />    return  getattr(importlib.import_module(package), name)
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
 <br />    return _bootstrap._gcd_import(name[level:], package, level)
@@ -82,7 +82,7 @@
 <br />  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
 <br />  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
 <br />  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/model_tch/textcnn.py", line 24, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/model_tch/textcnn.py", line 24, in <module>
 <br />    import torchtext
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/torchtext/__init__.py", line 42, in <module>
 <br />    _init_extension()
@@ -96,45 +96,45 @@
 
 
 
-### Error 6, [Traceback at line 2494](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2494)<br />2494..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/util.py", line 683, in load_function_uri
+### Error 6, [Traceback at line 2495](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2495)<br />2495..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/util.py", line 683, in load_function_uri
 <br />    package_name = str(Path(package).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 7, [Traceback at line 2501](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2501)<br />2501..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 452, in test_json_list
+### Error 7, [Traceback at line 2502](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2502)<br />2502..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 452, in test_json_list
 <br />    loader.compute()
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 248, in compute
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 248, in compute
 <br />    preprocessor_func = load_function(uri)
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/util.py", line 688, in load_function_uri
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/util.py", line 688, in load_function_uri
 <br />    raise NameError(f"Module {pkg} notfound, {e1}, {e2}")
 <br />NameError: Module ['mlmodels.model_tch.textcnn', 'split_train_valid'] notfound, libtorch_cpu.so: cannot open shared object file: No such file or directory, tuple index out of range
 
 
 
-### Error 8, [Traceback at line 2509](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2509)<br />2509..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/util.py", line 672, in load_function_uri
+### Error 8, [Traceback at line 2510](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2510)<br />2510..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/util.py", line 672, in load_function_uri
 <br />    return  getattr(importlib.import_module(package), name)
 <br />AttributeError: module 'sentence_transformers.readers' has no attribute 'STSBenchmarkDataReader'
 
 
 
-### Error 9, [Traceback at line 2516](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2516)<br />2516..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/util.py", line 683, in load_function_uri
+### Error 9, [Traceback at line 2517](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2517)<br />2517..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/util.py", line 683, in load_function_uri
 <br />    package_name = str(Path(package).parts[-2]) + "." + str(model_name)
 <br />IndexError: tuple index out of range
 
 
 
-### Error 10, [Traceback at line 2523](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2523)<br />2523..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 452, in test_json_list
+### Error 10, [Traceback at line 2524](https://github.com/arita37/mlmodels_store/blob/master/log_dataloader/log_dataloader.py#L2524)<br />2524..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 452, in test_json_list
 <br />    loader.compute()
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/dataloader.py", line 275, in compute
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/dataloader.py", line 275, in compute
 <br />    obj_preprocessor.compute(input_tmp)
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/model_tch/util_transformer.py", line 275, in compute
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/model_tch/util_transformer.py", line 275, in compute
 <br />    test_func = load_function(self.test_reader)
-<br />  File "https://github.com/arita37/mlmodels/tree/d5c43e974a89bacfc0e66fbd41ec7beedf38a669/mlmodels/util.py", line 688, in load_function_uri
+<br />  File "https://github.com/arita37/mlmodels/tree/3fc653a7999aa2761b089e07ab0db303a5051c0b/mlmodels/util.py", line 688, in load_function_uri
 <br />    raise NameError(f"Module {pkg} notfound, {e1}, {e2}")
 <br />NameError: Module ['sentence_transformers.readers', 'STSBenchmarkDataReader'] notfound, module 'sentence_transformers.readers' has no attribute 'STSBenchmarkDataReader', tuple index out of range
