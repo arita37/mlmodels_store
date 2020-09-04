@@ -17,7 +17,7 @@ cli-code==28.1.0
 click==7.1.2
 cliff==3.4.0
 cloudpickle==1.6.0
-cmd2==1.3.8
+cmd2==1.3.9
 cmdstanpy==0.4.0
 colorama==0.4.3
 colorlog==4.2.1
@@ -47,7 +47,7 @@ gast==0.2.2
 gdown==3.12.2
 gensim==3.8.3
 gitdb==4.0.5
-GitPython==3.1.7
+GitPython==3.1.8
 gluoncv==0.8.0
 gluonnlp==0.8.1
 gluonts==0.4.2
@@ -83,20 +83,20 @@ MarkupSafe==1.1.1
 matchzoo-py==1.1.1
 matplotlib==3.3.1
 mlflow==1.7.1
--e git+https://github.com/arita37/mlmodels@3fc653a7999aa2761b089e07ab0db303a5051c0b#egg=mlmodels
+-e git+https://github.com/arita37/mlmodels@b2d1c8f1232b50d6261a7b313ddd86297599809a#egg=mlmodels
 msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
 networkx==2.5
 nltk==3.5
 numexpr==2.7.1
-numpy==1.18.2
+numpy==1.19.1
 opt-einsum==3.3.0
 optuna==1.1.0
 pandas==0.25.3
 paramiko==2.7.2
 pbr==5.5.0
-Pillow==6.2.1
+Pillow==6.2.2
 plac==1.1.3
 plotly==4.9.0
 portalocker==2.0.0
