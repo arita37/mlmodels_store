@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/e8ed27623b3d1702165de43d885398f64d2c399e', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'e8ed27623b3d1702165de43d885398f64d2c399e', 'workflow': 'test_jupyter'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/57ee956e8a43c3caf9a12dc405f3a3c828dc0130', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '57ee956e8a43c3caf9a12dc405f3a3c828dc0130', 'workflow': 'test_jupyter'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_jupyter
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/e8ed27623b3d1702165de43d885398f64d2c399e
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/57ee956e8a43c3caf9a12dc405f3a3c828dc0130
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/e8ed27623b3d1702165de43d885398f64d2c399e
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/57ee956e8a43c3caf9a12dc405f3a3c828dc0130
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/e8ed27623b3d1702165de43d885398f64d2c399e
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/57ee956e8a43c3caf9a12dc405f3a3c828dc0130
 
  ************************************************************************************************************************
 /home/runner/work/mlmodels/mlmodels/mlmodels/example/
@@ -43,30 +43,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_r
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest.ipynb to script
 [NbConvertApp] Writing 1469 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn_titanic_randomForest.py
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'mlmodels.model_sklearn.sklearn'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest.py", line 21, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest.py", line 18, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -77,11 +59,13 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_r
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest_example2.ipynb to script
 [NbConvertApp] Writing 1847 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn_titanic_randomForest_example2.py
-Deprecaton set to False
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest_example2.py", line 22, in <module>
-    pars = json.load(open( data_path , mode='r'))
-FileNotFoundError: [Errno 2] No such file or directory: '../mlmodels/dataset/json/hyper_titanic_randomForest.json'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest_example2.py", line 18, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -104,14 +88,13 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//gluon_automl_tita
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//gluon_automl_titanic.ipynb to script
 [NbConvertApp] Writing 1434 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/gluon_automl_titanic.py
-/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/mxnet/optimizer/optimizer.py:167: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
-  Optimizer.opt_registry[name].__name__))
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//gluon_automl_titanic.py", line 27, in <module>
-    data_path= '../mlmodels/dataset/json/gluon_automl.json'
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_gluon/gluon_automl.py", line 82, in get_params
-    with open(data_path, encoding='utf-8') as config_f:
-FileNotFoundError: [Errno 2] No such file or directory: '../mlmodels/dataset/json/gluon_automl.json'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//gluon_automl_titanic.py", line 18, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -122,11 +105,13 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_titanic.
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.ipynb to script
 [NbConvertApp] Writing 1402 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_titanic.py
-Deprecaton set to False
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.py", line 21, in <module>
-    pars = json.load(open( data_path , mode='r'))
-FileNotFoundError: [Errno 2] No such file or directory: 'hyper_lightgbm_titanic.json'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.py", line 11, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -138,30 +123,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn.ipynb
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn.ipynb to script
 [NbConvertApp] Writing 1070 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'mlmodels.model_sklearn.sklearn'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn.py", line 34, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn.py", line 32, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -173,30 +140,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_s
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_svm.ipynb to script
 [NbConvertApp] Writing 1274 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn_titanic_svm.py
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'mlmodels.model_sklearn.sklearn'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_svm.py", line 20, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_svm.py", line 16, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -208,9 +157,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//tensorflow__lstm_
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.ipynb to script
 [NbConvertApp] Writing 1426 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/tensorflow__lstm_json.py
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.py", line 13, in <module>
-    print( os.getcwd())
-NameError: name 'os' is not defined
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.py", line 9, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -221,25 +173,6 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//gluon_automl.ipyn
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//gluon_automl.ipynb to script
 [NbConvertApp] Writing 1819 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/gluon_automl.py
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'mlmodels.model_sklearn.sklearn'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//gluon_automl.py", line 9, in <module>
     import autogluon as ag
@@ -273,11 +206,12 @@ Traceback (most recent call last):
     from ..model import BatchEndParam
   File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/mxnet/model.py", line 46, in <module>
     from sklearn.base import BaseEstimator
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py", line 34, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py", line 32, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -291,58 +225,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//tensorflow_1_lstm
 /home/runner/work/mlmodels/mlmodels
 {'data_path': '/home/runner/work/mlmodels/mlmodels/mlmodels/dataset/timeseries/GOOG-year.csv', 'data_type': 'pandas', 'size': [0, 0, 6], 'output_size': [0, 6]}
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'mlmodels.model_sklearn.sklearn'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_tf/1_lstm.py", line 13, in <module>
-    from sklearn.preprocessing import MinMaxScaler
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py", line 34, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow_1_lstm.py", line 47, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_tf.1_lstm notfound, Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range, tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow_1_lstm.py", line 45, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -367,11 +255,13 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_home_ret
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.ipynb to script
 [NbConvertApp] Writing 1404 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_home_retail.py
-Deprecaton set to False
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.py", line 21, in <module>
-    pars = json.load(open( data_path , mode='r'))
-FileNotFoundError: [Errno 2] No such file or directory: 'hyper_lightgbm_home_retail.json'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.py", line 11, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -395,9 +285,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.ip
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.ipynb to script
 [NbConvertApp] Writing 1613 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_glass.py
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.py", line 16, in <module>
-    print( os.getcwd())
-NameError: name 'os' is not defined
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.py", line 12, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -409,38 +302,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm.ipynb
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm.ipynb to script
 [NbConvertApp] Writing 1238 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm.py
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 781, in get_code
-  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_sklearn/model_lightgbm.py", line 319
-    else:
-       ^
-SyntaxError: invalid syntax
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm.py", line 23, in <module>
-    module        =  module_load( model_uri= model_uri)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.model_lightgbm notfound, invalid syntax (model_lightgbm.py, line 319), tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm.py", line 13, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -451,62 +318,13 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//keras-textcnn.ipy
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//keras-textcnn.ipynb to script
 [NbConvertApp] Writing 1251 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/keras-textcnn.py
-Using TensorFlow backend.
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'mlmodels.model_sklearn.sklearn'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/textcnn.py", line 31, in <module>
-    from mlmodels.dataloader import DataLoader
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 69, in <module>
-    from sklearn.model_selection import train_test_split
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py", line 34, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//keras-textcnn.py", line 35, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_keras.textcnn notfound, Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range, tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//keras-textcnn.py", line 33, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -542,9 +360,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//keras_charcnn_reu
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.ipynb to script
 [NbConvertApp] Writing 1114 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/keras_charcnn_reuters.py
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.py", line 28, in <module>
-    pars = json.load(open( config_path , mode='r'))[config_mode]
-FileNotFoundError: [Errno 2] No such file or directory: 'reuters_charcnn.json'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.py", line 12, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -552,25 +373,6 @@ FileNotFoundError: [Errno 2] No such file or directory: 'reuters_charcnn.json'
 
  ********************************************************************************************************************************************
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseries_m5.py 
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'mlmodels.model_sklearn.sklearn'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/benchmark_timeseries_m5.py", line 27, in <module>
@@ -599,11 +401,12 @@ Traceback (most recent call last):
     from ..model import BatchEndParam
   File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/mxnet/model.py", line 46, in <module>
     from sklearn.base import BaseEstimator
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py", line 34, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py", line 32, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -619,25 +422,6 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example/benchmark_timeseri
 
  ********************************************************************************************************************************************
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeseries_m5.py 
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 72, in module_load
-    module = import_module(f"mlmodels.{model_name}")
-  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'mlmodels.model_sklearn.sklearn'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 84, in module_load
-    model_name = str(Path(model_uri).parts[-2]) + "." + str(model_name)
-IndexError: tuple index out of range
-
-During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//benchmark_timeseries_m5.py", line 27, in <module>
@@ -666,11 +450,12 @@ Traceback (most recent call last):
     from ..model import BatchEndParam
   File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/mxnet/model.py", line 46, in <module>
     from sklearn.base import BaseEstimator
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py", line 34, in <module>
-    module        =  module_load( model_uri= model_uri )                           # Load file definition
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 89, in module_load
-    raise NameError(f"Module {model_name} notfound, {e1}, {e2}")
-NameError: Module model_sklearn.sklearn notfound, No module named 'mlmodels.model_sklearn.sklearn', tuple index out of range
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn.py", line 32, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -691,12 +476,13 @@ SyntaxError: invalid syntax
  ********************************************************************************************************************************************
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//arun_model.py 
 
-<module 'mlmodels' from '/home/runner/work/mlmodels/mlmodels/mlmodels/__init__.py'>
-/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/ardmn.json
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//arun_model.py", line 27, in <module>
-    pars = json.load(open(config_path , mode='r'))[config_mode]
-FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras/ardmn.json'
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//arun_model.py", line 5, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
@@ -714,9 +500,12 @@ https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//benchmark_timeser
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.py 
 
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.py", line 16, in <module>
-    print( os.getcwd())
-NameError: name 'os' is not defined
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.py", line 12, in <module>
+    from mlmodels.models import module_load
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/models.py", line 92
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 
 
 
