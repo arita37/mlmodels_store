@@ -83,20 +83,20 @@ MarkupSafe==1.1.1
 matchzoo-py==1.1.1
 matplotlib==3.3.1
 mlflow==1.7.1
--e git+https://github.com/arita37/mlmodels@b082256f6e4bc1246197e8a9a5a89f8800343b90#egg=mlmodels
+-e git+https://github.com/arita37/mlmodels@afd5cb8c78dc189cea20f9c5604b35cadde8193f#egg=mlmodels
 msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
 networkx==2.5
 nltk==3.5
 numexpr==2.7.1
-numpy==1.18.2
+numpy==1.19.1
 opt-einsum==3.3.0
 optuna==1.1.0
 pandas==0.25.3
 paramiko==2.7.2
 pbr==5.5.0
-Pillow==6.2.1
+Pillow==6.2.2
 plac==1.1.3
 plotly==4.9.0
 portalocker==2.0.0
