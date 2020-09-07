@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/57ee956e8a43c3caf9a12dc405f3a3c828dc0130', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '57ee956e8a43c3caf9a12dc405f3a3c828dc0130', 'workflow': 'test_jupyter'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/afd5cb8c78dc189cea20f9c5604b35cadde8193f', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'afd5cb8c78dc189cea20f9c5604b35cadde8193f', 'workflow': 'test_jupyter'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_jupyter
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/57ee956e8a43c3caf9a12dc405f3a3c828dc0130
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/afd5cb8c78dc189cea20f9c5604b35cadde8193f
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/57ee956e8a43c3caf9a12dc405f3a3c828dc0130
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/afd5cb8c78dc189cea20f9c5604b35cadde8193f
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/57ee956e8a43c3caf9a12dc405f3a3c828dc0130
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/afd5cb8c78dc189cea20f9c5604b35cadde8193f
 
  ************************************************************************************************************************
 /home/runner/work/mlmodels/mlmodels/mlmodels/example/
@@ -41,7 +41,7 @@
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//sklearn_titanic_randomForest.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest.ipynb to script
-[NbConvertApp] Writing 1469 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn_titanic_randomForest.py
+[NbConvertApp] Writing 1466 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/sklearn_titanic_randomForest.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//sklearn_titanic_randomForest.py", line 18, in <module>
     from mlmodels.models import module_load
@@ -75,7 +75,7 @@ IndentationError: unindent does not match any outer indentation level
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//fashion_MNIST_mlmodels.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//fashion_MNIST_mlmodels.ipynb to script
-[NbConvertApp] Writing 1945 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/fashion_MNIST_mlmodels.txt
+[NbConvertApp] Writing 1942 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/fashion_MNIST_mlmodels.txt
 python: can't open file '/home/runner/work/mlmodels/mlmodels/mlmodels/example//fashion_MNIST_mlmodels.py': [Errno 2] No such file or directory
 No replacement
 
@@ -104,7 +104,7 @@ IndentationError: unindent does not match any outer indentation level
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_titanic.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.ipynb to script
-[NbConvertApp] Writing 1402 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_titanic.py
+[NbConvertApp] Writing 1399 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_titanic.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_titanic.py", line 11, in <module>
     from mlmodels.models import module_load
@@ -155,7 +155,7 @@ IndentationError: unindent does not match any outer indentation level
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//tensorflow__lstm_json.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.ipynb to script
-[NbConvertApp] Writing 1426 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/tensorflow__lstm_json.py
+[NbConvertApp] Writing 1423 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/tensorflow__lstm_json.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//tensorflow__lstm_json.py", line 9, in <module>
     from mlmodels.models import module_load
@@ -240,7 +240,7 @@ IndentationError: unindent does not match any outer indentation level
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vision_mnist.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//vision_mnist.ipynb to script
-[NbConvertApp] Writing 7445 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/vision_mnist.txt
+[NbConvertApp] Writing 7433 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/vision_mnist.txt
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//vision_mnist.py", line 15
     !git clone https://github.com/ahmed3bbas/mlmodels.git
     ^
@@ -254,7 +254,7 @@ SyntaxError: invalid syntax
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_home_retail.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.ipynb to script
-[NbConvertApp] Writing 1404 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_home_retail.py
+[NbConvertApp] Writing 1401 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_home_retail.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_home_retail.py", line 11, in <module>
     from mlmodels.models import module_load
@@ -271,7 +271,7 @@ IndentationError: unindent does not match any outer indentation level
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//vison_fashion_MNIST.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//vison_fashion_MNIST.ipynb to script
-[NbConvertApp] Writing 1945 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/vison_fashion_MNIST.txt
+[NbConvertApp] Writing 1942 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/vison_fashion_MNIST.txt
 python: can't open file '/home/runner/work/mlmodels/mlmodels/mlmodels/example//vison_fashion_MNIST.py': [Errno 2] No such file or directory
 No replacement
 
@@ -283,7 +283,7 @@ No replacement
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm_glass.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.ipynb to script
-[NbConvertApp] Writing 1613 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_glass.py
+[NbConvertApp] Writing 1610 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm_glass.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm_glass.py", line 12, in <module>
     from mlmodels.models import module_load
@@ -300,7 +300,7 @@ IndentationError: unindent does not match any outer indentation level
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//lightgbm.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm.ipynb to script
-[NbConvertApp] Writing 1238 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm.py
+[NbConvertApp] Writing 1235 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/lightgbm.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//lightgbm.py", line 13, in <module>
     from mlmodels.models import module_load
@@ -334,7 +334,7 @@ IndentationError: unindent does not match any outer indentation level
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//mnist_mlmodels_.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//mnist_mlmodels_.ipynb to script
-[NbConvertApp] Writing 7445 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/mnist_mlmodels_.txt
+[NbConvertApp] Writing 7433 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/mnist_mlmodels_.txt
 python: can't open file '/home/runner/work/mlmodels/mlmodels/mlmodels/example//mnist_mlmodels_.py': [Errno 2] No such file or directory
 No replacement
 
@@ -358,7 +358,7 @@ No replacement
 https://github.com/arita37/mlmodels/blob/dev/mlmodels/example//keras_charcnn_reuters.ipynb 
 
 [NbConvertApp] Converting notebook /home/runner/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.ipynb to script
-[NbConvertApp] Writing 1114 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/keras_charcnn_reuters.py
+[NbConvertApp] Writing 1111 bytes to /home/runner/work/mlmodels/mlmodels/mlmodels/example/keras_charcnn_reuters.py
 Traceback (most recent call last):
   File "/home/runner/work/mlmodels/mlmodels/mlmodels/example//keras_charcnn_reuters.py", line 12, in <module>
     from mlmodels.models import module_load
