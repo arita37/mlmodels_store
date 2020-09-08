@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/afd5cb8c78dc189cea20f9c5604b35cadde8193f', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': 'afd5cb8c78dc189cea20f9c5604b35cadde8193f', 'workflow': 'test_dataloader'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/9f3b94c03ac74dbc44366c7b25b38d8acb5365d6', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '9f3b94c03ac74dbc44366c7b25b38d8acb5365d6', 'workflow': 'test_dataloader'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_dataloader
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/afd5cb8c78dc189cea20f9c5604b35cadde8193f
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/9f3b94c03ac74dbc44366c7b25b38d8acb5365d6
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/afd5cb8c78dc189cea20f9c5604b35cadde8193f
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/9f3b94c03ac74dbc44366c7b25b38d8acb5365d6
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/afd5cb8c78dc189cea20f9c5604b35cadde8193f
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/9f3b94c03ac74dbc44366c7b25b38d8acb5365d6
 
  ************************************************************************************************************************
 
@@ -62,10 +62,10 @@ local data directory. If you'd instead prefer to read directly from our public
 GCS bucket (recommended if you're running on GCP), you can instead set
 data_dir=gs://tfds-data/datasets.
 
-Dl Completed...:   0%|          | 0/4 [00:00<?, ? file/s]Dl Completed...:  25%|██▌       | 1/4 [00:00<00:00, 10.45 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 16.11 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 16.11 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00,  8.89 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00,  8.89 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.06 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.06 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.32 file/s]2020-09-08 12:07:20.493840: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2020-09-08 12:07:20.506927: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2394450000 Hz
-2020-09-08 12:07:20.507134: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x559185435880 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-09-08 12:07:20.507154: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Dl Completed...:   0%|          | 0/4 [00:00<?, ? file/s]Dl Completed...:  25%|██▌       | 1/4 [00:00<00:00, 11.97 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 20.27 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00,  8.79 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00,  8.79 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.42 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.42 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.70 file/s]2020-09-08 18:06:32.295495: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-09-08 18:06:32.309787: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095225000 Hz
+2020-09-08 18:06:32.310350: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558eced2f730 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-09-08 18:06:32.310670: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 [1mDownloading and preparing dataset mnist/3.0.1 (download: 11.06 MiB, generated: 21.00 MiB, total: 32.06 MiB) to /home/runner/tensorflow_datasets/mnist/3.0.1...[0m
 
 [1mDataset mnist downloaded and prepared to /home/runner/tensorflow_datasets/mnist/3.0.1. Subsequent calls will reuse this data.[0m
@@ -89,10 +89,10 @@ data_dir=gs://tfds-data/datasets.
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
-0it [00:00, ?it/s]  0%|          | 16384/9912422 [00:00<01:01, 161798.72it/s] 14%|█▍        | 1368064/9912422 [00:00<00:37, 229636.76it/s] 36%|███▌      | 3571712/9912422 [00:00<00:19, 326562.15it/s]9920512it [00:00, 27070172.37it/s]                           
-0it [00:00, ?it/s]32768it [00:00, 560483.47it/s]
-0it [00:00, ?it/s]  6%|▋         | 106496/1648877 [00:00<00:01, 999276.51it/s]1654784it [00:00, 12618821.24it/s]                          
-0it [00:00, ?it/s]8192it [00:00, 210308.23it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 41%|████      | 4063232/9912422 [00:00<00:00, 40597513.59it/s]9920512it [00:00, 33865183.64it/s]                             
+0it [00:00, ?it/s]32768it [00:00, 570776.37it/s]
+0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 450774.21it/s]1654784it [00:00, 11475819.02it/s]                         
+0it [00:00, ?it/s]8192it [00:00, 132789.72it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to dataset/vision/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting dataset/vision/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/vision/MNIST/raw
