@@ -90,7 +90,7 @@ mxnet==1.6.0
 networkx==2.5
 nltk==3.5
 numexpr==2.7.1
-numpy==1.19.1
+numpy==1.19.2
 opt-einsum==3.3.0
 optuna==1.1.0
 pandas==0.25.3

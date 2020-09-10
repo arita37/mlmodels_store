@@ -62,10 +62,10 @@ local data directory. If you'd instead prefer to read directly from our public
 GCS bucket (recommended if you're running on GCP), you can instead set
 data_dir=gs://tfds-data/datasets.
 
-Dl Completed...:   0%|          | 0/4 [00:00<?, ? file/s]Dl Completed...:  25%|██▌       | 1/4 [00:00<00:00, 13.00 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 14.17 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 14.17 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00,  8.47 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00,  8.47 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.63 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.63 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.81 file/s]2020-09-10 12:07:18.910230: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
-2020-09-10 12:07:18.923733: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095074999 Hz
-2020-09-10 12:07:18.923956: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5563b1b67490 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-09-10 12:07:18.923974: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Dl Completed...:   0%|          | 0/4 [00:00<?, ? file/s]Dl Completed...:  25%|██▌       | 1/4 [00:00<00:00, 10.51 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 13.68 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 13.68 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00, 13.68 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  8.05 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  8.05 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.30 file/s]2020-09-10 18:07:15.376869: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-09-10 18:07:15.390243: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095080000 Hz
+2020-09-10 18:07:15.390868: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a16a000620 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-09-10 18:07:15.390924: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 [1mDownloading and preparing dataset mnist/3.0.1 (download: 11.06 MiB, generated: 21.00 MiB, total: 32.06 MiB) to /home/runner/tensorflow_datasets/mnist/3.0.1...[0m
 
 [1mDataset mnist downloaded and prepared to /home/runner/tensorflow_datasets/mnist/3.0.1. Subsequent calls will reuse this data.[0m
@@ -89,10 +89,10 @@ data_dir=gs://tfds-data/datasets.
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
-0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 38%|███▊      | 3727360/9912422 [00:00<00:00, 37229432.09it/s]9920512it [00:00, 35982392.74it/s]                             
-0it [00:00, ?it/s]32768it [00:00, 624225.97it/s]
-0it [00:00, ?it/s]  3%|▎         | 49152/1648877 [00:00<00:03, 469007.70it/s]1654784it [00:00, 11913508.60it/s]                         
-0it [00:00, ?it/s]8192it [00:00, 226239.94it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz
+0it [00:00, ?it/s]  0%|          | 16384/9912422 [00:00<01:19, 125005.41it/s] 59%|█████▉    | 5832704/9912422 [00:00<00:22, 178414.81it/s]9920512it [00:00, 37835444.11it/s]                           
+0it [00:00, ?it/s]32768it [00:00, 666289.92it/s]
+0it [00:00, ?it/s]  1%|          | 16384/1648877 [00:00<00:10, 153547.98it/s]1654784it [00:00, 10713055.32it/s]                         
+0it [00:00, ?it/s]8192it [00:00, 195345.66it/s]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz
 Extracting dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to dataset/vision/MNIST/raw/train-labels-idx1-ubyte.gz
 Extracting dataset/vision/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/vision/MNIST/raw
