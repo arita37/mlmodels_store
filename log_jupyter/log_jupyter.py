@@ -68,6 +68,12 @@ Traceback (most recent call last):
     else :
          ^
 IndentationError: unindent does not match any outer indentation level
+Task exception was never retrieved
+future: <Task finished coro=<InProcConnector.connect() done, defined at /opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/distributed/comm/inproc.py:285> exception=OSError("no endpoint for inproc address '10.1.0.4/3484/1'",)>
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/distributed/comm/inproc.py", line 288, in connect
+    raise IOError("no endpoint for inproc address %r" % (address,))
+OSError: no endpoint for inproc address '10.1.0.4/3484/1'
 
 
 
