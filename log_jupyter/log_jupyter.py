@@ -9,17 +9,17 @@
 
  ********************************************************************************************************************************************
 
- ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/9f3b94c03ac74dbc44366c7b25b38d8acb5365d6', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '9f3b94c03ac74dbc44366c7b25b38d8acb5365d6', 'workflow': 'test_jupyter'}
+ ******** TAG ::  {'github_repo_url': 'https://github.com/arita37/mlmodels/tree/93a93a77223ff27cba39886e979e8d7be4c12485', 'url_branch_file': 'https://github.com/arita37/mlmodels/blob/dev/', 'repo': 'arita37/mlmodels', 'branch': 'dev', 'sha': '93a93a77223ff27cba39886e979e8d7be4c12485', 'workflow': 'test_jupyter'}
 
  ******** GITHUB_WOKFLOW : https://github.com/arita37/mlmodels/actions?query=workflow%3Atest_jupyter
 
  ******** GITHUB_REPO_BRANCH : https://github.com/arita37/mlmodels/tree/dev/
 
- ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/9f3b94c03ac74dbc44366c7b25b38d8acb5365d6
+ ******** GITHUB_REPO_URL : https://github.com/arita37/mlmodels/tree/93a93a77223ff27cba39886e979e8d7be4c12485
 
- ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/9f3b94c03ac74dbc44366c7b25b38d8acb5365d6
+ ******** GITHUB_COMMIT_URL : https://github.com/arita37/mlmodels/commit/93a93a77223ff27cba39886e979e8d7be4c12485
 
- ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/9f3b94c03ac74dbc44366c7b25b38d8acb5365d6
+ ******** Click here for Online DEBUGGER : https://gitpod.io/#https://github.com/arita37/mlmodels/tree/93a93a77223ff27cba39886e979e8d7be4c12485
 
  ************************************************************************************************************************
 /home/runner/work/mlmodels/mlmodels/mlmodels/example/
