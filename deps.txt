@@ -8,13 +8,12 @@ backcall==0.2.0
 bcrypt==3.2.0
 bleach==3.2.1
 blis==0.4.1
-boto==2.49.0
 boto3==1.9.187
 botocore==1.12.253
 catalogue==1.0.0
 catboost==0.24.1
 certifi==2020.6.20
-cffi==1.14.2
+cffi==1.14.3
 chardet==3.0.4
 cli-code==28.1.0
 click==7.1.2
@@ -26,12 +25,12 @@ colorama==0.4.3
 colorlog==4.2.1
 ConfigSpace==0.4.10
 convertdate==2.2.2
-cryptography==3.1
+cryptography==3.1.1
 cycler==0.10.0
 cymem==2.0.3
 Cython==0.29.21
 dask==2.6.0
-databricks-cli==0.11.0
+databricks-cli==0.12.0
 dataclasses==0.7
 decorator==4.4.2
 deepctr==0.8.1
@@ -66,7 +65,7 @@ HeapDict==1.0.1
 holidays==0.9.12
 hyperopt==0.1.2
 idna==2.10
-importlib-metadata==1.7.0
+importlib-metadata==2.0.0
 ipykernel==5.3.4
 ipython==7.14.0
 ipython-genutils==0.2.0
@@ -101,7 +100,7 @@ msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
 nbclient==0.5.0
-nbconvert==6.0.3
+nbconvert==6.0.6
 nbformat==5.0.7
 nest-asyncio==1.4.0
 networkx==2.5
@@ -126,7 +125,7 @@ portalocker==2.0.0
 preshed==3.0.2
 prettytable==0.7.2
 prometheus-client==0.8.0
-prometheus-flask-exporter==0.17.0
+prometheus-flask-exporter==0.18.0
 promise==2.3
 prompt-toolkit==3.0.7
 protobuf==3.13.0
@@ -166,7 +165,7 @@ sentencepiece==0.1.91
 setuptools-git==1.2
 simplejson==3.17.2
 six==1.15.0
-smart-open==2.1.1
+smart-open==2.2.0
 smmap==3.0.4
 sortedcontainers==2.2.2
 spacy==2.3.2
@@ -176,6 +175,7 @@ srsly==1.0.2
 stevedore==3.2.2
 tabulate==0.8.7
 tblib==1.7.0
+tenacity==6.2.0
 tensorboard==1.15.0
 tensorboardX==2.1
 tensorflow==1.15.2
@@ -184,11 +184,11 @@ tensorflow-estimator==1.15.1
 tensorflow-metadata==0.24.0
 tensorflow-probability==0.7.0
 termcolor==1.1.0
-terminado==0.9.0
+terminado==0.9.1
 testpath==0.4.4
 thinc==7.4.1
 toml==0.10.1
-toolz==0.10.0
+toolz==0.11.1
 torch==1.2.0
 torchtext==0.7.0
 torchvision==0.4.0
@@ -207,4 +207,4 @@ websocket-client==0.57.0
 Werkzeug==1.0.1
 wrapt==1.12.1
 zict==2.0.0
-zipp==3.1.0
+zipp==3.2.0
