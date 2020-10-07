@@ -8,7 +8,7 @@ blis==0.4.1
 boto3==1.9.187
 botocore==1.12.253
 catalogue==1.0.0
-catboost==0.24.1
+catboost==0.24.2
 certifi==2020.6.20
 cffi==1.14.3
 chardet==3.0.4
