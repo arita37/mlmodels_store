@@ -27,7 +27,7 @@ cycler==0.10.0
 cymem==2.0.3
 Cython==0.29.21
 dask==2.6.0
-databricks-cli==0.12.1
+databricks-cli==0.12.2
 dataclasses==0.7
 decorator==4.4.2
 deepctr==0.8.2
