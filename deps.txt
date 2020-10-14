@@ -132,7 +132,7 @@ scikit-learn==0.21.2
 scikit-optimize==0.8.1
 scipy==1.5.2
 sentence-transformers==0.2.4
-sentencepiece==0.1.91
+sentencepiece==0.1.93
 setuptools-git==1.2
 simplejson==3.17.2
 six==1.15.0
