@@ -62,10 +62,10 @@ local data directory. If you'd instead prefer to read directly from our public
 GCS bucket (recommended if you're running on GCP), you can instead set
 data_dir=gs://tfds-data/datasets.
 
-Dl Completed...:   0%|          | 0/4 [00:00<?, ? file/s]Dl Completed...:  25%|██▌       | 1/4 [00:00<00:00, 15.27 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 26.99 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00, 19.80 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00, 19.80 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  4.62 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  4.62 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  5.29 file/s]2020-10-18 06:07:15.320324: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
-2020-10-18 06:07:15.329165: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095225000 Hz
-2020-10-18 06:07:15.329379: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555b2bec4ad0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-10-18 06:07:15.329395: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Dl Completed...:   0%|          | 0/4 [00:00<?, ? file/s]Dl Completed...:  25%|██▌       | 1/4 [00:00<00:00, 13.01 file/s]Dl Completed...:  50%|█████     | 2/4 [00:00<00:00, 25.70 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00, 18.91 file/s]Dl Completed...:  75%|███████▌  | 3/4 [00:00<00:00, 18.91 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.62 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  6.62 file/s]Dl Completed...: 100%|██████████| 4/4 [00:00<00:00,  7.41 file/s]2020-10-18 12:06:35.001685: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-18 12:06:35.010158: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095074999 Hz
+2020-10-18 12:06:35.010418: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c3944be8c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-10-18 12:06:35.010440: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 [1mDownloading and preparing dataset mnist/3.0.1 (download: 11.06 MiB, generated: 21.00 MiB, total: 32.06 MiB) to /home/runner/tensorflow_datasets/mnist/3.0.1...[0m
 
 [1mDataset mnist downloaded and prepared to /home/runner/tensorflow_datasets/mnist/3.0.1. Subsequent calls will reuse this data.[0m
@@ -89,12 +89,12 @@ data_dir=gs://tfds-data/datasets.
 
   dataset :  <class 'torchvision.datasets.mnist.MNIST'> 
 
-0it [00:00, ?it/s]  0%|          | 0/9912422 [00:00<?, ?it/s] 38%|███▊      | 3809280/9912422 [00:00<00:00, 37946092.98it/s]
+0it [00:00, ?it/s]  0%|          | 16384/9912422 [00:00<01:09, 141615.48it/s] 65%|██████▌   | 6488064/9912422 [00:00<00:16, 202109.07it/s]
 0it [00:00, ?it/s][A
 
 0it [00:00, ?it/s][A[A
 
-  1%|▏         | 24576/1648877 [00:00<00:06, 245648.37it/s][A[A
+  1%|          | 16384/1648877 [00:00<00:10, 160728.89it/s][A[A
 
 
 0it [00:00, ?it/s][A[A[ADownloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/vision/MNIST/raw/train-images-idx3-ubyte.gz
@@ -121,8 +121,8 @@ Done!
  #################### NumpyDataset 
 
   NumpyDataset mlmodels/preprocess/generic:NumpyDataset {'to_image': True, 'transform': {'uri': 'mlmodels.preprocess.image:torch_transform_generic', 'pass_data_pars': False, 'arg': {'fixed_size': 256}}, 'numpy_loader_args': {}} 
-32768it [00:00, 73444.37it/s]
-1654784it [00:00, 4254872.50it/s]                          
-8192it [00:00, 47899.42it/s]
+32768it [00:00, 73446.57it/s]
+1654784it [00:00, 4294573.98it/s]                          
+8192it [00:00, 46548.45it/s]
 Dataset File path :  /home/runner/work/mlmodels/mlmodels/mlmodels/dataset/vision/train/mnist.npz
-9920512it [00:01, 8292956.36it/s]                              
+9920512it [00:01, 8803978.13it/s]                            
