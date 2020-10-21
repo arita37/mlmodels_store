@@ -25,9 +25,9 @@
 
   ############Check model ################################ 
 
-  ['model_keras.armdn', 'model_keras.namentity_crm_bilstm', 'model_keras.textcnn', 'model_keras.charcnn', 'model_keras.charcnn_zhang', 'model_keras.Autokeras', 'model_keras.deepctr', 'model_tch.matchZoo', 'model_tch.textcnn', 'model_tch.transformer_sentence', 'model_tch.torchhub', 'model_gluon.gluonts_model', 'model_gluon.gluonts_model_old', 'model_gluon.gluon_automl', 'model_gluon.fb_prophet', 'model_dev.temporal_fusion_google', 'model_tf.1_lstm'] 
+  ['model_keras.namentity_crm_bilstm', 'model_keras.armdn', 'model_keras.Autokeras', 'model_keras.charcnn', 'model_keras.deepctr', 'model_keras.charcnn_zhang', 'model_keras.textcnn', 'model_gluon.fb_prophet', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_dev.temporal_fusion_google', 'model_tch.torchhub', 'model_tch.matchZoo', 'model_tch.transformer_sentence', 'model_tch.textcnn', 'model_tf.1_lstm'] 
 
-  Used ['model_keras.armdn', 'model_keras.namentity_crm_bilstm', 'model_keras.textcnn', 'model_keras.charcnn', 'model_keras.charcnn_zhang', 'model_keras.Autokeras', 'model_keras.deepctr', 'model_tch.matchZoo', 'model_tch.textcnn', 'model_tch.transformer_sentence', 'model_tch.torchhub', 'model_gluon.gluonts_model', 'model_gluon.gluonts_model_old', 'model_gluon.gluon_automl', 'model_gluon.fb_prophet', 'model_dev.temporal_fusion_google', 'model_tf.1_lstm'] 
+  Used ['model_keras.namentity_crm_bilstm', 'model_keras.armdn', 'model_keras.Autokeras', 'model_keras.charcnn', 'model_keras.deepctr', 'model_keras.charcnn_zhang', 'model_keras.textcnn', 'model_gluon.fb_prophet', 'model_gluon.gluon_automl', 'model_gluon.gluonts_model_old', 'model_gluon.gluonts_model', 'model_dev.temporal_fusion_google', 'model_tch.torchhub', 'model_tch.matchZoo', 'model_tch.transformer_sentence', 'model_tch.textcnn', 'model_tf.1_lstm'] 
 
 
 
@@ -35,15 +35,15 @@
 
  ********************************************************************************************************************************************
 
-  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py 
+  python /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py 
 Using TensorFlow backend.
 Traceback (most recent call last):
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//armdn.py", line 35, in <module>
-    from mlmodels.data import (download_data, import_data)
-  File "/home/runner/work/mlmodels/mlmodels/mlmodels/data.py", line 126
-    """                                
-      ^
-SyntaxError: invalid syntax
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/model_keras//namentity_crm_bilstm.py", line 32, in <module>
+    from mlmodels.dataloader import DataLoader
+  File "/home/runner/work/mlmodels/mlmodels/mlmodels/dataloader.py", line 318
+    else :
+         ^
+IndentationError: unindent does not match any outer indentation level
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.6.12/x64/bin/ml_test", line 11, in <module>
     load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
