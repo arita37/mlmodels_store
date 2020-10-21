@@ -2,12 +2,12 @@
 
 
 ### Error 1, [Traceback at line 40](https://github.com/arita37/mlmodels_store/blob/master/log_testall/log_testall.py#L40)<br />40..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/model_keras//armdn.py", line 35, in <module>
-<br />    from mlmodels.data import (download_data, import_data)
-<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/data.py", line 126
-<br />    """                                
-<br />      ^
-<br />SyntaxError: invalid syntax
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/model_keras//namentity_crm_bilstm.py", line 32, in <module>
+<br />    from mlmodels.dataloader import DataLoader
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/dataloader.py", line 318
+<br />    else :
+<br />         ^
+<br />IndentationError: unindent does not match any outer indentation level
 
 
 
