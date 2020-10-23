@@ -13,7 +13,7 @@
 
  #################### {'uri': 'mlmodels.util:log', 'args': ['x1', 'passed'], 'kw_args': {}} 
 
-  <function log at 0x7fd7e05d5158> 
+  <function log at 0x7fef6dd220d0> 
 
   x1 passed 
 
@@ -23,15 +23,15 @@
 
  #################### {'uri': 'mlmodels.util:load_function_uri', 'args': [], 'kw_args': {'uri_name': 'mlmodels.util:log'}} 
 
-  <function load_function_uri at 0x7fd7e05d9a60> 
+  <function load_function_uri at 0x7fef6dd269d8> 
 
-  <function log at 0x7fd7e05d5158> 
+  <function log at 0x7fef6dd220d0> 
 
   
 
  #################### {'uri': 'mlmodels.util:os_package_root_path', 'args': [], 'kw_args': {}} 
 
-  <function os_package_root_path at 0x7fd7e05d52f0> 
+  <function os_package_root_path at 0x7fef6dd22268> 
 
   /home/runner/work/mlmodels/mlmodels/mlmodels/ 
 
@@ -59,23 +59,19 @@
 
  #################### {'uri': 'mlmodels.models:module_load', 'args': ['model_tch.torchhub.py'], 'kw_args': {}} 
 
-  <function module_load at 0x7fd7a37a8f28> 
-
-  <module 'mlmodels.model_tch.torchhub' from '/home/runner/work/mlmodels/mlmodels/mlmodels/model_tch/torchhub.py'> 
+  Module ['mlmodels.models', 'module_load'] notfound, unindent does not match any outer indentation level (models.py, line 92), tuple index out of range {'uri': 'mlmodels.models:module_load', 'args': ['model_tch.torchhub.py'], 'kw_args': {}} 
 
   
 
  #################### {'uri': 'mlmodels.models:module_load_full', 'args': ['model_tch.textcnn.py', {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, {'data_info': {'dataset': 'mlmodels/dataset/text/imdb', 'pass_data_pars': False, 'train': True, 'maxlen': 40, 'max_features': 5}, 'preprocessors': [{'name': 'loader', 'uri': 'mlmodels.preprocess.generic:NumpyDataset', 'args': {'numpy_loader_args': {'allow_pickle': True}, 'encoding': "'ISO-8859-1'"}}, {'name': 'imdb_process', 'uri': 'mlmodels.preprocess.text_keras:IMDBDataset', 'args': {'num_words': 5}}]}, {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}], 'kw_args': {}} 
 
-  <function module_load_full at 0x7fd757c7e2f0> 
-
-  Module model_tch.textcnn notfound, libtorch_cpu.so: cannot open shared object file: No such file or directory, tuple index out of range {'uri': 'mlmodels.models:module_load_full', 'args': ['model_tch.textcnn.py', {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, {'data_info': {'dataset': 'mlmodels/dataset/text/imdb', 'pass_data_pars': False, 'train': True, 'maxlen': 40, 'max_features': 5}, 'preprocessors': [{'name': 'loader', 'uri': 'mlmodels.preprocess.generic:NumpyDataset', 'args': {'numpy_loader_args': {'allow_pickle': True}, 'encoding': "'ISO-8859-1'"}}, {'name': 'imdb_process', 'uri': 'mlmodels.preprocess.text_keras:IMDBDataset', 'args': {'num_words': 5}}]}, {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}], 'kw_args': {}} 
+  Module ['mlmodels.models', 'module_load_full'] notfound, unindent does not match any outer indentation level (models.py, line 92), tuple index out of range {'uri': 'mlmodels.models:module_load_full', 'args': ['model_tch.textcnn.py', {'model_uri': 'model_keras.textcnn.py', 'maxlen': 40, 'max_features': 5, 'embedding_dims': 50}, {'data_info': {'dataset': 'mlmodels/dataset/text/imdb', 'pass_data_pars': False, 'train': True, 'maxlen': 40, 'max_features': 5}, 'preprocessors': [{'name': 'loader', 'uri': 'mlmodels.preprocess.generic:NumpyDataset', 'args': {'numpy_loader_args': {'allow_pickle': True}, 'encoding': "'ISO-8859-1'"}}, {'name': 'imdb_process', 'uri': 'mlmodels.preprocess.text_keras:IMDBDataset', 'args': {'num_words': 5}}]}, {'engine': 'adam', 'loss': 'binary_crossentropy', 'metrics': ['accuracy'], 'batch_size': 1000, 'epochs': 1}], 'kw_args': {}} 
 
   
 
  #################### {'uri': 'mlmodels.util:path_norm', 'args': ['model_keras.charcnn.py'], 'kw_args': {}} 
 
-  <function path_norm at 0x7fd7e05d5840> 
+  <function path_norm at 0x7fef6dd227b8> 
 
   /home/runner/work/mlmodels/mlmodels/mlmodels/model_keras.charcnn.py 
 
@@ -83,6 +79,6 @@
 
  #################### {'uri': 'mlmodels.util:path_norm_dict', 'args': [{'out_pars': {'checkpointdir': 'ztest/model_tch/MATCHZOO/BERT/checkpoints/', 'path': 'ztest/model_tch/MATCHZOO/BERT/'}}], 'kw_args': {}} 
 
-  <function path_norm_dict at 0x7fd7e05d58c8> 
+  <function path_norm_dict at 0x7fef6dd22840> 
 
   {'out_pars': {'checkpointdir': 'ztest/model_tch/MATCHZOO/BERT/checkpoints/', 'path': 'ztest/model_tch/MATCHZOO/BERT/'}} 
