@@ -95,7 +95,7 @@ matchzoo-py==1.1.1
 matplotlib==3.3.2
 mistune==0.8.4
 mlflow==1.7.1
--e git+https://github.com/arita37/mlmodels@cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b#egg=mlmodels
+-e git+https://github.com/arita37/mlmodels@4cdc002cba85d4437aab96db0de9f52c658a62a5#egg=mlmodels
 msgpack==1.0.0
 murmurhash==1.0.2
 mxnet==1.6.0
