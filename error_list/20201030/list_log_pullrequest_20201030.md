@@ -1,7 +1,7 @@
-## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-30-06-18_4cdc002cba85d4437aab96db0de9f52c658a62a5.py
+## Original File URL: https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-08-18-23_cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b.py
 
 
-### Error 1, [Traceback at line 228](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-30-06-18_4cdc002cba85d4437aab96db0de9f52c658a62a5.py#L228)<br />228..Traceback (most recent call last):
+### Error 1, [Traceback at line 182](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-08-18-23_cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b.py#L182)<br />182..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/bin/ml_optim", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_optim')()
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/pkg_resources/__init__.py", line 490, in load_entry_point
@@ -12,49 +12,40 @@
 <br />    return self.resolve()
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2451, in resolve
 <br />    module = __import__(self.module_name, fromlist=['__name__'], level=0)
-<br />  File "https://github.com/arita37/mlmodels/tree/4cdc002cba85d4437aab96db0de9f52c658a62a5/mlmodels/optim.py", line 32, in <module>
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/optim.py", line 32, in <module>
 <br />    from mlmodels.models import model_create, module_load
-<br />  File "https://github.com/arita37/mlmodels/tree/4cdc002cba85d4437aab96db0de9f52c658a62a5/mlmodels/models.py", line 92
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/models.py", line 92
 <br />    else :
 <br />         ^
 <br />IndentationError: unindent does not match any outer indentation level
 
 
 
-### Error 2, [Traceback at line 263](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-30-06-18_4cdc002cba85d4437aab96db0de9f52c658a62a5.py#L263)<br />263..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/4cdc002cba85d4437aab96db0de9f52c658a62a5/mlmodels/optim.py", line 32, in <module>
+### Error 2, [Traceback at line 219](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-08-18-23_cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b.py#L219)<br />219..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/optim.py", line 32, in <module>
 <br />    from mlmodels.models import model_create, module_load
-<br />  File "https://github.com/arita37/mlmodels/tree/4cdc002cba85d4437aab96db0de9f52c658a62a5/mlmodels/models.py", line 92
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/models.py", line 92
 <br />    else :
 <br />         ^
 <br />IndentationError: unindent does not match any outer indentation level
 
 
 
-### Error 3, [Traceback at line 275](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-30-06-18_4cdc002cba85d4437aab96db0de9f52c658a62a5.py#L275)<br />275..Traceback (most recent call last):
-<br />  File "https://github.com/arita37/mlmodels/tree/4cdc002cba85d4437aab96db0de9f52c658a62a5/mlmodels/model_keras/textcnn.py", line 31, in <module>
+### Error 3, [Traceback at line 231](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-08-18-23_cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b.py#L231)<br />231..Traceback (most recent call last):
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/model_keras/textcnn.py", line 31, in <module>
 <br />    from mlmodels.dataloader import DataLoader
-<br />  File "https://github.com/arita37/mlmodels/tree/4cdc002cba85d4437aab96db0de9f52c658a62a5/mlmodels/dataloader.py", line 318
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/dataloader.py", line 318
 <br />    else :
 <br />         ^
 <br />IndentationError: unindent does not match any outer indentation level
 
 
 
-### Error 4, [Traceback at line 282](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-30-06-18_4cdc002cba85d4437aab96db0de9f52c658a62a5.py#L282)<br />282..Traceback (most recent call last):
+### Error 4, [Traceback at line 238](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-08-18-23_cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b.py#L238)<br />238..Traceback (most recent call last):
 <br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/bin/ml_test", line 11, in <module>
 <br />    load_entry_point('mlmodels', 'console_scripts', 'ml_test')()
-<br />  File "https://github.com/arita37/mlmodels/tree/4cdc002cba85d4437aab96db0de9f52c658a62a5/mlmodels/ztest.py", line 655, in main
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/ztest.py", line 655, in main
 <br />    globals()[arg.do](arg)
-<br />  File "https://github.com/arita37/mlmodels/tree/4cdc002cba85d4437aab96db0de9f52c658a62a5/mlmodels/ztest.py", line 424, in test_pullrequest
+<br />  File "https://github.com/arita37/mlmodels/tree/cda74d00ddd7567d2de9bfc8ff05b7b6ca649e4b/mlmodels/ztest.py", line 424, in test_pullrequest
 <br />    raise Exception(f"Unknown dataset type", x)
 <br />Exception: ('Unknown dataset type', 'IndentationError: unindent does not match any outer indentation level\n')
-<br />Task exception was never retrieved
-<br />future: <Task finished coro=<InProcConnector.connect() done, defined at /opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/distributed/comm/inproc.py:285> exception=OSError("no endpoint for inproc address '10.1.0.4/3207/1'",)>
-
-
-
-### Error 5, [Traceback at line 292](https://github.com/arita37/mlmodels_store/blob/master/log_pullrequest/log_pr_2020-10-30-06-18_4cdc002cba85d4437aab96db0de9f52c658a62a5.py#L292)<br />292..Traceback (most recent call last):
-<br />  File "/opt/hostedtoolcache/Python/3.6.12/x64/lib/python3.6/site-packages/distributed/comm/inproc.py", line 288, in connect
-<br />    raise IOError("no endpoint for inproc address %r" % (address,))
-<br />OSError: no endpoint for inproc address '10.1.0.4/3207/1'
