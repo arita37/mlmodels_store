@@ -1,7 +1,7 @@
 absl-py==0.11.0
 alembic==1.4.3
 astor==0.8.1
-attrs==20.2.0
+attrs==20.3.0
 autogluon==0.0.5
 bcrypt==3.2.0
 blis==0.4.1
